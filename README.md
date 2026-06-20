@@ -1,7 +1,7 @@
 # Backward-Facing
 # Название проекта (заголовок H1)
-# Hi there, I'm [Daniil](https://daniilshat.ru/) ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif)
-### Computer science student, IT news writer from Russia 🇷🇺
+# Hi there, I'm [Николай] ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif)
+### Computer from Russia 🇷🇺
 Краткое описание проекта — что это и какую проблему решает. Можно добавить краткое объяснение мотивации создания и отличий от аналогов, если они есть. [8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[2](https://blog.skillfactory.ru/readme-md-github/)[5](https://doka.guide/recipes/github-add-readme/)
 
 ## Описание
