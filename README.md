@@ -45,8 +45,9 @@ decomposePar -force
 `````
 
 ### Запусть расчет на десяти ядрах (в файле decomposeParDict - numberOfSubdomains 10; указать нужное число ядер и запустить decomposePar -force):
+#### Здесь "-np 10" задаёт 10 ядер для расчета; замените foamRun/icoFoam на нужный солвер.
 `````
-mpirun -np 10 foamRun -parallel                //Здесь -np 10 задаёт 10 процессора; замените foamRun/icoFoam на нужный солвер.
+mpirun -np 10 foamRun -parallel
 `````
 ### Собрать папки временных шагов из "параллельных"(... processor9) папок:
 `````
