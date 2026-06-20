@@ -68,6 +68,8 @@ foamListTimes -rm
 ### Постпроцессинг:
 `````
 postProcess -list
+`````
+`````
 postProcess -func "components(U)"
 `````
 ### Замечание:
