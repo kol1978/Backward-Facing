@@ -1,0 +1,156 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      functions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#includeFunc fieldAverage(U, p, prime2Mean = yes)
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//#include "cutPlane"
+#include "streamlines"
+//#include "forceCoeffs"
+
+forces
+{
+    type                forces;
+    libs                ("libforces.so");
+    writeControl        runTime;//timeStep;
+    writeInterval       0.5;
+    patches             (upperWall);
+    rho                 rhoInf;
+    log                 true;
+    rhoInf              1;
+    CofR                (0.0 0.0 0.0);
+}
+
+// ************************************************************************* //
+// ************************************************************************* streamlinesLine//
+//#includeFunc streamlinesLine
+//(name=streamlines, start=(-0.0205 0.001 0.00001), end=(-0.0205 0.0251 0.00001), nPoints=1000, fields=(p k U)) //patch=inlet ???
+//(name=streamlines, start=(-0.0205 0.001 0.00001), end=(-0.0205 0.0251 0.00001), nPoints=100, fields=(p k U), sampleScheme=cell, trackForward=true, maxDistance=0.29, tolerance=1e-6, axis=distance) //работает!!!
+
+/*
+#includeFunc streamlinesLine
+{
+    name=streamlines, //name=streamlines — имя набора линий тока (используется для именования выходной директории).
+    start=(-0.0205 0.001 0.00001), //start=(-0.0205 0.001 0.00001) — координаты начальной точки линии (вектор в формате (x y z)).
+    end=(-0.0205 0.0251 0.00001), //end=(-0.0205 0.0251 0.00001) — координаты конечной точки линии.
+    nPoints=1000, //nPoints=1000 — количество точек, равномерно распределённых вдоль линии.
+    fields=(p k U), //fields=(p k U) — список полей, значения которых будут записаны в каждой точке линии:p — давление;k — турбулентная кинетическая энергия;U — вектор скорости.
+    sampleScheme=uniform, //sampleScheme — схема выборки точек вдоль линии:uniform (по умолчанию) — равномерное распределение точек;distance — выборка по расстоянию;cell — выборка в центрах ячеек.
+    trackForward=true, //trackForward — направление отслеживания:true (по умолчанию) — вперёд по потоку;false — назад по потоку.
+    maxDistance=0.29, //maxDistance — максимальное расстояние отслеживания (в метрах), например maxDistance=1.0.
+    tolerance=1e-6,  //tolerance — допуск сходимости для интегрирования (например, tolerance=1e-6).
+    interpolate=true, //interpolate — интерполяция значений в точках линии:rue — использовать интерполяцию (по умолчанию);false — брать значения из ближайших ячеек.
+    writeFormat=vtk, //writeFormat — формат вывода данных:vtk (по умолчанию) — стандартный формат для ParaView;raw — простой текстовый формат. bad format specifier 'vtk', using 'ascii'
+    axis=distance, //axis — независимая переменная для графиков:x, y, z — соответствующая координата;xyz — все три координаты;distance (по умолчанию) — расстояние от начальной точки.
+    outputControl=timeStep, //outputControl — управление выводом:timeStep — вывод на каждом шаге по времени;adjustableRunTime — вывод через заданный интервал времени;runTime — вывод в заданные моменты времени.
+    outputInterval=1, //outputInterval — интервал вывода (например, outputInterval=10 для вывода каждые 10 шагов).
+    log=true //log — запись информации в лог:true — включать логирование;false (по умолчанию) — не логировать.
+}
+/*
+writeSets — записывать наборы данных (true/false).
+
+setFormat — формат записи наборов: xmgr — для Grace/XMGR;gnuplot — для Gnuplot;jplot — для JPlot;raw — сырой формат.
+
+region — область расчёта, если используется мультирегиональная постановка (например, region=fluid).
+
+cellValueSource — источник значений для ячеек:none — не использовать;internal — внутренние ячейки;all — все ячейки (включая граничные).
+
+maxSteps=2000,  //maxSteps — максимальное число шагов интегрирования, например maxSteps=1000.
+ * */
+/*patch=inlet,
+(
+    name=streamlines,
+    start=(-0.0205 0.001 0.00001),
+    end=(-0.0205 0.0251 0.00001),
+    nPoints=10,
+    fields=(p k U)
+)
+*/
+/*
+    start=(-0.0205 0.001 0.00001),
+    end=(-0.0205 0.0251 0.00001),
+ **/
+/*
+wallBoundedStreamLine1
+{
+        type            wallBoundedStreamLine;
+        libs ("libfieldFunctionObjects.so");
+        ...
+        setFormat       vtk;
+        U               UNear;
+        trackForward    yes;
+        fields
+        (
+            UNear
+            p
+        );
+        lifeTime        10000;
+        trackLength     1e-3;
+        nSubCycle       5;
+        cloudName       particleTracks;
+        seedSampleSet   patchSeed;
+        patchSeedCoeffs
+        {
+            type        patchSeed;
+            patches     (wall);
+            axis        x;
+            maxPoints   20000;
+        }
+}
+*/
+/*
+ streamLine1 {
+    // Обязательные записи (неизменяемые)
+    type streamLine;
+    libs (fieldFunctionObjects);
+
+    // Обязательные записи во время выполнения
+    U <fieldTrack>;
+    fields (<fieldTrack> <field1> ... <fieldN>);
+    setFormat vtk;
+    direction bidirectional;
+    lifeTime 10000;
+    cloud particleTracks;
+    seedSampleSet {
+        type uniform;
+        axis x;
+        start (-0.0205 0.0001 0.0001);
+        end (-0.0205 0.0005 0.0001);
+        nPoints 100;
+    }
+
+    // Опциональные записи (изменяются во время выполнения)
+    bounds (0.2 -10 -10)(0.22 10 10);
+    trackLength 1e-3;
+    nSubCycle 1;
+    interpolationScheme cellPoint;
+
+    // Устаревшие записи
+    trackForward true;
+
+    // Наследуемые записи
+    region region0;
+    enabled true;
+    log true;
+    timeStart 0;
+    timeEnd 1000;
+    executeControl timeStep;
+    executeInterval 1;
+    writeControl timeStep;
+    writeInterval 1;
+}
+
+ */
