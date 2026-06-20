@@ -97,9 +97,9 @@ int main(int argc, char *argv[])
 * **Визуальные элементы** — изображения, GIF-анимации, показывающие результат работы проекта, если это уместно. [9](https://dzen.ru/a/Xxwbytrl6xWQHLXb)[2](https://blog.skillfactory.ru/readme-md-github/)
 * **Бейджи (badges)** — маленькие значки, отображающие статус сборки, версию, покрытие тестами и другие метрики. Их можно сгенерировать с помощью сервисов вроде Shields.io. [8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[11](https://skillbox.ru/media/code/kak-novichku-oformit-profil-na-github/)
 
-## Особенности оформления
+## Особенности оформления Start.png
 ![Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.](/Backward-Facing/bfsw-geom.png)
-
+![Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.](/Backward-Facing/Start.png)
 * Для заголовков используйте решётки `#` — количество решёток определяет уровень заголовка (от H1 до H6). В файле должен быть только один H1 (он уже занят названием проекта), далее можно использовать H2, H3 и т. д.. [6](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)[10](https://gitverse.ru/docs/collaborative/repositories/reference/markup-guide)[8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)
 * Код выделяйте тремя грависами (`````) в начале и в конце блока, можно указать язык программирования после первых трёх символов. [10](https://gitverse.ru/docs/collaborative/repositories/reference/markup-guide)
 * GitHub автоматически преобразует URL в кликабельные ссылки. [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
