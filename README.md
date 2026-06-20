@@ -13,44 +13,71 @@
 Инструкции по установке проекта локально. Можно указать команды для клонирования репозитория, установки зависимостей и запуска сервера. [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
 
 ## Использование
-------------------RUN
-Сздать сетку:
-blockMesh
-
-Проверить сетку:
- checkMesh
- или
- checkMesh -allTopology
-
-Выполнить декомпозицию:
-decomposePar -force
-
-Запусть расчет на десяти ядрах (в файле decomposeParDict - numberOfSubdomains 10; указать нужное число ядер и запустить decomposePar -force):
-mpirun -np 10 foamRun -parallel                //Здесь -np 10 задаёт 10 процессора; замените foamRun/icoFoam на нужный солвер.
-
-Собрать папки временных шагов из "параллельных"(... processor9) папок:
-reconstructPar
-
-Просмотр результатов:
+### Клонировать репозиторий:
+`````
+git clone https://github.com/kol1978/Backward-Facing.git
+`````
+### Перейти в каталог расчёта:
+`````
+cd Backward-Facing
+`````
+### Просмотр временного шага решения:
+`````
 paraFoam -builtin
+`````
+### Продолжить расчет:
 
-Создать файл визуализаци:
+### Сздать сетку:
+`````
+blockMesh
+`````
+### Проверить сетку:
+`````
+checkMesh
+`````
+или
+`````
+checkMesh -allTopology
+`````
+### Выполнить декомпозицию:
+`````
+decomposePar -force
+`````
+
+### Запусть расчет на десяти ядрах (в файле decomposeParDict - numberOfSubdomains 10; указать нужное число ядер и запустить decomposePar -force):
+`````
+mpirun -np 10 foamRun -parallel                //Здесь -np 10 задаёт 10 процессора; замените foamRun/icoFoam на нужный солвер.
+`````
+### Собрать папки временных шагов из "параллельных"(... processor9) папок:
+`````
+reconstructPar
+`````
+### Просмотр результатов:
+`````
+paraFoam -builtin
+`````
+### Создать файл визуализаци:
+`````
 paraFoam -touch
-
-Удалить файлы временных шагов расчета:
+`````
+### Удалить файлы временных шагов расчета:
+`````
 foamListTimes -rm
-
-Постпроцессинг:
+`````
+### Постпроцессинг:
+`````
 postProcess -list
 postProcess -func "components(U)"
-
-Замечание:
+`````
+### Замечание:
+`````
 simpleFoam -postProcess
 icoFoam не нужен -postProcess
+`````
 ------------------------------------
 
 Примеры кода или команды, которые помогут быстро начать работу с проектом. Например, для библиотеки можно сразу дать простой пример установки (`pip install tqdm`) и использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
-
+`````
 #include "fvCFD.H"
 
 int main(int argc, char *argv[])
@@ -58,7 +85,7 @@ int main(int argc, char *argv[])
     Info<< "Size of label: " << sizeof(Foam::label) << " bytes" << endl;
     return 0;
 }
-
+`````
 ## Дополнительные разделы
 
 * **Лицензия** — информация о лицензии, под которой выпущен проект (например, MIT, Apache License). [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
