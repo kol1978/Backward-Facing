@@ -1,0 +1,68 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     foamRun;
+
+solver          fluid;
+
+startFrom       latestTime; //startTime; //latestTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         10;
+
+deltaT          1e-07;
+
+writeControl    runTime; // timeStep;
+
+writeInterval   0.0001;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  20;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+adjustTimeStep  no;
+
+maxCo           0.5;
+
+// ************************************************************************* //
+/*file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/forceCoeffs
+file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/readFields
+file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/streamLines
+file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/wallBoundedStreamLines
+*/
+/*
+functions
+{
+//    #include "readFields"
+//    #include "streamLines" //не работает постпроцесс не создаёт
+//    #include "wallBoundedStreamLines"
+//    #include "cuttingPlane"
+//    #include "forceCoeffs"
+}
+*/
