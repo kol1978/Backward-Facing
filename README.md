@@ -176,7 +176,7 @@ int main(int argc, char *argv[])
 
 ## Особенности оформления Start.png
 ![Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.](/Backward-Facing/bfsw-geom.png)
-![Тестовая конфигурация:Рисунок 1. Схема шага назад..](/Backward-Facing/bstepschm.jpg)
+![Тестовая конфигурация:Рисунок 1. Схема шага назад..](/bstepschm.jpg)
 Рисунок 1. Схема
 
 * Для заголовков используйте решётки `#` — количество решёток определяет уровень заголовка (от H1 до H6). В файле должен быть только один H1 (он уже занят названием проекта), далее можно использовать H2, H3 и т. д.. [6](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)[10](https://gitverse.ru/docs/collaborative/repositories/reference/markup-guide)[8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)
