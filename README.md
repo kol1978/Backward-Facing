@@ -166,8 +166,29 @@ int main(int argc, char *argv[])
     return 0;
 }
 `````
+### Исходный код
+Создайте файл onlyMainFunction.C с содержимым:
+```bash
+nano onlyMainFunction.C
+```
 
-## Экспериментальные детали: Источник: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030
+```
+#include "setRootCase.H"
+#include "createTime.H"
+
+int main(int argc, char *argv)
+{
+    return 0;
+}
+```
+## Компиляция
+**Прямой способ:**
+```bash
+g++ onlyMainFunction.C -o my_hello_world
+```
+
+## Экспериментальные детали:
+Источник: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030
 ## Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.
 Тестовая конфигурация состояла из отрезка длиной 1,0 м ×15,1 см в ширину× Прямоугольный входной канал высотой 10,1 см, за которым
 следует ступенька высотой 1,27 см, обращенная назад. Стена, противоположная ступеньке (противоположная стена), закреплена на
