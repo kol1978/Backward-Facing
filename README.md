@@ -9,31 +9,31 @@
 Собрать обратную связь от пользователей;<br>
 Выявить недочёты и понять, какие доработки нужны в основной версии.<br>
 ### Краткое описание проекта — что это и какую проблему решает:
-Проверка/выбор решателя-ей для openFOAMv2412.
+Проверка/выбор решателя-ей для openFOAMv2412.<br>
 
-Замечание:компиляция завершается ошибкой... пока причина не устранена, выполнен переход на версию openFOAMv2512.
-Ошибка:
-/home/kol/OpenFOAM/ThirdParty-v2412/platforms/linux64Gcc/CGAL-4.14.3/include/CGAL/boost/graph/iterator.h:432:22: error: ‘const class CGAL::Halfedge_around_face_iterator<Graph>’ has no member named ‘base’ [-Wtemplate-body]
-make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: /home/kol/OpenFOAM/OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1
-make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2
-make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2
+Замечание:компиляция завершается ошибкой... пока причина не устранена, выполнен переход на версию openFOAMv2512.<br>
+Ошибка:<br>
+/home/kol/OpenFOAM/ThirdParty-v2412/platforms/linux64Gcc/CGAL-4.14.3/include/CGAL/boost/graph/iterator.h:432:22: error: ‘const class CGAL::Halfedge_around_face_iterator<Graph>’ has no member named ‘base’ [-Wtemplate-body]<br>
+make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: /home/kol/OpenFOAM/OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1<br>
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2<br>
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2<br>
 
-Замечание 2: компиляция версии openFOAMv2512 проходит без ошибок но при выполнении кода происходит ошибка: декомпозиции. Выполнен переход на версию:
----------------------------------------------------------------------------
-Build  : 12-0b487fc98b88
-Exec   : decomposePar -force
-Date   : Jun 23 2026
-Time   : 10:49:26
-Host   : "kol-serv"
-PID    : 759586
-I/O    : uncollated
-Case   : /home/kol/OpenFOAM/kol-12/run/pitzDaily/pitzDaily_RUN/Backward-Facing_github/Backward-Facing
-nProcs : 1
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
-fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
-allowSystemOperations : Allowing user-supplied system call operations
+Замечание 2: компиляция версии openFOAMv2512 проходит без ошибок но при выполнении кода происходит ошибка: декомпозиции. Выполнен переход на версию:<br>
+---------------------------------------------------------------------------<br>
+Build  : 12-0b487fc98b88<br>
+Exec   : decomposePar -force<br>
+Date   : Jun 23 2026<br>
+Time   : 10:49:26<br>
+Host   : "kol-serv"<br>
+PID    : 759586<br>
+I/O    : uncollated<br>
+Case   : /home/kol/OpenFOAM/kol-12/run/pitzDaily/pitzDaily_RUN/Backward-Facing_github/Backward-Facing<br>
+nProcs : 1<br>
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).<br>
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)<br>
+allowSystemOperations : Allowing user-supplied system call operations<br>
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+--------------------------------------------------------------------------<br>
 
 ### Краткое объяснение мотивации создания и отличий от аналогов, если они есть:
 Подбор/выбор тестового примера в том числе из - /tutorials/incompressible/pimpleFoam и т.п.
@@ -251,9 +251,9 @@ while (inputFile >> time >> pressure) {
 }
 `````
 ### Исходный код
-Примеры кода или команды, которые помогут быстро начать работу с проектом. Например, для библиотеки можно сразу дать простой пример установки (`pip install tqdm`) и использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
-этот код сам по себе не скомпилируется — в нём есть серьёзная проблема. Я поясню, в чём дело, и подскажу, как действовать в контексте OpenFOAM.
-Главная загвоздка в строке: info << .... В стандартном C++ такой поток info не определён. Скорее всего, вы работаете в среде OpenFOAM, где для вывода используется макрос infoOStream (часто из файла infoOStream.H), а вывод перенаправляется в поток info. Но чтобы это сработало, при компиляции нужно подключить нужную библиотеку вывода OpenFOAM.
+Примеры кода или команды, которые помогут быстро начать работу с проектом. Например, для библиотеки можно сразу дать простой пример установки (`pip install tqdm`) и использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)<br>
+Код сам по себе не скомпилируется — в нём есть серьёзная проблема. Я поясню, в чём дело, и подскажу, как действовать в контексте OpenFOAM.<br>
+Главная загвоздка в строке: info << .... В стандартном C++ такой поток info не определён. Скорее всего, вы работаете в среде OpenFOAM, где для вывода используется макрос infoOStream (часто из файла infoOStream.H), а вывод перенаправляется в поток info. Но чтобы это сработало, при компиляции нужно подключить нужную библиотеку вывода OpenFOAM.<br>
 
 `````cpp
 //#include <fstream> // Для работы с файлами
@@ -304,7 +304,24 @@ $WM_PROJECT_USER_DIR/
             ├── Make/
             └── onlyMainFunction.C
 
-Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе.
+Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:
+`````bash
+echo $WM_PROJECT_DIR
+echo $WM_LABEL_SIZE
+echo $WM_PROJECT_VERSION
+echo $WM_PROJECT_USER_DIR
+echo $FOAM_USER_APPBIN
+`````
+`````bash
+blockMesh -help
+`````
+`````bash
+echo $FOAM_API
+`````
+`````bash
+wmake -build-info              предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован
+`````
+
 `````bash
 wmake
 `````
