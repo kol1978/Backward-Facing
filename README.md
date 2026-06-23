@@ -10,6 +10,31 @@
 Выявить недочёты и понять, какие доработки нужны в основной версии.<br>
 ### Краткое описание проекта — что это и какую проблему решает:
 Проверка/выбор решателя-ей для openFOAMv2412.
+
+Замечание:компиляция завершается ошибкой... пока причина не устранена, выполнен переход на версию openFOAMv2512.
+Ошибка:
+/home/kol/OpenFOAM/ThirdParty-v2412/platforms/linux64Gcc/CGAL-4.14.3/include/CGAL/boost/graph/iterator.h:432:22: error: ‘const class CGAL::Halfedge_around_face_iterator<Graph>’ has no member named ‘base’ [-Wtemplate-body]
+make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: /home/kol/OpenFOAM/OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2
+
+Замечание 2: компиляция версии openFOAMv2512 проходит без ошибок но при выполнении кода происходит ошибка: декомпозиции. Выполнен переход на версию:
+---------------------------------------------------------------------------
+Build  : 12-0b487fc98b88
+Exec   : decomposePar -force
+Date   : Jun 23 2026
+Time   : 10:49:26
+Host   : "kol-serv"
+PID    : 759586
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/run/pitzDaily/pitzDaily_RUN/Backward-Facing_github/Backward-Facing
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
 ### Краткое объяснение мотивации создания и отличий от аналогов, если они есть:
 Подбор/выбор тестового примера в том числе из - /tutorials/incompressible/pimpleFoam и т.п.
 
@@ -42,7 +67,7 @@
 Газовая динамика тесно связана с акустикой и динамической метеорологией (сеточные модели погоды в том числе...) old.bigenc.ru
 ### Скачать архив
 ### Все архивные файлы этого проверочного примера доступны в сжатом архиве Unix bstep.tar. Доступ к файлам можно получить с помощью команды:
-`````
+`````bash
 tar -xvof bstep.tar
 `````
 ### Сетка
@@ -94,104 +119,390 @@ tar -xvof bstep.tar
 
 ## Использование
 ### Клонировать репозиторий:
-`````
+`````bash
 git clone https://github.com/kol1978/Backward-Facing.git
 `````
 ### Перейти в каталог расчёта:
-`````
+`````bash
 cd Backward-Facing
 `````
 ### Просмотр временного шага решения:
-`````
+`````bash
 paraFoam -builtin
 `````
 ### Продолжить расчет:
 
 ### Сздать сетку:
-`````
+`````bash
 blockMesh
 `````
 ### Проверить сетку:
-`````
+`````bash
 checkMesh
 `````
 или
-`````
+`````bash
 checkMesh -allTopology
 `````
 ### Выполнить декомпозицию:
-`````
+`````bash
 decomposePar -force
 `````
 
 ### Запусть расчет на десяти ядрах (в файле decomposeParDict - numberOfSubdomains 10; указать нужное число ядер и запустить decomposePar -force):
 #### Здесь "-np 10" задаёт 10 ядер для расчета; замените foamRun/icoFoam на нужный солвер.
-`````
+`````bash
 mpirun -np 10 foamRun -parallel
 `````
 ### Собрать папки временных шагов из "параллельных"(... processor9) папок:
-`````
+`````bash
 reconstructPar
 `````
 ### Просмотр результатов:
-`````
+`````bash
 paraFoam -builtin
 `````
 ### Создать файл визуализаци:
-`````
+`````bash
 paraFoam -touch
 `````
 ### Удалить файлы временных шагов расчета:
-`````
+`````bash
 foamListTimes -rm
 `````
 ### Постпроцессинг:
-`````
+`````bash
 postProcess -list
 `````
-`````
+`````bash
 postProcess -func "components(U)"
 `````
 ### Замечание:
-`````
+`````bash
 simpleFoam -postProcess
-icoFoam не нужен -postProcess
 `````
-------------------------------------
+icoFoam не нужен -postProcess
 
+
+## Основные потоки вывода:
+##### Foam::Info — основной поток для информационных сообщений:
+`````cpp
+Foam::Info << "Начата итерация " << time.value() << Foam::endl;
+`````
+##### Foam::Warning — для предупреждений (выделяются цветом в консоли):
+`````cpp
+Foam::Warning << "Нестандартное граничное условие на patch " << patchName << Foam::endl;
+`````
+##### Foam::FatalError — для критических ошибок (прерывает выполнение):
+`````cpp
+Foam::FatalError << "Неверный шаг по времени: " << deltaT << Foam::nl
+    << "Должно быть > 0" << Foam::exit(Foam::FatalError);
+`````
+##### Foam::Pout — поток вывода, который показывает сообщения только от главного процессора в параллельных расчётах:
+`````cpp
+Foam::Pout << "Главный процессор: начат расчёт на " << nProcessors() << " процессорах" << Foam::endl;
+`````
+#### Методы форматирования вывода
+Foam::endl — перевод строки и сброс буфера (аналог std::endl).
+
+Foam::nl — просто перевод строки без сброса буфера (эффективнее при массовом выводе).
+
+#### Манипуляторы форматирования (аналоги std::setw, std::setprecision):
+
+`````cpp
+Foam::Info.width(10);
+Foam::Info.precision(6);
+Foam::Info << "Значение: " << value << Foam::endl;
+`````
+
+#### Работа с логами:
+
+`````cpp
+// Автоматическое создание лог‑файла с именем решателя
+Foam::fileName logFile = Foam::timePath() / "log." + Foam::word(argv[0]);
+OFstream log(logFile);
+log << "Старт расчёта: " << Foam::clock::dateTime() << Foam::endl;
+`````
+
+#### Работа с файлами  - OpenFOAM предоставляет классы для файлового ввода‑вывода:
+Foam::IFstream in("example.txt");
+in.info() << "Сообщение: " << "Данные" << Foam::endl;
+
+#### Запись в файл:
+
+`````cpp
+#include "OFstream.H"
+
+OFstream resultFile("results.dat");
+resultFile << "Time\tPressure\tVelocity" << Foam::endl;
+forAll(times, i) {
+    resultFile << times[i] << '\t' << pressures[i] << '\t' << velocities[i] << Foam::endl;
+}
+`````
+#### Чтение из файла:
+
+`````cpp
+#include "IFstream.H"
+
+IFstream inputFile("input.dat");
+scalar time, pressure;
+while (inputFile >> time >> pressure) {
+    // обработка данных
+}
+`````
+### Исходный код
 Примеры кода или команды, которые помогут быстро начать работу с проектом. Например, для библиотеки можно сразу дать простой пример установки (`pip install tqdm`) и использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
 этот код сам по себе не скомпилируется — в нём есть серьёзная проблема. Я поясню, в чём дело, и подскажу, как действовать в контексте OpenFOAM.
 Главная загвоздка в строке: info << .... В стандартном C++ такой поток info не определён. Скорее всего, вы работаете в среде OpenFOAM, где для вывода используется макрос infoOStream (часто из файла infoOStream.H), а вывод перенаправляется в поток info. Но чтобы это сработало, при компиляции нужно подключить нужную библиотеку вывода OpenFOAM.
 
+`````cpp
+//#include <fstream> // Для работы с файлами
+#include "IOstream.H" // Для Foam::InfoProxy
+#include <iostream>
+#include <fstream>
+#include "tensor.H"
+using namespace Foam;
+using namespace std;
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+int main(int argc, char** argv)
+{
+//    foam::StreamID info = foam::StreamOpen(foam::string("fluid"), Foam::VofDataObject::current());
+
+    // Выводим количество аргументов
+    std::cout << "Количество аргументов: " << argc << std::endl;
+
+    // Создаём поток для записи в файл
+//    Foam::InfoStream<Foam::OStream> info("log.txt");
+
+    // Выводим сообщение с контекстом
+    Info << "Инициализация началась" << endl;
+    Info << "Параметры: ..." << endl;
+
+Info<< " 64 бита составляют ровно 8 байт: LABEL_SIZE= " << sizeof(Foam::label) << " bytes" << endl;
+
+    return 0;
+}
+
+// Запуск с помощью: Test-onlyMainFunction
 `````
-#include "fvCFD.H"
+Этот код выводит на экран размер типа Foam::label в байтах.
+Info << — в стандартном C++ потока info нет. Там для отладочных сообщений используется макрос Info (часто подключают через infoOStream.H), который перенаправляет вывод в поток Info.
+sizeof(Foam::label) — оператор sizeof в C++ возвращает размер в байтах самого типа данных (или класса, или структуры). То есть он вычисляет, сколько байт занимает в памяти объект типа Foam::label. Важно: sizeof учитывает не только сами данные членов класса, но и возможное «заполнение» (padding) — байты, которые добавляются компилятором для того, чтобы члены класса были выровнены по границам, удобным для процессора.
+
+## Компиляция
+`````bash
+mkdir -p $WM_PROJECT_USER_DIR/applications
+mkdir -p $WM_PROJECT_USER_DIR/applications/myTests
+mkdir -p $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
+cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
+`````
+
+$WM_PROJECT_USER_DIR/
+└── applications/
+    └── myTests/
+        └── onlyMainFunction/
+            ├── Make/
+            └── onlyMainFunction.C
+
+Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе.
+`````bash
+wmake
+`````
+------------------------------------
+Приложение
+Test-fvMeshTools
+
+Описание
+Тестирование добавления и удаления патчей.
+
+`````cpp
+#include "argList.H"
+#include "Time.H"
+#include "ReadFields.H"
+#include "volFields.H"
+#include "surfaceFields.H"
+#include "pointFields.H"
+#include "fvMeshTools.H"
+#include "wallPolyPatch.H"
+#include "processorFvPatchField.H"
+
+using namespace Foam;
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    Info<< "Size of label: " << sizeof(Foam::label) << " bytes" << endl;
+    argList::addNote("Test patch manipulation");
+
+    #include "addRegionOption.H"
+    #include "setRootCase.H"
+    #include "createTimeNoFunctionObjects.H"
+    #include "createRegionMesh.H"
+
+    // Read objects in time directory
+    IOobjectList objects(mesh, runTime.name());
+
+    Info<< "Reading geometric fields" << nl << endl;
+
+    const bool fields = true;
+    #include "readVolFields.H"
+    #include "readSurfaceFields.H"
+    #include "readPointFields.H"
+
+    const polyBoundaryMesh& pbm = mesh.boundaryMesh();
+
+    // Add/insert a (global) wall patch
+    {
+        wallPolyPatch pp
+        (
+            "myWall",
+            0,          // dummy
+            0,          // dummy
+            0,          // dummy
+            pbm,
+            wallPolyPatch::typeName
+        );
+
+        label newPatchi = fvMeshTools::addPatch
+        (
+            mesh,
+            pp,
+            dictionary(),   // no specialised patch fields
+            calculatedFvPatchField<scalar>::typeName,
+            true            // parallel sync'ed addition
+        );
+
+        Info<< "Inserted patch " << mesh.boundaryMesh()[newPatchi].name()
+            << " type " << mesh.boundaryMesh()[newPatchi].type()
+            << " at index " << newPatchi << endl;
+
+        runTime++;
+        mesh.setInstance(runTime.name());
+        Info<< "Writing mesh with added patch to " << runTime.name()
+            << endl;
+        mesh.write();
+    }
+
+    // Remove a (zero-sized!) patch everywhere
+    const label removei = 0;
+    if (!isA<processorPolyPatch>(pbm[removei]) && pbm[removei].size() == 0)
+    {
+        Info<< "Removing patch " << pbm[removei].name() << endl;
+
+        labelList oldToNew(pbm.size());
+        for (label i = 0; i < removei; i++)
+        {
+            oldToNew[i] = i;
+        }
+        oldToNew[removei] = pbm.size()-1;
+        for (label i = removei+1; i < oldToNew.size(); i++)
+        {
+            oldToNew[i] = i-1;
+        }
+        fvMeshTools::reorderPatches(mesh, oldToNew, pbm.size()-1, true);
+
+        runTime++;
+        mesh.setInstance(runTime.name());
+        Info<< "Writing mesh with removed patch to " << runTime.name()
+            << endl;
+        mesh.write();
+    }
+
+    // Add a pair of processor patches
+    if (Pstream::parRun())
+    {
+        word newPatchName;
+
+        if (Pstream::myProcNo() == 0 || Pstream::myProcNo() == 1)
+        {
+            const label nbrProcNo = (1-Pstream::myProcNo());
+            newPatchName =
+                processorPolyPatch::newName(Pstream::myProcNo(), nbrProcNo)
+              + "_extra";
+
+            dictionary dict;
+            dict.add("myProcNo", Pstream::myProcNo());
+            dict.add("neighbProcNo", nbrProcNo);
+            dict.add("startFace", 0);
+            dict.add("nFaces", 0);
+
+            processorPolyPatch pp
+            (
+                newPatchName,
+                dict,
+                0,          // dummy index
+                pbm,
+                processorPolyPatch::typeName
+            );
+
+            label newPatchi = fvMeshTools::addPatch
+            (
+                mesh,
+                pp,
+                dictionary(),   // no specialised patch fields
+                processorFvPatchField<scalar>::typeName,
+                false            // parallel sync'ed addition
+            );
+
+            Pout<< "Inserted patch " << mesh.boundaryMesh()[newPatchi].name()
+                << " type " << mesh.boundaryMesh()[newPatchi].type()
+                << " at index " << newPatchi << endl;
+        }
+
+        runTime++;
+        mesh.setInstance(runTime.name());
+        Info<< "Writing mesh with added (local) patch to "
+            << runTime.name() << endl;
+        mesh.write();
+
+        // Remove the added patch
+        if (newPatchName.size())
+        {
+            label removei = pbm.findIndex(newPatchName);
+            if (removei == -1)
+            {
+                FatalErrorInFunction << "Problem" << exit(FatalError);
+            }
+            Pout<< "Removing patch " << pbm[removei].name() << endl;
+
+            labelList oldToNew(pbm.size());
+            for (label i = 0; i < removei; i++)
+            {
+                oldToNew[i] = i;
+            }
+            oldToNew[removei] = pbm.size()-1;
+            for (label i = removei+1; i < oldToNew.size(); i++)
+            {
+                oldToNew[i] = i-1;
+            }
+            fvMeshTools::reorderPatches(mesh, oldToNew, pbm.size()-1, false);
+        }
+
+        runTime++;
+        mesh.setInstance(runTime.name());
+        Info<< "Writing mesh with removed (local) patch to "
+            << runTime.name() << endl;
+        mesh.write();
+    }
+
+    Info<< "End\n" << endl;
+
     return 0;
 }
+
+
 `````
-### Исходный код
-Создайте файл onlyMainFunction.C с содержимым:
-```bash
-nano onlyMainFunction.C
-```
+echo "Аргумент 1: $1" | ./onlyMainFunction "Аргумент 2"
 
-```
-#include "setRootCase.H"
-#include "createTime.H"
+Замечания и ошибки: Test-fvMeshTools.C
+kol@kol-serv:~/OpenFOAM/kol-12/applications/Test-fvMeshTools$ wmake
+g++ -std=c++17 -m64 -pthread -DOPENFOAM=2412 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -Wno-unknown-pragmas -O3  -DNoRepository -ftemplate-depth-100  -IfaceSelection -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/polyTopoChange/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/meshTools/lnInclude -iquote. -IlnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OSspecific/POSIX/lnInclude   -fPIC -c Test-fvMeshTools.C -o Make/linux64GccDPInt64Opt/Test-fvMeshTools.o
+Test-fvMeshTools.C:32:10: fatal error: argList.H: No such file or directory
+   32 | #include "argList.H"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: Make/linux64GccDPInt64Opt/Test-fvMeshTools.o] Error 1
 
-int main(int argc, char *argv)
-{
-    return 0;
-}
-```
-## Компиляция
-**Прямой способ:**
-```bash
-g++ onlyMainFunction.C -o my_hello_world
-```
 
 ## Экспериментальные детали:
 Источник: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030
