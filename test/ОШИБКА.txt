@@ -1,0 +1,478 @@
+./Allrun
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/IO'
+blockMesh already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.blockMesh' to re-run
+decomposePar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.decomposePar' to re-run
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamRun' to re-run
+reconstructPar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.reconstructPar' to re-run
+decomposePar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.decomposePar.uncollated' to re-run
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamRun.uncollated' to re-run
+cp: cannot stat '../../processor[0-1]': No such file or directory
+cp: cannot stat '../../processor[2-3]': No such file or directory
+Error getting 'numberOfSubdomains' from 'system/decomposeParDict'
+Running foamRun (1 processes) on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler/machineA/fileHandler
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamRun.collated' to re-run
+reconstructPar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.reconstructPar.collated' to re-run
+foamFormatConvert already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamFormatConvert' to re-run
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamRun.multiCollated' to re-run
+reconstructPar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.reconstructPar.multiCollated' to re-run
+foamFormatConvert already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamFormatConvert.uncollated' to re-run
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.foamRun.uncollated_from_multiCollated' to re-run
+decomposePar already run on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler: remove log file 'log.decomposePar.collated' to re-run
+cp: cannot stat '../../processor*': No such file or directory
+Error getting 'numberOfSubdomains' from 'system/decomposeParDict'
+Running foamRun (1 processes) on /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler/machineA/fileHandler
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: fileHandler] Error 134
+make[1]: Target 'application' not remade because of errors.
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/IO'
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: IO] Error 2
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryLaunderSharma
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryLaunderSharma
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: boundaryLaunderSharma] Error 127
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryNonNewtonian
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryNonNewtonian
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: boundaryNonNewtonian] Error 127
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctions
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctions
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: boundaryWallFunctions] Error 127
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-2
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-3
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-4
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-5
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-6
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-7
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-8
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctionsProfile
+Creating graph of u+ vs y+ to OF_vs_ANALYTICAL.eps
+         line 0: warning: Skipping data file with no valid points
+Done
+make[1]: Target 'application' not remade because of errors.
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/boundaryLayer'
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: boundaryLayer] Error 2
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/chemistry'
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/gri
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/gri
+         line 0: warning: Cannot find or open file "../chemFoam.out"
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/h2
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/h2
+         line 0: warning: Cannot find or open file "../chemFoam.out"
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/ic8h18
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/ic8h18
+         line 0: warning: Cannot find or open file "../chemFoam.out"
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/ic8h18_TDAC
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/ic8h18_TDAC
+         line 0: warning: Cannot find or open file "../chemFoam.out"
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/nc7h16
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-12/test/chemistry/nc7h16
+         line 0: warning: Cannot find or open file "../chemFoam.out"
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/chemistry'
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/dictionary
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: dictionary] Error 1
+wmake Test-fvMeshTools
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/Test-fvMeshTools'
+Making dependencies: Test-fvMeshTools.C
+wmkdepend: could not open 'argList.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'Time.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'ReadFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'volFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'surfaceFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'pointFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'fvMeshTools.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'wallPolyPatch.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'processorFvPatchField.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'addRegionOption.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'setRootCase.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'createTimeNoFunctionObjects.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'createRegionMesh.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'readVolFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'readSurfaceFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+wmkdepend: could not open 'readPointFields.H' for source file 'Test-fvMeshTools.C': No such file or directory
+g++ -std=c++17 -m64 -pthread -DOPENFOAM=2412 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -Wno-unknown-pragmas -O3  -DNoRepository -ftemplate-depth-100  -IfaceSelection -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/polyTopoChange/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/meshTools/lnInclude -iquote. -IlnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OSspecific/POSIX/lnInclude   -fPIC -c Test-fvMeshTools.C -o Make/linux64GccDPInt64Opt/Test-fvMeshTools.o
+Test-fvMeshTools.C:32:10: fatal error: argList.H: No such file or directory
+   32 | #include "argList.H"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: Make/linux64GccDPInt64Opt/Test-fvMeshTools.o] Error 1
+make[1]: Target 'all' not remade because of errors.
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/Test-fvMeshTools'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running Test-fvMeshTools on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running checkMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running foamToVTK on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running Test-fvMeshTools (3 processes) on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running checkMesh (3 processes) on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running foamToEnsight (3 processes) on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-12/test/fvMeshTools/cavity
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: fvMeshTools] Error 1
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/alpha.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/alpha.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/alpha.liquid"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/T.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/T.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/interfaceCompositionPhaseChange:Tf.gas_liquid"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/H2O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/C3H8O.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/air.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/air.gas"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/H2O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/C3H8O.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/C3H8O.liquid"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dMass.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dMass.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dEnergy.gas"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dEnergy.liquid"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dEnergy.liquid"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_H2O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_air.gas_C3H8O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_H2O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_H2O.gas_C3H8O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_H2O.liquid/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_C3H8O.gas_C3H8O.liquid/plot/0/dEnergy"
+           line 0: No data in plot
+
+make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: waterAndIsopropanolEvaporation] Error 1
+zeroDimensionalMesh already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.zeroDimensionalMesh' to re-run
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.air.gas_e.gas_e.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.air.gas_e.gas_h.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.air.gas_h.gas_e.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.air.gas_h.gas_h.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.H2O.gas_e.gas_e.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.H2O.gas_e.gas_h.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.H2O.gas_h.gas_e.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterEvaporation: remove log file 'log.foamRun.H2O.gas_h.gas_h.liquid' to re-run
+mv: cannot stat 'postProcessing': No such file or directory
+make[2]: Target 'application' not remade because of errors.
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/interfaceComposition'
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: interfaceComposition] Error 2
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/binaryBreakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/binaryBreakup
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/breakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/breakup
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/coalescence
+Running foamPostProcess on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/coalescence
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/coalescence
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/drift
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/drift
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/6/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/probes/0/integerMoment0(N,v).bubbles"
+         line 0: warning: Cannot find or open file "../postProcessing/probes/0/integerMoment1(N,v).bubbles"
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/isothermalGrowth
+Running topoSet on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/isothermalGrowth
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/isothermalGrowth
+tail: cannot open '../postProcessing/cellZoneAverage/0/volFieldValue.dat' for reading: No such file or directory
+
+gnuplot> p0 =
+              ^
+         line 0: constant expression required
+
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: No data in plot
+
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/graph//line.xy"
+         line 0: No data in plot
+
+make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: isothermalGrowth] Error 1
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/negativeDrift
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/negativeDrift
+         line 0: warning: Cannot find or open file "../postProcessing/numberDensity/4/numberDensity.xy"
+         line 0: warning: Cannot find or open file "../postProcessing/probes/0/integerMoment0(N,v).bubbles"
+         line 0: warning: Cannot find or open file "../postProcessing/probes/0/integerMoment1(N,v).bubbles"
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/simultaneousCoalescenceAndBreakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance/simultaneousCoalescenceAndBreakup
+         line 56: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 56: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 56: warning: Cannot find or open file "../postProcessing/numberDensity/10/numberDensity.xy"
+         line 56: warning: Cannot find or open file "../postProcessing/volumeDensity/10/volumeDensity.xy"
+         line 56: warning: Cannot find or open file "../postProcessing/volumeDensity/10/volumeDensity.xy"
+         line 56: warning: Cannot find or open file "../postProcessing/volumeDensity/10/volumeDensity.xy"
+make[2]: Target 'application' not remade because of errors.
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/populationBalance'
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: populationBalance] Error 2
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal/waterEvaporation
+mv: cannot stat 'postProcessing': No such file or directory
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/alpha.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/alpha.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/alpha.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/alpha.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/alpha.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/alpha.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/alpha.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/alpha.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/alpha.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/alpha.water"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/T.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/T.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/T.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/T.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/T.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/T.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/T.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/T.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/T.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/T.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/thermalPhaseChange:Tf.steam_water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/thermalPhaseChange:Tf.steam_water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/thermalPhaseChange:Tf.steam_water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/thermalPhaseChange:Tf.steam_water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/thermalPhaseChange:Tf.steam_water"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dMass.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dMass.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dMass.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dMass.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dMass.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dMass.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dEnergy.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dEnergy.steam"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dEnergy.steam"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy.water"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dEnergy.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dEnergy.water"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dEnergy.water"
+           line 0: No data in plot
+
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dMass"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_e.water/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_e.steam_h.water/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_e.water/plot/0/dEnergy"
+           line 0: warning: Cannot find or open file "postProcessing_h.steam_h.water/plot/0/dEnergy"
+           line 0: No data in plot
+
+make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: waterEvaporation] Error 1
+make[2]: Target 'application' not remade because of errors.
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler/thermal'
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: thermal] Error 2
+make[1]: Target 'application' not remade because of errors.
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/multiphaseEuler'
+make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/bin/tools/MakefileDirs:28: multiphaseEuler] Error 2
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing'
+blockMesh already run on /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel: remove log file 'log.blockMesh' to re-run
+topoSet already run on /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel: remove log file 'log.topoSet' to re-run
+foamRun already run on /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel: remove log file 'log.foamRun' to re-run
+./Allrun: 10: getSolver: not found
+foamPostProcess already run on /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel: remove log file 'log.foamPostProcess' to re-run
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing'
+make: Target 'application' not remade because of errors.
+
