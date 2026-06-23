@@ -1,0 +1,217 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       surfaceLabelField;
+    location    "constant/fvMesh";
+    object      polyFaces;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [];
+
+internalField   uniform -1;
+
+boundaryField
+{
+    open0
+    {
+        type            polyFaces;
+    }
+    open1
+    {
+        type            polyFaces;
+    }
+    open2
+    {
+        type            polyFaces;
+    }
+    open3
+    {
+        type            polyFaces;
+    }
+    symmetry0
+    {
+        type            polyFaces;
+    }
+    symmetry1
+    {
+        type            polyFaces;
+    }
+    symmetry2
+    {
+        type            polyFaces;
+    }
+    symmetry3
+    {
+        type            polyFaces;
+    }
+    symmetryPlane0
+    {
+        type            polyFaces;
+    }
+    symmetryPlane1
+    {
+        type            polyFaces;
+    }
+    symmetryPlane2
+    {
+        type            polyFaces;
+    }
+    symmetryPlane3
+    {
+        type            polyFaces;
+    }
+    cyclic0
+    {
+        type            polyFaces;
+        patchType       cyclic;
+    }
+    cyclic1
+    {
+        type            polyFaces;
+        patchType       cyclic;
+    }
+    cyclic2
+    {
+        type            polyFaces;
+        patchType       cyclic;
+    }
+    cyclic3
+    {
+        type            polyFaces;
+        patchType       cyclic;
+    }
+    nonCouple0
+    {
+        type            polyFaces;
+    }
+    nonCouple1
+    {
+        type            polyFaces;
+    }
+    nonCouple2
+    {
+        type            polyFaces;
+    }
+    nonCouple3
+    {
+        type            polyFaces;
+    }
+    backEmpty0
+    {
+        type            polyFaces;
+    }
+    frontEmpty1
+    {
+        type            polyFaces;
+    }
+    backWedge0
+    {
+        type            polyFaces;
+    }
+    frontWedge1
+    {
+        type            polyFaces;
+    }
+    walls
+    {
+        type            polyFaces;
+    }
+    slab_on_nonCouple0
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalCyclic;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    slab_on_nonCouple1
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalCyclic;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    wedge_on_nonCouple2
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalCyclic;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    wedge_on_nonCouple3
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalCyclic;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    nonConformalError_on_nonCouple0
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalError;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    nonConformalError_on_nonCouple1
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalError;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    nonConformalError_on_nonCouple2
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalError;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    nonConformalError_on_nonCouple3
+    {
+        type            nonConformalPolyFaces;
+        patchType       nonConformalError;
+        size            0;
+        value           nonuniform List<label> 
+0
+;
+    }
+    procBoundary3to0
+    {
+        type            polyFaces;
+        patchType       processor;
+    }
+    procBoundary3to1
+    {
+        type            polyFaces;
+        patchType       processor;
+    }
+    procBoundary3to4
+    {
+        type            polyFaces;
+        patchType       processor;
+    }
+}
+
+
+// ************************************************************************* //

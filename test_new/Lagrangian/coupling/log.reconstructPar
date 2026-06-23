@@ -1,0 +1,1425 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : reconstructPar
+Date   : Jun 23 2026
+Time   : 13:54:29
+Host   : "kol-serv"
+PID    : 1257664
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Time = 0.05s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.1s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.15s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.2s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.25s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.3s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.35s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.4s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.45s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.5s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.55s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.6s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.65s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.7s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.75s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.8s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.85s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.9s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 0.95s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+Time = 1s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParcel:alpha
+
+    Reconstructing volVectorField::Internals
+
+        kinematicParcel:S(v*U):Su
+
+    Reconstructing volScalarFields
+
+        p
+        nut
+        k
+        epsilon
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParcel_functionObject
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        Uturb
+        U
+
+Reconstructing Lagrangian fields for kinematicParcel
+
+    Reconstructing LagrangianScalarFields
+
+        CrankNicolson:deltaTSp0(U)
+        d
+        number
+        fractionTurb
+        tTurb
+
+    Reconstructing LagrangianVectorFields
+
+        CrankNicolson:S0(U)
+        CrankNicolson:S0(Uc)
+        Uturb
+        U
+
+    Reconstructing LagrangianScalarField::Internals
+
+        alpha
+
+Collecting uniform files
+
+End
+

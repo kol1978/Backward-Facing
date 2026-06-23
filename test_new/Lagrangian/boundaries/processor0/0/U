@@ -1,0 +1,178 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    open0
+    {
+        type            noSlip;
+    }
+    open1
+    {
+        type            noSlip;
+    }
+    open2
+    {
+        type            noSlip;
+    }
+    open3
+    {
+        type            noSlip;
+    }
+    symmetry0
+    {
+        type            symmetry;
+    }
+    symmetry1
+    {
+        type            symmetry;
+    }
+    symmetry2
+    {
+        type            symmetry;
+    }
+    symmetry3
+    {
+        type            symmetry;
+    }
+    symmetryPlane0
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane1
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane2
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane3
+    {
+        type            symmetryPlane;
+    }
+    cyclic0
+    {
+        type            cyclic;
+    }
+    cyclic1
+    {
+        type            cyclic;
+    }
+    cyclic2
+    {
+        type            cyclic;
+    }
+    cyclic3
+    {
+        type            cyclic;
+    }
+    nonCouple0
+    {
+        type            noSlip;
+    }
+    nonCouple1
+    {
+        type            noSlip;
+    }
+    nonCouple2
+    {
+        type            noSlip;
+    }
+    nonCouple3
+    {
+        type            noSlip;
+    }
+    backEmpty0
+    {
+        type            empty;
+    }
+    frontEmpty1
+    {
+        type            empty;
+    }
+    backWedge0
+    {
+        type            wedge;
+    }
+    frontWedge1
+    {
+        type            wedge;
+    }
+    walls
+    {
+        type            noSlip;
+    }
+    slab_on_nonCouple0
+    {
+        type            nonConformalCyclic;
+    }
+    slab_on_nonCouple1
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple2
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple3
+    {
+        type            nonConformalCyclic;
+    }
+    nonConformalError_on_nonCouple0
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple1
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple2
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple3
+    {
+        type            nonConformalError;
+    }
+    procBoundary0to1
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary0to1throughcyclic0
+    {
+        type            processorCyclic;
+        value           uniform (0 0 0);
+    }
+    procBoundary0to1throughslab_on_nonCouple0
+    {
+        type            nonConformalProcessorCyclic;
+        value           uniform (0 0 0);
+    }
+    procBoundary0to3
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+}
+
+
+// ************************************************************************* //

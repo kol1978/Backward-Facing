@@ -1,0 +1,39 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0.1";
+    object      f30.air2;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [];
+
+internalField   uniform 6.60715458966e-112;
+
+boundaryField
+{
+    boundary
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    airSource
+    {
+        type            uniformGrowthSizeGroup;
+        libs            1("libuniformGrowth.so");
+    }
+}
+
+
+// ************************************************************************* //

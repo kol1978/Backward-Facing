@@ -1,0 +1,212 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : blockMesh
+Date   : Jun 23 2026
+Time   : 13:53:49
+Host   : "kol-serv"
+PID    : 1253284
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating new library in "dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b/platforms/linux64GccDPInt64Opt/lib/libcodeStream_468200271ae88f4350f7fe4370bb6e7e33e7724b.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_468200271ae88f4350f7fe4370bb6e7e33e7724b.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_468200271ae88f4350f7fe4370bb6e7e33e7724b'
+Creating new library in "dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9/platforms/linux64GccDPInt64Opt/lib/libcodeStream_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a807f7449b4d12fdb5f65f3a1fdcd3b46743a3d9'
+Creating new library in "dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88/platforms/linux64GccDPInt64Opt/lib/libcodeStream_42e275b6e78f258b8f5e38178efc0216036fba88.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_42e275b6e78f258b8f5e38178efc0216036fba88.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_42e275b6e78f258b8f5e38178efc0216036fba88'
+Creating new library in "dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca/platforms/linux64GccDPInt64Opt/lib/libcodeStream_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_a4ac43e05fa17ec4c86b282b2bad33df412cd2ca'
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #1 with centre (25 17.5801 -1.36801) the normal (0 -0.0523342 -0.99863) differs from the average normal (-8.44764e-09 -0.0523358 -0.99863) by 2.60896e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #1 with centre (25 17.5801 1.36801) the normal (0 -0.0523342 0.99863) differs from the average normal (-8.44764e-09 -0.0523358 0.99863) by 2.60896e-12
+
+
+Basic statistics
+    Number of internal faces : 8
+    Number of boundary faces : 44
+    Number of defined boundary faces : 44
+    Number of undefined boundary faces : 0
+
+Checking topology
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.01
+    Block 0 cell size :
+        i : 0.005
+        j : 0.005
+        k : 0.02
+    Block 1 cell size :
+        i : 0.00717783 0.00707077 .. 0.00707077 0.00717783 .. 0.00717783 0.00707077 .. 0.00707077 
+        j : 0.00511842
+        k : 0.0351374 0.0352859 0.0346133 0.0347596 
+    Block 2 cell size :
+        i : 0.005
+        j : 0.005
+        k : 0.02
+    Block 3 cell size :
+        i : 0.00610724 0.00600018 .. 0.00600018 0.00610724 0.00600018 .. 0.00600018 
+        j : 0.00511842 .. 0.00511842
+        k : 0.0298966 0.030023 0.0293725 0.0294967 
+    Block 4 cell size :
+        i : 0.005
+        j : 0.005
+        k : 0.02
+    Block 5 cell size :
+        i : 0.00503665 0.00492959 0.00503665 0.00492959 .. 0.00492959 
+        j : 0.00511842 .. 0.00511842
+        k : 0.024656 0.0247602 0.0241319 0.0242339 
+    Block 6 cell size :
+        i : 0.005
+        j : 0.005
+        k : 0.02
+    Block 7 cell size :
+        i : 0.00396606 .. 0.00396606 0.003859 .. 0.003859 0.00396606 .. 0.00396606 0.003859 .. 0.003859 
+        j : 0.00511842 .. 0.00511842
+        k : 0.0194151 0.0194972 0.0188911 0.0189709 
+    Block 8 cell size :
+        i : 0.005 0.005001 .. 0.005001 0.005 0.005001 .. 0.005001 
+        j : 0.004 .. 0.004 0.0041 .. 0.0041 0.004 .. 0.004 0.0041 .. 0.0041 
+        k : 0.02
+    Block 9 cell size :
+        i : 0.00289547 .. 0.00289547 0.00279024 .. 0.00279024 0.00289547 .. 0.00289547 0.00279024 .. 0.00279024 
+        j : 0.00409473 .. 0.00409473 0.00419589 .. 0.00419589 0.00409473 .. 0.00409473 0.00419589 .. 0.00419589 
+        k : 0.0141744 0.0142343 0.0137551 0.0138024 
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 -0.0140613) the normal (3.47094e-07 -0.0523343 -0.99863) differs from the average normal (-8.78993e-09 -0.0523358 -0.99863) by 2.52169e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 0.0140613) the normal (3.47094e-07 -0.0523343 0.99863) differs from the average normal (-8.78993e-09 -0.0523358 0.99863) by 2.52169e-12
+
+
+No patch pairs to merge
+
+Adding cell zones
+    0	open
+    1	symmetry
+    2	symmetryPlane
+    3	cyclic
+    4	nonConformalCyclic
+
+Detected cyclic patches; ordering boundary faces
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 -0.01 -0.0179607) (0.321256 0.257479 0.0179607)
+  nPoints: 4284
+  nCells: 2000
+  nFaces: 8140
+  nInternalFaces: 3860
+----------------
+Patches
+----------------
+  patch 0 (start: 3860 size: 10) name: open0
+  patch 1 (start: 3870 size: 10) name: open1
+  patch 2 (start: 3880 size: 10) name: open2
+  patch 3 (start: 3890 size: 10) name: open3
+  patch 4 (start: 3900 size: 10) name: symmetry0
+  patch 5 (start: 3910 size: 10) name: symmetry1
+  patch 6 (start: 3920 size: 10) name: symmetry2
+  patch 7 (start: 3930 size: 10) name: symmetry3
+  patch 8 (start: 3940 size: 10) name: symmetryPlane0
+  patch 9 (start: 3950 size: 10) name: symmetryPlane1
+  patch 10 (start: 3960 size: 10) name: symmetryPlane2
+  patch 11 (start: 3970 size: 10) name: symmetryPlane3
+  patch 12 (start: 3980 size: 10) name: cyclic0
+  patch 13 (start: 3990 size: 10) name: cyclic1
+  patch 14 (start: 4000 size: 10) name: cyclic2
+  patch 15 (start: 4010 size: 10) name: cyclic3
+  patch 16 (start: 4020 size: 10) name: nonCouple0
+  patch 17 (start: 4030 size: 10) name: nonCouple1
+  patch 18 (start: 4040 size: 10) name: nonCouple2
+  patch 19 (start: 4050 size: 10) name: nonCouple3
+  patch 20 (start: 4060 size: 1000) name: backEmpty0
+  patch 21 (start: 5060 size: 1000) name: frontEmpty1
+  patch 22 (start: 6060 size: 1000) name: backWedge0
+  patch 23 (start: 7060 size: 1000) name: frontWedge1
+  patch 24 (start: 8060 size: 80) name: walls
+
+End
+

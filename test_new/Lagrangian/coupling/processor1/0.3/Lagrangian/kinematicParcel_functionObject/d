@@ -1,0 +1,66 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       LagrangianScalarField;
+    location    "0.3/Lagrangian/kinematicParcel_functionObject";
+    object      d;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+12
+(âW±MU?ÛØ¥Î|7X?PPTMW?&FjZ:W?¶])ÒùW?æö›©ýoP?dîP°çP?–%ƒ(oX?iÌÆêkÈW?ÔÅ$,T?„y÷ÊžR?aïÀmIzT?);
+
+boundaryField
+{
+    walls
+    {
+        type            calculated;
+    }
+    open
+    {
+        type            calculated;
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+    procBoundary1to0
+    {
+        type            processor;
+    }
+    procBoundary1to3
+    {
+        type            processor;
+    }
+}
+
+sources
+{
+    pointInjection
+    {
+        type            distributionDiameter;
+        distribution    
+        {
+            type            RosinRammler;
+            Q               0;
+            min             0.0001;
+            max             0.0015;
+            d               0.0014;
+            n               2;
+            rndGen          157738332467982;
+        }
+    }
+}
+
+
+// ************************************************************************* //

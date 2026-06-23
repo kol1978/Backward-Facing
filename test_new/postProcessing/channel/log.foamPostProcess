@@ -1,0 +1,473 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : foamPostProcess -solver fluid -latestTime
+Date   : Jun 23 2026
+Time   : 14:31:20
+Host   : "kol-serv"
+PID    : 1387589
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 1
+
+fieldAverage fieldAverage(U,k,epsilon):
+    Restarting averaging for fields:
+        U iters = 100 time = 1
+        k iters = 100 time = 1
+        epsilon iters = 100 time = 1
+    Reading field UMean
+    Reading field kMean
+    Reading field epsilonMean
+
+turbulenceFields turbulenceFields(nuEff,R): storing fields:
+    nuEff
+    R
+
+wallHeatFlux wallHeatFlux:
+    processing all wall patches
+
+wallHeatTransferCoeff:
+    processing all wall patches
+
+wallShearStress wallShearStress:
+    processing all wall patches
+
+forcesBase forcesIncompressible(patches=(walls),rhoInf=1.225,CofR=(000),pitchAxis=(010)):
+    Not including porosity effects
+forces forcesIncompressible(patches=(walls),rhoInf=1.225,CofR=(000),pitchAxis=(010)):
+    Not including porosity effects
+forcesBase forceCoeffsIncompressible(patches=(walls),magUInf=20,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+forces forceCoeffsIncompressible(patches=(walls),magUInf=20,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+forceCoeffs forceCoeffsIncompressible(patches=(walls),magUInf=20,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+forcesBase forcesCompressible(patches=(walls),CofR=(000),pitchAxis=(010)):
+    Not including porosity effects
+forces forcesCompressible(patches=(walls),CofR=(000),pitchAxis=(010)):
+    Not including porosity effects
+forcesBase forceCoeffsCompressible(patches=(walls),magUInf=20,rhoInf=1.225,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+forces forceCoeffsCompressible(patches=(walls),magUInf=20,rhoInf=1.225,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+forceCoeffs forceCoeffsCompressible(patches=(walls),magUInf=20,rhoInf=1.225,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)):
+    Not including porosity effects
+Reading set description:
+    line
+
+Reading set description:
+    line
+
+layerAverage graphLayerAverage(patches=(inlet),axis=x,fields=(pU)):
+    Detected 1 layers
+
+Reading set description:
+    points
+
+Reading set description:
+    points
+
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward):
+    automatic track length specified through number of sub cycles : 5
+
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward):
+    automatic track length specified through number of sub cycles : 5
+
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100):
+    automatic track length specified through number of sub cycles : 5
+
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward):
+    automatic track length specified through number of sub cycles : 5
+
+Reading surface description:
+    cutPlane
+
+Reading surface description:
+    isoSurface
+
+Reading surface description:
+    patch
+
+surfaceFieldValue patchAverage(k,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue patchIntegrate(epsilon,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaIntegrate
+
+surfaceFieldValue patchFlowRate(patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = sum
+
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region1 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region2 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue faceZoneAverage(U,faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue faceZoneFlowRate(faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = orientedSum
+
+surfaceFieldValue triSurfaceAverage(p,triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaNormalIntegrate
+
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
+
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
+
+volFieldValue cellMin(epsilon) read:
+    number of cells = 1
+    volume = 0.1
+    operation = min
+
+volFieldValue cellMax(k) read:
+    number of cells = 1
+    volume = 0.1
+    operation = max
+
+volFieldValue cellMinMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = minMag
+
+volFieldValue cellMaxMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = maxMag
+
+volFieldValue volAverage(p) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volAverage
+
+volFieldValue volIntegrate(rho) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volIntegrate
+
+Time = 1s
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kEpsilon
+No MRF models present
+
+Courant Number mean: 0.08630929117 max: 0.08630929117
+Selecting thermophysical transport type RAS
+Selecting RAS thermophysical transport model eddyDiffusivity
+writeObjects writeObjects(kEpsilon:G) write:
+--> FOAM Warning : writeObjects: object kEpsilon:G not found in database. Available objects:
+    Cc                                      volVectorField
+    Cf                                      surfaceVectorField
+    Cp                                      volScalarField
+    Cv                                      volScalarField
+    K                                       volScalarField
+    MRFProperties                           dictionary
+    Sf                                      surfaceVectorField
+    T                                       volScalarField
+    U                                       volVectorField
+    UMean                                   volVectorField
+    Vc                                      volScalarField::Internal
+    alphat                                  volScalarField
+    boundary                                polyBoundaryMesh
+    cellZones                               cellZoneList
+    dpdt                                    volScalarField::Internal
+    epsilon                                 volScalarField
+    epsilonMean                             volScalarField
+    faceZones                               faceZoneList
+    faces                                   faceCompactList
+    fvConstraints                           fvConstraints
+    fvModels                                fvModels
+    fvSchemes                               dictionary
+    fvSolution                              dictionary
+    g                                       uniformDimensionedVectorField
+    gh                                      volScalarField
+    ghf                                     surfaceScalarField
+    h                                       volScalarField
+    hRef                                    uniformDimensionedScalarField
+    k                                       volScalarField
+    kMean                                   volScalarField
+    kappa                                   volScalarField
+    magSf                                   surfaceScalarField
+    meshSearch                              meshSearch
+    meshSearchBoundBox                      meshSearchBoundBox
+    momentumTransport                       kEpsilon
+    mu                                      volScalarField
+    nearWallDist                            nearWallDist
+    neighbour                               labelList
+    netForce                                volVectorField
+    nut                                     volScalarField
+    owner                                   labelList
+    p                                       volScalarField
+    pRef                                    uniformDimensionedScalarField
+    p_rgh                                   volScalarField
+    phi                                     surfaceScalarField
+    physicalProperties                      hePsiThermo<pureMixture<const<hConst<perfectGas<specie>>,sensibleEnthalpy>>>
+    pointZones                              pointZoneList
+    points                                  vectorField
+    psi                                     volScalarField
+    psi_0                                   volScalarField
+    rho                                     volScalarField
+    s                                       volScalarField
+    s.dummy                                 volScalarField
+    solutionControl                         pimpleNoLoopControl
+    solver                                  fluid
+    tetBasePtIs                             labelList
+    thermophysicalTransport                 eddyDiffusivity
+    zonesGenerator                          zonesGenerator
+
+diagonal:  Solving for age, Initial residual = 0, Final residual = 0, No Iterations 0
+Field age converged in 0 correctors
+
+Min/max age:0 0.115862518
+    functionObjects::age age writing field: age
+    functionObjects::components components(U) writing field: Ux
+    functionObjects::components components(U) writing field: Uy
+    functionObjects::components components(U) writing field: Uz
+    functionObjects::CourantNo CourantNo writing field: Co
+    functionObjects::cylindrical cylindrical(U,origin=(000),axis=(001)) writing field: cylindrical(U)
+--> FOAM Warning : 
+    From function virtual bool Foam::functionObjects::ddt::calc()
+    in file ddt/ddt.C at line 47
+    ddt is not supported with the foamPostProcess utility
+--> FOAM Warning :     functionObjects::ddt ddt(p) failed to execute.
+    functionObjects::div div(phi) writing field: div(phi)
+    functionObjects::enstrophy enstrophy writing field: enstrophy
+--> FOAM Warning : 
+    From function virtual bool Foam::functionObjects::fieldAverage::execute()
+    in file fieldAverage/fieldAverage.C at line 464
+    fieldAverage is not supported with the foamPostProcess utility
+fieldAverage fieldAverage(U,k,epsilon):
+    Writing average fields
+
+    functionObjects::flowType flowType writing field: flowType
+    functionObjects::grad grad(p) writing field: grad(p)
+    functionObjects::Lambda2 Lambda2 writing field: Lambda2
+    functionObjects::MachNo MachNo writing field: Ma
+    functionObjects::mag mag(U) writing field: mag(U)
+    functionObjects::magSqr magSqr(U) writing field: magSqr(U)
+    functionObjects::PecletNo PecletNo writing field: Pe
+    functionObjects::Q Q writing field: Q
+    functionObjects::randomise randomise(U,magPerturbation=0.1) writing field: randomise(U)
+    functionObjects::reconstruct reconstruct(phi) writing field: reconstruct(phi)
+    functionObjects::scale scale(age,scale=0.1) writing field: scale(age)
+    functionObjects::streamFunction streamFunction calculating steam-function
+        Zero flux boundary face not found. Using cell as a reference.
+    functionObjects::streamFunction streamFunction writing field: streamFunction
+    functionObjects::surfaceInterpolate surfaceInterpolate(rho,result=rhof) writing field: rhof
+    functionObjects::turbulenceFields turbulenceFields(nuEff,R) writing field: nuEff
+    functionObjects::turbulenceFields turbulenceFields(nuEff,R) writing field: R
+turbulenceIntensity turbulenceIntensity write:
+    writing object I
+    I : min = 0.05, max = 1, average = 0.050164493
+
+    functionObjects::vorticity vorticity writing field: vorticity
+wallHeatFlux wallHeatFlux write:
+    writing object wallHeatFlux
+    min, max, Q [W], q [W/m^2] for patch walls = 0, 0, 0, 0
+
+wallHeatTransferCoeff(rho=1.225,Cp=1005,Pr=0.7,Prt=0.9) write:
+    writing object wallHeatTransferCoeff
+    min/max/average(walls) = 6.773294257, 6.773996031, 6.773645144
+
+wallShearStress wallShearStress write:
+    writing object wallShearStress
+    min/max(walls) = (-0.1043980759 -6.027616946e-06 0), (-0.1043872511 6.026883232e-06 0)
+
+    Writing cell-centre field C to 1
+    Writing the x component field of the cell-centres Ccx to 1
+    Writing the y component field of the cell-centres Ccy to 1
+    Writing the z component field of the cell-centres Ccz to 1
+    Writing cell-volumes field Vc to 1
+writeVTK writeVTK(U,p) output:
+Time: 1
+    Internal  : "/home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel/VTK/channel_1.vtk"
+    Original cells:1 points:8   Additional cells:0  additional points:0
+
+    Writing volVectorField field U
+    Writing volScalarField field p
+yPlus yPlus write:
+    writing object yPlus
+    patch walls y+ : min = 9142.289153, max = 9143.328335, average = 9142.808744
+
+    functionObjects::subtract subtract(U,UMean,result=u) writing field: u
+    functionObjects::uniform uniform(fieldType=volScalarField,field=mag(smallU),dimensions=[01-10000],value=1e-16) writing field: mag(smallU)
+    functionObjects::add add(mag(U),mag(smallU),result=stabilise(mag(U))) writing field: stabilise(mag(U))
+    functionObjects::divide divide(u,stabilise(mag(U)),result=uFrac) writing field: uFrac
+    functionObjects::multiply multiply(U,u) writing field: multiply(U,u)
+    functionObjects::uniform uniform(fieldType=volScalarField,field=Ta,dimensions=[0001000],value=297) writing field: Ta
+    functionObjects::divide divide(T,Ta) writing field: divide(T,Ta)
+    functionObjects::log log(divide(T,Ta)) writing field: log(divide(T,Ta))
+forces forcesIncompressible(patches=(walls),rhoInf=1.225,CofR=(000),pitchAxis=(010)) write:
+    sum of forces:
+        pressure : (0 -1.136613 0)
+        viscous  : (0.0208785327 7.337138412e-11 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (0 0 5.412415415e-07)
+        porous   : (0 0 0)
+
+forceCoeffs forceCoeffsIncompressible(patches=(walls),magUInf=20,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)) write:
+    Cm    = 0
+    Cd    = 0.0001043926635
+    Cl    = 0
+    Cl(f) = 0
+    Cl(r) = 0
+
+forces forcesCompressible(patches=(walls),CofR=(000),pitchAxis=(010)) write:
+    sum of forces:
+        pressure : (0 -1.136613 0)
+        viscous  : (0.0208785327 7.337138412e-11 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (0 0 5.412415415e-07)
+        porous   : (0 0 0)
+
+forceCoeffs forceCoeffsCompressible(patches=(walls),magUInf=20,rhoInf=1.225,lRef=1,Aref=1,CofR=(000),liftDir=(001),dragDir=(100),pitchAxis=(010)) write:
+    Cm    = 0
+    Cd    = 8.521850083e-05
+    Cl    = 0
+    Cl(f) = 0
+    Cl(r) = 0
+
+    functionObjects::divide divide(p,rho,result=kinematic(p)) writing field: kinematic(p)
+    functionObjects::pressure staticPressureIncompressible(kinematic(p),rhoInf=1.2) writing field: static(kinematic(p))
+    functionObjects::pressure totalPressureIncompressible(kinematic(p),rhoInf=1.2) writing field: total(kinematic(p))
+    functionObjects::pressure totalPressureCompressible writing field: total(p)
+    functionObjects::uniform uniform(fieldType=volScalarField,field=alpha.dummy,dimensions=[],value=0.2) writing field: alpha.dummy
+scalarTransport execute:
+diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
+
+phaseScalarTransport: Executing
+diagonal:  Solving for phaseScalarTransport:Phi.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for s.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
+
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward) write:
+    Seeded 62 particles
+    Sampled 372 locations
+
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward) write:
+    Seeded 100 particles
+    Sampled 600 locations
+
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100) write:
+    Seeded 100 particles
+    Sampled 1200 locations
+
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward) write:
+    Seeded 3 particles
+    Sampled 18 locations
+
+surfaceFieldValue patchAverage(k,patch=inlet) write:
+    areaAverage(inlet) of k = 0.279347834
+
+surfaceFieldValue patchIntegrate(epsilon,patch=inlet) write:
+    areaIntegrate(inlet) of epsilon = 0.002426050544
+
+surfaceFieldValue patchFlowRate(patch=inlet) write:
+    sum(inlet) of phi = -1
+
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region1 write:
+    areaAverage(inlet) of p = 100000.1926
+
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region2 write:
+    areaAverage(outlet) of p = 100000
+
+fieldValueDelta patchDifference(p,patch1=inlet,patch2=outlet) write:
+    subtract(p) = 0.1926
+
+surfaceFieldValue faceZoneAverage(U,faceZone=f0) write:
+    areaAverage(f0) of U = (8.630918592 0 0)
+
+surfaceFieldValue faceZoneFlowRate(faceZone=f0) write:
+    orientedSum(f0) of phi = -1
+
+surfaceFieldValue triSurfaceAverage(p,triSurface=mid.obj) write:
+    areaAverage(triSurfaceAverage(p,triSurface=mid.obj)) of p = 100000.1566
+
+surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj) write:
+    areaNormalIntegrate(triSurfaceVolumetricFlowRate(triSurface=mid.obj)) of U = -0.5393670191
+
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1 write:
+    areaAverage(triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1) of p = 100000.1902
+
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2 write:
+    areaAverage(triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2) of p = 100000.1036
+
+fieldValueDelta triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj) write:
+    subtract(p) = 0.08666999999
+
+volFieldValue cellMin(epsilon) write:
+    min(all) of epsilon = 0.1115927051 at location (0 0 0) in cell 0
+
+volFieldValue cellMax(k) write:
+    max(all) of k = 0.2810915044 at location (0 0 0) in cell 0
+
+volFieldValue cellMinMag(U,writeLocation=yes) write:
+    minMag(all) of U = 8.629423898 at location (0 0 0) in cell 0
+
+volFieldValue cellMaxMag(U,writeLocation=yes) write:
+    maxMag(all) of U = 8.629423898 at location (0 0 0) in cell 0
+
+volFieldValue volAverage(p) write:
+    volAverage(all) of p = 100000.1926
+
+volFieldValue volIntegrate(rho) write:
+    volIntegrate(all) of rho = 0.1158625186
+
+
+End
+

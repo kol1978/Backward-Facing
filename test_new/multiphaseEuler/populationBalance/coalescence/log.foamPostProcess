@@ -1,0 +1,150 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : foamPostProcess -solver multiphaseEuler -func populationBalanceSetPhaseSizeDistribution
+Date   : Jun 23 2026
+Time   : 14:27:29
+Host   : "kol-serv"
+PID    : 1372740
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/multiphaseEuler/populationBalance/coalescence
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting distribution type multiFixedValue
+    min/average/max value = 0.0264722/0.371302/0.810482
+Time = 0s
+Selecting solver multiphaseEuler
+No MRF models present
+
+Selecting phaseModel for air1: pureIsothermalPhaseModel
+Selecting diameterModel for phase air1: velocityGroup
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.air1
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+Selecting phaseModel for air2: pureIsothermalPhaseModel
+Selecting diameterModel for phase air2: velocityGroup
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.air2
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+Selecting phaseModel for air3: pureIsothermalPhaseModel
+Selecting diameterModel for phase air3: velocityGroup
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.air3
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+Selecting phaseModel for water: pureIsothermalPhaseModel
+Selecting diameterModel for phase water: none
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+Calculating face flux field phi.water
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+Setting up population balance: bubbles
+Selecting coalescence model for bubbles: constant
+Courant Number mean: 0 max: 0
+
+populationBalanceSetPhaseSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air1
+    Writing f16.air1
+    Writing f17.air1
+    Writing f18.air1
+    Writing f19.air1
+    Writing f20.air1
+    Writing f21.air1
+    Writing f22.air1
+    Writing f23.air1
+    Writing f24.air1
+    Writing f25.air1
+    Writing f26.air1
+    Writing f27.air1
+    Writing f28.air1
+    Writing f29.air1
+    Writing f30.air1
+    Writing f31.air1
+    Writing f32.air1
+    Writing f33.air1
+    Writing f34.air1
+    Writing f35.air1
+    Writing f36.air1
+    Writing f37.air1
+    Writing f38.air1
+    Writing f39.air1
+    Writing f40.air1
+    Writing f41.air1
+    Writing f42.air1
+    Writing f43.air1
+    Writing f44.air1
+    Writing f45.air1
+    Writing f46.air1
+
+End
+

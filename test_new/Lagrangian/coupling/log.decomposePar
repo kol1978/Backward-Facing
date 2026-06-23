@@ -1,0 +1,147 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : decomposePar
+Date   : Jun 23 2026
+Time   : 13:54:13
+Host   : "kol-serv"
+PID    : 1256220
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Calculating distribution of cells
+
+Selecting decomposer hierarchical
+
+Finished decomposition in 0.000239 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 100
+    Number of faces shared with processor 1 = 10
+    Number of faces shared with processor 2 = 10
+    Number of processor patches = 2
+    Number of processor faces = 20
+    Number of boundary faces = 220
+
+Processor 1
+    Number of cells = 100
+    Number of faces shared with processor 0 = 10
+    Number of faces shared with processor 3 = 10
+    Number of processor patches = 2
+    Number of processor faces = 20
+    Number of boundary faces = 220
+
+Processor 2
+    Number of cells = 100
+    Number of faces shared with processor 0 = 10
+    Number of faces shared with processor 3 = 10
+    Number of processor patches = 2
+    Number of processor faces = 20
+    Number of boundary faces = 220
+
+Processor 3
+    Number of cells = 100
+    Number of faces shared with processor 1 = 10
+    Number of faces shared with processor 2 = 10
+    Number of processor patches = 2
+    Number of processor faces = 20
+    Number of boundary faces = 220
+
+Number of processor faces = 40
+Max number of cells = 100 (0% above average 100)
+Max number of processor patches = 2 (0% above average 2)
+Max number of faces between processors = 20 (0% above average 20)
+
+Time = 0s
+
+Decomposing FV fields
+
+    Decomposing volScalarFields
+
+        p
+        nut
+        k
+Expanding #calc at line 21 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/0/k"
+Creating new library in "dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27/platforms/linux64GccDPInt64Opt/lib/libcodeStream_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_044c02816cf3ccdce6bf55fbe1eb3be6061f5a27'
+        epsilon
+Expanding #calc at line 21 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/0/epsilon"
+Expanding #calc at line 21 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/0/k"
+Creating new library in "dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395/platforms/linux64GccDPInt64Opt/lib/libcodeStream_0c6e03d575dffb16bb196ee2ef1f507e298fa395.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_0c6e03d575dffb16bb196ee2ef1f507e298fa395.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/dynamicCode/_0c6e03d575dffb16bb196ee2ef1f507e298fa395'
+Expanding #calc at line 21 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/coupling/0/k"
+
+    Decomposing volVectorFields
+
+        U
+
+Decomposing point fields
+
+    (no point fields)
+
+Decomposing Lagrangian fields for kinematicParcel_functionObject
+
+    Decomposing LagrangianScalarFields
+
+        number
+        d
+
+    Decomposing LagrangianVectorFields
+
+        U
+
+Decomposing Lagrangian fields for kinematicParcel
+
+    Decomposing LagrangianScalarFields
+
+        number
+        d
+
+    Decomposing LagrangianVectorFields
+
+        U
+
+End
+

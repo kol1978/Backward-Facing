@@ -1,0 +1,261 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       surfaceScalarField;
+    location    "0.04";
+    object      kinematicParticle:phiNumberColl;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 -1 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    open0
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    open1
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    open2
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    open3
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetry0
+    {
+        type            symmetry;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetry1
+    {
+        type            symmetry;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetry2
+    {
+        type            symmetry;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetry3
+    {
+        type            symmetry;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetryPlane0
+    {
+        type            symmetryPlane;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetryPlane1
+    {
+        type            symmetryPlane;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetryPlane2
+    {
+        type            symmetryPlane;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    symmetryPlane3
+    {
+        type            symmetryPlane;
+        value           uniform 0;
+    }
+    cyclic0
+    {
+        type            cyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    cyclic1
+    {
+        type            cyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    cyclic2
+    {
+        type            cyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    cyclic3
+    {
+        type            cyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonCouple0
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonCouple1
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonCouple2
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonCouple3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    backEmpty0
+    {
+        type            empty;
+    }
+    frontEmpty1
+    {
+        type            empty;
+    }
+    backWedge0
+    {
+        type            wedge;
+        value           uniform 0;
+    }
+    frontWedge1
+    {
+        type            wedge;
+        value           uniform 0;
+    }
+    walls
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    slab_on_nonCouple0
+    {
+        type            nonConformalCyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    slab_on_nonCouple1
+    {
+        type            nonConformalCyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    wedge_on_nonCouple2
+    {
+        type            nonConformalCyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    wedge_on_nonCouple3
+    {
+        type            nonConformalCyclic;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonConformalError_on_nonCouple0
+    {
+        type            nonConformalError;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonConformalError_on_nonCouple1
+    {
+        type            nonConformalError;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonConformalError_on_nonCouple2
+    {
+        type            nonConformalError;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    nonConformalError_on_nonCouple3
+    {
+        type            nonConformalError;
+        value           nonuniform List<scalar> 
+0
+;
+    }
+    procBoundary2to1
+    {
+        type            processor;
+        value           uniform 0;
+    }
+    procBoundary2to1throughcyclic3
+    {
+        type            processorCyclic;
+        value           uniform 0;
+    }
+    procBoundary2to1throughwedge_on_nonCouple3
+    {
+        type            nonConformalProcessorCyclic;
+        value           uniform 0;
+    }
+    procBoundary2to5
+    {
+        type            processor;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

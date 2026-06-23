@@ -1,0 +1,765 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : reconstructPar
+Date   : Jun 23 2026
+Time   : 13:54:12
+Host   : "kol-serv"
+PID    : 1256138
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #4 with centre (0.211054 0.107918 -0.0101225) the normal (1.54264e-07 -0.0523367 -0.998629) differs from the average normal (1.1674e-08 -0.0523362 -0.99863) by 3.34522e-13
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #4 with centre (0.211054 0.107918 0.0101225) the normal (1.54264e-07 -0.0523367 0.998629) differs from the average normal (1.1674e-08 -0.0523362 0.99863) by 3.34522e-13
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #0 with centre (0.23942 0.116634 -0.0105794) the normal (4.08452e-08 -0.0523368 -0.998629) differs from the average normal (-2.48013e-08 -0.052336 -0.99863) by 5.49057e-13
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #0 with centre (0.23942 0.116634 0.0105794) the normal (4.08452e-08 -0.0523368 0.998629) differs from the average normal (-2.48013e-08 -0.052336 0.99863) by 5.49057e-13
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #171 with centre (0.219097 0.140362 -0.0118229) the normal (1.05919e-07 -0.0523367 -0.998629) differs from the average normal (-6.69935e-08 -0.0523355 -0.99863) by 1.71148e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #171 with centre (0.219097 0.140362 0.0118229) the normal (1.05919e-07 -0.0523367 0.998629) differs from the average normal (-6.69935e-08 -0.0523355 0.99863) by 1.71148e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #121 with centre (0.237013 0.162571 -0.0129868) the normal (-9.19017e-08 -0.0523342 -0.99863) differs from the average normal (3.04534e-08 -0.0523356 -0.99863) by 1.9523e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #121 with centre (0.237013 0.162571 0.0129868) the normal (-9.19017e-08 -0.0523342 0.99863) differs from the average normal (3.04534e-08 -0.0523356 0.99863) by 1.9523e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 -0.0140613) the normal (3.47094e-07 -0.0523343 -0.99863) differs from the average normal (-8.78993e-09 -0.0523358 -0.99863) by 2.52169e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 0.0140613) the normal (3.47094e-07 -0.0523343 0.99863) differs from the average normal (-8.78993e-09 -0.0523358 0.99863) by 2.52169e-12
+
+Time = 0.01s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.02s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.03s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.04s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.05s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.06s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.07s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.08s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.09s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.1s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.11s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.12s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.13s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.14s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.15s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.16s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.17s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.18s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.19s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+Time = 0.2s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarField::Internals
+
+        kinematicParticle:alpha
+        kinematicParticle:Av
+
+    Reconstructing surfaceScalarFields
+
+        kinematicParticle:phiNumberColl
+        kinematicParticle:phiv
+        kinematicParticle:phiNumber
+
+Reconstructing point fields
+
+    (no point fields)
+
+Reconstructing Lagrangian fields for kinematicParticle
+
+    Reconstructing LagrangianScalarFields
+
+        v
+        d
+        a
+        age
+
+    Reconstructing LagrangianVectorFields
+
+        U
+
+Collecting uniform files
+
+End
+

@@ -1,0 +1,298 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       LagrangianVectorField;
+    location    "0.02/Lagrangian/kinematicParticle";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   nonuniform List<vector> 
+0
+;
+
+boundaryField
+{
+    open0
+    {
+        type            escapeVelocity;
+    }
+    open1
+    {
+        type            escapeVelocity;
+    }
+    open2
+    {
+        type            escapeVelocity;
+    }
+    open3
+    {
+        type            escapeVelocity;
+    }
+    symmetry0
+    {
+        type            symmetry;
+    }
+    symmetry1
+    {
+        type            symmetry;
+    }
+    symmetry2
+    {
+        type            symmetry;
+    }
+    symmetry3
+    {
+        type            symmetry;
+    }
+    symmetryPlane0
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane1
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane2
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane3
+    {
+        type            symmetryPlane;
+    }
+    cyclic0
+    {
+        type            cyclic;
+    }
+    cyclic1
+    {
+        type            cyclic;
+    }
+    cyclic2
+    {
+        type            cyclic;
+    }
+    cyclic3
+    {
+        type            cyclic;
+    }
+    nonCouple0
+    {
+        type            reboundVelocity;
+        e               0.97;
+        mu              0.09;
+    }
+    nonCouple1
+    {
+        type            reboundVelocity;
+        e               0.97;
+        mu              0.09;
+    }
+    nonCouple2
+    {
+        type            reboundVelocity;
+        e               0.97;
+        mu              0.09;
+    }
+    nonCouple3
+    {
+        type            reboundVelocity;
+        e               0.97;
+        mu              0.09;
+    }
+    backEmpty0
+    {
+        type            empty;
+    }
+    frontEmpty1
+    {
+        type            empty;
+    }
+    backWedge0
+    {
+        type            wedge;
+    }
+    frontWedge1
+    {
+        type            wedge;
+    }
+    walls
+    {
+        type            reboundVelocity;
+        e               0.97;
+        mu              0.09;
+    }
+    slab_on_nonCouple0
+    {
+        type            nonConformalCyclic;
+    }
+    slab_on_nonCouple1
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple2
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple3
+    {
+        type            nonConformalCyclic;
+    }
+    nonConformalError_on_nonCouple0
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple1
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple2
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple3
+    {
+        type            nonConformalError;
+    }
+    procBoundary5to1
+    {
+        type            processor;
+    }
+    procBoundary5to2
+    {
+        type            processor;
+    }
+    procBoundary5to4
+    {
+        type            processor;
+    }
+}
+
+sources
+{
+    injectionWedgeSymmetryPlane
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1.2 -0.2 0);
+        }
+    }
+    injectionWedgeSymmetry
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1.2 -0.2 0);
+        }
+    }
+    injectionWedgeCyclic
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1 -0.4 0);
+        }
+    }
+    injectionSlabOpen
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1 0 2);
+        }
+    }
+    injectionSlabNonConformalCyclic
+    {
+        type            coneVelocity;
+        Umean           
+        {
+            type            constant;
+            value           (1.2 -0.18 0);
+        }
+        thetaInner      
+        {
+            type            constant;
+            value           0;
+        }
+        thetaOuter      
+        {
+            type            constant;
+            value           1;
+        }
+        rndGen          6148991914778964750;
+    }
+    injectionWedgeNonConformalCyclic
+    {
+        type            coneVelocity;
+        Umean           
+        {
+            type            constant;
+            value           (0.6 -0.22 0);
+        }
+        thetaInner      
+        {
+            type            constant;
+            value           0;
+        }
+        thetaOuter      
+        {
+            type            constant;
+            value           1;
+        }
+        rndGen          6148930447146300174;
+    }
+    injectionSlabSymmetry
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1.2 -0.1 0);
+        }
+    }
+    injectionSlabSymmetryPlane
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1.2 -0.1 0);
+        }
+    }
+    injectionSlabCyclic
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (2 -0.1 0);
+        }
+    }
+    injectionWedgeOpen
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           (1 0 2);
+        }
+    }
+}
+
+
+// ************************************************************************* //
