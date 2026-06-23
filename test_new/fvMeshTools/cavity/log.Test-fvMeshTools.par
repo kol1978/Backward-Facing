@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : Test-fvMeshTools -parallel
+Date   : Jun 23 2026
+Time   : 14:25:25
+Host   : "kol-serv"
+PID    : 1365359
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/fvMeshTools/cavity
+nProcs : 3
+Slaves : 
+2
+(
+"kol-serv.1365360"
+"kol-serv.1365361"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading geometric fields
+
+Reading volScalarField p
+Reading volVectorField U
+Reading pointVectorField pointDisplacement
+Inserted patch myWall type wall at index 4
+Writing mesh with added patch to 0.005
+Removing patch zeroSizedPatch
+Writing mesh with removed patch to 0.01
+[1] Inserted patch procBoundary1to0_extra type processor at index 5
+[0] Inserted patch procBoundary0to1_extra type processor at index 5
+Writing mesh with added (local) patch to 0.015
+[1] Removing patch procBoundary1to0_extra
+[0] Removing patch procBoundary0to1_extra
+Writing mesh with removed (local) patch to 0.02
+End
+
+Finalising parallel run

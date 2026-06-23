@@ -1,0 +1,214 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       LagrangianScalarField;
+    location    "0.18/Lagrangian/kinematicParticle";
+    object      a;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 0 0 0 0 0];
+
+internalField   uniform 3.14159e-06;
+
+boundaryField
+{
+    open0
+    {
+        type            calculated;
+    }
+    open1
+    {
+        type            calculated;
+    }
+    open2
+    {
+        type            calculated;
+    }
+    open3
+    {
+        type            calculated;
+    }
+    symmetry0
+    {
+        type            symmetry;
+    }
+    symmetry1
+    {
+        type            symmetry;
+    }
+    symmetry2
+    {
+        type            symmetry;
+    }
+    symmetry3
+    {
+        type            symmetry;
+    }
+    symmetryPlane0
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane1
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane2
+    {
+        type            symmetryPlane;
+    }
+    symmetryPlane3
+    {
+        type            symmetryPlane;
+    }
+    cyclic0
+    {
+        type            cyclic;
+    }
+    cyclic1
+    {
+        type            cyclic;
+    }
+    cyclic2
+    {
+        type            cyclic;
+    }
+    cyclic3
+    {
+        type            cyclic;
+    }
+    nonCouple0
+    {
+        type            calculated;
+    }
+    nonCouple1
+    {
+        type            calculated;
+    }
+    nonCouple2
+    {
+        type            calculated;
+    }
+    nonCouple3
+    {
+        type            calculated;
+    }
+    backEmpty0
+    {
+        type            empty;
+    }
+    frontEmpty1
+    {
+        type            empty;
+    }
+    backWedge0
+    {
+        type            wedge;
+    }
+    frontWedge1
+    {
+        type            wedge;
+    }
+    walls
+    {
+        type            calculated;
+    }
+    slab_on_nonCouple0
+    {
+        type            nonConformalCyclic;
+    }
+    slab_on_nonCouple1
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple2
+    {
+        type            nonConformalCyclic;
+    }
+    wedge_on_nonCouple3
+    {
+        type            nonConformalCyclic;
+    }
+    nonConformalError_on_nonCouple0
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple1
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple2
+    {
+        type            nonConformalError;
+    }
+    nonConformalError_on_nonCouple3
+    {
+        type            nonConformalError;
+    }
+    procBoundary3to0
+    {
+        type            processor;
+    }
+    procBoundary3to1
+    {
+        type            processor;
+    }
+    procBoundary3to4
+    {
+        type            processor;
+    }
+}
+
+sources
+{
+    injectionWedgeSymmetryPlane
+    {
+        type            surfaceArea;
+    }
+    injectionWedgeSymmetry
+    {
+        type            surfaceArea;
+    }
+    injectionWedgeCyclic
+    {
+        type            surfaceArea;
+    }
+    injectionSlabOpen
+    {
+        type            surfaceArea;
+    }
+    injectionSlabNonConformalCyclic
+    {
+        type            surfaceArea;
+    }
+    injectionWedgeNonConformalCyclic
+    {
+        type            surfaceArea;
+    }
+    injectionSlabSymmetry
+    {
+        type            surfaceArea;
+    }
+    injectionSlabSymmetryPlane
+    {
+        type            surfaceArea;
+    }
+    injectionSlabCyclic
+    {
+        type            surfaceArea;
+    }
+    injectionWedgeOpen
+    {
+        type            surfaceArea;
+    }
+}
+
+
+// ************************************************************************* //

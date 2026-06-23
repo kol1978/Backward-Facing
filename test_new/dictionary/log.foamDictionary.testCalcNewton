@@ -1,0 +1,52 @@
+Expanding #calc at line 22 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/testCalcNewton"
+Creating new library in "dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3/platforms/linux64GccDPInt64Opt/lib/libcodeStream_641f95684784eed814a0f34ef8e8d22c7cac38d3.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3
+    ln: ./lnInclude
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_641f95684784eed814a0f34ef8e8d22c7cac38d3.so
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_641f95684784eed814a0f34ef8e8d22c7cac38d3'
+Creating new library in "dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da/platforms/linux64GccDPInt64Opt/lib/libcodeStream_90e385fd061b161280caa4c5ddaf0b1c230864da.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da
+    ln: ./lnInclude
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_90e385fd061b161280caa4c5ddaf0b1c230864da.so
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/dictionary/dynamicCode/_90e385fd061b161280caa4c5ddaf0b1c230864da'
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+//
+// "testCalcNewton"
+//
+FoamFile
+{
+    format          ascii;
+    class           dictionary;
+    object          testCalcNewton;
+}
+
+A               1;
+
+B               1;
+
+x               0.53101;
+
+x0              -2;
+
+xn              2;
+
+n               101;
+
+
+// ************************************************************************* //

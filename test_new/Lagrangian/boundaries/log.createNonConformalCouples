@@ -1,0 +1,135 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-19a3d5400c8c
+Exec   : createNonConformalCouples -overwrite
+Date   : Jun 23 2026
+Time   : 13:54:03
+Host   : "kol-serv"
+PID    : 1255036
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "createNonConformalCouplesDict"
+
+Expanding #calc at line 27 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/system/createNonConformalCouplesDict"
+Creating new library in "dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d/platforms/linux64GccDPInt64Opt/lib/libcodeStream_1945fa97f63132ebcf247da5a7b092022c4aba3d.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_1945fa97f63132ebcf247da5a7b092022c4aba3d.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_1945fa97f63132ebcf247da5a7b092022c4aba3d'
+Expanding #calc at line 39 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/system/createNonConformalCouplesDict"
+Creating new library in "dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3/platforms/linux64GccDPInt64Opt/lib/libcodeStream_95b89792b35a55cd4f422c0189b35d35b5faf0a3.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_95b89792b35a55cd4f422c0189b35d35b5faf0a3.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_95b89792b35a55cd4f422c0189b35d35b5faf0a3'
+Expanding #calc at line 40 in file "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/system/createNonConformalCouplesDict"
+Creating new library in "dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/platforms/linux64GccDPInt64Opt/lib/libcodeStream_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a.so"
+"/home/kol/OpenFOAM/OpenFOAM-13/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-13/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'backWedge0' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 -0.0140613) the normal (3.47094e-07 -0.0523343 -0.99863) differs from the average normal (-8.78993e-09 -0.0523358 -0.99863) by 2.52169e-12
+
+--> FOAM Warning : 
+    From function virtual void Foam::wedgePolyPatch::calcGeometry(Foam::PstreamBuffers&)
+    in file meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.C at line 231
+    Wedge patch 'frontWedge1' may not be sufficiently planar
+At patch face #393 with centre (0.3041 0.183074 0.0140613) the normal (3.47094e-07 -0.0523343 0.99863) differs from the average normal (-8.78993e-09 -0.0523358 0.99863) by 2.52169e-12
+
+Deprecated option 'overwrite' specified, this is now the default behaviour
+
+Adding nonConformalCyclic interfaces between patches: 
+    (nonCouple0 nonCouple1)
+In regions: 
+    (region0 region0)
+Named:
+    (slab_on_nonCouple0 slab_on_nonCouple1)
+With transform: 
+    transformType   translational;
+    separation      (-0.1 0 0);
+
+Adding nonConformalCyclic interfaces between patches: 
+    (nonCouple2 nonCouple3)
+In regions: 
+    (region0 region0)
+Named:
+    (wedge_on_nonCouple2 wedge_on_nonCouple3)
+With transform: 
+    transformType   rotational;
+    rotationAxis    (0 0 1);
+    rotationCentre  (0.25 -0.0852315 0);
+    rotationAngle   24;
+
+patchToPatch: Calculating couplings between ...
+    source patch nonCouple0 with 10 faces and ...
+    target patch nonCouple1 with 10 faces ...
+    with transformation separation=(-0.1 0 0)
+    Source min/average/max coverage = 1/1/1
+    Target min/average/max coverage = 0/0.666667/1
+    Source average openness/error/depth/angle = 8.47033e-17/1.52285e-16/0/0
+    Source max openness/error/depth/angle = 1.69407e-16/6.88299e-16/0/0
+    30 couplings calculated in 0.001298s
+patchToPatch: Calculating couplings between ...
+    source patch nonCouple2 with 10 faces and ...
+    target patch nonCouple3 with 10 faces ...
+    with transformation axis=(0 0 1), centre=(0.25 -0.0852315 0), angle=24
+    Source min/average/max coverage = 1/1/1
+    Target min/average/max coverage = 0/0.730019/1
+    Source average openness/error/depth/angle = 1.20101e-16/1.66389e-05/5.63887e-05/0.00071941
+    Source max openness/error/depth/angle = 2.89665e-16/0.000166389/7.97404e-05/0.000719411
+    32 couplings calculated in 0.001087s
+fvMeshStitcher: Connecting
+    Cell min/average/max openness = 0/6.77242e-17/9.82479e-16
+    Cell min/average/max projected volume fraction = 0/0.250001/0.500215
+--> FOAM Warning : 
+    From function bool Foam::fvMeshStitcher::connectThis(bool, bool, bool)
+    in file fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.C at line 1954
+    Maximum projected volume fraction 0.500215 may cause instability.
+    Volumetric distortion can be minimised by making the side of the interface
+    with smaller or more finely layered cells the neighbour.
+    This is done by specifying this side second to createNonConformalCouples;
+    either on the command line, or in the patches (and regions) entries within
+    the createNonConformalCouplesDict.
+
+Writing mesh to 0
+
+End
+
