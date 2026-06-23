@@ -260,7 +260,6 @@ while (inputFile >> time >> pressure) {
 #include "IOstream.H" // Для Foam::InfoProxy
 #include <iostream>
 #include <fstream>
-#include "tensor.H"
 using namespace Foam;
 using namespace std;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
