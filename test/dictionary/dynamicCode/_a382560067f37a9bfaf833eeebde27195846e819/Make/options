@@ -1,0 +1,9 @@
+# dynamicCode:
+# SHA1 = a382560067f37a9bfaf833eeebde27195846e819
+
+EXE_INC = -g \
+-I$(LIB_SRC)/sampling/lnInclude
+
+LIB_LIBS = \
+    -lOpenFOAM \
+-lsampling
