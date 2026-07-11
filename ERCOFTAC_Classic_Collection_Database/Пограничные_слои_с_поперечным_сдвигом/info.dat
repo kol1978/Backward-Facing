@@ -1,0 +1,137 @@
+------------------------------------------------------------------------
+                        IDENTIFICATION OF FILES
+------------------------------------------------------------------------
+
+NOZZLE GEOMETRY
+---------------
+BOTT_C01.DAT		Computed bottom streamline
+ROOF_C01.DAT		Computed roof streamline
+
+BOTT_M01.DAT		Measured bottom streamline, 3Dc y=80 mm
+BOTT_M02.DAT		Measured bottom streamline, 3Dc y=40 mm
+BOTT_M03.DAT		Measured bottom streamline, 3Dc y=8 mm
+BOTT_M04.DAT		Measured bottom streamline, 3Dd y=40 mm
+
+
+TWO-DIMENSIONAL NOZZLE (2D)
+---------------------------
+2_PST01.DAT		static pressure
+
+2_CFC01.DAT		Cf spanwise, Preston D=1 mm, x=0
+2_CFC02.DAT		Cf spanwise, Preston D=1 mm, x=1000 mm
+2_CFC03.DAT		Cf spanwise, Preston D=1 mm, x=2000 mm
+
+2_CFS01.DAT		Cf streamwise, Preston D=1 mm, z=0
+2_CFS02.DAT		Cf streamwise, skin-friction balance, z=0
+
+2_P1S01.DAT		mean velocity profiles centerline, pitot D=1 mm
+2_P1S02.DAT		integral parameters centerline
+
+2_P3C01.DAT		mean velocity profiles, 3-hole, x=0
+2_P3C02.DAT		mean velocity profiles, 3-hole, x=2000
+2_P3C03.DAT		integral parameters, x=0
+
+2_HWS01.DAT		turbulence profiles centerline, X-wire (U,V)-plane
+2_HWS02.DAT		turbulence profiles centerline, X-wire (U,W)-plane
+
+THREE-DIMENSIONAL CONVERGING NOZZLE (3Dc)
+-----------------------------------------
+3C_PST01.DAT		static pressure
+
+3C_CFC01.DAT		Cf spanwise, Preston D=1 mm, x=0
+3C_CFC02.DAT		Cf spanwise, Preston D=1 mm
+3C_CFC03.DAT		Cf spanwise, Preston D=1 mm
+
+3C_CFS01.DAT		Cf streamwise, Preston D=1 mm, z=0
+3C_CFS02.DAT		Cf streamwise, skin-friction balance, z=0
+
+3C_P1S01.DAT		mean velocity profiles centerline, pitot D=1 mm
+3C_P1S02.DAT		integral parameters centerline
+
+3C_P3S01.DAT		mean velocity profiles, 3-hole, z=-200 mm
+3C_P3S11.DAT		mean velocity profiles, 3-hole, z=-200 mm
+3C_P3S02.DAT		mean velocity profiles, 3-hole, z=-150 mm
+3C_P3S03.DAT		mean velocity profiles, 3-hole, z=-100 mm
+3C_P3S04.DAT		mean velocity profiles, 3-hole, z=0
+3C_P3S05.DAT		mean velocity profiles, 3-hole, z=100 mm
+3C_P3S06.DAT		mean velocity profiles, 3-hole, z=150 mm
+3C_P3S07.DAT		mean velocity profiles, 3-hole, z=200 mm
+3C_P3S71.DAT		mean velocity profiles, 3-hole, z=200 mm
+
+3C_P3C01.DAT		mean velocity profiles, 3-hole, x=0
+3C_P3C02.DAT		mean velocity profiles, 3-hole, x=50 mm
+3C_P3C03.DAT		mean velocity profiles, 3-hole, x=900 mm
+3C_P3C04.DAT		mean velocity profiles, 3-hole, x=1000 mm
+3C_P3C05.DAT		mean velocity profiles, 3-hole, x=1100 mm
+3C_P3C06.DAT		mean velocity profiles, 3-hole, x=2500 mm
+
+3C_P3Y01.DAT		mean velocity, plane y=100 mm, 3-hole
+3C_P3Y02.DAT		mean velocity, plane y=10 mm, 3-hole
+3C_P3Y03.DAT		mean velocity, plane y=0.2 mm, 3-hole
+
+3C_P5E01.DAT		Ue(x,z), 5-hole, z>0
+3C_P5E02.DAT		Ue(x,z), 5-hole, z<0
+
+3C_P5X01.DAT		mean velocity, plane x=0, 5-hole
+3C_P5X02.DAT		mean velocity, plane x=500 mm, 5-hole
+3C_P5X03.DAT		mean velocity, plane x=1000 mm, 5-hole
+3C_P5X04.DAT		mean velocity, plane x=1500 mm, 5-hole
+3C_P5X05.DAT		mean velocity, plane x=2000 mm, 5-hole
+3C_P5X06.DAT		mean velocity, plane x=2500 mm, 5-hole
+
+3C_P5Y01.DAT		mean velocity, plane y=100 mm, 5-hole
+
+3C_HWS01.DAT		turbulence profiles centerline, X-wire (U,V)-plane
+3C_HWS02.DAT		turbulence profiles centerline, X-wire (U,W)-plane
+
+3C_HWC01.DAT		turbulence profiles, rotatable X-wire,x=1000 mm
+
+
+THREE-DIMENSIONAL DIVERGING NOZZLE (3Dd)
+-----------------------------------------
+3D_PST01.DAT		static pressure
+
+3D_CFC01.DAT		Cf spanwise, Preston D=1 mm, x=0
+3D_CFC02.DAT		Cf spanwise, Preston D=1 mm
+
+3D_CFS01.DAT		Cf streamwise, Preston D=1 mm, z=0
+3D_CFS02.DAT		Cf streamwise, Preston D=0.5 mm, z=0
+3D_CFS03.DAT		Cf streamwise, skin-friction balance, z=0
+
+3D_P1S01.DAT		mean velocity profiles centerline, pitot D=1 mm
+3D_P1S02.DAT		integral parameters centerline
+
+3D_P3S01.DAT		mean velocity profiles, 3-hole, z=-200 mm
+3D_P3S02.DAT		mean velocity profiles, 3-hole, z=-150 mm
+3D_P3S03.DAT		mean velocity profiles, 3-hole, z=-100 mm
+3D_P3S04.DAT		mean velocity profiles, 3-hole, z=0
+3D_P3S05.DAT		mean velocity profiles, 3-hole, z=100 mm
+3D_P3S06.DAT		mean velocity profiles, 3-hole, z=150 mm
+3D_P3S07.DAT		mean velocity profiles, 3-hole, z=200 mm
+
+3D_P3C01.DAT		mean velocity profiles, 3-hole, x=0
+3D_P3C02.DAT		mean velocity profiles, 3-hole, x=50 mm
+3D_P3C03.DAT		mean velocity profiles, 3-hole, x=900 mm
+3D_P3C04.DAT		mean velocity profiles, 3-hole, x=1000 mm
+3D_P3C05.DAT		mean velocity profiles, 3-hole, x=1100 mm
+3D_P3C06.DAT		mean velocity profiles, 3-hole, x=2500 mm
+
+3D_P3Y01.DAT		mean velocity, plane y=100 mm, 3-hole
+3D_P3Y03.DAT		mean velocity, plane y=0.2 mm, 3-hole
+
+3D_P5E01.DAT		Ue(x,z), 5-hole, z>0
+3D_P5E02.DAT		Ue(x,z), 5-hole, z<0
+
+3D_P5X01.DAT		mean velocity, plane x=0, 5-hole
+3D_P5X02.DAT		mean velocity, plane x=500 mm, 5-hole
+3D_P5X03.DAT		mean velocity, plane x=1000 mm, 5-hole
+3D_P5X04.DAT		mean velocity, plane x=1500 mm, 5-hole
+3D_P5X05.DAT		mean velocity, plane x=2000 mm, 5-hole
+3D_P5X06.DAT		mean velocity, plane x=2500 mm, 5-hole
+
+3D_P5Y01.DAT		mean velocity, plane y=100 mm, 5-hole
+
+3D_HWS01.DAT		turbulence profiles centerline, X-wire (U,V)-plane
+3D_HWS02.DAT		turbulence profiles centerline, X-wire (U,W)-plane
+
+3D_HWC01.DAT		turbulence profiles, rotatable X-wire,x=1000 mm
