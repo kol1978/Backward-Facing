@@ -24,10 +24,8 @@ Build  : 12-0b487fc98b88<br>
 Exec   : decomposePar -force<br>
 Date   : Jun 23 2026<br>
 Time   : 10:49:26<br>
-Host   : "kol-serv"<br>
-PID    : 759586<br>
 I/O    : uncollated<br>
-Case   : /home/kol/OpenFOAM/kol-12/run/pitzDaily/pitzDaily_RUN/Backward-Facing_github/Backward-Facing<br>
+Case   : Backward-Facing<br>
 nProcs : 1<br>
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).<br>
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)<br>
