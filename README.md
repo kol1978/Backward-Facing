@@ -586,7 +586,7 @@ make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: M
 Примеры графиков по выбранным показателям доступны - http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030-plots <br>
 Данные можно скачать в виде сжатых архивов по ссылкам ниже или в виде отдельных файлов: <br>
 bfst-allfiles.zip - http://cfd.mace.manchester.ac.uk/ercoftac/lib/exe/fetch.php?media=cdata:case030:bfst-allfiles.zip <br>
-bfst-allfiles.tar.gz - http:/cfd.mace.manchester.ac.uk/ercoftac/lib/exe/fetch.php?media=cdata:case030:bfst-allfiles.tar.gz <br>
+bfst-allfiles.tar.gz -  http://cfd.mace.manchester.ac.uk/ercoftac/lib/exe/fetch.php?media=cdata:case030:bfst-allfiles.tar.gz <br>
 
 bkst-ldv-00.dat Профили средней скорости, напряжений Рейнольдса и тройных моментов для α=0° (знак градуса °) <br>
 bkstldv-06.dat Профили средней скорости, напряжений Рейнольдса и тройных моментов для α=6° <br>
