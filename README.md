@@ -603,6 +603,19 @@ ldv-06.dat Профили средней скорости, напряжений 
 Рисунок 1. Схема
 
 ## Дополнительные разделы
+#### Ссылки на другие онлайн-базы данных и коллекции
+Отчет AGARD https://torroja.dmt.upm.es/turbdata/agard/ <br>
+Базы данных по турбулентности Джона Хопкинса http://turbulence.pha.jhu.edu / <br>
+Лаборатория турбулентности и теплопередачи., Базы данных Токийского университета https://thtlab.jp / <br>
+Исследовательский центр НАСА в Лэнгли, ресурс по моделированию турбулентности https://turbmodels.larc.nasa.gov/index.html <br>
+Техасский университет в Остине, база данных по турбулентности https://turbulence.oden.utexas.edu / <br>
+Univ. Мадридский политехнический институт, База данных по турбулентности группы гидродинамики https://torroja.dmt.upm.es/turbdata / <br>
+Токийский научный университет, Лаборатория Кавамура, База данных DNS о турбулентности стенок и теплопередаче https://www.rs.tus.ac.jp/t2lab/db / <br>
+База данных TU-Darmstadt FDY DNS https://www.fdy.tu-darmstadt.de/fdyresearch/dns/direkte_numerische_simulation.en.jsp <br>
+База знаний TurBase для сбора данных о турбулентности https://turbase.cineca.it <br>
+База данных AIAA для упрощенного моделирования потоков жидкости https://deepblue.lib.umich.edu/data/collections/kk91fk98z <br>
+
+
 
 * **Лицензия** — информация о лицензии, под которой выпущен проект (например, MIT, Apache License). [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
 * **Участники** — список разработчиков или описание компании/инициативы, в рамках которой создан или развивается проект. [5](https://doka.guide/recipes/github-add-readme/)
