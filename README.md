@@ -15,9 +15,9 @@
 Замечание 1: компиляция завершается ошибкой... пока причина не устранена, выполнен переход на версию openFOAMv2512.<br>
 Ошибка:<br>
 /home/kol/OpenFOAM/ThirdParty-v2412/platforms/linux64Gcc/CGAL-4.14.3/include/CGAL/boost/graph/iterator.h:432:22: error: ‘const class CGAL::Halfedge_around_face_iterator<Graph>’ has no member named ‘base’ [-Wtemplate-body]<br>
-make[2]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: /home/kol/OpenFOAM/OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1<br>
-make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2<br>
-make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2<br>
+make[2]: *** [/wmake/rules/General/transform:38: /OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1<br>
+make[1]: *** [/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2<br>
+make: *** [/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2<br>
 
 Замечание 2: компиляция версии openFOAMv2512 проходит без ошибок но при выполнении кода происходит ошибка: декомпозиции. Выполнен переход на версию (пока причина не устранена):<br>
 ---------------------------------------------------------------------------<br>
@@ -285,12 +285,12 @@ mkdir -p $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
 cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
 `````
 
-$WM_PROJECT_USER_DIR/<br>
-└── applications/<br>
-    └── myTests/<br>
-        └── onlyMainFunction/<br>
-            ├── Make/<br>
-            └── onlyMainFunction.C<br>
+ $WM_PROJECT_USER_DIR/ <br>
+    └── applications/ <br>
+        └── myTests/ <br>
+            └── onlyMainFunction/ <br>
+                ├── Make/ <br>
+                └── onlyMainFunction.C <br>
 
 Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:<br>
 `````bash
@@ -314,7 +314,8 @@ wmake -build-info
 `````bash
 wmake
 `````
------------------------Приложение Test-fvMeshTools <br>
+<hr>
+Приложение Test-fvMeshTools <br>
 Описание:
 Тестирование добавления и удаления патчей.
 
@@ -494,8 +495,9 @@ int main(int argc, char *argv[])
 }
 
 `````
------------------------<br>
-echo "Аргумент 1: $1" | ./Test-fvMeshTools "Аргумент 2"
+<hr>
+echo "Аргумент 1: $1" | ./Test-fvMeshTools "Аргумент 2"<br>
+
 
 
 ## Экспериментальные детали:
@@ -583,7 +585,7 @@ bakstp3.dat  - Исходные данные для средней скорос�
 Драйвер, Д.М. и Сигмиллер, Х.Л., "Особенности повторного присоединения турбулентного сдвигового слоя в расходящемся канальном потоке", Журнал AIAA, Том 23, № 2, февраль 1985 г., стр. 163-171.<br>
 
 ## Особенности оформления Start.png
-![Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.](/Backward-Facing/bfsw-geom.png)
+![Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.](/bfsw-geom.png)
 ![Тестовая конфигурация:Рисунок 1. Схема шага назад..](/bstepschm.jpg)
 Рисунок 1. Схема
 
