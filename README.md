@@ -274,7 +274,7 @@ int main(int argc, char** argv)
     return 0;
 }
 `````
-Этот код выводит на экран размер типа Foam::label в байтах.
+Этот код выводит на экран размер типа Foam::label в байтах.<br>
 sizeof(Foam::label) — оператор sizeof в C++ возвращает размер в байтах самого типа данных (или класса, или структуры). То есть он вычисляет, сколько байт занимает в памяти объект типа Foam::label. Важно: sizeof учитывает не только сами данные членов класса, но и возможное «заполнение» (padding) — байты, которые добавляются компилятором для того, чтобы члены класса были выровнены по границам, удобным для процессора.
 
 ## Компиляция
@@ -285,14 +285,14 @@ mkdir -p $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
 cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
 `````
 
-$WM_PROJECT_USER_DIR/
-└── applications/
-    └── myTests/
-        └── onlyMainFunction/
-            ├── Make/
-            └── onlyMainFunction.C
+$WM_PROJECT_USER_DIR/<br>
+└── applications/<br>
+    └── myTests/<br>
+        └── onlyMainFunction/<br>
+            ├── Make/<br>
+            └── onlyMainFunction.C<br>
 
-Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:
+Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:<br>
 `````bash
 echo $WM_PROJECT_DIR
 echo $WM_LABEL_SIZE
@@ -306,18 +306,16 @@ blockMesh -help
 `````bash
 echo $FOAM_API
 `````
+предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован:
 `````bash
-wmake -build-info              предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован
+wmake -build-info
 `````
 
 `````bash
 wmake
 `````
-------------------------------------
-Приложение
-Test-fvMeshTools
-
-Описание
+-----------------------Приложение Test-fvMeshTools <br>
+Описание:
 Тестирование добавления и удаления патчей.
 
 `````cpp
@@ -496,6 +494,7 @@ int main(int argc, char *argv[])
 }
 
 `````
+-----------------------<br>
 echo "Аргумент 1: $1" | ./onlyMainFunction "Аргумент 2"
 
 Замечания и ошибки: Test-fvMeshTools.C
