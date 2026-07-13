@@ -495,16 +495,7 @@ int main(int argc, char *argv[])
 
 `````
 -----------------------<br>
-echo "Аргумент 1: $1" | ./onlyMainFunction "Аргумент 2"
-
-Замечания и ошибки: Test-fvMeshTools.C
-kol@kol-serv:~/OpenFOAM/kol-12/applications/Test-fvMeshTools$ wmake
-g++ -std=c++17 -m64 -pthread -DOPENFOAM=2412 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -Wno-unknown-pragmas -O3  -DNoRepository -ftemplate-depth-100  -IfaceSelection -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/polyTopoChange/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/meshTools/lnInclude -iquote. -IlnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-v2412/src/OSspecific/POSIX/lnInclude   -fPIC -c Test-fvMeshTools.C -o Make/linux64GccDPInt64Opt/Test-fvMeshTools.o
-Test-fvMeshTools.C:32:10: fatal error: argList.H: No such file or directory
-   32 | #include "argList.H"
-      |          ^~~~~~~~~~~
-compilation terminated.
-make: *** [/home/kol/OpenFOAM/OpenFOAM-v2412/wmake/rules/General/transform:38: Make/linux64GccDPInt64Opt/Test-fvMeshTools.o] Error 1
+echo "Аргумент 1: $1" | ./Test-fvMeshTools "Аргумент 2"
 
 
 ## Экспериментальные детали:
