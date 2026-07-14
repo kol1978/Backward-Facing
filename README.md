@@ -113,6 +113,9 @@ allowSystemOperations : Allowing user-supplied system call operations<br>
 Начальные условия выбраны таким образом, чтобы обеспечить одинаковые условия течения. Число Маха (при x=-4, выше по течению от уступа) и число Рейнольдса (при эталонной длине в 1 м, равной высоте уступа) составляют 0,128 и 36000 соответственно. Общая длина нижней стенки — 160 м. Плотность воздуха — 1,177 кг/м^3, а вязкость — 1,846e-5 кг/мс. Таким образом, скорость притока составляет 0,5646 м/с. Между входом и выходом не создается градиент давления (хотя в настройках NASA указан небольшой перепад давления по всей области). Чтобы максимально приблизиться к тестовым сценариям НАСА, при моделировании граничных условий на поверхности Солнца не используется функция стенки, а граничные условия на входе для модели поверхности Солнца задаются в соответствии с спецификациями НАСА: k_farfield = 9e-9/(0,128^2) x (0,5646^2), omega_farfield = 1e-6 x 1,177/1,846e-5 x (0,5646^2)/(0,128^2). Моделирование в Nalu проводилось до тех пор, пока интересующие нас величины не достигли квазистационарного состояния (профили скорости и коэффициент поверхностного трения).
 -------------------------------------------------------------------от NASA
 # Использование
+Важное уточнение про MPI. Иногда для работы с HDF5 в параллельных вычислениях нужна версия с поддержкой MPI (например, для научных расчётов). В таком случае вместо libhdf5-dev берите пакет с соответствующей поддержкой, например:
+sudo apt install libhdf5-openmpi-dev
+
 ### Клонировать репозиторий:
 `````bash
 git clone https://github.com/kol1978/Backward-Facing.git
@@ -310,189 +313,40 @@ wmake
 `````
 <hr>
 Приложение Test-fvMeshTools <br>
-Описание:
-Тестирование добавления и удаления патчей.
 
-`````cpp
-#include "argList.H"
-#include "Time.H"
-#include "ReadFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "fvMeshTools.H"
-#include "wallPolyPatch.H"
-#include "processorFvPatchField.H"
+### Конвертер HDF5 → OpenFOAM
+Подходит, если нужно один раз взять поля из HDF5 и положить их в папку 0/ как обычные файлы OpenFOAM (U, p, T и т. п.).
 
-using namespace Foam;
+Что понадобится
+Библиотека HDF5 (заголовки и .so).
+Утилита OpenFOAM для работы с сеткой (чтобы сопоставить индексы ячеек).
 
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Создай утилиту-конвертер (например, hdf5ToFoamField).
+В Make/options подключи HDF5:
+`````make
+EXE_INC = \
+    -I$(HDF5_DIR)/include
 
-int main(int argc, char *argv[])
-{
-    argList::addNote("Test patch manipulation");
-
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTimeNoFunctionObjects.H"
-    #include "createRegionMesh.H"
-
-    // Read objects in time directory
-    IOobjectList objects(mesh, runTime.name());
-
-    Info<< "Reading geometric fields" << nl << endl;
-
-    const bool fields = true;
-    #include "readVolFields.H"
-    #include "readSurfaceFields.H"
-    #include "readPointFields.H"
-
-    const polyBoundaryMesh& pbm = mesh.boundaryMesh();
-
-    // Add/insert a (global) wall patch
-    {
-        wallPolyPatch pp
-        (
-            "myWall",
-            0,          // dummy
-            0,          // dummy
-            0,          // dummy
-            pbm,
-            wallPolyPatch::typeName
-        );
-
-        label newPatchi = fvMeshTools::addPatch
-        (
-            mesh,
-            pp,
-            dictionary(),   // no specialised patch fields
-            calculatedFvPatchField<scalar>::typeName,
-            true            // parallel sync'ed addition
-        );
-
-        Info<< "Inserted patch " << mesh.boundaryMesh()[newPatchi].name()
-            << " type " << mesh.boundaryMesh()[newPatchi].type()
-            << " at index " << newPatchi << endl;
-
-        runTime++;
-        mesh.setInstance(runTime.name());
-        Info<< "Writing mesh with added patch to " << runTime.name()
-            << endl;
-        mesh.write();
-    }
-
-    // Remove a (zero-sized!) patch everywhere
-    const label removei = 0;
-    if (!isA<processorPolyPatch>(pbm[removei]) && pbm[removei].size() == 0)
-    {
-        Info<< "Removing patch " << pbm[removei].name() << endl;
-
-        labelList oldToNew(pbm.size());
-        for (label i = 0; i < removei; i++)
-        {
-            oldToNew[i] = i;
-        }
-        oldToNew[removei] = pbm.size()-1;
-        for (label i = removei+1; i < oldToNew.size(); i++)
-        {
-            oldToNew[i] = i-1;
-        }
-        fvMeshTools::reorderPatches(mesh, oldToNew, pbm.size()-1, true);
-
-        runTime++;
-        mesh.setInstance(runTime.name());
-        Info<< "Writing mesh with removed patch to " << runTime.name()
-            << endl;
-        mesh.write();
-    }
-
-    // Add a pair of processor patches
-    if (Pstream::parRun())
-    {
-        word newPatchName;
-
-        if (Pstream::myProcNo() == 0 || Pstream::myProcNo() == 1)
-        {
-            const label nbrProcNo = (1-Pstream::myProcNo());
-            newPatchName =
-                processorPolyPatch::newName(Pstream::myProcNo(), nbrProcNo)
-              + "_extra";
-
-            dictionary dict;
-            dict.add("myProcNo", Pstream::myProcNo());
-            dict.add("neighbProcNo", nbrProcNo);
-            dict.add("startFace", 0);
-            dict.add("nFaces", 0);
-
-            processorPolyPatch pp
-            (
-                newPatchName,
-                dict,
-                0,          // dummy index
-                pbm,
-                processorPolyPatch::typeName
-            );
-
-            label newPatchi = fvMeshTools::addPatch
-            (
-                mesh,
-                pp,
-                dictionary(),   // no specialised patch fields
-                processorFvPatchField<scalar>::typeName,
-                false            // parallel sync'ed addition
-            );
-
-            Pout<< "Inserted patch " << mesh.boundaryMesh()[newPatchi].name()
-                << " type " << mesh.boundaryMesh()[newPatchi].type()
-                << " at index " << newPatchi << endl;
-        }
-
-        runTime++;
-        mesh.setInstance(runTime.name());
-        Info<< "Writing mesh with added (local) patch to "
-            << runTime.name() << endl;
-        mesh.write();
-
-        // Remove the added patch
-        if (newPatchName.size())
-        {
-            label removei = pbm.findIndex(newPatchName);
-            if (removei == -1)
-            {
-                FatalErrorInFunction << "Problem" << exit(FatalError);
-            }
-            Pout<< "Removing patch " << pbm[removei].name() << endl;
-
-            labelList oldToNew(pbm.size());
-            for (label i = 0; i < removei; i++)
-            {
-                oldToNew[i] = i;
-            }
-            oldToNew[removei] = pbm.size()-1;
-            for (label i = removei+1; i < oldToNew.size(); i++)
-            {
-                oldToNew[i] = i-1;
-            }
-            fvMeshTools::reorderPatches(mesh, oldToNew, pbm.size()-1, false);
-        }
-
-        runTime++;
-        mesh.setInstance(runTime.name());
-        Info<< "Writing mesh with removed (local) patch to "
-            << runTime.name() << endl;
-        mesh.write();
-    }
-
-    Info<< "End\n" << endl;
-
-    return 0;
-}
-
+EXE_LIBS = \
+    -L$(HDF5_DIR)/lib -lhdf5
 `````
-<hr>
-echo "Аргумент 1: $1" | ./Test-fvMeshTools "Аргумент 2"<br>
+Прочитай поле из HDF5 и запиши в volScalarField / volVectorField через internalField().
 
+Сохрани поле в папку 0/:
+`````cpp
+IOobject fieldIO
+(
+    fieldName,
+    "0",
+    mesh,
+    IOobject::NO_READ,
+    IOobject::AUTO_WRITE
+);
 
+volScalarField field(fieldIO, mesh);
+field.internalField() = readValuesFromHDF5(...);
+field.write();
+`````
 
 ## Экспериментальные детали:
 Источник: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030
