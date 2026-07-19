@@ -1,0 +1,35 @@
+<map id="T" name="T">
+<area shape="rect" id="Node000001" title="Temperature [K]." alt="" coords="328,479,367,505"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1chemistryModel.html#afe1d8348c24e6589bc7c0b3f689316a7" title="Calculates the reaction rates." alt="" coords="57,5,228,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,465,340,374,330,252,322,191,311,135,296,90,278,59,255,42,227,32,229,27,257,37,282,56,301,87,316,134,327,190,336,252,345,374,348,465"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1basicThermo.html#a56570a70588a6236f616ac263cf2a4c2" title="Gamma = Cp/Cv for patch []." alt="" coords="107,70,179,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="343,466,338,384,328,277,308,175,295,136,278,110,256,95,231,86,179,82,179,76,232,81,259,90,282,106,300,134,314,174,333,276,344,384,348,466"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1multiphaseCoupledTemperatureFvPatchScalarField.html#a539d4669b1fa84f42cd7eeb2b91a3526" title="Get the neighbour patch sum kappa*Tc/delta and kappa/delta." alt="" coords="5,120,280,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="342,466,335,397,323,309,304,227,292,195,278,174,264,162,267,158,282,170,297,193,309,225,328,308,340,397,347,466"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1multiphaseCoupledTemperatureFvPatchScalarField.html#aeaf3131c15ed0890e85edae9be17f594" title="Get the neighbour patch wall temperature and heat&#45;flux." alt="" coords="5,184,280,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="340,466,318,342,300,278,289,254,278,238,263,226,266,222,282,234,294,251,305,276,323,340,345,465"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1energyFvScalarFieldSource.html#ae40a8410023e6a5380194e0424b2fbe8" title="Return the internal coefficient." alt="" coords="43,248,242,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="342,466,337,429,327,384,308,340,294,320,278,302,261,290,241,281,243,276,264,285,282,298,299,316,312,337,332,383,343,428,347,465"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1energyFvScalarFieldSource.html#a4ee182c4116041b20330aec9c08a4533" title="Return the internal coefficient." alt="" coords="43,312,242,352"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="337,467,317,415,300,388,278,366,241,347,244,342,282,362,304,385,321,412,342,465"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1chemistryModel.html#a050f24400df017585cc65c111d986fb8" title="Return the rate of reactioni [kmol/m^3/s]." alt="" coords="57,376,228,416"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="326,471,305,449,279,430,227,411,229,406,281,426,308,445,330,467"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1chemistryModel.html#a5a238790ca04b91ae25f6e3f06d3b640" title=" " alt="" coords="57,440,228,480"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="314,490,228,476,228,471,314,484"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1energyFvScalarFieldSource.html#a94f3a7040e6d73a96e999b3116ca6011" title="Return the source value." alt="" coords="43,504,242,544"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="315,500,243,511,242,506,314,494"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1energyFvScalarFieldSource.html#a79cb6eb4b6a741585bbbefd0f813d75c" title="Return the source value." alt="" coords="43,568,242,608"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="330,517,308,539,281,558,243,574,241,569,279,554,305,535,326,513"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1chemistryModel.html#aded96185faff83e990fe90296d4501c8" title="Return reaction rates of the species in reactioni [kg/m^3/s]." alt="" coords="57,632,228,672"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="342,519,321,572,304,599,282,622,257,637,229,647,227,641,254,632,278,618,300,596,317,569,337,517"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1chemistryModel.html#a0e9e0cdeea583a75fc46a154c4a6e1fd" title="Return the chemical time scale." alt="" coords="47,697,238,722"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="348,518,343,556,332,602,313,647,299,668,282,686,262,699,239,708,237,703,259,694,278,682,295,665,308,645,327,600,338,555,342,518"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1energyJumpFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients." alt="" coords="25,747,260,787"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="350,519,348,565,339,623,318,683,302,711,282,735,262,750,259,746,278,731,298,708,313,681,333,622,342,565,344,519"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1fixedEnergyFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients associated with the patch field." alt="" coords="46,811,239,851"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="347,519,340,585,327,669,308,748,296,779,282,800,263,815,240,825,238,820,260,811,278,797,291,777,303,747,322,668,334,584,341,518"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1gradientEnergyFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients associated with the patch field." alt="" coords="35,875,251,915"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="348,519,343,598,331,701,312,799,299,838,282,865,252,885,249,880,278,861,294,836,307,798,326,700,337,598,342,519"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1mixedEnergyFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients associated with the patch field." alt="" coords="41,939,244,979"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="348,519,345,610,336,732,327,794,316,850,301,897,282,928,265,943,245,952,243,947,262,938,278,925,296,894,311,849,322,793,330,732,340,610,343,519"/>
+</map>

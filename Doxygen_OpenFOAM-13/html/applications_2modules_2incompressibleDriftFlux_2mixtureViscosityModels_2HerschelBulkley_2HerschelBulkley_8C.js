@@ -1,0 +1,5 @@
+var applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8C =
+[
+    [ "defineTypeNameAndDebug", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8C.html#af0ad04cc4eaf10f7e11c41b6dbb88d7b", null ],
+    [ "addToRunTimeSelectionTable", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8C.html#a0a061d64aa0c6b05bf150021528d7e22", null ]
+];

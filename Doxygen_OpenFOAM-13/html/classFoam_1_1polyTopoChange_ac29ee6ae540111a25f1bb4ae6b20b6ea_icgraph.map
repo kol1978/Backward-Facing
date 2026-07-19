@@ -1,0 +1,19 @@
+<map id="addPoint" name="addPoint">
+<area shape="rect" id="Node000001" title="Add point and return new point index." alt="" coords="299,193,377,219"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyTopoChange.html#a158efdaa4673bf44ac6748dde6a5cad6" title="Construct from mesh. Adds all points/face/cells from mesh." alt="" coords="63,5,193,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="328,181,318,149,302,111,279,75,249,44,222,30,192,23,194,17,224,25,252,40,283,71,307,109,323,147,333,179"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1meshCutter.html#ad6964ecaeb84631835d8a4e51bf706bb" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="5,55,251,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="323,183,294,136,273,113,249,94,227,83,229,78,252,89,277,109,298,133,327,180"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="17,104,239,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="311,186,283,164,250,144,214,132,215,127,252,140,286,159,315,182"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1duplicatePoints.html#a159a54964aa4001ff24e9fb05834750a" title="Play commands into polyTopoChange to duplicate points. Gets." alt="" coords="45,154,211,194"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="285,201,211,189,212,184,286,195"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1createShellMesh.html#aef7bf7bc4511c879d54f2bbd3c76729a" title="Play commands into polyTopoChange to create layer mesh." alt="" coords="41,218,215,258"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="286,217,216,227,215,222,285,211"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1addPatchCellLayer.html#ab6105f056d34e8b3370b77f21ea3ee6b" title="Play commands into polyTopoChange to create layers on top." alt="" coords="35,282,221,322"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="315,230,286,252,252,272,222,284,220,279,249,268,283,248,311,226"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1removePoints.html#a56023116300115f668b5a3d17c675fb0" title="Restore selected faces and vertices." alt="" coords="50,346,206,386"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="329,232,300,285,278,313,252,336,231,348,207,357,205,352,228,344,249,332,274,309,295,282,324,230"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1combineFaces.html#a5e5e6cc1f97c15b7bffabbda6a33b863" title="Play commands into polyTopoChange to reinsert original faces." alt="" coords="49,410,207,450"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="335,233,326,270,310,316,286,361,252,400,232,414,208,423,206,418,229,409,249,396,282,358,305,313,321,269,330,232"/>
+</map>

@@ -1,0 +1,49 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="30,397,181,422"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1distributionSizeGroupFvScalarFieldSource.html" title="Source condition for size&#45;group fractions that sets values corresponding to a given distribution." alt="" coords="265,389,484,429"/>
+<area shape="poly" id="edge3631_Node000000_Node000001" title=" " alt="" coords="195,407,265,407,265,412,195,412"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1energyCalculatedTemperatureFvScalarFieldSource.html" title="Base class for temperature source conditions in which the parameters of the corresponding energy cond..." alt="" coords="265,453,484,493"/>
+<area shape="poly" id="edge3632_Node000000_Node000002" title=" " alt="" coords="174,423,290,451,289,456,172,428"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1energyFvScalarFieldSource.html" title="This source condition provides a value for the energy derived from the corresponding condition for th..." alt="" coords="275,518,474,543"/>
+<area shape="poly" id="edge3635_Node000000_Node000005" title=" " alt="" coords="134,428,188,467,254,503,293,515,292,520,252,508,185,471,131,433"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1growthFvScalarFieldSource.html" title="Base class for source conditions which create a growth source terms in the size group equations or re..." alt="" coords="275,567,474,593"/>
+<area shape="poly" id="edge3636_Node000000_Node000006" title=" " alt="" coords="126,431,178,493,214,525,255,552,285,565,283,570,252,557,211,530,175,497,122,435"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1interfacialGrowthInterfacialCurvatureFvScalarFieldSource.html" title="This source condition creates a interfacial mass transfer source term in the interfacial curvature eq..." alt="" coords="266,617,483,657"/>
+<area shape="poly" id="edge3643_Node000000_Node000016" title=" " alt="" coords="121,433,142,471,172,517,210,563,255,602,279,615,276,619,252,606,206,566,167,520,137,474,116,436"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1nucleationInterfacialCurvatureFvScalarFieldSource.html" title="This source condition creates a nucleation source term in the interfacial curvature equations of the ..." alt="" coords="265,5,485,45"/>
+<area shape="poly" id="edge3644_Node000000_Node000017" title=" " alt="" coords="107,383,119,317,144,228,163,181,187,135,216,93,252,55,269,43,272,48,255,59,220,96,191,138,168,184,149,230,124,318,112,384"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1nucleationSizeGroupFvScalarFieldSource.html" title="This source condition creates a nucleation source term in the size group equations of a population ba..." alt="" coords="269,69,481,109"/>
+<area shape="poly" id="edge3645_Node000000_Node000018" title=" " alt="" coords="110,383,125,328,153,256,172,219,194,182,221,149,252,119,271,107,273,112,255,123,225,152,199,186,176,222,158,259,130,329,115,384"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1nucleationSurfaceAreaVolumeRatioFvScalarFieldSource.html" title="This source condition creates a nucleation source term in the surface&#45;area&#45;to&#45;volume&#45;ratio (kappa) eq..." alt="" coords="265,681,484,721"/>
+<area shape="poly" id="edge3646_Node000000_Node000012" title=" " alt="" coords="116,435,134,485,162,548,202,612,227,642,255,667,274,679,271,684,252,671,223,645,198,616,157,550,129,487,111,436"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1singleSizeGroupFvScalarFieldSource.html" title="Source condition for size&#45;group fractions that sets a value of one in a single group,..." alt="" coords="267,133,482,173"/>
+<area shape="poly" id="edge3647_Node000000_Node000019" title=" " alt="" coords="114,382,133,339,163,285,202,230,226,205,252,183,272,171,275,176,255,188,229,209,206,233,167,288,138,341,119,385"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1turbulentIntensityKineticEnergyFvScalarFieldSource.html" title="This source condition provides a turbulent kinetic energy based on user&#45;supplied turbulence intensity..." alt="" coords="275,197,474,237"/>
+<area shape="poly" id="edge3648_Node000000_Node000020" title=" " alt="" coords="120,383,173,315,210,278,252,247,276,235,279,240,255,252,213,282,177,319,124,387"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1turbulentMixingLengthDissipationRateFvScalarFieldSource.html" title="This source condition provides a turbulence dissipation, &#160;(epsilon), based on a specified mixing leng..." alt="" coords="253,261,496,301"/>
+<area shape="poly" id="edge3649_Node000000_Node000021" title=" " alt="" coords="131,386,185,348,252,311,284,299,286,304,254,316,188,353,134,391"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1turbulentMixingLengthFrequencyFvScalarFieldSource.html" title="This source condition provides a turbulence specific dissipation, &#160;(omega), based on a specified mixi..." alt="" coords="257,325,493,365"/>
+<area shape="poly" id="edge3650_Node000000_Node000022" title=" " alt="" coords="172,391,289,363,290,368,174,396"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1uniformFixedValueSurfaceAreaVolumeRatioFvScalarFieldSource.html" title="This source condition creates a uniform fixed value source term in the surface&#45;area&#45;volume&#45;ratio (kap..." alt="" coords="263,746,486,801"/>
+<area shape="poly" id="edge3651_Node000000_Node000013" title=" " alt="" coords="114,435,128,495,154,575,173,617,196,659,223,697,255,731,272,744,269,748,252,735,219,701,191,662,168,620,149,577,123,497,109,436"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1uniformFixedEnergyTemperatureFvScalarFieldSource.html" title="This source condition is applied to the temperature field, but provides a uniform fixed energy into t..." alt="" coords="544,411,779,451"/>
+<area shape="poly" id="edge3633_Node000002_Node000003" title=" " alt="" coords="497,452,543,446,544,451,498,458"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1uniformInletOutletEnergyTemperatureFvScalarFieldSource.html" title="This source condition is applied to the temperature field, but provides a uniform fixed energy into t..." alt="" coords="544,475,779,515"/>
+<area shape="poly" id="edge3634_Node000002_Node000004" title=" " alt="" coords="498,480,544,483,543,489,497,485"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1growthSecondaryPropertyFvScalarFieldSource.html" title="Base class for source conditions which create a growth source terms for secondary properties of the s..." alt="" coords="558,761,765,801"/>
+<area shape="poly" id="edge3637_Node000006_Node000007" title=" " alt="" coords="481,595,497,603,547,639,591,682,625,725,650,760,645,763,621,728,587,686,544,643,495,608,478,600"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1growthSizeGroupFvScalarFieldSource.html" title="Base class for source conditions which create a growth source terms in the size group equations of a ..." alt="" coords="551,560,771,600"/>
+<area shape="poly" id="edge3641_Node000006_Node000014" title=" " alt="" coords="488,577,551,577,551,583,488,583"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1ParkRogakSurfaceAreaVolumeRatioFvScalarFieldSource.html" title="This source condition creates an interfacial mass transfer source term in the surface&#45;area&#45;to&#45;volume&#45;..." alt="" coords="829,761,1048,801"/>
+<area shape="poly" id="edge3638_Node000007_Node000008" title=" " alt="" coords="778,779,829,779,829,784,778,784"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1hardSphereSurfaceAreaVolumeRatioFvScalarFieldSource.html" title="This source condition creates an interfacial mass transfer source term in the surface&#45;area&#45;to&#45;volume&#45;..." alt="" coords="827,825,1051,865"/>
+<area shape="poly" id="edge3639_Node000007_Node000009" title=" " alt="" coords="763,802,852,823,851,828,761,807"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1interfacialGrowthSurfaceAreaVolumeRatioFvScalarFieldSource.html" title="This source condition creates an interfacial mass transfer source term in the surface&#45;area&#45;to&#45;volume&#45;..." alt="" coords="827,682,1050,737"/>
+<area shape="poly" id="edge3640_Node000007_Node000010" title=" " alt="" coords="752,755,832,734,834,739,753,760"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1interfacialGrowthSizeGroupFvScalarFieldSource.html" title="This source condition creates a interfacial mass transfer source term in the size group equations of ..." alt="" coords="838,560,1039,600"/>
+<area shape="poly" id="edge3642_Node000014_Node000015" title=" " alt="" coords="785,577,838,577,838,583,785,583"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1secondaryPropertyFvScalarFieldSource.html" title="Base class for source conditions of secondary properties of the size&#45;groups of a population balance m..." alt="" coords="5,753,205,793"/>
+<area shape="poly" id="edge3652_Node000011_Node000007" title=" " alt="" coords="180,795,254,811,321,818,374,820,496,811,573,799,574,804,496,816,375,825,321,823,253,816,179,800"/>
+<area shape="poly" id="edge3653_Node000011_Node000012" title=" " alt="" coords="193,747,298,719,300,724,195,752"/>
+<area shape="poly" id="edge3654_Node000011_Node000013" title=" " alt="" coords="219,771,263,771,263,776,219,776"/>
+</map>

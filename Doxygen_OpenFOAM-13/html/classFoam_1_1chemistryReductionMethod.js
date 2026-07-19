@@ -1,0 +1,25 @@
+var classFoam_1_1chemistryReductionMethod =
+[
+    [ "chemistryReductionMethod", "classFoam_1_1chemistryReductionMethod.html#af497a5755dd8fb8ae674deff165e8bd1", null ],
+    [ "chemistryReductionMethod", "classFoam_1_1chemistryReductionMethod.html#a0e0be626c568b4f94e0f209c9588de1d", null ],
+    [ "~chemistryReductionMethod", "classFoam_1_1chemistryReductionMethod.html#a391109a859a41b8acd656b0d12f7ba04", null ],
+    [ "coeffDict", "classFoam_1_1chemistryReductionMethod.html#ae78959ed3abd77de224366fa3b4c0708", null ],
+    [ "initReduceMechanism", "classFoam_1_1chemistryReductionMethod.html#a521188a11b9dec94e1551ff3d03fa0ee", null ],
+    [ "endReduceMechanism", "classFoam_1_1chemistryReductionMethod.html#ac75822fbf6736fa3ba69fb639bbbdb50", null ],
+    [ "TypeName", "classFoam_1_1chemistryReductionMethod.html#a305f447a622a55c3056a2b100d2b557c", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1chemistryReductionMethod.html#a31abe67cfcf71e7ec4e4a133c12928dd", null ],
+    [ "New", "classFoam_1_1chemistryReductionMethod.html#a94b659e0da0b99264ddba901e8007043", null ],
+    [ "active", "classFoam_1_1chemistryReductionMethod.html#af835342337022ce2d50420f766eda7f5", null ],
+    [ "nSpecie", "classFoam_1_1chemistryReductionMethod.html#aaa4b19f36e5448a44545a0fb59625659", null ],
+    [ "nActiveSpecies", "classFoam_1_1chemistryReductionMethod.html#adbff330af6ce1b8fae1c36e65ee35b3a", null ],
+    [ "tolerance", "classFoam_1_1chemistryReductionMethod.html#a9170e3fe86b7abe2d55becde2c58d102", null ],
+    [ "activeSpecies", "classFoam_1_1chemistryReductionMethod.html#a2f1cbd8fe2c2959d7fee5f5e86eb0879", null ],
+    [ "reactionDisabled", "classFoam_1_1chemistryReductionMethod.html#a7612caa557698cb604bf5e2670e1eb64", null ],
+    [ "reduceMechanism", "classFoam_1_1chemistryReductionMethod.html#afb38297e86a757ac9d3e208a75818ee5", null ],
+    [ "update", "classFoam_1_1chemistryReductionMethod.html#ac5c54df7ed3b930268c8d7752c101725", null ],
+    [ "chemistry_", "classFoam_1_1chemistryReductionMethod.html#a1a95048ea7519787030f148da3f9bcf8", null ],
+    [ "nSpecie_", "classFoam_1_1chemistryReductionMethod.html#a595b84841a27f29ae4e8dc2b3a131150", null ],
+    [ "nActiveSpecies_", "classFoam_1_1chemistryReductionMethod.html#ae9ff1c3da2b05de861ec98aba8d3c86a", null ],
+    [ "reactionsDisabled_", "classFoam_1_1chemistryReductionMethod.html#a750c8c2b53840da8f0761e2219aae050", null ],
+    [ "activeSpecies_", "classFoam_1_1chemistryReductionMethod.html#a6bd379be3c5a050c6b84bcdde449160f", null ]
+];

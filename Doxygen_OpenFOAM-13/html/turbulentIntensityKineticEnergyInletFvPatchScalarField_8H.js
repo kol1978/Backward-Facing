@@ -1,0 +1,4 @@
+var turbulentIntensityKineticEnergyInletFvPatchScalarField_8H =
+[
+    [ "turbulentIntensityKineticEnergyInletFvPatchScalarField", "classFoam_1_1turbulentIntensityKineticEnergyInletFvPatchScalarField.html", "classFoam_1_1turbulentIntensityKineticEnergyInletFvPatchScalarField" ]
+];

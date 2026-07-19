@@ -1,0 +1,40 @@
+<map id="multiphaseEuler" name="multiphaseEuler">
+<area shape="rect" id="Node000001" title="Solver module for a system of any number of compressible fluid phases with a common pressure,..." alt="" coords="884,453,1012,479"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solvers_1_1fluidSolver.html" title="Base solver module for fluid solvers." alt="" coords="495,5,585,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="599,9,660,9,731,17,767,26,801,38,833,56,862,79,882,108,899,152,924,264,941,377,948,453,943,453,935,377,919,265,893,154,877,111,858,82,830,60,799,43,765,31,730,22,660,14,599,15"/>
+<area shape="rect" id="Node000062" href="$classFoam_1_1Switch.html" title="A simple wrapper around bool so that it can be read as a word: true/false, on/off,..." alt="" coords="64,104,129,129"/>
+<area shape="poly" id="edge2_Node000001_Node000062" title=" " alt="" coords="143,111,312,102,538,94,649,94,746,97,820,105,845,111,862,119,881,143,898,182,924,281,940,383,948,453,943,453,935,383,918,282,893,183,877,146,858,123,843,116,819,110,746,102,649,99,538,100,312,107,143,116"/>
+<area shape="rect" id="Node000063" href="$structFoam_1_1phaseSystem_1_1alphaControl.html" title="alpha solution control structure" alt="" coords="487,148,593,173"/>
+<area shape="poly" id="edge4_Node000063_Node000062" title=" " alt="" coords="143,121,212,130,487,154,487,160,212,135,143,126"/>
+<area shape="poly" id="edge3_Node000001_Node000063" title=" " alt="" coords="606,144,666,138,733,139,767,144,801,153,833,166,862,185,890,215,912,250,928,289,939,328,949,401,950,453,945,453,943,402,933,329,923,290,907,253,886,218,858,189,830,171,799,158,766,149,733,144,666,143,607,149"/>
+<area shape="rect" id="Node000066" href="$classFoam_1_1tmp.html" title=" " alt="" coords="429,197,651,223"/>
+<area shape="poly" id="edge5_Node000001_Node000066" title=" " alt="" coords="665,216,788,229,835,237,861,246,885,269,904,296,930,355,943,412,949,453,943,453,938,413,925,357,899,299,881,273,859,251,834,242,787,235,664,222"/>
+<area shape="rect" id="Node000068" href="$classFoam_1_1solvers_1_1buoyancy.html" title="Buoyancy related data for the Foam::solvers::isothermalFluid solver module when solving buoyant cases..." alt="" coords="497,247,583,272"/>
+<area shape="poly" id="edge6_Node000001_Node000068" title=" " alt="" coords="597,260,753,271,823,280,861,290,882,308,899,328,924,374,939,419,947,453,942,454,934,421,919,376,894,331,878,311,859,295,821,285,752,276,597,265"/>
+<area shape="rect" id="Node000091" href="$classFoam_1_1phaseSystem.html" title="Class to represent a system of phases." alt="" coords="485,360,595,385"/>
+<area shape="poly" id="edge7_Node000001_Node000091" title=" " alt="" coords="609,366,665,366,729,370,796,381,861,400,904,424,936,451,932,455,901,428,859,404,795,386,728,376,665,371,609,371"/>
+<area shape="rect" id="Node000097" href="$classFoam_1_1IOMRFZoneList.html" title="List of MRF zones with IO functionality. MRF zones are specified by a list of dictionary entries,..." alt="" coords="36,281,157,307"/>
+<area shape="poly" id="edge17_Node000001_Node000097" title=" " alt="" coords="171,289,282,289,406,293,430,295,525,298,650,299,772,307,822,317,861,333,893,360,917,393,934,426,945,452,940,454,930,428,913,396,889,363,859,338,821,323,771,313,649,304,525,304,429,301,405,298,282,294,171,295"/>
+<area shape="poly" id="edge8_Node000091_Node000097" title=" " alt="" coords="171,302,406,338,491,357,490,363,405,343,170,307"/>
+<area shape="rect" id="Node000111" href="$classFoam_1_1UPtrList.html" title=" " alt="" coords="5,439,188,464"/>
+<area shape="poly" id="edge11_Node000001_Node000111" title=" " alt="" coords="202,452,212,453,405,453,540,445,675,437,768,431,808,431,860,437,914,451,913,456,860,442,808,436,768,436,675,442,540,450,405,458,212,458,202,458"/>
+<area shape="poly" id="edge9_Node000091_Node000111" title=" " alt="" coords="202,452,319,448,369,442,404,432,411,426,415,419,420,411,428,403,455,389,483,379,485,384,457,393,431,407,424,414,420,421,415,429,407,436,370,447,319,454,202,457"/>
+<area shape="rect" id="Node000107" href="$classFoam_1_1PtrListDictionary.html" title="Template dictionary class which manages the storage associated with it." alt="" coords="456,488,624,513"/>
+<area shape="poly" id="edge10_Node000001_Node000107" title=" " alt="" coords="638,490,883,469,884,474,638,495"/>
+<area shape="rect" id="Node000088" href="$classFoam_1_1GeometricField.html" title="Generic GeometricField class." alt="" coords="440,565,640,605"/>
+<area shape="poly" id="edge12_Node000001_Node000088" title=" " alt="" coords="647,604,698,608,753,607,808,598,859,580,888,558,911,530,939,478,944,480,915,533,892,562,861,584,809,604,753,612,698,613,647,609"/>
+<area shape="rect" id="Node000115" href="$classFoam_1_1momentumTransferSystem.html" title="Class which provides interfacial momentum transfer between a number of phases. Drag,..." alt="" coords="441,632,639,657"/>
+<area shape="poly" id="edge13_Node000001_Node000115" title=" " alt="" coords="653,655,773,659,824,655,859,644,879,627,896,607,921,560,936,514,942,479,948,480,941,515,926,562,900,610,883,631,861,648,825,660,773,665,653,660"/>
+<area shape="rect" id="Node000116" href="$classFoam_1_1heatTransferSystem.html" title="Class which provides interfacial momentum transfer between a number of phases. Drag,..." alt="" coords="464,685,616,711"/>
+<area shape="poly" id="edge14_Node000001_Node000116" title=" " alt="" coords="630,706,695,712,762,713,820,709,842,703,859,696,883,673,903,646,918,616,928,584,940,523,944,479,949,479,946,523,934,585,923,618,907,649,887,677,861,700,844,708,821,714,762,719,695,717,630,712"/>
+<area shape="rect" id="Node000117" href="$classFoam_1_1populationBalanceSystem.html" title="Class which provides population balance functionality. Holds a number of population balances and prov..." alt="" coords="444,735,636,760"/>
+<area shape="poly" id="edge15_Node000001_Node000117" title=" " alt="" coords="650,754,711,756,772,755,824,748,844,742,858,735,886,707,907,674,923,638,933,600,943,529,945,479,950,479,949,529,938,601,928,640,912,677,890,711,862,739,846,747,825,753,773,760,711,761,650,759"/>
+<area shape="rect" id="Node000118" href="$classFoam_1_1pressureReference.html" title="Provides controls for the pressure reference in closed&#45;volume simulations." alt="" coords="468,784,612,809"/>
+<area shape="poly" id="edge16_Node000001_Node000118" title=" " alt="" coords="602,810,661,819,729,821,764,817,798,809,830,796,858,777,875,756,890,722,916,634,933,542,942,478,948,479,938,543,921,635,895,724,880,759,862,781,832,801,799,814,765,822,730,826,661,824,601,815"/>
+<area shape="rect" id="Node000119" href="$classFoam_1_1PtrList.html" title=" " alt="" coords="444,833,636,859"/>
+<area shape="poly" id="edge18_Node000001_Node000119" title=" " alt="" coords="650,857,712,861,773,862,824,856,844,850,858,843,878,816,895,775,909,723,921,666,936,555,943,479,948,479,942,555,926,667,915,725,900,777,883,819,862,847,846,855,826,861,773,867,712,866,650,862"/>
+<area shape="rect" id="Node000121" href="$classFoam_1_1PtrList.html" title=" " alt="" coords="445,883,635,923"/>
+<area shape="poly" id="edge19_Node000001_Node000121" title=" " alt="" coords="633,923,690,929,749,927,808,914,834,901,858,884,880,854,897,807,912,749,923,686,938,562,943,479,949,479,943,562,928,686,917,750,903,809,884,857,862,888,837,906,809,919,750,933,689,934,633,928"/>
+<area shape="rect" id="Node000123" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="442,947,638,987"/>
+<area shape="poly" id="edge20_Node000001_Node000123" title=" " alt="" coords="630,987,687,994,748,993,778,988,807,980,834,967,858,949,871,935,882,914,902,859,917,791,928,717,940,573,944,479,949,479,945,573,933,718,922,792,907,861,887,916,875,938,862,953,837,971,809,985,779,993,748,998,687,999,629,993"/>
+</map>

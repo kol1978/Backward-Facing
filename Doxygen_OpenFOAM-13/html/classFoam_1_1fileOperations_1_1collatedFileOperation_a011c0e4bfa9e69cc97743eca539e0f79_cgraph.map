@@ -1,0 +1,36 @@
+<map id="writeObject" name="writeObject">
+<area shape="rect" id="Node000001" title="Writes a regIOobject (so header, contents and divider)." alt="" coords="5,371,103,397"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="449,133,543,158"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,371,64,300,83,198,111,99,129,61,149,37,176,19,201,8,226,3,250,4,300,15,360,36,395,53,427,75,477,120,473,124,424,79,392,57,358,41,299,21,249,9,226,9,203,13,178,24,152,41,133,64,116,101,88,200,69,301,59,371"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1regIOobject.html#a52d4944fa07f6723ef481d8a1cea83df" title="Return true if object is global, i.e. same for all processors." alt="" coords="180,51,329,91"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="53,371,58,321,72,249,84,209,100,170,122,133,149,101,166,88,169,92,152,105,126,136,105,172,89,211,77,250,63,322,58,371"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1IOstream.html#abdcc7f96f487faadc7769afcf58fe992" title="Return true if next operation might succeed." alt="" coords="171,115,338,141"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="54,371,61,328,76,268,105,205,125,175,149,150,157,144,161,148,152,154,129,179,109,207,81,270,66,329,59,371"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1IOobject.html#a52c0573607ce81f8ee31b61723b0d762" title="Return the instance directory, constant, system, &lt;time&gt; etc." alt="" coords="163,165,346,190"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="56,370,65,336,83,289,111,241,128,218,149,199,156,194,159,199,152,203,132,222,115,244,88,292,70,337,61,372"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="163,214,347,239"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="58,370,91,311,117,277,149,248,159,242,162,247,152,253,121,281,95,314,63,372"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a2ae410f2311adf94d66451b7423fdf4e" title="Make a directory and return an error if it could not be created." alt="" coords="201,263,308,289"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="67,369,102,337,149,306,187,290,189,295,152,310,105,342,70,373"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1IOobject.html#a51ae053ef677d6c2d35ce01b46089706" title="Return name." alt="" coords="413,345,579,370"/>
+<area shape="poly" id="edge8_Node000001_Node000026" title=" " alt="" coords="84,369,116,358,150,349,215,342,280,340,400,344,399,349,280,345,215,347,151,355,117,363,86,374"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1regIOobject.html#a3a7ece5c1251c6be1f7812d4dba5fb7a" title="Return complete path + object name." alt="" coords="180,364,329,404"/>
+<area shape="poly" id="edge9_Node000001_Node000027" title=" " alt="" coords="103,381,167,381,167,387,103,387"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1regIOobject.html#abe7b9078c8e7356c6131b70a8f729372" title="Return complete path." alt="" coords="407,398,585,423"/>
+<area shape="poly" id="edge13_Node000001_Node000028" title=" " alt="" coords="86,394,117,405,151,413,213,420,276,423,393,419,393,424,276,428,213,426,150,419,116,410,84,399"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#ad2750efe0594a0466b9015f0c30175d9" title="Is this a parallel run?" alt="" coords="163,479,347,505"/>
+<area shape="poly" id="edge12_Node000001_Node000020" title=" " alt="" coords="70,395,105,426,152,458,187,472,185,477,149,462,102,430,67,399"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1IOobject.html#a1ed86245b170b9f651f62650b1827500" title="Return time." alt="" coords="175,529,334,554"/>
+<area shape="poly" id="edge14_Node000001_Node000030" title=" " alt="" coords="63,396,95,454,121,487,152,515,164,522,162,526,149,519,117,491,91,457,58,398"/>
+<area shape="rect" id="Node000031" href="$makeGraphs_8H.html#a8f30b3c2179b03a7acf273e9dea43342" title=" " alt="" coords="227,578,282,603"/>
+<area shape="poly" id="edge15_Node000001_Node000031" title=" " alt="" coords="61,396,70,430,88,476,115,524,132,546,152,564,182,580,214,586,213,592,180,585,149,569,128,550,111,527,83,479,65,432,56,398"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1regIOobject.html#a462dfbf42c35609f4b6256058a30cac4" title="Pure virtual writaData function." alt="" coords="180,628,329,668"/>
+<area shape="poly" id="edge16_Node000001_Node000032" title=" " alt="" coords="59,396,67,438,83,497,110,560,129,589,152,614,169,626,166,630,149,618,125,592,106,562,78,498,61,439,54,397"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1IOobject.html#a310cb6482f458ab224dee0f892e99dc1" title="Write the standard end file divider." alt="" coords="162,692,347,732"/>
+<area shape="poly" id="edge17_Node000001_Node000033" title=" " alt="" coords="58,397,62,448,75,524,87,565,103,606,125,644,153,678,157,682,153,686,149,682,121,647,98,608,82,567,70,525,57,449,53,397"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1IOobject.html#ae7d7d31a4ff63361dd3f6490835938e8" title="Write header." alt="" coords="151,757,359,782"/>
+<area shape="poly" id="edge18_Node000001_Node000034" title=" " alt="" coords="60,396,70,468,90,572,118,675,134,715,153,742,159,747,155,751,149,746,130,718,113,677,85,574,65,469,54,397"/>
+<area shape="poly" id="edge7_Node000009_Node000002" title=" " alt="" coords="307,265,358,248,390,230,421,208,471,165,474,169,424,212,393,234,360,253,309,270"/>
+<area shape="poly" id="edge10_Node000027_Node000026" title=" " alt="" coords="329,373,399,365,400,371,330,378"/>
+<area shape="poly" id="edge11_Node000027_Node000028" title=" " alt="" coords="330,389,393,397,392,402,329,395"/>
+</map>

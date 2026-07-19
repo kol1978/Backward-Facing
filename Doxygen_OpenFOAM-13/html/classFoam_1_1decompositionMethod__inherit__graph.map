@@ -1,0 +1,25 @@
+<map id="decompositionMethod" name="decompositionMethod">
+<area shape="rect" id="Node000001" title="Abstract base class for decomposition." alt="" coords="446,5,613,31"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionMethods_1_1geometric.html" title="Geometrical domain decomposition." alt="" coords="5,79,93,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="433,34,279,55,106,81,94,83,93,78,105,76,278,49,432,29"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1decompositionMethods_1_1manual.html" title="Decomposition given a cell&#45;to&#45;processor association in a file." alt="" coords="118,79,189,104"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="448,36,202,81,190,84,188,79,201,76,447,30"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1decompositionMethods_1_1metis.html" title="Metis domain decomposition." alt="" coords="213,79,272,104"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="468,36,285,81,273,84,272,79,283,76,466,31"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1decompositionMethods_1_1multiLevel.html" title="Decomposition given using consecutive application of decomposers." alt="" coords="296,79,387,104"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="487,38,373,81,371,76,486,33"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1decompositionMethods_1_1none.html" title="Dummy decomposition method." alt="" coords="411,79,466,104"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="505,41,455,81,452,76,502,37"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1decompositionMethods_1_1parMetis.html" title="ParMetis redistribution in parallel." alt="" coords="490,79,569,104"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="532,44,532,79,527,79,527,44"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1decompositionMethods_1_1ptscotch.html" title="PTScotch domain decomposition. For the main details about how to define the strategies,..." alt="" coords="593,79,671,104"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="559,36,617,76,614,81,556,41"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1decompositionMethods_1_1random.html" title="Random decomposition. Good for testing. Very bad for anything else." alt="" coords="695,79,767,104"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="576,33,699,76,697,81,574,38"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1decompositionMethods_1_1scotch.html" title="Scotch domain decomposition. When run in parallel will collect the whole graph on to the master,..." alt="" coords="791,79,855,104"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="593,31,779,76,791,79,790,84,778,81,592,37"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1decompositionMethods_1_1structured.html" title="Decomposition by walking out decomposition of patch cells mesh." alt="" coords="879,79,967,104"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="611,30,867,76,879,78,878,83,866,81,610,36"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1decompositionMethods_1_1zoltan.html" title="Zoltan redistribution in parallel." alt="" coords="991,79,1054,104"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="627,26,792,46,979,76,992,79,990,84,978,81,791,51,626,31"/>
+</map>

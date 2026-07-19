@@ -1,0 +1,38 @@
+<map id="thermophysicalPredictor" name="thermophysicalPredictor">
+<area shape="rect" id="Node000001" title="Construct and solve the energy equation,." alt="" coords="5,433,187,458"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvConstraints.html#a09060774a2259da97597ee9800946565" title="Apply constraints to an equation." alt="" coords="269,5,423,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,432,102,366,122,265,139,209,163,153,194,101,233,55,255,40,258,45,236,59,198,104,167,155,144,210,127,266,107,367,101,433"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1basicThermo.html#a7e204aa62fa1c1f527e8f1c62dc62061" title="Update properties." alt="" coords="267,69,425,109"/>
+<area shape="poly" id="edge2_Node000001_Node000008" title=" " alt="" coords="96,432,106,375,129,291,147,245,170,199,198,157,233,119,252,106,255,111,236,123,202,160,174,202,152,247,134,293,111,377,101,433"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam_1_1fvc.html#a1ca4808dcf9ede3cc922d9925300bb8a" title=" " alt="" coords="289,134,403,159"/>
+<area shape="poly" id="edge3_Node000001_Node000009" title=" " alt="" coords="97,432,109,382,134,311,152,272,174,234,201,199,233,169,253,157,274,150,276,155,255,162,236,173,205,202,179,237,157,274,139,313,114,384,102,433"/>
+<area shape="rect" id="Node000026" href="$namespaceFoam_1_1fvm.html#af1a46338aa9f9a634532812966b6b0ce" title=" " alt="" coords="285,183,407,209"/>
+<area shape="poly" id="edge4_Node000001_Node000026" title=" " alt="" coords="99,431,115,391,143,336,182,277,206,250,233,226,271,207,274,211,236,230,210,253,186,280,148,338,120,393,104,433"/>
+<area shape="rect" id="Node000027" href="$namespaceFoam_1_1fvc.html#ab5735fde01a97f20ccb0be96539ce165" title=" " alt="" coords="505,443,620,469"/>
+<area shape="poly" id="edge5_Node000001_Node000027" title=" " alt="" coords="100,431,117,397,145,351,184,305,208,285,233,270,294,244,347,234,373,236,400,242,459,270,480,285,498,304,527,347,546,392,558,429,553,431,541,393,522,349,494,307,476,289,456,274,398,247,372,241,348,240,296,249,236,274,211,290,188,309,150,354,122,399,105,434"/>
+<area shape="rect" id="Node000036" href="$EEqn_8H.html#aa17382e9bbeac161f30df0fafcfd06d7" title=" " alt="" coords="319,285,373,310"/>
+<area shape="poly" id="edge6_Node000001_Node000036" title=" " alt="" coords="106,431,156,376,193,345,233,319,269,306,305,298,306,304,271,311,236,324,196,349,160,380,109,434"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1solver.html#a665d1061c2248482f7cc5eb4a0117491" title="Return the fvConstraints that are created on demand." alt="" coords="245,334,447,359"/>
+<area shape="poly" id="edge7_Node000001_Node000037" title=" " alt="" coords="115,430,167,399,234,368,258,360,260,365,236,373,170,404,118,435"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1solver.html#a3ba91d861d4b17088b8726f88d594c7d" title="Return the fvModels that are created on demand." alt="" coords="259,383,433,409"/>
+<area shape="poly" id="edge8_Node000001_Node000040" title=" " alt="" coords="161,430,267,409,268,414,162,435"/>
+<area shape="rect" id="Node000041" href="$readInitialConditions_8H.html#ac3aa2549402896200bba03c69d960157" title=" " alt="" coords="327,433,365,458"/>
+<area shape="poly" id="edge9_Node000001_Node000041" title=" " alt="" coords="187,443,313,443,313,448,187,448"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1basicThermo.html#a1dbfa6160255c92601817d9726ddfedb" title="Enthalpy/Internal energy [J/kg]." alt="" coords="259,482,433,507"/>
+<area shape="poly" id="edge10_Node000001_Node000042" title=" " alt="" coords="162,455,268,477,267,482,161,461"/>
+<area shape="rect" id="Node000043" href="$bEqn_8H.html#a84a2c420b469ee4a11d60ac69fc18230" title=" " alt="" coords="288,531,404,557"/>
+<area shape="poly" id="edge11_Node000001_Node000043" title=" " alt="" coords="118,456,170,486,236,516,275,528,274,533,234,521,168,491,116,460"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1multicomponentThermo.html#aca841861ec9aa4c1659c4178be49a6b2" title="Normalise the mass fractions by clipping positive and deriving." alt="" coords="235,581,457,621"/>
+<area shape="poly" id="edge12_Node000001_Node000044" title=" " alt="" coords="110,456,161,509,197,539,236,566,252,574,250,579,233,570,193,544,157,513,106,460"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1solvers_1_1isothermalFluid.html#a8b2ee86435a1e1b5806534fb735e63e8" title="Adds the mesh&#45;motion work to the pressure work term provided." alt="" coords="251,645,441,685"/>
+<area shape="poly" id="edge13_Node000001_Node000045" title=" " alt="" coords="105,457,123,492,151,539,189,589,236,631,245,637,242,641,233,635,185,592,147,542,118,494,101,459"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1fvMatrix.html#a06343b944c91a56352ebf646011c212e" title="Relax matrix (for steady&#45;state solution)." alt="" coords="265,710,427,735"/>
+<area shape="poly" id="edge15_Node000001_Node000050" title=" " alt="" coords="103,458,116,503,142,568,182,637,207,668,236,695,253,705,250,710,233,699,203,672,177,640,137,570,111,505,98,459"/>
+<area shape="rect" id="Node000073" href="$classFoam_1_1fvMatrix.html#a0966e44d9a6bc12663a0d60e8e038307" title="Solve segregated or coupled returning the solution statistics." alt="" coords="264,759,428,785"/>
+<area shape="poly" id="edge16_Node000001_Node000073" title=" " alt="" coords="102,458,112,511,136,589,153,632,176,673,203,712,236,745,253,755,250,759,233,749,199,715,171,676,149,634,131,591,107,512,96,459"/>
+<area shape="rect" id="Node000076" href="$classFoam_1_1multicomponentThermo.html#a5c2426f8ced45ec8e38d55180dba126a" title="Should the given specie be solved for? I.e., is it active and." alt="" coords="235,809,457,849"/>
+<area shape="poly" id="edge17_Node000001_Node000076" title=" " alt="" coords="101,458,110,518,131,609,149,658,172,708,201,754,237,794,244,800,240,804,233,798,196,757,167,710,144,660,126,610,104,519,96,458"/>
+<area shape="rect" id="Node000077" href="$classFoam_1_1fvModels.html#af775c83b57752cc6c3f088e2e5491f02" title="Return source for an equation." alt="" coords="257,874,435,899"/>
+<area shape="poly" id="edge18_Node000001_Node000077" title=" " alt="" coords="100,458,104,529,111,580,122,638,139,698,163,757,195,812,236,859,246,867,243,871,233,863,191,815,158,759,134,699,117,639,105,581,99,529,95,458"/>
+<area shape="poly" id="edge14_Node000045_Node000027" title=" " alt="" coords="437,643,456,631,490,597,517,556,537,515,551,481,556,483,542,518,522,559,494,600,459,635,440,647"/>
+</map>

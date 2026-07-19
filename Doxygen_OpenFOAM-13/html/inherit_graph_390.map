@@ -1,0 +1,43 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1cloudLagrangianModel.html" title="Base class for Lagrangian models that refer to a cloud. Not a Lagrangian model in itself...." alt="" coords="148,180,317,205"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1Lagrangian_1_1SaffmanMeiLift.html" title=" " alt="" coords="418,131,538,156"/>
+<area shape="poly" id="edge3127_Node000000_Node000001" title=" " alt="" coords="309,175,417,153,418,158,311,180"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Lagrangian_1_1constantCoefficientVirtualMass.html" title=" " alt="" coords="365,180,591,205"/>
+<area shape="poly" id="edge3128_Node000000_Node000003" title=" " alt="" coords="331,190,365,190,365,195,331,195"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Lagrangian_1_1drag.html" title=" " alt="" coords="453,29,503,55"/>
+<area shape="poly" id="edge3129_Node000000_Node000004" title=" " alt="" coords="252,168,300,119,330,94,364,72,410,53,452,43,453,48,411,58,367,76,334,98,303,123,255,171"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Lagrangian_1_1gravity.html" title=" " alt="" coords="444,279,512,304"/>
+<area shape="poly" id="edge3132_Node000000_Node000007" title=" " alt="" coords="269,210,366,265,406,277,444,284,443,290,405,282,364,270,266,215"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1Lagrangian_1_1patchInjection.html" title=" " alt="" coords="680,191,795,216"/>
+<area shape="poly" id="edge3133_Node000000_Node000013" title=" " alt="" coords="260,170,307,140,335,127,365,117,427,102,478,97,529,102,591,117,630,131,667,150,722,188,719,193,664,155,628,136,590,122,528,107,478,103,428,108,366,122,337,132,309,145,263,174"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Lagrangian_1_1pressureGradientForce.html" title=" " alt="" coords="393,328,563,353"/>
+<area shape="poly" id="edge3134_Node000000_Node000008" title=" " alt="" coords="276,209,319,240,335,261,342,280,350,298,367,315,394,328,392,333,364,319,346,301,337,282,330,263,315,244,273,214"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Lagrangian_1_1turbulentDispersion.html" title=" " alt="" coords="403,229,553,255"/>
+<area shape="poly" id="edge3135_Node000000_Node000009" title=" " alt="" coords="311,205,414,227,413,232,309,211"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1Lagrangian_1_1GidaspowErgunWenYuDrag.html" title=" " alt="" coords="639,55,836,80"/>
+<area shape="poly" id="edge3130_Node000004_Node000005" title=" " alt="" coords="517,43,639,55,638,60,517,48"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1Lagrangian_1_1SchillerNaumannDrag.html" title=" " alt="" coords="655,5,819,31"/>
+<area shape="poly" id="edge3131_Node000004_Node000006" title=" " alt="" coords="517,36,655,23,656,28,517,41"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1stateModel.html" title="Base class for models with state." alt="" coords="5,253,100,279"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1LagrangianModel.html" title="Base class for Lagrangian models." alt="" coords="165,253,300,279"/>
+<area shape="poly" id="edge3136_Node000017_Node000002" title=" " alt="" coords="114,263,165,263,165,269,114,269"/>
+<area shape="poly" id="edge3137_Node000002_Node000001" title=" " alt="" coords="271,245,316,216,329,203,338,190,348,178,364,166,390,155,417,148,418,153,392,160,367,171,352,182,343,194,333,206,319,220,274,249"/>
+<area shape="poly" id="edge3138_Node000002_Node000003" title=" " alt="" coords="277,246,365,215,414,203,415,208,366,221,279,251"/>
+<area shape="poly" id="edge3139_Node000002_Node000004" title=" " alt="" coords="276,245,297,232,315,216,332,192,339,168,347,144,363,118,407,79,451,52,454,56,410,83,367,121,352,146,344,170,337,194,319,220,300,236,279,249"/>
+<area shape="poly" id="edge3140_Node000002_Node000007" title=" " alt="" coords="314,272,444,285,444,291,313,277"/>
+<area shape="poly" id="edge3141_Node000002_Node000008" title=" " alt="" coords="277,282,366,314,410,325,408,330,365,319,275,287"/>
+<area shape="poly" id="edge3142_Node000002_Node000009" title=" " alt="" coords="313,255,402,247,403,252,314,261"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1LagrangianInjection.html" title="Base class for Lagrangian injections. Minimal wrapper over LagrangianSource. Implements some utility ..." alt="" coords="403,427,553,452"/>
+<area shape="poly" id="edge3143_Node000002_Node000010" title=" " alt="" coords="250,289,297,352,329,385,367,413,403,428,401,433,364,418,326,389,293,356,246,292"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1LagrangianSource.html" title="Base class for Lagrangian sources. Minimal wrapper over LagrangianModel that provides an interface to..." alt="" coords="409,377,547,403"/>
+<area shape="poly" id="edge3149_Node000002_Node000016" title=" " alt="" coords="258,286,306,326,335,347,366,364,409,378,408,383,364,368,333,351,303,331,255,290"/>
+<area shape="poly" id="edge3146_Node000010_Node000013" title=" " alt="" coords="565,425,589,413,607,397,616,381,624,362,636,339,725,215,729,218,641,342,629,364,621,383,611,400,592,418,567,430"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Lagrangian_1_1diskInjection.html" title=" " alt="" coords="685,401,790,427"/>
+<area shape="poly" id="edge3144_Node000010_Node000011" title=" " alt="" coords="567,428,684,416,685,422,567,433"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1Lagrangian_1_1manualInjection.html" title=" " alt="" coords="674,451,801,476"/>
+<area shape="poly" id="edge3145_Node000010_Node000012" title=" " alt="" coords="567,445,674,455,673,460,567,450"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1Lagrangian_1_1pointInjection.html" title=" " alt="" coords="682,500,793,525"/>
+<area shape="poly" id="edge3147_Node000010_Node000014" title=" " alt="" coords="532,454,639,486,682,497,681,502,638,491,530,459"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Lagrangian_1_1volumeInjection.html" title=" " alt="" coords="674,352,801,377"/>
+<area shape="poly" id="edge3148_Node000010_Node000015" title=" " alt="" coords="565,421,590,413,613,400,638,388,677,375,679,380,640,392,616,405,592,418,567,426"/>
+</map>

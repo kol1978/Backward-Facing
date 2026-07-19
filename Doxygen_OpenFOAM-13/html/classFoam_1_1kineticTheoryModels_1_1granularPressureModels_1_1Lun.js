@@ -1,0 +1,8 @@
+var classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun =
+[
+    [ "Lun", "classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun.html#a82b6b4a1e0f50ad73be25e052f7c54e1", null ],
+    [ "~Lun", "classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun.html#ac69e0c1872f44d3ef8fcb8714003b9b1", null ],
+    [ "TypeName", "classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun.html#a71ac58eefea271425c68a5b19fe89d5b", null ],
+    [ "granularPressureCoeff", "classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun.html#a1ea4011ceef58d13306c217e8db24ef0", null ],
+    [ "granularPressureCoeffPrime", "classFoam_1_1kineticTheoryModels_1_1granularPressureModels_1_1Lun.html#a7679fa9c8e245aee920b88c580fa5db2", null ]
+];

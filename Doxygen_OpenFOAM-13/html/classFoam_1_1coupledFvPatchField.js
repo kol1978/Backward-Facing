@@ -1,0 +1,28 @@
+var classFoam_1_1coupledFvPatchField =
+[
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#a9a8f16c0680b51687b591617bf738864", null ],
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#aa2229b4862c97cc392677d54a4001b1d", null ],
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#a76bccebf4e504610f3ef984042b41d6d", null ],
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#ab026bb1f40322299c6a22053e6a23ee0", null ],
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#a1c1e8b779709555b610de3a2e934f5f9", null ],
+    [ "coupledFvPatchField", "classFoam_1_1coupledFvPatchField.html#a240e6446775a158400eac6403ed86a2c", null ],
+    [ "TypeName", "classFoam_1_1coupledFvPatchField.html#a52462c91bcc408230f419231e899900e", null ],
+    [ "clone", "classFoam_1_1coupledFvPatchField.html#a608abe663a435c1dc7dc566fb6aaaea6", null ],
+    [ "coupled", "classFoam_1_1coupledFvPatchField.html#a39c01db0e66d00fe0621a0c7e5fc4ead", null ],
+    [ "patchNeighbourField", "classFoam_1_1coupledFvPatchField.html#ae858abc9aae9472aa4c3b9443b02caae", null ],
+    [ "map", "classFoam_1_1coupledFvPatchField.html#aec54212a630737fbf548aac1f41bc9c2", null ],
+    [ "snGrad", "classFoam_1_1coupledFvPatchField.html#a60f27bec2e5435f7c68fc11624d6e8d6", null ],
+    [ "snGrad", "classFoam_1_1coupledFvPatchField.html#a8cb19151284860ab432f39ba0d054027", null ],
+    [ "initEvaluate", "classFoam_1_1coupledFvPatchField.html#a65e53e9af7fa5ef0659db31b6d0763b0", null ],
+    [ "evaluateNoUpdateCoeffs", "classFoam_1_1coupledFvPatchField.html#a6df8e3168ff6024bbdb6a8846e35bb22", null ],
+    [ "evaluate", "classFoam_1_1coupledFvPatchField.html#ab9de8baa38a38ec4603e74eb6d5f8f73", null ],
+    [ "valueInternalCoeffs", "classFoam_1_1coupledFvPatchField.html#a541ce5c2450b431429d4b4833b66761f", null ],
+    [ "valueBoundaryCoeffs", "classFoam_1_1coupledFvPatchField.html#a9b2e6c272ac0cf09dbfe76b65cc668da", null ],
+    [ "gradientInternalCoeffs", "classFoam_1_1coupledFvPatchField.html#af3e73f1390698ff734ce7b14aaf3f689", null ],
+    [ "gradientInternalCoeffs", "classFoam_1_1coupledFvPatchField.html#a3190133c49936e7f0fb70c588951402f", null ],
+    [ "gradientBoundaryCoeffs", "classFoam_1_1coupledFvPatchField.html#a239004904eebd14d3bde258b977759d6", null ],
+    [ "gradientBoundaryCoeffs", "classFoam_1_1coupledFvPatchField.html#a82aaa73cc69fe46d94d900ae1fc1a68d", null ],
+    [ "updateInterfaceMatrix", "classFoam_1_1coupledFvPatchField.html#a940c16f98a05d7d3295f34a8c8d6e183", null ],
+    [ "updateInterfaceMatrix", "classFoam_1_1coupledFvPatchField.html#ad376cc87c05e1a0ced7ae0c4676016b6", null ],
+    [ "write", "classFoam_1_1coupledFvPatchField.html#a293fdfec8bdfbd5c3913ab4c9f3454ff", null ]
+];

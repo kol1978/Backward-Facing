@@ -1,0 +1,107 @@
+<map id="applications/legacy/combustion/PDRFoam/PDRFoam.C" name="applications/legacy/combustion/PDRFoam/PDRFoam.C">
+<area shape="rect" id="Node000001" title="Solver for compressible premixed/partially&#45;premixed combustion with turbulence modelling." alt="" coords="3323,5,3493,60"/>
+<area shape="rect" id="Node000002" href="$argList_8H.html" title=" " alt="" coords="5,115,85,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3323,37,2660,41,1650,52,1133,61,670,74,310,90,182,100,98,111,85,114,84,108,97,105,182,95,309,85,670,69,1133,56,1650,46,2660,35,3323,32"/>
+<area shape="rect" id="Node000123" href="$timeSelector_8H.html" title=" " alt="" coords="110,115,229,141"/>
+<area shape="poly" id="edge2_Node000001_Node000123" title=" " alt="" coords="3323,36,2745,36,1854,43,1378,52,928,65,540,84,380,97,248,111,224,115,223,110,248,105,380,91,540,79,928,60,1378,46,1854,38,2745,31,3323,31"/>
+<area shape="rect" id="Node000128" href="$psiuMulticomponentThermo_8H.html" title=" " alt="" coords="279,203,497,229"/>
+<area shape="poly" id="edge3_Node000001_Node000128" title=" " alt="" coords="3323,37,2649,42,1643,54,1145,64,719,76,418,92,330,101,294,110,287,120,286,131,290,142,299,154,324,176,354,195,351,199,321,180,295,157,286,145,281,132,282,119,290,106,329,95,417,86,719,71,1145,58,1643,49,2649,36,3323,32"/>
+<area shape="rect" id="Node000396" href="$compressibleMomentumTransportModels_8H.html" title=" " alt="" coords="534,196,778,236"/>
+<area shape="poly" id="edge4_Node000001_Node000396" title=" " alt="" coords="3323,36,2738,36,1880,43,1454,52,1086,65,818,84,735,97,693,110,679,125,670,143,660,183,655,182,665,141,675,122,691,106,734,91,817,79,1086,60,1454,46,1880,37,2738,31,3323,31"/>
+<area shape="rect" id="Node000420" href="$RASThermophysicalTransportModel_8H.html" title=" " alt="" coords="705,108,917,148"/>
+<area shape="poly" id="edge5_Node000001_Node000420" title=" " alt="" coords="3323,38,2862,45,2176,59,1465,81,1163,95,930,111,930,105,1163,90,1465,76,2175,54,2862,40,3323,32"/>
+<area shape="rect" id="Node000429" href="$unityLewisEddyDiffusivity_8H.html" title=" " alt="" coords="941,115,1144,141"/>
+<area shape="poly" id="edge6_Node000001_Node000429" title=" " alt="" coords="3323,38,2895,46,2268,61,1627,82,1359,96,1156,111,1116,116,1115,111,1156,105,1358,90,1627,77,2268,55,2894,40,3323,33"/>
+<area shape="rect" id="Node000430" href="$laminarFlameSpeed_8H.html" title=" " alt="" coords="305,115,471,141"/>
+<area shape="poly" id="edge7_Node000001_Node000430" title=" " alt="" coords="3323,37,2783,40,1960,51,1522,60,1109,73,752,89,483,111,451,115,450,110,482,105,752,84,1109,67,1522,55,1960,45,2783,35,3323,32"/>
+<area shape="rect" id="Node000431" title=" " alt="" coords="1169,115,1258,141"/>
+<area shape="poly" id="edge9_Node000001_Node000431" title=" " alt="" coords="3323,36,2913,38,2319,47,2007,56,1713,69,1461,87,1271,111,1257,114,1256,109,1270,105,1461,82,1713,64,2006,50,2319,41,2913,32,3323,31"/>
+<area shape="rect" id="Node000432" href="$PDRDragModel_8H.html" title=" " alt="" coords="495,115,630,141"/>
+<area shape="poly" id="edge10_Node000001_Node000432" title=" " alt="" coords="3323,37,2810,40,2036,50,1625,59,1237,72,902,89,650,111,622,115,621,110,649,105,901,84,1236,67,1624,54,2036,45,2810,34,3323,31"/>
+<area shape="rect" id="Node000435" href="$ignition_8H.html" title=" " alt="" coords="1283,115,1368,141"/>
+<area shape="poly" id="edge13_Node000001_Node000435" title=" " alt="" coords="3323,36,2932,38,2370,47,2075,56,1798,69,1560,87,1380,111,1367,114,1366,109,1380,105,1559,82,1798,64,2074,51,2369,42,2932,33,3323,31"/>
+<area shape="rect" id="Node000437" href="$pimpleControl_8H.html" title=" " alt="" coords="1392,115,1520,141"/>
+<area shape="poly" id="edge14_Node000001_Node000437" title=" " alt="" coords="3323,38,2958,44,2441,57,1916,79,1697,93,1532,111,1510,115,1509,110,1532,105,1697,88,1916,74,2440,52,2958,39,3323,32"/>
+<area shape="rect" id="Node000458" href="$pressureReference_8H.html" title=" " alt="" coords="1545,115,1703,141"/>
+<area shape="poly" id="edge15_Node000001_Node000458" title=" " alt="" coords="3323,39,2527,63,2059,84,1864,97,1716,111,1687,115,1686,110,1716,105,1863,91,2059,79,2527,57,3323,33"/>
+<area shape="rect" id="Node000460" href="$findRefCell_8H.html" title="Find the reference cell nearest (in index) to the given cell but which is not on a cyclic,..." alt="" coords="1728,115,1835,141"/>
+<area shape="poly" id="edge16_Node000001_Node000460" title=" " alt="" coords="3323,38,3014,45,2587,59,2159,80,1982,94,1847,111,1829,114,1828,109,1846,105,1981,89,2159,75,2587,53,3014,40,3323,33"/>
+<area shape="rect" id="Node000461" href="$constrainPressure_8H.html" title=" " alt="" coords="1859,115,2011,141"/>
+<area shape="poly" id="edge17_Node000001_Node000461" title=" " alt="" coords="3323,37,3097,39,2775,50,2402,72,2210,89,2023,111,1995,115,1994,110,2022,105,2210,84,2402,67,2775,44,3097,34,3323,31"/>
+<area shape="rect" id="Node000480" href="$constrainHbyA_8H.html" title=" " alt="" coords="2035,115,2165,141"/>
+<area shape="poly" id="edge18_Node000001_Node000480" title=" " alt="" coords="3323,37,3120,40,2835,50,2509,72,2341,89,2178,111,2155,115,2154,110,2177,105,2341,84,2508,67,2835,45,3120,34,3323,31"/>
+<area shape="rect" id="Node000481" href="$adjustPhi_8H.html" title="For cases which do no have a pressure boundary adjust the balance of fluxes to obey continuity...." alt="" coords="2189,115,2285,141"/>
+<area shape="poly" id="edge19_Node000001_Node000481" title=" " alt="" coords="3323,36,3137,37,2882,46,2591,69,2443,87,2298,111,2283,114,2282,109,2297,105,2442,82,2590,64,2882,41,3137,32,3323,30"/>
+<area shape="rect" id="Node000482" href="$uniformDimensionedFields_8H.html" title=" " alt="" coords="2309,115,2520,141"/>
+<area shape="poly" id="edge20_Node000001_Node000482" title=" " alt="" coords="3323,42,2978,67,2756,86,2532,111,2495,116,2494,111,2532,105,2755,81,2977,61,3323,36"/>
+<area shape="rect" id="Node000483" href="$fvModels_8H.html" title=" " alt="" coords="2544,115,2640,141"/>
+<area shape="poly" id="edge21_Node000001_Node000483" title=" " alt="" coords="3323,39,3193,46,3025,59,2839,80,2653,111,2638,114,2637,109,2651,105,2838,74,3025,54,3193,41,3323,34"/>
+<area shape="rect" id="Node000489" href="$fvConstraints_8H.html" title=" " alt="" coords="2664,115,2787,141"/>
+<area shape="poly" id="edge22_Node000001_Node000489" title=" " alt="" coords="3323,43,3087,68,2943,87,2799,111,2780,115,2779,109,2798,105,2942,82,3086,63,3323,38"/>
+<area shape="rect" id="Node000493" href="$fvcDdt_8H.html" title="Calculate the first temporal derivative." alt="" coords="2811,115,2890,141"/>
+<area shape="poly" id="edge23_Node000001_Node000493" title=" " alt="" coords="3323,44,3129,67,3015,86,2902,111,2892,113,2891,108,2901,105,3014,81,3128,62,3323,38"/>
+<area shape="rect" id="Node000500" href="$fvcGrad_8H.html" title="Calculate the gradient of the given field." alt="" coords="2914,115,3001,141"/>
+<area shape="poly" id="edge24_Node000001_Node000500" title=" " alt="" coords="3323,49,3177,74,3013,111,3002,114,3001,108,3011,105,3176,69,3323,44"/>
+<area shape="rect" id="Node000501" href="$fvcFlux_8H.html" title="Calculate the face&#45;flux of the given field." alt="" coords="3025,115,3109,141"/>
+<area shape="poly" id="edge25_Node000001_Node000501" title=" " alt="" coords="3324,57,3122,111,3113,113,3111,108,3121,105,3322,52"/>
+<area shape="rect" id="Node000502" href="$fvcReconstruct_8H.html" title="Reconstruct volField from a face flux field." alt="" coords="3133,115,3267,141"/>
+<area shape="poly" id="edge26_Node000001_Node000502" title=" " alt="" coords="3351,62,3239,112,3237,107,3348,58"/>
+<area shape="rect" id="Node000503" href="$fvcMeshPhi_8H.html" title="Calculate the mesh motion flux and convert fluxes from absolute to relative and back." alt="" coords="3291,115,3402,141"/>
+<area shape="poly" id="edge27_Node000001_Node000503" title=" " alt="" coords="3393,62,3364,105,3360,102,3388,59"/>
+<area shape="rect" id="Node000504" href="$fvmDdt_8H.html" title="Calculate the matrix for the first temporal derivative." alt="" coords="3427,115,3512,141"/>
+<area shape="poly" id="edge28_Node000001_Node000504" title=" " alt="" coords="3428,59,3456,102,3452,105,3423,62"/>
+<area shape="rect" id="Node000505" href="$fvmDiv_8H.html" title="Calculate the matrix for the divergence of the given field and flux." alt="" coords="3536,115,3619,141"/>
+<area shape="poly" id="edge29_Node000001_Node000505" title=" " alt="" coords="3457,58,3546,106,3543,111,3454,62"/>
+<area shape="rect" id="Node000506" href="$fvmLaplacian_8H.html" title="Calculate the matrix for the laplacian of the field." alt="" coords="3643,115,3767,141"/>
+<area shape="poly" id="edge30_Node000001_Node000506" title=" " alt="" coords="3492,58,3657,109,3655,114,3491,63"/>
+<area shape="rect" id="Node000507" href="$postProcess_8H.html" title="Execute application functionObjects to post&#45;process existing results." alt="" coords="3893,115,4008,141"/>
+<area shape="poly" id="edge31_Node000001_Node000507" title=" " alt="" coords="3493,43,3670,69,3875,105,3894,110,3893,115,3874,111,3669,74,3492,48"/>
+<area shape="rect" id="Node000511" href="$setRootCase_8H.html" title=" " alt="" coords="3685,203,3803,229"/>
+<area shape="poly" id="edge36_Node000001_Node000511" title=" " alt="" coords="3493,36,3574,44,3660,57,3734,78,3762,91,3781,106,3790,128,3787,151,3777,174,3765,194,3760,191,3773,171,3782,150,3784,129,3777,110,3759,95,3732,83,3659,63,3574,49,3493,41"/>
+<area shape="rect" id="Node000512" href="$createTime_8H.html" title=" " alt="" coords="3827,203,3938,229"/>
+<area shape="poly" id="edge37_Node000001_Node000512" title=" " alt="" coords="3493,40,3667,65,3748,84,3780,94,3804,106,3827,124,3846,146,3874,189,3869,192,3842,149,3823,128,3801,110,3778,99,3746,89,3666,70,3493,45"/>
+<area shape="rect" id="Node000513" href="$createMesh_8H.html" title=" " alt="" coords="3963,203,4075,229"/>
+<area shape="poly" id="edge38_Node000001_Node000513" title=" " alt="" coords="3493,35,3638,45,3804,59,3946,79,3995,92,4022,106,4033,126,4036,148,4030,191,4025,190,4031,148,4028,128,4018,110,3993,97,3945,85,3803,64,3638,50,3493,41"/>
+<area shape="rect" id="Node000514" title=" " alt="" coords="4098,203,4222,229"/>
+<area shape="poly" id="edge39_Node000001_Node000514" title=" " alt="" coords="3493,35,3630,42,3790,56,3941,76,4002,90,4048,106,4078,124,4105,146,4146,191,4142,194,4101,150,4075,128,4046,110,4001,95,3940,82,3790,61,3629,48,3493,40"/>
+<area shape="rect" id="Node000516" title=" " alt="" coords="4134,115,4365,141"/>
+<area shape="poly" id="edge40_Node000001_Node000516" title=" " alt="" coords="3493,39,3770,67,4115,105,4158,111,4157,116,4114,111,3769,72,3493,45"/>
+<area shape="rect" id="Node000517" href="$legacy_2combustion_2PDRFoam_2createFields_8H.html" title=" " alt="" coords="4389,115,4504,141"/>
+<area shape="poly" id="edge41_Node000001_Node000517" title=" " alt="" coords="3493,33,3657,38,3877,50,4126,71,4253,87,4376,105,4396,109,4395,115,4376,111,4252,92,4125,77,3876,55,3657,43,3493,38"/>
+<area shape="rect" id="Node000523" href="$legacy_2combustion_2PDRFoam_2createFieldRefs_8H.html" title=" " alt="" coords="4529,115,4666,141"/>
+<area shape="poly" id="edge42_Node000001_Node000523" title=" " alt="" coords="3493,32,3678,37,3932,49,4223,71,4371,86,4516,105,4541,110,4540,115,4516,111,4371,92,4222,76,3932,55,3678,43,3493,38"/>
+<area shape="rect" id="Node000524" href="$initContinuityErrs_8H.html" title="Declare and initialise the cumulative continuity error." alt="" coords="4691,115,4840,141"/>
+<area shape="poly" id="edge43_Node000001_Node000524" title=" " alt="" coords="3493,32,3702,36,3996,47,4334,69,4508,85,4678,105,4705,110,4704,115,4677,111,4507,90,4334,74,3995,52,3702,41,3493,37"/>
+<area shape="rect" id="Node000525" href="$createTimeControls_8H.html" title="Read the control parameters used by setDeltaT." alt="" coords="4865,115,5029,141"/>
+<area shape="poly" id="edge44_Node000001_Node000525" title=" " alt="" coords="3493,31,3728,35,4064,45,4455,67,4656,84,4852,105,4883,110,4882,115,4852,111,4655,89,4454,73,4064,50,3727,40,3493,37"/>
+<area shape="rect" id="Node000526" href="$compressibleCourantNo_8H.html" title="Calculates and outputs the mean and maximum Courant Numbers." alt="" coords="5053,115,5245,141"/>
+<area shape="poly" id="edge45_Node000001_Node000526" title=" " alt="" coords="3493,31,3754,35,4136,45,4584,67,4814,84,5040,105,5078,110,5077,116,5040,111,4814,89,4583,73,4136,50,3754,40,3493,37"/>
+<area shape="rect" id="Node000527" href="$setInitialDeltaT_8H.html" title="Set the initial timestep corresponding to the timestep adjustment algorithm in setDeltaT but only if ..." alt="" coords="5270,115,5405,141"/>
+<area shape="poly" id="edge46_Node000001_Node000527" title=" " alt="" coords="3493,33,3853,39,4363,53,4879,75,5095,89,5258,105,5282,110,5281,115,5257,111,5094,94,4879,80,4363,59,3853,45,3493,38"/>
+<area shape="rect" id="Node000528" href="$readTimeControls_8H.html" title="Read the control parameters used by setDeltaT." alt="" coords="5429,115,5581,141"/>
+<area shape="poly" id="edge47_Node000001_Node000528" title=" " alt="" coords="3493,33,3880,40,4436,53,5001,75,5238,89,5416,105,5445,110,5444,115,5416,111,5237,94,5001,80,4436,59,3880,45,3493,38"/>
+<area shape="rect" id="Node000529" href="$applications_2legacy_2combustion_2PDRFoam_2setDeltaT_8H.html" title="Reset the timestep to maintain a constant maximum courant Number. Reduction of time&#45;step is immediate..." alt="" coords="5605,115,5704,141"/>
+<area shape="poly" id="edge48_Node000001_Node000529" title=" " alt="" coords="3493,31,3911,33,4519,42,4839,52,5140,65,5399,82,5594,105,5610,109,5609,114,5593,111,5398,88,5139,70,4839,57,4519,48,3911,39,3493,37"/>
+<area shape="rect" id="Node000530" href="$applications_2legacy_2combustion_2PDRFoam_2rhoEqn_8H.html" title="Solve the continuity for density." alt="" coords="5737,203,5818,229"/>
+<area shape="poly" id="edge49_Node000001_Node000530" title=" " alt="" coords="3493,32,3998,36,4720,48,5077,57,5385,70,5610,86,5680,95,5717,106,5738,123,5754,145,5773,189,5768,191,5749,148,5734,127,5715,110,5679,100,5609,91,5385,75,5077,62,4720,53,3998,41,3493,37"/>
+<area shape="rect" id="Node000531" href="$combustion_2PDRFoam_2UEqn_8H.html" title=" " alt="" coords="5871,115,5942,141"/>
+<area shape="poly" id="edge50_Node000001_Node000531" title=" " alt="" coords="3493,32,4000,38,4740,52,5448,74,5708,88,5799,96,5861,105,5871,108,5870,113,5859,111,5799,102,5707,94,5448,79,4740,57,4000,44,3493,37"/>
+<area shape="rect" id="Node000532" href="$bEqn_8H.html" title=" " alt="" coords="5966,115,6034,141"/>
+<area shape="poly" id="edge51_Node000001_Node000532" title=" " alt="" coords="3493,32,4018,38,4788,50,5178,60,5525,72,5796,87,5892,96,5955,105,5965,108,5964,113,5954,111,5891,101,5795,93,5525,78,5177,65,4787,56,4018,43,3493,37"/>
+<area shape="rect" id="Node000536" href="$ftEqn_8H.html" title=" " alt="" coords="6059,115,6128,141"/>
+<area shape="poly" id="edge52_Node000001_Node000536" title=" " alt="" coords="3493,32,4035,37,4833,50,5239,60,5600,72,5881,87,5981,96,6047,105,6058,108,6056,113,6046,111,5980,101,5881,93,5600,77,5238,65,4833,55,4035,43,3493,37"/>
+<area shape="rect" id="Node000537" href="$EauEqn_8H.html" title=" " alt="" coords="6153,115,6237,141"/>
+<area shape="poly" id="edge53_Node000001_Node000537" title=" " alt="" coords="3493,32,4052,39,4879,52,5675,74,5968,89,6072,97,6140,105,6155,109,6153,114,6140,111,6071,102,5968,94,5675,80,4879,58,4052,44,3493,37"/>
+<area shape="rect" id="Node000538" href="$EaEqn_8H.html" title=" " alt="" coords="6261,115,6337,141"/>
+<area shape="poly" id="edge54_Node000001_Node000538" title=" " alt="" coords="3493,32,4072,37,4934,49,5373,59,5765,71,6070,87,6178,96,6250,105,6261,108,6260,113,6249,111,6177,101,6070,92,5764,77,5373,64,4934,55,4072,42,3493,37"/>
+<area shape="rect" id="Node000539" href="$legacy_2combustion_2PDRFoam_2pEqn_8H.html" title=" " alt="" coords="5779,115,5847,141"/>
+<area shape="poly" id="edge55_Node000001_Node000539" title=" " alt="" coords="3493,32,3982,40,4690,55,5366,77,5614,90,5760,105,5773,108,5772,114,5760,111,5614,96,5366,82,4690,61,3982,46,3493,38"/>
+<area shape="poly" id="edge8_Node000430_Node000128" title=" " alt="" coords="391,141,391,189,385,189,385,141"/>
+<area shape="poly" id="edge11_Node000432_Node000128" title=" " alt="" coords="540,143,425,199,423,195,538,138"/>
+<area shape="poly" id="edge12_Node000432_Node000396" title=" " alt="" coords="577,139,627,185,624,189,573,143"/>
+<area shape="poly" id="edge32_Node000507_Node000511" title=" " alt="" coords="3924,143,3786,200,3784,195,3922,138"/>
+<area shape="poly" id="edge33_Node000507_Node000512" title=" " alt="" coords="3944,143,3903,194,3899,190,3939,139"/>
+<area shape="poly" id="edge34_Node000507_Node000513" title=" " alt="" coords="3962,139,4003,190,3998,194,3958,143"/>
+<area shape="poly" id="edge35_Node000507_Node000514" title=" " alt="" coords="3980,138,4120,196,4118,201,3978,143"/>
+<area shape="poly" id="edge56_Node000539_Node000530" title=" " alt="" coords="5811,142,5790,191,5785,189,5806,140"/>
+</map>

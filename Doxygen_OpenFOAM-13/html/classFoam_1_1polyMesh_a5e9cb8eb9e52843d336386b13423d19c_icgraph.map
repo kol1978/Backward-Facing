@@ -1,0 +1,64 @@
+<map id="globalData" name="globalData">
+<area shape="rect" id="Node000001" title="Return parallel info." alt="" coords="536,901,629,926"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionMethods_1_1structured.html#a971139d60fbf525c8a4dae56d9a386da" title="Return for every coordinate the wanted processor number. Use the." alt="" coords="263,5,482,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="578,887,568,708,550,445,537,312,522,195,505,107,496,77,486,59,473,47,477,43,490,56,500,75,510,105,527,195,542,312,555,445,574,708,583,887"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1decompositionMethod.html#a9e5348f6d62778dc2721d9646d92c3d2" title="Decompose a mesh with constraints." alt="" coords="267,69,478,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="577,887,567,720,548,477,535,355,520,248,504,167,495,139,486,123,473,111,477,108,490,120,500,137,509,165,525,247,540,355,553,477,572,720,583,886"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1AveragingMethods_1_1Dual.html#a4e90e259d050ad479f6e3c6763a1cdf6" title="Constructors." alt="" coords="279,133,466,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,887,578,743,568,533,556,424,540,325,516,243,502,211,486,187,465,171,468,166,490,184,507,208,521,241,545,323,562,423,573,532,583,743,584,887"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1PatchTools.html#a2e3dce1382f6778a92c455ac552fac2f" title=" " alt="" coords="258,198,487,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="579,887,577,751,566,556,554,455,538,363,515,288,502,259,486,238,470,225,474,221,490,234,506,257,520,286,543,362,560,455,571,555,582,751,584,887"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1PatchTools.html#a3bf69308d75ef796d2a6c40d5393a6fd" title="Gather (mesh!) points and faces onto master and merge collocated." alt="" coords="281,248,465,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="578,887,574,764,561,588,549,498,533,415,512,347,500,321,486,302,463,285,467,281,490,298,504,319,517,346,538,414,554,497,566,587,579,763,584,887"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1zoneGenerators_1_1pistonBowlPoints.html#a3853d2b15701735bf8ff0420cea98525" title="Generate and return the zoneSet." alt="" coords="269,312,477,352"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="578,887,572,775,557,618,545,538,529,466,510,406,486,366,472,354,476,350,490,362,515,404,534,464,550,537,562,618,577,774,583,887"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1syncTools.html#a96d0f41e2ad80738744f967818ff34a2" title="Get per edge whether it is uncoupled or a master of a." alt="" coords="271,376,474,416"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="577,887,569,786,553,649,540,579,525,516,507,465,486,430,472,418,476,414,490,426,512,462,531,515,546,578,558,648,575,786,582,886"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1syncTools.html#a38f15a35a2b2379333eee9b98b9a1e67" title="Get per point whether it is uncoupled or a master of a." alt="" coords="271,440,474,480"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="576,887,567,799,548,681,522,567,505,523,486,494,472,482,475,478,490,490,510,521,527,566,554,679,572,798,582,887"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1pointBoundaryMesh.html#ab62834098bae1d3887f578c700754f39" title="Correct pointBoundaryMesh after moving points." alt="" coords="275,504,471,544"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="575,887,564,811,544,712,518,618,503,582,486,558,469,545,473,541,490,554,507,580,523,617,549,711,569,810,581,887"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1polyBoundaryMesh.html#ab62834098bae1d3887f578c700754f39" title="Correct polyBoundaryMesh after moving points." alt="" coords="277,568,468,608"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="578,887,573,832,560,760,548,723,532,686,512,652,486,622,467,608,470,604,490,618,516,649,537,684,553,721,565,759,579,831,584,887"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1mappedExtrudedPatchBase.html#a3115b0920bff30b6f926e6642a896090" title="Get the face&#45;areas for the patch." alt="" coords="267,632,479,672"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="575,887,567,843,551,789,525,733,507,708,486,686,470,674,473,670,490,682,511,705,529,731,556,787,572,842,581,886"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1mappedExtrudedPatchBase.html#a319d06a607662dec13e5cb3e7fa36f4a" title="Get the local points for the patch." alt="" coords="267,696,479,736"/>
+<area shape="poly" id="edge12_Node000001_Node000016" title=" " alt="" coords="571,888,559,856,541,819,517,782,486,750,468,738,470,734,490,746,521,778,546,816,564,854,576,887"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1PatchTools.html#aa633a1f6c1b9df9a841e9ddea8893c2e" title=" " alt="" coords="257,761,488,786"/>
+<area shape="poly" id="edge13_Node000001_Node000017" title=" " alt="" coords="566,891,534,844,512,820,487,801,459,788,462,784,489,796,515,817,538,841,570,887"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1structuredRenumber.html#a43e03f902cbbeb39d4552a7e1cee9e73" title="Return the order in which cells need to be visited, i.e." alt="" coords="273,811,472,851"/>
+<area shape="poly" id="edge14_Node000001_Node000018" title=" " alt="" coords="543,897,487,872,436,853,438,848,489,867,545,892"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1motionSmootherAlgo.html#a31c17a66004ca1d7ddc9063c581718c3" title="Set displacement field from displacement on patch points." alt="" coords="5,1041,209,1081"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="522,903,465,895,397,892,326,897,292,905,258,916,214,942,176,976,145,1012,123,1043,119,1040,141,1009,172,972,211,937,256,911,290,899,326,892,397,886,465,890,523,898"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam_1_1fvc.html#a417a555eb3108fd8d6c41c0aec39a633" title=" " alt="" coords="301,926,444,951"/>
+<area shape="poly" id="edge16_Node000001_Node000023" title=" " alt="" coords="523,923,445,933,444,927,522,918"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1syncTools.html#a86e90a506551c4d498997468519bdbb6" title="Synchronise values on selected mesh edges." alt="" coords="261,975,484,1001"/>
+<area shape="poly" id="edge17_Node000001_Node000027" title=" " alt="" coords="550,936,489,965,446,978,445,973,487,960,548,931"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1syncTools.html#a5ed3e64d2ef89e3823674727ea1b3d58" title="Synchronise values on all mesh edges." alt="" coords="261,1025,484,1050"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="567,939,534,978,513,998,489,1014,459,1027,457,1022,487,1010,510,994,530,975,563,936"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1syncTools.html#ac1b1cf2409615321e41fa44e97e23061" title=" " alt="" coords="261,1074,484,1099"/>
+<area shape="poly" id="edge19_Node000001_Node000043" title=" " alt="" coords="575,940,544,1002,520,1036,490,1064,465,1076,463,1072,486,1059,516,1032,539,1000,570,938"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1syncTools.html#a154ac086463b8d7a0eed8c4539d3ab73" title="Synchronise values on selected edges." alt="" coords="259,1123,486,1149"/>
+<area shape="poly" id="edge20_Node000001_Node000044" title=" " alt="" coords="579,940,569,979,552,1026,526,1073,509,1094,490,1113,468,1125,466,1121,486,1109,505,1091,522,1070,547,1024,564,977,574,939"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1syncTools.html#a334197e1b70d6e0b87da5cb827940dd4" title="Synchronise values on selected mesh points." alt="" coords="261,1173,484,1198"/>
+<area shape="poly" id="edge21_Node000001_Node000049" title=" " alt="" coords="582,941,575,989,559,1048,532,1110,513,1138,490,1162,470,1175,467,1170,486,1158,509,1134,527,1107,554,1047,570,987,577,940"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1syncTools.html#a197ed77a9101bdfb37253bd3f507c017" title="Synchronise values on all mesh points." alt="" coords="261,1222,484,1247"/>
+<area shape="poly" id="edge22_Node000001_Node000050" title=" " alt="" coords="584,940,580,997,566,1070,554,1108,538,1146,517,1181,490,1211,471,1224,468,1220,486,1207,513,1178,533,1144,549,1107,561,1069,574,996,579,940"/>
+<area shape="rect" id="Node000086" href="$classFoam_1_1syncTools.html#a66344f300480fd9182a928f64fd31b54" title=" " alt="" coords="261,1271,484,1297"/>
+<area shape="poly" id="edge24_Node000001_Node000086" title=" " alt="" coords="580,940,569,1015,549,1110,523,1201,507,1236,490,1261,472,1273,469,1269,486,1257,503,1234,518,1199,544,1109,563,1014,575,939"/>
+<area shape="rect" id="Node000087" href="$classFoam_1_1syncTools.html#a08bdf5c6403dd4367d1714c3d5b4145d" title="Synchronise values on selected points." alt="" coords="259,1321,487,1346"/>
+<area shape="poly" id="edge25_Node000001_Node000087" title=" " alt="" coords="581,940,571,1023,553,1134,526,1240,509,1282,490,1310,472,1323,469,1318,486,1306,504,1279,521,1239,548,1133,566,1023,576,939"/>
+<area shape="rect" id="Node000090" href="$classFoam_1_1pointBoundaryMesh.html#a1cd135156c1472175f38d4a2dffc14c9" title="Correct pointBoundaryMesh after topology update." alt="" coords="275,1371,471,1411"/>
+<area shape="poly" id="edge26_Node000001_Node000090" title=" " alt="" coords="582,940,573,1033,555,1158,543,1221,528,1279,511,1326,490,1359,472,1373,469,1369,486,1356,506,1324,523,1277,538,1220,550,1157,567,1032,577,939"/>
+<area shape="rect" id="Node000091" href="$classFoam_1_1polyBoundaryMesh.html#a1cd135156c1472175f38d4a2dffc14c9" title="Correct polyBoundaryMesh after topology update." alt="" coords="277,1435,468,1475"/>
+<area shape="poly" id="edge27_Node000001_Node000091" title=" " alt="" coords="583,940,576,1045,560,1190,547,1263,532,1331,513,1386,490,1424,470,1440,467,1436,486,1421,508,1384,527,1329,542,1262,554,1189,570,1044,577,939"/>
+<area shape="rect" id="Node000095" href="$classFoam_1_1fvMeshDistributors_1_1distributor.html#aa2aac016e2bf7b5bd2b271786c2791aa" title="Distribute the." alt="" coords="277,1499,468,1539"/>
+<area shape="poly" id="edge28_Node000001_Node000095" title=" " alt="" coords="583,940,578,1056,564,1220,552,1304,536,1381,516,1445,503,1469,490,1489,470,1504,467,1500,486,1485,499,1467,511,1443,531,1380,546,1304,558,1220,573,1056,578,940"/>
+<area shape="rect" id="Node000096" href="$classFoam_1_1fvMeshDistributors_1_1loadBalancer.html#aa2aac016e2bf7b5bd2b271786c2791aa" title="Distribute the." alt="" coords="277,1563,468,1603"/>
+<area shape="poly" id="edge29_Node000001_Node000096" title=" " alt="" coords="584,941,580,1069,567,1252,556,1346,539,1432,518,1503,505,1531,490,1552,470,1568,467,1564,486,1549,500,1528,513,1501,534,1431,550,1345,562,1252,575,1069,578,940"/>
+<area shape="rect" id="Node000097" href="$classFoam_1_1cellsToCellsStabilisation.html#a5a875957adb6ab9a075ad1037737dd68" title="Compute the stabilisation addressing if necessary." alt="" coords="261,1627,484,1667"/>
+<area shape="poly" id="edge30_Node000001_Node000097" title=" " alt="" coords="584,940,582,1079,571,1282,560,1386,543,1482,520,1562,506,1593,490,1616,476,1628,473,1624,486,1613,502,1590,515,1560,538,1481,555,1386,566,1281,577,1079,579,940"/>
+<area shape="rect" id="Node000098" href="$classFoam_1_1FacePostProcessing.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="276,1691,469,1731"/>
+<area shape="poly" id="edge31_Node000001_Node000098" title=" " alt="" coords="585,939,584,1090,575,1312,564,1427,547,1533,523,1620,508,1654,490,1680,471,1696,468,1692,486,1677,503,1652,518,1618,542,1531,559,1426,570,1311,579,1090,579,939"/>
+<area shape="poly" id="edge23_Node000050_Node000019" title=" " alt="" coords="274,1220,256,1212,213,1182,175,1147,121,1083,125,1080,179,1144,216,1178,259,1207,276,1215"/>
+</map>

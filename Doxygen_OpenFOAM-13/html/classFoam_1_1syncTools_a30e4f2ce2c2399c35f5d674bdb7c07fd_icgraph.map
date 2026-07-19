@@ -1,0 +1,33 @@
+<map id="swapBoundaryFaceList" name="swapBoundaryFaceList">
+<area shape="rect" id="Node000001" title="Swap coupled boundary face values." alt="" coords="305,433,476,458"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionMethod.html#a86727d8c968e3ae5d8f394879e2b3c8a" title="Helper: determine (local or global) cellCells from mesh." alt="" coords="26,5,237,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="386,419,379,347,360,250,343,198,321,147,292,100,256,59,235,45,238,41,259,55,296,97,325,145,348,196,365,249,384,347,391,419"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1decompositionMethod.html#af7eca33cb08c9ecda876edb45da5025d" title="Helper: determine (local or global) cellCells and face weights." alt="" coords="26,69,237,109"/>
+<area shape="poly" id="edge2_Node000001_Node000007" title=" " alt="" coords="384,419,373,358,351,278,334,236,313,194,287,156,256,123,236,110,239,106,259,119,291,153,318,192,339,233,356,276,379,357,389,418"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshRefinement.html#a9ba55ad37b0d2cb2314d246df7da8040" title="Helper function: check that face zones are synced." alt="" coords="36,133,227,173"/>
+<area shape="poly" id="edge3_Node000001_Node000008" title=" " alt="" coords="381,420,367,370,342,307,306,242,282,213,256,187,225,170,228,166,259,183,286,209,310,239,347,305,372,368,386,418"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1meshRefinement.html#a2c4ac7a26c8a7aeb644c5d0f345f3f4e" title="Debugging: check that all faces still obey start()&gt;end()" alt="" coords="43,197,220,237"/>
+<area shape="poly" id="edge4_Node000001_Node000009" title=" " alt="" coords="377,421,359,383,333,337,298,290,256,252,219,233,221,229,259,247,302,287,337,334,364,380,382,419"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1hexRef8.html#a432ff341842268fa21b8363e6b2c45b9" title="Debug: Check coupled mesh for correctness." alt="" coords="31,262,232,287"/>
+<area shape="poly" id="edge5_Node000001_Node000011" title=" " alt="" coords="373,423,326,360,293,328,256,301,230,290,233,285,259,296,297,324,330,357,377,420"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1faceZone.html#ae0d853449ed62624abe28bda852337c6" title="Check whether all procs have faces synchronised. Return." alt="" coords="5,311,257,337"/>
+<area shape="poly" id="edge6_Node000001_Node000015" title=" " alt="" coords="364,426,317,387,287,368,256,352,219,339,221,334,258,347,290,363,320,383,368,421"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1hexRef8.html#a02570ed86624586145fa5b8bb20a2d12" title="Debug: Check 2:1 consistency across faces." alt="" coords="11,361,252,401"/>
+<area shape="poly" id="edge7_Node000001_Node000016" title=" " alt="" coords="324,432,213,404,214,399,326,427"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1hexRef8.html#a11f117689e45448afaf2192041730bc8" title="Like consistentRefinement but slower:" alt="" coords="34,425,229,465"/>
+<area shape="poly" id="edge8_Node000001_Node000017" title=" " alt="" coords="292,448,229,448,229,443,292,443"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1hexRef8.html#abf9b3d2f2aab0f68bcd539d27b46cfcf" title="Given proposed." alt="" coords="34,489,229,529"/>
+<area shape="poly" id="edge9_Node000001_Node000018" title=" " alt="" coords="326,464,214,492,213,487,324,459"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1zoneGenerators_1_1face.html#a3853d2b15701735bf8ff0420cea98525" title="Generate and return the zoneSet." alt="" coords="47,553,216,593"/>
+<area shape="poly" id="edge10_Node000001_Node000019" title=" " alt="" coords="367,469,319,507,258,544,217,559,215,554,256,539,316,503,364,465"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1SloanRenumber.html#a43e03f902cbbeb39d4552a7e1cee9e73" title="Return the order in which cells need to be visited, i.e." alt="" coords="47,617,216,657"/>
+<area shape="poly" id="edge11_Node000001_Node000020" title=" " alt="" coords="378,472,331,540,298,576,259,608,217,626,215,621,256,603,294,573,327,536,374,469"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="20,682,243,707"/>
+<area shape="poly" id="edge12_Node000001_Node000021" title=" " alt="" coords="384,472,368,516,343,571,306,626,284,650,259,672,235,684,233,680,256,667,280,646,302,622,338,568,363,514,379,471"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1syncTools.html#ac509eef6db47b0b87366229f2fb017f9" title="Swap to obtain neighbour cell values for all boundary faces." alt="" coords="48,731,215,757"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="387,472,374,525,350,593,333,628,313,662,288,694,259,721,238,733,216,741,214,736,236,728,256,717,284,690,308,659,329,626,345,591,369,523,382,471"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1faceZoneSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceZoneSet across coupled patches." alt="" coords="38,781,225,806"/>
+<area shape="poly" id="edge14_Node000001_Node000026" title=" " alt="" coords="389,472,379,534,357,615,340,657,319,699,292,737,259,770,227,788,224,783,256,766,288,734,314,696,335,655,352,613,374,533,384,471"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1cellsToCellsStabilisation.html#a5a875957adb6ab9a075ad1037737dd68" title="Compute the stabilisation addressing if necessary." alt="" coords="20,831,243,871"/>
+<area shape="poly" id="edge15_Node000001_Node000027" title=" " alt="" coords="391,472,383,542,362,635,345,685,323,734,295,779,259,819,240,833,237,828,256,815,290,776,318,731,340,683,357,634,377,541,385,472"/>
+</map>

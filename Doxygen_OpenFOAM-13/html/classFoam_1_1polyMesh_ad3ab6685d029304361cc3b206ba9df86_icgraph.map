@@ -1,0 +1,35 @@
+<map id="faceZones" name="faceZones">
+<area shape="rect" id="Node000001" title="Return face zones." alt="" coords="320,470,411,495"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionConstraints_1_1preserveFaceZonesConstraint.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add my constraints to list of constraints." alt="" coords="11,5,266,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,457,350,367,333,248,321,188,306,133,289,89,270,59,256,47,259,43,274,56,294,86,311,131,326,186,338,247,355,367,365,456"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1surfaceZonesInfo.html#a6b6401890b961882e87246caf901f8a4" title=" " alt="" coords="49,69,228,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="358,457,347,380,328,279,302,184,287,148,270,123,250,109,227,99,229,94,253,104,274,119,292,145,307,182,334,278,352,379,363,456"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1decompositionConstraints_1_1preserveFaceZonesConstraint.html#a37f5f686855452b8a05bb30a3eef55fc" title="Apply any additional post&#45;decomposition constraints." alt="" coords="5,133,272,173"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="361,456,357,400,344,327,333,289,317,252,296,217,270,187,255,176,258,171,274,183,301,214,322,249,338,287,349,326,363,399,367,456"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1meshRefinement.html#a9ba55ad37b0d2cb2314d246df7da8040" title="Helper function: check that face zones are synced." alt="" coords="43,197,234,237"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="359,456,351,411,335,356,309,299,292,274,270,251,253,239,233,231,235,226,255,235,274,247,296,270,314,297,340,354,356,410,364,456"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam_1_1meshCheck.html#ad213b9ed366ba8c9808468c72ee7a048" title="Check the topology." alt="" coords="15,262,262,287"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="356,457,346,421,329,379,304,337,270,302,249,290,251,285,274,298,308,334,333,377,351,420,361,456"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1snappySnapDriver.html#adf0870a8be4483ecdb73b26b20d027ee" title=" " alt="" coords="46,312,231,352"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="349,460,318,411,296,387,271,366,230,348,232,343,273,362,300,383,322,408,354,457"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1faceZoneSet.html#ace6e4b16ad35bf8903c38685a92d7789" title="Construct from objectRegistry and name." alt="" coords="61,376,217,416"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="334,465,304,447,271,430,216,413,218,408,273,426,307,442,336,460"/>
+<area shape="rect" id="Node000011" href="$legacy_2electromagnetics_2magneticFoam_2createFields_8H.html#af0cf7e16280edc6e8e8554bb4addadce" title=" " alt="" coords="110,441,167,466"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="306,478,168,460,168,454,307,472"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1snappySnapDriver.html#a9b0617c77e1e71c70428238e6246484e" title="Get points both on patch and facezone." alt="" coords="46,491,231,531"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="306,493,232,502,231,497,306,487"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1polyTopoChange.html#a0fbcf170ef38bb024475ef5b8a855357" title="Create new mesh with old mesh patches." alt="" coords="52,555,225,595"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="338,506,308,527,273,545,226,561,225,556,271,540,305,522,335,502"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fvMeshDistribute.html#a8a0700fdb9e32ce9809a663ad13ab01b" title="Print some info on mesh." alt="" coords="49,619,228,659"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="355,509,323,560,300,587,273,609,229,629,227,624,271,604,296,583,319,557,350,506"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam_1_1meshCheck.html#aee7efed69c9cc6a6c54f1bc980e07d4b" title="Print mesh statistics." alt="" coords="31,683,246,723"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="361,509,351,546,334,590,308,635,274,673,248,688,245,684,270,669,304,632,329,588,346,545,356,508"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1snappySnapDriver.html#a350e64da4feecd96945a758f2c3d5b1d" title="Repatch faces according to surface nearest the face centre." alt="" coords="46,747,231,787"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="365,510,358,558,343,620,316,683,297,711,274,737,254,750,232,759,230,755,252,746,270,733,293,708,311,680,338,618,353,557,360,509"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1addPatchCellLayer.html#ab6105f056d34e8b3370b77f21ea3ee6b" title="Play commands into polyTopoChange to create layers on top." alt="" coords="45,811,232,851"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="367,509,364,569,352,647,340,689,324,730,302,767,274,801,255,815,233,824,231,819,252,810,270,797,298,764,319,727,335,687,347,646,359,569,362,509"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1addPatchCellLayer.html#a785067ab48963575d78a100df210d10d" title="Update the mesh zones." alt="" coords="45,875,232,915"/>
+<area shape="poly" id="edge15_Node000001_Node000021" title=" " alt="" coords="364,509,353,590,335,697,309,798,292,837,274,865,255,879,233,889,231,884,252,874,270,861,288,835,304,796,330,695,348,590,359,509"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1FacePostProcessing.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="42,939,235,979"/>
+<area shape="poly" id="edge16_Node000001_Node000022" title=" " alt="" coords="365,509,356,602,339,728,327,791,312,849,295,896,274,928,256,942,236,952,234,947,254,938,270,925,290,894,307,847,322,790,334,727,351,602,360,509"/>
+</map>

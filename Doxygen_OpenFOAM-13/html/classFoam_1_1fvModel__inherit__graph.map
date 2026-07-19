@@ -1,0 +1,85 @@
+<map id="fvModel" name="fvModel">
+<area shape="rect" id="Node000001" title="Finite volume model abstract base class." alt="" coords="5,992,80,1017"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fv_1_1KochFriedlanderSintering.html" title="Sintering model of Koch and Friedlander (1990). The characteristic time for sintering is given by." alt="" coords="147,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,978,47,780,61,482,72,331,86,198,104,96,114,62,126,40,146,25,149,29,130,44,119,64,109,98,91,199,77,332,66,482,52,780,47,978"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1fv_1_1OUForce.html" title="Calculates and applies the random OU (Ornstein&#45;Uhlenbeck) process force to the momentum equation for ..." alt="" coords="201,55,278,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="42,978,48,789,62,507,73,364,87,238,105,143,115,110,126,90,142,77,161,68,200,62,201,68,162,74,145,81,130,93,120,112,110,144,93,239,79,365,68,507,53,789,47,979"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1fv_1_1VoFCavitation.html" title="Cavitation fvModel." alt="" coords="183,104,296,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="42,978,49,798,64,531,75,397,89,279,106,189,115,158,126,139,152,121,182,113,183,118,154,126,130,142,120,160,111,190,94,280,80,398,69,532,54,798,47,978"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fv_1_1VoFClouds.html" title="Lagrangian clouds model for VoF simulations." alt="" coords="194,153,285,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="42,978,50,807,65,556,77,430,90,319,107,235,116,206,126,188,141,176,158,168,193,161,194,167,159,173,143,181,130,192,121,208,112,236,96,320,82,431,71,557,55,807,48,978"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fv_1_1VoFFilmTransfer.html" title="Film&lt;&#45;&gt;VoF transfer model." alt="" coords="176,203,303,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="42,978,51,817,67,582,78,464,92,360,108,281,116,254,126,238,149,221,175,213,177,218,151,226,130,241,121,257,113,283,97,361,84,464,72,582,56,817,48,979"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1fv_1_1VoFSolidificationMelting.html" title="Solidification and melting model for VoF simulations." alt="" coords="150,252,329,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="43,978,52,826,69,607,93,401,109,328,117,303,126,287,148,271,151,275,130,290,122,305,114,329,99,402,74,607,57,826,48,978"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1fv_1_1VoFTurbulenceDamping.html" title="Free&#45;surface turbulence damping function." alt="" coords="152,301,327,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="41,978,41,845,50,652,60,553,75,462,97,388,110,358,126,336,150,319,153,324,130,340,115,361,102,389,80,463,65,554,55,652,46,845,46,978"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1fv_1_1acceleration.html" title="This fvModel applies an explicit acceleration force to components of the velocity field." alt="" coords="188,351,291,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="41,978,43,853,53,676,63,584,78,501,99,433,111,406,126,386,139,375,155,367,187,360,189,365,157,372,142,379,130,389,116,409,104,435,83,502,68,585,58,676,48,854,46,978"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1fv_1_1actuationDisk.html" title="Actuation disk source." alt="" coords="183,400,295,425"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="41,978,44,862,56,700,66,616,81,540,100,478,112,453,126,435,152,417,182,410,184,415,154,422,130,439,117,456,105,480,86,542,71,617,61,700,50,863,47,979"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1fv_1_1bXiIgnition.html" title="Abstract base&#45;class for ignition models for the Weller b&#45;Xi combustion models." alt="" coords="193,449,285,475"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="42,978,46,870,59,723,70,647,84,579,103,523,126,484,141,473,157,465,193,458,194,463,159,470,143,477,130,488,107,525,89,580,75,648,64,723,52,871,47,978"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fv_1_1buoyancyEnergy.html" title="Calculates and applies the buoyancy energy source rho*(U&amp;g) to the energy equation." alt="" coords="174,499,305,524"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="42,978,48,881,62,747,73,680,87,619,104,568,126,533,148,518,173,510,174,515,150,523,130,537,109,570,92,620,78,681,67,748,54,881,48,979"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1fv_1_1buoyancyForce.html" title="Calculates and applies the buoyancy force rho*g to the momentum equation corresponding to the specifi..." alt="" coords="179,548,299,573"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="43,978,50,889,65,771,76,712,90,658,106,613,126,583,150,567,178,559,180,564,153,572,130,587,111,616,95,659,82,713,71,772,56,890,48,978"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1fv_1_1cloud.html" title="Finite volume model that solves for the evolution of a cloud. Provides two&#45;way coupling with a finite..." alt="" coords="211,597,268,623"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="44,978,53,899,69,795,93,697,108,658,126,632,145,619,167,611,210,606,210,611,168,616,148,623,130,636,113,661,98,699,74,796,58,900,49,979"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fv_1_1clouds.html" title="This fvModel adds any number of Lagrangian clouds to any single&#45;phase solver. The particles are track..." alt="" coords="207,647,271,672"/>
+<area shape="poly" id="edge14_Node000001_Node000020" title=" " alt="" coords="45,978,55,908,72,820,96,736,110,704,126,681,144,669,165,661,207,655,207,660,167,666,147,673,130,685,115,706,101,738,78,821,60,909,50,979"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fv_1_1codedFvModel.html" title="Constructs on&#45;the&#45;fly fvModel source from user&#45;supplied code." alt="" coords="181,696,298,721"/>
+<area shape="poly" id="edge15_Node000001_Node000021" title=" " alt="" coords="41,978,45,926,57,859,68,824,83,790,102,758,126,731,151,715,179,707,181,713,153,720,130,735,106,761,87,792,73,826,62,860,50,926,47,978"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1fv_1_1compressible_1_1VoFCavitation.html" title="Cavitation fvModel." alt="" coords="183,745,296,771"/>
+<area shape="poly" id="edge16_Node000001_Node000022" title=" " alt="" coords="43,978,50,935,64,881,88,826,106,802,126,780,153,765,182,757,183,762,155,770,130,784,110,805,93,829,69,883,55,936,49,979"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1fv_1_1compressible_1_1VoFTurbulenceDamping.html" title="Free&#45;surface momentumTransport damping function." alt="" coords="152,795,327,820"/>
+<area shape="poly" id="edge17_Node000001_Node000023" title=" " alt="" coords="47,978,56,944,72,903,95,863,126,829,150,816,153,820,130,833,99,866,77,906,61,945,52,979"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1fv_1_1effectivenessHeatExchanger.html" title="Heat exchanger model, based on an effectiveness." alt="" coords="135,844,343,869"/>
+<area shape="poly" id="edge18_Node000001_Node000024" title=" " alt="" coords="52,978,80,927,101,901,127,878,148,867,151,872,129,883,105,904,85,930,57,981"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1fv_1_1filmCloudTransfer.html" title="Film&lt;&#45;&gt;cloud transfer model." alt="" coords="171,893,307,919"/>
+<area shape="poly" id="edge19_Node000001_Node000025" title=" " alt="" coords="62,980,91,952,127,928,170,912,172,917,129,932,94,956,66,984"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1fv_1_1filmVoFTransfer.html" title="Film&lt;&#45;&gt;VoF transfer model." alt="" coords="178,943,301,968"/>
+<area shape="poly" id="edge20_Node000001_Node000026" title=" " alt="" coords="92,987,127,977,177,965,178,970,129,982,94,992"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1fv_1_1forcing.html" title="Base fvModel for forcing functions." alt="" coords="206,992,273,1017"/>
+<area shape="poly" id="edge21_Node000001_Node000027" title=" " alt="" coords="93,1002,205,1002,205,1007,93,1007"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1fv_1_1heatSource.html" title="Model for applying a heat source. Requires either the power, Q, or the power per unit volume,..." alt="" coords="192,1041,287,1067"/>
+<area shape="poly" id="edge22_Node000001_Node000031" title=" " alt="" coords="94,1017,129,1026,192,1041,191,1047,127,1031,93,1022"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1fv_1_1heatTransfer.html" title="Model for heat exchange. Requires specification of an ambient temperature with which to exchange heat..." alt="" coords="188,1091,291,1116"/>
+<area shape="poly" id="edge23_Node000001_Node000032" title=" " alt="" coords="66,1026,95,1052,129,1076,158,1087,188,1094,187,1100,157,1092,127,1080,91,1056,63,1030"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1fv_1_1interRegionModel.html" title="Base class for inter&#45;region exchange." alt="" coords="171,1140,308,1165"/>
+<area shape="poly" id="edge24_Node000001_Node000033" title=" " alt="" coords="57,1028,85,1078,105,1104,130,1125,149,1136,171,1143,169,1148,147,1141,126,1130,101,1108,80,1081,52,1031"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1fv_1_1interfaceTurbulenceDamping.html" title="Free&#45;surface phase turbulence damping function." alt="" coords="135,1189,344,1215"/>
+<area shape="poly" id="edge25_Node000001_Node000036" title=" " alt="" coords="52,1030,61,1063,77,1103,99,1142,130,1175,151,1187,148,1192,126,1179,95,1145,72,1105,56,1065,47,1031"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1fv_1_1oneResistanceHeatTransfer.html" title="Model for heat transfer between two phases. One heat transfer coefficient is used to calculate the he..." alt="" coords="139,1239,339,1264"/>
+<area shape="poly" id="edge26_Node000001_Node000037" title=" " alt="" coords="49,1031,56,1074,70,1126,94,1179,110,1203,130,1224,149,1236,146,1241,126,1228,106,1207,89,1182,65,1128,50,1075,44,1032"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1fv_1_1phaseLimitStabilisation.html" title="Stabilisation source for phase transport equations." alt="" coords="152,1288,327,1313"/>
+<area shape="poly" id="edge27_Node000001_Node000038" title=" " alt="" coords="47,1031,51,1083,63,1149,73,1183,88,1216,106,1247,130,1273,153,1288,150,1293,126,1277,102,1250,83,1218,68,1185,57,1150,45,1084,41,1032"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1fv_1_1phaseTurbulenceStabilisation.html" title="Phase turbulence stabilisation." alt="" coords="133,1337,345,1363"/>
+<area shape="poly" id="edge28_Node000001_Node000039" title=" " alt="" coords="50,1031,61,1100,78,1188,101,1270,115,1302,130,1323,147,1335,144,1339,126,1327,110,1304,96,1272,73,1189,55,1101,45,1031"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1fv_1_1porosityForce.html" title="This model applies the force exerted on the fluid by a porous media." alt="" coords="184,1387,295,1412"/>
+<area shape="poly" id="edge29_Node000001_Node000040" title=" " alt="" coords="49,1031,58,1110,74,1212,98,1310,113,1347,130,1372,155,1388,184,1396,183,1401,153,1393,126,1376,108,1350,93,1311,69,1214,53,1111,44,1032"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1fv_1_1propellerDisk.html" title="Disk momentum source which approximates a propeller based on a given propeller curve." alt="" coords="185,1436,294,1461"/>
+<area shape="poly" id="edge30_Node000001_Node000041" title=" " alt="" coords="48,1031,56,1119,71,1237,82,1296,95,1349,111,1392,130,1421,155,1438,185,1446,184,1451,153,1443,126,1425,106,1395,90,1351,77,1297,66,1237,51,1120,43,1031"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1fv_1_1radiation.html" title="Calculates and applies the radiation source to the energy equation." alt="" coords="199,1485,279,1511"/>
+<area shape="poly" id="edge31_Node000001_Node000043" title=" " alt="" coords="48,1031,54,1129,68,1261,78,1328,92,1388,109,1438,130,1471,145,1482,162,1490,200,1497,199,1502,161,1495,142,1487,126,1474,105,1440,87,1390,73,1329,62,1262,48,1129,42,1031"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1fv_1_1rotorDisk.html" title="Cell based momentum source which approximates the mean effects of rotor forces on a cylindrical regio..." alt="" coords="198,1535,281,1560"/>
+<area shape="poly" id="edge32_Node000001_Node000044" title=" " alt="" coords="47,1031,52,1138,64,1285,75,1360,89,1428,108,1483,130,1520,144,1532,161,1539,198,1546,197,1551,160,1544,142,1536,126,1524,103,1485,84,1429,70,1361,59,1286,46,1139,42,1032"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1fv_1_1semiImplicitSource.html" title="Semi&#45;implicit source, described using an input dictionary. The injection rate coefficients are specif..." alt="" coords="166,1584,313,1609"/>
+<area shape="poly" id="edge33_Node000001_Node000045" title=" " alt="" coords="47,1031,50,1146,61,1308,72,1391,86,1466,106,1528,117,1552,130,1569,147,1582,167,1590,165,1595,144,1587,126,1573,113,1555,101,1530,81,1468,67,1392,56,1309,45,1146,41,1031"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1fv_1_1sixDoFAcceleration.html" title="Solid&#45;body 6&#45;DoF acceleration source." alt="" coords="166,1633,313,1659"/>
+<area shape="poly" id="edge34_Node000001_Node000046" title=" " alt="" coords="46,1031,48,1155,58,1332,69,1423,83,1506,104,1573,116,1599,130,1619,147,1632,167,1640,165,1645,144,1636,126,1623,111,1602,99,1575,78,1507,63,1424,53,1333,43,1156,41,1031"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1fv_1_1solidThermalEquilibrium.html" title="This fvModel adds the thermal inertia of a solid phase into the energy equation. It assumes that the ..." alt="" coords="149,1683,330,1708"/>
+<area shape="poly" id="edge35_Node000001_Node000047" title=" " alt="" coords="46,1031,46,1164,55,1356,65,1455,81,1545,102,1619,115,1647,130,1668,150,1683,147,1687,126,1672,110,1650,97,1620,75,1546,60,1455,50,1356,41,1164,41,1031"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1fv_1_1solidificationMelting.html" title="This source is designed to model the effect of solidification and melting processes,..." alt="" coords="162,1732,317,1757"/>
+<area shape="poly" id="edge36_Node000001_Node000048" title=" " alt="" coords="48,1031,57,1184,74,1402,99,1607,114,1679,122,1703,130,1718,145,1729,163,1737,160,1742,142,1734,126,1721,117,1705,109,1681,94,1608,69,1402,52,1184,43,1032"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1fv_1_1twoResistanceHeatTransfer.html" title="Model for heat transfer between two phases. Two heat transfer coefficients are used to calculate the ..." alt="" coords="139,1781,339,1807"/>
+<area shape="poly" id="edge37_Node000001_Node000049" title=" " alt="" coords="48,1031,56,1192,72,1426,84,1544,97,1647,113,1725,121,1751,130,1767,145,1779,142,1783,126,1770,116,1754,108,1727,92,1648,79,1544,67,1427,51,1192,42,1031"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1fv_1_1viscousHeating.html" title="Applies the viscous heating source to the total energy equation." alt="" coords="178,1831,301,1856"/>
+<area shape="poly" id="edge38_Node000001_Node000050" title=" " alt="" coords="48,1031,55,1202,71,1452,82,1577,96,1688,112,1772,121,1800,130,1816,152,1832,179,1840,177,1845,150,1837,126,1820,116,1802,107,1773,91,1689,77,1578,66,1452,50,1202,42,1031"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1fv_1_1volumeBlockage.html" title="This fvModel adds transport terms into the equations to account for the presence of a constant volume..." alt="" coords="174,1880,305,1905"/>
+<area shape="poly" id="edge39_Node000001_Node000051" title=" " alt="" coords="47,1031,54,1211,69,1477,81,1611,94,1729,111,1818,120,1848,130,1866,150,1881,175,1889,173,1894,148,1885,126,1869,115,1850,106,1819,89,1729,75,1611,64,1477,49,1211,42,1031"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1fv_1_1zeroDimensionalFixedPressureModel.html" title="Zero&#45;dimensional fixed pressure source. Should be used in conjunction with the zeroDimensionalFixedPr..." alt="" coords="128,1930,351,1970"/>
+<area shape="poly" id="edge40_Node000001_Node000052" title=" " alt="" coords="47,1031,54,1220,69,1501,80,1643,94,1768,111,1864,120,1896,130,1915,144,1928,141,1932,126,1918,115,1898,105,1865,89,1769,75,1643,64,1501,49,1220,42,1031"/>
+<area shape="rect" id="Node000053" href="$classFoam_1_1fvSource.html" title="Base class for finite volume sources." alt="" coords="200,1995,279,2020"/>
+<area shape="poly" id="edge41_Node000001_Node000053" title=" " alt="" coords="47,1031,52,1231,66,1534,77,1687,91,1823,109,1925,119,1960,130,1980,145,1992,162,2000,200,2006,199,2012,161,2005,142,1997,126,1984,114,1962,104,1927,86,1823,71,1688,61,1534,47,1232,42,1031"/>
+</map>

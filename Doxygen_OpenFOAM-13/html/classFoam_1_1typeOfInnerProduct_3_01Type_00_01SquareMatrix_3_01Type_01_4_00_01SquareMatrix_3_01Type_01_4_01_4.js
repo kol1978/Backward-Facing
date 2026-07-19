@@ -1,0 +1,4 @@
+var classFoam_1_1typeOfInnerProduct_3_01Type_00_01SquareMatrix_3_01Type_01_4_00_01SquareMatrix_3_01Type_01_4_01_4 =
+[
+    [ "type", "classFoam_1_1typeOfInnerProduct_3_01Type_00_01SquareMatrix_3_01Type_01_4_00_01SquareMatrix_3_01Type_01_4_01_4.html#a409aac7a96d9b477e699c0a49f92cf15", null ]
+];
