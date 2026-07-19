@@ -1,0 +1,31 @@
+<map id="U" name="U">
+<area shape="rect" id="Node000001" title="Return the velocity." alt="" coords="285,429,324,454"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1MomentumTransferPhaseSystem.html#a53176e0041d3a7a19a065f1b4c943d64" title="Add momentum transfer terms which result from bulk mass transfers." alt="" coords="5,5,237,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,415,295,334,284,227,265,125,251,86,235,59,222,47,225,43,239,56,256,84,270,124,289,226,300,333,305,415"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1RASModels_1_1kineticTheoryModel.html#a3ae44b28050c3aa494c1d8e18cf618c1" title="Solve the kinetic theory equations and correct the viscosity." alt="" coords="26,69,217,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,415,292,346,280,259,261,176,249,145,235,123,215,108,218,104,239,120,254,142,266,175,285,258,297,346,304,414"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1phaseSystem.html#a5d4c713e91d970cfbd0e1b747130373e" title="Correct fixed&#45;flux BCs to be consistent with the velocity BCs." alt="" coords="40,133,203,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="302,415,301,366,292,305,272,242,256,213,235,187,220,175,202,167,204,162,223,171,239,183,260,210,277,240,297,304,306,366,307,415"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1phaseSystem.html#a0ebba8d7b8fa4d895e55088ab54e085e" title=" " alt="" coords="40,197,203,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="299,415,294,379,283,334,264,289,251,269,236,251,220,240,202,231,204,227,223,235,239,247,256,266,269,287,288,333,299,378,304,415"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1MomentumTransferPhaseSystem.html#a23f176aa2f36b920b519b74260964487" title="Return the flux corrections for the cell&#45;based algorithm. These." alt="" coords="5,261,237,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="294,417,274,365,257,338,236,315,218,304,220,299,239,311,261,335,278,362,299,415"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1phaseTransferModels_1_1deposition.html#abc500e2953d926fb98498a03d56e126c" title="The mass transfer rate for the mixture." alt="" coords="19,325,223,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="283,420,262,399,236,380,211,368,213,363,239,375,265,395,287,417"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1functionObjects_1_1phaseForces.html#ae006844a02161d12182ab372ca5c257b" title="Calculate the force fields." alt="" coords="36,389,207,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="271,438,206,427,207,422,272,433"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1MomentumTransferPhaseSystem.html#ae6201ad98d85472dcd5f0f63d4f5891a" title="Return the inverse of the central + drag + virtual mass." alt="" coords="5,453,237,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="272,450,236,456,235,451,271,444"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1phaseSystem.html#a49c06044f855cda551c8fb7b9e60d442" title="Curvature of interface between two phases." alt="" coords="36,518,207,543"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="287,466,265,488,239,508,207,520,205,516,236,503,262,484,283,463"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1MomentumTransferPhaseSystem.html#a2bdac508787911619d0e2c5d70e4bc60" title="Return the momentum transfer matrices for the cell&#45;based algorithm." alt="" coords="5,568,237,608"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="297,468,276,513,259,537,239,557,217,570,214,565,236,553,255,533,271,511,292,466"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1MomentumTransferPhaseSystem.html#ac0532a78a319ba9c24141b8c567ae494" title="As momentumTransfer, but for the face&#45;based algorithm." alt="" coords="5,632,237,672"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="304,468,298,503,286,544,267,586,239,622,222,634,219,630,235,618,263,583,281,542,293,502,298,467"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer.html#a7e7dbf56ebe9b2888104377bbe3481d4" title=" " alt="" coords="13,697,229,751"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="306,468,304,515,294,572,274,633,259,661,239,686,225,698,221,694,235,682,254,658,269,630,289,571,298,514,301,468"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1Schaeffer.html#a7e7dbf56ebe9b2888104377bbe3481d4" title=" " alt="" coords="20,775,223,830"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="304,468,297,537,284,625,265,708,253,741,239,764,224,778,221,774,235,761,249,739,260,707,279,624,292,536,299,468"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1phaseSystem.html#a4a267f82d6184818f8fc09a1429f438c" title="Solve for the phase fractions." alt="" coords="40,855,203,895"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="305,468,301,552,290,664,271,771,257,814,239,843,223,857,204,866,202,862,220,852,235,840,252,811,265,770,285,663,295,551,300,467"/>
+</map>

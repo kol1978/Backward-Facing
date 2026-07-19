@@ -1,0 +1,120 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1compressible_1_1alphatPhaseChangeWallFunctionBase.html" title="Abstract base&#45;class for all alphatWallFunctions supporting phase&#45;change." alt="" coords="5,13,272,38"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1compressible_1_1alphatWallBoilingWallFunctionFvPatchScalarField.html" title="A thermal wall function for simulation of subcooled nucleate wall boiling with runtime selectable sub..." alt="" coords="339,5,557,45"/>
+<area shape="poly" id="edge2603_Node000000_Node000001" title=" " alt="" coords="286,23,338,23,338,28,286,28"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,703,244,729"/>
+<area shape="poly" id="edge2607_Node000002_Node000001" title=" " alt="" coords="141,689,162,556,200,366,224,268,252,178,284,105,301,77,318,55,337,41,340,46,322,59,305,80,288,108,257,180,230,269,205,367,167,557,146,690"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1adjointOutletPressureFvPatchScalarField.html" title=" " alt="" coords="341,824,555,864"/>
+<area shape="poly" id="edge2604_Node000002_Node000003" title=" " alt="" coords="173,734,240,772,321,810,357,821,355,826,319,814,237,776,170,738"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1alphaFixedPressureFvPatchScalarField.html" title="A fixed&#45;pressure alphaContactAngle boundary." alt="" coords="349,888,547,928"/>
+<area shape="poly" id="edge2605_Node000002_Node000004" title=" " alt="" coords="161,737,228,805,272,842,321,874,349,886,347,891,319,878,269,847,224,809,158,741"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1compressible_1_1alphatJayatillekeWallFunctionFvPatchScalarField.html" title="This boundary condition provides a thermal wall function for turbulent thermal diffusivity (usuallyal..." alt="" coords="341,952,555,992"/>
+<area shape="poly" id="edge2606_Node000002_Node000005" title=" " alt="" coords="155,740,181,783,218,837,265,892,292,916,321,938,344,949,341,954,319,942,289,921,262,896,214,840,176,786,151,743"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1compressible_1_1alphatWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent thermal diffusivity condition when using wall functions." alt="" coords="349,1016,547,1056"/>
+<area shape="poly" id="edge2608_Node000002_Node000006" title=" " alt="" coords="151,741,173,796,208,867,258,940,288,973,322,1002,350,1017,348,1022,318,1006,284,977,254,943,204,869,168,798,146,743"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1compressible_1_1convectiveHeatTransferFvPatchScalarField.html" title="This boundary condition provides a convective heat transfer coefficient condition." alt="" coords="352,1080,544,1120"/>
+<area shape="poly" id="edge2609_Node000002_Node000007" title=" " alt="" coords="148,742,166,808,200,896,223,943,251,988,284,1030,322,1066,353,1083,350,1088,318,1070,280,1033,246,991,218,945,195,898,161,809,143,743"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1dynamicPressureFvPatchScalarField.html" title="This boundary condition provides a dynamic pressure condition. It subtracts a kinetic energy term fro..." alt="" coords="335,1144,561,1184"/>
+<area shape="poly" id="edge2610_Node000002_Node000008" title=" " alt="" coords="146,742,161,819,191,924,214,980,243,1035,279,1086,322,1130,339,1142,336,1146,318,1134,275,1089,239,1038,210,983,186,926,155,820,141,743"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fixedEnergyFvPatchScalarField.html" title="This boundary condition provides a fixed condition for energy. This is selected when the correspondin..." alt="" coords="353,1208,543,1248"/>
+<area shape="poly" id="edge2615_Node000002_Node000013" title=" " alt="" coords="144,742,155,829,166,887,183,951,206,1017,236,1082,274,1142,322,1194,354,1213,352,1218,318,1198,270,1145,231,1085,201,1019,178,953,161,889,150,830,139,742"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1fixedPressureCompressibleDensityFvPatchScalarField.html" title="This boundary condition calculates a (liquid) compressible density as a function of pressure and flui..." alt="" coords="349,1272,547,1312"/>
+<area shape="poly" id="edge2616_Node000002_Node000014" title=" " alt="" coords="143,742,150,840,160,906,175,979,198,1055,229,1129,270,1198,294,1229,322,1258,350,1276,347,1280,318,1262,290,1233,265,1201,224,1131,193,1056,170,980,154,907,145,840,138,743"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1fixedRhoFvPatchScalarField.html" title="Foam::fixedRhoFvPatchScalarField." alt="" coords="348,1337,548,1362"/>
+<area shape="poly" id="edge2617_Node000002_Node000015" title=" " alt="" coords="142,742,144,850,151,925,165,1008,187,1093,219,1177,240,1217,264,1255,291,1290,322,1322,349,1338,346,1343,318,1326,287,1294,259,1258,235,1220,214,1179,182,1095,160,1009,146,926,139,851,136,742"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fixedUnburntEnthalpyFvPatchScalarField.html" title="Fixed boundary condition for unburnt." alt="" coords="341,69,555,109"/>
+<area shape="poly" id="edge2618_Node000002_Node000016" title=" " alt="" coords="137,689,141,584,149,511,164,430,186,347,218,264,262,187,288,152,318,119,340,104,343,109,322,123,292,155,266,190,223,266,191,348,169,432,155,512,146,584,142,689"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1greyDiffusiveViewFactorFixedValueFvPatchScalarField.html" title="This boundary condition provides a grey&#45;diffuse condition for radiative heat flux,..." alt="" coords="341,1387,555,1427"/>
+<area shape="poly" id="edge2619_Node000002_Node000017" title=" " alt="" coords="146,742,167,875,205,1065,230,1163,257,1252,288,1324,305,1352,322,1373,342,1387,339,1392,318,1377,301,1355,284,1327,252,1254,224,1164,200,1066,162,876,141,743"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1interfaceCompressionFvPatchScalarField.html" title="Applies interface&#45;compression to the phase&#45;fraction distribution at the patch by setting the phase&#45;fr..." alt="" coords="340,133,556,173"/>
+<area shape="poly" id="edge2620_Node000002_Node000040" title=" " alt="" coords="138,690,146,595,156,529,171,458,194,384,225,311,266,243,291,212,318,183,338,169,341,174,322,187,295,215,271,246,230,313,199,386,177,459,161,530,151,595,143,690"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1lumpedMassTemperatureFvPatchScalarField.html" title="This boundary condition is applied to a patch which bounds a solid body, wholly or partially...." alt="" coords="329,197,567,237"/>
+<area shape="poly" id="edge2621_Node000002_Node000041" title=" " alt="" coords="139,689,151,604,163,547,180,484,203,420,233,357,271,298,318,247,335,235,338,240,322,251,275,302,238,360,208,422,185,486,168,548,156,605,145,690"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1nutWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition when using wall functions,..." alt="" coords="339,261,557,301"/>
+<area shape="poly" id="edge2622_Node000002_Node000042" title=" " alt="" coords="141,689,156,614,188,512,211,457,240,404,276,354,318,311,337,299,340,303,322,315,280,358,245,407,216,460,193,514,162,616,146,690"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1plenumPressureFvPatchScalarField.html" title="This boundary condition provides a plenum pressure inlet condition. This condition creates a zero&#45;dim..." alt="" coords="339,325,557,365"/>
+<area shape="poly" id="edge2630_Node000002_Node000050" title=" " alt="" coords="144,689,163,625,197,541,220,496,248,452,281,412,318,377,340,363,342,368,322,381,285,415,253,455,225,499,202,543,168,627,149,691"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1pressureFvPatchScalarField.html" title="Static pressure boundary condition." alt="" coords="348,390,548,415"/>
+<area shape="poly" id="edge2631_Node000002_Node000051" title=" " alt="" coords="146,689,167,634,203,562,226,524,253,488,284,454,319,426,347,412,349,416,321,430,287,458,257,491,230,527,207,564,172,636,151,691"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1prghTotalHydrostaticPressureFvPatchScalarField.html" title="This boundary condition provides static pressure condition for p_rgh, calculated as:" alt="" coords="341,440,555,480"/>
+<area shape="poly" id="edge2632_Node000002_Node000052" title=" " alt="" coords="151,689,176,646,214,592,262,536,289,511,319,490,341,478,344,483,321,494,292,516,265,540,218,595,181,649,155,692"/>
+<area shape="rect" id="Node000053" href="$classFoam_1_1syringePressureFvPatchScalarField.html" title="This boundary condition provides a pressure condition, obtained from a zero&#45;D model of the cylinder o..." alt="" coords="339,504,557,544"/>
+<area shape="poly" id="edge2633_Node000002_Node000053" title=" " alt="" coords="158,691,224,623,269,585,319,554,346,542,348,547,321,558,272,590,228,627,161,695"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1totalTemperatureFvPatchScalarField.html" title="This boundary condition provides a total temperature condition." alt="" coords="335,568,561,608"/>
+<area shape="poly" id="edge2634_Node000002_Node000054" title=" " alt="" coords="170,694,237,656,319,618,355,606,357,611,321,622,240,660,173,698"/>
+<area shape="rect" id="Node000055" href="$classFoam_1_1uniformDensityHydrostaticPressureFvPatchScalarField.html" title="This boundary condition provides a hydrostatic pressure condition, calculated as:" alt="" coords="348,632,548,672"/>
+<area shape="poly" id="edge2635_Node000002_Node000055" title=" " alt="" coords="214,698,350,669,351,675,215,703"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1uniformTotalPressureFvPatchScalarField.html" title="This boundary condition provides a time&#45;varying form of the uniform total pressure boundary condition..." alt="" coords="343,696,553,736"/>
+<area shape="poly" id="edge2636_Node000002_Node000056" title=" " alt="" coords="258,713,342,713,342,719,258,719"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1waveSurfacePressureFvPatchScalarField.html" title="This is a pressure boundary condition, the value of which is calculated as the hydrostatic pressure b..." alt="" coords="341,760,555,800"/>
+<area shape="poly" id="edge2637_Node000002_Node000057" title=" " alt="" coords="215,729,351,757,350,763,214,734"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1entrainmentPressureFvPatchScalarField.html" title="This is a boundary condition for pressure suitable for boundaries at which the flow direction is unce..." alt="" coords="643,1112,853,1152"/>
+<area shape="poly" id="edge2611_Node000008_Node000009" title=" " alt="" coords="574,1148,643,1140,644,1146,575,1153"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1totalPressureFvPatchScalarField.html" title="Inflow, outflow and entrainment pressure boundary condition based on a constant total pressure assump..." alt="" coords="649,1176,847,1216"/>
+<area shape="poly" id="edge2612_Node000008_Node000010" title=" " alt="" coords="574,1175,649,1183,648,1188,574,1180"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1fanPressureFvPatchScalarField.html" title="This boundary condition can be applied to assign either a pressure inlet or outlet total pressure con..." alt="" coords="939,1144,1129,1184"/>
+<area shape="poly" id="edge2613_Node000010_Node000011" title=" " alt="" coords="861,1181,938,1172,939,1177,861,1186"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1rotatingTotalPressureFvPatchScalarField.html" title="This boundary condition provides a total pressure condition for patches in a rotating frame." alt="" coords="929,1208,1139,1248"/>
+<area shape="poly" id="edge2614_Node000010_Node000012" title=" " alt="" coords="862,1206,929,1214,928,1219,861,1211"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1nutLowReWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition for use with low Reynolds ..." alt="" coords="638,293,858,333"/>
+<area shape="poly" id="edge2623_Node000042_Node000043" title=" " alt="" coords="571,292,638,299,638,304,570,297"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1nutUSpaldingWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition when using wall functions ..." alt="" coords="652,357,844,397"/>
+<area shape="poly" id="edge2624_Node000042_Node000044" title=" " alt="" coords="558,303,577,311,601,327,625,343,657,355,655,360,623,348,599,332,575,316,556,308"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1nutUWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition when using wall functions,..." alt="" coords="635,165,861,205"/>
+<area shape="poly" id="edge2625_Node000042_Node000045" title=" " alt="" coords="556,254,575,247,599,231,623,215,655,203,657,208,625,220,601,236,577,252,558,259"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1nutkWallFunctionFvPatchScalarField.html" title="Turbulent viscosity wall&#45;function boundary condition for high Reynolds number flows based on near&#45;wal..." alt="" coords="635,229,861,269"/>
+<area shape="poly" id="edge2627_Node000042_Node000047" title=" " alt="" coords="570,266,635,259,635,264,570,271"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1nutURoughWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition when using wall functions ..." alt="" coords="920,165,1148,205"/>
+<area shape="poly" id="edge2626_Node000045_Node000046" title=" " alt="" coords="875,183,920,183,920,188,875,188"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1nutkAtmRoughWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity for atmospheric velocity profiles...." alt="" coords="933,293,1135,333"/>
+<area shape="poly" id="edge2628_Node000047_Node000048" title=" " alt="" coords="852,270,945,291,944,296,851,275"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1nutkRoughWallFunctionFvPatchScalarField.html" title="This boundary condition provides a turbulent kinematic viscosity condition when using wall functions ..." alt="" coords="921,229,1147,269"/>
+<area shape="poly" id="edge2629_Node000047_Node000049" title=" " alt="" coords="874,247,920,247,920,252,874,252"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="47,1938,231,1963"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html" title="Robin condition for the particulate granular temperature." alt="" coords="344,2411,552,2451"/>
+<area shape="poly" id="edge2638_Node000020_Node000021" title=" " alt="" coords="145,1977,158,2059,170,2113,187,2173,210,2234,240,2293,277,2349,322,2397,345,2412,342,2416,318,2401,272,2352,235,2296,205,2236,182,2174,165,2115,153,2060,140,1978"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1MarshakRadiationFixedTemperatureFvPatchScalarField.html" title="A &#39;mixed&#39; boundary condition that implements a Marshak condition for the incident radiation field (us..." alt="" coords="320,1579,576,1619"/>
+<area shape="poly" id="edge2639_Node000020_Node000019" title=" " alt="" coords="144,1924,165,1863,199,1783,223,1741,250,1699,282,1661,318,1629,338,1617,341,1621,322,1633,286,1665,254,1703,227,1743,204,1785,170,1865,149,1926"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1MarshakRadiationFvPatchScalarField.html" title="A &#39;mixed&#39; boundary condition that implements a Marshak condition for the incident radiation field (us..." alt="" coords="333,1643,563,1683"/>
+<area shape="poly" id="edge2640_Node000020_Node000022" title=" " alt="" coords="148,1924,172,1874,209,1811,258,1747,287,1718,319,1692,340,1680,343,1685,321,1697,290,1722,262,1750,213,1814,177,1876,153,1926"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1compressible_1_1thermalBaffle1DFvPatchScalarField.html" title="This BC solves a steady 1D thermal baffle." alt="" coords="338,1707,558,1747"/>
+<area shape="poly" id="edge2641_Node000020_Node000023" title=" " alt="" coords="154,1925,181,1887,219,1842,265,1795,319,1756,344,1744,346,1749,321,1761,269,1799,223,1845,185,1890,158,1928"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1coupledTemperatureFvPatchScalarField.html" title="Mixed boundary condition for temperature, to be used for heat&#45;transfer with another region in a CHT c..." alt="" coords="345,1771,551,1811"/>
+<area shape="poly" id="edge2642_Node000020_Node000024" title=" " alt="" coords="163,1926,230,1873,273,1845,319,1820,350,1808,352,1813,321,1825,276,1849,234,1878,166,1931"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1externalTemperatureFvPatchScalarField.html" title="This boundary condition applies a heat flux condition to temperature on an external wall...." alt="" coords="343,1835,553,1875"/>
+<area shape="poly" id="edge2644_Node000020_Node000026" title=" " alt="" coords="185,1931,319,1884,362,1872,363,1877,321,1889,186,1936"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1freestreamPressureFvPatchScalarField.html" title="This boundary condition provides a free&#45;stream condition for pressure." alt="" coords="347,1899,549,1939"/>
+<area shape="poly" id="edge2646_Node000020_Node000028" title=" " alt="" coords="244,1937,347,1926,347,1932,245,1942"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1greyDiffusiveRadiationMixedFvPatchScalarField.html" title="This boundary condition provides a grey&#45;diffuse condition for radiation intensity,..." alt="" coords="343,1451,553,1491"/>
+<area shape="poly" id="edge2647_Node000020_Node000029" title=" " alt="" coords="145,1924,172,1830,215,1702,265,1580,292,1533,318,1501,341,1486,344,1490,322,1505,296,1536,270,1583,220,1704,177,1831,150,1925"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1mixedEnergyFvPatchScalarField.html" title="This boundary condition provides a mixed condition for energy. This is selected when the correspondin..." alt="" coords="349,1963,547,2003"/>
+<area shape="poly" id="edge2648_Node000020_Node000030" title=" " alt="" coords="244,1959,349,1970,348,1975,244,1964"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1mixedUnburntEnthalpyFvPatchScalarField.html" title="Mixed boundary condition for unburnt." alt="" coords="337,2027,559,2067"/>
+<area shape="poly" id="edge2649_Node000020_Node000031" title=" " alt="" coords="186,1966,321,2012,363,2024,362,2029,319,2017,185,1971"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1phaseHydrostaticPressureFvPatchScalarField.html" title="This boundary condition provides a phase&#45;based hydrostatic pressure condition, calculated as:" alt="" coords="352,2091,544,2131"/>
+<area shape="poly" id="edge2650_Node000020_Node000032" title=" " alt="" coords="166,1971,234,2024,276,2052,321,2076,353,2088,351,2093,319,2081,273,2057,230,2028,163,1975"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1smoluchowskiJumpTFvPatchScalarField.html" title="Smoluchowski temperature jump boundary condition." alt="" coords="345,2155,551,2195"/>
+<area shape="poly" id="edge2651_Node000020_Node000033" title=" " alt="" coords="158,1974,185,2011,223,2056,269,2102,321,2140,346,2152,344,2157,319,2145,265,2106,219,2060,181,2014,154,1977"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1specieTransferMassFractionFvPatchScalarField.html" title="Abstract base class for specie&#45;transferring mass fraction boundary conditions." alt="" coords="347,2219,549,2259"/>
+<area shape="poly" id="edge2652_Node000020_Node000034" title=" " alt="" coords="153,1975,177,2025,213,2087,262,2151,290,2180,321,2204,347,2218,345,2223,319,2209,287,2184,258,2154,209,2090,172,2027,148,1978"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1transonicEntrainmentPressureFvPatchScalarField.html" title="This boundary condition provides an entrainment condition for pressure including support for superson..." alt="" coords="339,2283,557,2323"/>
+<area shape="poly" id="edge2655_Node000020_Node000037" title=" " alt="" coords="149,1976,170,2036,204,2116,227,2158,254,2199,286,2236,322,2269,341,2280,338,2285,318,2273,282,2240,250,2202,223,2161,199,2118,165,2038,144,1977"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1variableHeightFlowRateFvPatchScalarField.html" title="This boundary condition provides a phase fraction condition based on the local flow conditions,..." alt="" coords="351,2347,545,2387"/>
+<area shape="poly" id="edge2656_Node000020_Node000038" title=" " alt="" coords="147,1976,163,2048,196,2145,219,2196,247,2246,281,2293,322,2333,352,2350,349,2354,318,2337,277,2296,243,2249,214,2199,191,2147,158,2049,142,1978"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1wideBandDiffusiveRadiationMixedFvPatchScalarField.html" title="This boundary condition provides a wide&#45;band, diffusive radiation condition, where the patch temperat..." alt="" coords="345,1515,551,1555"/>
+<area shape="poly" id="edge2657_Node000020_Node000039" title=" " alt="" coords="142,1924,158,1852,191,1755,214,1703,243,1652,277,1605,318,1565,343,1549,346,1554,322,1569,281,1609,247,1655,219,1705,196,1757,163,1853,147,1925"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html" title="Mixed boundary condition for the phase temperature of a phase in an Euler&#45;Euler multiphase simulation..." alt="" coords="635,1771,861,1811"/>
+<area shape="poly" id="edge2643_Node000024_Node000025" title=" " alt="" coords="566,1788,634,1788,634,1793,566,1793"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1multiphaseExternalTemperatureFvPatchScalarField.html" title="Mixed boundary condition for the phase temperature of a phase in an Euler&#45;Euler multiphase simulation..." alt="" coords="633,1835,863,1875"/>
+<area shape="poly" id="edge2645_Node000026_Node000027" title=" " alt="" coords="566,1852,632,1852,632,1857,566,1857"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1adsorptionMassFractionFvPatchScalarField.html" title="This is a mass&#45;fraction boundary condition for an adsorbing wall." alt="" coords="651,2187,845,2227"/>
+<area shape="poly" id="edge2653_Node000034_Node000035" title=" " alt="" coords="563,2224,651,2214,651,2220,563,2229"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1semiPermeableBaffleMassFractionFvPatchScalarField.html" title="This is a mass&#45;fraction boundary condition for a semi&#45;permeable baffle." alt="" coords="624,2251,872,2291"/>
+<area shape="poly" id="edge2654_Node000034_Node000036" title=" " alt="" coords="563,2248,624,2255,623,2260,563,2254"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1radiationCoupledBase.html" title="Common functions to emissivity. It gets supplied from lookup into a dictionary or calculated by the s..." alt="" coords="56,1522,221,1547"/>
+<area shape="poly" id="edge2661_Node000018_Node000017" title=" " alt="" coords="170,1512,237,1474,319,1436,355,1424,357,1429,321,1441,240,1479,173,1517"/>
+<area shape="poly" id="edge2658_Node000018_Node000019" title=" " alt="" coords="215,1548,351,1576,350,1581,214,1553"/>
+<area shape="poly" id="edge2659_Node000018_Node000022" title=" " alt="" coords="173,1552,240,1590,321,1628,357,1640,355,1645,319,1633,237,1595,170,1557"/>
+<area shape="poly" id="edge2660_Node000018_Node000029" title=" " alt="" coords="214,1517,350,1488,351,1493,215,1522"/>
+<area shape="poly" id="edge2662_Node000018_Node000039" title=" " alt="" coords="235,1532,345,1532,345,1537,235,1537"/>
+</map>

@@ -1,0 +1,25 @@
+var classFoam_1_1MRFZone =
+[
+    [ "MRFZone", "classFoam_1_1MRFZone.html#a8c89354b0a3973a1111a0fd5c7bc670d", null ],
+    [ "MRFZone", "classFoam_1_1MRFZone.html#a8a6712432d65e2dc201bf12c66b70ecb", null ],
+    [ "ClassName", "classFoam_1_1MRFZone.html#a6a4d9865b21c4110498212d1c76cb4b6", null ],
+    [ "clone", "classFoam_1_1MRFZone.html#ae3df53b7020bd12589c2675bf4252dd6", null ],
+    [ "name", "classFoam_1_1MRFZone.html#ade4113569ef0db70665fded275a5e38e", null ],
+    [ "Omega", "classFoam_1_1MRFZone.html#a425654be32327d1338162c689d1f4beb", null ],
+    [ "addCoriolis", "classFoam_1_1MRFZone.html#ad34ca5a7d926a60e061d288e019a56a4", null ],
+    [ "addCentrifugalAcceleration", "classFoam_1_1MRFZone.html#ab0844ae6c0fbf60bb9ef22f474eba05e", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#aaa0b627878c53a843733aa3c37306d9a", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#a74e1af9d681f0b73e712e182b0e8a9d9", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#a44e8f6b9dcbab2986fbd53d3ca9e983e", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#a9b03ef255634dac3123641b5cf0a5b42", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#a817baacd3b0187f5fd8be5e5461663ba", null ],
+    [ "makeRelative", "classFoam_1_1MRFZone.html#ace9cc63328e320d3b7803edf79d9b82c", null ],
+    [ "makeAbsolute", "classFoam_1_1MRFZone.html#a8af73e040f6428dc8928b81087ee9ecd", null ],
+    [ "makeAbsolute", "classFoam_1_1MRFZone.html#a92bfad8516557c6427ff62f0527b72c8", null ],
+    [ "makeAbsolute", "classFoam_1_1MRFZone.html#a2a492aa2bdc6d18ea4a32ae06e708291", null ],
+    [ "makeAbsolute", "classFoam_1_1MRFZone.html#a76b25c80ca363f81c3d3e12a78b5315c", null ],
+    [ "zero", "classFoam_1_1MRFZone.html#a5bdea54597931ad439386bc9340d4814", null ],
+    [ "update", "classFoam_1_1MRFZone.html#ac5c54df7ed3b930268c8d7752c101725", null ],
+    [ "read", "classFoam_1_1MRFZone.html#a6ce0c64db98eb6144d363dbfc86104eb", null ],
+    [ "operator=", "classFoam_1_1MRFZone.html#aaf51b224ea2ae7d52b0db23861bbea02", null ]
+];

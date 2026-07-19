@@ -1,0 +1,27 @@
+<map id="coalescenceModel" name="coalescenceModel">
+<area shape="rect" id="Node000001" title="Base class for coalescence models." alt="" coords="5,277,148,303"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1AdachiStuartFokkink.html" title="Model describing aggregation of solid particles in turbulent flows. Applicable when particles are sma..." alt="" coords="229,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,264,92,215,113,155,147,92,169,64,194,40,227,23,230,28,198,44,173,68,151,95,118,157,97,217,85,265"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1BrownianCollisions.html" title="Model describing coagulation due to Brownian motion. Utilises collisional diameters and the Cunningha..." alt="" coords="233,55,380,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,263,98,224,121,177,153,129,194,89,232,72,234,77,198,94,157,132,126,179,103,226,88,265"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1CoulaloglouTavlarides.html" title="Model of Coulaloglou and Tavlarides (1977). The coalescence rate is calculated by." alt="" coords="224,104,389,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="88,264,129,200,159,167,195,138,222,126,225,130,197,143,163,170,134,204,93,267"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1DahnekeInterpolation.html" title="Interpolation formula of Dahneke (1983) as presented by Otto et al. (1999). Utilises collisional diam..." alt="" coords="225,153,388,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="97,265,139,225,166,205,195,188,225,176,226,181,197,192,169,209,143,229,100,269"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1LehrMilliesMewesCoalescence.html" title="Model of Lehr et al. (2002). The coalescence rate is calculated by." alt="" coords="196,203,417,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="115,269,195,237,237,225,238,231,197,242,117,274"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1LiaoCoalescence.html" title="Bubble coalescence model of Liao et al. (2015). The terminal velocities and drag coefficients are com..." alt="" coords="241,252,372,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,278,241,269,242,274,162,283"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1Luo.html" title="Model of Luo (1993). The coalescence rate is calculated by." alt="" coords="284,301,329,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="162,296,284,309,284,314,161,301"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1PrinceBlanch.html" title="Model of Prince and Blanch (1990). The coalescence rate is calculated by." alt="" coords="253,351,360,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="119,306,197,335,254,350,252,356,195,341,117,311"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1ballisticCollisions.html" title="Model describing coagulation due to ballistic collisions. Utilises collisional diameters." alt="" coords="239,400,375,425"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="101,311,143,349,197,385,239,400,237,405,195,390,140,354,98,315"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1constantCoalescence.html" title="Constant coalescence kernel." alt="" coords="227,449,387,475"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="93,313,134,375,163,407,197,434,227,448,225,453,195,439,160,411,130,378,89,316"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1hydrodynamic.html" title="Hydrodynamic kernel." alt="" coords="249,499,364,524"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="89,315,104,353,127,399,158,445,198,484,222,497,250,504,248,510,220,502,194,488,154,449,122,402,99,356,84,317"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1diameterModels_1_1coalescenceModels_1_1turbulentShear.html" title="Model describing coagulation due to turbulent shear. Utilises physical, i.e. collisional diameters." alt="" coords="247,548,366,573"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="85,316,98,363,119,422,152,483,173,510,198,533,221,547,248,554,246,559,219,552,194,537,169,513,147,486,114,424,92,365,80,317"/>
+</map>

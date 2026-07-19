@@ -1,0 +1,34 @@
+<map id="calcMapping" name="calcMapping">
+<area shape="rect" id="Node000001" title="Calculate mapping." alt="" coords="5,284,109,309"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="215,5,306,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,283,64,239,81,176,110,108,131,76,156,48,177,33,201,24,203,29,179,38,159,52,135,79,115,110,86,178,70,240,63,284"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="164,284,357,309"/>
+<area shape="poly" id="edge2_Node000001_Node000017" title=" " alt="" coords="110,294,150,294,150,299,110,299"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="412,177,617,203"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="58,283,65,244,82,190,111,135,132,111,156,92,184,77,209,67,233,63,257,63,306,74,365,91,402,106,436,125,491,166,488,170,433,130,399,111,363,97,305,79,257,69,234,68,211,72,186,81,159,96,135,115,116,138,87,192,71,245,63,284"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="424,235,605,260"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="99,307,158,319,261,332,307,330,363,319,396,309,428,295,482,265,485,270,430,300,398,314,365,325,307,335,261,337,157,325,98,312"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1Pstream.html#a8c0e5044dc4a942cf62b06797c3a743f" title=" " alt="" coords="157,106,364,146"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="62,283,96,222,123,187,156,156,165,150,167,155,159,160,127,190,100,225,67,285"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1Pstream.html#adfd4915b68ab7181dccb847976286e56" title="Scatter data. Reverse of combineGather." alt="" coords="157,170,364,210"/>
+<area shape="poly" id="edge8_Node000001_Node000024" title=" " alt="" coords="71,282,108,252,156,221,174,213,176,217,159,226,111,256,75,286"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam.html#a18924e23793957f699a5049a9256b0d8" title=" " alt="" coords="203,385,319,411"/>
+<area shape="poly" id="edge11_Node000001_Node000025" title=" " alt="" coords="75,307,112,335,159,364,196,379,194,384,156,368,109,340,72,312"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#a2f025fa93007269cc28a5d3517f75ace" title="Return a word representation of a bool." alt="" coords="209,435,312,460"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="67,308,101,363,127,395,159,421,197,437,195,442,156,426,123,399,97,367,63,311"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1PrimitivePatch.html#a1fe87b8608eb0533fa8f67765a7d4666" title="Return point normals for patch." alt="" coords="181,485,341,525"/>
+<area shape="poly" id="edge15_Node000001_Node000026" title=" " alt="" coords="65,309,76,341,95,385,122,431,159,471,170,478,167,483,156,475,118,434,90,387,71,343,60,310"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="163,235,359,260"/>
+<area shape="poly" id="edge16_Node000001_Node000027" title=" " alt="" coords="109,282,194,261,195,266,110,287"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam.html#a277dc11c581d53826ab5090b08f3b17b" title=" " alt="" coords="217,573,304,599"/>
+<area shape="poly" id="edge19_Node000001_Node000028" title=" " alt="" coords="63,309,72,351,89,411,118,476,137,507,159,535,181,553,206,566,203,571,178,557,155,539,132,510,113,479,84,412,67,352,58,310"/>
+<area shape="poly" id="edge3_Node000017_Node000018" title=" " alt="" coords="337,281,363,270,377,259,386,247,395,234,411,221,445,205,447,210,413,226,399,238,390,250,381,263,365,275,339,286"/>
+<area shape="poly" id="edge4_Node000017_Node000019" title=" " alt="" coords="326,281,434,260,435,265,327,287"/>
+<area shape="poly" id="edge6_Node000022_Node000018" title=" " alt="" coords="341,143,451,171,449,176,340,149"/>
+<area shape="poly" id="edge7_Node000022_Node000019" title=" " alt="" coords="343,144,366,156,381,170,390,185,399,199,414,213,442,228,439,232,410,218,395,203,386,188,377,174,362,160,341,149"/>
+<area shape="poly" id="edge9_Node000024_Node000018" title=" " alt="" coords="364,187,398,187,398,193,364,193"/>
+<area shape="poly" id="edge10_Node000024_Node000019" title=" " alt="" coords="350,207,445,229,444,234,349,213"/>
+<area shape="poly" id="edge17_Node000027_Node000018" title=" " alt="" coords="317,232,444,203,445,208,318,237"/>
+<area shape="poly" id="edge18_Node000027_Node000019" title=" " alt="" coords="359,245,410,245,410,250,359,250"/>
+<area shape="poly" id="edge20_Node000028_Node000028" title=" " alt="" coords="227,575,220,565,224,555,238,549,261,547,289,550,300,560,297,564,287,555,261,552,239,554,228,559,225,564,232,572"/>
+</map>

@@ -1,0 +1,26 @@
+var classFoam_1_1NH3 =
+[
+    [ "NH3", "classFoam_1_1NH3.html#afe68120a7b270447a4407508497f10e7", null ],
+    [ "NH3", "classFoam_1_1NH3.html#a0fb2a04ceb01c0d525e9f3ea6effb8ff", null ],
+    [ "NH3", "classFoam_1_1NH3.html#adbee66aada2d8dd07dca0bf054b1efed", null ],
+    [ "TypeName", "classFoam_1_1NH3.html#ad12454613c7ea96cf500fac8e2b4aed6", null ],
+    [ "clone", "classFoam_1_1NH3.html#a50122c733ee972dd98d5edd612d584f9", null ],
+    [ "rho", "classFoam_1_1NH3.html#a79793fef0683d35cc934a4d38fb6dbee", null ],
+    [ "pv", "classFoam_1_1NH3.html#ab6c48215446173bc01773d033ac8e337", null ],
+    [ "hl", "classFoam_1_1NH3.html#ad6dc578c5da8eaae2169eabdb869b649", null ],
+    [ "Cp", "classFoam_1_1NH3.html#aa3c6db57b3c2349f7078463fda391158", null ],
+    [ "hs", "classFoam_1_1NH3.html#aab175a3c613565234fae47dd59924751", null ],
+    [ "hf", "classFoam_1_1NH3.html#aa54264caddaf7a604ebf0e897fadd65d", null ],
+    [ "ha", "classFoam_1_1NH3.html#ac8dfa76ef9456ede4ac4d7189bbc8998", null ],
+    [ "Cpg", "classFoam_1_1NH3.html#a48ab15b6063e624713e5ab1589544ce2", null ],
+    [ "B", "classFoam_1_1NH3.html#a1f9ff94e737d2e0a47f334e31b94419e", null ],
+    [ "mu", "classFoam_1_1NH3.html#a3e54dc6e2f8afb3cc8db22c54511fc36", null ],
+    [ "mug", "classFoam_1_1NH3.html#aaf3a574f039cec15a76444a0d0502cef", null ],
+    [ "kappa", "classFoam_1_1NH3.html#a862958a01ea62a052fecae9bb4c70490", null ],
+    [ "kappag", "classFoam_1_1NH3.html#adfd4833cef3f923483f6f88796207447", null ],
+    [ "sigma", "classFoam_1_1NH3.html#a7cee74aa297ad09087f0abbc7182a2af", null ],
+    [ "D", "classFoam_1_1NH3.html#a2e708bd90b5d9eb44d555510967a8f81", null ],
+    [ "D", "classFoam_1_1NH3.html#a318ed17520622035305d20b8e56cee23", null ],
+    [ "write", "classFoam_1_1NH3.html#a78cec3e4ecac4a89a3ad8d38f2ad21f5", null ],
+    [ "liquidProperties", "classFoam_1_1NH3.html#a7bb8917828c362c2798e41651743541d", null ]
+];

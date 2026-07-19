@@ -1,0 +1,31 @@
+<map id="findIndices" name="findIndices">
+<area shape="rect" id="Node000001" title="Find all occurrences of given element. Linear search." alt="" coords="272,429,364,454"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1GAMGAgglomeration.html#a2924c769d07fb681fe84b5036f9977d6" title="Given fine to coarse processor map determine:" alt="" coords="13,5,216,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="311,415,300,334,281,227,255,125,239,86,222,59,208,48,211,43,226,56,244,83,260,123,287,226,305,333,316,414"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1meshRefinement.html#aa20a067cc4a1b5ecab356368e05fed0c" title=" " alt="" coords="26,69,203,109"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="314,415,311,355,298,277,287,235,271,195,249,157,222,123,202,109,205,104,226,119,254,154,275,192,292,234,304,276,316,355,320,415"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1hexRef8.html#a11f117689e45448afaf2192041730bc8" title="Like consistentRefinement but slower:" alt="" coords="17,133,212,173"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="312,415,305,366,290,305,263,242,245,213,222,187,206,176,209,171,226,183,249,209,268,239,295,303,310,365,317,414"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1hexRef8.html#aeb8716163dcd0280ef71a13d2f7814a8" title="Like consistentSlowRefinement but uses different meshWave." alt="" coords="17,197,212,237"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="309,416,298,379,281,334,256,290,222,251,205,240,208,235,226,247,260,287,286,332,303,377,314,414"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1polyDistributionMap.html#a715a8e3de94f0bcae1de8f42118428e0" title="Distribute list of cell indices." alt="" coords="15,261,214,301"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="303,418,271,366,249,339,222,316,202,304,205,299,226,311,252,335,275,363,307,415"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1polyDistributionMap.html#a6b83f64ffd3be1329bee633cdbb13e2d" title="Distribute list of face indices." alt="" coords="15,325,214,365"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="289,422,258,400,223,380,193,368,195,363,225,375,261,396,292,418"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1polyDistributionMap.html#a095e263042ffb444d13bfbd9fbd0f078" title="Distribute list of patch indices." alt="" coords="15,389,214,429"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="258,435,214,428,215,422,259,429"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1polyDistributionMap.html#a50e53319ea580234405e13224d2caef1" title="Distribute list of point indices." alt="" coords="15,453,214,493"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="259,453,215,460,214,455,258,448"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1refinementSurfaces.html#a80e23a2f389ab4ce2d741d30fa067985" title="Find nearest point on surfaces. Return surface and region on." alt="" coords="18,517,211,557"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="292,465,261,487,225,508,195,520,193,515,223,503,258,483,289,461"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1refinementSurfaces.html#a670fd8b7d5a4dc84ac922cd7d6e7db73" title="Find nearest point on surfaces. Return surface, region and." alt="" coords="18,581,211,621"/>
+<area shape="poly" id="edge10_Node000001_Node000016" title=" " alt="" coords="307,468,275,520,252,548,226,572,205,583,202,579,222,567,249,544,271,517,303,465"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1snappySnapDriver.html#a9b0617c77e1e71c70428238e6246484e" title="Get points both on patch and facezone." alt="" coords="22,645,207,685"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="314,468,303,506,286,551,260,596,226,635,208,647,205,643,222,631,256,593,281,548,298,504,309,467"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1meshRefinement.html#addad8a30136df5abece92c0d79da1ebd" title=" " alt="" coords="26,709,203,749"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="317,468,310,517,295,579,268,644,249,673,226,699,205,714,202,709,222,695,245,670,263,641,290,578,305,516,312,468"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1wallCellWallFunctionFvPatchScalarField.html#acfb9a2ddf28ed2fde54ff7d814b33e5f" title="Initialise the master cell indices and fractions, and allocate the." alt="" coords="5,773,224,813"/>
+<area shape="poly" id="edge13_Node000001_Node000020" title=" " alt="" coords="320,468,316,528,304,607,292,649,275,690,254,729,226,763,210,775,207,771,222,759,249,726,271,688,287,647,298,606,311,528,314,468"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1lduPrimitiveMesh.html#aeae1eb8af27cafdc116980dd48968d19" title="Construct by combining multiple meshes. The meshes come from." alt="" coords="25,837,205,877"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="316,468,305,550,287,657,260,759,244,799,226,827,207,842,203,838,222,824,239,797,255,758,281,656,300,549,311,468"/>
+</map>

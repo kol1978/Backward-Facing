@@ -1,0 +1,33 @@
+<map id="sampledSet" name="sampledSet">
+<area shape="rect" id="Node000001" title="Holds list of sampling points which is filled at construction time. Various implementations of this b..." alt="" coords="132,327,231,352"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1sampledSets_1_1arcUniform.html" title="Uniform samples along an arc." alt="" coords="331,5,425,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,313,185,256,200,183,212,144,228,106,250,71,277,40,302,25,330,17,331,22,304,30,280,44,254,74,233,108,217,146,205,184,191,257,186,313"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1sampledSets_1_1boundaryPoints.html" title="Specified point samples within patches." alt="" coords="317,55,439,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,312,190,264,207,204,234,142,254,114,277,89,295,77,315,70,317,75,298,82,280,93,258,117,239,145,212,206,195,265,188,313"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1sampledSets_1_1boundaryRandom.html" title="Random samples within patches." alt="" coords="309,104,447,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="185,312,196,273,214,226,240,179,257,157,277,138,308,122,310,127,280,143,261,161,245,182,219,229,201,275,190,314"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1sampledSets_1_1boxUniform.html" title="Uniform 3D&#45;grid of samples." alt="" coords="329,153,427,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="190,313,222,250,246,216,277,188,302,175,328,168,329,173,304,180,280,192,250,220,226,253,194,315"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1sampledSets_1_1cellSetSampledSet.html" title="Samples at the cell&#45;centres of a given cell set." alt="" coords="306,203,450,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="197,314,231,274,253,254,277,237,305,225,307,230,280,242,256,258,235,278,201,317"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1sampledSets_1_1circleRandom.html" title="Random samples within a circle." alt="" coords="323,252,433,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="214,317,278,286,322,273,323,278,280,291,216,322"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1sampledSets_1_1faceSetSampledSet.html" title="Samples at the face&#45;centres of a given face set." alt="" coords="303,301,453,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="245,329,303,321,304,326,245,334"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1sampledSets_1_1lineCell.html" title="Cell&#45;samples along a line at the mid&#45;points in&#45;between face&#45;intersections." alt="" coords="343,351,413,376"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="245,344,343,356,342,362,244,350"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1sampledSets_1_1lineCellFace.html" title="Face&#45;intersections along a line, plus cell&#45;samples at the mid&#45;points in&#45;between." alt="" coords="328,400,428,425"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="217,356,280,386,328,400,327,406,278,391,215,361"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1sampledSets_1_1lineFace.html" title="Face&#45;intersections along a line." alt="" coords="341,449,415,475"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="202,362,235,400,257,420,280,436,310,448,341,455,340,461,309,453,277,440,253,424,232,404,198,365"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1sampledSets_1_1lineUniform.html" title="Uniform samples along a line." alt="" coords="329,499,427,524"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="195,364,227,426,251,458,280,485,304,497,329,504,328,509,302,502,277,490,247,462,222,429,190,366"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1sampledSets_1_1points.html" title="Specified point samples. Optionally ordered into a continuous path. Ordering is an optimisation; it e..." alt="" coords="347,548,409,573"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="190,365,201,403,219,449,245,496,261,516,280,534,313,551,347,557,346,562,311,556,277,539,257,520,240,499,214,451,196,405,185,366"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1sampledSets_1_1sphereRandom.html" title="Random samples within a sphere." alt="" coords="318,597,438,623"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="188,366,196,413,212,472,239,533,258,560,280,584,298,595,319,603,317,608,296,600,277,588,254,564,234,535,207,474,190,414,182,367"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1sampledSets_1_1triSurfaceMeshSampledSet.html" title="Samples from all the points of a triSurfaceMesh. Surface files are read from constant/triSurface." alt="" coords="279,647,477,672"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="186,366,191,422,205,494,217,532,233,569,254,604,280,633,297,644,294,649,277,637,250,607,228,572,212,534,200,495,185,422,180,366"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1coordSet.html" title="Holds list of sampling positions." alt="" coords="5,327,84,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,337,132,337,132,342,97,342"/>
+</map>

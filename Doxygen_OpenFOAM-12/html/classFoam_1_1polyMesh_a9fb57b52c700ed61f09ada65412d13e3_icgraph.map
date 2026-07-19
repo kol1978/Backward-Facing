@@ -1,0 +1,63 @@
+<map id="faceNeighbour" name="faceNeighbour">
+<area shape="rect" id="Node000001" title="Return face neighbour." alt="" coords="353,911,471,936"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1refinementHistory.html#a5eae4943003f9ab4ea27a384e9a1d3ac" title="Add my decomposition constraints." alt="" coords="48,5,263,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="407,897,396,714,375,442,360,305,344,184,324,93,314,63,303,45,285,31,262,21,264,17,287,26,307,42,319,61,329,92,349,184,366,304,380,442,401,714,412,897"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1addPatchCellLayer.html#a29ea16009a8b72691160bd22c6235108" title="Helper: get added cells per patch face." alt="" coords="62,55,249,95"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="409,897,408,736,405,622,397,499,385,376,366,263,339,171,322,136,303,109,278,91,248,80,250,75,281,86,307,105,327,133,344,169,371,262,390,375,403,498,410,622,413,736,414,897"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1refinementHistory.html#a500fcbdac53185cf97087c52bd87fa7b" title="Apply any additional post&#45;decomposition constraints." alt="" coords="63,119,247,159"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="408,897,406,748,393,530,380,417,362,314,336,230,321,197,303,173,278,154,247,144,248,139,280,150,307,169,325,195,341,228,367,313,386,416,399,529,411,748,414,897"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1decompositionConstraints_1_1preserveBafflesConstraint.html#a37f5f686855452b8a05bb30a3eef55fc" title="Apply any additional post&#45;decomposition constraints." alt="" coords="34,183,277,223"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="408,897,404,759,389,560,376,458,358,364,334,288,319,259,303,237,275,217,278,213,307,233,324,256,339,286,363,363,381,457,395,559,409,758,413,896"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1decompositionConstraints_1_1preserveFaceZonesConstraint.html#a37f5f686855452b8a05bb30a3eef55fc" title="Apply any additional post&#45;decomposition constraints." alt="" coords="22,247,289,287"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="407,897,401,770,385,591,372,499,354,415,331,347,318,321,303,301,287,288,291,284,307,297,323,318,336,345,359,414,377,498,391,590,407,770,413,897"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1decompositionConstraints_1_1singleProcessorFaceSetsConstraint.html#a37f5f686855452b8a05bb30a3eef55fc" title="Apply any additional post&#45;decomposition constraints." alt="" coords="5,311,305,351"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="407,897,399,782,381,622,368,540,350,466,329,406,317,382,303,365,289,353,292,349,307,361,321,380,334,403,355,465,373,539,386,621,404,782,412,897"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1decompositionMethod.html#a86727d8c968e3ae5d8f394879e2b3c8a" title="Helper: determine (local or global) cellCells from mesh." alt="" coords="50,375,261,415"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="406,897,396,794,377,653,363,582,346,517,326,464,303,429,283,414,260,404,262,399,286,410,307,426,331,462,351,515,368,581,382,652,402,794,411,897"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1decompositionMethod.html#af7eca33cb08c9ecda876edb45da5025d" title="Helper: determine (local or global) cellCells and face weights." alt="" coords="50,439,261,479"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="405,897,393,806,373,684,359,623,342,568,324,523,303,493,283,479,260,469,262,464,286,474,307,489,329,520,347,566,364,622,378,683,399,805,410,896"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam_1_1meshCheck.html#a7347ca28ba3e7b8ba64786f4ebf818e5" title="Check face orthogonality." alt="" coords="47,503,264,543"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="409,897,407,828,394,736,381,687,362,640,336,596,304,557,285,544,263,534,265,529,287,539,307,553,341,592,367,637,386,686,399,735,412,828,414,897"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam_1_1meshCheck.html#a185c3013142ff3facc41b31d9beef53a" title="Check face pyramid volumes." alt="" coords="47,567,264,607"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="407,897,401,840,385,765,372,725,354,687,332,652,304,621,285,608,263,599,265,594,287,604,307,617,336,649,359,684,377,723,390,763,406,839,412,897"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam_1_1meshCheck.html#a2df259c9e50de61beac65c3757c224eb" title="Check face skewness." alt="" coords="47,631,264,671"/>
+<area shape="poly" id="edge11_Node000001_Node000018" title=" " alt="" coords="404,898,395,851,376,793,346,735,327,708,304,685,285,673,263,664,265,659,287,668,307,681,331,705,351,732,381,791,400,850,410,896"/>
+<area shape="rect" id="Node000019" href="$namespaceFoam_1_1meshCheck.html#ac78de3d27453106d3cf818bda3fd90f4" title="Check face tetrahedra volumes." alt="" coords="34,696,277,721"/>
+<area shape="poly" id="edge12_Node000001_Node000019" title=" " alt="" coords="402,899,389,861,369,817,341,772,324,753,304,736,276,722,278,717,307,732,327,749,345,769,374,814,394,859,407,897"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1polyMeshTetDecomposition.html#a5041ce71d4d19419b583f1266325b8f0" title="Check face&#45;decomposition tet volume." alt="" coords="32,746,279,786"/>
+<area shape="poly" id="edge13_Node000001_Node000020" title=" " alt="" coords="395,900,358,849,333,822,304,800,278,788,280,783,307,796,336,818,362,845,399,897"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam_1_1meshCheck.html#a1d15f5f7fdae54e4c34b03a0462cd535" title="Check the difference between normals of individual face&#45;triangles (from." alt="" coords="47,810,264,850"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="380,905,345,884,304,864,263,851,265,846,306,860,347,879,383,901"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam_1_1meshCheck.html#a6dbbfaac834107f888c95c13272d8d8a" title="Check interpolation weights (0.5 for regular mesh)" alt="" coords="47,874,264,914"/>
+<area shape="poly" id="edge15_Node000001_Node000022" title=" " alt="" coords="339,918,264,909,264,904,340,912"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam_1_1meshCheck.html#ad213b9ed366ba8c9808468c72ee7a048" title="Check the topology." alt="" coords="32,939,279,964"/>
+<area shape="poly" id="edge16_Node000001_Node000023" title=" " alt="" coords="340,934,272,941,271,936,339,929"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam_1_1meshCheck.html#aa63d73334ea3f55a0fd59896924c6eb5" title="Cell volume ratio of neighbouring cells (1 for regular mesh)" alt="" coords="51,989,259,1029"/>
+<area shape="poly" id="edge17_Node000001_Node000025" title=" " alt="" coords="378,945,306,978,260,992,259,986,304,973,376,940"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1decompositionMethod.html#a9e5348f6d62778dc2721d9646d92c3d2" title="Decompose a mesh with constraints." alt="" coords="50,1053,261,1093"/>
+<area shape="poly" id="edge18_Node000001_Node000026" title=" " alt="" coords="398,950,360,998,335,1022,307,1043,262,1061,260,1057,304,1038,332,1018,356,994,393,946"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1cellsToCells.html#af724952209a520a7f457a9d2f38e7e99" title="Distribute a mesh given its distribution map." alt="" coords="84,1117,227,1157"/>
+<area shape="poly" id="edge19_Node000001_Node000027" title=" " alt="" coords="406,950,392,986,372,1029,344,1071,307,1107,269,1126,228,1136,226,1131,267,1121,304,1102,340,1068,367,1026,387,984,401,948"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam_1_1meshCheck.html#a1880e9d41ec6aba8b237d6ef3524d8b3" title="Generate orthogonality field. (1 for fully orthogonal, &lt; 1 for." alt="" coords="22,1181,289,1207"/>
+<area shape="poly" id="edge20_Node000001_Node000028" title=" " alt="" coords="410,950,401,998,383,1059,352,1120,332,1147,307,1171,286,1184,283,1179,304,1167,328,1144,348,1117,378,1057,396,997,405,949"/>
+<area shape="rect" id="Node000030" href="$namespaceFoam_1_1meshCheck.html#a18dd96d4299c9cd56aa762e236a9af0d" title="Generate skewness field." alt="" coords="34,1231,277,1256"/>
+<area shape="poly" id="edge21_Node000001_Node000030" title=" " alt="" coords="412,950,406,1007,390,1081,376,1119,358,1156,336,1191,307,1220,278,1237,276,1232,304,1216,331,1187,354,1154,371,1117,385,1079,401,1006,407,950"/>
+<area shape="rect" id="Node000032" href="$namespaceFoam_1_1meshCheck.html#ab1b38c078f6a7f0be1e7b61f8b7cb28a" title="Generate interpolation factors field." alt="" coords="40,1280,271,1305"/>
+<area shape="poly" id="edge22_Node000001_Node000032" title=" " alt="" coords="414,950,411,1015,397,1102,383,1148,365,1193,340,1234,307,1269,290,1281,272,1289,270,1284,288,1276,304,1265,335,1231,360,1190,378,1146,392,1101,405,1015,409,949"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1polyMeshTetDecomposition.html#ad4e02e3c659bd839be5f4e7a02d8b480" title="As for findSharedBasePoint, but using neighbour cell." alt="" coords="32,1330,279,1370"/>
+<area shape="poly" id="edge23_Node000001_Node000033" title=" " alt="" coords="410,950,397,1034,375,1144,345,1250,327,1291,307,1319,280,1337,277,1332,303,1315,322,1288,340,1248,370,1143,392,1033,405,949"/>
+<area shape="rect" id="Node000034" href="$namespaceFoam_1_1meshCheck.html#a1d253a9d5d4a6e6042b9a2101b2578b7" title="Write representation of (assembled) cellSet to surface file in." alt="" coords="47,1394,264,1434"/>
+<area shape="poly" id="edge24_Node000001_Node000034" title=" " alt="" coords="411,950,400,1047,380,1177,366,1242,349,1302,330,1351,307,1384,288,1399,265,1409,263,1404,285,1394,303,1380,325,1348,344,1300,361,1241,374,1176,395,1046,406,950"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1polyTopoChange.html#a158efdaa4673bf44ac6748dde6a5cad6" title="Construct from mesh. Adds all points/face/cells from mesh." alt="" coords="69,1458,242,1498"/>
+<area shape="poly" id="edge25_Node000001_Node000035" title=" " alt="" coords="412,950,403,1058,384,1207,370,1283,353,1353,332,1409,307,1448,277,1468,243,1479,241,1474,275,1463,303,1444,327,1407,348,1351,365,1282,379,1207,397,1058,406,950"/>
+<area shape="rect" id="Node000036" href="$namespaceFoam_1_1meshCheck.html#aee7efed69c9cc6a6c54f1bc980e07d4b" title="Print mesh statistics." alt="" coords="48,1522,263,1562"/>
+<area shape="poly" id="edge26_Node000001_Node000036" title=" " alt="" coords="412,950,405,1070,388,1238,375,1324,357,1403,335,1468,322,1493,307,1512,287,1528,264,1538,262,1533,284,1523,303,1508,317,1490,330,1466,352,1402,369,1323,383,1238,400,1069,407,950"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1fvMeshTopoChangers_1_1refiner.html#afae5a1edd1b2b7561f835281f7e2ff51" title="Construct from fvMesh and dictionary." alt="" coords="53,1586,258,1626"/>
+<area shape="poly" id="edge27_Node000001_Node000037" title=" " alt="" coords="413,950,408,1081,392,1269,379,1366,361,1454,337,1526,323,1554,307,1576,285,1593,259,1603,257,1599,282,1588,303,1572,319,1552,332,1524,356,1452,374,1365,387,1268,402,1081,408,950"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1SloanRenumber.html#a43e03f902cbbeb39d4552a7e1cee9e73" title="Return the order in which cells need to be visited, i.e." alt="" coords="71,1650,240,1690"/>
+<area shape="poly" id="edge28_Node000001_Node000038" title=" " alt="" coords="413,950,410,1093,396,1300,383,1407,365,1505,340,1585,325,1616,307,1640,277,1661,241,1672,240,1667,274,1656,303,1636,320,1613,335,1583,360,1503,378,1406,391,1299,405,1093,408,950"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1cellsToCellsStabilisation.html#a5a875957adb6ab9a075ad1037737dd68" title="Compute the stabilisation addressing if necessary." alt="" coords="44,1714,267,1754"/>
+<area shape="poly" id="edge29_Node000001_Node000039" title=" " alt="" coords="414,950,412,1104,400,1330,387,1448,369,1555,342,1643,326,1678,307,1704,289,1719,268,1729,266,1724,286,1714,303,1700,321,1675,337,1641,363,1554,382,1447,395,1330,407,1104,408,950"/>
+<area shape="rect" id="Node000040" href="$namespaceFoam_1_1meshCheck.html#abe000db3f13ec8421e2f048ced6105bd" title="Generate volume ratio field." alt="" coords="53,1779,257,1804"/>
+<area shape="poly" id="edge30_Node000001_Node000040" title=" " alt="" coords="412,950,401,1126,379,1386,364,1517,348,1632,329,1720,318,1749,307,1768,285,1785,259,1794,257,1789,282,1780,303,1764,314,1747,324,1718,342,1632,359,1517,373,1386,395,1126,407,950"/>
+</map>

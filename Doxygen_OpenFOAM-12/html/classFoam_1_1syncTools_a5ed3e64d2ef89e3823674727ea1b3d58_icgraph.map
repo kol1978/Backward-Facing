@@ -1,0 +1,26 @@
+<map id="syncEdgeList" name="syncEdgeList">
+<area shape="rect" id="Node000001" title="Synchronise values on all mesh edges." alt="" coords="583,319,689,345"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1edgeCollapser.html#a7e2bf473b4c7a583afaf66ea4927f247" title="Ensure that the collapse is parallel consistent and update." alt="" coords="326,5,485,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="630,306,623,253,607,186,595,152,578,118,558,87,533,59,510,44,484,35,486,30,513,40,536,55,562,83,583,115,599,150,612,185,629,252,636,305"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1meshRefinement.html#ab5eff13c92babee0ba0af3caec1d7e87" title="Determine master edge for subset of edges. If coupled." alt="" coords="317,69,494,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="627,307,617,266,598,216,571,166,553,143,533,123,514,111,493,103,495,98,517,107,536,119,557,140,575,163,603,214,622,264,632,305"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1addPatchCellLayer.html#aeea8524ff2d092f53488dd1cb593c58e" title="Per patch edge the pp faces (in global indices) using it. Uses." alt="" coords="312,133,499,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="622,308,588,247,563,214,533,188,498,170,500,165,536,183,567,211,593,244,627,305"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1nonConformalBoundary.html#a643ffe37c147a935dc2448ff5e5c53bc" title="Get a map from owner&#45;orig boundary edge to mesh edge." alt="" coords="276,197,535,237"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="612,312,577,280,533,252,505,240,507,235,536,247,580,276,615,308"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshCutter.html#ad6964ecaeb84631835d8a4e51bf706bb" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="283,262,528,287"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="585,318,534,303,478,290,479,285,535,297,586,312"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1addPatchCellLayer.html#a55255cc448d301abf07f87aad6221316" title="Play commands into polyTopoChange to create layers on top." alt="" coords="312,312,499,352"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="569,335,499,335,499,329,569,329"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="5,477,228,502"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="586,352,535,367,462,382,405,389,348,398,277,417,202,448,142,479,139,474,199,443,275,412,347,393,404,384,462,376,534,361,585,346"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1syncTools.html#ad78701194be894ac32ca0990797ebf87" title="Synchronise values on selected mesh edges." alt="" coords="352,427,459,453"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="613,356,578,384,536,410,498,425,459,435,458,429,496,420,533,406,575,380,610,352"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1syncTools.html#a967a4c5365876f7e4796d55e52fb2c69" title="Synchronise values on all mesh edges." alt="" coords="352,477,459,502"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="625,358,591,414,566,442,536,466,498,482,460,490,459,485,497,477,533,462,562,439,586,411,621,356"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1syncTools.html#a856208c1a72ee81082bed51edf38e9ea" title="Synchronise locations on selected mesh edges." alt="" coords="334,526,477,551"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="630,359,618,395,599,437,572,480,536,515,508,530,478,538,476,533,506,525,533,511,568,477,595,435,613,393,625,357"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1syncTools.html#a6b6d5805ee5c869b4bb7c42840c3e982" title="Synchronise locations on all mesh edges." alt="" coords="334,575,477,601"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="634,359,625,404,607,460,578,517,559,543,536,565,508,580,478,589,476,584,506,576,533,561,555,539,574,514,602,458,619,403,629,358"/>
+<area shape="poly" id="edge12_Node000015_Node000011" title=" " alt="" coords="319,577,275,565,200,535,140,504,142,500,202,530,277,560,321,572"/>
+</map>

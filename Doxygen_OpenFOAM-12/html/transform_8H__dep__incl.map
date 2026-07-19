@@ -1,0 +1,65 @@
+<map id="src/OpenFOAM/primitives/transform/transform.H" name="src/OpenFOAM/primitives/transform/transform.H">
+<area shape="rect" id="Node000001" title="3D tensor transformation operations." alt="" coords="3810,5,3998,45"/>
+<area shape="rect" id="Node000002" href="$transformFieldField_8H.html" title="transformFieldField Spatial transformation functions for FieldField." alt="" coords="5,108,203,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3796,29,3047,30,1926,37,1355,45,846,57,448,74,308,84,215,96,165,110,163,105,214,91,308,79,448,68,846,52,1355,40,1926,32,3046,24,3796,24"/>
+<area shape="rect" id="Node000005" href="$transformField_8H.html" title="Spatial transformation functions for primitive fields." alt="" coords="227,108,389,163"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="3796,29,3080,28,2018,34,1478,42,997,54,622,72,489,83,402,96,359,110,357,105,401,91,489,78,621,67,997,49,1478,36,2018,29,3080,23,3796,24"/>
+<area shape="rect" id="Node000827" href="$transformGeometricField_8H.html" title="Spatial transformation functions for FieldFields." alt="" coords="414,101,671,170"/>
+<area shape="poly" id="edge3_Node000001_Node000827" title=" " alt="" coords="3796,30,3133,35,2161,46,1229,66,886,80,765,87,684,96,648,103,647,98,684,91,764,82,886,74,1228,61,2161,41,3133,30,3796,25"/>
+<area shape="rect" id="Node000829" href="$pointConstraint_8H.html" title=" " alt="" coords="696,108,971,163"/>
+<area shape="poly" id="edge4_Node000001_Node000829" title=" " alt="" coords="3796,30,3188,37,2310,49,1472,69,1164,82,983,96,915,111,914,105,982,91,1164,76,1472,64,2310,44,3188,31,3796,25"/>
+<area shape="rect" id="Node000675" href="$coupledPolyPatch_8C.html" title=" " alt="" coords="995,108,1242,163"/>
+<area shape="poly" id="edge5_Node000001_Node000675" title=" " alt="" coords="3797,30,3239,37,2446,50,1692,69,1417,82,1254,96,1193,111,1191,105,1253,91,1416,76,1692,64,2446,44,3239,31,3797,25"/>
+<area shape="rect" id="Node000882" href="$wedgePolyPatch_8C.html" title=" " alt="" coords="1265,108,1527,163"/>
+<area shape="poly" id="edge6_Node000001_Node000882" title=" " alt="" coords="3796,29,3336,29,2683,36,2342,44,2022,56,1747,73,1539,96,1475,111,1473,105,1538,91,1746,68,2022,51,2342,39,2683,31,3336,24,3796,23"/>
+<area shape="rect" id="Node000345" href="$syncToolsTemplates_8C.html" title=" " alt="" coords="1551,108,1724,163"/>
+<area shape="poly" id="edge7_Node000001_Node000345" title=" " alt="" coords="3796,30,3330,36,2688,49,2086,68,1866,81,1737,96,1692,110,1690,105,1735,91,1865,76,2085,63,2688,43,3329,31,3796,25"/>
+<area shape="rect" id="Node000883" href="$PatchToolsSortEdges_8C.html" title=" " alt="" coords="1748,108,1940,163"/>
+<area shape="poly" id="edge8_Node000001_Node000883" title=" " alt="" coords="3796,31,2798,52,2263,71,2068,83,1953,96,1904,110,1902,105,1951,91,2067,78,2262,66,2798,47,3796,26"/>
+<area shape="rect" id="Node000885" href="$spatialTransformI_8H.html" title=" " alt="" coords="1964,108,2231,163"/>
+<area shape="poly" id="edge9_Node000001_Node000885" title=" " alt="" coords="3796,30,3462,35,3013,47,2568,66,2383,80,2243,96,2178,111,2177,105,2242,91,2383,74,2567,61,3013,41,3461,30,3796,25"/>
+<area shape="rect" id="Node001010" href="$symmTransform_8H.html" title="3D symmetric tensor transformation operations." alt="" coords="2255,115,2470,155"/>
+<area shape="poly" id="edge10_Node000001_Node001010" title=" " alt="" coords="3796,30,3505,35,3126,47,2753,66,2599,80,2482,96,2408,118,2407,113,2481,91,2598,74,2752,61,3126,41,3505,30,3796,25"/>
+<area shape="rect" id="Node001019" href="$triad_8C.html" title=" " alt="" coords="2494,115,2682,155"/>
+<area shape="poly" id="edge11_Node000001_Node001019" title=" " alt="" coords="3796,31,3546,37,3228,49,2919,68,2792,81,2695,96,2629,118,2627,113,2694,91,2791,75,2919,62,3228,43,3546,32,3796,26"/>
+<area shape="rect" id="Node000078" href="$cyclicFvPatch_8C.html" title=" " alt="" coords="2707,108,2885,163"/>
+<area shape="poly" id="edge12_Node000001_Node000078" title=" " alt="" coords="3796,32,3585,40,3326,52,3078,71,2976,82,2898,96,2853,110,2851,105,2897,91,2975,77,3077,65,3326,47,3585,34,3796,27"/>
+<area shape="rect" id="Node000082" href="$nonConformalCoupledFvPatch_8C.html" title=" " alt="" coords="2909,101,3176,170"/>
+<area shape="poly" id="edge13_Node000001_Node000082" title=" " alt="" coords="3796,33,3519,52,3353,70,3188,96,3155,103,3154,98,3188,91,3353,65,3519,47,3796,28"/>
+<area shape="rect" id="Node000085" href="$nonConformalCyclicFvPatch_8C.html" title=" " alt="" coords="3200,101,3453,170"/>
+<area shape="poly" id="edge14_Node000001_Node000085" title=" " alt="" coords="3797,42,3640,64,3466,96,3436,103,3435,98,3465,91,3639,58,3796,36"/>
+<area shape="rect" id="Node000086" href="$nonConformalErrorFvPatch_8C.html" title=" " alt="" coords="3477,101,3723,170"/>
+<area shape="poly" id="edge15_Node000001_Node000086" title=" " alt="" coords="3839,52,3696,103,3694,98,3838,47"/>
+<area shape="rect" id="Node000585" href="$nonConformalMappedWallFvPatch_8C.html" title=" " alt="" coords="3747,108,4061,163"/>
+<area shape="poly" id="edge16_Node000001_Node000585" title=" " alt="" coords="3907,59,3907,108,3901,108,3901,59"/>
+<area shape="rect" id="Node000205" href="$particle_8C.html" title=" " alt="" coords="4085,115,4237,155"/>
+<area shape="poly" id="edge17_Node000001_Node000205" title=" " alt="" coords="3968,48,4074,91,4123,113,4121,118,4072,96,3966,53"/>
+<area shape="rect" id="Node001020" href="$pointDataI_8H.html" title=" " alt="" coords="4261,108,4504,163"/>
+<area shape="poly" id="edge18_Node000001_Node001020" title=" " alt="" coords="4012,42,4127,63,4250,91,4303,105,4301,110,4249,96,4126,69,4011,47"/>
+<area shape="rect" id="Node001021" href="$patchEdgeFacePointI_8H.html" title=" " alt="" coords="4528,108,4787,163"/>
+<area shape="poly" id="edge19_Node000001_Node001021" title=" " alt="" coords="4012,30,4245,51,4381,68,4517,91,4576,105,4575,111,4515,96,4380,73,4244,56,4011,35"/>
+<area shape="rect" id="Node001025" href="$patchEdgeFaceRegionI_8H.html" title=" " alt="" coords="4811,108,5069,163"/>
+<area shape="poly" id="edge20_Node000001_Node001025" title=" " alt="" coords="4012,25,4166,29,4363,40,4581,60,4799,91,4861,105,4860,111,4798,96,4581,65,4363,45,4166,35,4011,30"/>
+<area shape="rect" id="Node001027" href="$rotatedBoxToCell_8C.html" title=" " alt="" coords="5094,108,5309,163"/>
+<area shape="poly" id="edge21_Node000001_Node001027" title=" " alt="" coords="4012,26,4256,33,4565,46,4864,65,4988,77,5082,91,5136,105,5134,111,5081,96,4987,82,4864,70,4564,51,4256,39,4012,32"/>
+<area shape="rect" id="Node001028" href="$rotatedBoxToFace_8C.html" title=" " alt="" coords="5333,108,5557,163"/>
+<area shape="poly" id="edge22_Node000001_Node001028" title=" " alt="" coords="4012,25,4302,31,4680,42,5051,62,5205,75,5322,91,5377,105,5376,110,5321,96,5204,80,5051,67,4680,48,4302,36,4012,31"/>
+<area shape="rect" id="Node001029" href="$intersectedSurface_8C.html" title=" " alt="" coords="5581,108,5811,163"/>
+<area shape="poly" id="edge23_Node000001_Node001029" title=" " alt="" coords="4011,25,4347,28,4797,38,5244,58,5429,73,5570,91,5627,105,5626,111,5569,96,5429,78,5244,63,4797,44,4347,34,4011,30"/>
+<area shape="rect" id="Node001030" href="$geomCellLooper_8C.html" title=" " alt="" coords="5835,108,5989,163"/>
+<area shape="poly" id="edge24_Node000001_Node001030" title=" " alt="" coords="4012,25,4430,32,4994,44,5519,64,5710,76,5823,91,5865,105,5863,110,5822,96,5710,81,5519,69,4993,50,4430,37,4012,31"/>
+<area shape="rect" id="Node000994" href="$rigidBodyInertiaI_8H.html" title=" " alt="" coords="6013,108,6232,163"/>
+<area shape="poly" id="edge25_Node000001_Node000994" title=" " alt="" coords="4012,23,4425,23,5001,30,5299,38,5579,51,5820,68,6002,91,6057,105,6056,110,6001,96,5819,73,5579,56,5299,44,5000,36,4425,29,4012,29"/>
+<area shape="rect" id="Node000860" href="$axialAngularSpring_8C.html" title=" " alt="" coords="6257,93,6471,177"/>
+<area shape="poly" id="edge26_Node000001_Node000860" title=" " alt="" coords="4012,25,4511,32,5206,45,5863,64,6103,77,6244,91,6257,93,6256,98,6244,96,6102,82,5862,70,5206,50,4511,37,4012,31"/>
+<area shape="rect" id="Node000861" href="$sixDoFRigidBodyMotion_2sixDoFRigidBodyMotion_2restraints_2linearAxialAngularSpring_2linearAxialAngularSpring_8C.html" title=" " alt="" coords="6495,93,6737,177"/>
+<area shape="poly" id="edge27_Node000001_Node000861" title=" " alt="" coords="4012,25,4556,32,5327,45,6058,64,6326,76,6484,91,6496,93,6495,98,6484,96,6326,82,6058,69,5327,50,4556,37,4012,30"/>
+<area shape="rect" id="Node001031" href="$boxUniform_8C.html" title=" " alt="" coords="6761,115,6959,155"/>
+<area shape="poly" id="edge28_Node000001_Node001031" title=" " alt="" coords="4012,24,4606,28,5461,39,5892,48,6275,59,6574,73,6679,81,6750,91,6786,100,6820,113,6818,118,6785,105,6749,96,6679,87,6573,78,6275,64,5892,53,5461,44,4606,34,4012,30"/>
+<area shape="rect" id="Node001032" href="$readAC_8C.html" title="Reader for .ac files generated by AC3D." alt="" coords="6983,115,7177,155"/>
+<area shape="poly" id="edge29_Node000001_Node001032" title=" " alt="" coords="4012,24,4647,27,5572,37,6039,45,6456,57,6780,72,6895,81,6971,91,7007,100,7040,113,7038,118,7005,105,6970,96,6894,86,6780,77,6455,62,6039,51,5571,42,4647,33,4012,30"/>
+<area shape="rect" id="Node001033" href="$triSurface_8C.html" title=" " alt="" coords="7202,115,7377,155"/>
+<area shape="poly" id="edge30_Node000001_Node001033" title=" " alt="" coords="4012,24,4688,25,5681,33,6185,41,6634,53,6984,69,7108,79,7190,91,7223,100,7253,113,7251,118,7221,105,7189,96,7107,84,6984,74,6634,58,6185,46,5681,38,4688,30,4012,29"/>
+<area shape="rect" id="Node001034" href="$triSurfaceAddressing_8C.html" title="Contains fix for PrimitivePatch addressing (which doesn&#39;t work if surface is non&#45;manifold)...." alt="" coords="7401,115,7575,155"/>
+<area shape="poly" id="edge31_Node000001_Node001034" title=" " alt="" coords="4012,24,4724,24,5781,30,6318,38,6797,50,7170,68,7302,78,7390,91,7423,100,7453,113,7451,118,7421,105,7389,96,7302,84,7170,73,6797,56,6318,44,5781,36,4724,29,4012,29"/>
+</map>

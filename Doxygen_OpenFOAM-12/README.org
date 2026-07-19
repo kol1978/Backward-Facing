@@ -1,0 +1,86 @@
+# -*- mode: org; -*-
+#
+#+TITLE: Создание справки Doxygen для OpenFOAM
+#+AUTHOR: Фонд OpenFOAM
+#+DATE: 11 июня 2023 года
+#+LINK: http://www.openfoam.org
+#+OPTIONS: author:nil ^:{}
+# Copyright (c) 2015-2023 Фонд OpenFOAM.
+
+* Doxygen
+ HTML-документацию OpenFOAM можно создать с помощью программы Doxygen.
+ Изображения в документации создаются с помощью программы dot из пакета graphviz.
+ Чтобы создать документацию, например, в системе Ubuntu GNU/Linux, пользователю необходимо установить пакеты =doxygen= и =graphviz=
+ Например, в окне терминала нужно ввести:
+
+ + =sudo apt-get install doxygen graphviz=
+
+ Документация Doxygen будет автоматически создаваться для пользователя,
+настроенного на работу с OpenFOAM, то есть имеющего такие переменные среды, как
+ =$WM_PROJECT_DIR= set. Пользователь также должен убедиться, что у него есть
+разрешение на запись в каталог, в который Doxygen записывает файлы.
+
+*
+Конфигурация  Файл конфигурации Doxygen, Doxyfile, в каталоге =$WM_PROJECT_DIR/doc/Doxygen=
+настроен для работы с версиями Doxygen 1.6.3–1.8.5.
+
+ Верхний и нижний колонтитулы и таблица стилей создаются автоматически:
+
+ + = doxygen -w html header.html footer.html customdoxygen.css =
+
+ Смотрите: https://www.stack.nl /~dimitri/doxygen/manual/customize.html
+
+* Запуск Doxygen
+ В каталоге =$WM_PROJECT_DIR/doc/Doxygen= введите
+ + =./Allwmake=
+
+ Это создаст каталог =$WM_PROJECT_DIR/doc/Doxygen/html=,
+содержащий документацию по исходному коду OpenFOAM. Откройте файл =index.html=
+в браузере, \например,\
+ + =firefox html/index.html=
+
+ $WM_PROJECT_DIR/doc/Doxygen/html/index.html
+
+ /home/kol/OpenFOAM/OpenFOAM-12/doc/Doxygen/html/index.html
+---------------------------------------------------------
+#                            -*- mode: org; -*-
+#
+#+TITLE:         Building the Doxygen help for OpenFOAM
+#+AUTHOR:               The OpenFOAM Foundation
+#+DATE:                     11nd June 2023
+#+LINK:                  http://www.openfoam.org
+#+OPTIONS: author:nil ^:{}
+# Copyright (c) 2015-2023 OpenFOAM Foundation.
+
+* Doxygen
+  The HTML documentation of OpenFOAM can be built using the Doxygen software.
+  Images in the documentation are generated using "dot", a program within the
+  graphviz software package.  To build the documentation on the Ubuntu GNU/Linux
+  system, for example, the user should install both =doxygen= and =graphviz=
+  packages, e.g. by typing in a terminal window:
+
+  + =sudo apt-get install doxygen graphviz=
+
+  The Doxygen documentation will build automatically for a user that is
+  configured to run OpenFOAM, i.e. has environment variables such as
+  =$WM_PROJECT_DIR= set.  The user must also ensure they have write
+  permission for the directory that Doxygen writes files to.
+
+* Configuration
+  The Doxygen configuration file, Doxyfile, in the =$WM_PROJECT_DIR/doc/Doxygen=
+  directory is configured to work with Doxygen versions 1.6.3-1.8.5.
+
+  The Header, Footer, and Stylesheet are generated automatically:
+
+  + =doxygen -w html header.html footer.html customdoxygen.css=
+
+  See: https://www.stack.nl/~dimitri/doxygen/manual/customize.html
+
+* Running Doxygen
+  In the =$WM_PROJECT_DIR/doc/Doxygen= directory type
+  + =./Allwmake=
+
+  which will generate the =$WM_PROJECT_DIR/doc/Doxygen/html= directory
+  containing the OpenFOAM source code documentation.  Load the =index.html= file
+  into a browser, \e.g.\
+  + =firefox html/index.html=

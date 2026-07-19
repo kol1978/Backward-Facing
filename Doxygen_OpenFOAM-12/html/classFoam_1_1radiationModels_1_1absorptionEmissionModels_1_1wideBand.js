@@ -1,0 +1,25 @@
+var classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand =
+[
+    [ "wideBand", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a437ae89e9ab935bee7192c7945ffbe71", null ],
+    [ "~wideBand", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#ac61c95f1701079b6be5f57051c2aa677", null ],
+    [ "TypeName", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a32c44431c896553503ad2093530472c1", null ],
+    [ "aCont", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a3531e5da44a79c97a31510a0b8cb0495", null ],
+    [ "eCont", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#ab3ee46bf60bb60d887d1e002ddf84f01", null ],
+    [ "ECont", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a9a97054592f007b4bf03b1c13de218d2", null ],
+    [ "isGrey", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a1be36e75e69adae65b65f7186ea65b65", null ],
+    [ "nBands", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a64a0fef271b4759de8b6e85981a02983", null ],
+    [ "bands", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a210e0998dac1b0715a6c245303bb797c", null ],
+    [ "correct", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a13d85194a4a1823f859882aecc2ded0e", null ],
+    [ "nSpecies_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a786c15451b21054539136db046ec533f", null ],
+    [ "maxBands_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a0e5716ee718cd0b882433414822a7963", null ],
+    [ "coeffs_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a3100225fdc5b593a5cef71ccedb67499", null ],
+    [ "coeffsDict_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#af7e68a4a2a92a70f4cc8ada63de4040f", null ],
+    [ "speciesNames_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a372cc795463fdbd325cae6079c5dae7f", null ],
+    [ "specieIndex_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a91babd9f7745ef62c6d61ca3b0af8da4", null ],
+    [ "iBands_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#acdbe1d6329c8c926a86d5e59bdc0cb75", null ],
+    [ "lookUpTablePtr_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a6e4ebdccb67ca41918b2b3561bebffb6", null ],
+    [ "thermo_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a0c85c5900f9bf9fcc83ce0cfeaff71b2", null ],
+    [ "nBands_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a5a047fd9c0e1fc72a1480c079bd59341", null ],
+    [ "Yj_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#a1f39df91dcc42d958832f0ff184f0cf6", null ],
+    [ "totalWaveLength_", "classFoam_1_1radiationModels_1_1absorptionEmissionModels_1_1wideBand.html#abb4cc6655c05b45153d7e9de2493d1eb", null ]
+];

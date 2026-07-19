@@ -1,0 +1,23 @@
+<map id="thermo" name="thermo">
+<area shape="rect" id="Node000001" title="Return the thermophysical model." alt="" coords="324,317,393,342"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1TwoResistanceHeatTransferPhaseSystem.html#a50efdf39d79393e5142b49760a7d5229" title="Add energy transfer terms which result from bulk phase changes." alt="" coords="18,5,263,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,303,352,251,340,185,330,151,316,117,298,86,274,59,259,48,262,44,278,55,302,83,321,115,335,149,345,184,357,251,360,303"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1TwoResistanceHeatTransferPhaseSystem.html#aba65059481caea7f959dadd1a8539cfb" title="Add energy transfer terms which result from specie phase changes." alt="" coords="18,69,263,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="352,303,345,263,331,214,308,165,293,143,274,123,257,112,260,107,278,119,297,139,313,162,336,212,350,261,357,302"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1multiphaseExternalTemperatureFvPatchScalarField.html#a95f72734385ac6c4adc9f50175247900" title="Get the patch kappa, sum kappa*Tc/delta, kappa/delta and." alt="" coords="27,134,254,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="345,305,318,253,298,226,274,203,253,190,255,186,278,199,302,223,323,250,350,303"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#a539d4669b1fa84f42cd7eeb2b91a3526" title="Get the neighbour patch sum kappa*Tc/delta and kappa/delta." alt="" coords="5,213,276,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="333,309,306,287,275,268,245,256,247,251,277,263,309,283,336,305"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#aeaf3131c15ed0890e85edae9be17f594" title="Get the neighbour patch wall temperature and heat&#45;flux." alt="" coords="5,277,276,317"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="310,325,276,320,277,315,311,320"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#aae497d30414fdd09e7c3fcb037ee8690" title="Get the patch kappa, sum kappa*Tc/delta and kappa/delta for all phases." alt="" coords="5,341,276,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="311,339,277,344,276,339,310,334"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1OneResistanceHeatTransferPhaseSystem.html#a2d0c7d5c94a614b95413774250f482fa" title="Return the heat transfer matrices." alt="" coords="17,405,264,445"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="336,354,309,376,277,396,247,408,245,403,275,391,306,372,333,350"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1TwoResistanceHeatTransferPhaseSystem.html#a2d0c7d5c94a614b95413774250f482fa" title="Return the heat transfer matrices." alt="" coords="18,469,263,509"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="350,356,323,409,303,436,278,459,257,472,254,467,274,455,299,433,319,406,346,354"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1heatTransferModels_1_1wallBoilingHeatTransfer.html#a2c6c7bdd3790313d80bed5bd3d5230d9" title="The heat transfer function K used in the enthalpy equation." alt="" coords="39,533,242,573"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="356,356,348,394,334,439,311,485,296,505,278,523,244,543,241,538,274,519,292,502,306,482,329,437,343,393,351,355"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1solvers_1_1multiphaseEuler.html#a0140948261d8319db9864211a35d1cc2" title="Construct and solve the energy equation,." alt="" coords="29,597,252,637"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="360,356,355,405,343,468,319,532,301,561,278,587,254,604,251,599,274,583,296,558,314,529,338,466,350,404,354,355"/>
+</map>

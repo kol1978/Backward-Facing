@@ -1,0 +1,31 @@
+<map id="MGridGenGAMGAgglomeration" name="MGridGenGAMGAgglomeration">
+<area shape="rect" id="Node000001" title="Construct given mesh and controls." alt="" coords="5,325,229,350"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1GAMGAgglomeration.html#a1f8676d38e3715d5330beb58b7883c90" title="Assemble coarse mesh addressing." alt="" coords="295,5,503,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,323,137,275,168,204,214,128,243,93,276,62,296,49,298,53,279,66,247,96,218,131,173,207,142,276,125,325"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1GAMGAgglomeration.html#af1d3c335fdf380a61d567e839d128af3" title="Return LDU mesh of given level." alt="" coords="569,63,772,103"/>
+<area shape="poly" id="edge10_Node000001_Node000020" title=" " alt="" coords="121,323,138,280,170,219,191,187,215,156,244,128,276,106,309,90,344,78,417,63,489,59,556,62,556,68,489,65,418,69,345,83,311,95,279,110,247,132,219,159,195,190,174,221,143,282,125,325"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1GAMGAgglomeration.html#a7aa50f494f31bbb03ef092eeedd906e0" title="Shrink the number of levels to that specified." alt="" coords="298,120,501,160"/>
+<area shape="poly" id="edge3_Node000001_Node000032" title=" " alt="" coords="126,323,184,254,227,213,276,176,303,163,305,167,279,181,230,217,188,258,130,326"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1GAMGAgglomeration.html#a9facbf0a118d395c89884e45a5ca4e4b" title=" " alt="" coords="569,152,772,192"/>
+<area shape="poly" id="edge13_Node000001_Node000052" title=" " alt="" coords="130,322,190,271,231,243,276,220,347,198,419,183,491,174,555,169,556,175,491,179,420,188,348,203,278,225,234,248,193,275,133,326"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1GAMGAgglomeration.html#a8ba7c6b8ead68de862db6ebf5a3809ab" title="Check the need for further agglomeration." alt="" coords="298,235,501,275"/>
+<area shape="poly" id="edge6_Node000001_Node000054" title=" " alt="" coords="158,322,277,285,310,276,311,281,278,291,159,327"/>
+<area shape="rect" id="Node000055" href="$readControls_8H.html#a664453a96d0fae4d10e58cbf7aa79b23" title=" " alt="" coords="353,299,446,325"/>
+<area shape="poly" id="edge7_Node000001_Node000055" title=" " alt="" coords="229,325,339,315,339,320,230,330"/>
+<area shape="rect" id="Node000056" href="$namespaceFoam.html#ae21883b3f759ee69c4bfa6473c93b0aa" title=" " alt="" coords="352,349,447,374"/>
+<area shape="poly" id="edge8_Node000001_Node000056" title=" " alt="" coords="230,344,339,354,338,359,229,350"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1DemandDrivenMeshObject.html#a642ca4a3f77df757224165b483da0992" title=" " alt="" coords="277,398,521,453"/>
+<area shape="poly" id="edge9_Node000001_Node000057" title=" " alt="" coords="160,348,299,391,297,396,158,353"/>
+<area shape="rect" id="Node000058" href="$classFoam_1_1GAMGAgglomeration.html#aa72390fdc1317326421ff49be6af4ecb" title="Restrict (integrate by summation) face field." alt="" coords="298,477,501,517"/>
+<area shape="poly" id="edge11_Node000001_Node000058" title=" " alt="" coords="133,348,192,404,234,436,279,463,294,470,292,475,276,468,230,440,189,408,129,352"/>
+<area shape="rect" id="Node000059" href="$classFoam_1_1GAMGAgglomeration.html#a1859b2a6efbf2701dff3bcbf0b5d2a55" title="Restrict (integrate by summation) cell field." alt="" coords="298,541,501,581"/>
+<area shape="poly" id="edge12_Node000001_Node000059" title=" " alt="" coords="128,349,149,385,182,433,226,484,279,527,289,533,287,538,276,532,223,488,178,436,145,388,123,352"/>
+<area shape="rect" id="Node000068" href="$namespaceFoam.html#a8616bd62eebf2342a80222fecb1bda71" title=" " alt="" coords="354,630,445,655"/>
+<area shape="poly" id="edge14_Node000001_Node000068" title=" " alt="" coords="126,349,144,395,177,459,222,529,249,562,279,591,309,611,342,625,340,630,306,616,276,595,245,566,217,532,172,462,140,397,121,352"/>
+<area shape="rect" id="Node000070" href="$classFoam_1_1globalIndex.html#a6e3eb58016c27d6ea3dddea039e43ed5" title="From local to global." alt="" coords="324,680,475,720"/>
+<area shape="poly" id="edge16_Node000001_Node000070" title=" " alt="" coords="123,350,137,407,165,493,185,540,211,586,242,629,279,666,312,684,310,689,276,670,238,633,206,589,181,542,160,495,131,409,118,351"/>
+<area shape="poly" id="edge2_Node000002_Node000020" title=" " alt="" coords="495,43,563,57,562,62,494,48"/>
+<area shape="poly" id="edge4_Node000032_Node000020" title=" " alt="" coords="494,117,562,103,563,108,495,123"/>
+<area shape="poly" id="edge5_Node000032_Node000052" title=" " alt="" coords="501,149,556,156,556,161,500,155"/>
+<area shape="poly" id="edge15_Node000068_Node000068" title=" " alt="" coords="356,632,346,622,351,612,369,605,399,603,438,607,448,612,452,618,448,621,445,616,436,613,399,609,370,611,355,616,352,621,360,628"/>
+</map>

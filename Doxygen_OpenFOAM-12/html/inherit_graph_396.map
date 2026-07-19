@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1decompositionConstraint.html" title=" " alt="" coords="5,104,191,129"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1decompositionConstraints_1_1preserveBafflesConstraint.html" title="Detects baffles and keeps owner and neighbour on same processor." alt="" coords="267,5,458,31"/>
+<area shape="poly" id="edge3154_Node000000_Node000001" title=" " alt="" coords="129,94,179,66,238,39,278,28,279,33,240,45,181,71,132,99"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionConstraints_1_1preserveFaceZonesConstraint.html" title="Constraint to keep/move owner and neighbour of faceZone onto same processor." alt="" coords="255,55,470,80"/>
+<area shape="poly" id="edge3155_Node000000_Node000002" title=" " alt="" coords="179,99,293,77,294,83,180,104"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1decompositionConstraints_1_1preservePatchesConstraint.html" title="Constraint to keep owner and neighbour of (cyclic) patch on same processor." alt="" coords="265,104,461,129"/>
+<area shape="poly" id="edge3156_Node000000_Node000003" title=" " alt="" coords="205,114,264,114,264,119,205,119"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1decompositionConstraints_1_1singleProcessorFaceSetsConstraint.html" title="Constraint to keep all cells connected to face or point of faceSet on a single processor." alt="" coords="239,153,487,179"/>
+<area shape="poly" id="edge3157_Node000000_Node000004" title=" " alt="" coords="180,129,294,151,293,156,179,134"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1refinementHistoryConstraint.html" title="Constraint to keep all cells originating from refining the same cell onto the same processor...." alt="" coords="259,203,466,228"/>
+<area shape="poly" id="edge3158_Node000000_Node000005" title=" " alt="" coords="132,134,182,162,240,187,284,200,282,205,238,193,179,167,130,139"/>
+</map>

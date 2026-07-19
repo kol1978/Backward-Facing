@@ -1,0 +1,29 @@
+<map id="checkCoupledFaceZones" name="checkCoupledFaceZones">
+<area shape="rect" id="Node000001" title="Helper function: check that face zones are synced." alt="" coords="5,224,188,249"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="570,48,670,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,222,115,183,142,129,182,75,207,51,235,33,278,15,324,6,372,3,419,5,506,20,575,41,573,46,505,25,418,10,372,8,325,11,280,20,237,37,210,56,186,78,147,132,120,185,105,224"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="307,249,398,274"/>
+<area shape="poly" id="edge2_Node000001_Node000013" title=" " alt="" coords="188,243,294,253,293,259,188,248"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1polyMesh.html#ad3ab6685d029304361cc3b206ba9df86" title="Return face zones." alt="" coords="250,298,455,324"/>
+<area shape="poly" id="edge3_Node000001_Node000017" title=" " alt="" coords="130,247,237,285,269,293,268,298,235,290,128,252"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="256,48,449,73"/>
+<area shape="poly" id="edge4_Node000001_Node000018" title=" " alt="" coords="104,222,152,154,190,115,235,82,248,76,250,80,237,87,194,119,157,158,108,225"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="517,146,723,172"/>
+<area shape="poly" id="edge8_Node000001_Node000019" title=" " alt="" coords="183,221,519,171,520,176,184,226"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="529,97,711,122"/>
+<area shape="poly" id="edge11_Node000001_Node000020" title=" " alt="" coords="123,221,174,199,235,177,354,153,529,122,530,127,355,158,237,182,176,204,125,226"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1primitiveMesh.html#abe602c985a3c9ffa67176e969e77ca6f" title=" " alt="" coords="273,348,433,388"/>
+<area shape="poly" id="edge9_Node000001_Node000023" title=" " alt="" coords="114,247,166,290,201,313,237,334,261,344,259,349,235,339,198,318,163,294,111,252"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1primitiveMesh.html#aa6c7965af1f30d16d9125deb981cbdb0" title=" " alt="" coords="273,412,433,452"/>
+<area shape="poly" id="edge10_Node000001_Node000024" title=" " alt="" coords="107,248,126,279,155,320,193,362,237,398,261,410,258,415,235,403,189,366,151,323,122,282,103,251"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="255,97,451,122"/>
+<area shape="poly" id="edge12_Node000001_Node000025" title=" " alt="" coords="111,221,164,181,235,139,277,124,279,129,237,144,167,186,115,226"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1syncTools.html#a30e4f2ce2c2399c35f5d674bdb7c07fd" title="Swap coupled boundary face values." alt="" coords="236,476,469,516"/>
+<area shape="poly" id="edge16_Node000001_Node000026" title=" " alt="" coords="105,249,120,290,147,348,186,410,210,438,238,462,245,467,242,472,234,467,207,442,182,413,142,351,115,292,100,251"/>
+<area shape="poly" id="edge5_Node000018_Node000002" title=" " alt="" coords="450,58,556,58,556,63,450,63"/>
+<area shape="poly" id="edge6_Node000018_Node000019" title=" " alt="" coords="444,71,471,82,486,94,496,107,504,120,519,132,535,139,533,144,516,136,500,124,491,110,482,98,468,87,442,76"/>
+<area shape="poly" id="edge7_Node000018_Node000020" title=" " alt="" coords="423,71,538,92,537,97,422,76"/>
+<area shape="poly" id="edge13_Node000025_Node000002" title=" " alt="" coords="422,94,556,69,557,75,423,100"/>
+<area shape="poly" id="edge14_Node000025_Node000019" title=" " alt="" coords="423,120,538,141,537,147,422,125"/>
+<area shape="poly" id="edge15_Node000025_Node000020" title=" " alt="" coords="451,107,515,107,515,112,451,112"/>
+</map>

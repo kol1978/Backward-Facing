@@ -1,0 +1,4 @@
+var alphatWallBoilingWallFunctionFvPatchScalarField_8H =
+[
+    [ "alphatWallBoilingWallFunctionFvPatchScalarField", "classFoam_1_1compressible_1_1alphatWallBoilingWallFunctionFvPatchScalarField.html", "classFoam_1_1compressible_1_1alphatWallBoilingWallFunctionFvPatchScalarField" ]
+];
