@@ -1,0 +1,40 @@
+<map id="calcNearestSurface" name="calcNearestSurface">
+<area shape="rect" id="Node000001" title="Per patch point calculate point on nearest surface. Set as." alt="" coords="5,484,153,509"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="251,5,345,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,484,93,396,118,263,135,193,154,130,175,77,199,41,217,29,236,21,238,26,219,34,203,45,180,80,159,131,140,195,123,264,98,397,85,484"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1refinementSurfaces.html#a3e311ebb96da615d7859bbedd4c69617" title="Find nearest point on surfaces." alt="" coords="201,55,395,95"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="78,484,82,418,98,317,113,261,134,205,162,152,199,106,204,101,208,105,203,109,167,155,139,207,118,262,103,318,87,418,83,484"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1refinementSurfaces.html#a80e23a2f389ab4ce2d741d30fa067985" title="Find nearest point on surfaces. Return surface and region on." alt="" coords="201,119,395,159"/>
+<area shape="poly" id="edge3_Node000001_Node000009" title=" " alt="" coords="79,484,86,427,105,343,120,297,141,251,167,208,199,169,204,165,208,169,203,173,171,211,146,253,125,299,110,345,91,428,84,484"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1meshRefinement.html#a7e4205ba28cb720bb897769658b2bcc2" title="Helper: calculate average." alt="" coords="209,183,387,223"/>
+<area shape="poly" id="edge4_Node000001_Node000011" title=" " alt="" coords="81,483,92,438,115,373,150,303,173,270,200,240,215,228,219,232,203,244,177,273,154,305,120,375,97,439,86,484"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1meshRefinement.html#ab7f36dd5e2a0f638f316332f5e355ea6" title="Determine master point for subset of points. If coupled." alt="" coords="209,298,387,338"/>
+<area shape="poly" id="edge5_Node000001_Node000034" title=" " alt="" coords="87,482,130,422,163,386,200,355,221,342,224,346,203,359,166,390,134,426,91,485"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1List.html#a8a5f6fa29bd4b500caf186f60245b384" title="Override size to be inconsistent with allocated storage." alt="" coords="493,279,615,304"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="81,483,92,442,114,386,130,356,150,329,173,304,200,284,237,267,277,256,318,251,359,250,437,258,501,272,500,277,436,263,359,255,318,256,278,261,239,272,203,288,176,308,154,332,135,359,119,388,97,443,86,484"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1syncTools.html#a197ed77a9101bdfb37253bd3f507c017" title="Synchronise values on all mesh points." alt="" coords="443,332,665,357"/>
+<area shape="poly" id="edge19_Node000001_Node000035" title=" " alt="" coords="90,482,135,440,166,417,200,398,257,378,315,363,429,346,429,352,316,368,258,383,202,403,169,421,139,444,94,486"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1surfaceZonesInfo.html#a59d8871cd9c916017046af1f0a57c60f" title="Get indices of named surfaces (surfaces with faceZoneName)" alt="" coords="209,413,387,453"/>
+<area shape="poly" id="edge8_Node000001_Node000038" title=" " alt="" coords="123,481,215,454,217,459,125,486"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1surfaceZonesInfo.html#a1f8c08324d9ad320e759f30f23b2d151" title="Get indices of unnamed surfaces (surfaces without faceZoneName)" alt="" coords="209,477,387,517"/>
+<area shape="poly" id="edge9_Node000001_Node000039" title=" " alt="" coords="154,494,195,494,195,499,154,499"/>
+<area shape="rect" id="Node000040" href="$namespaceFoam.html#ae8d631fb8e841947408bb711abfb1e67" title=" " alt="" coords="247,541,349,567"/>
+<area shape="poly" id="edge10_Node000001_Node000040" title=" " alt="" coords="129,507,236,535,235,540,128,512"/>
+<area shape="rect" id="Node000041" href="$namespaceFoam.html#aca330ee6cfe7d602300dbc5905f8c9f6" title=" " alt="" coords="249,591,347,616"/>
+<area shape="poly" id="edge11_Node000001_Node000041" title=" " alt="" coords="97,507,143,542,202,577,236,589,235,594,200,582,140,546,94,512"/>
+<area shape="rect" id="Node000042" href="$namespaceFoam.html#ae21883b3f759ee69c4bfa6473c93b0aa" title=" " alt="" coords="251,640,345,665"/>
+<area shape="poly" id="edge12_Node000001_Node000042" title=" " alt="" coords="91,508,134,566,166,599,203,626,238,641,236,646,200,631,162,603,130,569,86,511"/>
+<area shape="rect" id="Node000043" href="$namespaceFoam.html#a89001c380e1a82844bfb7101bbb2c7a4" title=" " alt="" coords="253,689,343,715"/>
+<area shape="poly" id="edge13_Node000001_Node000043" title=" " alt="" coords="88,509,102,543,127,588,160,636,180,657,203,676,221,686,240,692,239,697,218,690,200,680,177,661,156,639,122,591,98,545,83,511"/>
+<area shape="rect" id="Node000044" href="$namespaceFoam.html#a4bcdc74da546697b36c923fd0a575057" title=" " alt="" coords="221,739,375,764"/>
+<area shape="poly" id="edge14_Node000001_Node000044" title=" " alt="" coords="86,509,98,551,120,610,155,672,177,701,203,725,210,730,207,735,200,729,173,704,150,675,115,612,93,553,81,510"/>
+<area shape="rect" id="Node000047" href="$namespaceFoam.html#a277dc11c581d53826ab5090b08f3b17b" title=" " alt="" coords="255,812,341,837"/>
+<area shape="poly" id="edge16_Node000001_Node000047" title=" " alt="" coords="86,509,97,557,118,627,153,705,176,742,203,775,223,791,246,804,243,809,220,796,199,779,172,745,149,707,113,629,91,559,80,510"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1refinementSurfaces.html#aed249db3613ed8ebe18c708c151428c5" title=" " alt="" coords="201,862,395,902"/>
+<area shape="poly" id="edge18_Node000001_Node000048" title=" " alt="" coords="84,509,89,569,107,660,122,710,143,760,169,807,203,848,208,852,204,856,199,852,165,810,138,763,117,712,102,661,84,570,78,510"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1fvMesh.html#a2abfb6ffb81a9ffbf408030674873052" title="Return the top&#45;level database." alt="" coords="222,927,374,952"/>
+<area shape="poly" id="edge20_Node000001_Node000049" title=" " alt="" coords="83,509,84,580,89,631,98,688,112,748,134,808,164,864,203,912,211,919,208,923,199,916,159,867,129,810,107,750,92,689,83,632,79,580,78,509"/>
+<area shape="poly" id="edge6_Node000034_Node000008" title=" " alt="" coords="387,306,479,296,480,302,387,311"/>
+<area shape="poly" id="edge7_Node000034_Node000035" title=" " alt="" coords="387,325,429,329,429,334,387,330"/>
+<area shape="poly" id="edge17_Node000047_Node000047" title=" " alt="" coords="262,814,255,804,259,794,273,788,298,785,328,789,340,798,337,802,326,794,298,791,275,793,262,798,260,803,266,810"/>
+</map>

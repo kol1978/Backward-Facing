@@ -1,0 +1,38 @@
+var namespaceFoam_1_1combustionModels =
+[
+    [ "diffusion", "classFoam_1_1combustionModels_1_1diffusion.html", "classFoam_1_1combustionModels_1_1diffusion" ],
+    [ "EDC", "classFoam_1_1combustionModels_1_1EDC.html", "classFoam_1_1combustionModels_1_1EDC" ],
+    [ "FSD", "classFoam_1_1combustionModels_1_1FSD.html", "classFoam_1_1combustionModels_1_1FSD" ],
+    [ "infinitelyFastChemistry", "classFoam_1_1combustionModels_1_1infinitelyFastChemistry.html", "classFoam_1_1combustionModels_1_1infinitelyFastChemistry" ],
+    [ "laminar", "classFoam_1_1combustionModels_1_1laminar.html", "classFoam_1_1combustionModels_1_1laminar" ],
+    [ "noCombustion", "classFoam_1_1combustionModels_1_1noCombustion.html", "classFoam_1_1combustionModels_1_1noCombustion" ],
+    [ "PaSR", "classFoam_1_1combustionModels_1_1PaSR.html", "classFoam_1_1combustionModels_1_1PaSR" ],
+    [ "singleStepCombustion", "classFoam_1_1combustionModels_1_1singleStepCombustion.html", "classFoam_1_1combustionModels_1_1singleStepCombustion" ],
+    [ "zoneCombustion", "classFoam_1_1combustionModels_1_1zoneCombustion.html", "classFoam_1_1combustionModels_1_1zoneCombustion" ],
+    [ "EDCversions", "namespaceFoam_1_1combustionModels.html#aab3e1a8f2bf4732f92985526e1c2694e", [
+      [ "v1981", "namespaceFoam_1_1combustionModels.html#aab3e1a8f2bf4732f92985526e1c2694eac76c4e672cda60447c4972495f9d9a89", null ],
+      [ "v1996", "namespaceFoam_1_1combustionModels.html#aab3e1a8f2bf4732f92985526e1c2694ea4a8a707d37c33746d9b6997eba94b6bc", null ],
+      [ "v2005", "namespaceFoam_1_1combustionModels.html#aab3e1a8f2bf4732f92985526e1c2694ea3713d2ba18df88e5f6d05a298a5196aa", null ],
+      [ "v2016", "namespaceFoam_1_1combustionModels.html#aab3e1a8f2bf4732f92985526e1c2694ea86f91f081923abe8562b89e88efdefeb", null ]
+    ] ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#ad9461274a942d06d43d86d0f7de0a60d", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#a84a6e4f85c3a0d9f1c2b7b6a37d815d6", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#a6a2c50e111297e0c54a0de157095e1cd", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#a2d0d44fdc39aa0cc508a5e2ae882afd8", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#ac877eb1d0e36232a2b13d6d84fed1a15", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#a98e9baee98180dca5525a69f32233276", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#a38ef29d72c2ab3f9958ff7319fb08e4f", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#a006ef26e37c5c1d5192f2678446c5522", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#a4dbaadc740eecd0eca371fa90ee02a1f", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#a664c993a615453b46c665072c4a6527f", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#af6bda5af1ea2d65c758b2498a1f01a69", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#ab4a978d99e1b6fe11f352500d453f050", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#a0570c3c57956e0efe26200dd0f090485", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#ae5bb01b1dffb0cc62da8bcb9fe655b98", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1combustionModels.html#a713b0954f48c14616df8193b8b027d91", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1combustionModels.html#ae09891627229ced26eafd3bc1da355cf", null ],
+    [ "EDCversionNames", "namespaceFoam_1_1combustionModels.html#a8835abaa643571af1fed4c52a618702d", null ],
+    [ "EDCdefaultVersion", "namespaceFoam_1_1combustionModels.html#a9e12922e380fc78ee3bad76a1d776d93", null ],
+    [ "EDCexp1", "namespaceFoam_1_1combustionModels.html#a3a6db94f8a2911a472ebf38a43b7a0c1", null ],
+    [ "EDCexp2", "namespaceFoam_1_1combustionModels.html#a3677eaa41207548a063444b7241d1312", null ]
+];

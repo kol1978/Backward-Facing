@@ -1,0 +1,5 @@
+var applications_2modules_2multiphaseEuler_2thermophysicalTransportModels_2wallBoilingSubModels_2par905da44314fd3ba9bb628e1d1951abc5 =
+[
+    [ "defineTypeNameAndDebug", "applications_2modules_2multiphaseEuler_2thermophysicalTransportModels_2wallBoilingSubModels_2par905da44314fd3ba9bb628e1d1951abc5.html#aaeeb02c6afa2f209afbc0944aa1185d6", null ],
+    [ "addToRunTimeSelectionTable", "applications_2modules_2multiphaseEuler_2thermophysicalTransportModels_2wallBoilingSubModels_2par905da44314fd3ba9bb628e1d1951abc5.html#aa5236f295dd88914891a65978a2fc2f9", null ]
+];

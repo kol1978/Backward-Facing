@@ -1,0 +1,29 @@
+<map id="fvConstraints" name="fvConstraints">
+<area shape="rect" id="Node000001" title="Return the fvConstraints that are created on demand." alt="" coords="339,397,448,422"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solvers_1_1incompressibleDenseParticleFluid.html#a98ab707704a58c6b2b610ffac0c8d951" title="Construct the pressure equation." alt="" coords="22,5,274,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,383,388,317,375,229,362,183,344,138,320,96,289,59,273,47,276,43,292,55,324,93,349,135,367,181,380,228,393,317,395,383"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1solvers_1_1incompressibleFluid.html#a98ab707704a58c6b2b610ffac0c8d951" title="Construct the pressure equation." alt="" coords="38,69,258,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="388,383,382,329,366,258,353,221,337,185,315,152,289,123,257,104,260,100,292,119,320,149,341,183,358,219,371,256,387,328,394,383"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1solvers_1_1XiFluid.html#a3dce384fce70ba439fbcf01e7e525904" title="Solve the ft equation for partially&#45;premixed mixtures." alt="" coords="65,133,231,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="385,383,375,340,357,287,329,233,311,208,289,187,262,171,231,161,232,156,264,166,292,183,315,205,333,230,362,285,380,339,390,382"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1solvers_1_1twoPhaseSolver.html#ad5d4e918a8a636751e28288ef44e4e10" title="Construct and solve the incompressible pressure equation." alt="" coords="25,197,271,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="381,385,367,354,347,317,321,281,289,251,269,240,271,235,292,247,325,278,352,315,372,351,386,383"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1solvers_1_1incompressibleDenseParticleFluid.html#a906b416f7bf41fc990744b1a2b3a10b0" title="Construct and optionally solve the momentum equation." alt="" coords="5,261,291,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="372,388,336,350,314,331,289,316,262,304,264,299,292,311,317,327,340,346,376,384"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1solvers_1_1incompressibleFluid.html#a906b416f7bf41fc990744b1a2b3a10b0" title="Construct and optionally solve the momentum equation." alt="" coords="38,325,258,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="340,395,290,380,242,368,244,363,291,375,342,390"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1solvers_1_1isothermalFluid.html#a906b416f7bf41fc990744b1a2b3a10b0" title="Construct and optionally solve the momentum equation." alt="" coords="50,389,246,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="325,412,246,412,246,407,325,407"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1solvers_1_1shockFluid.html#a906b416f7bf41fc990744b1a2b3a10b0" title="Construct and optionally solve the momentum equation." alt="" coords="53,453,243,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="342,429,291,444,244,456,242,451,290,439,340,424"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1solvers_1_1VoFSolver.html#a906b416f7bf41fc990744b1a2b3a10b0" title="Construct and optionally solve the momentum equation." alt="" coords="55,517,241,557"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="376,435,340,472,317,492,292,508,242,527,240,522,289,503,314,487,336,469,372,431"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1solvers_1_1film.html#a0140948261d8319db9864211a35d1cc2" title="Construct and solve the energy equation,." alt="" coords="53,581,243,621"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="386,436,372,467,352,504,325,541,292,571,269,585,244,594,242,589,267,580,289,567,321,537,347,501,367,465,381,434"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1solvers_1_1fluid.html#a0140948261d8319db9864211a35d1cc2" title="Construct and solve the energy equation,." alt="" coords="53,645,243,685"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="390,436,380,480,362,534,333,589,315,614,292,635,269,650,244,659,242,654,267,645,289,631,311,610,329,586,357,532,375,479,385,435"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1solvers_1_1multicomponentFluid.html#a0140948261d8319db9864211a35d1cc2" title="Construct and solve the energy equation,." alt="" coords="34,709,262,749"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="394,436,387,491,371,562,358,600,341,636,320,670,292,699,264,717,261,713,289,695,315,667,337,634,353,598,366,561,382,490,388,435"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1solvers_1_1shockFluid.html#a0140948261d8319db9864211a35d1cc2" title="Construct and solve the energy equation,." alt="" coords="53,773,243,813"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="395,436,393,502,380,590,367,637,349,683,324,726,292,763,270,779,244,789,242,784,267,774,289,759,320,723,344,681,362,636,375,589,388,502,390,436"/>
+</map>

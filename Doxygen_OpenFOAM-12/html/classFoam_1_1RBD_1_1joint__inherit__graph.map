@@ -1,0 +1,41 @@
+<map id="joint" name="joint">
+<area shape="rect" id="Node000001" title="Abstract base&#45;class for all rigid&#45;body joints." alt="" coords="595,5,646,31"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1RBD_1_1joints_1_1Pa.html" title="Prismatic joint for translation along the specified arbitrary axis." alt="" coords="5,79,44,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="581,23,487,27,356,36,207,53,56,81,45,84,44,79,55,76,206,48,356,31,487,21,581,17"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1RBD_1_1joints_1_1Px.html" title="Prismatic joint for translation along the x&#45;axis." alt="" coords="68,79,107,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="582,24,383,39,252,56,120,81,108,85,106,80,119,76,251,51,382,34,582,18"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1RBD_1_1joints_1_1Pxyz.html" title="Prismatic joint for translation in the x/y/z directions." alt="" coords="131,79,185,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="582,26,414,45,306,61,197,81,186,84,184,79,196,76,305,56,413,39,582,20"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1RBD_1_1joints_1_1Py.html" title="Prismatic joint for translation along the y&#45;axis." alt="" coords="209,79,248,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="582,26,439,45,349,61,260,81,249,85,248,79,259,76,348,56,438,40,581,21"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1RBD_1_1joints_1_1Pz.html" title="Prismatic joint for translation along the x&#45;axis." alt="" coords="272,79,311,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="582,28,465,48,323,81,312,85,310,80,321,76,464,43,581,22"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1RBD_1_1joints_1_1Ra.html" title="Revolute joint for rotation about the specified arbitrary axis." alt="" coords="335,79,373,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="582,30,492,52,385,81,374,85,373,80,384,76,491,47,581,25"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1RBD_1_1joints_1_1Rs.html" title="Spherical joint for rotation about the x/y/z&#45;axes using a quaternion (Euler parameters) to avoid gimb..." alt="" coords="397,79,436,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="583,35,448,81,437,85,435,80,446,76,581,30"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1RBD_1_1joints_1_1Rx.html" title="Revolute joint for rotation about the x&#45;axis." alt="" coords="460,79,499,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="587,39,500,83,498,78,585,34"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1RBD_1_1joints_1_1Rxyz.html" title="Spherical joint for rotation about the x/y/z&#45;axes using Euler&#45;angles in the order x,..." alt="" coords="523,79,577,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="601,43,563,80,560,77,597,39"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1RBD_1_1joints_1_1Ry.html" title="Revolute joint for rotation about the y&#45;axis." alt="" coords="601,79,640,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="623,44,623,79,618,79,618,44"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1RBD_1_1joints_1_1Ryxz.html" title="Spherical joint for rotation about the x/y/z&#45;axes using Euler&#45;angles in the order y,..." alt="" coords="664,79,719,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="644,39,682,77,678,80,640,43"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1RBD_1_1joints_1_1Rz.html" title="Revolute joint for rotation about the z&#45;axis." alt="" coords="743,79,781,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="657,34,744,78,741,83,654,39"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1RBD_1_1joints_1_1Rzyx.html" title="Spherical joint for rotation about the x/y/z&#45;axes using Euler&#45;angles in the order z,..." alt="" coords="805,79,860,104"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="660,30,806,78,804,83,658,35"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1RBD_1_1joints_1_1composite.html" title="Prismatic joint for translation along the specified arbitrary axis." alt="" coords="885,79,975,104"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="660,26,885,77,884,82,659,31"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1RBD_1_1joints_1_1function.html" title="Joint in which the position is a function of the parent joint&#39;s position." alt="" coords="999,79,1074,104"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="660,22,805,44,988,76,1000,78,998,84,987,81,804,49,659,27"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1RBD_1_1joints_1_1functionDot.html" title="Joint in which the position is a function of the parent joint&#39;s velocity." alt="" coords="1098,79,1197,104"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="660,21,845,43,1086,76,1098,78,1097,83,1086,81,844,48,660,26"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1RBD_1_1joints_1_1null.html" title="Null joint for the root&#45;body." alt="" coords="1221,79,1268,104"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="660,18,893,32,1050,50,1209,76,1222,79,1221,84,1208,81,1050,55,893,38,659,23"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1RBD_1_1joints_1_1rigid.html" title="Rigid joint." alt="" coords="1293,79,1343,104"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="660,17,768,21,922,31,1100,48,1281,76,1293,79,1292,84,1280,81,1100,53,921,36,767,27,660,23"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1RBD_1_1joints_1_1rotating.html" title="Joint with a specified rotational speed." alt="" coords="1368,79,1441,104"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="660,18,950,33,1151,50,1356,76,1368,78,1367,84,1355,81,1151,56,950,38,660,23"/>
+</map>

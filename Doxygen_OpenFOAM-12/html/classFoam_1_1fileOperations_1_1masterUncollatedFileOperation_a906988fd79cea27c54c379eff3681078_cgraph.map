@@ -1,0 +1,54 @@
+<map id="readStream" name="readStream">
+<area shape="rect" id="Node000001" title="Reads header for regIOobject and returns an ISstream." alt="" coords="5,423,104,448"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1tmp.html#adf1d9633e64d0de6a36e0af17ccd8163" title="If object pointer points to valid object:" alt="" coords="194,5,326,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,422,64,344,83,229,112,115,130,71,150,40,180,22,182,27,154,44,134,73,117,117,89,230,70,345,60,423"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1tmp.html#a644718bb2fb240de962dc3c9a1fdf0dc" title="Return true if this temporary object empty,." alt="" coords="189,55,331,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="53,422,54,364,66,278,78,230,95,182,119,137,150,97,174,81,177,85,154,101,123,140,100,184,83,231,71,279,60,365,58,423"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="467,359,561,384"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="58,422,69,393,88,357,115,321,151,293,208,269,234,264,258,263,309,272,369,293,385,303,395,314,404,326,417,337,454,354,452,358,415,342,400,330,391,317,382,307,367,298,308,277,258,268,234,269,210,274,153,298,119,325,92,360,74,395,63,424"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="469,416,559,441"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="104,432,455,427,455,432,104,437"/>
+<area shape="rect" id="Node000019" href="$namespaceFoam.html#a0d2fe670aa0393161dc65d9bfaa07184" title="Return size of file." alt="" coords="203,308,317,333"/>
+<area shape="poly" id="edge5_Node000001_Node000019" title=" " alt="" coords="64,420,100,382,124,361,151,344,189,329,191,334,153,348,127,366,103,386,68,424"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="163,207,357,232"/>
+<area shape="poly" id="edge7_Node000001_Node000020" title=" " alt="" coords="56,422,67,387,85,341,112,292,130,269,150,249,174,235,177,239,154,253,134,273,117,295,90,343,72,389,62,423"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="660,207,865,232"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="53,422,55,369,66,292,78,251,95,212,119,176,150,147,186,125,224,109,263,98,303,92,387,91,469,103,548,124,620,149,727,198,725,202,618,154,547,129,468,109,386,97,304,97,264,103,225,114,188,130,154,151,123,179,100,214,83,253,71,293,60,369,58,422"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="672,501,853,527"/>
+<area shape="poly" id="edge15_Node000001_Node000022" title=" " alt="" coords="58,448,60,502,71,579,82,620,100,659,123,695,153,724,228,728,383,728,537,725,611,721,637,704,661,683,701,633,731,581,750,539,754,541,735,584,706,636,665,686,641,708,613,726,537,730,383,733,228,733,151,728,119,698,95,662,77,622,66,580,54,502,53,448"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#ad2750efe0594a0466b9015f0c30175d9" title="Is this a parallel run?" alt="" coords="671,257,855,283"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="54,422,58,376,73,312,85,278,101,245,123,216,150,192,211,158,267,141,320,138,372,146,424,162,481,182,543,203,613,223,661,241,697,251,696,256,659,246,611,229,541,209,479,187,423,167,370,151,319,143,268,146,213,163,154,196,127,219,106,248,90,280,78,314,64,377,59,423"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="422,580,606,605"/>
+<area shape="poly" id="edge12_Node000001_Node000025" title=" " alt="" coords="63,447,74,475,93,511,119,546,153,573,188,589,224,600,300,611,373,611,438,605,438,610,374,617,299,617,223,605,186,594,151,578,116,549,89,513,69,478,58,449"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1UPstream.html#a54a2c5e7def88e6f81d1f0588004de2c" title="Message tag of standard messages." alt="" coords="416,632,612,657"/>
+<area shape="poly" id="edge13_Node000001_Node000027" title=" " alt="" coords="61,448,70,483,87,531,114,579,132,600,153,617,187,635,222,648,260,657,298,662,372,663,437,657,438,662,372,668,297,667,259,662,221,653,184,640,151,622,128,604,110,582,82,533,65,485,56,449"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam.html#a18efc6d016047ec7c6d5150d913d8c34" title=" " alt="" coords="213,791,307,816"/>
+<area shape="poly" id="edge17_Node000001_Node000028" title=" " alt="" coords="58,448,60,506,71,592,83,640,100,687,123,731,154,769,175,785,200,794,199,799,173,789,150,773,119,734,95,689,78,641,66,593,54,506,53,448"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1decomposedBlockData.html#ad8bcfeda49cde97a7a07f458b34c5cca" title="Read selected block (non&#45;seeking) + header information." alt="" coords="152,358,368,398"/>
+<area shape="poly" id="edge18_Node000001_Node000030" title=" " alt="" coords="100,420,174,399,176,404,102,425"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1decomposedBlockData.html#aba86641bcabfa7f75a0c36fa605336cf" title="Read data into *this. ISstream is only valid on master." alt="" coords="152,523,368,563"/>
+<area shape="poly" id="edge21_Node000001_Node000031" title=" " alt="" coords="72,446,108,474,153,502,183,516,181,521,151,507,105,478,69,450"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1Pstream.html#a00bc7d5a0b660cfa53523561af48def2" title="Scatter data. Distribute without modification. Reverse of gather." alt="" coords="427,473,601,499"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="104,438,414,472,413,478,104,443"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1tmp.html#a315419f26d3c59fa143b49b90a019049" title="Is this temporary object valid,." alt="" coords="448,685,580,711"/>
+<area shape="poly" id="edge34_Node000001_Node000034" title=" " alt="" coords="59,448,65,492,80,554,92,586,108,617,128,646,154,669,187,689,223,703,261,712,300,717,375,718,442,710,443,716,376,723,299,723,260,718,221,708,184,694,150,673,124,649,103,620,87,588,74,555,60,493,54,449"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1OStringStream.html#ae403f14d61d9789a749ee28fc10a50a9" title="Return the string." alt="" coords="167,864,353,889"/>
+<area shape="poly" id="edge32_Node000001_Node000035" title=" " alt="" coords="58,448,58,513,68,613,80,669,97,725,122,779,154,827,173,844,196,857,193,861,170,848,150,830,117,781,92,727,75,671,63,614,53,514,53,448"/>
+<area shape="poly" id="edge6_Node000019_Node000004" title=" " alt="" coords="318,329,453,357,452,362,317,335"/>
+<area shape="poly" id="edge8_Node000020_Node000004" title=" " alt="" coords="334,230,370,249,388,272,395,294,401,316,418,337,435,349,454,357,452,362,432,353,414,341,397,319,390,296,383,274,366,253,331,235"/>
+<area shape="poly" id="edge9_Node000020_Node000021" title=" " alt="" coords="357,217,646,217,646,222,357,222"/>
+<area shape="poly" id="edge10_Node000020_Node000022" title=" " alt="" coords="305,229,470,282,555,314,613,344,656,378,694,417,748,488,744,491,690,421,652,382,611,348,553,319,469,288,304,235"/>
+<area shape="poly" id="edge11_Node000020_Node000016" title=" " alt="" coords="357,226,657,257,657,262,357,232"/>
+<area shape="poly" id="edge19_Node000030_Node000004" title=" " alt="" coords="368,372,453,370,453,376,368,378"/>
+<area shape="poly" id="edge20_Node000030_Node000006" title=" " alt="" coords="361,395,456,414,455,420,360,401"/>
+<area shape="poly" id="edge22_Node000031_Node000004" title=" " alt="" coords="276,521,334,463,373,430,415,401,452,384,454,389,417,406,376,434,338,466,280,525"/>
+<area shape="poly" id="edge25_Node000031_Node000022" title=" " alt="" coords="368,534,658,517,658,523,369,540"/>
+<area shape="poly" id="edge23_Node000031_Node000025" title=" " alt="" coords="364,561,435,575,434,580,363,566"/>
+<area shape="poly" id="edge24_Node000031_Node000027" title=" " alt="" coords="299,561,354,589,417,616,448,626,446,631,415,620,352,593,297,566"/>
+<area shape="poly" id="edge26_Node000031_Node000032" title=" " alt="" coords="349,521,443,499,445,504,350,526"/>
+<area shape="poly" id="edge30_Node000031_Node000034" title=" " alt="" coords="282,561,340,614,377,643,417,668,443,679,440,683,415,672,374,647,336,618,279,565"/>
+<area shape="poly" id="edge27_Node000032_Node000021" title=" " alt="" coords="583,471,610,452,627,426,635,401,635,375,632,349,630,322,631,296,639,269,658,243,664,238,667,242,662,246,644,272,636,297,635,322,638,348,640,375,640,401,632,429,614,456,586,475"/>
+<area shape="poly" id="edge28_Node000032_Node000022" title=" " alt="" coords="601,493,658,500,658,505,600,498"/>
+<area shape="poly" id="edge29_Node000032_Node000016" title=" " alt="" coords="570,471,611,452,655,414,693,371,723,328,745,293,750,296,728,331,697,374,658,418,613,456,573,476"/>
+<area shape="poly" id="edge33_Node000035_Node000035" title=" " alt="" coords="226,866,219,856,223,846,237,840,260,837,289,841,300,850,297,854,286,846,260,843,238,845,227,849,224,855,230,862"/>
+</map>

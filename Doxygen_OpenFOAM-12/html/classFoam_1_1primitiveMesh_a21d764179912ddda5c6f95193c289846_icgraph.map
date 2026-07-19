@@ -1,0 +1,47 @@
+<map id="edges" name="edges">
+<area shape="rect" id="Node000001" title="Return mesh edges. Uses calcEdges." alt="" coords="816,469,877,495"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1snappyLayerDriver.html#a2654851d1ffedc26e8ff1424f7097ba6" title="Add cell layers." alt="" coords="5,225,195,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="842,456,837,366,826,247,816,187,803,134,786,91,766,64,727,38,685,20,641,11,596,8,549,12,501,22,407,54,318,98,239,146,174,191,127,227,124,222,171,187,236,141,316,93,405,49,500,17,548,7,595,3,642,5,687,15,730,33,770,60,791,89,808,132,821,186,831,246,843,366,847,456"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1motionSmootherAlgo.html#a43abe9d99d3d9202df2640ae68049a60" title=" " alt="" coords="527,75,763,100"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="841,456,833,377,819,274,797,177,783,140,766,115,749,102,753,98,770,111,787,137,802,175,824,273,839,376,846,455"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1addPatchCellLayer.html#a25346f181e6f56df9a1839ff94eea581" title="Boundary edges get extruded into boundary faces. Determine patch." alt="" coords="551,125,738,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="839,456,830,390,814,307,793,229,780,199,766,179,737,160,740,155,770,175,785,196,798,227,819,306,835,389,845,455"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam_1_1meshCheck.html#ad213b9ed366ba8c9808468c72ee7a048" title="Check the topology." alt="" coords="521,189,768,215"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="843,456,840,407,829,345,819,313,806,281,788,253,766,228,751,217,754,213,770,224,793,250,811,279,824,311,834,343,845,406,848,455"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1edgeVertex.html#a272d10ee27ddbd3a20bccfc71015fb18" title="Return coordinate of cut (uses weight if edgeCut)" alt="" coords="553,239,737,264"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="841,456,835,415,822,367,800,318,785,296,766,278,736,261,738,256,770,273,789,293,804,316,827,365,840,414,846,455"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam_1_1meshTools.html#ad0c5f6f651fcd0e135619f77c1524d70" title="Given edge on hex find all &#39;parallel&#39; (i.e. non&#45;connected)" alt="" coords="243,313,473,339"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="832,458,806,417,788,397,767,380,715,362,641,349,473,333,474,328,642,343,717,357,769,376,792,393,810,414,836,456"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1directionInfo.html#a979a0fce341d87c9c179d936a0e85e03" title="Given edge on hex cell find corresponding edge on face. Is either." alt="" coords="26,633,174,673"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="846,509,838,579,823,667,801,749,786,781,770,801,749,814,724,824,663,836,590,841,511,838,432,830,357,818,292,803,242,786,201,763,165,733,114,675,118,672,169,729,204,758,244,781,293,798,358,813,432,825,511,833,590,835,662,831,723,819,747,809,766,797,782,778,796,748,818,666,832,578,840,508"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam_1_1meshTools.html#ac23b3c803050cb2339b3b256887505a6" title="Return edge between two vertices. Returns &#45;1 if no edge." alt="" coords="545,389,744,415"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="815,464,767,437,708,417,710,412,769,432,818,459"/>
+<area shape="rect" id="Node000014" href="$namespaceFoam_1_1meshTools.html#a3d09936ea8afeb00ac1f2203cf95ac7a" title="Get faces on cell using edgeI. Throws error if no two found." alt="" coords="260,605,456,645"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="838,508,812,554,793,577,769,595,732,613,692,627,609,642,528,646,456,642,456,637,528,641,609,637,691,622,730,608,767,591,789,573,808,551,833,506"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam_1_1meshTools.html#ad353ebf6440d98fc67afd6e614c35ef1" title="Given edge on hex find other &#39;parallel&#39;, non&#45;connected edges." alt="" coords="539,490,751,530"/>
+<area shape="poly" id="edge11_Node000001_Node000018" title=" " alt="" coords="803,491,751,498,751,493,802,485"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1addPatchCellLayer.html#aeea8524ff2d092f53488dd1cb593c58e" title="Per patch edge the pp faces (in global indices) using it. Uses." alt="" coords="265,433,451,473"/>
+<area shape="poly" id="edge12_Node000001_Node000019" title=" " alt="" coords="802,482,451,461,452,456,802,477"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1primitiveMesh.html#a086513bcff1a3f1684e1a3879dd90deb" title=" " alt="" coords="610,555,679,580"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="824,507,799,527,769,545,723,560,680,567,679,562,722,555,767,540,796,522,821,502"/>
+<area shape="rect" id="Node000047" href="$namespaceFoam_1_1meshTools.html#a7fcaaaefc5bc2d460742d9a452091d8b" title="Normalised edge vector." alt="" coords="529,288,761,313"/>
+<area shape="poly" id="edge17_Node000001_Node000047" title=" " alt="" coords="836,457,812,395,792,362,766,335,730,316,733,311,770,331,797,359,817,392,841,455"/>
+<area shape="rect" id="Node000049" href="$namespaceFoam_1_1meshTools.html#ae03c08ba46f970c3b70bfdd6fccdf664" title="Return label of other edge (out of candidates edgeLabels)" alt="" coords="540,707,749,732"/>
+<area shape="poly" id="edge19_Node000001_Node000049" title=" " alt="" coords="846,509,839,549,826,597,804,647,788,670,770,690,737,709,734,704,766,685,784,666,799,644,821,596,834,548,840,508"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1directionInfo.html#a77204b39a1795badf6e3b5db01bef0c6" title="Influence of neighbouring face." alt="" coords="284,731,432,771"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="844,509,834,567,818,639,797,705,784,730,770,747,729,771,685,787,638,796,590,798,499,790,422,774,423,769,500,785,591,793,637,790,683,782,727,766,766,743,780,727,792,703,813,638,829,566,839,508"/>
+<area shape="rect" id="Node000050" href="$namespaceFoam_1_1meshTools.html#a538eb82d4f1ee40b87c12fb6409cb0d1" title="Returns label of edge nEdges away from startEdge (in the direction." alt="" coords="257,669,459,695"/>
+<area shape="poly" id="edge26_Node000001_Node000050" title=" " alt="" coords="844,509,836,542,822,581,800,619,770,650,746,661,715,670,635,682,545,687,460,688,460,682,545,681,635,676,714,665,744,656,766,645,796,616,817,579,831,541,839,508"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1pointEdgeDist.html#aa2073cf1e03cfdecf8b93b58e002d60f" title="Influence of point on edge." alt="" coords="566,858,723,898"/>
+<area shape="poly" id="edge24_Node000001_Node000051" title=" " alt="" coords="846,509,837,585,822,684,800,778,786,815,770,841,749,858,724,869,722,864,746,854,766,838,781,813,795,777,817,683,832,585,840,508"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1pointEdgePoint.html#ac3a9c1cc1a1a3638a1c0dfa117c262e7" title="Influence of point on edge." alt="" coords="563,922,727,962"/>
+<area shape="poly" id="edge25_Node000001_Node000052" title=" " alt="" coords="847,509,841,599,828,719,818,780,805,835,789,880,770,912,751,927,728,937,726,932,748,923,766,908,784,878,800,833,812,779,822,718,836,598,842,508"/>
+<area shape="poly" id="edge10_Node000014_Node000012" title=" " alt="" coords="247,640,175,647,174,642,246,634"/>
+<area shape="poly" id="edge13_Node000019_Node000002" title=" " alt="" coords="320,426,124,267,128,263,323,422"/>
+<area shape="poly" id="edge15_Node000021_Node000012" title=" " alt="" coords="596,568,526,567,438,570,340,578,243,595,189,613,140,635,138,630,187,608,242,590,340,573,438,564,526,562,596,563"/>
+<area shape="poly" id="edge16_Node000021_Node000019" title=" " alt="" coords="596,564,559,556,520,545,448,511,388,475,391,471,450,506,522,540,560,551,597,558"/>
+<area shape="poly" id="edge18_Node000047_Node000009" title=" " alt="" coords="516,315,474,319,473,313,515,310"/>
+<area shape="poly" id="edge20_Node000049_Node000017" title=" " alt="" coords="527,735,433,746,432,741,526,730"/>
+<area shape="poly" id="edge21_Node000049_Node000050" title=" " alt="" coords="533,708,456,697,456,692,534,702"/>
+<area shape="poly" id="edge22_Node000050_Node000012" title=" " alt="" coords="243,672,174,664,175,659,243,666"/>
+</map>

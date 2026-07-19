@@ -1,0 +1,46 @@
+<map id="phases" name="phases">
+<area shape="rect" id="Node000001" title="Return the phase models." alt="" coords="487,713,555,739"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1compressible_1_1alphatPhaseChangeWallFunctionBase.html#a320af7facfa92bf5e259be2473661075" title="Is there phase change mass transfer for this interface?" alt="" coords="182,5,425,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,700,517,569,508,381,498,284,484,195,463,122,451,94,437,73,423,61,427,57,441,70,456,92,468,121,489,194,504,283,513,380,522,569,522,700"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1heatTransferModels_1_1wallBoilingHeatTransfer.html#aa08da145c1a002ec85693a825d6fd00f" title="Is there phase change mass transfer for this phaseInterface." alt="" coords="206,84,401,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="517,700,514,583,503,419,493,335,479,259,460,196,449,172,437,153,420,138,400,128,402,123,423,134,441,150,454,169,465,194,484,258,498,335,508,419,519,583,522,700"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1RASModels_1_1mixtureKEpsilon.html#a627e30c80dd2737d19b4c4163b766488" title=" " alt="" coords="204,163,403,203"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="516,700,512,594,500,449,490,376,476,309,459,254,437,217,421,204,402,195,404,190,424,200,441,214,463,252,481,307,495,375,506,449,517,594,522,699"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1diameterModels_1_1linearTsub.html#a3ae44b28050c3aa494c1d8e18cf618c1" title="Correct the model." alt="" coords="217,227,389,267"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="516,700,510,606,496,480,486,417,472,359,456,313,437,281,415,265,389,255,391,250,417,260,441,278,461,310,478,358,491,416,501,480,515,606,521,699"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1RASModels_1_1mixtureKEpsilon.html#a2025b7aa290d9718fd3ec3836b8638ad" title=" " alt="" coords="204,291,403,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="515,700,507,618,492,512,469,410,454,371,437,345,421,332,402,323,404,319,423,328,441,342,459,369,474,409,497,511,512,618,520,699"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1heatTransferModels_1_1wallBoilingHeatTransfer.html#aad6ae14ac081aa9ce8f0cc540c33a167" title="True if the sign of dmdtf should be changed." alt="" coords="206,356,401,411"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="518,699,516,642,506,568,496,529,481,491,462,455,437,424,420,410,400,400,402,395,423,406,441,420,466,452,486,489,501,528,511,567,521,642,523,699"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1multiphaseExternalTemperatureFvPatchScalarField.html#a95f72734385ac6c4adc9f50175247900" title="Get the patch kappa, sum kappa*Tc/delta, kappa/delta and." alt="" coords="190,435,417,489"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="515,700,508,657,495,604,472,550,456,526,437,504,415,488,418,484,440,500,460,522,477,548,500,603,514,656,520,699"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#a539d4669b1fa84f42cd7eeb2b91a3526" title="Get the neighbour patch sum kappa*Tc/delta and kappa/delta." alt="" coords="168,514,439,554"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="511,701,502,670,487,634,465,598,437,568,418,556,421,552,440,564,470,595,491,631,507,668,516,700"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#aeaf3131c15ed0890e85edae9be17f594" title="Get the neighbour patch wall temperature and heat&#45;flux." alt="" coords="168,578,439,618"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="503,703,475,666,457,648,437,632,414,621,416,616,440,628,461,644,479,662,507,700"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1coupledMultiphaseTemperatureFvPatchScalarField.html#aae497d30414fdd09e7c3fcb037ee8690" title="Get the patch kappa, sum kappa*Tc/delta and kappa/delta for all phases." alt="" coords="168,642,439,682"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="477,711,438,697,396,685,397,679,439,691,479,706"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1phaseInterface.html#a0ee0eb159255deedfe48d60dc42645fa" title="Return references to the phases associated with a given name, and a." alt="" coords="222,706,385,746"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="473,729,385,729,385,723,473,723"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1phaseSystem.html#ac15e19b9d7aa985381e2bef7878119d8" title=" " alt="" coords="5,864,120,889"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="479,746,439,761,363,776,302,782,242,789,169,811,119,838,81,866,78,862,116,833,167,806,241,784,302,776,362,771,438,755,478,741"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1heatTransferModels_1_1wallBoilingHeatTransfer.html#a2c6c7bdd3790313d80bed5bd3d5230d9" title="The heat transfer function K used in the enthalpy equation." alt="" coords="202,821,405,861"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="502,751,475,779,440,804,397,823,395,818,437,800,471,775,499,747"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1phaseInterface.html#a4fceaa6915a3d6553e129b661e65be8a" title="Split an interface name and return all its parts." alt="" coords="222,885,385,925"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="515,753,489,814,468,847,440,875,414,890,386,899,384,894,412,885,437,871,464,844,484,812,510,751"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1phaseInterface.html#a047f065709e7b0c267d467ad48b238a6" title="Convert old&#45;format interface name parts to an interface name. Used." alt="" coords="216,949,391,989"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="520,753,513,794,499,844,476,895,460,918,440,939,417,954,392,964,390,959,415,949,437,935,456,915,471,892,494,842,508,793,514,752"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1phaseSystem.html#ab64eb37c4c226f6294898e959d4628b6" title="Construct from fvMesh." alt="" coords="248,1013,359,1039"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="523,752,520,805,509,873,499,908,484,943,465,975,440,1003,422,1015,402,1024,359,1031,358,1026,400,1019,420,1011,437,999,461,972,480,941,494,907,504,872,515,805,517,752"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1RASModels_1_1mixtureKEpsilon.html#a27adc4bedfa8846c8b1de026e52dbf46" title=" " alt="" coords="204,1063,403,1103"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="519,752,509,822,493,912,470,996,456,1029,441,1052,423,1065,404,1075,402,1070,421,1061,437,1048,452,1027,465,994,488,911,504,821,514,752"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1phaseSystem.html#a4a267f82d6184818f8fc09a1429f438c" title="Solve for the phase fractions." alt="" coords="275,1128,332,1153"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="520,753,513,836,498,945,475,1049,459,1090,441,1117,416,1134,387,1143,358,1146,332,1146,332,1141,358,1141,386,1138,413,1129,437,1113,454,1087,470,1047,493,944,507,835,515,752"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients." alt="" coords="196,1177,411,1232"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="521,753,514,845,500,968,489,1030,476,1087,460,1134,441,1166,412,1188,409,1183,437,1163,455,1132,471,1086,484,1029,495,967,509,845,515,753"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients." alt="" coords="196,1256,411,1311"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="521,753,517,859,505,1006,495,1081,481,1149,463,1206,441,1245,413,1267,410,1262,437,1242,458,1204,476,1148,489,1080,500,1005,512,859,516,753"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1compressible_1_1alphatWallBoilingWallFunctionFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients associated with the patch field." alt="" coords="184,1335,423,1389"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="522,753,520,873,510,1044,500,1131,485,1211,466,1278,454,1304,441,1324,425,1338,421,1334,437,1320,450,1301,461,1276,480,1210,494,1130,504,1043,515,873,517,753"/>
+<area shape="poly" id="edge16_Node000017_Node000013" title=" " alt="" coords="202,951,167,939,120,916,81,892,84,887,122,911,169,934,204,946"/>
+</map>

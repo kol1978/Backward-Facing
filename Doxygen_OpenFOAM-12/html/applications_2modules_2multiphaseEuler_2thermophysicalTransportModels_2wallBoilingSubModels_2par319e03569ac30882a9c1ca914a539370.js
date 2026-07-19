@@ -1,0 +1,4 @@
+var applications_2modules_2multiphaseEuler_2thermophysicalTransportModels_2wallBoilingSubModels_2par319e03569ac30882a9c1ca914a539370 =
+[
+    [ "linear", "classFoam_1_1wallBoilingModels_1_1partitioningModels_1_1linear.html", "classFoam_1_1wallBoilingModels_1_1partitioningModels_1_1linear" ]
+];

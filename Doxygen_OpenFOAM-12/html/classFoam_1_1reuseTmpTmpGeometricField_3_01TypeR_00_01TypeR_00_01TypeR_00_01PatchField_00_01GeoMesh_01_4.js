@@ -1,0 +1,4 @@
+var classFoam_1_1reuseTmpTmpGeometricField_3_01TypeR_00_01TypeR_00_01TypeR_00_01PatchField_00_01GeoMesh_01_4 =
+[
+    [ "New", "classFoam_1_1reuseTmpTmpGeometricField_3_01TypeR_00_01TypeR_00_01TypeR_00_01PatchField_00_01GeoMesh_01_4.html#a2da89e120299a9cd0faca5d948aedcdd", null ]
+];

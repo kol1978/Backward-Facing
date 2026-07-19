@@ -1,0 +1,5 @@
+var sixDoFRigidBodyMotion_2sixDoFRigidBodyMotion_2restraints_2sphericalAngularDamper_2sphericalAngularDamper_8C =
+[
+    [ "defineTypeNameAndDebug", "sixDoFRigidBodyMotion_2sixDoFRigidBodyMotion_2restraints_2sphericalAngularDamper_2sphericalAngularDamper_8C.html#a96c26876badaad9b8bee880f988aa9e1", null ],
+    [ "addToRunTimeSelectionTable", "sixDoFRigidBodyMotion_2sixDoFRigidBodyMotion_2restraints_2sphericalAngularDamper_2sphericalAngularDamper_8C.html#a68bc2f0e26da5734b1a1b593c0cf65df", null ]
+];

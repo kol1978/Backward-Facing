@@ -1,0 +1,35 @@
+<map id="distributedTriSurfaceMesh" name="distributedTriSurfaceMesh">
+<area shape="rect" id="Node000001" title="Construct from triSurface." alt="" coords="5,273,196,298"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1searchableSurface.html#a55318c571f0671dc6a9da8b953c9879e" title="Return const reference to boundBox." alt="" coords="249,5,435,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,271,122,231,151,176,191,115,216,87,242,62,261,49,264,54,246,66,219,91,196,119,156,178,127,234,109,273"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="741,222,836,247"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,296,134,322,164,354,202,385,245,408,325,414,474,415,620,412,692,406,710,392,726,375,752,336,769,296,779,260,784,262,774,297,756,339,730,379,714,396,694,410,620,417,474,421,325,419,243,413,199,389,161,358,130,326,109,300"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="245,374,439,399"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="127,296,180,323,245,352,286,367,284,372,243,357,178,328,124,300"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="488,273,693,298"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="197,283,474,283,474,288,197,288"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="500,323,681,349"/>
+<area shape="poly" id="edge10_Node000001_Node000016" title=" " alt="" coords="197,293,487,323,486,328,196,298"/>
+<area shape="rect" id="Node000019" href="$namespaceFoam.html#a0b6093e09f138167564d470abd1808cd" title=" " alt="" coords="295,475,389,501"/>
+<area shape="poly" id="edge7_Node000001_Node000019" title=" " alt="" coords="111,297,161,371,200,415,245,454,283,472,280,477,243,458,196,419,157,374,107,300"/>
+<area shape="rect" id="Node000020" href="$namespaceFoam.html#a89001c380e1a82844bfb7101bbb2c7a4" title=" " alt="" coords="297,525,387,550"/>
+<area shape="poly" id="edge8_Node000001_Node000020" title=" " alt="" coords="109,297,124,339,152,397,193,459,218,487,246,511,264,521,284,528,282,533,262,526,242,516,214,491,188,462,148,400,119,341,104,299"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam.html#a8df62d75f0a562dc98e35e3d4fcb01ac" title=" " alt="" coords="535,70,646,95"/>
+<area shape="poly" id="edge11_Node000001_Node000021" title=" " alt="" coords="105,271,123,236,153,190,193,143,216,122,243,106,277,90,313,79,388,67,460,66,521,70,521,75,459,71,388,73,314,85,279,95,245,110,220,127,196,147,157,193,128,239,110,274"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="244,222,440,247"/>
+<area shape="poly" id="edge13_Node000001_Node000026" title=" " alt="" coords="162,270,267,248,268,253,163,275"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1UList.html#a47b3bf30da1eb3ab8076b5fbe00e0494" title="Return the number of elements in the UList." alt="" coords="524,171,657,197"/>
+<area shape="poly" id="edge17_Node000001_Node000027" title=" " alt="" coords="118,270,172,237,207,220,243,207,312,191,383,182,510,178,510,183,384,188,313,197,245,212,209,225,175,242,121,275"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1distributedTriSurfaceMesh.html#abcdb99a5c0073642de36f2a8b03e92c2" title="Print some stats. Parallel aware version of." alt="" coords="298,121,386,146"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="112,271,165,219,202,189,243,163,284,145,286,150,245,168,205,194,169,223,116,275"/>
+<area shape="poly" id="edge4_Node000005_Node000003" title=" " alt="" coords="433,397,493,399,560,396,629,383,661,372,692,358,720,337,743,311,774,258,779,261,747,314,723,341,695,362,663,377,630,388,561,401,493,405,432,402"/>
+<area shape="poly" id="edge5_Node000005_Node000015" title=" " alt="" coords="362,372,417,340,487,308,514,299,516,304,489,313,420,345,365,376"/>
+<area shape="poly" id="edge6_Node000005_Node000016" title=" " alt="" coords="405,371,514,349,515,354,406,376"/>
+<area shape="poly" id="edge12_Node000021_Node000003" title=" " alt="" coords="647,91,672,100,695,112,721,134,743,160,776,208,772,211,739,163,717,138,692,117,670,105,645,96"/>
+<area shape="poly" id="edge14_Node000026_Node000003" title=" " alt="" coords="440,232,727,232,727,237,440,237"/>
+<area shape="poly" id="edge15_Node000026_Node000015" title=" " alt="" coords="406,245,515,267,514,272,405,250"/>
+<area shape="poly" id="edge16_Node000026_Node000016" title=" " alt="" coords="366,245,421,276,489,307,520,317,518,322,487,312,418,280,363,250"/>
+<area shape="poly" id="edge19_Node000028_Node000003" title=" " alt="" coords="386,126,448,122,526,123,611,133,654,143,694,156,736,181,769,210,765,214,733,185,692,161,652,148,610,138,526,129,448,128,386,131"/>
+<area shape="poly" id="edge20_Node000028_Node000021" title=" " alt="" coords="386,122,521,94,522,99,387,127"/>
+<area shape="poly" id="edge21_Node000028_Node000027" title=" " alt="" coords="387,140,515,166,514,171,386,145"/>
+</map>

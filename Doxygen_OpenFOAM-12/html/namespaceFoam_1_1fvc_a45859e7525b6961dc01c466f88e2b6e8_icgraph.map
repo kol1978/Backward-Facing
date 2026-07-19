@@ -1,0 +1,73 @@
+<map id="laplacian" name="laplacian">
+<area shape="rect" id="Node000001" title=" " alt="" coords="324,979,405,1005"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solvers_1_1XiFluid.html#a0f89a5d1bd578f050446bfd5310877b3" title="Solve the Xi and regress variable equations." alt="" coords="57,5,224,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="360,966,353,773,338,484,327,338,312,209,295,111,285,79,274,59,251,41,223,31,225,26,254,37,278,56,289,77,300,110,317,208,332,337,343,484,359,773,365,966"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1XiModels_1_1transport.html#aa60d437c687355ab46575e8745c1bb22" title="Correct the flame&#45;wrinkling Xi using the given convection scheme." alt="" coords="44,69,237,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="360,965,352,784,336,516,324,381,310,262,293,171,284,141,274,123,257,109,236,99,239,94,260,104,278,120,289,139,298,170,316,261,330,380,341,515,358,784,365,965"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Fickian.html#a4e83741441c5f8a981319251eef1005d" title="Return the source term for the energy equation." alt="" coords="67,134,215,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="360,966,352,794,335,541,324,414,309,303,293,218,284,190,274,174,247,155,214,147,216,142,249,151,278,170,288,188,298,217,315,302,329,414,341,541,357,793,365,965"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1laminarThermophysicalTransportModels_1_1Fourier.html#a4e83741441c5f8a981319251eef1005d" title="Return the source term for the energy equation." alt="" coords="31,184,251,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="359,965,350,805,333,574,307,356,291,279,283,253,274,238,250,219,253,215,278,234,287,251,296,277,312,355,338,573,356,805,365,965"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1MaxwellStefan.html#a4e83741441c5f8a981319251eef1005d" title="Return the source term for the energy equation." alt="" coords="59,248,222,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="361,965,361,827,352,627,341,525,325,431,303,354,290,324,274,302,250,284,221,274,223,269,253,279,278,298,294,321,308,352,331,430,346,524,357,627,366,827,367,965"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1turbulenceThermophysicalTransportModels_1_1eddyDiffusivity.html#a4e83741441c5f8a981319251eef1005d" title="Return the source term for the energy equation." alt="" coords="5,312,276,352"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="361,965,359,838,348,658,337,566,322,481,301,412,288,386,274,366,261,354,264,350,278,362,293,383,306,410,327,480,342,565,353,658,364,838,366,965"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1turbulenceThermophysicalTransportModels_1_1nonUnityLewisEddyDiffusivity.html#a4e83741441c5f8a981319251eef1005d" title="Return the source term for the energy equation." alt="" coords="8,377,273,431"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="360,966,355,854,342,698,331,618,316,546,297,486,274,446,260,433,264,429,278,442,302,484,321,544,336,618,347,697,360,854,365,966"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1solidThermophysicalTransportModels_1_1anisotropic.html#af85c065723c8694cf1da49f1529393e6" title="Return the source term for the energy equation." alt="" coords="18,456,263,496"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="360,965,353,865,339,728,327,658,313,596,295,544,274,510,260,498,263,494,278,506,300,542,318,594,333,657,344,727,359,864,365,965"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1solidThermophysicalTransportModels_1_1isotropic.html#af85c065723c8694cf1da49f1529393e6" title="Return the source term for the energy equation." alt="" coords="26,520,255,560"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="359,966,351,877,334,759,309,647,293,603,274,574,254,559,257,554,278,570,298,601,314,645,340,758,356,877,364,965"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam_1_1fvc.html#a3923d0040e81e7f8c8aa615930f684e1" title=" " alt="" coords="100,585,181,610"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="358,966,349,887,332,783,307,685,291,648,274,623,254,609,230,601,181,596,182,591,231,596,256,605,278,619,296,645,312,684,337,782,354,886,363,965"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam_1_1fvc.html#afdc53e39e90a41e3c9354b00f8be1e4a" title=" " alt="" coords="100,634,181,659"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="357,966,346,897,328,808,304,725,290,693,274,673,254,659,230,651,181,646,182,641,231,646,256,654,278,669,294,691,309,723,333,807,351,896,362,966"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam_1_1fvc.html#a55d2742d6330c7116c06f0a338a8a40a" title=" " alt="" coords="100,683,181,709"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="361,966,357,914,344,847,333,813,318,779,299,748,274,722,253,709,230,701,182,696,182,690,231,695,256,704,278,718,303,745,323,777,338,811,349,846,362,913,366,966"/>
+<area shape="rect" id="Node000014" href="$namespaceFoam_1_1fvc.html#aa53e5af3eadb0ff4a7bdb584edee06d7" title=" " alt="" coords="100,733,181,758"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="358,966,351,923,337,869,312,816,295,792,274,771,253,759,229,751,181,745,182,740,230,745,255,754,278,767,299,788,317,813,342,868,357,921,364,965"/>
+<area shape="rect" id="Node000015" href="$namespaceFoam_1_1fvc.html#a165689e5c1b4c76def7597b11e2cbd42" title=" " alt="" coords="100,782,181,807"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="355,967,346,933,329,893,306,853,274,821,253,809,229,801,181,795,182,790,230,796,255,804,278,817,310,850,334,890,351,931,361,965"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam_1_1fvc.html#a25c5672dc9bf0f7575c7234c7dd1f727" title=" " alt="" coords="100,831,181,857"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="350,968,321,917,300,891,275,870,252,859,228,852,181,846,182,841,230,847,254,854,277,866,304,888,326,914,355,965"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam_1_1fvc.html#a6e338e4d28b73f29279d25cf46b58d86" title=" " alt="" coords="100,881,181,906"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="341,971,311,943,275,920,227,904,181,898,182,892,229,899,277,915,315,939,345,967"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam_1_1fvc.html#ab389bbbed7cd0e6601b8cc5fe161fdc1" title=" " alt="" coords="100,930,181,955"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="310,978,275,969,181,951,182,946,277,964,311,973"/>
+<area shape="rect" id="Node000019" href="$namespaceFoam_1_1fvc.html#a153def87d6970e6415f7b7141c9030a1" title=" " alt="" coords="100,979,181,1005"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="310,995,182,995,182,989,310,989"/>
+<area shape="rect" id="Node000020" href="$namespaceFoam_1_1fvc.html#af0c25fec0eb441031338d19260dc7416" title=" " alt="" coords="100,1029,181,1054"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="312,1010,277,1019,182,1037,181,1032,275,1013,310,1005"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam_1_1fvc.html#ac54c5e517eb7f44d5bf0a3c03f8aac46" title=" " alt="" coords="100,1078,181,1103"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="344,1017,314,1044,277,1068,229,1084,182,1091,181,1086,227,1079,275,1063,311,1040,340,1013"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam_1_1fvc.html#aa65b87fb8a7340106069a4475db853da" title=" " alt="" coords="100,1127,181,1153"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="355,1019,325,1069,303,1095,277,1117,254,1128,230,1136,182,1143,181,1138,228,1131,252,1124,275,1112,300,1092,321,1066,350,1016"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam_1_1fvc.html#ae295e9b1d7a51656a9e3874257fd09b3" title=" " alt="" coords="100,1177,181,1202"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="360,1019,350,1053,334,1093,310,1133,278,1166,255,1179,230,1187,182,1193,181,1188,229,1182,253,1174,274,1162,306,1130,329,1091,345,1051,355,1018"/>
+<area shape="rect" id="Node000024" href="$namespaceFoam_1_1fvc.html#adb6a0904e376c6bd731b42eeca86dd78" title=" " alt="" coords="100,1226,181,1251"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="364,1019,356,1062,342,1116,316,1170,299,1194,278,1215,255,1229,230,1238,182,1243,181,1238,229,1232,253,1224,274,1211,295,1191,312,1167,337,1114,351,1061,358,1018"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam_1_1fvc.html#a14809aba75794968540a5a1082a1b170" title=" " alt="" coords="100,1275,181,1301"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="366,1019,362,1071,349,1138,338,1173,322,1206,303,1238,278,1265,256,1279,231,1288,182,1293,182,1288,230,1282,253,1274,274,1261,298,1234,318,1204,333,1171,344,1136,356,1070,361,1018"/>
+<area shape="rect" id="Node000026" href="$namespaceFoam_1_1fvc.html#af092b09e8536b3205a96046ee4e14382" title=" " alt="" coords="100,1325,181,1350"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="362,1019,351,1088,333,1177,309,1260,294,1292,278,1314,256,1329,231,1337,182,1343,181,1338,230,1332,254,1324,274,1310,289,1289,304,1258,328,1175,346,1087,357,1018"/>
+<area shape="rect" id="Node000027" href="$namespaceFoam_1_1fvc.html#a011196d96ecab40f77416025c836d1d2" title=" " alt="" coords="100,1374,181,1399"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="363,1019,354,1098,337,1201,312,1299,296,1337,278,1363,256,1378,231,1387,182,1393,181,1387,230,1382,254,1373,274,1359,291,1335,307,1297,332,1200,349,1097,358,1018"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam_1_1fvc.html#ab2b1c7ca49aa313ff70f2f78e905d0f2" title=" " alt="" coords="100,1423,181,1449"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="364,1019,356,1107,340,1225,329,1285,315,1339,298,1383,278,1413,256,1428,232,1437,182,1442,182,1437,230,1432,254,1423,274,1409,293,1380,310,1337,324,1284,335,1225,351,1107,359,1018"/>
+<area shape="rect" id="Node000029" href="$namespaceFoam_1_1fvc.html#a4dc0d9bf21be15ba9d818e1818ec7ddd" title=" " alt="" coords="100,1473,181,1498"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="365,1018,358,1116,344,1249,332,1316,318,1378,300,1428,278,1462,256,1477,231,1486,182,1492,181,1486,230,1481,254,1473,274,1458,295,1425,313,1376,327,1315,338,1248,353,1116,360,1018"/>
+<area shape="rect" id="Node000030" href="$namespaceFoam_1_1fvc.html#a0fb4c93813e3d3c598420438998956ce" title=" " alt="" coords="100,1522,181,1547"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="365,1019,360,1126,347,1274,336,1349,321,1417,302,1473,278,1511,257,1527,232,1536,182,1541,181,1536,230,1531,254,1522,274,1508,297,1471,316,1416,331,1348,342,1273,355,1126,360,1019"/>
+<area shape="rect" id="Node000031" href="$namespaceFoam_1_1fvc.html#ac06ecd62341acfda2d34829a53136e23" title=" " alt="" coords="100,1571,181,1597"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="366,1018,362,1134,350,1297,339,1380,324,1456,304,1518,292,1542,278,1561,257,1576,232,1585,182,1590,181,1585,231,1580,254,1571,274,1557,287,1539,299,1516,319,1455,334,1379,345,1296,357,1134,360,1018"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1laplaceFilter.html#a57f485be4b718f128b5c974aea60a703" title=" " alt="" coords="67,1621,214,1661"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="366,1018,363,1143,352,1320,341,1411,326,1494,305,1563,292,1589,278,1610,249,1631,215,1641,213,1636,247,1626,274,1606,288,1587,300,1561,321,1493,336,1410,347,1319,358,1143,361,1018"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1laplaceFilter.html#a73fe195c24e2c9c44594a426926a4f26" title=" " alt="" coords="67,1685,214,1725"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="366,1018,366,1155,356,1352,346,1453,330,1546,308,1622,294,1652,278,1675,249,1696,215,1706,213,1701,247,1691,274,1671,289,1650,303,1621,325,1545,341,1452,351,1351,360,1155,361,1018"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1laplaceFilter.html#a09837db659ad2ae061756f47b021383a" title=" " alt="" coords="67,1749,214,1789"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="365,1019,355,1177,337,1405,312,1620,296,1697,287,1723,278,1739,249,1760,215,1770,214,1765,247,1755,274,1736,282,1721,291,1695,306,1619,332,1405,350,1177,359,1019"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1laplaceFilter.html#a1aa2d7b3783d8556966ea1481eb4b54d" title=" " alt="" coords="67,1813,214,1853"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="365,1019,357,1189,340,1437,328,1562,314,1673,297,1757,288,1785,278,1803,249,1824,215,1835,213,1829,247,1819,274,1800,283,1783,292,1755,308,1672,322,1562,334,1437,351,1188,360,1018"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1RASModels_1_1kOmegaSSTSAS.html#aa60c947284ed701b5f5708d25d1808b5" title="SAS omega source." alt="" coords="15,1877,267,1917"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="365,1019,358,1201,342,1470,330,1606,316,1726,299,1817,289,1848,278,1867,265,1879,261,1875,274,1864,284,1846,293,1815,310,1725,325,1605,336,1470,352,1201,360,1019"/>
+</map>

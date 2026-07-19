@@ -1,0 +1,33 @@
+var classFoam_1_1plane =
+[
+    [ "ray", "classFoam_1_1plane_1_1ray.html", "classFoam_1_1plane_1_1ray" ],
+    [ "side", "classFoam_1_1plane.html#afc015eff6557e84151d2e53b94375445", [
+      [ "NORMAL", "classFoam_1_1plane.html#afc015eff6557e84151d2e53b94375445a50d1448013c6f17125caee18aa418af7", null ],
+      [ "FLIP", "classFoam_1_1plane.html#afc015eff6557e84151d2e53b94375445a97744c5570e743b377f5fb63b9aa3587", null ]
+    ] ],
+    [ "plane", "classFoam_1_1plane.html#a42438e62ad9f8e37cc87eff3131cea81", null ],
+    [ "plane", "classFoam_1_1plane.html#a48fa4ff56c83611591693124f7205984", null ],
+    [ "plane", "classFoam_1_1plane.html#ad208834869e8a8ac59df75c8b5e3a813", null ],
+    [ "plane", "classFoam_1_1plane.html#a3e617a1ccdaa6b5a0357653cc9915564", null ],
+    [ "plane", "classFoam_1_1plane.html#a9ced72039d33f99ac2da158ddcfc8717", null ],
+    [ "plane", "classFoam_1_1plane.html#a97fa1a335eca0191e17a508618d969f2", null ],
+    [ "valid", "classFoam_1_1plane.html#a315419f26d3c59fa143b49b90a019049", null ],
+    [ "normal", "classFoam_1_1plane.html#ac96975297b5f09d54a37b6c93b9e3b77", null ],
+    [ "refPoint", "classFoam_1_1plane.html#aa745566abdc04c5db0e1e4ee06dfbb82", null ],
+    [ "planeCoeffs", "classFoam_1_1plane.html#a0be97f85c31739353583fde96945cd5c", null ],
+    [ "aPoint", "classFoam_1_1plane.html#a77d4ac3203e4741110b0e8a7a3c53c03", null ],
+    [ "nearestPoint", "classFoam_1_1plane.html#ac5172e8300fdfc33a0ea3971445e4d7f", null ],
+    [ "distance", "classFoam_1_1plane.html#a61fbf8f04b4768f4952b364ee7a9bc57", null ],
+    [ "signedDistance", "classFoam_1_1plane.html#aeec35f4d1edc6f25643fbcf7f993c589", null ],
+    [ "normalIntersect", "classFoam_1_1plane.html#a22a90e31bd05a5b4379d001a3975fc48", null ],
+    [ "normalIntersect", "classFoam_1_1plane.html#a0d0c1e101d0524e0e95319e90716de7e", null ],
+    [ "lineIntersect", "classFoam_1_1plane.html#ab6ba9bea12d6e3ddbf4d5c6cf9b6570b", null ],
+    [ "planeIntersect", "classFoam_1_1plane.html#ac7fe66682d1b70507e370d886af36dab", null ],
+    [ "planePlaneIntersect", "classFoam_1_1plane.html#acf90d23d7099eab3f7e4e6f76f25738c", null ],
+    [ "sideOfPlane", "classFoam_1_1plane.html#a245da55e3aee5a36841957233fc13638", null ],
+    [ "mirror", "classFoam_1_1plane.html#a0558d93fd557787f2e03f632b78f63eb", null ],
+    [ "writeDict", "classFoam_1_1plane.html#a99e013320e2bb0118f0c2857a9193f62", null ],
+    [ "operator==", "classFoam_1_1plane.html#acd40178da43c802ce27b2da3a78b1cf7", null ],
+    [ "operator!=", "classFoam_1_1plane.html#a1c2237f6c594595abd5341acea49b0b4", null ],
+    [ "operator<<", "classFoam_1_1plane.html#a80ba0bb32cd4b6d4eaea27639b69f144", null ]
+];

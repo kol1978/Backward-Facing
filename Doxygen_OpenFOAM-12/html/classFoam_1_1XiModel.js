@@ -1,0 +1,25 @@
+var classFoam_1_1XiModel =
+[
+    [ "XiModel", "classFoam_1_1XiModel.html#a472e8d4c8ddbe8cf581dcd4ebc056d1a", null ],
+    [ "XiModel", "classFoam_1_1XiModel.html#aa01b090f0a33bb0e558180e3e8937f58", null ],
+    [ "~XiModel", "classFoam_1_1XiModel.html#a2669fd38bab353a5883abd3a40a219ef", null ],
+    [ "TypeName", "classFoam_1_1XiModel.html#abb5fb287c765156d08d3bae3d98bc409", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1XiModel.html#a663328c6fc22776362bb17f1409ca38b", null ],
+    [ "New", "classFoam_1_1XiModel.html#a3b72762b4ebfe0f8cfd0f54e997a2f6f", null ],
+    [ "Xi", "classFoam_1_1XiModel.html#a2d0595d8d82b25fa997a9fbe1fad4cb6", null ],
+    [ "Db", "classFoam_1_1XiModel.html#a6616615b1080381c292379183487c14f", null ],
+    [ "addXi", "classFoam_1_1XiModel.html#ac9b91d59e80cad0f5a163a00b7a01a8f", null ],
+    [ "correct", "classFoam_1_1XiModel.html#a7e204aa62fa1c1f527e8f1c62dc62061", null ],
+    [ "correct", "classFoam_1_1XiModel.html#a5571e54edb593e279720e58fe719f1ce", null ],
+    [ "read", "classFoam_1_1XiModel.html#a6fa63df92a7913b183a91c42e22c5944", null ],
+    [ "writeFields", "classFoam_1_1XiModel.html#a9ca3426bf42902e8384ca5076bcf81a7", null ],
+    [ "operator=", "classFoam_1_1XiModel.html#a41a26fa5d4dc304da58d5ef7963c0fe4", null ],
+    [ "XiModelCoeffs_", "classFoam_1_1XiModel.html#a1b04065f7f23fce1cef82ce3a4ff5b41", null ],
+    [ "thermo_", "classFoam_1_1XiModel.html#a9102c8db24f9e7a2f649ceb5b85ad309", null ],
+    [ "turbulence_", "classFoam_1_1XiModel.html#ae50631d926850b03dda249d65b4e0eb6", null ],
+    [ "Su_", "classFoam_1_1XiModel.html#ab116267f5f364bfff6c3d6ce2176ce1f", null ],
+    [ "rho_", "classFoam_1_1XiModel.html#ab78356ab728aa016ae26aa9ac0137ec4", null ],
+    [ "b_", "classFoam_1_1XiModel.html#a34f1c6df22c0db632ea42add56f8a551", null ],
+    [ "phi_", "classFoam_1_1XiModel.html#a5828da03a859a3aaa358802cd2daf505", null ],
+    [ "Xi_", "classFoam_1_1XiModel.html#aa3f4b31503d062c775f096af8d752842", null ]
+];
