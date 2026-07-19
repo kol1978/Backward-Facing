@@ -1,0 +1,83 @@
+<map id="fileHandler" name="fileHandler">
+<area shape="rect" id="Node000001" title="Get current file handler." alt="" coords="543,1141,636,1166"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1regIOobject.html#ad7c6a5ac80b6aceabec55dba1789195c" title="Add file watch on object (if registered and READ_IF_MODIFIED)" alt="" coords="311,5,460,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,1127,579,905,563,565,551,392,536,239,516,122,505,83,493,59,478,46,459,37,461,32,480,41,497,56,510,81,521,121,541,238,557,391,569,565,584,905,590,1127"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1regIOobject.html#aca37b66bfd7214d80ab764b883b5bfc6" title="Remove object from registry." alt="" coords="311,69,460,109"/>
+<area shape="poly" id="edge2_Node000001_Node000024" title=" " alt="" coords="585,1127,578,916,561,597,549,434,534,291,515,182,504,145,493,123,477,110,459,101,461,96,480,105,497,120,509,143,520,181,539,290,554,434,567,596,583,916,590,1127"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1argList.html#a999adce53cda9d8c31e36e588057662f" title="Check root path and case path." alt="" coords="276,134,495,159"/>
+<area shape="poly" id="edge3_Node000001_Node000026" title=" " alt="" coords="585,1127,577,926,561,622,549,468,533,332,514,229,504,194,493,174,478,161,481,157,497,170,509,192,520,228,538,331,554,467,566,621,583,925,590,1127"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1functionObjects_1_1massFractions.html#ae006844a02161d12182ab372ca5c257b" title="Calculate the mass&#45;fraction fields." alt="" coords="294,184,477,224"/>
+<area shape="poly" id="edge4_Node000001_Node000027" title=" " alt="" coords="584,1127,576,938,558,655,546,512,530,385,513,289,503,257,493,238,475,223,479,219,497,234,508,255,518,288,536,385,551,511,563,654,581,937,590,1127"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1functionEntries_1_1includeEntry.html#a05e7c2e0049c47ef8c3bab8696b6ac1a" title="Execute the functionEntry in a primitiveEntry context." alt="" coords="301,248,470,288"/>
+<area shape="poly" id="edge5_Node000001_Node000028" title=" " alt="" coords="584,1127,575,949,556,687,543,554,528,438,511,349,502,320,493,302,469,284,472,279,497,298,507,317,517,348,534,437,549,554,561,686,580,949,589,1127"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1functionEntries_1_1includeEtcEntry.html#a05e7c2e0049c47ef8c3bab8696b6ac1a" title="Execute the functionEntry in a primitiveEntry context." alt="" coords="291,312,480,352"/>
+<area shape="poly" id="edge6_Node000001_Node000029" title=" " alt="" coords="584,1127,574,961,554,719,541,597,527,490,510,409,501,382,493,366,479,353,482,349,497,362,506,380,515,408,532,490,547,597,559,718,579,961,589,1127"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1functionEntries_1_1includeIfPresentEntry.html#a05e7c2e0049c47ef8c3bab8696b6ac1a" title="Execute the functionEntry in a primitiveEntry context." alt="" coords="301,377,470,431"/>
+<area shape="poly" id="edge7_Node000001_Node000030" title=" " alt="" coords="585,1127,583,987,571,783,560,678,543,581,521,501,508,470,493,446,469,426,472,422,497,442,512,467,526,499,548,580,565,677,576,783,588,987,591,1127"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1functionEntries_1_1includeEntry.html#a0aa3070c44783d911c1f7924042f1cea" title="Execute the functionEntry in a sub&#45;dict context." alt="" coords="301,456,470,496"/>
+<area shape="poly" id="edge8_Node000001_Node000031" title=" " alt="" coords="585,1127,582,997,569,812,557,717,541,630,520,558,507,531,493,510,469,492,472,488,497,506,512,528,525,556,546,629,563,716,574,812,587,997,591,1127"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1functionEntries_1_1includeEtcEntry.html#a0aa3070c44783d911c1f7924042f1cea" title="Execute the functionEntry in a sub&#45;dict context." alt="" coords="291,520,480,560"/>
+<area shape="poly" id="edge9_Node000001_Node000032" title=" " alt="" coords="585,1127,579,1009,565,843,553,758,537,681,517,617,506,592,493,574,478,562,482,557,497,570,510,590,522,615,543,679,558,757,570,842,585,1008,590,1127"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1functionEntries_1_1includeIfPresentEntry.html#a0aa3070c44783d911c1f7924042f1cea" title="Execute the functionEntry in a sub&#45;dict context." alt="" coords="301,585,470,639"/>
+<area shape="poly" id="edge10_Node000001_Node000033" title=" " alt="" coords="584,1127,576,1024,559,882,547,810,532,744,514,689,493,652,469,634,472,629,497,649,519,687,537,742,552,809,564,881,581,1023,589,1127"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1IOobject.html#a9ab63687c6fdc2a9b165584d717f5804" title="Return complete path + object name if the file exists." alt="" coords="297,663,473,689"/>
+<area shape="poly" id="edge11_Node000001_Node000034" title=" " alt="" coords="583,1127,574,1034,557,909,544,846,530,788,512,742,493,710,465,691,468,687,497,706,517,739,535,787,550,845,562,908,579,1034,589,1127"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1IOobject.html#a0682f5e9a6f1beae9d7e192fc93a2afc" title="Read header using typeGlobalFile to find file." alt="" coords="5,689,228,714"/>
+<area shape="poly" id="edge38_Node000001_Node000038" title=" " alt="" coords="583,1127,573,1041,556,929,544,872,529,822,512,781,493,754,475,742,450,733,383,718,305,710,228,705,228,700,306,704,384,713,451,728,477,738,497,750,517,778,534,820,549,871,561,928,579,1041,588,1126"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1Time.html#a530f80a2f33f5a76760c1ddf62624692" title="Return the location of &quot;dir&quot; containing the file &quot;name&quot;." alt="" coords="292,765,479,790"/>
+<area shape="poly" id="edge13_Node000001_Node000039" title=" " alt="" coords="582,1127,570,1052,551,954,525,862,509,827,493,803,477,792,480,788,497,799,514,824,530,860,556,953,576,1051,587,1126"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1Time.html#a85b7b5968ecb650bea3df2988223a763" title="Search a given directory for valid time directories." alt="" coords="300,814,471,839"/>
+<area shape="poly" id="edge14_Node000001_Node000040" title=" " alt="" coords="585,1127,582,1069,569,995,557,956,541,918,520,883,493,853,469,838,472,834,496,849,524,880,546,916,562,954,574,994,587,1069,591,1126"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1polyMesh.html#a42e5cea64c9ec52328a8d01f95de84cf" title="Return whether the given IOobject relates to a mesh on disk." alt="" coords="298,863,473,889"/>
+<area shape="poly" id="edge15_Node000001_Node000041" title=" " alt="" coords="584,1127,577,1079,561,1018,535,956,516,928,493,903,472,890,475,886,496,899,520,924,539,953,566,1016,582,1078,589,1126"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1regIOobject.html#a9d4879c850ce41d945ff77e788de3a23" title="Read and check header info." alt="" coords="311,913,460,953"/>
+<area shape="poly" id="edge16_Node000001_Node000042" title=" " alt="" coords="579,1128,567,1093,549,1052,525,1010,493,974,459,954,462,949,496,970,529,1007,554,1050,572,1091,584,1126"/>
+<area shape="rect" id="Node000058" href="$classFoam_1_1regIOobject.html#ad4137bd88bd967b3541af1f9e2ea019b" title="Read header, check readOpt flags and read data if necessary." alt="" coords="42,941,191,981"/>
+<area shape="poly" id="edge29_Node000001_Node000058" title=" " alt="" coords="576,1129,545,1071,522,1042,493,1018,470,1008,439,998,360,984,191,968,192,962,361,979,441,993,472,1003,496,1014,526,1038,550,1068,581,1127"/>
+<area shape="rect" id="Node000069" href="$classFoam_1_1dictionary_1_1includedDictionary.html#a0034093a6a95564757f801d1af055ef9" title="Construct an included dictionary for the given parent." alt="" coords="276,1028,495,1068"/>
+<area shape="poly" id="edge18_Node000001_Node000069" title=" " alt="" coords="564,1133,532,1107,493,1082,466,1071,468,1066,496,1078,535,1103,567,1129"/>
+<area shape="rect" id="Node000070" href="$classFoam_1_1IOobjectList.html#a9e5e36f54eecc37a77220eed1239524b" title="Construct from objectRegistry and instance path." alt="" coords="314,1092,457,1132"/>
+<area shape="poly" id="edge19_Node000001_Node000070" title=" " alt="" coords="528,1144,456,1129,457,1124,529,1139"/>
+<area shape="rect" id="Node000071" href="$namespaceFoam.html#a170753d29570a1db73674b1fe1540451" title=" " alt="" coords="329,1181,442,1206"/>
+<area shape="poly" id="edge20_Node000001_Node000071" title=" " alt="" coords="529,1168,443,1185,442,1180,528,1162"/>
+<area shape="rect" id="Node000078" href="$classFoam_1_1regIOobject.html#a5146474f106b82e0ea2cc2e11653aca9" title="Return true if the object&#39;s file (or files for objectRegistry)" alt="" coords="311,1231,460,1271"/>
+<area shape="poly" id="edge22_Node000001_Node000078" title=" " alt="" coords="564,1177,532,1200,496,1221,461,1235,460,1230,493,1216,530,1195,561,1173"/>
+<area shape="rect" id="Node000079" href="$classFoam_1_1argList.html#a00aad68f835a5c0bcb8920505bb0bd10" title="Parse." alt="" coords="308,1295,463,1321"/>
+<area shape="poly" id="edge23_Node000001_Node000079" title=" " alt="" coords="579,1180,547,1233,524,1261,496,1285,464,1300,462,1295,493,1280,520,1258,543,1230,574,1177"/>
+<area shape="rect" id="Node000082" href="$classFoam_1_1fvMesh.html#a2f1972a7f98a510e0c1033803ee870cd" title="Complete construction of the mesh." alt="" coords="279,1345,491,1370"/>
+<area shape="poly" id="edge24_Node000001_Node000082" title=" " alt="" coords="585,1180,574,1216,556,1258,530,1300,496,1335,477,1347,474,1342,493,1331,526,1297,551,1255,569,1214,579,1179"/>
+<area shape="rect" id="Node000084" href="$classFoam_1_1decomposedBlockData.html#af816873151ddb0126e98bb2f914d8ed5" title="Read object." alt="" coords="277,1395,493,1435"/>
+<area shape="poly" id="edge25_Node000001_Node000084" title=" " alt="" coords="587,1180,579,1225,562,1280,536,1336,518,1362,496,1385,479,1397,476,1392,493,1381,514,1358,531,1333,557,1278,573,1223,582,1179"/>
+<area shape="rect" id="Node000085" href="$classFoam_1_1regIOobject.html#af816873151ddb0126e98bb2f914d8ed5" title="Read object." alt="" coords="296,1459,475,1485"/>
+<area shape="poly" id="edge26_Node000001_Node000085" title=" " alt="" coords="590,1180,586,1236,572,1308,560,1346,544,1384,523,1418,496,1449,476,1462,474,1458,493,1445,519,1415,540,1381,555,1345,567,1307,581,1235,585,1179"/>
+<area shape="rect" id="Node000140" href="$classFoam_1_1TableFileReader.html#a62681b1d35103194dc401076c0be3d98" title="Read a 1D table." alt="" coords="301,1509,470,1549"/>
+<area shape="poly" id="edge27_Node000001_Node000140" title=" " alt="" coords="592,1180,590,1244,578,1329,566,1375,549,1420,526,1462,496,1499,472,1517,469,1512,493,1495,522,1459,544,1418,561,1373,572,1328,584,1243,586,1180"/>
+<area shape="rect" id="Node000073" href="$namespaceFoam.html#a6fc67efb9b4cf657757be4967e4b6922" title="Read the specified configuration file." alt="" coords="328,1574,443,1599"/>
+<area shape="poly" id="edge28_Node000001_Node000073" title=" " alt="" coords="588,1180,578,1266,560,1381,533,1491,516,1534,497,1563,472,1580,444,1588,442,1583,470,1575,493,1559,512,1531,528,1489,555,1380,573,1265,583,1179"/>
+<area shape="rect" id="Node000141" href="$classFoam_1_1regIOobject.html#ab3005060b61f06fc4dcee23a2597d20c" title="Read object if modified (as set by call to modified)" alt="" coords="311,1624,460,1664"/>
+<area shape="poly" id="edge30_Node000001_Node000141" title=" " alt="" coords="589,1180,580,1276,563,1405,550,1471,535,1530,518,1580,497,1614,480,1627,461,1636,459,1631,477,1623,493,1610,513,1577,530,1529,545,1470,557,1404,575,1275,583,1180"/>
+<area shape="rect" id="Node000142" href="$classFoam_1_1Time.html#ad42b9316f3704237d26cd99245d49d61" title="Read the objects that have been modified." alt="" coords="289,1688,481,1728"/>
+<area shape="poly" id="edge31_Node000001_Node000142" title=" " alt="" coords="589,1180,582,1288,567,1437,555,1512,539,1581,520,1638,497,1678,483,1690,479,1686,493,1674,515,1636,534,1580,549,1511,561,1436,577,1288,584,1180"/>
+<area shape="rect" id="Node000147" href="$namespaceFoam.html#af960e9b0859dc8a5454cb180698f87f5" title="Recursively search the given directory for the file." alt="" coords="353,1777,418,1802"/>
+<area shape="poly" id="edge32_Node000001_Node000147" title=" " alt="" coords="590,1180,583,1298,568,1465,556,1551,540,1629,521,1695,497,1742,480,1758,460,1771,419,1786,417,1781,458,1766,477,1754,493,1738,516,1693,535,1628,550,1550,562,1464,578,1298,584,1180"/>
+<area shape="rect" id="Node000149" href="$classFoam_1_1Time.html#a8e7c44db2e98bebfcc1a22d512cd7b34" title="Set the controls from the current controlDict." alt="" coords="295,1826,476,1851"/>
+<area shape="poly" id="edge34_Node000001_Node000149" title=" " alt="" coords="591,1180,588,1313,577,1504,565,1602,549,1692,526,1766,512,1795,497,1817,478,1830,475,1826,493,1813,508,1792,521,1764,544,1691,560,1601,571,1504,583,1313,585,1180"/>
+<area shape="rect" id="Node000150" href="$classFoam_1_1Time.html#a99ebfa0c28843766918605a80a422f2d" title="Reset the time and time&#45;index." alt="" coords="305,1875,465,1901"/>
+<area shape="poly" id="edge35_Node000001_Node000150" title=" " alt="" coords="591,1180,590,1322,580,1527,569,1634,552,1731,528,1811,514,1842,497,1866,483,1877,467,1885,464,1880,480,1873,493,1862,509,1839,523,1809,547,1730,563,1633,575,1527,585,1321,586,1180"/>
+<area shape="rect" id="Node000151" href="$classFoam_1_1Time.html#a326e2b8f2ac66335be4ee99ba2dfa569" title="Reset the time and time&#45;index." alt="" coords="305,1925,465,1950"/>
+<area shape="poly" id="edge36_Node000001_Node000151" title=" " alt="" coords="589,1180,579,1340,560,1573,547,1690,532,1794,515,1872,506,1898,497,1915,483,1927,467,1934,464,1929,480,1922,493,1912,502,1896,510,1870,527,1793,541,1690,554,1573,574,1340,584,1179"/>
+<area shape="rect" id="Node000152" href="$classFoam_1_1Time.html#a12f402d4802d1621daed4fbfea134b33" title="Reset the time and time&#45;index to those of the given time." alt="" coords="305,1974,465,1999"/>
+<area shape="poly" id="edge37_Node000001_Node000152" title=" " alt="" coords="589,1180,580,1350,561,1599,548,1724,533,1834,516,1918,507,1947,497,1964,483,1976,467,1984,464,1979,480,1971,493,1961,502,1944,511,1917,528,1833,543,1723,556,1598,575,1350,584,1180"/>
+<area shape="rect" id="Node000156" href="$classFoam_1_1polyMesh.html#a901de99257ee08255277a97315b97b65" title="Write the underlying polyMesh." alt="" coords="279,2023,491,2049"/>
+<area shape="poly" id="edge39_Node000001_Node000156" title=" " alt="" coords="590,1180,581,1359,563,1624,550,1757,535,1875,517,1964,507,1995,497,2014,483,2025,479,2021,493,2010,503,1993,512,1963,530,1874,545,1757,557,1623,575,1359,584,1180"/>
+<area shape="rect" id="Node000159" href="$classFoam_1_1regIOobject.html#a60980687d1138465d9b798d8f975a25a" title="Write using given format, version and compression." alt="" coords="311,2073,460,2113"/>
+<area shape="poly" id="edge40_Node000001_Node000159" title=" " alt="" coords="590,1180,581,1368,563,1648,551,1790,535,1915,518,2010,508,2043,497,2063,481,2077,462,2086,459,2082,478,2073,493,2060,503,2040,512,2009,530,1914,545,1789,558,1648,576,1368,584,1180"/>
+<area shape="rect" id="Node000166" href="$classFoam_1_1Time.html#a60980687d1138465d9b798d8f975a25a" title="Write using given format, version and compression." alt="" coords="294,2138,477,2163"/>
+<area shape="poly" id="edge41_Node000001_Node000166" title=" " alt="" coords="590,1180,583,1380,566,1681,554,1833,538,1968,519,2070,509,2105,497,2127,478,2141,475,2137,493,2124,504,2103,514,2069,533,1967,548,1833,561,1681,577,1380,585,1180"/>
+<area shape="rect" id="Node000167" href="$classFoam_1_1argList.html#a656f52278062a8ce2b208ecc35840d82" title="Destructor." alt="" coords="299,2187,472,2213"/>
+<area shape="poly" id="edge42_Node000001_Node000167" title=" " alt="" coords="590,1180,584,1389,568,1706,556,1867,540,2010,521,2118,509,2155,497,2178,474,2194,471,2190,493,2174,504,2153,515,2117,535,2009,550,1867,562,1706,578,1389,585,1180"/>
+<area shape="poly" id="edge12_Node000034_Node000038" title=" " alt="" coords="284,688,229,693,228,688,283,683"/>
+<area shape="poly" id="edge17_Node000042_Node000058" title=" " alt="" coords="298,945,192,956,191,951,297,940"/>
+<area shape="poly" id="edge21_Node000071_Node000071" title=" " alt="" coords="421,1171,411,1163,385,1159,364,1161,352,1166,350,1172,356,1179,352,1182,345,1172,349,1162,362,1156,385,1154,414,1158,425,1167"/>
+<area shape="poly" id="edge33_Node000147_Node000147" title=" " alt="" coords="421,1767,411,1759,385,1755,364,1757,352,1762,350,1768,356,1775,352,1778,345,1768,349,1758,362,1752,385,1750,414,1754,425,1763"/>
+</map>

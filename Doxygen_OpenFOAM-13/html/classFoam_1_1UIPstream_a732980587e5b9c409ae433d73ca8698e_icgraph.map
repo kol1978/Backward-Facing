@@ -1,0 +1,32 @@
+<map id="read" name="read">
+<area shape="rect" id="Node000001" title="Read into given buffer from given processor and return the." alt="" coords="513,357,564,383"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#aedeba5b3a63f833796d48d904dc39b63" title=" " alt="" coords="236,5,464,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="533,344,525,273,511,183,491,98,478,66,463,44,449,33,452,29,467,40,483,63,496,96,517,182,530,272,538,343"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Pstream.html#a2eea2c110e936c30c8f66b7326c69be5" title="Scatter data. Reverse of combineGather." alt="" coords="235,55,465,80"/>
+<area shape="poly" id="edge2_Node000001_Node000007" title=" " alt="" coords="531,344,508,208,488,139,476,112,463,95,446,82,449,78,467,91,481,110,493,137,513,207,537,343"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1distributionMapBase.html#a09eac80de3f295691efbb97d25d5b2d4" title="Distribute data. If multiple processors writing to same." alt="" coords="250,105,450,145"/>
+<area shape="poly" id="edge3_Node000001_Node000008" title=" " alt="" coords="533,344,528,303,517,253,496,202,481,179,464,159,448,147,451,143,467,155,486,176,501,200,522,251,534,302,539,343"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Pstream.html#a911576e19200733d8b23218e8d83e961" title="Helper: exchange contiguous data. Sends sendData, receives into." alt="" coords="255,169,445,195"/>
+<area shape="poly" id="edge4_Node000001_Node000009" title=" " alt="" coords="531,344,523,312,510,275,491,239,464,208,444,196,447,192,467,204,495,236,515,273,528,311,536,343"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1Pstream.html#ac820bc187d8204d9063ce1f77dcf87da" title="Gather data. Apply bop to combine Value." alt="" coords="265,219,435,244"/>
+<area shape="poly" id="edge5_Node000001_Node000010" title=" " alt="" coords="526,346,502,300,485,277,464,258,434,243,437,239,467,253,489,273,507,297,531,343"/>
+<area shape="rect" id="Node000409" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="253,268,447,293"/>
+<area shape="poly" id="edge6_Node000001_Node000409" title=" " alt="" coords="516,349,492,327,464,308,432,296,434,291,467,304,495,323,519,345"/>
+<area shape="rect" id="Node000445" href="$classFoam_1_1processorFvPatchField.html#a65e53e9af7fa5ef0659db31b6d0763b0" title="Initialise the evaluation of the patch field." alt="" coords="245,318,455,358"/>
+<area shape="poly" id="edge7_Node000001_Node000445" title=" " alt="" coords="499,366,455,359,456,353,500,361"/>
+<area shape="rect" id="Node000446" href="$classFoam_1_1processorFvPatchField.html#a7aec86b816fdefa0aa3d76d4a24f8bdf" title="Inherit initInterfaceMatrixUpdate from lduInterfaceField." alt="" coords="245,382,455,422"/>
+<area shape="poly" id="edge8_Node000001_Node000446" title=" " alt="" coords="500,379,456,387,455,381,499,374"/>
+<area shape="rect" id="Node000447" href="$classFoam_1_1processorFvPatchField.html#a4aa231b00ad3efb2f5543ec242689eb2" title="Initialise neighbour matrix update." alt="" coords="245,446,455,486"/>
+<area shape="poly" id="edge9_Node000001_Node000447" title=" " alt="" coords="519,394,495,416,467,436,440,448,438,443,464,432,492,412,515,391"/>
+<area shape="rect" id="Node000448" href="$classFoam_1_1Pstream.html#a8c0e5044dc4a942cf62b06797c3a743f" title=" " alt="" coords="247,510,453,550"/>
+<area shape="poly" id="edge10_Node000001_Node000448" title=" " alt="" coords="532,397,509,449,490,477,467,500,448,512,445,508,464,496,486,473,504,447,527,395"/>
+<area shape="rect" id="Node000466" href="$classFoam_1_1Pstream.html#adfd4915b68ab7181dccb847976286e56" title="Scatter data. Reverse of combineGather." alt="" coords="247,574,453,614"/>
+<area shape="poly" id="edge11_Node000001_Node000466" title=" " alt="" coords="538,397,531,434,519,479,498,525,467,564,450,576,447,572,463,560,494,522,514,477,526,433,532,396"/>
+<area shape="rect" id="Node000467" href="$classFoam_1_1Pstream.html#a00bc7d5a0b660cfa53523561af48def2" title="Scatter data. Distribute without modification. Reverse of gather." alt="" coords="263,639,437,664"/>
+<area shape="poly" id="edge12_Node000001_Node000467" title=" " alt="" coords="541,396,539,446,529,508,520,541,507,573,489,602,467,628,438,645,435,641,464,624,485,599,502,570,515,539,524,507,533,445,535,396"/>
+<area shape="rect" id="Node000515" href="$classFoam_1_1OFstreamCollator.html#a9c3687927a3181fde0f2ee1516cfb518" title="Write file with contents. Blocks until writethread has space." alt="" coords="5,657,187,697"/>
+<area shape="poly" id="edge15_Node000001_Node000515" title=" " alt="" coords="538,397,531,464,517,549,496,627,483,657,467,677,431,700,392,714,350,722,308,724,225,716,156,699,157,694,226,710,308,718,350,716,390,709,429,695,464,673,478,655,491,626,512,548,525,463,533,396"/>
+<area shape="rect" id="Node000518" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="252,740,448,765"/>
+<area shape="poly" id="edge14_Node000001_Node000518" title=" " alt="" coords="538,396,531,471,517,568,497,661,483,697,467,723,439,742,436,738,463,719,478,695,492,659,512,568,526,471,533,396"/>
+<area shape="poly" id="edge13_Node000467_Node000515" title=" " alt="" coords="250,664,187,670,187,665,249,659"/>
+</map>

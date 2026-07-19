@@ -1,0 +1,87 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1cyclicLduInterface.html" title="An abstract base class for cyclic coupled interfaces." alt="" coords="299,55,439,80"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1cyclicFvPatch.html" title="Cyclic&#45;plane patch." alt="" coords="595,104,706,129"/>
+<area shape="poly" id="edge3207_Node000000_Node000001" title=" " alt="" coords="452,79,595,104,594,110,452,84"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1cyclicGAMGInterface.html" title="GAMG agglomerated cyclic interface." alt="" coords="571,5,730,31"/>
+<area shape="poly" id="edge3210_Node000000_Node000034" title=" " alt="" coords="451,50,577,28,578,33,452,55"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cyclicSlipFvPatch.html" title="Cyclic&#45;plane patch." alt="" coords="852,104,987,129"/>
+<area shape="poly" id="edge3208_Node000001_Node000002" title=" " alt="" coords="720,114,852,114,852,119,720,119"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1nonConformalCyclicFvPatch.html" title="Non&#45;conformal cyclic FV patch. As nonConformalCoupledFvPatch, but the neighbouring patch is local and..." alt="" coords="817,153,1021,179"/>
+<area shape="poly" id="edge3209_Node000001_Node000003" title=" " alt="" coords="721,127,850,151,849,156,720,132"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1fvPatch.html" title="A finiteVolume patch using a polyPatch and a fvBoundaryMesh." alt="" coords="65,477,136,503"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1coupledFvPatch.html" title="An abstract base class for patches that couple regions of the computational domain e...." alt="" coords="307,153,431,179"/>
+<area shape="poly" id="edge3211_Node000009_Node000008" title=" " alt="" coords="104,463,119,407,145,335,163,297,185,260,212,226,242,196,272,178,305,169,307,174,275,183,246,200,216,229,190,263,168,299,150,337,124,409,110,464"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1emptyFvPatch.html" title="A patch which will not exist in the fvMesh. Typical example is a front and back plane of a 2&#45;D geomet..." alt="" coords="311,452,426,477"/>
+<area shape="poly" id="edge3216_Node000009_Node000010" title=" " alt="" coords="149,483,311,467,311,473,150,488"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1filmFvPatch.html" title="Foam::filmFvPatch." alt="" coords="319,501,418,527"/>
+<area shape="poly" id="edge3217_Node000009_Node000011" title=" " alt="" coords="150,492,319,507,319,512,149,497"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1genericFvPatch.html" title="Substitute for unknown patches. Used for post&#45;processing when only basic fvPatch info is needed." alt="" coords="308,603,429,628"/>
+<area shape="poly" id="edge3222_Node000009_Node000026" title=" " alt="" coords="130,509,182,546,245,581,308,601,307,607,243,586,179,550,127,513"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1internalFvPatch.html" title="Constraint patch to hold internal faces exposed by sub&#45;setting." alt="" coords="307,652,430,677"/>
+<area shape="poly" id="edge3223_Node000009_Node000027" title=" " alt="" coords="120,513,170,577,205,611,245,638,276,651,308,658,306,663,274,656,243,643,202,615,166,580,115,516"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1mappedFvPatch.html" title="Fv patch which can do interpolative mapping of values from another globally conforming fv patch." alt="" coords="587,701,714,727"/>
+<area shape="poly" id="edge3224_Node000009_Node000025" title=" " alt="" coords="149,505,245,537,283,545,317,548,376,548,404,550,433,556,463,568,495,589,507,601,514,614,520,639,526,664,532,675,543,687,564,699,588,706,586,711,562,704,540,691,528,679,521,666,515,640,509,616,503,604,492,593,460,573,431,561,404,555,376,553,316,553,282,550,243,542,147,510"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1mappedInternalFvPatch.html" title=" " alt="" coords="281,701,457,727"/>
+<area shape="poly" id="edge3225_Node000009_Node000028" title=" " alt="" coords="115,514,134,553,162,601,200,649,221,670,245,688,282,703,279,708,243,692,218,674,196,652,158,604,129,556,110,516"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1nonConformalErrorFvPatch.html" title="Non&#45;conformal error FV patch. As nonConformalFvPatch. This patch is a non&#45;coupled non&#45;conformal patch..." alt="" coords="553,204,749,229"/>
+<area shape="poly" id="edge3226_Node000009_Node000022" title=" " alt="" coords="106,463,121,414,148,352,166,320,188,290,213,263,243,241,285,220,330,205,377,195,424,191,514,192,589,201,588,207,514,198,425,196,378,201,331,210,287,225,245,246,217,267,192,294,171,323,153,354,126,415,111,465"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1symmetryFvPatch.html" title="Symmetry patch for non&#45;planar or multi&#45;plane patches." alt="" coords="299,304,439,329"/>
+<area shape="poly" id="edge3227_Node000009_Node000029" title=" " alt="" coords="116,464,167,401,202,368,243,340,269,328,297,321,299,326,271,333,245,344,206,372,171,405,120,467"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1symmetryPlaneFvPatch.html" title="Symmetry&#45;plane patch." alt="" coords="281,353,457,379"/>
+<area shape="poly" id="edge3228_Node000009_Node000030" title=" " alt="" coords="125,466,177,426,209,406,243,389,282,376,283,381,245,394,212,411,180,431,128,470"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1wallFvPatch.html" title="Foam::wallFvPatch." alt="" coords="319,800,419,825"/>
+<area shape="poly" id="edge3229_Node000009_Node000016" title=" " alt="" coords="109,515,122,573,148,647,166,686,188,723,214,757,246,787,262,797,281,804,319,811,318,816,279,809,260,801,242,791,210,761,183,726,161,688,143,649,117,574,104,517"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1wedgeFvPatch.html" title="Wedge front and back plane patch." alt="" coords="311,403,427,428"/>
+<area shape="poly" id="edge3233_Node000009_Node000031" title=" " alt="" coords="147,470,243,438,310,423,311,428,245,443,149,475"/>
+<area shape="poly" id="edge3212_Node000008_Node000001" title=" " alt="" coords="444,150,595,124,596,129,445,155"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1processorFvPatch.html" title="Processor patch." alt="" coords="583,153,719,179"/>
+<area shape="poly" id="edge3213_Node000008_Node000007" title=" " alt="" coords="445,163,583,163,583,169,445,169"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1processorCyclicFvPatch.html" title="Processor patch." alt="" coords="832,203,1007,228"/>
+<area shape="poly" id="edge3214_Node000007_Node000006" title=" " alt="" coords="733,178,850,200,849,205,732,183"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1nonConformalProcessorCyclicFvPatch.html" title="Non&#45;conformal processor cyclic FV patch. As nonConformalCyclicFvPatch, but the neighbouring patch is ..." alt="" coords="1079,221,1295,261"/>
+<area shape="poly" id="edge3215_Node000006_Node000005" title=" " alt="" coords="1021,222,1079,228,1078,233,1020,228"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1filmSurfaceFvPatch.html" title="Foam::filmSurfaceFvPatch." alt="" coords="577,511,724,536"/>
+<area shape="poly" id="edge3218_Node000011_Node000012" title=" " alt="" coords="432,513,577,518,577,524,431,519"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1filmWallFvPatch.html" title="Foam::filmWallFvPatch." alt="" coords="587,577,714,603"/>
+<area shape="poly" id="edge3220_Node000011_Node000024" title=" " alt="" coords="432,527,494,543,606,575,605,580,493,549,431,532"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1mappedFilmSurfaceFvPatch.html" title=" " alt="" coords="818,689,1021,715"/>
+<area shape="poly" id="edge3219_Node000012_Node000013" title=" " alt="" coords="707,538,761,564,807,595,848,630,908,687,904,691,845,633,803,599,759,568,705,543"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1mappedFilmWallFvPatch.html" title=" " alt="" coords="828,739,1011,764"/>
+<area shape="poly" id="edge3221_Node000024_Node000023" title=" " alt="" coords="728,603,762,623,774,636,780,649,786,676,792,702,798,714,810,725,829,737,826,741,806,729,794,717,787,704,781,677,775,651,769,639,758,627,725,607"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1mappedExtrudedWallFvPatch.html" title=" " alt="" coords="545,751,757,776"/>
+<area shape="poly" id="edge3230_Node000016_Node000015" title=" " alt="" coords="432,799,577,773,578,779,433,804"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1mappedWallFvPatch.html" title="Wall fv patch which can do interpolative mapping of values from another globally conforming fv patch." alt="" coords="573,800,728,825"/>
+<area shape="poly" id="edge3231_Node000016_Node000017" title=" " alt="" coords="433,810,573,810,573,815,433,815"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1nonConformalMappedWallFvPatch.html" title="Wall fv patch which can do non&#45;conformal mapping of values from another potentially non&#45;globally conf..." alt="" coords="545,637,756,677"/>
+<area shape="poly" id="edge3232_Node000016_Node000018" title=" " alt="" coords="432,809,464,801,492,787,503,776,509,764,515,739,521,714,528,701,540,688,560,675,563,679,543,692,532,704,526,716,521,741,514,766,507,779,495,791,465,806,433,814"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1lduInterface.html" title="An abstract base class for implicitly&#45;coupled interfaces e.g. processor and cyclic patches." alt="" coords="51,80,151,105"/>
+<area shape="poly" id="edge3238_Node000032_Node000008" title=" " alt="" coords="150,108,245,138,307,152,306,158,243,143,148,113"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1GAMGInterface.html" title="Abstract base class for GAMG agglomerated interfaces." alt="" coords="308,5,429,31"/>
+<area shape="poly" id="edge3234_Node000032_Node000033" title=" " alt="" coords="145,72,243,39,307,25,309,30,245,45,147,77"/>
+<area shape="poly" id="edge3235_Node000033_Node000034" title=" " alt="" coords="443,15,571,15,571,21,443,21"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1processorGAMGInterface.html" title="GAMG agglomerated processor interface." alt="" coords="559,55,743,80"/>
+<area shape="poly" id="edge3236_Node000033_Node000035" title=" " alt="" coords="444,28,578,52,577,57,443,34"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1processorCyclicGAMGInterface.html" title="GAMG agglomerated processor interface." alt="" coords="808,55,1031,80"/>
+<area shape="poly" id="edge3237_Node000035_Node000036" title=" " alt="" coords="756,65,808,65,808,70,756,70"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1mappedFvPatchBaseBase.html" title="Base class for fv patches that provide mapping between two fv patches." alt="" coords="5,800,196,825"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1mappedFvPatchBase.html" title="Base class for fv patches that provide interpolative mapping between two globally conforming fv patch..." alt="" coords="289,849,448,875"/>
+<area shape="poly" id="edge3239_Node000020_Node000014" title=" " alt="" coords="184,825,299,847,298,852,183,830"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1nonConformalMappedFvPatchBase.html" title="Base class for fv patches which provides non&#45;conformal mapping between two potentially non&#45;globally c..." alt="" coords="244,751,493,776"/>
+<area shape="poly" id="edge3245_Node000020_Node000019" title=" " alt="" coords="183,795,298,773,299,779,184,800"/>
+<area shape="poly" id="edge3241_Node000014_Node000013" title=" " alt="" coords="462,864,544,866,631,863,707,854,737,846,758,836,771,824,778,812,782,784,787,754,794,739,806,725,827,712,830,717,810,729,798,742,792,756,788,784,783,813,775,827,762,840,739,851,708,859,631,869,544,871,462,870"/>
+<area shape="poly" id="edge3242_Node000014_Node000023" title=" " alt="" coords="427,876,496,890,580,900,671,899,716,892,759,880,807,855,849,823,883,789,906,763,910,766,887,793,852,827,809,860,761,884,717,897,671,904,580,905,495,895,426,881"/>
+<area shape="poly" id="edge3243_Node000014_Node000025" title=" " alt="" coords="460,852,492,836,503,825,509,813,515,788,521,762,528,750,540,737,562,724,586,716,588,722,564,729,543,741,532,753,526,764,520,790,514,815,507,828,495,840,463,857"/>
+<area shape="poly" id="edge3240_Node000014_Node000015" title=" " alt="" coords="460,848,492,836,507,824,515,812,524,799,540,786,570,774,572,778,543,791,528,803,520,815,510,828,495,840,462,853"/>
+<area shape="poly" id="edge3244_Node000014_Node000017" title=" " alt="" coords="455,844,577,823,578,828,456,850"/>
+<area shape="poly" id="edge3246_Node000019_Node000018" title=" " alt="" coords="478,744,492,737,507,726,515,714,525,701,540,688,567,674,570,679,543,692,529,704,520,717,510,730,495,742,480,748"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1nonConformalFvPatch.html" title="Non&#45;conformal FV patch. Provides the necessary interface for a FV patch which does not conform to the..." alt="" coords="286,255,451,280"/>
+<area shape="poly" id="edge3250_Node000021_Node000022" title=" " alt="" coords="453,250,579,227,580,232,454,255"/>
+<area shape="poly" id="edge3251_Node000021_Node000018" title=" " alt="" coords="466,272,481,279,495,291,512,311,523,331,533,371,531,412,523,452,515,492,512,532,520,573,529,593,543,614,569,634,566,639,539,617,525,596,515,574,507,532,510,491,518,451,526,411,527,372,518,333,507,314,491,295,479,284,463,276"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1nonConformalCoupledFvPatch.html" title="Non&#45;conformal coupled FV patch. As nonConformalFvPatch, but is also coupled to another non&#45;conformal ..." alt="" coords="541,253,760,279"/>
+<area shape="poly" id="edge3247_Node000021_Node000004" title=" " alt="" coords="465,264,541,264,541,269,465,270"/>
+<area shape="poly" id="edge3248_Node000004_Node000003" title=" " alt="" coords="746,246,759,240,773,228,782,215,791,201,807,188,833,176,835,181,809,192,795,204,786,217,777,231,761,244,748,251"/>
+<area shape="poly" id="edge3249_Node000004_Node000005" title=" " alt="" coords="774,258,1078,243,1078,248,775,263"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1processorLduInterface.html" title="An abstract base class for processor coupled interfaces." alt="" coords="285,104,452,129"/>
+<area shape="poly" id="edge3252_Node000037_Node000007" title=" " alt="" coords="456,129,583,152,582,157,455,134"/>
+<area shape="poly" id="edge3253_Node000037_Node000035" title=" " alt="" coords="455,99,577,77,578,83,456,104"/>
+</map>

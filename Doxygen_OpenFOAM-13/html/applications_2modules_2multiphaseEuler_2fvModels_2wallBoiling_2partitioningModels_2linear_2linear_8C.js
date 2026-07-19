@@ -1,0 +1,5 @@
+var applications_2modules_2multiphaseEuler_2fvModels_2wallBoiling_2partitioningModels_2linear_2linear_8C =
+[
+    [ "defineTypeNameAndDebug", "applications_2modules_2multiphaseEuler_2fvModels_2wallBoiling_2partitioningModels_2linear_2linear_8C.html#aaeeb02c6afa2f209afbc0944aa1185d6", null ],
+    [ "addToRunTimeSelectionTable", "applications_2modules_2multiphaseEuler_2fvModels_2wallBoiling_2partitioningModels_2linear_2linear_8C.html#aa5236f295dd88914891a65978a2fc2f9", null ]
+];

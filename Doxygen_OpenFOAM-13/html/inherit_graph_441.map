@@ -1,0 +1,55 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1coupledPointPatch.html" title="coupled patch for post&#45;processing. Used as the base class for processor and cyclic pointPatches" alt="" coords="144,79,285,104"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1coupledFacePointPatch.html" title="coupled patch for post&#45;processing. Used as the base class for processor and cyclic pointPatches" alt="" coords="355,79,525,104"/>
+<area shape="poly" id="edge3181_Node000000_Node000001" title=" " alt="" coords="299,89,355,89,355,94,299,94"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cyclicPointPatch.html" title="Cyclic patch for post&#45;processing." alt="" coords="646,55,773,80"/>
+<area shape="poly" id="edge3182_Node000001_Node000002" title=" " alt="" coords="539,80,646,70,646,76,539,85"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1processorPointPatch.html" title="Processor patch boundary needs to be such that the ordering of points in the patch is the same on bot..." alt="" coords="633,104,786,129"/>
+<area shape="poly" id="edge3185_Node000001_Node000005" title=" " alt="" coords="539,98,633,107,632,112,539,103"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1cyclicSlipPointPatch.html" title="Cyclic patch with slip constraint." alt="" coords="907,5,1058,31"/>
+<area shape="poly" id="edge3183_Node000002_Node000003" title=" " alt="" coords="786,51,911,28,912,33,787,56"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1nonConformalCyclicPointPatch.html" title="Constraint patch for nonConformalCyclic couplings." alt="" coords="872,55,1093,80"/>
+<area shape="poly" id="edge3184_Node000002_Node000004" title=" " alt="" coords="786,65,872,65,872,70,786,70"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1processorCyclicPointPatch.html" title="Processor patch boundary needs to be such that the ordering of points in the patch is the same on bot..." alt="" coords="887,104,1079,129"/>
+<area shape="poly" id="edge3186_Node000005_Node000006" title=" " alt="" coords="799,114,887,114,887,119,799,119"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1nonConformalProcessorCyclicPointPatch.html" title="Constraint patch for nonConformalProcessorCyclic couplings." alt="" coords="1141,97,1357,137"/>
+<area shape="poly" id="edge3187_Node000006_Node000007" title=" " alt="" coords="1092,114,1141,114,1141,119,1092,119"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1pointPatch.html" title="Basic pointPatch represents a set of points from the mesh." alt="" coords="5,375,96,400"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1facePointPatch.html" title="A pointPatch based on a polyPatch." alt="" coords="155,375,274,400"/>
+<area shape="poly" id="edge3188_Node000026_Node000008" title=" " alt="" coords="110,385,155,385,155,390,110,390"/>
+<area shape="poly" id="edge3189_Node000008_Node000001" title=" " alt="" coords="217,360,227,308,248,241,263,206,282,172,304,140,332,113,353,100,356,105,335,117,309,144,286,175,268,208,253,243,233,309,222,361"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1emptyPointPatch.html" title="Empty plane patch." alt="" coords="374,128,506,153"/>
+<area shape="poly" id="edge3190_Node000008_Node000009" title=" " alt="" coords="220,360,233,317,255,263,288,209,308,184,332,163,351,151,373,144,374,149,354,156,335,167,312,188,292,212,260,265,238,318,225,362"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1filmSurfacePointPatch.html" title="Foam::filmSurfacePointPatch." alt="" coords="358,177,522,203"/>
+<area shape="poly" id="edge3191_Node000008_Node000010" title=" " alt="" coords="223,361,240,327,263,286,294,246,332,212,357,199,359,204,335,216,298,249,267,289,244,329,228,363"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1filmWallPointPatch.html" title="Foam::filmWallPointPatch." alt="" coords="369,227,511,252"/>
+<area shape="poly" id="edge3193_Node000008_Node000012" title=" " alt="" coords="230,361,272,310,300,283,332,261,368,247,369,252,335,266,304,288,276,314,234,365"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1genericPointPatch.html" title="Substitute for unknown patches. Used for post&#45;processing when only basic pointPatch info is needed." alt="" coords="371,276,509,301"/>
+<area shape="poly" id="edge3195_Node000008_Node000014" title=" " alt="" coords="241,364,283,336,332,310,369,298,371,303,334,315,286,341,244,369"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1internalPointPatch.html" title="Constraint patch to hold internal faces exposed by sub&#45;setting." alt="" coords="370,325,510,351"/>
+<area shape="poly" id="edge3196_Node000008_Node000015" title=" " alt="" coords="286,369,381,348,382,353,287,374"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1mappedInternalPointPatch.html" title=" " alt="" coords="343,375,537,400"/>
+<area shape="poly" id="edge3197_Node000008_Node000016" title=" " alt="" coords="288,385,343,385,343,390,288,390"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1mappedPointPatch.html" title=" " alt="" coords="369,424,511,449"/>
+<area shape="poly" id="edge3198_Node000008_Node000017" title=" " alt="" coords="287,400,382,421,381,427,286,406"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1nonConformalErrorPointPatch.html" title="Constraint patch for errors associated with nonConformalCyclic couplings." alt="" coords="333,473,547,499"/>
+<area shape="poly" id="edge3199_Node000008_Node000018" title=" " alt="" coords="244,406,286,434,334,460,368,471,367,476,332,464,283,439,241,410"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1symmetryPlanePointPatch.html" title="Symmetry&#45;plane patch." alt="" coords="343,523,537,548"/>
+<area shape="poly" id="edge3200_Node000008_Node000019" title=" " alt="" coords="234,410,276,461,304,487,335,509,360,520,358,525,332,514,300,491,272,465,230,413"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1symmetryPointPatch.html" title="Symmetry patch for non&#45;planar or multi&#45;plane patches." alt="" coords="361,572,519,597"/>
+<area shape="poly" id="edge3201_Node000008_Node000020" title=" " alt="" coords="228,412,244,445,267,486,298,525,335,558,362,572,360,576,332,563,294,529,263,488,240,448,223,414"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1wallPointPatch.html" title="Foam::wallPointPatch." alt="" coords="381,621,499,647"/>
+<area shape="poly" id="edge3202_Node000008_Node000021" title=" " alt="" coords="225,413,238,456,260,509,292,563,312,587,335,608,357,620,382,627,380,633,355,625,332,612,308,591,288,566,255,512,233,458,220,415"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1wedgePointPatch.html" title="Wedge front and back plane patch." alt="" coords="373,671,507,696"/>
+<area shape="poly" id="edge3206_Node000008_Node000025" title=" " alt="" coords="222,414,233,466,253,532,268,567,286,600,309,631,335,657,353,669,374,676,372,681,351,673,332,661,304,634,282,603,263,569,248,534,227,467,217,415"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1mappedFilmSurfacePointPatch.html" title=" " alt="" coords="599,177,819,203"/>
+<area shape="poly" id="edge3192_Node000010_Node000011" title=" " alt="" coords="536,187,599,187,599,193,536,193"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1mappedFilmWallPointPatch.html" title=" " alt="" coords="610,227,809,252"/>
+<area shape="poly" id="edge3194_Node000012_Node000013" title=" " alt="" coords="525,237,610,237,610,242,525,242"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1mappedExtrudedWallPointPatch.html" title=" " alt="" coords="595,572,824,597"/>
+<area shape="poly" id="edge3203_Node000021_Node000022" title=" " alt="" coords="512,618,639,595,640,600,513,623"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1mappedWallPointPatch.html" title=" " alt="" coords="624,621,795,647"/>
+<area shape="poly" id="edge3204_Node000021_Node000023" title=" " alt="" coords="513,631,624,631,624,637,513,637"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1nonConformalMappedWallPointPatch.html" title=" " alt="" coords="596,671,823,711"/>
+<area shape="poly" id="edge3205_Node000021_Node000024" title=" " alt="" coords="513,647,615,669,614,674,512,652"/>
+</map>

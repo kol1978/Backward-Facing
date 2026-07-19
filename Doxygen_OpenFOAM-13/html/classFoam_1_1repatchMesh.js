@@ -1,0 +1,27 @@
+var classFoam_1_1repatchMesh =
+[
+    [ "rMesh", "classFoam_1_1repatchMesh.html#ac2559b60bca2f72a767cb1f37b92fcaf", null ],
+    [ "repatchMesh", "classFoam_1_1repatchMesh.html#a8d521a4a51cbfb7bdc573f27b09087ff", null ],
+    [ "repatchMesh", "classFoam_1_1repatchMesh.html#ac4c427fc76ec4d14daa6341703801bdf", null ],
+    [ "~repatchMesh", "classFoam_1_1repatchMesh.html#a140886c0d57cc3278a0e8c7e307da942", null ],
+    [ "ClassName", "classFoam_1_1repatchMesh.html#a4481c27db7764ac8606701e1d8cab0ae", null ],
+    [ "mesh", "classFoam_1_1repatchMesh.html#ae716865ff83c4c948226fd9dac224ed5", null ],
+    [ "patches", "classFoam_1_1repatchMesh.html#a003d8e26876334207fc12bcd01a5fda4", null ],
+    [ "meshFace", "classFoam_1_1repatchMesh.html#aabee62e7405aad634176d19dde437111", null ],
+    [ "featurePoints", "classFoam_1_1repatchMesh.html#aba0a325401318f4cd5ad8dfe727be88d", null ],
+    [ "featureEdges", "classFoam_1_1repatchMesh.html#a0d9b005905b6d39cbc755e59e560763a", null ],
+    [ "featureToEdge", "classFoam_1_1repatchMesh.html#adeca7084830e12d1f61b3a951be22c2f", null ],
+    [ "edgeToFeature", "classFoam_1_1repatchMesh.html#aa119194563be31b28588bf09ba4331a9", null ],
+    [ "featureSegments", "classFoam_1_1repatchMesh.html#a81d69c1adf4040a42e9d739b4e17051b", null ],
+    [ "read", "classFoam_1_1repatchMesh.html#ad75a6a0d6490bd22adad55646a22e51b", null ],
+    [ "readTriSurface", "classFoam_1_1repatchMesh.html#a2ee25ae613c57256a825ff088edc0839", null ],
+    [ "getNearest", "classFoam_1_1repatchMesh.html#a7cfb30aa0fa4868d8a08ec928d0c1315", null ],
+    [ "whichPatch", "classFoam_1_1repatchMesh.html#aec451097d6716d6d58c772f99f1b47a5", null ],
+    [ "findIndex", "classFoam_1_1repatchMesh.html#a3748c6675e0cb71981f547769536c657", null ],
+    [ "addPatch", "classFoam_1_1repatchMesh.html#a09c4e5c8d34934fb4a87b7e358903ec2", null ],
+    [ "deletePatch", "classFoam_1_1repatchMesh.html#a35bae3d1fccc75f1edba03069229ce71", null ],
+    [ "changePatchType", "classFoam_1_1repatchMesh.html#ae598cc11969a83a0ecf2be3e967948dd", null ],
+    [ "setFeatureEdges", "classFoam_1_1repatchMesh.html#a0e01df03fc2c7dbfd31c0fa36528926a", null ],
+    [ "markFaces", "classFoam_1_1repatchMesh.html#acaeca28b921cf2645761075ce5a99093", null ],
+    [ "operator=", "classFoam_1_1repatchMesh.html#afa8aec347fe9c02fa6a2b086a44576f2", null ]
+];
