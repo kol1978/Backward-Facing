@@ -1,0 +1,130 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2606                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _481094fdf3-20260618 OPENFOAM=2606 version=v2606
+Arch   : "LSB;label=64;scalar=64"
+Exec   : decomposePar
+Date   : Jul 20 2026
+Time   : 22:59:48
+Host   : kol-serv
+PID    : 592793
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+memory pool : not available
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+
+--> FOAM Warning : allowSystemOperations : Allowing user-supplied system call operations.
+                   This can be a security risk if running untrusted cases
+                   through e.g. 'coded' on-the-fly-compilation functionality.
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh
+
+Create mesh
+
+Calculating distribution of cells
+Decomposition method simple [6] (region region0)
+
+Finished decomposition in 0.02 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 8525
+    Number of points = 17466
+    Number of faces shared with processor 1 = 120
+    Number of faces shared with processor 3 = 118
+    Number of processor patches = 2
+    Number of processor faces = 238
+    Number of boundary faces = 17226
+
+Processor 1
+    Number of cells = 7593
+    Number of points = 15670
+    Number of faces shared with processor 0 = 120
+    Number of faces shared with processor 2 = 192
+    Number of faces shared with processor 4 = 69
+    Number of faces shared with processor 5 = 1
+    Number of processor patches = 4
+    Number of processor faces = 382
+    Number of boundary faces = 15286
+
+Processor 2
+    Number of cells = 3882
+    Number of points = 8268
+    Number of faces shared with processor 1 = 192
+    Number of faces shared with processor 5 = 195
+    Number of processor patches = 2
+    Number of processor faces = 387
+    Number of boundary faces = 7879
+
+Processor 3
+    Number of cells = 4809
+    Number of points = 10022
+    Number of faces shared with processor 0 = 118
+    Number of faces shared with processor 4 = 158
+    Number of processor patches = 2
+    Number of processor faces = 276
+    Number of boundary faces = 9744
+
+Processor 4
+    Number of cells = 5740
+    Number of points = 11856
+    Number of faces shared with processor 1 = 69
+    Number of faces shared with processor 3 = 158
+    Number of faces shared with processor 5 = 71
+    Number of processor patches = 3
+    Number of processor faces = 298
+    Number of boundary faces = 11556
+
+Processor 5
+    Number of cells = 9451
+    Number of points = 19438
+    Number of faces shared with processor 1 = 1
+    Number of faces shared with processor 2 = 195
+    Number of faces shared with processor 4 = 71
+    Number of processor patches = 3
+    Number of processor faces = 267
+    Number of boundary faces = 19169
+
+Number of processor faces = 924
+Max number of cells = 9451 (41.765% above average 6666.67)
+Max number of processor patches = 4 (50% above average 2.66667)
+Max number of faces between processors = 387 (25.6494% above average 308)
+
+
+Time = 0.0026
+
+Processor 0: field transfer
+Detected additional non-decomposed files in "uniform"
+Processor 1: field transfer
+Detected additional non-decomposed files in "uniform"
+Processor 2: field transfer
+Detected additional non-decomposed files in "uniform"
+Processor 3: field transfer
+Detected additional non-decomposed files in "uniform"
+Processor 4: field transfer
+Detected additional non-decomposed files in "uniform"
+Processor 5: field transfer
+Detected additional non-decomposed files in "uniform"
+
+End
+
