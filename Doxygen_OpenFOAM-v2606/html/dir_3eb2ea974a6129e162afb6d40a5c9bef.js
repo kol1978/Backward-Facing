@@ -1,0 +1,5 @@
+var dir_3eb2ea974a6129e162afb6d40a5c9bef =
+[
+    [ "HrenyaSinclairConductivity.C", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hre6b69260ca61bd6b01f6700ede78f59b5.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hre6b69260ca61bd6b01f6700ede78f59b5" ],
+    [ "HrenyaSinclairConductivity.H", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hre61f7372af88b2a52a20b8d1be05b3320.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hre61f7372af88b2a52a20b8d1be05b3320" ]
+];

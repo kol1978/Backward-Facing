@@ -1,0 +1,4 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2dragModels_2GidaspowSchillerNaumann_2GidaspowSchillerNaumann_8H =
+[
+    [ "GidaspowSchillerNaumann", "classFoam_1_1dragModels_1_1GidaspowSchillerNaumann.html", "classFoam_1_1dragModels_1_1GidaspowSchillerNaumann" ]
+];

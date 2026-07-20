@@ -1,0 +1,27 @@
+<map id="sampledSurface" name="sampledSurface">
+<area shape="rect" id="Node000001" title="An abstract class for surfaces with sampling." alt="" coords="153,252,280,277"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1sampledCuttingPlane.html" title="A sampledSurface defined by a plane using an iso&#45;surface algorithm to cut the mesh." alt="" coords="349,5,510,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,238,233,194,253,141,284,86,304,61,326,40,347,28,350,32,330,44,307,65,288,89,258,143,238,196,226,239"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1sampledCuttingSurface.html" title="A surface define by using an input surface to cut the mesh cells." alt="" coords="342,55,517,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="225,238,239,204,261,163,290,123,326,89,348,78,350,82,330,94,294,127,266,166,244,206,230,240"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1sampledDistanceSurface.html" title="A sampledSurface defined by a distance to a surface &#45; resolved using an iso&#45;surface (algorithm: cell,..." alt="" coords="337,104,521,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="231,239,270,188,296,161,327,138,352,127,354,132,329,143,300,165,274,191,235,242"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1sampledFaceZone.html" title="A sampledSurface defined by a faceZone or faceZones." alt="" coords="359,153,499,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="242,241,281,213,327,188,359,176,361,181,329,192,284,218,245,245"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1sampledInterface.html" title="A sampledSurface that calculates the PLIC interface in VoF simulations Only works in combination with..." alt="" coords="361,203,497,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="285,246,373,225,374,231,286,251"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1sampledIsoSurface.html" title="A sampledSurface defined by a surface of iso value. It only recalculates the iso&#45;surface if time chan..." alt="" coords="356,252,503,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="294,262,356,262,356,267,294,267"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1sampledMeshedSurface.html" title="A sampledSurface from a meshed surface. It samples on the points/faces of the meshed surface." alt="" coords="340,301,519,327"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="286,278,374,299,373,304,285,283"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1sampledNone.html" title="A no operation sampledSurface that can be used when a sampler is expected but is not desired...." alt="" coords="373,351,485,376"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="245,284,284,312,329,337,374,351,372,356,327,342,281,316,242,288"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1sampledPatch.html" title="A sampledSurface on patches. Non&#45;triangulated by default." alt="" coords="373,400,486,425"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="235,287,274,338,300,364,329,386,350,396,373,403,371,408,348,401,327,391,296,368,270,342,231,290"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1sampledPlane.html" title="A sampledSurface defined by a plane which cuts the mesh using the cuttingPlane alorithm...." alt="" coords="372,449,487,475"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="230,289,244,323,266,363,294,403,330,436,350,447,373,454,371,459,348,452,326,440,290,406,261,366,239,326,225,291"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1sampledThresholdCellFaces.html" title="A sampledSurface defined by the cell faces corresponding to a threshold value." alt="" coords="328,499,531,524"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="226,290,238,333,258,386,288,440,307,464,330,485,348,496,346,501,326,489,304,468,284,443,253,389,233,335,221,292"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1meshedSurf.html" title="Abstract definition of a meshed surface defined by faces and points." alt="" coords="5,252,105,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,262,153,262,153,267,119,267"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,301,139,326"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1AnisothermalPhaseModel.html" title="Class which represents a phase for which the temperature (strictly energy) varies...." alt="" coords="223,5,411,45"/>
+<area shape="poly" id="edge4117_Node000000_Node000001" title=" " alt="" coords="75,286,85,237,106,174,138,110,160,81,185,55,221,35,224,40,188,59,164,84,143,113,111,176,91,238,80,287"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1InertPhaseModel.html" title="Class which represents an inert phase, with no reactions. Returns zero reaction rate and heat." alt="" coords="208,69,425,109"/>
+<area shape="poly" id="edge4118_Node000000_Node000002" title=" " alt="" coords="79,286,93,249,115,203,146,158,185,119,206,107,209,111,188,123,150,161,120,206,98,251,84,288"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1IsothermalPhaseModel.html" title="Class which represents a phase for which the temperature (strictly energy) remains constant...." alt="" coords="231,133,402,173"/>
+<area shape="poly" id="edge4119_Node000000_Node000003" title=" " alt="" coords="86,287,126,234,154,206,185,183,230,164,232,169,188,188,157,211,130,238,90,291"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1MovingPhaseModel.html" title="Class which represents a moving fluid phase. Holds the velocity, fluxes and turbulence model...." alt="" coords="199,197,434,237"/>
+<area shape="poly" id="edge4120_Node000000_Node000004" title=" " alt="" coords="102,291,141,268,186,247,221,235,223,240,188,252,144,273,105,296"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1MultiComponentPhaseModel.html" title="Class which represents a phase with multiple species. Returns the species&#39; mass fractions,..." alt="" coords="187,261,447,301"/>
+<area shape="poly" id="edge4121_Node000000_Node000005" title=" " alt="" coords="152,300,186,296,187,301,153,306"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1PurePhaseModel.html" title="Class which represents pure phases, i.e. without any species. Returns an empty list of mass fractions..." alt="" coords="209,325,425,365"/>
+<area shape="poly" id="edge4122_Node000000_Node000006" title=" " alt="" coords="153,321,209,329,208,334,152,326"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1ReactingPhaseModel.html" title="Class which represents phases with volumetric reactions. Returns the reaction rate and heat." alt="" coords="210,390,423,445"/>
+<area shape="poly" id="edge4123_Node000000_Node000007" title=" " alt="" coords="106,331,188,375,220,387,218,392,186,380,103,336"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1StaticPhaseModel.html" title="Class which represents a static fluid phase." alt="" coords="205,469,429,509"/>
+<area shape="poly" id="edge4124_Node000000_Node000008" title=" " alt="" coords="89,337,128,396,156,427,188,454,214,467,211,472,185,458,152,431,124,399,84,340"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1StationaryPhaseModel.html" title="Class which represents a stationary (and therefore probably solid) phase. Generates,..." alt="" coords="233,533,401,573"/>
+<area shape="poly" id="edge4125_Node000000_Node000009" title=" " alt="" coords="83,339,96,379,118,428,148,478,167,500,188,519,210,532,233,541,232,546,207,537,185,523,163,504,144,481,113,431,91,381,78,341"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1ThermoPhaseModel.html" title="Class which represents a phase with a thermodynamic model. Provides access to the thermodynamic varia..." alt="" coords="198,597,435,637"/>
+<area shape="poly" id="edge4126_Node000000_Node000010" title=" " alt="" coords="79,339,89,392,108,458,123,492,141,526,162,557,188,583,205,595,202,599,185,587,158,560,136,528,118,494,103,459,84,393,74,340"/>
+</map>

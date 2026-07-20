@@ -1,0 +1,29 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1vtk_1_1fileWriter.html" title="Base class for VTK output writers that handle geometry and fields (eg, vtp, vtu data)...." alt="" coords="5,112,88,137"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1vtk_1_1internalMeshWriter.html" title="Write an OpenFOAM volume (internal) geometry and internal fields as a vtu file or a legacy vtk file." alt="" coords="136,9,283,35"/>
+<area shape="poly" id="edge4597_Node000000_Node000001" title=" " alt="" coords="69,100,99,73,135,48,167,32,170,37,137,52,102,77,72,104"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1vtk_1_1lagrangianWriter.html" title="Write lagrangian (cloud) positions and fields (as PointData) in VTP format. Legacy VTK format is inte..." alt="" coords="144,63,275,88"/>
+<area shape="poly" id="edge4599_Node000000_Node000003" title=" " alt="" coords="100,106,166,86,167,91,102,111"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1vtk_1_1patchMeshWriter.html" title="Write OpenFOAM patches and patch fields in VTP or legacy vtk format." alt="" coords="143,112,276,137"/>
+<area shape="poly" id="edge4600_Node000000_Node000004" title=" " alt="" coords="102,122,142,122,142,127,102,127"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1vtk_1_1polyWriter.html" title="Write faces/points (optionally with fields) as a vtp file or a legacy vtk file. The class is also sli..." alt="" coords="164,169,255,195"/>
+<area shape="poly" id="edge4602_Node000000_Node000006" title=" " alt="" coords="97,139,173,167,172,172,95,144"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1vtk_1_1surfaceFieldWriter.html" title="Write surfaces fields (as PointData) in VTP format. Legacy VTK format is intentionally not supported." alt="" coords="139,219,280,244"/>
+<area shape="poly" id="edge4609_Node000000_Node000013" title=" " alt="" coords="70,146,100,176,137,204,164,216,162,221,135,208,97,180,66,150"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1vtk_1_1internalWriter.html" title="Write an OpenFOAM volume (internal) geometry and internal fields as a vtu file or a legacy vtk file." alt="" coords="348,5,460,31"/>
+<area shape="poly" id="edge4598_Node000001_Node000002" title=" " alt="" coords="296,18,348,16,348,22,297,23"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1vtk_1_1patchWriter.html" title="Write OpenFOAM patches and patch fields in VTP or legacy vtk format." alt="" coords="355,55,453,80"/>
+<area shape="poly" id="edge4601_Node000004_Node000005" title=" " alt="" coords="265,106,359,77,361,83,267,111"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1vtk_1_1GenericPatchWriter.html" title="Write concrete PrimitivePatch faces/points (optionally with fields) as a vtp file or a legacy vtk fil..." alt="" coords="331,105,477,145"/>
+<area shape="poly" id="edge4603_Node000006_Node000007" title=" " alt="" coords="266,163,335,142,336,147,267,168"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1vtk_1_1coordSetWriter.html" title="Write as points/lines, optionally with fields, as a vtp file or a legacy vtk file." alt="" coords="345,169,463,195"/>
+<area shape="poly" id="edge4605_Node000006_Node000009" title=" " alt="" coords="268,179,345,179,345,185,268,185"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1vtk_1_1lineWriter.html" title="Write edge/points (optionally with fields) as a vtp file or a legacy vtk file." alt="" coords="361,219,447,244"/>
+<area shape="poly" id="edge4606_Node000006_Node000010" title=" " alt="" coords="269,194,361,218,359,223,267,199"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1vtk_1_1surfaceWriter.html" title="Write faces/points (optionally with fields) as a vtp file or a legacy vtk file." alt="" coords="349,268,459,293"/>
+<area shape="poly" id="edge4607_Node000006_Node000011" title=" " alt="" coords="269,196,284,204,299,216,309,229,318,241,332,253,357,265,355,270,329,258,314,245,305,232,296,220,281,208,266,200"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1vtk_1_1vertexWriter.html" title="Write vertex/points (optionally with fields) as a vtp file or a legacy vtk file." alt="" coords="352,317,456,343"/>
+<area shape="poly" id="edge4608_Node000006_Node000012" title=" " alt="" coords="269,194,285,204,303,229,309,255,315,279,332,303,353,316,350,320,329,307,311,281,304,256,298,232,281,208,266,198"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1vtk_1_1GenericPatchGeoFieldsWriter.html" title="A Foam::vtk::GenericPatchWriter with support for geometric fields." alt="" coords="525,105,736,145"/>
+<area shape="poly" id="edge4604_Node000007_Node000008" title=" " alt="" coords="491,122,525,122,525,127,491,127"/>
+</map>

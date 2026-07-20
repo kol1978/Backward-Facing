@@ -1,0 +1,32 @@
+<map id="checkFaceTets" name="checkFaceTets">
+<area shape="rect" id="Node000001" title="See primitiveMesh." alt="" coords="5,336,120,361"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="175,5,408,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,336,65,281,80,202,93,158,111,115,135,76,166,41,174,36,177,40,170,45,139,79,116,118,98,160,85,203,71,282,67,336"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="519,464,613,489"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,333,161,316,241,303,285,300,330,302,374,309,416,322,460,348,499,383,530,419,552,451,548,454,525,422,495,387,457,353,414,327,372,314,329,307,285,306,242,308,162,322,101,339"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1polyMesh.html#a9fb57b52c700ed61f09ada65412d13e3" title="Return face neighbour." alt="" coords="175,120,407,145"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="65,335,76,300,97,254,126,205,145,182,166,163,191,148,194,153,170,167,149,186,131,208,101,256,81,302,70,336"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1polyMesh.html#a57752b49bfee23ca1944c3fb0493974f" title="Return face owner." alt="" coords="463,171,669,196"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="67,335,80,306,101,271,130,235,167,206,205,189,245,176,328,163,408,161,479,166,479,172,408,166,328,168,246,182,207,194,169,211,134,239,105,274,85,309,72,337"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1polyMeshTetDecomposition.html#a7a36a39125ed9c7b3e64590d21354995" title="Find the base point to use for a minimum triangle." alt="" coords="168,221,415,261"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="79,334,118,306,167,277,201,263,203,268,169,282,120,310,82,338"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1polyMeshTetDecomposition.html#a2f82d46e9cd43696e0df7c9a70139382" title="Find the first suitable base point to use for a minimum." alt="" coords="168,55,415,95"/>
+<area shape="poly" id="edge7_Node000001_Node000014" title=" " alt="" coords="63,335,71,292,89,229,119,163,141,132,166,105,172,101,175,105,170,109,145,135,124,165,94,231,76,293,68,336"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPtrList.html#a1c9828bc3de9502754d944c95a2ce0d9" title="Reference to the first element of the list." alt="" coords="216,336,367,361"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="120,346,203,346,203,351,120,351"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1primitiveMesh.html#a00fe9eacde7a2cbe10925b85ff1c16b1" title="Return true if given face label is internal to the mesh." alt="" coords="211,386,371,426"/>
+<area shape="poly" id="edge10_Node000001_Node000018" title=" " alt="" coords="115,359,199,380,197,385,114,364"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1primitiveMesh.html#a1b455e2e91a2eb72ec21ab1832fec664" title="Number of boundary faces (== nFaces &#45; nInternalFaces)" alt="" coords="211,450,371,490"/>
+<area shape="poly" id="edge11_Node000001_Node000019" title=" " alt="" coords="77,360,116,398,141,418,169,436,199,448,197,453,167,440,138,423,112,402,74,364"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1primitiveMesh.html#aad20a227e963e21b706a9dfa3ab7e158" title="Number of mesh faces." alt="" coords="211,514,371,554"/>
+<area shape="poly" id="edge12_Node000001_Node000020" title=" " alt="" coords="71,361,85,390,106,428,134,467,170,500,199,515,197,520,166,504,130,470,101,430,80,392,67,363"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="211,578,371,618"/>
+<area shape="poly" id="edge13_Node000001_Node000021" title=" " alt="" coords="69,361,78,401,97,456,127,514,147,541,170,564,199,581,197,586,166,568,142,544,122,517,92,458,73,403,64,362"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="236,643,347,668"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="67,361,73,412,88,485,101,524,119,562,141,598,170,628,195,643,223,651,222,656,193,648,166,632,137,601,114,565,96,526,83,486,67,413,62,362"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1syncTools.html#a188afa455a3c41154f713b703584c1e2" title="Swap coupled positions. Uses eqOp." alt="" coords="175,693,408,733"/>
+<area shape="poly" id="edge16_Node000001_Node000029" title=" " alt="" coords="67,361,69,419,83,505,96,552,114,598,138,641,170,679,174,683,171,687,166,683,134,644,109,600,90,553,77,506,64,419,61,362"/>
+<area shape="poly" id="edge6_Node000007_Node000006" title=" " alt="" coords="387,218,491,196,492,201,388,223"/>
+<area shape="poly" id="edge8_Node000014_Node000006" title=" " alt="" coords="380,93,416,105,479,133,532,161,530,166,476,138,414,110,378,98"/>
+<area shape="poly" id="edge15_Node000022_Node000003" title=" " alt="" coords="346,648,380,641,413,628,455,599,492,564,546,499,550,502,496,568,459,603,416,632,382,646,347,654"/>
+</map>

@@ -1,0 +1,4 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoefficiec1e4ed9f4d545f706ce2665f576dd67 =
+[
+    [ "constantVirtualMassCoefficient", "classFoam_1_1virtualMassModels_1_1constantVirtualMassCoefficient.html", "classFoam_1_1virtualMassModels_1_1constantVirtualMassCoefficient" ]
+];

@@ -1,0 +1,22 @@
+<map id="reduceOr" name="reduceOr">
+<area shape="rect" id="Node000001" title="Logical (or) reduction (MPI_AllReduce)" alt="" coords="524,255,605,281"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyBoundaryMesh.html#a039ec44911bfb8cd28ffd27a600e6fc5" title="Check boundary definition." alt="" coords="264,5,455,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="557,242,549,202,534,152,509,102,493,79,474,59,454,46,457,41,478,55,497,76,514,99,539,150,554,200,563,241"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1primitiveMesh.html#a5f7e2aafe336b558e201a39133e5d744" title="Check face ordering." alt="" coords="274,69,445,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="552,243,524,183,502,151,474,123,444,107,446,102,478,119,506,147,529,180,557,241"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1NURBS3DVolume.html#a154e1b2025685bf6deb71eba351f3661" title="Deactivate control points if they affect no mesh point." alt="" coords="262,133,457,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="540,247,510,220,475,194,434,176,436,171,477,190,514,215,544,243"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1snappyLayerDriver.html#ab5d22de610634a4b1d7160dc1fcbe731" title="Add layers according to the dictionary settings." alt="" coords="5,337,195,377"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="523,253,475,239,410,226,357,218,306,221,244,238,205,258,170,285,119,339,115,335,166,281,202,254,242,234,305,216,358,213,411,221,477,233,524,247"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1PstreamBuffers.html#a2b73508da3b1d676e829e0447c75beea" title="A caching version that uses a limited send/recv connectivity." alt="" coords="276,248,443,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="510,271,443,271,443,265,510,265"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1nullSpace.html#af6281a826efeac18b90e4f20782b55e3" title="Construct from components." alt="" coords="259,313,459,338"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="520,288,477,303,426,315,425,310,475,297,518,283"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a46139c9fa03c64601bda26e76b7ea9a3" title="Reads header for regIOobject and returns an ISstream to read the contents." alt="" coords="243,362,476,417"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="546,293,515,323,477,352,453,364,450,359,475,347,512,319,542,289"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a73dc272df77eb316fb539c2653847dea" title="Logical (or) inplace reduction. Uses UPstream::reduceOr." alt="" coords="304,441,415,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="559,295,548,326,532,363,508,399,478,430,448,446,416,453,415,448,446,441,474,426,504,396,527,360,543,324,554,293"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="275,490,443,515"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="563,294,555,335,539,385,515,436,498,459,478,479,445,497,442,492,474,475,494,456,510,433,534,384,550,334,558,293"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="262,488,241,480,204,457,169,430,117,379,121,375,173,426,207,453,244,475,264,483"/>
+</map>

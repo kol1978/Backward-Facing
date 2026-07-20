@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_72abf54678f7e51e06e1eba710396111 =
+[
+    [ "Schaeffer", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1Schaeffer.html", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1Schaeffer" ]
+];

@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hrenya0119f02fcfc2e1c0ec161ef272b3dbb2 =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hrenya0119f02fcfc2e1c0ec161ef272b3dbb2.html#a0cd7d7b8c2e993cba2e047cc1b4ee688", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hrenya0119f02fcfc2e1c0ec161ef272b3dbb2.html#ad3086c1202c5443a10496aba41ad8b0c", null ]
+];

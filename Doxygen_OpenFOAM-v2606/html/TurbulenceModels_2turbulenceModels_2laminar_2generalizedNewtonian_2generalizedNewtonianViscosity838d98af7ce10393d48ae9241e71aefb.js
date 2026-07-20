@@ -1,0 +1,4 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity838d98af7ce10393d48ae9241e71aefb =
+[
+    [ "CrossPowerLaw", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1CrossPowerLaw.html", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1CrossPowerLaw" ]
+];

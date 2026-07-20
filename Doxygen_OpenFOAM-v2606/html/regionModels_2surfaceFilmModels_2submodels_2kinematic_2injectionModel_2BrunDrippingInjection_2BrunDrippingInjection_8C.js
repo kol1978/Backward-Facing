@@ -1,0 +1,5 @@
+var regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2BrunDrippingInjection_2BrunDrippingInjection_8C =
+[
+    [ "defineTypeNameAndDebug", "regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2BrunDrippingInjection_2BrunDrippingInjection_8C.html#a0c763932780805082b2b1adbc9f61039", null ],
+    [ "addToRunTimeSelectionTable", "regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2BrunDrippingInjection_2BrunDrippingInjection_8C.html#ab2d9eacbae0d1c7d40dec1ad625e7bee", null ]
+];

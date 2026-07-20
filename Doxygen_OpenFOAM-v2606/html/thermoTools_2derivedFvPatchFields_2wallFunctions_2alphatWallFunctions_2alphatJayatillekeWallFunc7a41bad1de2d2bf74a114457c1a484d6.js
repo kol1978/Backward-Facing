@@ -1,0 +1,4 @@
+var thermoTools_2derivedFvPatchFields_2wallFunctions_2alphatWallFunctions_2alphatJayatillekeWallFunc7a41bad1de2d2bf74a114457c1a484d6 =
+[
+    [ "makePatchTypeField", "thermoTools_2derivedFvPatchFields_2wallFunctions_2alphatWallFunctions_2alphatJayatillekeWallFunc7a41bad1de2d2bf74a114457c1a484d6.html#a70d893bdf7d8c2126c06de033ad78b8e", null ]
+];

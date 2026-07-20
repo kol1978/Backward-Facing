@@ -1,0 +1,5 @@
+var dir_97c177a10a9b26c548f3e6e3b5d95a07 =
+[
+    [ "interfaceHeatResistance.C", "applications_2solvers_2multiphase_2interCondensatingEvaporatingFoam_2temperaturePhaseChangeTwoPh23875c6fccd32f6f59ac1bbea75adcc3.html", null ],
+    [ "interfaceHeatResistance.H", "applications_2solvers_2multiphase_2interCondensatingEvaporatingFoam_2temperaturePhaseChangeTwoPh70940c135a6c3edf4854752439ac17cd.html", "applications_2solvers_2multiphase_2interCondensatingEvaporatingFoam_2temperaturePhaseChangeTwoPh70940c135a6c3edf4854752439ac17cd" ]
+];

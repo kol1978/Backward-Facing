@@ -1,0 +1,4 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2heatTransferModels_2sphericalHeatTransfer_2sphericalHeatTransfer_8H =
+[
+    [ "sphericalHeatTransfer", "classFoam_1_1heatTransferModels_1_1sphericalHeatTransfer.html", "classFoam_1_1heatTransferModels_1_1sphericalHeatTransfer" ]
+];

@@ -1,0 +1,51 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,585,96,611"/>
+<area shape="rect" id="Node000001" href="$structFoam_1_1Detail_1_1isPointerLike.html" title="Pointer&#45;like behaviour." alt="" coords="202,5,345,31"/>
+<area shape="poly" id="edge4537_Node000000_Node000001" title=" " alt="" coords="50,571,55,456,68,297,80,216,96,142,116,82,128,58,142,40,169,22,201,14,202,19,172,27,146,44,133,61,121,84,101,143,85,217,74,298,60,457,55,571"/>
+<area shape="rect" id="Node000002" href="$structFoam_1_1UPstream__mpi__dataType.html" title="UPstream data type corresponding to a fundamental (MPI) type." alt="" coords="162,55,385,80"/>
+<area shape="poly" id="edge4538_Node000000_Node000002" title=" " alt="" coords="50,572,57,467,72,323,84,249,99,183,118,128,142,91,160,77,163,82,146,94,123,130,104,184,89,250,77,323,62,467,56,572"/>
+<area shape="rect" id="Node000003" href="$structFoam_1_1UPstream__mpi__dataType_3_01void_01_4.html" title="Disallow void." alt="" coords="181,105,365,145"/>
+<area shape="poly" id="edge4539_Node000000_Node000003" title=" " alt="" coords="51,572,60,479,77,354,89,292,104,234,121,187,142,155,160,141,180,131,182,136,163,145,146,158,126,190,109,236,94,293,82,355,65,480,57,572"/>
+<area shape="rect" id="Node000006" href="$structFoam_1_1UPstream__opType.html" title="A supported UPstream (MPI) reduce/window operation type." alt="" coords="159,169,388,195"/>
+<area shape="poly" id="edge4542_Node000000_Node000006" title=" " alt="" coords="52,571,62,488,80,378,106,273,123,232,142,204,158,193,161,197,146,208,127,234,111,274,85,379,67,488,57,572"/>
+<area shape="rect" id="Node000007" href="$structFoam_1_1UPstream__opType_3_01void_01_4.html" title="Disallow void." alt="" coords="175,219,372,244"/>
+<area shape="poly" id="edge4543_Node000000_Node000007" title=" " alt="" coords="53,571,64,497,83,402,109,312,125,277,142,253,173,235,175,240,146,257,129,280,114,314,88,403,69,498,58,572"/>
+<area shape="rect" id="Node000008" href="$structFoam_1_1UPstream__user__dataType.html" title="UPstream data type corresponding to user&#45;defined type." alt="" coords="161,268,386,293"/>
+<area shape="poly" id="edge4544_Node000000_Node000008" title=" " alt="" coords="49,572,53,516,66,443,78,405,94,368,115,334,142,304,161,291,164,296,146,308,120,337,99,370,83,407,71,444,58,516,55,572"/>
+<area shape="rect" id="Node000009" href="$structFoam_1_1UPstream__user__dataType_3_01void_01_4.html" title="Disallow void." alt="" coords="180,318,367,358"/>
+<area shape="poly" id="edge4545_Node000000_Node000009" title=" " alt="" coords="52,571,60,527,77,472,103,416,121,390,142,368,159,356,178,347,180,352,162,361,146,372,125,394,107,419,82,474,66,528,58,572"/>
+<area shape="rect" id="Node000010" href="$structFoam_1_1isVolMesh.html" title="Template argument for type volMesh." alt="" coords="198,383,349,408"/>
+<area shape="poly" id="edge4546_Node000000_Node000010" title=" " alt="" coords="55,571,66,536,83,494,108,452,142,417,168,403,197,395,198,400,170,408,146,421,112,455,88,496,71,537,60,573"/>
+<area shape="rect" id="Node000011" href="$structFoam_1_1is__coherentIOobject.html" title="Trait for specifying IOobject types that support the coherent format." alt="" coords="179,432,368,457"/>
+<area shape="poly" id="edge4547_Node000000_Node000011" title=" " alt="" coords="61,571,92,518,115,491,143,468,177,452,180,457,145,472,119,494,96,521,65,574"/>
+<area shape="rect" id="Node000012" href="$structFoam_1_1is__contiguous_3_01MinMax_3_01T_01_4_01_4.html" title="Declare MinMax as non&#45;contiguous (similar to Tuple2)." alt="" coords="184,482,363,522"/>
+<area shape="poly" id="edge4548_Node000000_Node000012" title=" " alt="" coords="76,575,107,552,143,532,183,517,185,522,145,536,109,557,79,579"/>
+<area shape="rect" id="Node000013" href="$structFoam_1_1is__contiguous_3_01basicHeterogeneousReactingParcel_01_4.html" title="Non&#45;contiguous data for basicHeterogeneousReactingParcel." alt="" coords="144,546,403,586"/>
+<area shape="poly" id="edge4549_Node000000_Node000013" title=" " alt="" coords="110,587,143,582,144,587,110,592"/>
+<area shape="rect" id="Node000014" href="$structFoam_1_1is__contiguous_3_01basicReactingMultiphaseParcel_01_4.html" title="Non&#45;contiguous data for basicReactingMultiphaseParcel." alt="" coords="165,610,382,650"/>
+<area shape="poly" id="edge4550_Node000000_Node000014" title=" " alt="" coords="110,604,165,612,164,617,110,609"/>
+<area shape="rect" id="Node000015" href="$structFoam_1_1is__contiguous_3_01basicReactingParcel_01_4.html" title="Non&#45;contiguous data for basicReactingParcel." alt="" coords="165,674,382,714"/>
+<area shape="poly" id="edge4551_Node000000_Node000015" title=" " alt="" coords="79,617,109,639,145,660,177,671,175,676,143,664,107,644,76,621"/>
+<area shape="rect" id="Node000016" href="$structFoam_1_1is__contiguous_3_01basicSprayParcel_01_4.html" title="Non&#45;contiguous data for basicSprayParcel." alt="" coords="175,738,372,778"/>
+<area shape="poly" id="edge4552_Node000000_Node000016" title=" " alt="" coords="66,622,97,674,119,701,145,724,176,739,173,744,143,728,115,705,93,677,61,625"/>
+<area shape="rect" id="Node000017" href="$structFoam_1_1is__contiguous_3_01coalParcel_01_4.html" title="Non&#45;contiguous data for coalParcel." alt="" coords="170,803,377,828"/>
+<area shape="poly" id="edge4553_Node000000_Node000017" title=" " alt="" coords="59,624,69,661,86,706,111,751,127,771,146,788,171,802,168,807,142,792,123,774,107,754,81,708,64,663,54,625"/>
+<area shape="rect" id="Node000018" href="$structFoam_1_1is__globalIOobject.html" title="Trait for specifying global vs. local IOobject file types." alt="" coords="187,852,359,877"/>
+<area shape="poly" id="edge4554_Node000000_Node000018" title=" " alt="" coords="57,624,64,671,79,729,105,788,123,814,146,837,166,850,188,858,186,863,163,855,142,841,119,818,100,791,74,731,58,672,51,625"/>
+<area shape="rect" id="Node000019" href="$structFoam_1_1is__range.html" title="Test for containers with begin/end range iterators." alt="" coords="195,901,351,927"/>
+<area shape="poly" id="edge4555_Node000000_Node000019" title=" " alt="" coords="55,624,59,679,72,751,83,788,99,825,120,858,146,887,169,901,196,910,194,915,167,906,142,891,115,861,94,827,78,790,66,752,53,680,49,624"/>
+<area shape="rect" id="Node000020" href="$structFoam_1_1is__rotational__vectorspace.html" title="Test for VectorSpace and multiple components (eg, not sphericalTensor) which means it is not rotation..." alt="" coords="179,951,368,991"/>
+<area shape="poly" id="edge4556_Node000000_Node000020" title=" " alt="" coords="54,625,55,688,67,772,78,817,95,860,117,901,146,936,161,948,180,957,177,962,159,953,142,940,112,904,90,862,73,818,61,773,50,688,48,625"/>
+<area shape="rect" id="Node000021" href="$structFoam_1_1is__vectorspace.html" title="Test for VectorSpace : default is false." alt="" coords="200,1015,347,1055"/>
+<area shape="poly" id="edge4557_Node000000_Node000021" title=" " alt="" coords="57,624,67,710,85,823,111,932,127,973,146,1001,171,1019,201,1029,199,1034,169,1024,142,1005,123,976,106,933,80,824,62,711,52,625"/>
+<area shape="rect" id="Node000022" href="$structFoam_1_1localInteractionModels_1_1parcelHasThermo.html" title=" " alt="" coords="161,1079,386,1119"/>
+<area shape="poly" id="edge4558_Node000000_Node000022" title=" " alt="" coords="56,624,64,721,80,854,92,921,107,982,125,1032,146,1066,162,1078,159,1083,142,1069,120,1034,102,984,87,922,75,855,59,722,51,624"/>
+<area shape="rect" id="Node000023" href="$structFoam_1_1pTraits__has__zero.html" title="Test for pTraits zero : default is false." alt="" coords="195,1143,352,1183"/>
+<area shape="poly" id="edge4559_Node000000_Node000023" title=" " alt="" coords="56,624,61,734,76,886,88,963,103,1033,123,1091,146,1130,168,1146,195,1156,193,1161,166,1151,142,1133,118,1093,98,1035,83,964,71,886,56,734,50,625"/>
+<area shape="rect" id="Node000024" href="$structFoam_1_1predicates_1_1never.html" title="Unary and binary predicates that never return true, useful for templating." alt="" coords="244,1208,303,1233"/>
+<area shape="poly" id="edge4560_Node000000_Node000024" title=" " alt="" coords="55,625,59,747,71,918,83,1005,99,1085,120,1150,132,1175,146,1193,167,1209,193,1217,244,1221,244,1226,192,1223,165,1214,142,1197,128,1178,115,1152,94,1086,78,1006,66,919,53,747,50,625"/>
+<area shape="rect" id="Node000004" href="$structFoam_1_1UPstream__basic__dataType_3_01void_01_4.html" title="Disallow void." alt="" coords="451,105,644,145"/>
+<area shape="poly" id="edge4540_Node000003_Node000004" title=" " alt="" coords="379,122,450,122,450,127,379,127"/>
+<area shape="rect" id="Node000005" href="$structFoam_1_1UPstream__dataType_3_01void_01_4.html" title="Disallow void." alt="" coords="692,105,855,145"/>
+<area shape="poly" id="edge4541_Node000004_Node000005" title=" " alt="" coords="658,122,692,122,692,127,658,127"/>
+</map>

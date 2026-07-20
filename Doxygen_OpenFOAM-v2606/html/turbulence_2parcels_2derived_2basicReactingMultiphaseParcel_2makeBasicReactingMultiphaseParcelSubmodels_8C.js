@@ -1,0 +1,5 @@
+var turbulence_2parcels_2derived_2basicReactingMultiphaseParcel_2makeBasicReactingMultiphaseParcelSubmodels_8C =
+[
+    [ "makeThermoParcelTurbulenceForces", "turbulence_2parcels_2derived_2basicReactingMultiphaseParcel_2makeBasicReactingMultiphaseParcelSubmodels_8C.html#ab32cf7b41e52003e57e1482308164c94", null ],
+    [ "makeParcelTurbulenceDispersionModels", "turbulence_2parcels_2derived_2basicReactingMultiphaseParcel_2makeBasicReactingMultiphaseParcelSubmodels_8C.html#aab64069c61101c980f425f1aa62c30ac", null ]
+];

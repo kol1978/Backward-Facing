@@ -1,0 +1,5 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2swarmCorrections_2swarmCorrection_2swarmCorrection_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2swarmCorrections_2swarmCorrection_2swarmCorrection_8C.html#a0a9dde0185a14bbd82a20a64da49974c", null ],
+    [ "defineRunTimeSelectionTable", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2swarmCorrections_2swarmCorrection_2swarmCorrection_8C.html#a22aabf49811ebeca7e9a0e6fb6d81d35", null ]
+];

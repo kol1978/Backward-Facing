@@ -1,0 +1,4 @@
+var regionFaModels_2liquidFilm_2subModels_2kinematic_2injectionModel_2injectionModel_2injectionModel_8H =
+[
+    [ "injectionModel", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1injectionModel.html", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1injectionModel" ]
+];

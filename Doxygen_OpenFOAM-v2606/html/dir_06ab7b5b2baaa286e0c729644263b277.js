@@ -1,0 +1,5 @@
+var dir_06ab7b5b2baaa286e0c729644263b277 =
+[
+    [ "GidaspowErgunWenYu.C", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C" ],
+    [ "GidaspowErgunWenYu.H", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8H.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8H" ]
+];

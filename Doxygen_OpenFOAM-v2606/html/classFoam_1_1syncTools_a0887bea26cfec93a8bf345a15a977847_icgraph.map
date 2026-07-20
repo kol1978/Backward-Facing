@@ -1,0 +1,29 @@
+<map id="swapBoundaryCellList" name="swapBoundaryCellList">
+<area shape="rect" id="Node000001" title="Extract and swap to obtain neighbour cell values for all boundary faces." alt="" coords="312,405,479,430"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1highAspectRatioFvGeometryScheme.html#a80a004b6b655af50f98569e8dcd60978" title="Calculate cell and face weight. Is 0 for cell &lt; minAspect, 1 for." alt="" coords="8,5,261,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,391,382,324,362,234,345,187,324,140,296,97,262,59,246,48,249,43,266,55,300,94,328,137,350,185,367,233,387,323,395,391"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1hexRef8.html#a11f117689e45448afaf2192041730bc8" title="Like consistentRefinement but slower:" alt="" coords="37,69,232,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="388,392,376,335,353,263,337,224,316,187,292,153,262,123,231,105,234,101,266,119,296,150,321,184,341,222,358,261,381,334,393,391"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1decompositionMethod.html#aaa4f750f148c325dc80c77de1fca41ed" title=" " alt="" coords="29,133,240,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="384,392,369,347,344,292,309,235,287,210,262,187,239,174,241,169,266,183,291,206,313,232,349,289,374,345,389,390"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1cellCellStencils_1_1cellVolumeWeight.html#a73aaee1c512e770e4555f6757e40063d" title="Find cells next to cells of type PATCH." alt="" coords="27,197,243,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="379,394,361,361,334,322,301,284,263,252,240,240,242,235,265,247,305,280,339,319,365,358,384,391"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#a73aaee1c512e770e4555f6757e40063d" title="Do flood filling to detect unreachable (from patches) sections." alt="" coords="33,261,237,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="370,396,323,355,294,334,263,316,234,304,236,299,265,311,297,329,326,351,373,392"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1cellCellStencil.html#ae7d08e47cf25c7ef71eb460dc6917782" title="Helper: create cell&#45;cell addressing in global numbering." alt="" coords="55,325,214,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="340,403,263,380,213,367,215,362,265,375,342,398"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#aa561c7471d917f8949cc20d88526dbdc" title="Make holes next to live ones type SPECIAL and include in interpolation stencil." alt="" coords="5,390,264,445"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="298,420,264,420,264,415,298,415"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1meshRefinement.html#a7dc436e8c04fafd4732806a903adc205" title="Mark faces on interface between set and rest." alt="" coords="46,469,223,509"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="340,437,265,459,215,472,214,467,263,453,339,431"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1oversetFvMeshBase.html#a174de860f22e3ca2e1d5bcefd84c3f60" title=" " alt="" coords="35,533,234,573"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="373,442,326,484,297,505,265,524,235,536,233,531,263,519,294,501,323,480,370,438"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1cellCellStencil.html#a53f2c701756d6421b68af8621c3aac8d" title="Set up front using allCellTypes." alt="" coords="55,597,214,637"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="384,444,365,477,339,516,305,555,265,588,241,600,215,609,213,604,239,595,263,583,301,551,334,512,361,474,379,441"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1syncTools.html#aaa18400d8687fb5adf2474bc9156c7fd" title="Return neighbour cell values for all boundary faces by swapping via boundary faces." alt="" coords="51,662,218,687"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="390,445,375,490,350,547,314,604,291,629,266,652,243,664,219,672,217,667,241,659,262,647,287,626,309,601,345,544,370,488,385,443"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1polyMeshTools.html#abe000db3f13ec8421e2f048ced6105bd" title="Generate volume ratio field." alt="" coords="53,712,216,752"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="392,444,379,498,356,568,339,604,319,639,294,672,266,701,243,715,217,725,215,720,240,711,262,697,290,669,314,636,334,602,351,566,374,497,387,443"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1meshRefinement.html#a1f1c1188912a376743fc8ac7ed82d1e5" title="Put faces/cells into zones according to surface specification." alt="" coords="46,776,223,816"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="395,444,386,509,365,596,349,642,327,687,299,729,266,766,246,779,225,789,223,784,244,775,262,762,295,726,322,685,344,640,360,594,381,508,390,443"/>
+</map>

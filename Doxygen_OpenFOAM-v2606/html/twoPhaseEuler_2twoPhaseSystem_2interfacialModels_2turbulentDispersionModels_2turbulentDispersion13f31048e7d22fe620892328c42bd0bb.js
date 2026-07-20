@@ -1,0 +1,5 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersion13f31048e7d22fe620892328c42bd0bb =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersion13f31048e7d22fe620892328c42bd0bb.html#a6f0ebb6b58170710c8b295c9c1ec12e2", null ],
+    [ "defineRunTimeSelectionTable", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersion13f31048e7d22fe620892328c42bd0bb.html#ae995f43ff498078a14cb44800ef3c931", null ]
+];

@@ -1,0 +1,25 @@
+<map id="write" name="write">
+<area shape="rect" id="Node000001" title="Write." alt="" coords="5,244,60,269"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="130,5,293,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,243,35,204,46,149,68,91,85,63,106,40,116,33,119,37,110,44,89,67,73,93,51,150,41,205,37,244"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="164,55,259,80"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="33,243,40,212,53,171,75,128,106,91,127,78,150,70,152,75,129,83,110,95,79,130,58,173,45,213,39,244"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Pstream.html#a259b97b53f23808359491e7f7dfbf45d" title="Forwards to Pstream::listGather with an in&#45;place cop." alt="" coords="108,105,315,145"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="38,243,64,200,83,175,106,155,115,149,118,153,110,159,87,179,68,203,42,245"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Pstream.html#a9cb47c1bb88743865be3a392c8c1f908" title="Reduce list elements (list must be equal size on all ranks), applying bop to each list element." alt="" coords="113,169,309,195"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="48,241,74,222,107,204,126,196,128,201,109,208,77,226,51,246"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="119,219,303,244"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="60,250,108,243,109,249,61,256"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="121,268,302,293"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="61,258,107,264,107,269,60,263"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="363,293,513,319"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="50,267,76,287,109,302,170,315,233,320,294,320,349,316,349,322,294,325,233,326,169,320,107,307,73,291,46,271"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="119,369,303,395"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="43,268,69,308,88,329,109,348,137,362,134,367,107,352,84,333,65,311,39,271"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="134,419,289,444"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="39,269,47,297,60,334,81,372,110,404,123,412,120,417,106,408,76,375,55,336,41,299,34,270"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a75556bf3a6366314fddd9b676c015084" title="Perform reduction on a copy, using specified binary operation." alt="" coords="135,468,288,493"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="37,269,42,306,54,356,75,409,91,433,110,453,124,463,121,467,106,457,86,436,71,411,49,357,37,307,32,270"/>
+<area shape="poly" id="edge7_Node000011_Node000012" title=" " alt="" coords="303,288,350,293,349,299,302,293"/>
+<area shape="poly" id="edge8_Node000012_Node000012" title=" " alt="" coords="401,295,393,285,397,275,413,269,438,267,470,271,482,280,479,284,468,275,438,272,414,274,401,279,398,284,405,291"/>
+</map>

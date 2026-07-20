@@ -1,0 +1,44 @@
+<map id="src/lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel" name="src/lagrangian/intermediate/submodels/Kinematic/PatchInteractionModel">
+<area shape="rect" id="node1" href="dir_2c52a1c2f0c7ead309c5b735cade1a7e.html" title="InjectionModel" alt="" coords="1327,136,1446,161"/>
+<area shape="rect" id="node3" href="dir_f98b12b4cb6891f140f4d00952de0b85.html" title="LocalInteraction" alt="" coords="719,63,846,88"/>
+<area shape="rect" id="node6" href="dir_fbe14706e92980c2567ab36ee0a0e449.html" title="PatchInteractionModel" alt="" coords="610,136,777,161"/>
+<area shape="poly" id="edge5" href="dir_002317_002910.html" alt="" coords="770,90,720,129,717,125,767,86"/>
+<area shape="rect" id="edge5-headlabel" href="dir_002317_002910.html" title="2" alt="" coords="723,124,732,138"/>
+<area shape="rect" id="node10" href="dir_2778d089ec5c4f66810b11f753867003.html" title="thermophysicalModels" alt="" coords="28,136,199,161"/>
+<area shape="poly" id="edge1" href="dir_002317_004115.html" alt="" coords="719,89,707,91,461,116,215,139,213,139,212,134,214,133,460,111,706,85,719,84"/>
+<area shape="rect" id="edge1-headlabel" href="dir_002317_004115.html" title="1" alt="" coords="213,137,222,151"/>
+<area shape="rect" id="node11" href="dir_9bd15774b555cf7259a6fa18f99fe99b.html" title="finiteVolume" alt="" coords="335,209,439,235"/>
+<area shape="poly" id="edge2" href="dir_002317_001422.html" alt="" coords="719,89,707,91,574,94,352,97,237,101,135,109,58,121,33,129,18,138,10,149,8,159,10,170,18,181,32,188,58,194,138,205,321,216,321,221,138,210,57,200,30,193,14,185,6,172,3,159,5,146,14,134,30,124,57,116,135,103,237,96,352,91,574,88,706,85,719,84"/>
+<area shape="rect" id="edge2-headlabel" href="dir_002317_001422.html" title="4" alt="" coords="312,203,321,217"/>
+<area shape="rect" id="node12" href="dir_ae30ad0bef50cf391b24c614251bb9fd.html" title="meshTools" alt="" coords="1471,136,1561,161"/>
+<area shape="poly" id="edge3" href="dir_002317_002452.html" alt="" coords="846,84,859,85,1026,100,1157,107,1289,114,1457,133,1456,138,1289,119,1157,112,1025,106,858,91,846,89"/>
+<area shape="rect" id="edge3-headlabel" href="dir_002317_002452.html" title="1" alt="" coords="1449,119,1458,134"/>
+<area shape="rect" id="node13" href="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html" title="OpenFOAM" alt="" coords="1551,209,1646,235"/>
+<area shape="poly" id="edge4" href="dir_002317_002774.html" alt="" coords="846,84,859,85,995,89,1222,94,1341,99,1447,106,1528,117,1557,125,1575,134,1587,147,1594,163,1601,195,1596,196,1589,164,1582,150,1572,138,1555,130,1527,123,1446,111,1340,104,1222,99,995,95,858,91,846,89"/>
+<area shape="rect" id="edge4-headlabel" href="dir_002317_002774.html" title="13" alt="" coords="1598,183,1615,198"/>
+<area shape="rect" id="node4" href="dir_44a5bd494037e31f2e1b6793c32bd01c.html" title="MultiInteraction" alt="" coords="367,63,492,88"/>
+<area shape="poly" id="edge6" href="dir_002549_002910.html" alt="" coords="472,85,638,130,636,135,471,91"/>
+<area shape="rect" id="edge6-headlabel" href="dir_002549_002910.html" title="1" alt="" coords="630,116,640,130"/>
+<area shape="rect" id="node5" href="dir_63c138d98b997f75ec7da21f2fba8da0.html" title="NoInteraction" alt="" coords="231,63,342,88"/>
+<area shape="poly" id="edge7" href="dir_002626_002910.html" alt="" coords="343,84,615,131,614,136,342,89"/>
+<area shape="rect" id="edge7-headlabel" href="dir_002626_002910.html" title="1" alt="" coords="607,117,616,132"/>
+<area shape="poly" id="edge8" href="dir_002910_001422.html" alt="" coords="645,164,450,209,449,204,643,159"/>
+<area shape="rect" id="edge8-headlabel" href="dir_002910_001422.html" title="2" alt="" coords="451,206,460,221"/>
+<area shape="poly" id="edge9" href="dir_002910_002774.html" alt="" coords="719,159,749,171,783,180,850,190,938,198,1153,209,1537,218,1537,223,1152,214,938,203,849,195,782,185,748,176,717,164"/>
+<area shape="rect" id="edge9-headlabel" href="dir_002910_002774.html" title="8" alt="" coords="1528,204,1537,219"/>
+<area shape="rect" id="node7" href="dir_af6f25dd17f1e434d49b52a581c1b215.html" title="Rebound" alt="" coords="870,63,949,88"/>
+<area shape="poly" id="edge10" href="dir_003339_002910.html" alt="" coords="875,91,742,134,740,129,874,85"/>
+<area shape="rect" id="edge10-headlabel" href="dir_003339_002910.html" title="1" alt="" coords="743,131,753,146"/>
+<area shape="rect" id="node8" href="dir_8bd594c2ad5640aae7c32165378bb01c.html" title="RecycleInteraction" alt="" coords="973,63,1115,88"/>
+<area shape="poly" id="edge11" href="dir_003347_001908.html" alt="" coords="1099,85,1318,131,1317,136,1098,91"/>
+<area shape="rect" id="edge11-headlabel" href="dir_003347_001908.html" title="1" alt="" coords="1310,117,1320,131"/>
+<area shape="poly" id="edge13" href="dir_003347_002910.html" alt="" coords="988,91,764,136,763,131,987,85"/>
+<area shape="rect" id="edge13-headlabel" href="dir_003347_002910.html" title="1" alt="" coords="765,133,774,148"/>
+<area shape="poly" id="edge12" href="dir_003347_002774.html" alt="" coords="1116,84,1128,85,1379,97,1533,110,1589,120,1607,126,1619,134,1627,149,1627,166,1616,198,1611,197,1622,166,1622,151,1615,138,1605,131,1587,125,1533,115,1379,102,1128,91,1115,89"/>
+<area shape="rect" id="edge12-headlabel" href="dir_003347_002774.html" title="2" alt="" coords="1618,191,1628,205"/>
+<area shape="rect" id="node9" href="dir_5fca7e26e4f71ea5a002f4f5623d2ac3.html" title="StandardWallInteraction" alt="" coords="516,63,695,88"/>
+<area shape="poly" id="edge14" href="dir_003835_002910.html" alt="" coords="621,86,670,125,666,129,618,90"/>
+<area shape="rect" id="edge14-headlabel" href="dir_003835_002910.html" title="1" alt="" coords="665,110,675,125"/>
+<area shape="rect" id="clust2" href="dir_cf43f87a8139bd03a012339b0f68c2d8.html" alt="" coords="220,52,1317,172"/>
+<area shape="rect" id="clust1" href="dir_280ce042c33ce1e00a1fb89491254772.html" title="Kinematic" alt="" coords="209,16,1456,183"/>
+</map>

@@ -1,0 +1,82 @@
+<map id="initialise" name="initialise">
+<area shape="rect" id="Node000001" title="Initialise." alt="" coords="5,884,84,909"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="428,1654,528,1680"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,909,53,1084,67,1370,78,1518,92,1648,111,1746,122,1779,134,1797,160,1817,186,1830,211,1836,236,1836,291,1823,353,1797,388,1775,418,1747,443,1717,461,1690,465,1693,447,1720,422,1751,392,1780,356,1801,293,1828,237,1841,210,1841,184,1835,157,1822,130,1801,117,1781,106,1748,87,1649,72,1518,61,1371,48,1085,44,910"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#a3ae5bcf46394d9e19c7e44d5d76c5940" title="Range of process indices for all processes." alt="" coords="149,62,338,88"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="44,883,51,728,67,477,79,348,93,233,110,146,120,116,130,97,135,92,139,96,134,101,124,118,115,147,99,234,84,349,73,478,56,729,49,884"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="162,112,325,137"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="44,883,52,736,69,501,81,380,95,273,111,192,120,164,130,147,148,133,151,137,134,150,125,166,116,193,100,274,86,381,74,502,57,736,49,883"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="170,161,317,186"/>
+<area shape="poly" id="edge4_Node000001_Node000009" title=" " alt="" coords="44,883,53,745,70,526,96,314,112,238,121,212,130,196,155,179,158,183,134,199,126,214,117,239,102,315,76,527,58,746,49,884"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPtrList.html#ad012611e5b1ceb9b9a3b23bbf3c19902" title="Return iterator beyond end of UPtrList traversal." alt="" coords="169,210,318,236"/>
+<area shape="poly" id="edge5_Node000001_Node000011" title=" " alt="" coords="43,883,44,763,52,570,62,469,78,375,100,298,114,268,130,245,154,228,157,233,134,249,119,271,105,300,83,376,68,470,58,571,49,763,48,883"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="601,748,696,773"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="50,909,59,975,75,1071,100,1163,116,1198,134,1220,162,1238,188,1250,213,1255,238,1255,291,1243,354,1219,423,1185,448,1166,470,1146,508,1096,551,1030,585,965,611,897,629,834,640,786,645,787,634,836,616,898,590,967,556,1032,513,1099,474,1150,452,1170,426,1189,356,1224,293,1248,239,1261,212,1261,186,1255,159,1243,130,1224,112,1200,95,1165,70,1072,53,976,45,909"/>
+<area shape="rect" id="Node000014" href="$multiphase_2twoPhaseEulerFoam_2pU_2pEqn_8H.html#a0fd6c680e7914ea17e626bbef00299f1" title=" " alt="" coords="224,309,263,334"/>
+<area shape="poly" id="edge7_Node000001_Node000014" title=" " alt="" coords="43,883,47,779,58,617,69,531,84,453,104,388,116,363,130,344,148,330,169,322,210,317,211,322,170,327,150,335,134,347,121,366,109,390,89,454,74,532,63,617,52,779,49,883"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1dictionary.html#a1846a52a734e28fd29097411f91f3128" title="Find and return a T. FatalIOError if not found, or if the number of tokens is incorrect." alt="" coords="164,358,323,384"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="44,883,48,787,61,639,72,562,87,491,106,433,117,410,130,393,150,379,153,383,134,397,122,413,111,435,92,493,77,563,66,640,53,787,49,883"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1dictionary.html#a65eb4a7f7d50c4021247b03acfccc328" title="Find and return a T, or return the given default value. FatalIOError if it is found and the number of..." alt="" coords="132,408,355,433"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="44,883,50,796,64,663,75,594,90,530,108,478,130,443,134,439,138,443,134,446,113,480,95,532,81,595,69,664,55,796,49,884"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a99115fd95d9b4146cdcfabe303e13fce" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="185,457,301,482"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="44,883,52,804,67,686,79,625,93,569,110,523,130,492,149,478,171,470,173,475,152,483,134,495,115,525,98,571,84,626,72,687,57,804,50,884"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1HashSet.html#a49f0753d9652681fc3a81f59951a0ad7" title="Insert a new entry, not overwriting existing entries." alt="" coords="161,506,326,532"/>
+<area shape="poly" id="edge11_Node000001_Node000018" title=" " alt="" coords="45,883,53,812,70,710,96,608,112,568,130,541,146,529,150,534,134,545,116,571,101,610,76,711,59,813,50,884"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1radiation_1_1viewFactor.html#af27511879508d3a477fafb425251277a" title="Insert view factors into main matrix." alt="" coords="162,556,325,581"/>
+<area shape="poly" id="edge12_Node000001_Node000020" title=" " alt="" coords="43,883,45,831,55,755,66,713,81,672,102,633,130,598,148,585,152,589,134,602,107,636,86,674,71,715,60,756,50,832,48,884"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1globalIndex.html#ab04560537563e5ca8d8e104dc5256e84" title="From local to global on proci." alt="" coords="403,574,553,614"/>
+<area shape="poly" id="edge37_Node000001_Node000021" title=" " alt="" coords="43,883,47,837,58,771,69,736,84,701,104,669,130,642,149,631,175,622,241,607,317,599,389,594,389,599,317,604,242,613,176,627,151,636,134,646,109,673,89,704,74,738,63,772,52,837,49,883"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="151,657,335,682"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="45,883,51,845,66,793,91,738,109,713,130,692,137,687,140,691,134,696,113,717,96,741,71,795,57,846,50,884"/>
+<area shape="rect" id="Node000024" href="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806" title="Find the max value in labelHashSet, optionally limited by second argument." alt="" coords="196,706,291,732"/>
+<area shape="poly" id="edge15_Node000001_Node000024" title=" " alt="" coords="47,883,56,853,73,815,97,775,130,741,155,728,182,720,183,725,157,733,134,745,101,778,78,817,61,855,52,884"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam.html#a96b65441175bbfb9a869045dc05fb0b9" title="Find the min value in labelHashSet, optionally limited by second argument." alt="" coords="198,756,289,781"/>
+<area shape="poly" id="edge16_Node000001_Node000025" title=" " alt="" coords="51,882,81,836,104,811,131,790,157,778,184,771,185,776,158,783,133,795,107,815,85,840,55,885"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="145,805,341,830"/>
+<area shape="poly" id="edge17_Node000001_Node000026" title=" " alt="" coords="61,881,92,860,131,839,152,832,154,837,133,844,95,864,64,886"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="141,854,346,880"/>
+<area shape="poly" id="edge18_Node000001_Node000027" title=" " alt="" coords="84,888,144,879,144,884,85,893"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1lduPrimitiveMesh.html#a9856d5e3d415f6c0261848570a110e61" title="Get non&#45;scheduled send/receive schedule." alt="" coords="153,904,333,944"/>
+<area shape="poly" id="edge19_Node000001_Node000028" title=" " alt="" coords="85,899,140,907,139,912,84,904"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="153,969,334,994"/>
+<area shape="poly" id="edge20_Node000001_Node000029" title=" " alt="" coords="62,907,94,931,133,954,157,963,155,968,131,959,91,936,59,911"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="403,994,553,1020"/>
+<area shape="poly" id="edge34_Node000001_Node000030" title=" " alt="" coords="54,908,82,957,105,983,133,1003,168,1017,204,1026,280,1033,351,1029,413,1020,414,1025,352,1035,279,1038,203,1031,166,1022,131,1008,102,987,78,960,49,911"/>
+<area shape="rect" id="Node000031" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="224,1070,263,1096"/>
+<area shape="poly" id="edge23_Node000001_Node000031" title=" " alt="" coords="52,908,62,938,78,976,102,1015,134,1049,152,1060,171,1068,211,1078,210,1083,170,1074,149,1065,130,1053,98,1018,74,978,57,940,47,910"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1dictionary.html#a32e06812ab7dedd7ffe59fc7d8102346" title="Find entry and assign to T val. FatalIOError if it is found and the number of tokens is incorrect,..." alt="" coords="143,1120,344,1145"/>
+<area shape="poly" id="edge24_Node000001_Node000032" title=" " alt="" coords="50,909,56,948,70,1002,95,1058,112,1084,134,1106,139,1110,136,1115,130,1110,108,1088,90,1061,65,1003,51,949,45,910"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1dictionary.html#a9dce338cb241a7e8c2c390292fee0a5f" title="Find an entry if present, and assign to T val. FatalIOError if it is found and the number of tokens i..." alt="" coords="155,1170,331,1210"/>
+<area shape="poly" id="edge25_Node000001_Node000036" title=" " alt="" coords="49,909,53,956,65,1022,75,1058,90,1094,109,1127,134,1156,145,1165,142,1169,130,1160,105,1130,85,1096,70,1060,60,1023,47,956,44,910"/>
+<area shape="rect" id="Node000037" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="423,260,533,285"/>
+<area shape="poly" id="edge26_Node000001_Node000037" title=" " alt="" coords="44,883,49,718,63,450,74,312,89,190,107,97,118,66,130,48,158,26,185,12,212,5,239,3,267,7,295,17,356,47,382,67,404,90,439,145,461,200,474,246,469,247,456,202,434,147,400,93,378,71,353,52,293,21,266,13,239,8,213,10,187,17,161,31,134,51,123,69,112,99,94,191,80,312,68,450,54,718,49,883"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1PtrList.html#ab27b26051dd40b55b225980ad0cb92cc" title="Set the addressed list to the given size, deleting all existing entries. Afterwards the list contains..." alt="" coords="151,1285,336,1310"/>
+<area shape="poly" id="edge28_Node000001_Node000042" title=" " alt="" coords="50,909,59,982,75,1089,101,1195,116,1236,134,1264,150,1277,147,1281,130,1267,112,1239,96,1196,70,1090,53,983,45,910"/>
+<area shape="rect" id="Node000044" href="$namespaceFoam.html#a75556bf3a6366314fddd9b676c015084" title="Perform reduction on a copy, using specified binary operation." alt="" coords="167,260,320,285"/>
+<area shape="poly" id="edge29_Node000001_Node000044" title=" " alt="" coords="43,883,45,771,55,593,66,500,81,414,102,343,115,315,130,294,152,279,155,283,134,298,120,318,107,345,86,415,71,501,60,594,50,771,49,883"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="176,1400,311,1425"/>
+<area shape="poly" id="edge31_Node000001_Node000045" title=" " alt="" coords="49,909,54,1003,67,1147,78,1222,93,1291,111,1348,134,1385,147,1396,164,1403,161,1408,145,1400,130,1389,106,1350,88,1293,73,1223,62,1148,49,1003,44,909"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1List.html#aa68912ca47c7eb6c1f7792a795102c49" title="Alias for resize()" alt="" coords="171,1449,315,1474"/>
+<area shape="poly" id="edge32_Node000001_Node000048" title=" " alt="" coords="49,909,52,1011,64,1171,75,1254,90,1331,109,1394,121,1418,134,1436,160,1453,157,1457,130,1440,116,1421,104,1396,84,1332,69,1255,59,1171,47,1012,43,909"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1HashTable.html#abc296a9a9358ca1777de98c15a4d7816" title="The number of elements in table." alt="" coords="160,1498,327,1524"/>
+<area shape="poly" id="edge33_Node000001_Node000050" title=" " alt="" coords="49,909,51,1020,61,1194,71,1286,87,1370,107,1439,120,1466,134,1485,149,1497,146,1501,130,1489,115,1468,102,1441,81,1371,66,1287,56,1195,45,1020,43,909"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1HashTable.html#a00e373a2c0d6161c4bcdc4453c1bb35e" title="The table of contents (the keys) in sorted order." alt="" coords="142,1548,345,1573"/>
+<area shape="poly" id="edge35_Node000001_Node000051" title=" " alt="" coords="48,909,49,1028,58,1217,68,1317,84,1409,105,1484,119,1513,134,1535,137,1538,133,1541,130,1538,114,1516,100,1486,79,1410,63,1318,53,1218,44,1028,43,909"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1dictionary.html#a2a39871f2c637ad85e794cf107ae37bd" title="Find and return a sub&#45;dictionary." alt="" coords="150,1597,337,1622"/>
+<area shape="poly" id="edge36_Node000001_Node000054" title=" " alt="" coords="48,909,48,1037,55,1241,65,1349,81,1448,104,1529,118,1561,134,1584,141,1590,137,1594,130,1587,113,1563,99,1531,76,1449,60,1349,50,1241,42,1037,43,909"/>
+<area shape="rect" id="Node000055" href="$classFoam_1_1globalIndex.html#a50478280896fde43ddfd71642691fef1" title="From global to local on proci." alt="" coords="168,1647,319,1687"/>
+<area shape="poly" id="edge38_Node000001_Node000055" title=" " alt="" coords="49,909,58,1054,75,1285,101,1510,117,1590,125,1617,134,1633,157,1651,154,1655,130,1637,121,1619,112,1592,96,1511,70,1286,52,1054,44,909"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1List.html#a12194004a66b30e6dfd3d9faa83f6b5a" title="Transfer the contents of the argument List into this list and annul the argument list." alt="" coords="169,1712,317,1737"/>
+<area shape="poly" id="edge40_Node000001_Node000056" title=" " alt="" coords="49,909,56,1065,73,1317,84,1447,99,1563,115,1651,124,1680,134,1697,158,1714,155,1718,130,1701,120,1682,110,1652,93,1564,79,1448,67,1318,51,1065,44,909"/>
+<area shape="rect" id="Node000058" href="$classFoam_1_1IOobject.html#a48b9a53e7714e526af3603a0502a83eb" title="Read header (respects is_globalIOobject trait) and check its info. A void type suppresses trait and t..." alt="" coords="132,1761,355,1786"/>
+<area shape="poly" id="edge41_Node000001_Node000058" title=" " alt="" coords="49,909,56,1074,71,1343,83,1481,97,1605,114,1698,124,1729,134,1748,137,1751,133,1754,130,1751,119,1732,109,1699,92,1605,77,1482,66,1343,50,1075,44,909"/>
+<area shape="rect" id="Node000061" href="$classFoam_1_1globalIndex.html#a9a078c678adb1cc2ead3219d2157d062" title="Which processor does global id come from? Checks proci first (assumed to occur reasonably frequently)..." alt="" coords="168,1335,319,1375"/>
+<area shape="poly" id="edge42_Node000001_Node000061" title=" " alt="" coords="49,909,56,992,72,1116,83,1181,97,1240,114,1289,134,1321,157,1338,154,1342,130,1325,109,1291,92,1241,78,1182,67,1117,51,992,44,909"/>
+<area shape="poly" id="edge13_Node000020_Node000021" title=" " alt="" coords="325,574,389,581,389,587,325,580"/>
+<area shape="poly" id="edge21_Node000029_Node000030" title=" " alt="" coords="335,989,389,995,389,1000,334,994"/>
+<area shape="poly" id="edge22_Node000030_Node000030" title=" " alt="" coords="449,996,443,986,447,976,459,970,478,968,501,971,511,980,508,984,499,976,478,973,460,975,451,980,449,985,454,993"/>
+<area shape="poly" id="edge27_Node000037_Node000012" title=" " alt="" coords="486,284,641,734,636,735,481,286"/>
+<area shape="poly" id="edge30_Node000044_Node000037" title=" " alt="" coords="321,270,409,270,409,275,321,275"/>
+<area shape="poly" id="edge39_Node000055_Node000002" title=" " alt="" coords="319,1664,414,1664,414,1670,319,1670"/>
+<area shape="poly" id="edge43_Node000061_Node000002" title=" " alt="" coords="320,1365,339,1374,356,1386,384,1415,407,1448,442,1519,464,1587,475,1640,470,1641,459,1589,437,1521,402,1451,380,1418,353,1390,337,1379,318,1370"/>
+</map>

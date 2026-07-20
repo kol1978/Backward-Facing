@@ -1,0 +1,4 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2wallLubricationModels_2TomiyamaWallLubrication_2TomiyamaWallLubrication_8H =
+[
+    [ "TomiyamaWallLubrication", "classFoam_1_1wallLubricationModels_1_1TomiyamaWallLubrication.html", "classFoam_1_1wallLubricationModels_1_1TomiyamaWallLubrication" ]
+];

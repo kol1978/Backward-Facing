@@ -1,0 +1,4 @@
+var regionModels_2surfaceFilmModels_2submodels_2thermo_2phaseChangeModel_2solidification_2solidification_8H =
+[
+    [ "solidification", "classFoam_1_1regionModels_1_1surfaceFilmModels_1_1solidification.html", "classFoam_1_1regionModels_1_1surfaceFilmModels_1_1solidification" ]
+];

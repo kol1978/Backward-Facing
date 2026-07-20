@@ -1,0 +1,28 @@
+<map id="determineSidePatches" name="determineSidePatches">
+<area shape="rect" id="Node000001" title="Helper: see what zones and patches edges should be extruded into." alt="" coords="5,245,172,270"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="473,9,707,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,244,105,205,131,151,168,97,192,72,219,52,250,36,284,23,354,8,424,3,488,5,488,10,424,8,355,13,285,28,252,41,221,57,195,76,172,100,135,154,110,207,96,245"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1addPatchCellLayer.html#a867b4b4d9eeb5d68fab13b864edeb60e" title="Determine extrude information per patch edge:" alt="" coords="229,104,416,144"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,242,153,203,219,160,247,147,249,152,221,165,156,208,106,247"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="543,63,637,89"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="93,243,109,210,136,167,173,124,195,105,219,90,258,73,299,62,383,52,463,53,529,61,529,67,462,59,383,57,300,67,259,78,221,94,198,109,176,127,140,170,114,213,98,245"/>
+<area shape="rect" id="Node000038" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="571,121,609,146"/>
+<area shape="poly" id="edge13_Node000001_Node000038" title=" " alt="" coords="130,242,219,216,411,169,557,137,558,142,412,175,221,221,132,247"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="515,202,665,227"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="172,248,501,219,501,225,173,253"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1fvMesh.html#ae89888638c9fc0f0fe4a94ddc62337c4" title="Clear all geometry and addressing." alt="" coords="234,270,411,295"/>
+<area shape="poly" id="edge8_Node000001_Node000044" title=" " alt="" coords="173,264,221,269,220,274,172,269"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="220,319,425,345"/>
+<area shape="poly" id="edge10_Node000001_Node000046" title=" " alt="" coords="120,268,221,305,249,313,248,319,219,310,119,273"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1processorPolyPatch.html#a8a1235ef8df3e256b667a312cd31cd9f" title="Return the name of a processorPolyPatch (&quot;procBoundary..&quot;) constructed from the pair of processor IDs..." alt="" coords="227,369,419,409"/>
+<area shape="poly" id="edge11_Node000001_Node000047" title=" " alt="" coords="105,268,154,310,187,334,221,355,236,362,233,367,219,360,184,339,151,314,102,272"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1primitiveMesh.html#aad20a227e963e21b706a9dfa3ab7e158" title="Number of mesh faces." alt="" coords="243,433,403,473"/>
+<area shape="poly" id="edge12_Node000001_Node000050" title=" " alt="" coords="99,269,144,340,179,382,222,419,231,425,229,430,218,423,176,386,140,343,94,272"/>
+<area shape="rect" id="Node000051" href="$namespaceFoam.html#a75556bf3a6366314fddd9b676c015084" title="Perform reduction on a copy, using specified binary operation." alt="" coords="246,498,399,523"/>
+<area shape="poly" id="edge14_Node000001_Node000051" title=" " alt="" coords="96,269,109,311,134,369,171,431,195,459,222,483,234,491,232,496,218,487,191,463,167,434,130,372,104,313,91,271"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="359,101,412,74,472,48,515,35,516,40,474,53,414,79,361,106"/>
+<area shape="poly" id="edge4_Node000003_Node000009" title=" " alt="" coords="416,105,529,84,530,89,417,110"/>
+<area shape="poly" id="edge5_Node000003_Node000038" title=" " alt="" coords="416,125,557,130,557,135,416,130"/>
+<area shape="poly" id="edge6_Node000003_Node000018" title=" " alt="" coords="384,142,539,195,537,200,382,147"/>
+<area shape="poly" id="edge7_Node000018_Node000018" title=" " alt="" coords="547,204,538,194,542,184,560,177,590,175,628,179,639,184,642,190,638,193,635,188,627,185,590,181,561,183,546,188,543,193,551,200"/>
+</map>

@@ -1,0 +1,5 @@
+var phaseSystemModels_2multiphaseEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2RanzMarshall_2RanzMarshall_8C =
+[
+    [ "defineTypeNameAndDebug", "phaseSystemModels_2multiphaseEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2RanzMarshall_2RanzMarshall_8C.html#ab33fc9eefdad118e64f14c973b1ac508", null ],
+    [ "addToRunTimeSelectionTable", "phaseSystemModels_2multiphaseEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2RanzMarshall_2RanzMarshall_8C.html#a81a2ba2a410ed927a98b0e3bbfef1374", null ]
+];

@@ -1,0 +1,55 @@
+<map id="topoSetCellSource" name="topoSetCellSource">
+<area shape="rect" id="Node000001" title="The topoSetCellSource is a intermediate class for handling topoSet sources for selecting cells." alt="" coords="169,597,311,623"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1badQualityToCell.html" title="Selects bad quality cells (using snappyHexMesh/cvMesh mesh quality selector)" alt="" coords="383,5,515,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,584,251,468,273,305,288,222,307,146,330,83,343,59,357,40,382,24,385,28,360,44,347,62,335,85,312,147,293,223,278,306,256,468,246,584"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1boundaryToCell.html" title="A topoSetCellSource to select all cells possessing at least a single face on all external boundaries." alt="" coords="388,55,511,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,583,253,476,276,328,292,253,310,184,332,128,357,90,371,79,387,72,389,76,374,83,361,93,337,131,315,186,297,254,281,329,259,476,246,583"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1boxToCell.html" title="A topoSetCellSource to select all cells whose cell centre inside given bounding box(es)." alt="" coords="407,104,492,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="242,584,255,486,279,353,295,285,313,224,334,173,357,139,380,124,406,116,407,121,382,128,361,143,338,176,318,226,300,287,284,354,261,487,247,584"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1cellToCell.html" title="A topoSetCellSource to select all the cells from given cellSet(s) or cellZone(s)." alt="" coords="407,153,491,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="238,584,240,507,245,456,254,400,269,343,290,287,319,234,357,188,380,173,406,166,408,171,382,178,360,192,324,237,295,289,274,345,260,401,250,456,245,507,243,584"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1clipPlaneToCell.html" title="A topoSetCellSource to select all cells whose cell centre is above the specified plane." alt="" coords="389,203,509,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="239,583,244,514,261,421,276,372,296,323,323,277,357,237,372,227,388,220,390,225,374,231,360,241,327,280,301,325,281,373,266,423,249,515,244,584"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1cylinderToCell.html" title="A topoSetCellSource to select all cells whose cell centre inside a given bounding cylinder or cylinde..." alt="" coords="393,252,506,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="240,584,248,523,267,443,282,401,302,359,326,320,357,287,373,276,391,268,393,273,376,280,360,291,331,324,306,362,287,403,272,444,254,524,246,584"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1faceToCell.html" title="A topoSetCellSource to select all cells based on usage in given faceSet(s), e.g. select cells that ar..." alt="" coords="405,301,494,327"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="242,583,253,531,274,464,308,395,330,364,357,336,379,323,404,315,405,320,381,327,360,340,334,367,312,398,279,466,258,532,248,584"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1faceZoneToCell.html" title="A topoSetCellSource to select cells based on front or back side of given faceZone(s)." alt="" coords="388,351,511,376"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="245,583,259,540,281,486,314,432,334,407,357,385,386,370,389,375,360,390,338,411,318,435,286,489,264,542,250,585"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1fieldToCell.html" title="A topoSetCellSource to select cells based on volScalarField values, i.e. select cells with given fiel..." alt="" coords="405,400,494,425"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="249,584,265,550,289,509,319,469,357,434,380,423,404,415,405,421,382,428,360,439,323,473,293,512,270,552,254,586"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1haloToCell.html" title="A topoSetCellSource to select cells attached to the outside of this cellSet, and add into/remove from..." alt="" coords="405,449,494,475"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="256,584,298,533,326,507,357,484,380,473,404,466,405,471,382,478,360,488,329,511,301,537,260,588"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1labelToCell.html" title="A topoSetCellSource to select cells based on explicitly given cell labels." alt="" coords="403,499,496,524"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="267,587,309,559,358,533,402,518,403,523,360,538,311,564,270,591"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1nbrToCell.html" title="A topoSetCellSource to select cells with N or less number of neighbouring cells (i...." alt="" coords="408,548,491,573"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="307,592,407,568,408,573,308,597"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1nearestToCell.html" title="A topoSetCellSource to select cells whose cell centre nearest to given points." alt="" coords="394,597,505,623"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="324,607,393,607,393,613,324,613"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1patchDistanceToCell.html" title="A topoSetCellSource to select cells whose geometric distance from one or more patches is within a use..." alt="" coords="372,647,527,672"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="308,623,395,644,394,649,307,628"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1patchToCell.html" title="A topoSetCellSource to select cells associated with given patch(es)." alt="" coords="401,696,498,721"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="270,629,311,656,360,682,401,696,399,701,358,687,309,661,267,633"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1pointToCell.html" title="A topoSetCellSource to select cells with any point or any edge within a given pointSet(s)." alt="" coords="402,745,497,771"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="260,632,301,683,329,709,360,732,403,748,401,753,357,736,326,713,298,687,256,636"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1regionToCell.html" title="A topoSetCellSource to select cells belonging to a topologically connected region (that contains give..." alt="" coords="398,795,501,820"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="254,634,270,668,293,708,323,747,360,781,379,791,399,798,397,803,376,796,357,786,319,751,289,711,265,670,249,636"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1regionsToCell.html" title="TopoSetSource. Select cells belonging to topological connected region (that contains given points)" alt="" coords="395,844,504,869"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="250,635,264,678,286,731,318,785,338,809,360,831,377,841,395,847,394,852,375,845,357,835,334,813,314,788,281,734,259,680,245,637"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1rotatedBoxToCell.html" title="A topoSetCellSource to select cells based on cell centres inside a given parallopiped (i...." alt="" coords="383,893,516,919"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="248,636,258,688,279,754,312,822,334,853,360,880,384,894,381,898,357,884,330,856,308,825,274,756,253,689,242,637"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1searchableSurfaceToCell.html" title="A topoSetCellSource to select cells whose cell centre enclosed by a given searchableSurface." alt="" coords="359,943,540,968"/>
+<area shape="poly" id="edge21_Node000001_Node000023" title=" " alt="" coords="246,636,254,696,272,776,287,817,306,858,331,896,360,929,377,940,374,945,357,933,326,900,302,861,282,819,267,777,248,697,240,636"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1shapeToCell.html" title="A topoSetCellSource to select cells based on the type of their cell shapes." alt="" coords="399,992,499,1017"/>
+<area shape="poly" id="edge22_Node000001_Node000024" title=" " alt="" coords="244,636,249,705,266,797,281,847,301,895,327,940,360,979,379,991,400,998,398,1003,376,996,357,983,323,943,296,897,276,848,261,799,244,706,239,637"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1sphereToCell.html" title="A topoSetCellSource to select cells based on cell centres inside a given bounding sphere." alt="" coords="397,1041,502,1067"/>
+<area shape="poly" id="edge23_Node000001_Node000025" title=" " alt="" coords="243,636,245,713,250,764,260,819,274,875,295,931,324,983,360,1028,377,1040,397,1047,396,1052,375,1045,357,1032,319,986,290,933,269,877,254,820,245,764,240,713,238,636"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1surfaceToCell.html" title="A topoSetCellSource to select cells based on relation to a surface given by an external file." alt="" coords="395,1091,504,1116"/>
+<area shape="poly" id="edge24_Node000001_Node000026" title=" " alt="" coords="247,636,261,733,284,866,300,933,318,994,338,1044,361,1077,376,1089,395,1096,394,1101,374,1094,357,1081,334,1047,313,996,295,935,279,867,255,734,242,636"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1targetVolumeToCell.html" title="A topoSetCellSource to select cells based on a target volume of cells. Adapts a plane until it has en..." alt="" coords="375,1140,524,1165"/>
+<area shape="poly" id="edge25_Node000001_Node000027" title=" " alt="" coords="246,637,259,744,281,891,297,966,315,1034,337,1089,361,1127,376,1138,373,1143,357,1130,332,1092,310,1036,292,967,276,892,253,744,241,637"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1zoneToCell.html" title="A topoSetCellSource to convert cellZone(s) to a cellSet." alt="" coords="403,1189,495,1215"/>
+<area shape="poly" id="edge26_Node000001_Node000028" title=" " alt="" coords="246,636,256,752,278,914,293,997,312,1073,335,1135,347,1158,361,1176,380,1190,404,1197,402,1202,378,1195,357,1180,343,1161,330,1137,307,1074,288,998,273,915,251,752,241,636"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1topoSetSource.html" title="Base class of a source for a topoSet." alt="" coords="5,597,121,623"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,607,169,607,169,613,135,613"/>
+</map>

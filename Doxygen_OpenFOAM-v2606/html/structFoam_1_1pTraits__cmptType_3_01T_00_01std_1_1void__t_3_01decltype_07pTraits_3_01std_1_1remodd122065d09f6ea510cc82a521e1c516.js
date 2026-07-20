@@ -1,0 +1,4 @@
+var structFoam_1_1pTraits__cmptType_3_01T_00_01std_1_1void__t_3_01decltype_07pTraits_3_01std_1_1remodd122065d09f6ea510cc82a521e1c516 =
+[
+    [ "type", "structFoam_1_1pTraits__cmptType_3_01T_00_01std_1_1void__t_3_01decltype_07pTraits_3_01std_1_1remodd122065d09f6ea510cc82a521e1c516.html#a2f28d7bb826c1fe963a205a1ec0ef2e8", null ]
+];

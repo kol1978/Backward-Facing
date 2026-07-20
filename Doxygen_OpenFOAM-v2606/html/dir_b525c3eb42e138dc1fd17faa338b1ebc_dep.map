@@ -1,0 +1,35 @@
+<map id="src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel" name="src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel">
+<area shape="rect" id="node1" href="dir_7a64a49595d49a3f5da22def7eeac7d7.html" title="absorptionEmissionModel" alt="" coords="779,136,970,161"/>
+<area shape="rect" id="node3" href="dir_36c118fcbe73999a0ac43068e3e47dae.html" title="constantAbsorption" alt="" coords="37,63,185,88"/>
+<area shape="rect" id="node6" href="dir_bb9656656dad53dce946416d26f2bcdd.html" title="wallAbsorptionEmissionModel" alt="" coords="261,136,480,161"/>
+<area shape="poly" id="edge1" href="dir_000629_004440.html" alt="" coords="153,85,316,130,315,135,152,91"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000629_004440.html" title="1" alt="" coords="309,116,318,130"/>
+<area shape="rect" id="node10" href="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html" title="OpenFOAM" alt="" coords="986,209,1081,235"/>
+<area shape="poly" id="edge2" href="dir_000629_002774.html" alt="" coords="185,84,198,85,347,90,597,95,845,107,935,118,967,125,988,134,1003,146,1015,162,1029,195,1024,197,1010,165,999,150,985,138,966,130,935,123,844,113,597,100,347,95,197,91,185,89"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000629_002774.html" title="2" alt="" coords="1029,182,1038,196"/>
+<area shape="rect" id="node4" href="dir_67c617af042153db1b026c21ef707c1a.html" title="multiBandAbsorption" alt="" coords="209,63,367,88"/>
+<area shape="poly" id="edge3" href="dir_002537_004440.html" alt="" coords="303,86,348,125,345,129,300,90"/>
+<area shape="rect" id="edge3-headlabel" href="dir_002537_004440.html" title="1" alt="" coords="344,110,354,125"/>
+<area shape="poly" id="edge4" href="dir_002537_002774.html" alt="" coords="368,84,380,85,504,89,711,93,819,98,914,105,988,117,1013,125,1028,134,1038,148,1042,164,1042,195,1037,195,1037,165,1033,150,1025,138,1011,130,987,122,914,111,818,103,711,98,504,94,380,91,367,89"/>
+<area shape="rect" id="edge4-headlabel" href="dir_002537_002774.html" title="1" alt="" coords="1044,185,1053,200"/>
+<area shape="rect" id="node5" href="dir_feb59434720a6318ac80f4c077cf9673.html" title="solidAbsorption" alt="" coords="392,63,515,88"/>
+<area shape="poly" id="edge6" href="dir_003707_000012.html" alt="" coords="515,84,794,131,793,136,515,90"/>
+<area shape="rect" id="edge6-headlabel" href="dir_003707_000012.html" title="1" alt="" coords="786,117,795,132"/>
+<area shape="poly" id="edge9" href="dir_003707_004440.html" alt="" coords="442,90,396,129,393,125,438,86"/>
+<area shape="rect" id="edge9-headlabel" href="dir_003707_004440.html" title="1" alt="" coords="399,123,408,138"/>
+<area shape="rect" id="node7" href="dir_23cbc874b5ea49089939faa93b6f03ce.html" title="radiationModels" alt="" coords="1097,136,1223,161"/>
+<area shape="poly" id="edge5" href="dir_003707_003255.html" alt="" coords="515,84,527,85,682,101,802,110,923,118,1078,133,1083,134,1082,139,1077,139,922,124,802,115,681,107,526,91,515,89"/>
+<area shape="rect" id="edge5-headlabel" href="dir_003707_003255.html" title="1" alt="" coords="1075,120,1084,135"/>
+<area shape="rect" id="node8" href="dir_9bd15774b555cf7259a6fa18f99fe99b.html" title="finiteVolume" alt="" coords="1248,136,1352,161"/>
+<area shape="poly" id="edge7" href="dir_003707_001422.html" alt="" coords="515,84,527,85,724,102,879,108,1035,115,1234,133,1234,139,1034,120,879,113,723,107,526,91,515,89"/>
+<area shape="rect" id="edge7-headlabel" href="dir_003707_001422.html" title="1" alt="" coords="1226,120,1235,134"/>
+<area shape="rect" id="node9" href="dir_ae30ad0bef50cf391b24c614251bb9fd.html" title="meshTools" alt="" coords="1376,136,1467,161"/>
+<area shape="poly" id="edge8" href="dir_003707_002452.html" alt="" coords="515,84,527,85,653,97,760,103,943,107,1127,112,1235,120,1363,133,1362,139,1235,125,1127,117,943,112,760,108,652,102,526,91,515,89"/>
+<area shape="rect" id="edge8-headlabel" href="dir_003707_002452.html" title="1" alt="" coords="1354,120,1363,134"/>
+<area shape="poly" id="edge10" href="dir_003707_002774.html" alt="" coords="515,84,527,85,1009,97,1322,110,1430,120,1463,127,1480,134,1489,146,1492,159,1489,172,1480,185,1460,195,1425,203,1321,214,1094,223,1094,217,1320,208,1424,197,1459,190,1477,181,1484,170,1487,159,1484,149,1477,138,1462,132,1429,126,1322,116,1009,102,526,91,515,89"/>
+<area shape="rect" id="edge10-headlabel" href="dir_003707_002774.html" title="1" alt="" coords="1094,221,1104,236"/>
+<area shape="poly" id="edge11" href="dir_004440_002774.html" alt="" coords="405,159,486,180,621,199,756,210,972,218,972,223,756,215,620,204,485,185,403,164"/>
+<area shape="rect" id="edge11-headlabel" href="dir_004440_002774.html" title="6" alt="" coords="963,205,972,219"/>
+<area shape="rect" id="clust2" href="dir_b525c3eb42e138dc1fd17faa338b1ebc.html" alt="" coords="27,52,768,172"/>
+<area shape="rect" id="clust1" href="dir_e8719ccd60760366888bb431a21ef811.html" title="submodels" alt="" coords="16,16,981,183"/>
+</map>

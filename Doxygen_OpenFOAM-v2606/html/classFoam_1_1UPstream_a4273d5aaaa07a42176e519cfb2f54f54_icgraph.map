@@ -1,0 +1,14 @@
+<map id="mpiAllReduce" name="mpiAllReduce">
+<area shape="rect" id="Node000001" title="MPI_Allreduce (blocking) for known operators." alt="" coords="355,105,467,131"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a19fe91cb09d9de298e16d9645b556230" title="Reduce inplace (Allreduce) for MinMax with sum/plus semantics, which corresponds to op_min on the min..." alt="" coords="196,5,307,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,99,346,71,305,44,283,33,286,28,308,40,350,67,385,94"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="196,55,307,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="356,104,291,83,293,78,358,99"/>
+<area shape="rect" id="Node000393" href="$namespaceFoam.html#ac830534aaef249baf918f2220b22cea6" title="Reduce inplace (cf. MPI Allreduce) the sum of value and counter (eg, for averaging)" alt="" coords="5,80,148,105"/>
+<area shape="poly" id="edge6_Node000001_Node000393" title=" " alt="" coords="341,115,148,101,149,95,341,110"/>
+<area shape="rect" id="Node000517" href="$namespaceFoam.html#aff71cd91dff791dbc3bd42d9644799c2" title="Reduce inplace (cf. MPI Allreduce) multiple values (same size on all ranks!)" alt="" coords="196,156,307,181"/>
+<area shape="poly" id="edge4_Node000001_Node000517" title=" " alt="" coords="358,137,293,158,291,153,356,132"/>
+<area shape="rect" id="Node000518" href="$namespaceFoam.html#a53a1050afa16d26809050b501964a82b" title="Non&#45;blocking reduce inplace (cf. MPI Iallreduce) multiple values. Sets request." alt="" coords="196,205,307,231"/>
+<area shape="poly" id="edge5_Node000001_Node000518" title=" " alt="" coords="384,142,308,195,284,208,281,203,305,190,381,137"/>
+<area shape="poly" id="edge3_Node000003_Node000393" title=" " alt="" coords="183,80,149,85,148,80,182,75"/>
+</map>

@@ -1,0 +1,4 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2derivedFvPatchFields_2Johcb564e6c221c253e08badecd67e8ae04 =
+[
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField" ]
+];

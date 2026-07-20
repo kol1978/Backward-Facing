@@ -1,0 +1,37 @@
+<map id="powerLawLopesdaCostaZone" name="powerLawLopesdaCostaZone">
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,345,217,371"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="322,5,422,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,345,125,289,152,206,172,161,197,116,227,75,264,40,285,28,308,20,309,25,287,32,267,44,231,79,201,119,176,163,157,208,130,290,117,346"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Pstream.html#a3fb553e6d728b81df364d351a6ce2b14" title="Gather data, but keep individual values separate. Uses MPI_Allgather or manual communication." alt="" coords="267,55,477,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="114,344,131,297,161,231,205,159,232,126,264,97,288,83,291,88,267,101,236,130,209,162,165,233,136,299,119,346"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1ZoneMesh.html#a13d1a124b375b062a1c226196db8b486" title="Find zone index by name, return &#45;1 if not found." alt="" coords="265,156,479,181"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="118,344,140,312,172,270,215,227,264,190,277,184,279,189,267,195,218,231,177,274,144,315,123,347"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="533,181,683,207"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="115,344,132,302,162,245,182,215,206,186,233,161,264,141,304,126,346,119,389,120,432,125,510,147,571,173,569,178,509,152,431,131,389,125,347,125,305,131,267,146,236,165,210,190,186,218,166,248,136,304,119,346"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1dictionary.html#a1846a52a734e28fd29097411f91f3128" title="Find and return a T. FatalIOError if not found, or if the number of tokens is incorrect." alt="" coords="293,421,451,447"/>
+<area shape="poly" id="edge6_Node000001_Node000013" title=" " alt="" coords="157,368,315,415,314,420,155,373"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1PointIndexHit.html#a962a79dda5456b65538fa10bba8f34cd" title="Is there a hit?" alt="" coords="283,471,461,496"/>
+<area shape="poly" id="edge7_Node000001_Node000014" title=" " alt="" coords="130,369,188,412,226,436,266,457,286,464,284,469,264,462,223,441,185,417,126,373"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="269,520,475,545"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="124,369,179,435,220,474,267,506,281,513,279,518,264,511,217,478,175,439,120,373"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="281,205,463,231"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="124,343,182,293,221,265,264,241,286,232,288,237,266,246,224,270,185,298,127,347"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="280,569,464,595"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="121,370,140,407,172,458,214,511,239,535,267,556,277,562,275,566,264,560,236,539,210,515,167,461,135,409,116,372"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1PointIndexHit.html#ad64065ec46c7b242df37036830443e63" title="Return point, no checks." alt="" coords="295,619,449,659"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="119,370,136,415,167,479,210,547,237,578,267,605,283,616,281,620,264,609,233,582,206,550,162,481,132,417,114,372"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="305,684,439,709"/>
+<area shape="poly" id="edge13_Node000001_Node000019" title=" " alt="" coords="118,371,130,426,157,507,177,552,202,595,232,635,267,669,293,683,290,688,264,673,228,638,198,598,173,554,153,509,125,428,112,372"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1PtrList.html#a1a7984b90f8855606fc18a92a71fa99f" title="Same as resize()" alt="" coords="527,292,689,317"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="217,344,512,312,513,317,218,349"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1List.html#aa68912ca47c7eb6c1f7792a795102c49" title="Alias for resize()" alt="" coords="536,341,680,367"/>
+<area shape="poly" id="edge15_Node000001_Node000026" title=" " alt="" coords="217,354,522,352,522,357,217,360"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1triSurfaceTools.html#a1c5c4d20bd544046f1b3a4e9b976a60d" title="Simple triangulation of (selected patches of) boundaryMesh. Needs." alt="" coords="291,255,453,295"/>
+<area shape="poly" id="edge17_Node000001_Node000028" title=" " alt="" coords="152,343,294,297,296,302,153,348"/>
+<area shape="poly" id="edge4_Node000005_Node000012" title=" " alt="" coords="479,177,519,182,519,187,478,183"/>
+<area shape="poly" id="edge5_Node000012_Node000012" title=" " alt="" coords="570,183,562,173,566,163,582,157,608,155,641,159,654,168,650,172,639,163,608,160,583,162,569,167,567,172,574,179"/>
+<area shape="poly" id="edge10_Node000016_Node000012" title=" " alt="" coords="463,206,518,200,519,206,463,211"/>
+<area shape="poly" id="edge20_Node000028_Node000012" title=" " alt="" coords="438,253,478,239,561,209,563,214,480,245,440,258"/>
+<area shape="poly" id="edge18_Node000028_Node000022" title=" " alt="" coords="454,283,513,290,513,296,453,288"/>
+<area shape="poly" id="edge19_Node000028_Node000026" title=" " alt="" coords="431,293,528,326,554,335,552,340,526,331,429,298"/>
+</map>

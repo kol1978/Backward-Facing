@@ -1,0 +1,36 @@
+var classFoam_1_1searchableSphere =
+[
+    [ "shapeType", "classFoam_1_1searchableSphere.html#adaf8377a65ee7b5088a51bdbcb845c73", [
+      [ "SPHERE", "classFoam_1_1searchableSphere.html#adaf8377a65ee7b5088a51bdbcb845c73aae4f0962d104ea473feec5598689316d", null ],
+      [ "OBLATE", "classFoam_1_1searchableSphere.html#adaf8377a65ee7b5088a51bdbcb845c73abd33bfadf11519b3e7ac29fd13263b8a", null ],
+      [ "PROLATE", "classFoam_1_1searchableSphere.html#adaf8377a65ee7b5088a51bdbcb845c73a3fad5396c55bf140bc6d343740fe60dd", null ],
+      [ "GENERAL", "classFoam_1_1searchableSphere.html#adaf8377a65ee7b5088a51bdbcb845c73aa965658e6a84d5502df1c1987b0a8466", null ]
+    ] ],
+    [ "searchableSphere", "classFoam_1_1searchableSphere.html#afb29cda9de455e25be3141367dc4e47f", null ],
+    [ "searchableSphere", "classFoam_1_1searchableSphere.html#a6b9a91c1b9b23f503214be506ba7361f", null ],
+    [ "searchableSphere", "classFoam_1_1searchableSphere.html#a36d8404caba5b4c2dc7d8e19c24a1bd9", null ],
+    [ "~searchableSphere", "classFoam_1_1searchableSphere.html#a7cfad8441979ad1e182fb2e604620cc8", null ],
+    [ "TypeName", "classFoam_1_1searchableSphere.html#a0704d05456fa30feee51dc7c106bb4d2", null ],
+    [ "centre", "classFoam_1_1searchableSphere.html#a7e6ebd44f3fe78347b7b9d5d7f73a46e", null ],
+    [ "radius", "classFoam_1_1searchableSphere.html#a997618691d1b3b5c0f3b827f1d6429ae", null ],
+    [ "radii", "classFoam_1_1searchableSphere.html#a0fbf37960ff55f98cc9fa525d7231c62", null ],
+    [ "shape", "classFoam_1_1searchableSphere.html#a7ac71290721cfb0a504b315386f5432f", null ],
+    [ "surfacePoint", "classFoam_1_1searchableSphere.html#ad1ca9841b42ecbbdbcef839a32e7c024", null ],
+    [ "surfaceNormal", "classFoam_1_1searchableSphere.html#a65079c48aa0d6317e5bcb934afc2db06", null ],
+    [ "regions", "classFoam_1_1searchableSphere.html#ab9fb56ec22f93cbc341f0b051e83f872", null ],
+    [ "hasVolumeType", "classFoam_1_1searchableSphere.html#ae5781b05a933dbf11f448346b8099bee", null ],
+    [ "outsideVolumeType", "classFoam_1_1searchableSphere.html#aa61d4542990e34d549e5064464fc885e", null ],
+    [ "size", "classFoam_1_1searchableSphere.html#a03bc1200aac252c4d3e18657d700b71c", null ],
+    [ "coordinates", "classFoam_1_1searchableSphere.html#a8588425fa7c02f0d31cd313487bc58bf", null ],
+    [ "boundingSpheres", "classFoam_1_1searchableSphere.html#a4f9baf018af105a4cd6d9c008d4d04ec", null ],
+    [ "points", "classFoam_1_1searchableSphere.html#a9fb42cee589871fe4ed6bdebb9706448", null ],
+    [ "overlaps", "classFoam_1_1searchableSphere.html#a3551e1f2a2837eb8b79493199f8e89f8", null ],
+    [ "findNearest", "classFoam_1_1searchableSphere.html#ac968e745f1a4294205a3cf4936755409", null ],
+    [ "findLine", "classFoam_1_1searchableSphere.html#a2a363a8584a3ae8109cce2aaf6436e3f", null ],
+    [ "findLineAny", "classFoam_1_1searchableSphere.html#a3cb961eda9c4705631ac1b5b1ca29b97", null ],
+    [ "findLineAll", "classFoam_1_1searchableSphere.html#a32c00098bc496f0cc93bf1aebc19ee49", null ],
+    [ "getRegion", "classFoam_1_1searchableSphere.html#ab2bcdcc4dd1bdb5a9e1d1025292bdf24", null ],
+    [ "getNormal", "classFoam_1_1searchableSphere.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48", null ],
+    [ "getVolumeType", "classFoam_1_1searchableSphere.html#a55bd4a6ef4e6a1044d9467dffb853a40", null ],
+    [ "writeData", "classFoam_1_1searchableSphere.html#a25900c366cb0a98321899fde6c66dab7", null ]
+];

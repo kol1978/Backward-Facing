@@ -1,0 +1,4 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2constantTurbulent4adfe5cb2ccafb7e8b388eb982c375ac =
+[
+    [ "constantTurbulentDispersionCoefficient", "classFoam_1_1turbulentDispersionModels_1_1constantTurbulentDispersionCoefficient.html", "classFoam_1_1turbulentDispersionModels_1_1constantTurbulentDispersionCoefficient" ]
+];

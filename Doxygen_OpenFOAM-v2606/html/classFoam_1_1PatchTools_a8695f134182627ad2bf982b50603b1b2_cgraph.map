@@ -1,0 +1,35 @@
+<map id="gatherAndMerge" name="gatherAndMerge">
+<area shape="rect" id="Node000001" title="Gather points and faces onto master and merge into single patch." alt="" coords="5,384,136,409"/>
+<area shape="rect" id="Node000002" href="$readKivaGrid_8H.html#a888be93833ac7a23170555c69c690288" title=" " alt="" coords="262,5,301,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,384,73,322,87,231,101,180,121,129,148,82,182,41,197,31,214,23,248,16,249,21,216,28,200,35,186,45,152,85,126,132,106,181,92,232,78,323,75,384"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1globalIndex.html#a336d7be0fa864ff1a3509e54e485a779" title="Collect data in processor order on master (== procIDs[0])." alt="" coords="206,55,357,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="71,383,78,332,96,258,111,217,129,177,153,139,182,105,193,97,196,101,186,109,157,142,134,179,116,219,101,259,83,333,76,384"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a99115fd95d9b4146cdcfabe303e13fce" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="223,120,339,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="71,383,81,340,101,278,134,211,156,181,182,155,209,140,212,145,186,159,160,184,138,214,106,280,86,341,77,384"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam.html#ace9d5a41dc4c56fe2174f7a3ec38a9b9" title="Inplace merge points, preserving the original point order. All points closer/equal mergeTol are to be..." alt="" coords="184,169,379,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="73,383,86,347,108,298,140,247,160,224,182,204,190,199,193,203,186,208,163,228,144,251,112,301,91,349,78,384"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#a16337b512fc31dd510d929a789207d87" title="Inplace renumber the values within a list." alt="" coords="191,219,371,244"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="77,382,117,324,147,291,183,261,211,246,213,251,185,266,151,294,121,328,82,385"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="427,244,577,269"/>
+<area shape="poly" id="edge15_Node000001_Node000007" title=" " alt="" coords="82,382,124,343,152,322,183,305,241,284,301,270,413,256,413,261,302,275,242,289,185,310,155,327,127,347,85,386"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1globalIndex.html#a67c5327428f6b4947217a1a89af3f619" title="From local to global index on proci (inplace)" alt="" coords="206,319,357,359"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="117,381,194,360,195,366,119,387"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="189,384,373,409"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="136,394,176,394,176,399,136,399"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#ad427c7fc68269a3b86e6fcabfe999fb4" title="True if ptr is not a pointer (of type T) to the nullObject." alt="" coords="225,433,338,459"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="126,407,214,428,213,433,125,412"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="189,483,373,508"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="89,407,131,437,185,468,207,476,206,481,183,472,128,442,86,412"/>
+<area shape="rect" id="Node000013" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="262,532,301,557"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="82,408,122,461,152,492,185,517,217,531,249,538,247,544,215,536,183,522,148,496,118,465,78,411"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1globalIndex.html#a7b39f3069d06cb733d40066520e696af" title="Return start/size range of proci data." alt="" coords="206,582,357,622"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="79,408,93,440,116,483,147,528,186,567,195,573,192,578,182,571,143,531,111,486,89,443,74,411"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1globalIndex.html#ad38df08ffb3ae8d670abb811ff38cc21" title="Reset from local size, using gather/broadcast with default/specified communicator if parallel." alt="" coords="206,646,357,686"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="77,409,87,452,108,512,140,576,161,606,186,632,196,639,192,644,182,636,157,609,135,579,103,514,82,453,72,410"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1globalIndex.html#a88c8f619ee7fb282189feff3ee234e26" title="Range of process indices for addressed sub&#45;offsets (processes)" alt="" coords="206,710,357,750"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="76,409,82,462,100,539,114,581,133,623,157,662,186,696,196,704,193,708,182,700,152,665,128,625,109,583,95,540,77,463,70,410"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1List.html#a12194004a66b30e6dfd3d9faa83f6b5a" title="Transfer the contents of the argument List into this list and annul the argument list." alt="" coords="207,775,355,800"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="74,409,77,472,91,567,105,619,124,670,151,718,186,760,197,769,194,773,182,764,147,721,119,673,99,620,86,568,72,473,69,410"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="372,239,413,244,413,249,371,244"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="466,246,459,236,463,226,477,220,502,217,532,221,544,230,541,234,530,226,502,223,479,225,466,230,464,235,470,242"/>
+</map>

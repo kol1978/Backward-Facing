@@ -1,0 +1,20 @@
+<map id="setUpCommforZone" name="setUpCommforZone">
+<area shape="rect" id="Node000001" title="Update stencil with boolList the size has to match mesh nCells." alt="" coords="5,215,160,240"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="237,5,384,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,214,101,179,126,131,161,82,183,59,207,40,223,31,226,35,209,44,186,63,165,85,131,134,106,181,91,216"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="227,79,394,104"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="92,212,138,164,171,136,207,113,222,106,224,111,209,118,174,140,142,168,96,216"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="208,128,413,153"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="105,212,151,188,207,164,235,154,237,159,209,168,154,193,107,217"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1zoneCellStencils.html#a415268cf069c0503650c8ec1dd607f0e" title=" " alt="" coords="224,178,397,218"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="160,215,210,208,211,214,161,220"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1zoneCPCStencil.html#a87dcf6b12cf731f9459146b65b396cf7" title=" " alt="" coords="209,243,413,268"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,234,195,238,195,244,160,239"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="220,292,401,317"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="112,238,209,277,240,286,238,291,207,282,110,243"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="219,341,403,367"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="98,238,144,282,175,306,209,326,229,335,227,339,207,331,172,310,140,286,94,242"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1zoneCellStencils.html#a4d1805cbcb2cb5a5c46b60efd7f64c85" title=" " alt="" coords="224,391,397,431"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="93,239,137,304,170,343,210,376,222,383,219,388,206,380,167,346,133,307,89,242"/>
+<area shape="poly" id="edge3_Node000004_Node000004" title=" " alt="" coords="274,80,266,70,270,60,285,54,311,52,343,56,355,65,351,69,341,61,311,57,286,59,274,64,271,70,278,77"/>
+</map>

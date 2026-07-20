@@ -1,0 +1,5 @@
+var dir_b6bc47bee63df933bc899e32afa6f306 =
+[
+    [ "frictionalStressModel.C", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_af0c784f4534f491e4017e3456f39388.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_af0c784f4534f491e4017e3456f39388" ],
+    [ "frictionalStressModel.H", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_620d6ed07b7315f50e5189531e135cd5.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_620d6ed07b7315f50e5189531e135cd5" ]
+];

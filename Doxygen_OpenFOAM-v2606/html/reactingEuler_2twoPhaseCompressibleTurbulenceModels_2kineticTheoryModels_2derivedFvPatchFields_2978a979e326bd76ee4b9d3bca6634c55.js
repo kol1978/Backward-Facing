@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2derivedFvPatchFields_2978a979e326bd76ee4b9d3bca6634c55 =
+[
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField.html", "classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField" ]
+];

@@ -1,0 +1,6 @@
+var src_2phaseSystemModels_2reactingEuler_2multiphaseSystem_2derivedFvPatchFields_2alphaContactAnglee13f421446f31fcb900e1aed5f4b43fb =
+[
+    [ "operator>>", "src_2phaseSystemModels_2reactingEuler_2multiphaseSystem_2derivedFvPatchFields_2alphaContactAnglee13f421446f31fcb900e1aed5f4b43fb.html#a8d213f03084075bb5bf4e2bec21dd4b2", null ],
+    [ "operator<<", "src_2phaseSystemModels_2reactingEuler_2multiphaseSystem_2derivedFvPatchFields_2alphaContactAnglee13f421446f31fcb900e1aed5f4b43fb.html#a539f0daea9d5f931e77121eb6d1f79e3", null ],
+    [ "makePatchTypeField", "src_2phaseSystemModels_2reactingEuler_2multiphaseSystem_2derivedFvPatchFields_2alphaContactAnglee13f421446f31fcb900e1aed5f4b43fb.html#a973e747752e51609a00b8e967983f9bb", null ]
+];

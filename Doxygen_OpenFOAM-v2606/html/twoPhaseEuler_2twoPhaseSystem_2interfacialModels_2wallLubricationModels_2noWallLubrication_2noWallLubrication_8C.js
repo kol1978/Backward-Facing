@@ -1,0 +1,5 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2wallLubricationModels_2noWallLubrication_2noWallLubrication_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2wallLubricationModels_2noWallLubrication_2noWallLubrication_8C.html#adf7f35cb542999846b7c793ecd288e0d", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2wallLubricationModels_2noWallLubrication_2noWallLubrication_8C.html#a165a9fbc2d624cc55283b729c9d02ba0", null ]
+];

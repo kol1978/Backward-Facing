@@ -1,0 +1,51 @@
+<map id="clone" name="clone">
+<area shape="rect" id="Node000001" title="Make a copy by cloning each of the list elements." alt="" coords="271,675,328,701"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvMeshTools.html#a590f160ae7ad17fa6394045ac077b9bf" title="Add patch. Inserts patch before all processor patches." alt="" coords="37,5,191,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="296,661,296,535,288,354,279,261,265,176,246,107,234,80,221,59,207,47,191,38,193,34,210,43,225,56,239,77,251,105,271,175,284,261,293,354,301,534,301,661"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1AMICache.html#aabd6771d48b0c194ebea4e32907099df" title="Add AMI weights and addressing to the cache." alt="" coords="5,70,223,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,661,295,543,287,377,277,292,264,214,245,151,234,127,221,108,207,98,211,93,225,105,238,124,250,149,269,213,283,291,292,376,300,543,301,661"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1AMICache.html#aa1dd26e0d90cc285ec638c9d1a085fc9" title="Construct as copy." alt="" coords="12,119,216,145"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="295,662,293,552,284,401,274,324,261,254,243,196,233,174,221,158,207,147,211,143,225,154,237,172,248,194,266,252,279,323,289,400,299,552,301,662"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1AMICache.html#a17cbf75f24c9aa4ee5b5bc49d9711de4" title="Construct from agglomeration of AMIInterpolation. Agglomeration passed in as new coarse size and addr..." alt="" coords="12,169,216,194"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="295,661,291,561,280,425,271,356,258,294,241,243,221,208,205,196,208,192,225,205,246,241,263,292,276,356,285,425,296,561,300,661"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1hexRef8Data.html#af0b81821d45fe6b7a1e14688edc52f1a" title="Construct as subset." alt="" coords="35,219,193,259"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="294,662,288,574,275,457,253,345,238,302,221,272,208,261,192,253,195,248,211,257,225,269,243,300,258,344,280,457,293,573,299,661"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1ILList.html#ad7553eb7c2bd9c9a8203905065f1a23e" title="Copy construct using the &#39;clone()&#39; method for each element." alt="" coords="43,283,185,309"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="294,662,286,583,273,481,251,384,237,347,221,322,204,310,184,302,186,297,207,305,225,318,242,344,256,382,278,480,292,582,299,661"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1ILList.html#a4d0bba40537b5d16a4329b7de1bcbacc" title="Copy constructor with additional argument for clone &#39;clone()&#39;." alt="" coords="43,333,185,358"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="293,662,284,593,269,506,248,425,235,393,221,373,204,361,185,353,187,348,207,356,225,369,240,391,253,423,274,505,289,593,298,661"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1RBD_1_1rigidBodyModel.html#a7f7c8423b87c19b6e20c4237084ace3b" title="Join the given body to the parent with ID parentID via the given." alt="" coords="12,383,216,423"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="295,661,292,613,281,553,258,490,242,462,221,437,206,425,209,421,225,433,246,459,263,488,286,551,297,612,301,661"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1lduPrimitiveMesh.html#aeae1eb8af27cafdc116980dd48968d19" title="Construct by combining multiple meshes. The meshes come from." alt="" coords="24,447,204,487"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="292,662,285,626,272,582,251,538,221,501,203,488,206,484,224,497,256,535,277,580,290,624,297,661"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1mapPolyMesh.html#a477d9dbf23587fac50cf9929f4ff3782" title="Construct from components and optionally reuse storage." alt="" coords="31,511,197,551"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="287,664,262,613,244,587,221,565,196,550,199,546,224,561,248,583,267,610,292,661"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fvMeshTools.html#a5a5aeacedb38e24c795395006292ae22" title="Read mesh or create dummy mesh (0 cells, &gt;0 patches)." alt="" coords="37,575,191,615"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="274,668,250,647,221,629,191,616,193,611,224,624,253,643,277,664"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1coordinateSystem.html#a2565ea79f231ed8f1ca80b8bc359b0b2" title="Copy assignment." alt="" coords="22,639,206,679"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="257,684,206,676,207,671,257,679"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1ILList.html#aeb6a4490d64f452706ac0f0d41fe6ba2" title="Copy assignment using the &#39;clone()&#39; method for each element." alt="" coords="27,703,201,729"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="257,697,199,706,198,701,257,692"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1interpolation2DTable.html#af86f2c099c40a46f79f6a70976d1b19d" title="Copy assignment." alt="" coords="13,753,215,793"/>
+<area shape="poly" id="edge14_Node000001_Node000021" title=" " alt="" coords="273,712,224,742,191,756,189,751,221,738,270,707"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1interpolationTable.html#a117b1357df4ddc5c84d142cdad1cd9db" title="Copy assignment." alt="" coords="23,817,205,857"/>
+<area shape="poly" id="edge15_Node000001_Node000022" title=" " alt="" coords="291,714,265,762,247,786,224,807,204,819,202,815,221,803,243,783,261,759,286,712"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1refinementHistory_1_1splitCell8.html#aeb7b02215ba729c4b7cb7d14ee417886" title="Copy assignment (no autoPtr stealing)" alt="" coords="22,881,206,921"/>
+<area shape="poly" id="edge16_Node000001_Node000023" title=" " alt="" coords="297,714,289,750,276,792,255,834,224,871,207,883,204,879,221,867,250,832,271,790,284,748,292,713"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1boundaryMesh.html#ae2705f64a0b5d9d61dc1b67afa50a160" title="Take over patches onto polyMesh from nearest face in *this." alt="" coords="33,945,195,985"/>
+<area shape="poly" id="edge17_Node000001_Node000024" title=" " alt="" coords="300,714,296,761,285,820,262,882,246,910,224,935,197,954,194,949,221,931,241,907,257,879,280,819,291,761,295,714"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam.html#aa5ba4f565a185dfa03afee2986b82183" title="Preserve patch types." alt="" coords="17,1010,211,1035"/>
+<area shape="poly" id="edge18_Node000001_Node000025" title=" " alt="" coords="298,715,289,782,274,867,252,946,239,978,225,999,207,1012,203,1008,221,995,235,975,247,945,268,865,284,781,292,714"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1PtrList.html#a77b6108ea297230d29ec8a191cf0906a" title="Copy construct using &#39;clone()&#39; on each element of SLPtrList&lt;T&gt;" alt="" coords="83,1059,145,1085"/>
+<area shape="poly" id="edge19_Node000001_Node000026" title=" " alt="" coords="299,715,291,791,277,891,255,986,241,1023,225,1048,207,1062,186,1070,146,1076,145,1070,185,1065,204,1057,221,1045,237,1021,250,984,272,890,286,791,293,714"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1refinementSurfaces.html#a4fe488bdbdfcfdc2dabe8d44a890f217" title="Construct from surfaces and dictionary." alt="" coords="17,1109,211,1149"/>
+<area shape="poly" id="edge20_Node000001_Node000027" title=" " alt="" coords="299,715,293,801,280,915,258,1024,243,1068,225,1098,209,1111,205,1107,221,1094,238,1065,252,1023,274,914,288,800,294,714"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1fvMeshSubset.html#afc490c6ae919cf032562b5fa5f94ed0a" title="Use the specified subset of cells." alt="" coords="35,1173,193,1213"/>
+<area shape="poly" id="edge21_Node000001_Node000028" title=" " alt="" coords="300,714,296,812,284,946,274,1014,262,1076,245,1127,225,1163,211,1175,195,1184,192,1179,208,1171,221,1160,240,1125,256,1075,269,1013,279,945,290,812,295,714"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1fvMeshSubset.html#a27f304223634b2b9d5cb50100748a741" title="Reset to a zero&#45;sized subset mesh, non&#45;processor patches only." alt="" coords="35,1237,193,1277"/>
+<area shape="poly" id="edge22_Node000001_Node000029" title=" " alt="" coords="301,714,298,824,288,977,278,1055,265,1127,248,1186,225,1227,211,1239,195,1248,193,1243,208,1235,221,1224,243,1184,260,1126,273,1055,283,977,293,824,295,714"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1TimeFunction1.html#ac8f948ddffc79e939d1afbe58b15fc54" title="Copy construct." alt="" coords="33,1301,195,1341"/>
+<area shape="poly" id="edge23_Node000001_Node000030" title=" " alt="" coords="301,715,300,836,292,1008,282,1097,269,1178,250,1244,238,1271,225,1291,212,1303,197,1311,194,1307,209,1298,221,1288,234,1268,245,1243,264,1176,277,1096,286,1008,295,836,296,715"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1cyclicACMIPolyPatch.html#ae28d47d467601f08c1f54b67937f1c99" title="Update the AMI and patch areas. Return true if anything." alt="" coords="14,1365,214,1405"/>
+<area shape="poly" id="edge24_Node000001_Node000031" title=" " alt="" coords="299,714,291,857,276,1059,254,1249,240,1317,225,1355,212,1367,208,1363,220,1352,235,1316,248,1249,270,1059,286,856,294,714"/>
+</map>

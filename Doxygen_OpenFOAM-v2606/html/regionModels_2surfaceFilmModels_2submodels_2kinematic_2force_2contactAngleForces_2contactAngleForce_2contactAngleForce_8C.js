@@ -1,0 +1,4 @@
+var regionModels_2surfaceFilmModels_2submodels_2kinematic_2force_2contactAngleForces_2contactAngleForce_2contactAngleForce_8C =
+[
+    [ "defineTypeNameAndDebug", "regionModels_2surfaceFilmModels_2submodels_2kinematic_2force_2contactAngleForces_2contactAngleForce_2contactAngleForce_8C.html#ae91e410d06bd93dcc1f5827af9bbec89", null ]
+];

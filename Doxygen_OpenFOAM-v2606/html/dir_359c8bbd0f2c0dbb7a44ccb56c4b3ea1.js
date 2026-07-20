@@ -1,0 +1,5 @@
+var dir_359c8bbd0f2c0dbb7a44ccb56c4b3ea1 =
+[
+    [ "VakhrushevEfremov.C", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C" ],
+    [ "VakhrushevEfremov.H", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8H.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8H" ]
+];

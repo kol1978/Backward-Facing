@@ -1,0 +1,25 @@
+var PDRsetFields_8H =
+[
+    [ "floatSMALL", "PDRsetFields_8H.html#a55c9bbaf827d12a248ca5c243a48a35e", null ],
+    [ "DEFAULT_K", "PDRsetFields_8H.html#ad54b5aa343ea5bb49b0bffbf02dd6d59", null ],
+    [ "DEFAULT_EPS", "PDRsetFields_8H.html#ad8fd1099c0cd2e4042712095d9730eb6", null ],
+    [ "DEFAULT_T", "PDRsetFields_8H.html#a448cadcc544cc7ffee6978e03172f417", null ],
+    [ "DEFAULT_P", "PDRsetFields_8H.html#a5ef8f72e91130f2eaa3a1308437323c3", null ],
+    [ "DEFAULT_SU", "PDRsetFields_8H.html#abdae530de201bef30ece0dbf9214ce54", null ],
+    [ "DEFAULT_LOBS", "PDRsetFields_8H.html#ab738325f23445cc8138e8500d0457a34", null ],
+    [ "DEFAULT_EP", "PDRsetFields_8H.html#afebc4901769888a02860ef335aef4dc0", null ],
+    [ "K_WALL_FN", "PDRsetFields_8H.html#ac18d023057111139287322928a0377d5", null ],
+    [ "EPS_WALL_FN", "PDRsetFields_8H.html#a246c954f538afe3ed52f1c00b0a038b3", null ],
+    [ "ALPHAT_WALL", "PDRsetFields_8H.html#a6da89a0284891c9a997c97ce2bf65223", null ],
+    [ "MUT_WALL_FN", "PDRsetFields_8H.html#a538c643e04306642c46cc7df5ef0b53f", null ],
+    [ "NUT_WALL_FN", "PDRsetFields_8H.html#a5bb5561a4066e1cbaaf0cd89c327dae2", null ],
+    [ "K_WALL_FN_LEGACY", "PDRsetFields_8H.html#a4fe83f993c4e460d8693cc0e78618305", null ],
+    [ "EPS_WALL_FN_LEGACY", "PDRsetFields_8H.html#a9d475b556284e4c85d043cece76ed42b", null ],
+    [ "ALPHAT_WALL_FN_LEGACY", "PDRsetFields_8H.html#a78c924c31f8312cbc3b574c49f868e92", null ],
+    [ "MIN_AB_FOR_SIZE", "PDRsetFields_8H.html#acf9dc81d87f5812f2bc072bbef33031d", null ],
+    [ "MAX_VB_FOR_SIZE", "PDRsetFields_8H.html#a88b6877b8ebaf7860a13187b42b671d0", null ],
+    [ "COUNT_FOR_SIZE", "PDRsetFields_8H.html#a9dff57dd388ecb86210629503bb4865b", null ],
+    [ "MIN_COUNT_FOR_SIZE", "PDRsetFields_8H.html#a54f7b8ceb8a8b737822513e1fc1ee179", null ],
+    [ "block_overlap", "PDRsetFields_8H.html#a288609920302bed8504d71a8ca4c11d4", null ],
+    [ "block_cylinder_overlap", "PDRsetFields_8H.html#af57afb4a88bcae796208726cf8b9542d", null ]
+];

@@ -1,0 +1,4 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2derivedFvPatchFields_2Joha993b7b6375010dd117bc9e29f1ecfe1 =
+[
+    [ "makePatchTypeField", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2derivedFvPatchFields_2Joha993b7b6375010dd117bc9e29f1ecfe1.html#af6e45aa6d329899c3d9894bf1fad5e8a", null ]
+];

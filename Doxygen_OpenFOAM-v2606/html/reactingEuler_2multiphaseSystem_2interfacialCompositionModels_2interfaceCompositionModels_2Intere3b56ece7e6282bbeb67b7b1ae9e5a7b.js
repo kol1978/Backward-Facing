@@ -1,0 +1,7 @@
+var reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2interfaceCompositionModels_2Intere3b56ece7e6282bbeb67b7b1ae9e5a7b =
+[
+    [ "InterfaceCompositionModel< Thermo, OtherThermo >", "classFoam_1_1InterfaceCompositionModel.html", "classFoam_1_1InterfaceCompositionModel" ],
+    [ "makeInterfaceCompositionType", "reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2interfaceCompositionModels_2Intere3b56ece7e6282bbeb67b7b1ae9e5a7b.html#afe9ac361a7aa158f2d190af6819a88e2", null ],
+    [ "makeSpecieInterfaceCompositionType", "reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2interfaceCompositionModels_2Intere3b56ece7e6282bbeb67b7b1ae9e5a7b.html#a27a5a5312cb50c67f030be4c8b6e36cc", null ],
+    [ "addInterfaceCompositionToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2interfaceCompositionModels_2Intere3b56ece7e6282bbeb67b7b1ae9e5a7b.html#ab2e6f7b4e6cd2173742f09de52383f6c", null ]
+];

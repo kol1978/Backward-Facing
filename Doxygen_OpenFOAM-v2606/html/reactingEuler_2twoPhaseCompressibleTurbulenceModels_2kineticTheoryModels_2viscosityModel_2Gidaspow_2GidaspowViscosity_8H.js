@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2Gidaspow_2GidaspowViscosity_8H =
+[
+    [ "Gidaspow", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1Gidaspow.html", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1Gidaspow" ]
+];

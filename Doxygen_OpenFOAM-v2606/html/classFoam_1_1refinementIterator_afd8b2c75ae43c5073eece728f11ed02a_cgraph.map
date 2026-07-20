@@ -1,0 +1,31 @@
+<map id="setRefinement" name="setRefinement">
+<area shape="rect" id="Node000001" title="Try to refine cells in given direction. Constructs intermediate." alt="" coords="5,296,123,321"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="220,5,320,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,295,70,247,87,178,101,141,119,104,141,70,169,40,186,29,205,21,207,26,189,33,172,44,145,73,123,107,106,143,92,180,76,248,69,296"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1refineCell.html#a692d6b50b91a80db27b63ba93762be29" title=" " alt="" coords="181,55,359,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="66,295,76,257,96,204,126,147,146,120,169,97,191,83,194,88,172,101,150,124,131,150,101,206,81,258,71,296"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1polyTopoChange.html#aadea253a54827c1e9ba3edf6deb58fe8" title="Inplace changes mesh without change of patches." alt="" coords="183,206,357,246"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="88,293,170,256,189,248,191,253,172,260,91,298"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="445,156,540,181"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="66,295,78,262,98,218,128,175,147,156,169,141,205,126,242,118,281,116,319,118,391,131,449,149,448,154,390,136,318,123,281,121,243,123,206,131,172,146,151,160,132,178,103,221,83,264,71,296"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="417,399,568,424"/>
+<area shape="poly" id="edge12_Node000001_Node000024" title=" " alt="" coords="69,321,75,368,91,433,104,467,122,500,144,529,172,553,222,579,245,584,267,585,314,575,368,553,405,529,435,498,459,464,477,435,481,438,464,467,439,501,408,533,371,558,316,580,268,590,244,589,221,584,169,558,140,533,117,503,99,469,86,434,70,369,64,322"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1refineCell.html#a470b3bc7671f5267fb1272c308a01e5e" title=" " alt="" coords="173,271,367,296"/>
+<area shape="poly" id="edge7_Node000001_Node000034" title=" " alt="" coords="123,299,160,294,160,300,123,304"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a9675e579191e6c248d05b2fdd8d9ec9b" title="Perform logical (and) MPI Allreduce on a copy. Uses UPstream::reduceAnd." alt="" coords="181,320,359,345"/>
+<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="123,313,167,318,167,323,123,318"/>
+<area shape="rect" id="Node000035" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="186,369,354,395"/>
+<area shape="poly" id="edge10_Node000001_Node000035" title=" " alt="" coords="91,319,172,354,200,363,199,368,170,359,89,324"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1PtrList.html#a1a7984b90f8855606fc18a92a71fa99f" title="Same as resize()" alt="" coords="189,419,351,444"/>
+<area shape="poly" id="edge11_Node000001_Node000037" title=" " alt="" coords="77,320,116,361,143,384,172,404,189,412,187,417,169,408,139,389,112,365,74,323"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1Time.html#a882e958c2f124b46fdb52dd241ec0ca3" title="Return a time name for the given scalar time value formatted with the given precision." alt="" coords="182,468,358,493"/>
+<area shape="poly" id="edge13_Node000001_Node000041" title=" " alt="" coords="73,320,108,384,137,422,172,453,184,460,182,465,169,457,133,425,104,387,68,323"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1Ostream.html#a8da7514808d6493ccfd30582fc945aa1" title="Write token to stream or otherwise handle it." alt="" coords="189,517,351,543"/>
+<area shape="poly" id="edge14_Node000001_Node000042" title=" " alt="" coords="71,321,82,357,102,407,131,459,150,482,172,503,182,509,179,514,169,507,147,486,127,462,97,409,77,359,66,322"/>
+<area shape="rect" id="Node000043" href="$namespaceFoam_1_1meshTools.html#afd76c6ccc8ee4a5957f0232218167c17" title="Write obj representation of a point." alt="" coords="171,156,369,181"/>
+<area shape="poly" id="edge15_Node000001_Node000043" title=" " alt="" coords="71,294,109,244,137,216,169,192,185,184,187,189,172,196,141,220,113,248,76,297"/>
+<area shape="poly" id="edge4_Node000005_Node000010" title=" " alt="" coords="348,203,431,182,433,187,349,209"/>
+<area shape="poly" id="edge5_Node000005_Node000024" title=" " alt="" coords="349,244,371,256,406,286,437,321,480,385,476,388,433,324,403,290,368,260,347,248"/>
+<area shape="poly" id="edge6_Node000024_Node000024" title=" " alt="" coords="457,400,449,390,453,380,468,374,493,372,523,376,536,385,532,389,521,381,493,377,469,379,456,384,454,390,461,397"/>
+<area shape="poly" id="edge16_Node000043_Node000010" title=" " alt="" coords="370,166,432,166,432,171,370,171"/>
+</map>

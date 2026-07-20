@@ -1,0 +1,56 @@
+<map id="meshPoints" name="meshPoints">
+<area shape="rect" id="Node000001" title="Return labelList of mesh points in patch." alt="" coords="536,603,635,629"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1snappyLayerDriver.html#a2654851d1ffedc26e8ff1424f7097ba6" title="Add cell layers." alt="" coords="283,5,473,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,589,574,475,558,316,546,235,530,161,510,100,486,59,471,47,474,42,490,56,515,98,535,160,551,234,563,315,579,475,586,589"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1snappySnapDriver.html#a9a5472df0725c810bc826b246e36068b" title="Helper: calculate average cell centre per point." alt="" coords="285,69,471,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="580,589,571,487,554,347,542,276,526,212,508,159,486,123,469,110,473,106,490,120,513,157,531,210,547,275,559,346,577,487,585,589"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1meshRefinement.html#a2ecd8ad54220550e0706c221e668f189" title="Baffle faces to break any leak from inside to outside." alt="" coords="24,152,201,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,590,568,506,550,396,522,291,505,251,486,225,467,212,439,202,366,188,281,179,202,175,202,170,282,174,366,182,440,197,469,208,490,221,510,248,527,289,555,395,574,506,584,590"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1holeToFace.html#aab70a19ba8bba575b5dc5d54327b3183" title="Optional direct use to generate the set of faces and the method to." alt="" coords="268,134,488,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="579,590,569,498,551,376,523,257,506,212,486,181,458,162,461,157,490,177,510,209,528,256,556,375,574,498,584,589"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1addPatchCellLayer.html#a867b4b4d9eeb5d68fab13b864edeb60e" title="Determine extrude information per patch edge:" alt="" coords="285,235,471,275"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="581,590,577,530,563,451,551,409,534,368,513,330,486,295,461,277,464,273,490,291,517,327,539,366,556,408,568,450,582,529,586,589"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1snappySnapDriver.html#a18f3fd2a187a762c5530251da52fe461" title="Per patch point calculate point on nearest surface. Set as." alt="" coords="20,284,205,324"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="580,590,574,539,559,476,547,443,531,411,511,383,486,358,455,337,421,321,385,309,348,301,273,294,205,295,205,290,273,288,348,295,386,304,423,316,458,332,490,354,515,379,536,409,552,441,564,474,579,538,585,589"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1snappySnapDriver.html#afd4d0bc8076355e778a983cde07f58af" title="Calculate edge length per patch point." alt="" coords="285,653,471,693"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="526,635,451,656,450,651,525,630"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1cellDistFuncs.html#aba22b79b28b002560c67705eed49b45e" title="Correct all cells connected to any of the patches in patchIDs. Sets." alt="" coords="293,717,463,757"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="567,641,533,675,489,708,463,720,461,715,487,703,529,671,563,637"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1cyclicPolyPatch.html#a4c970d354b1bca8ccb1dff0855586ed7" title="Return connected edges (from patch local to neighbour patch local)." alt="" coords="295,781,461,821"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="577,643,545,707,520,742,490,771,463,787,460,782,486,767,516,738,541,704,572,640"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1triSurfaceTools.html#a3d7fc0119236eb7641056dd4307e966b" title="Surface curvatures at the vertex points." alt="" coords="297,845,459,885"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="582,643,572,685,555,737,528,790,510,814,490,835,461,853,458,848,486,831,506,811,523,787,550,735,567,684,577,642"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1snappySnapDriver.html#a0f758f79b54eb623daaf15657cf8a8b5" title="Per patch point override displacement if in gap situation." alt="" coords="20,348,205,388"/>
+<area shape="poly" id="edge12_Node000001_Node000016" title=" " alt="" coords="578,590,570,547,553,495,526,444,508,421,486,402,455,383,420,369,384,359,346,353,273,350,206,354,205,349,273,344,347,348,385,354,422,364,457,378,490,398,512,417,531,441,558,493,575,546,583,589"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1snappyLayerDriver.html#a7128b396c70bc7efe512d77ddf54be88" title="Duplicate points on faceZones with layers. Re&#45;used when adding buffer layers. Can be made private aga..." alt="" coords="283,909,473,949"/>
+<area shape="poly" id="edge13_Node000001_Node000017" title=" " alt="" coords="585,643,579,696,564,765,552,801,536,837,515,870,490,899,473,911,470,907,486,895,511,867,531,834,547,799,559,763,574,695,580,642"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1addPatchCellLayer.html#a60dca6e259ded655bcfea0f5d5de1fda" title="Helper: given patch and points on patch that are extruded." alt="" coords="19,412,206,452"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="576,591,565,555,548,513,522,472,506,455,487,441,452,424,414,412,376,405,336,401,260,404,192,415,191,409,259,399,336,396,376,399,416,407,454,419,489,436,509,451,526,469,553,510,571,553,581,589"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1mappedPatchBase.html#a4e5828bb190f2550f9460bc1f7a0ba62" title="Find (local) cells/faces containing samples." alt="" coords="285,973,471,1013"/>
+<area shape="poly" id="edge15_Node000001_Node000020" title=" " alt="" coords="587,643,585,707,572,793,560,839,543,884,520,926,490,963,473,976,470,972,486,959,515,923,538,881,555,837,567,792,580,706,582,642"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1globalPoints.html#a5b9bf5e73479291de2416412bc6f1da8" title="Construct from mesh and patch of coupled faces. Difference with." alt="" coords="305,1037,451,1077"/>
+<area shape="poly" id="edge16_Node000001_Node000021" title=" " alt="" coords="584,643,573,730,554,844,526,954,509,997,490,1027,473,1041,453,1050,450,1045,470,1036,486,1024,505,995,521,952,549,843,568,729,579,642"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1medialAxisMeshMover.html#a298042b135d36380a27b56b6c27ad5eb" title="Move mesh using current pointDisplacement boundary values." alt="" coords="5,476,220,516"/>
+<area shape="poly" id="edge17_Node000001_Node000022" title=" " alt="" coords="549,599,487,570,419,550,349,534,220,511,221,506,350,529,420,545,489,566,552,594"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1polyBoundaryMesh.html#a430d61af7deb5b3579553b92d7a3034c" title="Per patch the edges on the neighbouring patch." alt="" coords="283,1101,473,1141"/>
+<area shape="poly" id="edge18_Node000001_Node000023" title=" " alt="" coords="585,642,576,741,558,875,546,943,530,1005,512,1056,490,1091,475,1103,472,1099,486,1088,507,1053,525,1003,540,942,553,874,571,740,580,642"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1PrimitivePatch.html#a1c886a784a597459dbf2d9470798e9dd" title="Number of points supporting patch faces." alt="" coords="343,451,413,477"/>
+<area shape="poly" id="edge19_Node000001_Node000024" title=" " alt="" coords="568,593,535,544,512,519,487,498,450,481,413,471,414,466,452,476,489,494,516,516,539,541,573,590"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1addPatchCellLayer.html#a2c19ac1e0552b46875bfff3c02bfd222" title="Play commands into polyTopoChange to create layers on top." alt="" coords="19,540,206,580"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="522,608,488,603,206,571,206,566,488,597,523,603"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1triSurfaceTools.html#a93b402b27d9860421556a7e1520267a4" title="Weighted average of normals of attached faces." alt="" coords="31,604,194,644"/>
+<area shape="poly" id="edge30_Node000001_Node000034" title=" " alt="" coords="523,620,194,625,194,620,522,614"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1orientedSurface.html#aac49697c112eb64d5545ce2d8e237a2c" title="Construct from triSurface. Calculates outside point as being." alt="" coords="293,1165,463,1205"/>
+<area shape="poly" id="edge26_Node000001_Node000036" title=" " alt="" coords="586,643,578,753,562,906,550,984,534,1055,514,1114,490,1155,464,1174,461,1169,486,1152,509,1112,529,1054,544,983,557,905,573,752,580,642"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1motionSmootherAlgo.html#a31c17a66004ca1d7ddc9063c581718c3" title="Set displacement field from displacement on patch points." alt="" coords="276,1229,480,1269"/>
+<area shape="poly" id="edge27_Node000001_Node000037" title=" " alt="" coords="586,643,581,765,566,937,554,1025,538,1106,517,1173,504,1199,490,1219,476,1231,473,1227,486,1216,499,1196,512,1171,532,1105,549,1024,561,936,575,765,581,643"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1snappySnapDriver.html#ab9edad6f253859d05fb0b849fc55f5e2" title="Smooth the displacement field to the internal." alt="" coords="285,1293,471,1333"/>
+<area shape="poly" id="edge29_Node000001_Node000039" title=" " alt="" coords="587,643,583,776,570,968,558,1066,541,1157,519,1231,505,1261,490,1283,473,1298,469,1293,486,1280,501,1258,514,1229,536,1155,553,1065,565,967,578,776,581,643"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="255,161,202,166,201,161,254,156"/>
+<area shape="poly" id="edge20_Node000024_Node000009" title=" " alt="" coords="353,443,295,391,258,363,219,338,192,326,194,322,221,334,261,358,299,387,357,439"/>
+<area shape="poly" id="edge21_Node000024_Node000016" title=" " alt="" coords="334,448,219,403,183,391,185,386,221,397,336,443"/>
+<area shape="poly" id="edge22_Node000024_Node000019" title=" " alt="" coords="329,461,206,446,206,441,329,456"/>
+<area shape="poly" id="edge23_Node000024_Node000022" title=" " alt="" coords="329,472,221,486,220,480,328,467"/>
+<area shape="poly" id="edge24_Node000024_Node000028" title=" " alt="" coords="336,485,221,531,185,542,183,537,219,525,334,480"/>
+<area shape="poly" id="edge25_Node000024_Node000034" title=" " alt="" coords="357,489,299,541,261,570,221,594,194,606,192,602,219,590,258,565,295,537,353,485"/>
+</map>

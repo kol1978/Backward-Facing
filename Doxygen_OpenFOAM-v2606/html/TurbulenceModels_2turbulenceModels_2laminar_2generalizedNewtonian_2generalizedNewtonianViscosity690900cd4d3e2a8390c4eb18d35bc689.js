@@ -1,0 +1,4 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity690900cd4d3e2a8390c4eb18d35bc689 =
+[
+    [ "HerschelBulkley", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1HerschelBulkley.html", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1HerschelBulkley" ]
+];

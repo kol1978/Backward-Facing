@@ -1,0 +1,5 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2Casson_2Casson_8C =
+[
+    [ "defineTypeNameAndDebug", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2Casson_2Casson_8C.html#a118dee9727e190a0ab4b22820bd5c396", null ],
+    [ "addToRunTimeSelectionTable", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2Casson_2Casson_8C.html#a2c92772e304b9a44e620f1bc77255f79", null ]
+];

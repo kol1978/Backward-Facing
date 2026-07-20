@@ -1,0 +1,5 @@
+var dir_a7ce45e7480ef2aa538d5460ca6f42a5 =
+[
+    [ "GidaspowErgunWenYu.C", "reactingEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C" ],
+    [ "GidaspowErgunWenYu.H", "reactingEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8H.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8H" ]
+];

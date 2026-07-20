@@ -1,0 +1,57 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1FieldMapper.html" title="Abstract base class to hold the Field mapping addressing and weights." alt="" coords="5,751,108,777"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1faPatchFieldMapper.html" title="A FieldMapper for finite&#45;area patch fields." alt="" coords="166,173,317,198"/>
+<area shape="poly" id="edge4561_Node000000_Node000001" title=" " alt="" coords="64,737,233,197,238,199,69,739"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1fvPatchFieldMapper.html" title="A FieldMapper for finite&#45;volume patch fields." alt="" coords="166,591,317,617"/>
+<area shape="poly" id="edge4567_Node000000_Node000007" title=" " alt="" coords="82,740,224,615,227,619,85,744"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1morphFieldMapper.html" title="Abstract base class to hold the Field mapping for mesh morphs." alt="" coords="169,911,313,937"/>
+<area shape="poly" id="edge4576_Node000000_Node000016" title=" " alt="" coords="85,784,227,909,224,913,82,788"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1pointPatchFieldMapper.html" title="Foam::pointPatchFieldMapper." alt="" coords="156,1181,327,1206"/>
+<area shape="poly" id="edge4583_Node000000_Node000023" title=" " alt="" coords="71,789,237,1179,232,1182,66,791"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1faFieldDecomposer_1_1patchFieldDecomposer.html" title="Patch field decomposer class." alt="" coords="423,5,593,45"/>
+<area shape="poly" id="edge4562_Node000001_Node000002" title=" " alt="" coords="258,160,306,107,338,79,373,55,421,36,423,41,376,60,341,83,310,110,262,164"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1faFieldDecomposer_1_1processorAreaPatchFieldDecomposer.html" title="Processor patch field decomposer class." alt="" coords="377,69,639,109"/>
+<area shape="poly" id="edge4563_Node000001_Node000003" title=" " alt="" coords="276,164,322,141,374,119,412,107,414,112,376,124,324,145,278,168"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1faFieldDecomposer_1_1processorEdgePatchFieldDecomposer.html" title="Processor patch field decomposer class." alt="" coords="375,133,641,173"/>
+<area shape="poly" id="edge4564_Node000001_Node000004" title=" " alt="" coords="330,172,375,167,375,172,331,177"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1faFieldReconstructor_1_1faPatchFieldReconstructor.html" title=" " alt="" coords="409,197,607,237"/>
+<area shape="poly" id="edge4565_Node000001_Node000005" title=" " alt="" coords="330,193,409,203,408,208,330,199"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1faPatchMapper.html" title="Mapping class for a faPatchField. Edge mapping is calculated based on faceCells comparison of old and..." alt="" coords="449,262,567,287"/>
+<area shape="poly" id="edge4566_Node000001_Node000006" title=" " alt="" coords="277,202,323,226,375,247,449,264,448,270,374,252,321,230,275,207"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1distributedWeightedFvPatchFieldMapper.html" title="FieldMapper with weighted mapping from (optionally remote) quantities." alt="" coords="406,312,610,352"/>
+<area shape="poly" id="edge4568_Node000007_Node000008" title=" " alt="" coords="247,577,262,530,288,472,324,412,347,385,373,362,405,345,407,349,376,366,351,389,329,415,292,474,267,532,252,579"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1fvFieldDecomposer_1_1patchFieldDecomposer.html" title="Patch field decomposer class." alt="" coords="423,376,593,416"/>
+<area shape="poly" id="edge4569_Node000007_Node000009" title=" " alt="" coords="252,578,271,543,298,502,332,461,373,426,397,413,422,405,423,410,399,418,376,430,336,464,302,505,275,546,257,580"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1fvFieldDecomposer_1_1processorSurfacePatchFieldDecomposer.html" title="Processor patch field decomposer class. Surface field is assumed." alt="" coords="408,441,608,495"/>
+<area shape="poly" id="edge4570_Node000007_Node000010" title=" " alt="" coords="265,581,313,543,373,506,407,491,409,496,376,510,316,547,268,585"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1fvFieldDecomposer_1_1processorVolPatchFieldDecomposer.html" title="Processor patch field decomposer class. Maps either owner or." alt="" coords="381,520,635,560"/>
+<area shape="poly" id="edge4571_Node000007_Node000011" title=" " alt="" coords="308,585,423,557,424,563,309,591"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1fvFieldReconstructor_1_1fvPatchFieldReconstructor.html" title="Mapper for sizing only &#45; does not do any actual mapping." alt="" coords="409,584,607,624"/>
+<area shape="poly" id="edge4572_Node000007_Node000012" title=" " alt="" coords="331,601,408,601,408,607,331,607"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fvPatchMapper.html" title="Mapping class for a fvPatchField." alt="" coords="449,649,567,674"/>
+<area shape="poly" id="edge4573_Node000007_Node000013" title=" " alt="" coords="306,617,375,633,449,648,448,653,374,639,305,623"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1meshToMesh0_1_1patchFieldInterpolator.html" title="Patch&#45;field interpolation class." alt="" coords="375,698,641,723"/>
+<area shape="poly" id="edge4574_Node000007_Node000014" title=" " alt="" coords="272,623,319,654,376,683,417,695,416,700,374,688,316,659,269,627"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1singleCellFvMesh_1_1agglomPatchFieldMapper.html" title="Patch field mapper class for agglomerated meshes." alt="" coords="411,748,605,788"/>
+<area shape="poly" id="edge4575_Node000007_Node000015" title=" " alt="" coords="262,626,310,680,341,709,376,732,412,748,410,753,373,737,338,713,306,684,258,630"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1cellMapper.html" title="This object provides mapping and fill&#45;in information for cell data between the two meshes after the t..." alt="" coords="461,813,555,838"/>
+<area shape="poly" id="edge4577_Node000016_Node000017" title=" " alt="" coords="270,901,318,873,374,847,418,835,460,827,461,833,419,840,376,852,320,878,273,906"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1faAreaMapper.html" title="FA area mapper." alt="" coords="451,862,565,887"/>
+<area shape="poly" id="edge4578_Node000016_Node000018" title=" " alt="" coords="321,906,374,896,450,882,451,887,375,901,322,911"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1faEdgeMapper.html" title="FA edge mapper. Currently, edge&#45;based finite area data is not mapped, but only resized,..." alt="" coords="450,911,566,937"/>
+<area shape="poly" id="edge4579_Node000016_Node000019" title=" " alt="" coords="327,921,450,921,450,927,327,927"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1faceMapper.html" title="This object provides mapping and fill&#45;in information for face data between the two meshes after the t..." alt="" coords="459,961,557,986"/>
+<area shape="poly" id="edge4580_Node000016_Node000020" title=" " alt="" coords="325,937,459,962,458,967,324,942"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fvSurfaceMapper.html" title="A finiteVolume surface mapper." alt="" coords="441,1010,575,1035"/>
+<area shape="poly" id="edge4581_Node000016_Node000021" title=" " alt="" coords="274,942,320,970,376,995,442,1012,440,1017,374,1000,318,974,271,946"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1pointMapper.html" title="This object provides mapping and fill&#45;in information for point data between the two meshes after the ..." alt="" coords="456,1059,560,1085"/>
+<area shape="poly" id="edge4582_Node000016_Node000022" title=" " alt="" coords="263,946,310,997,342,1023,376,1044,416,1059,456,1066,455,1071,414,1064,373,1049,338,1027,307,1000,259,949"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1pointFieldDecomposer_1_1patchFieldDecomposer.html" title="Point patch field decomposer class." alt="" coords="419,1109,597,1149"/>
+<area shape="poly" id="edge4584_Node000023_Node000024" title=" " alt="" coords="308,1175,423,1147,424,1152,309,1180"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1pointFieldReconstructor_1_1pointPatchFieldReconstructor.html" title=" " alt="" coords="399,1173,617,1213"/>
+<area shape="poly" id="edge4585_Node000023_Node000025" title=" " alt="" coords="341,1191,399,1191,399,1196,341,1196"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1pointPatchFieldMapperPatchRef.html" title="Foam::pointPatchFieldMapperPatchRef." alt="" coords="395,1238,621,1263"/>
+<area shape="poly" id="edge4586_Node000023_Node000026" title=" " alt="" coords="306,1207,375,1223,438,1235,436,1241,374,1228,305,1212"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1pointPatchMapper.html" title="Mapping class for a pointPatchField." alt="" coords="439,1287,577,1313"/>
+<area shape="poly" id="edge4587_Node000023_Node000027" title=" " alt="" coords="271,1212,318,1244,376,1274,439,1290,438,1295,374,1278,315,1249,268,1217"/>
+</map>

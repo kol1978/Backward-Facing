@@ -1,0 +1,5 @@
+var dir_fa7e3cfaff17bea33f8e72fb1072a5eb =
+[
+    [ "turbulentDispersionModel.C", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersi99c62941f84f3b309ef9a323a2c4789e.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersi99c62941f84f3b309ef9a323a2c4789e" ],
+    [ "turbulentDispersionModel.H", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersi920e6af86e7ad0138004085de503b6d7.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2turbulentDispersi920e6af86e7ad0138004085de503b6d7" ]
+];

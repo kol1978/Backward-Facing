@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2LunSavage_2LunSavageRadial_8H =
+[
+    [ "LunSavage", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage" ]
+];

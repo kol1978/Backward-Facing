@@ -1,0 +1,17 @@
+<map id="getSelectedProcs" name="getSelectedProcs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,153,140,179"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPstream.html#a3ae5bcf46394d9e19c7e44d5d76c5940" title="Range of process indices for all processes." alt="" coords="196,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,152,121,97,151,66,187,40,199,33,202,38,189,44,155,70,125,101,84,155"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="199,55,383,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="88,151,131,120,187,89,207,81,209,86,189,94,134,124,91,155"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="188,104,393,129"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="129,151,220,130,221,135,130,156"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="200,153,381,179"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="140,163,186,163,186,169,140,169"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1PtrList.html#a3809aca9dcd2c52a4711126018cc961d" title="Append an element to the end of the list." alt="" coords="199,203,383,228"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="130,176,221,197,220,202,129,181"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPtrList.html#a53e54aae19ba347f6f4544c764905331" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="215,252,366,277"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="92,177,134,207,189,237,213,246,211,251,187,242,131,211,88,181"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1PtrList.html#a0bc76d46c3a7f71bd74ddafdf84dbfbc" title="Transfer into this list and annul the argument list." alt="" coords="207,301,374,327"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="84,177,125,231,155,261,189,286,205,294,202,299,187,291,152,265,121,234,80,181"/>
+</map>

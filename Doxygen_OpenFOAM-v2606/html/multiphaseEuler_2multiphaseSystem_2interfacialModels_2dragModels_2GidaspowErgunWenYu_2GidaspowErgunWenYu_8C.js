@@ -1,0 +1,5 @@
+var multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C =
+[
+    [ "defineTypeNameAndDebug", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C.html#afb5166469970d0aa351b403d563d52e4", null ],
+    [ "addToRunTimeSelectionTable", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowErgunWenYu_2GidaspowErgunWenYu_8C.html#af957ffdf3da2b511a0b8aee2a5bb736a", null ]
+];

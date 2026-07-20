@@ -1,0 +1,78 @@
+<map id="isDir" name="isDir">
+<area shape="rect" id="Node000001" title="Does the name exist as a DIRECTORY in the file system?" alt="" coords="520,1143,572,1169"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fileMonitorWatcher.html#acaefed897622fceba52d1e4639d0731a" title=" " alt="" coords="261,5,450,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="542,1130,541,907,532,566,523,393,510,239,493,122,482,83,470,59,449,42,452,38,474,56,487,81,498,121,515,238,528,392,537,566,546,907,547,1130"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1argList.html#a999adce53cda9d8c31e36e588057662f" title="Check root path and case path." alt="" coords="246,70,465,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="542,1129,540,915,532,590,523,424,510,278,492,168,482,131,470,108,457,98,461,94,474,105,487,129,498,166,515,278,528,424,537,589,546,915,547,1129"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#ac22ddb37d935145dfa63db97fb684ab2" title="Copy the source to the destination (recursively if necessary)." alt="" coords="336,143,375,169"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="542,1130,539,929,529,627,520,474,508,339,491,236,481,202,470,182,449,166,423,158,375,156,375,151,424,153,451,162,474,178,486,200,496,235,513,338,526,474,535,627,545,929,547,1130"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#aeb2908f43776f844879e858966627e8e" title=" " alt="" coords="283,193,427,218"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="542,1130,538,939,528,653,519,508,506,381,490,284,480,252,470,232,451,218,427,209,428,204,453,213,474,229,485,250,495,283,511,380,524,508,533,653,544,939,547,1130"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1fileOperation.html#a5b31552d7411b16e1aa701f14bf4643d" title="Does IOobject exist? Is either a directory (empty name()) or a file." alt="" coords="280,243,431,283"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="542,1130,537,950,525,685,515,552,503,434,488,344,479,314,470,296,452,281,430,272,432,267,455,277,474,293,484,312,493,343,509,433,521,551,530,685,542,950,547,1130"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1IOobject.html#a7d27b76557b60f572ecd7fa620bd3d8e" title="Split path into instance, local, name components." alt="" coords="262,331,449,371"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="541,1130,535,969,521,734,500,512,486,434,478,407,470,391,447,372,451,368,474,388,483,405,491,432,505,512,527,734,540,968,547,1130"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1fileOperations_1_1uncollatedFileOperation.html#a9fb09bda422b17c822ac7d483e9ea56a" title="Search for an object." alt="" coords="5,450,191,505"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="541,1130,536,976,524,753,515,642,502,545,488,473,479,449,470,435,435,412,395,399,352,396,308,399,264,409,222,422,151,452,149,447,220,417,263,404,307,394,352,390,396,394,437,407,474,431,484,446,493,471,508,544,520,642,529,753,542,975,547,1130"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fileOperations_1_1uncollatedFileOperation.html#aaf0c9aa377b3411780b88f9c0c0575ce" title="Does the name exist as a DIRECTORY in the file system?" alt="" coords="263,446,448,501"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="543,1130,543,1001,536,817,527,723,514,636,495,564,483,536,470,515,447,496,450,492,474,512,488,534,500,562,519,635,533,722,541,817,548,1001,548,1130"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1fileOperation.html#abfba9ad2c157a1898f8504406852d866" title="Helper: check for file (isFile) or directory (!isFile)" alt="" coords="280,525,431,565"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="542,1130,542,1012,534,847,525,762,512,685,494,622,482,598,470,579,452,564,430,555,432,550,455,560,474,576,487,595,499,620,517,684,530,762,539,847,547,1012,548,1129"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fvMeshTools.html#a5a5aeacedb38e24c795395006292ae22" title="Read mesh or create dummy mesh (0 cells, &gt;0 patches)." alt="" coords="278,589,433,629"/>
+<area shape="poly" id="edge13_Node000001_Node000016" title=" " alt="" coords="542,1130,539,1024,530,878,521,804,508,736,491,681,470,643,453,629,432,620,434,615,455,624,474,640,496,679,513,735,526,803,535,877,545,1023,547,1129"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1fileOperation.html#a3c4d87da499dfae76cd6f5d03b34f0f6" title="Get number of processor directories/results." alt="" coords="280,653,431,693"/>
+<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="541,1130,537,1036,526,909,516,845,504,787,489,739,470,707,452,693,430,683,432,678,455,688,474,704,494,737,509,785,522,844,531,908,542,1035,547,1129"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1glTF_1_1sceneWriter.html#a83d66c862c3fc3ece70954dc4253fe15" title="Flush, output and open a new file for output." alt="" coords="266,717,445,757"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="541,1130,534,1048,522,941,501,838,486,798,470,771,444,753,447,748,474,768,491,796,506,836,527,940,540,1048,546,1130"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation_1_1isDirOp.html#a91ee7ad62498a410ce43769e2311c642" title=" " alt="" coords="239,782,472,837"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="539,1130,530,1064,516,980,495,901,483,871,470,850,457,839,461,835,474,846,488,868,500,899,521,979,535,1063,544,1129"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation_1_1fileOrNullOp.html#a5066f2d4bc9c9158c2ff967d904c8cba" title=" " alt="" coords="239,861,472,915"/>
+<area shape="poly" id="edge17_Node000001_Node000021" title=" " alt="" coords="541,1130,537,1086,525,1033,504,977,489,951,470,929,457,917,460,913,474,925,493,948,509,975,530,1031,542,1086,546,1129"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1argList.html#a00aad68f835a5c0bcb8920505bb0bd10" title="Scan for &#45;help, &#45;doc options etc prior to checking the validity of other args/opts and finally initia..." alt="" coords="278,939,433,965"/>
+<area shape="poly" id="edge18_Node000001_Node000022" title=" " alt="" coords="539,1130,532,1095,520,1054,499,1014,470,979,452,968,432,960,434,955,455,963,474,975,504,1011,525,1052,537,1094,544,1129"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1functionObjects_1_1externalCoupled.html#a6ce0c64db98eb6144d363dbfc86104eb" title="Read and set the function object if its data have changed." alt="" coords="268,989,443,1029"/>
+<area shape="poly" id="edge19_Node000001_Node000025" title=" " alt="" coords="533,1132,509,1086,491,1063,470,1043,442,1028,444,1023,474,1039,495,1059,513,1083,537,1129"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1fileOperation.html#a5b3fd7f3c240412e92060a2d3dc691ad" title="Search directory for objects. Used in IOobjectList." alt="" coords="280,1053,431,1093"/>
+<area shape="poly" id="edge20_Node000001_Node000027" title=" " alt="" coords="517,1137,471,1108,430,1093,432,1088,473,1103,520,1132"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1polyMesh.html#ab5e5cb1a8fff66e20916f2cb55598650" title="Remove all files from mesh instance." alt="" coords="247,1118,464,1143"/>
+<area shape="poly" id="edge21_Node000001_Node000030" title=" " alt="" coords="506,1153,450,1146,451,1141,507,1148"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1topoSet.html#a257d112b33d6d4b4edb27c98f49fc1ce" title="Helper: remove all sets files from mesh instance." alt="" coords="253,1167,457,1193"/>
+<area shape="poly" id="edge22_Node000001_Node000032" title=" " alt="" coords="506,1164,457,1170,456,1165,506,1158"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1dynamicCode.html#a7056029919f25a2d23e9913df26223d9" title="Resolve code&#45;templates via the codeTemplateEnvName." alt="" coords="274,1217,437,1257"/>
+<area shape="poly" id="edge23_Node000001_Node000033" title=" " alt="" coords="518,1179,473,1206,438,1220,436,1215,471,1202,516,1175"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1IOobject.html#a7cee3db49ab9f8ceb953370c42b8cf37" title="Return the IOobject, but also consider an alternative file name." alt="" coords="265,1282,446,1307"/>
+<area shape="poly" id="edge24_Node000001_Node000034" title=" " alt="" coords="538,1183,513,1229,495,1252,474,1272,448,1285,445,1280,470,1267,492,1248,509,1226,533,1180"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1externalFileCoupler.html#add80d80a8e420a2d21c8491ed2df0b9e" title="Generate status=done in lock (only when run&#45;state = master)" alt="" coords="259,1332,452,1372"/>
+<area shape="poly" id="edge25_Node000001_Node000036" title=" " alt="" coords="543,1183,535,1214,521,1252,501,1289,474,1321,454,1334,451,1330,470,1317,497,1286,516,1249,529,1213,537,1182"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1glTF_1_1scene.html#a5b315ab1ebddeeb08b7c22ef123e5ab1" title="Write to file pair (.gltf, .bin)" alt="" coords="282,1396,429,1436"/>
+<area shape="poly" id="edge26_Node000001_Node000037" title=" " alt="" coords="547,1183,542,1227,531,1281,509,1337,494,1363,474,1386,453,1401,430,1410,428,1405,451,1396,470,1382,489,1360,505,1335,526,1280,537,1226,541,1182"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1MeshedSurfaceProxy.html#a573f2c3925f5a37ceac77a230832b387" title="Write to database." alt="" coords="254,1460,457,1500"/>
+<area shape="poly" id="edge27_Node000001_Node000038" title=" " alt="" coords="544,1183,535,1246,520,1326,500,1400,488,1430,474,1450,459,1462,455,1458,470,1446,483,1427,495,1399,515,1324,530,1245,539,1182"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1coordSetWriters_1_1csvWriter.html#a6b30e2d304c7040963963cba8e8cf2ae" title="Write buffered data." alt="" coords="261,1524,449,1564"/>
+<area shape="poly" id="edge28_Node000001_Node000039" title=" " alt="" coords="545,1183,538,1259,525,1358,504,1451,490,1488,474,1514,451,1531,448,1526,470,1510,485,1486,499,1450,519,1357,533,1258,540,1182"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1coordSetWriters_1_1gnuplotWriter.html#a6b30e2d304c7040963963cba8e8cf2ae" title="Write buffered data." alt="" coords="248,1588,463,1628"/>
+<area shape="poly" id="edge29_Node000001_Node000040" title=" " alt="" coords="546,1183,541,1271,529,1389,508,1502,493,1547,474,1578,460,1590,457,1586,470,1574,488,1545,502,1501,524,1388,536,1270,541,1182"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1coordSetWriters_1_1rawWriter.html#a6b30e2d304c7040963963cba8e8cf2ae" title="Write buffered data." alt="" coords="260,1652,451,1692"/>
+<area shape="poly" id="edge30_Node000001_Node000041" title=" " alt="" coords="547,1183,544,1283,533,1420,524,1490,511,1553,495,1605,474,1642,453,1658,449,1654,470,1638,490,1603,506,1552,519,1489,528,1420,538,1283,542,1183"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1coordSetWriters_1_1abaqusWriter.html#a106610c08337419d44997ddab2fb8c01" title=" " alt="" coords="246,1716,465,1756"/>
+<area shape="poly" id="edge31_Node000001_Node000042" title=" " alt="" coords="548,1182,546,1294,537,1451,528,1530,515,1604,497,1664,486,1687,474,1706,460,1718,457,1714,470,1702,482,1685,492,1662,510,1602,523,1530,532,1450,541,1294,542,1182"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1coordSetWriters_1_1nastranWriter.html#a106610c08337419d44997ddab2fb8c01" title=" " alt="" coords="245,1780,465,1820"/>
+<area shape="poly" id="edge32_Node000001_Node000043" title=" " alt="" coords="548,1183,548,1306,541,1482,532,1572,519,1654,500,1722,488,1749,474,1770,460,1782,457,1778,470,1766,483,1747,495,1721,514,1653,527,1571,536,1481,543,1306,543,1183"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1coordSetWriters_1_1xmgraceWriter.html#a106610c08337419d44997ddab2fb8c01" title=" " alt="" coords="241,1844,469,1884"/>
+<area shape="poly" id="edge33_Node000001_Node000044" title=" " alt="" coords="546,1183,539,1327,525,1533,503,1726,490,1795,474,1834,460,1846,457,1842,470,1830,485,1794,498,1726,519,1533,534,1327,541,1182"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1coordSetWriters_1_1abaqusWriter.html#af9d3ecb58d4418547ba4e95ed1862a7b" title=" " alt="" coords="246,1908,465,1948"/>
+<area shape="poly" id="edge34_Node000001_Node000045" title=" " alt="" coords="546,1183,540,1339,527,1566,505,1779,491,1855,483,1881,474,1898,461,1910,457,1906,470,1894,478,1879,486,1854,500,1778,521,1565,535,1339,541,1182"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1coordSetWriters_1_1nastranWriter.html#af9d3ecb58d4418547ba4e95ed1862a7b" title=" " alt="" coords="245,1972,465,2012"/>
+<area shape="poly" id="edge35_Node000001_Node000046" title=" " alt="" coords="547,1182,541,1351,529,1598,519,1722,507,1832,492,1915,484,1944,474,1962,461,1974,457,1970,470,1958,479,1942,487,1914,502,1831,514,1722,523,1597,536,1351,541,1182"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1coordSetWriters_1_1csvWriter.html#a5fa32a59625f1de077fdf1437ab28d67" title=" " alt="" coords="259,2036,452,2076"/>
+<area shape="poly" id="edge36_Node000001_Node000047" title=" " alt="" coords="547,1183,542,1363,530,1631,521,1765,509,1884,493,1975,484,2006,474,2026,454,2042,450,2038,470,2022,479,2004,488,1974,503,1884,516,1765,525,1630,537,1363,542,1183"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1coordSetWriters_1_1gnuplotWriter.html#a5fa32a59625f1de077fdf1437ab28d67" title=" " alt="" coords="245,2100,465,2140"/>
+<area shape="poly" id="edge37_Node000001_Node000048" title=" " alt="" coords="547,1182,543,1374,532,1662,523,1808,511,1937,495,2035,485,2069,474,2090,461,2102,458,2098,470,2086,480,2067,489,2034,505,1936,518,1808,527,1662,538,1374,542,1182"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1coordSetWriters_1_1rawWriter.html#a5fa32a59625f1de077fdf1437ab28d67" title=" " alt="" coords="258,2164,453,2204"/>
+<area shape="poly" id="edge38_Node000001_Node000049" title=" " alt="" coords="547,1183,544,1387,534,1695,525,1851,512,1990,496,2095,486,2131,474,2154,455,2170,451,2166,470,2150,481,2129,491,2094,507,1989,520,1851,529,1695,539,1387,542,1183"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1coordSetWriters_1_1xmgraceWriter.html#a5fa32a59625f1de077fdf1437ab28d67" title=" " alt="" coords="241,2228,469,2268"/>
+<area shape="poly" id="edge39_Node000001_Node000050" title=" " alt="" coords="547,1182,545,1398,536,1727,527,1894,514,2042,497,2155,486,2193,474,2218,461,2230,458,2226,470,2214,481,2192,492,2154,509,2041,522,1894,531,1727,540,1398,542,1182"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="384,140,388,133,385,128,375,124,355,122,333,125,323,131,324,138,337,147,334,151,320,140,318,128,331,120,355,117,376,119,389,124,393,134,389,143"/>
+<area shape="poly" id="edge8_Node000010_Node000010" title=" " alt="" coords="387,319,376,312,355,309,337,311,327,316,323,322,325,330,319,331,317,321,323,312,336,306,355,304,378,307,390,314"/>
+<area shape="poly" id="edge12_Node000014_Node000012" title=" " alt="" coords="266,525,190,504,191,499,268,520"/>
+</map>

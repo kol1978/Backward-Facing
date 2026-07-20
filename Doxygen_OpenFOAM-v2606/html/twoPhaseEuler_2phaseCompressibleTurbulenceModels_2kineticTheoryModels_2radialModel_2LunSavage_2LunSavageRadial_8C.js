@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2LunSavage_2LunSavageRadial_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2LunSavage_2LunSavageRadial_8C.html#a14adc60dcca7ff214d911b32a660bb43", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2LunSavage_2LunSavageRadial_8C.html#a5f311c743157c4beac4e851b24e1e102", null ]
+];
