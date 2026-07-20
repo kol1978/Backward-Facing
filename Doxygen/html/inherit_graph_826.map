@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1lduMatrix_1_1smoother.html" title="Abstract base&#45;class for lduMatrix smoothers." alt="" coords="5,203,160,228"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1DICGaussSeidelSmoother.html" title="Combined DIC/GaussSeidel smoother for symmetric matrices in which DIC smoothing is followed by GaussS..." alt="" coords="237,5,425,31"/>
+<area shape="poly" id="edge4124_Node000000_Node000001" title=" " alt="" coords="92,189,110,154,135,114,167,73,207,40,235,26,237,31,209,44,171,77,139,117,114,157,97,191"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1DICSmoother.html" title="Simplified diagonal&#45;based incomplete Cholesky smoother for symmetric matrices." alt="" coords="277,55,385,80"/>
+<area shape="poly" id="edge4125_Node000000_Node000002" title=" " alt="" coords="99,190,143,138,173,111,207,89,241,76,276,68,277,74,242,81,209,94,177,115,147,142,103,193"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1DILUGaussSeidelSmoother.html" title="Combined DILU/GaussSeidel smoother for asymmetric matrices in which DILU smoothing is followed by Gau..." alt="" coords="233,104,429,129"/>
+<area shape="poly" id="edge4126_Node000000_Node000003" title=" " alt="" coords="111,192,155,164,207,138,244,127,245,132,209,143,158,168,114,196"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1DILUSmoother.html" title="Simplified diagonal&#45;based incomplete LU smoother for asymmetric matrices." alt="" coords="273,153,389,179"/>
+<area shape="poly" id="edge4127_Node000000_Node000004" title=" " alt="" coords="159,197,207,187,272,175,273,180,209,193,160,203"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1FDICSmoother.html" title="Simplified diagonal&#45;based incomplete Cholesky smoother for symmetric matrices." alt="" coords="273,203,389,228"/>
+<area shape="poly" id="edge4128_Node000000_Node000005" title=" " alt="" coords="174,213,273,213,273,218,174,218"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1GaussSeidelSmoother.html" title="A lduMatrix::smoother for Gauss&#45;Seidel." alt="" coords="248,252,413,277"/>
+<area shape="poly" id="edge4129_Node000000_Node000006" title=" " alt="" coords="161,228,266,249,265,255,160,233"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1noSmoother.html" title="A lduMatrix::smoother that does nothing. Not on the selection table. Only used by GAMG in the event t..." alt="" coords="280,301,381,327"/>
+<area shape="poly" id="edge4130_Node000000_Node000007" title=" " alt="" coords="114,234,158,261,209,286,245,297,280,305,279,310,243,302,207,291,155,266,112,239"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1nonBlockingGaussSeidelSmoother.html" title="Variant of gaussSeidelSmoother that expects processor boundary cells to be sorted last and so can blo..." alt="" coords="208,351,453,376"/>
+<area shape="poly" id="edge4131_Node000000_Node000008" title=" " alt="" coords="103,237,147,288,177,314,209,336,240,348,238,353,207,340,173,318,144,292,99,241"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1symGaussSeidelSmoother.html" title="A lduMatrix::smoother for symmetric Gauss&#45;Seidel." alt="" coords="234,400,427,425"/>
+<area shape="poly" id="edge4132_Node000000_Node000009" title=" " alt="" coords="97,239,114,273,139,313,171,352,209,385,235,398,233,402,207,390,167,356,135,316,110,276,92,242"/>
+</map>

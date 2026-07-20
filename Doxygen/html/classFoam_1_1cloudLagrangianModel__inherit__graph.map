@@ -1,0 +1,25 @@
+<map id="cloudLagrangianModel" name="cloudLagrangianModel">
+<area shape="rect" id="Node000001" title="Mix&#45;in for Lagrangian models that refer to a cloud." alt="" coords="5,252,175,277"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Lagrangian_1_1SaffmanMeiLift.html" title="Lift model of Saffman (1965) as extended by Mei (1992). Applicable to spherical particles." alt="" coords="275,5,395,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,238,112,194,138,140,174,86,196,61,221,40,247,27,274,19,275,24,249,31,224,44,200,65,178,89,143,143,117,196,101,240"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Lagrangian_1_1collisionPhaseTransfer.html" title="Model to represent the absorption of droplets or bubbles into a corresponding Eulerian phase as a res..." alt="" coords="252,55,419,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,238,119,204,146,164,180,123,221,89,251,76,253,80,224,94,184,127,150,167,124,207,105,241"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Lagrangian_1_1constantCoefficientVirtualMass.html" title="Constant&#45;coefficient virtual mass model." alt="" coords="223,104,448,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="107,239,155,188,187,161,221,138,249,127,251,132,224,143,190,165,159,192,111,243"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1Lagrangian_1_1constantFluxCarrierTransfer.html" title="Model to represent mass transfer into the carrier phase with a constant surface volume or mass flux...." alt="" coords="234,153,437,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="119,242,166,214,222,188,259,176,260,181,224,192,169,219,122,247"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1Lagrangian_1_1drag.html" title="Base class for Lagrangian drag models." alt="" coords="310,203,361,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="167,247,309,218,310,223,168,252"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Lagrangian_1_1gravity.html" title="Gravity force model." alt="" coords="301,252,369,277"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="188,262,301,262,301,267,188,267"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1Lagrangian_1_1heatTransfer.html" title="Base class for Lagrangian heat transfer models." alt="" coords="284,301,387,327"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="168,277,284,301,283,306,166,283"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1Lagrangian_1_1patchInjection.html" title="Patch injection model. This injects particles continuously at a patch with a given number rate...." alt="" coords="278,351,393,376"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="123,282,169,310,224,336,278,351,277,356,222,340,167,315,120,287"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1Lagrangian_1_1pressureGradientForce.html" title="Pressure gradient force model." alt="" coords="251,400,420,425"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="111,286,159,337,190,363,224,385,255,397,253,402,221,390,187,367,155,341,107,290"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1Lagrangian_1_1pressureWork.html" title="Model for pressure work. Subtracts the pressure&#45;volume work associated with particle expansion from t..." alt="" coords="280,449,391,475"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="106,289,124,322,151,362,184,402,224,434,251,447,280,455,279,460,249,452,221,439,181,405,147,365,120,325,101,291"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Lagrangian_1_1turbulentDispersion.html" title="Model for turbulent dispersion. This model creates a random turbulent velocity fluctuation based on t..." alt="" coords="260,499,411,524"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="102,289,118,333,143,386,178,439,200,463,224,484,261,501,259,506,221,488,196,467,174,442,138,388,113,335,97,291"/>
+</map>

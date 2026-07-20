@@ -1,0 +1,41 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1adaptiveSolver.html" title=" " alt="" coords="5,252,125,277"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1Euler.html" title="Euler ODE solver of order (0)1." alt="" coords="203,55,258,80"/>
+<area shape="poly" id="edge3002_Node000000_Node000001" title=" " alt="" coords="74,238,110,166,138,125,172,89,202,73,204,77,175,93,142,129,115,169,79,241"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1EulerSI.html" title="Semi&#45;implicit Euler ODE solver of order (0)1." alt="" coords="197,104,264,129"/>
+<area shape="poly" id="edge3003_Node000000_Node000003" title=" " alt="" coords="80,239,119,189,144,162,172,138,196,125,198,130,175,143,147,166,123,193,85,242"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1RKCK45.html" title="4/5th Order Cash&#45;Karp Runge&#45;Kutta ODE solver." alt="" coords="194,153,267,179"/>
+<area shape="poly" id="edge3004_Node000000_Node000004" title=" " alt="" coords="92,242,129,215,172,188,195,176,197,181,175,192,132,219,95,246"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1RKDP45.html" title="4/5th Order Dormand–Prince Runge&#45;Kutta ODE solver." alt="" coords="193,203,268,228"/>
+<area shape="poly" id="edge3005_Node000000_Node000005" title=" " alt="" coords="121,245,192,224,194,229,123,250"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1RKF45.html" title="4/5th Order Runge&#45;Kutta&#45;Fehlberg ODE solver" alt="" coords="199,252,263,277"/>
+<area shape="poly" id="edge3006_Node000000_Node000006" title=" " alt="" coords="139,262,199,262,199,267,139,267"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Rosenbrock12.html" title="L&#45;stable embedded Rosenbrock ODE solver of order (1)2." alt="" coords="173,301,288,327"/>
+<area shape="poly" id="edge3007_Node000000_Node000007" title=" " alt="" coords="122,279,188,299,186,304,121,284"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Rosenbrock23.html" title="L&#45;stable embedded Rosenbrock ODE solver of order (2)3." alt="" coords="173,351,288,376"/>
+<area shape="poly" id="edge3008_Node000000_Node000008" title=" " alt="" coords="118,281,127,287,142,299,152,312,161,323,175,336,197,348,194,353,172,340,157,327,147,315,138,303,124,291,115,286"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Rosenbrock34.html" title="L&#45;stable embedded Rosenbrock ODE solver of order (3)4." alt="" coords="173,400,288,425"/>
+<area shape="poly" id="edge3009_Node000000_Node000009" title=" " alt="" coords="122,283,127,287,145,312,152,337,159,361,175,385,193,398,190,402,171,389,154,363,147,338,141,315,123,290,119,287"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Trapezoid.html" title="Trapezoidal ODE solver of order (1)2." alt="" coords="189,449,273,475"/>
+<area shape="poly" id="edge3010_Node000000_Node000011" title=" " alt="" coords="123,283,127,287,141,306,149,325,152,362,156,398,162,416,175,435,191,447,188,451,171,439,158,419,150,400,147,363,144,327,137,309,123,290,120,287"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1rodas23.html" title="L&#45;stable, stiffly&#45;accurate embedded Rosenbrock ODE solver of order (2)3." alt="" coords="193,499,268,524"/>
+<area shape="poly" id="edge3011_Node000000_Node000012" title=" " alt="" coords="124,284,127,287,144,313,152,338,154,363,152,387,152,435,160,459,175,484,194,498,191,503,171,488,155,461,147,436,147,387,149,363,147,339,140,315,123,290,120,287"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1rodas34.html" title="L&#45;stable, stiffly&#45;accurate embedded Rosenbrock ODE solver of order (3)4." alt="" coords="193,5,268,31"/>
+<area shape="poly" id="edge3012_Node000000_Node000013" title=" " alt="" coords="70,237,83,195,103,143,132,88,172,40,192,27,195,31,175,44,137,91,108,145,88,197,75,239"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1ODESolver.html" title="Abstract base&#45;class for ODE system solvers." alt="" coords="20,301,111,327"/>
+<area shape="poly" id="edge3013_Node000002_Node000001" title=" " alt="" coords="119,291,123,287,139,262,147,238,147,190,147,141,154,116,171,90,186,78,202,71,204,76,188,83,175,93,159,118,152,142,152,190,152,239,144,264,127,290,123,295"/>
+<area shape="poly" id="edge3014_Node000002_Node000003" title=" " alt="" coords="118,292,123,287,136,268,143,251,147,214,150,178,157,158,171,139,196,123,199,127,175,143,162,161,155,179,152,215,149,252,141,271,127,290,122,296"/>
+<area shape="poly" id="edge3015_Node000002_Node000004" title=" " alt="" coords="117,292,123,287,140,263,147,239,153,214,171,188,192,174,195,179,175,192,158,216,152,240,145,265,127,290,120,296"/>
+<area shape="poly" id="edge3016_Node000002_Node000005" title=" " alt="" coords="113,293,124,287,138,274,147,262,157,250,172,237,193,226,195,230,175,242,161,254,151,266,142,278,127,291,116,297"/>
+<area shape="poly" id="edge3017_Node000002_Node000006" title=" " alt="" coords="121,295,198,272,199,277,122,300"/>
+<area shape="poly" id="edge3018_Node000002_Node000007" title=" " alt="" coords="124,311,173,311,173,317,124,317"/>
+<area shape="poly" id="edge3019_Node000002_Node000008" title=" " alt="" coords="122,328,188,348,186,353,121,333"/>
+<area shape="poly" id="edge3020_Node000002_Node000009" title=" " alt="" coords="96,333,175,385,200,398,197,402,172,390,93,338"/>
+<area shape="poly" id="edge3022_Node000002_Node000011" title=" " alt="" coords="85,336,123,385,148,411,175,434,196,447,194,452,172,439,144,415,119,388,80,339"/>
+<area shape="poly" id="edge3023_Node000002_Node000012" title=" " alt="" coords="79,338,115,409,142,449,175,484,195,496,192,501,172,488,138,452,111,412,74,341"/>
+<area shape="poly" id="edge3024_Node000002_Node000013" title=" " alt="" coords="119,291,123,287,142,256,150,225,150,195,147,166,143,135,143,105,152,73,171,40,192,25,195,30,175,44,156,75,149,105,148,135,152,165,155,195,155,226,147,258,127,290,123,295"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1SIBS.html" title="A semi&#45;implicit mid&#45;point solver for stiff systems of ordinary differential equations." alt="" coords="205,597,256,623"/>
+<area shape="poly" id="edge3021_Node000002_Node000010" title=" " alt="" coords="73,339,83,390,101,455,132,524,152,556,175,584,190,595,206,602,204,607,187,599,172,588,147,559,127,526,96,457,77,391,67,340"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1seulex.html" title="An extrapolation&#45;algorithm, based on the linearly implicit Euler method with step size control and or..." alt="" coords="198,548,263,573"/>
+<area shape="poly" id="edge3025_Node000002_Node000014" title=" " alt="" coords="76,339,88,381,109,433,137,486,175,533,199,549,196,553,172,537,133,489,104,435,83,383,70,341"/>
+</map>

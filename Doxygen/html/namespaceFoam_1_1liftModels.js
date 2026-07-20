@@ -1,0 +1,25 @@
+var namespaceFoam_1_1liftModels =
+[
+    [ "constantLiftCoefficient", "classFoam_1_1liftModels_1_1constantLiftCoefficient.html", "classFoam_1_1liftModels_1_1constantLiftCoefficient" ],
+    [ "dispersedLiftModel", "classFoam_1_1liftModels_1_1dispersedLiftModel.html", "classFoam_1_1liftModels_1_1dispersedLiftModel" ],
+    [ "LegendreMagnaudet", "classFoam_1_1liftModels_1_1LegendreMagnaudet.html", "classFoam_1_1liftModels_1_1LegendreMagnaudet" ],
+    [ "Moraga", "classFoam_1_1liftModels_1_1Moraga.html", "classFoam_1_1liftModels_1_1Moraga" ],
+    [ "noLift", "classFoam_1_1liftModels_1_1noLift.html", "classFoam_1_1liftModels_1_1noLift" ],
+    [ "SaffmanMei", "classFoam_1_1liftModels_1_1SaffmanMei.html", "classFoam_1_1liftModels_1_1SaffmanMei" ],
+    [ "TomiyamaLift", "classFoam_1_1liftModels_1_1TomiyamaLift.html", "classFoam_1_1liftModels_1_1TomiyamaLift" ],
+    [ "wallDamped", "classFoam_1_1liftModels_1_1wallDamped.html", "classFoam_1_1liftModels_1_1wallDamped" ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#aee0e31115d5e887f0d1327c3e1cd924f", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#aea408cd1c90e06fd32a21ef58baac133", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#af892ee2bd5378ddc41a7366953c615ed", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#a9966cc9dbaed5c6b6b4a2f8d153acadd", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#a807543c08d856a9fd3899e15a9c264a8", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#ac563a31c2e264d1c435ffb1e8ef54255", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#ac139564e5fdad9db549ee32609a3d0aa", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#a16dc08c30f2a029c5a8afb18b6b95f31", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#aa75d81522b556ba60c6e97e6d3b033ce", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#ae17dde9edb80c8096d2651c873babfe1", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#a42c80bb7ec9f2c0c31ddd3cb1c3ea120", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#a635fc0261ddbe89a952f12252d68cd3c", null ],
+    [ "defineTypeNameAndDebug", "namespaceFoam_1_1liftModels.html#ab8776eb76aa2f6e4c7e56a7d87eb4d4c", null ],
+    [ "addToRunTimeSelectionTable", "namespaceFoam_1_1liftModels.html#a549ec5e7b5ece4ac70069019b608cfec", null ]
+];

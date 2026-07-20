@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1solidBodyMotionFunction.html" title="Base class for defining solid&#45;body motions." alt="" coords="5,252,192,277"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1solidBodyMotionFunctions_1_1SDA.html" title="Ship design analysis (SDA) 3DoF motion function." alt="" coords="326,5,375,31"/>
+<area shape="poly" id="edge4411_Node000000_Node000001" title=" " alt="" coords="106,238,124,194,152,140,190,86,213,61,239,40,260,28,283,21,326,15,326,21,284,26,262,33,241,44,216,65,194,89,156,143,129,196,111,240"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solidBodyMotionFunctions_1_1axisRotationMotion.html" title="Constant angular velocity rotation around given origin." alt="" coords="276,55,425,80"/>
+<area shape="poly" id="edge4412_Node000000_Node000002" title=" " alt="" coords="111,238,131,204,160,164,196,123,239,89,274,74,277,79,241,94,199,127,164,167,135,207,115,241"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1solidBodyMotionFunctions_1_1linearMotion.html" title="SolidBodyMotionFvMesh 6DoF motion function. Constant velocity displacement." alt="" coords="299,104,403,129"/>
+<area shape="poly" id="edge4413_Node000000_Node000003" title=" " alt="" coords="117,240,168,188,202,161,239,138,268,127,298,120,299,125,270,132,241,143,205,165,172,192,121,244"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1solidBodyMotionFunctions_1_1multiMotion.html" title="Combination of SolidBodyMotionFvMesh 6DoF motion functions." alt="" coords="300,153,401,179"/>
+<area shape="poly" id="edge4414_Node000000_Node000004" title=" " alt="" coords="130,242,180,214,239,187,299,171,300,177,241,193,182,219,133,247"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1solidBodyMotionFunctions_1_1multiValveEnginePistonMotion.html" title="Motion function for solid regions representing a piston. Looks up the multiValveEngine mover from the..." alt="" coords="240,203,461,228"/>
+<area shape="poly" id="edge4415_Node000000_Node000005" title=" " alt="" coords="177,247,284,225,285,231,178,252"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1solidBodyMotionFunctions_1_1multiValveEngineValveMotion.html" title="Motion function for solid regions representing a valve. Looks up the multiValveEngine mover from the ..." alt="" coords="242,252,459,277"/>
+<area shape="poly" id="edge4416_Node000000_Node000006" title=" " alt="" coords="206,262,242,262,242,267,206,267"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1solidBodyMotionFunctions_1_1none.html" title="Dummy motion function for stationary regions." alt="" coords="323,301,378,327"/>
+<area shape="poly" id="edge4417_Node000000_Node000007" title=" " alt="" coords="178,277,324,306,323,311,177,283"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1solidBodyMotionFunctions_1_1oscillatingLinearMotion.html" title="SolidBodyMotionFvMesh 6DoF motion function. Oscillating displacement." alt="" coords="263,351,438,376"/>
+<area shape="poly" id="edge4418_Node000000_Node000008" title=" " alt="" coords="134,282,183,310,241,336,283,348,281,353,239,340,181,314,131,287"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1solidBodyMotionFunctions_1_1oscillatingRotatingMotion.html" title="SolidBodyMotionFvMesh 6DoF motion function. Oscillating rotation." alt="" coords="256,400,445,425"/>
+<area shape="poly" id="edge4419_Node000000_Node000009" title=" " alt="" coords="121,286,172,337,205,363,241,385,273,397,271,402,239,390,202,367,169,341,118,290"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1solidBodyMotionFunctions_1_1rotatingMotion.html" title="Time varying angular velocity rotation around given axis through given origin." alt="" coords="291,449,410,475"/>
+<area shape="poly" id="edge4420_Node000000_Node000010" title=" " alt="" coords="115,288,136,322,164,362,200,401,241,434,266,446,292,453,290,458,264,451,239,439,196,405,160,365,131,325,111,291"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1solidBodyMotionFunctions_1_1sixDoFMotion.html" title="Tabulated 6DoF motion function." alt="" coords="295,499,407,524"/>
+<area shape="poly" id="edge4421_Node000000_Node000011" title=" " alt="" coords="111,289,129,332,157,385,194,439,217,463,241,484,267,497,295,504,293,510,265,502,239,488,213,467,190,442,152,388,124,335,106,291"/>
+</map>

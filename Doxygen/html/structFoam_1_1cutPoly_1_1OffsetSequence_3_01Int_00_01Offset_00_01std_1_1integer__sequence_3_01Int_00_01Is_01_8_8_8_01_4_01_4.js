@@ -1,0 +1,4 @@
+var structFoam_1_1cutPoly_1_1OffsetSequence_3_01Int_00_01Offset_00_01std_1_1integer__sequence_3_01Int_00_01Is_01_8_8_8_01_4_01_4 =
+[
+    [ "type", "structFoam_1_1cutPoly_1_1OffsetSequence_3_01Int_00_01Offset_00_01std_1_1integer__sequence_3_01Int_00_01Is_01_8_8_8_01_4_01_4.html#a892c8195843ac357f5b8575059c3bf1e", null ]
+];
