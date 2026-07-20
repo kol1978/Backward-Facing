@@ -1,0 +1,33 @@
+<map id="src/finiteVolume/cfdTools/general/adjustPhi/adjustPhi.H" name="src/finiteVolume/cfdTools/general/adjustPhi/adjustPhi.H">
+<area shape="rect" id="Node000001" title="For cases which do no have a pressure boundary adjust the balance of fluxes to obey continuity...." alt="" coords="1767,5,1984,45"/>
+<area shape="rect" id="Node000002" href="$PDRFoam_8C.html" title="Solver for compressible premixed/partially&#45;premixed combustion with turbulence modelling." alt="" coords="5,101,175,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1753,30,1409,33,957,42,726,51,512,62,327,77,188,96,159,103,157,98,187,91,327,72,511,57,726,45,957,37,1409,27,1753,24"/>
+<area shape="rect" id="Node000003" href="$rhoPorousSimpleFoam_8C.html" title="Steady&#45;state solver for turbulent flow of compressible fluids, with implicit or explicit porosity tre..." alt="" coords="199,101,426,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1753,32,1457,39,1078,52,708,70,555,82,438,96,402,103,401,98,438,91,554,77,708,65,1078,46,1457,34,1753,26"/>
+<area shape="rect" id="Node000004" href="$adjointShapeOptimisationFoam_8C.html" title="Steady&#45;state solver for incompressible, turbulent flow of non&#45;Newtonian fluids with optimisation of d..." alt="" coords="450,93,765,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1753,31,1564,37,1321,49,1050,67,777,96,765,98,765,92,776,91,1049,62,1320,43,1564,32,1753,26"/>
+<area shape="rect" id="Node000005" href="$icoFoam_8C.html" title="Transient solver for incompressible, laminar flow of Newtonian fluids." alt="" coords="789,101,973,155"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1753,29,1598,33,1406,44,1195,64,1089,78,985,96,955,103,954,98,984,91,1088,73,1194,58,1405,38,1598,28,1753,24"/>
+<area shape="rect" id="Node000006" href="$porousSimpleFoam_8C.html" title="Steady&#45;state solver for incompressible, turbulent flow with implicit or explicit porosity treatment a..." alt="" coords="997,101,1215,155"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1753,36,1509,56,1368,73,1228,96,1195,103,1194,98,1227,91,1367,68,1509,51,1752,31"/>
+<area shape="rect" id="Node000007" href="$compressibleMultiphaseVoF_2pressureCorrector_8C.html" title=" " alt="" coords="1240,101,1449,155"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1753,45,1613,67,1463,96,1433,103,1432,98,1461,91,1612,62,1752,40"/>
+<area shape="rect" id="Node000008" href="$compressibleVoF_2pressureCorrector_8C.html" title=" " alt="" coords="1474,108,1743,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1813,53,1660,110,1658,105,1811,48"/>
+<area shape="rect" id="Node000009" href="$incompressibleDenseParticleFluid_2correctPressure_8C.html" title=" " alt="" coords="1768,101,1983,155"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1878,59,1878,100,1873,100,1873,59"/>
+<area shape="rect" id="Node000010" href="$incompressibleFluid_2correctPressure_8C.html" title=" " alt="" coords="2007,101,2168,155"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1928,49,2033,98,2031,103,1926,54"/>
+<area shape="rect" id="Node000011" href="$incompressibleMultiphaseVoF_2pressureCorrector_8C.html" title=" " alt="" coords="2193,101,2406,155"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1982,46,2181,91,2209,98,2208,103,2180,96,1980,51"/>
+<area shape="rect" id="Node000012" href="$correctBuoyantPressure_8C.html" title=" " alt="" coords="2431,101,2661,155"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1998,34,2196,56,2418,91,2453,98,2451,103,2418,96,2195,61,1997,40"/>
+<area shape="rect" id="Node000013" href="$isothermalFluid_2correctPressure_8C.html" title=" " alt="" coords="2685,108,2932,148"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1998,28,2306,47,2491,65,2674,91,2743,105,2741,111,2674,96,2490,71,2306,53,1998,33"/>
+<area shape="rect" id="Node000014" href="$twoPhaseSolver_2pressureCorrector_8C.html" title=" " alt="" coords="2956,108,3219,148"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1998,25,2182,30,2418,40,2681,60,2945,91,3018,105,3017,111,2944,96,2681,65,2418,46,2182,35,1997,30"/>
+<area shape="rect" id="Node000015" href="$adjustPhi_8C.html" title=" " alt="" coords="3243,108,3459,148"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1998,27,2279,34,2634,47,2980,66,3123,77,3232,91,3295,105,3293,111,3231,96,3122,83,2979,71,2634,52,2278,39,1998,32"/>
+<area shape="rect" id="Node000016" href="$CorrectPhi_8C.html" title=" " alt="" coords="3484,108,3712,148"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1998,26,2324,32,2749,44,3167,63,3340,76,3472,91,3538,105,3537,110,3471,96,3340,81,3167,69,2749,49,2324,37,1998,31"/>
+</map>

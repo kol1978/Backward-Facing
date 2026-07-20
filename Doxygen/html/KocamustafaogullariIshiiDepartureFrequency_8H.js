@@ -1,4 +1,0 @@
-var KocamustafaogullariIshiiDepartureFrequency_8H =
-[
-    [ "KocamustafaogullariIshiiDepartureFrequency", "classFoam_1_1wallBoilingModels_1_1departureFrequencyModels_1_1KocamustafaogullariIshiiDepartureFrequency.html", "classFoam_1_1wallBoilingModels_1_1departureFrequencyModels_1_1KocamustafaogullariIshiiDepartureFrequency" ]
-];

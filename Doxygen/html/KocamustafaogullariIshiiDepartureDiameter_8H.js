@@ -1,4 +1,0 @@
-var KocamustafaogullariIshiiDepartureDiameter_8H =
-[
-    [ "KocamustafaogullariIshiiDepartureDiameter", "classFoam_1_1wallBoilingModels_1_1departureDiameterModels_1_1KocamustafaogullariIshiiDepartureDiameter.html", "classFoam_1_1wallBoilingModels_1_1departureDiameterModels_1_1KocamustafaogullariIshiiDepartureDiameter" ]
-];

@@ -1,0 +1,18 @@
+# Сетка
+n0012familyII2hex_compressible_SST/constant/polyMesh/faces
+n0012familyII2hex_compressible_SST/constant/polyMesh/neighbour
+n0012familyII2hex_compressible_SST/constant/polyMesh/owner
+n0012familyII2hex_compressible_SST/constant/polyMesh/points
+# Результаты расчётов
+processor*
+# Постпроцессинг и дампы
+*.vtk
+
+# Временные файлы
+*.swp
+*.swo
+# Остальное
+/Doxygen_OpenFOAM-12/
+/Doxygen_OpenFOAM-13/
+/Doxygen_OpenFOAM-14/
+/Doxygen_OpenFOAM-v2606/

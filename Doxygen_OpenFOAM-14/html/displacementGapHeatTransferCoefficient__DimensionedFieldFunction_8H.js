@@ -1,0 +1,4 @@
+var displacementGapHeatTransferCoefficient__DimensionedFieldFunction_8H =
+[
+    [ "displacementGapHeatTransferCoefficient", "classFoam_1_1DimensionedFieldFunctions_1_1displacementGapHeatTransferCoefficient.html", "classFoam_1_1DimensionedFieldFunctions_1_1displacementGapHeatTransferCoefficient" ]
+];

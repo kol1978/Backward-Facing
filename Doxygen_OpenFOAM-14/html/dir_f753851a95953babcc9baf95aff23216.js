@@ -1,0 +1,5 @@
+var dir_f753851a95953babcc9baf95aff23216 =
+[
+    [ "HerschelBulkley.C", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalisef8a196c76ff24da9ed218526090f825f.html", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalisef8a196c76ff24da9ed218526090f825f" ],
+    [ "HerschelBulkley.H", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalise22d4706b8036a88bddff9b8a95ff6a9b.html", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalise22d4706b8036a88bddff9b8a95ff6a9b" ]
+];

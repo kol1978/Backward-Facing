@@ -1,4 +1,0 @@
-var src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalise22d4706b8036a88bddff9b8a95ff6a9b =
-[
-    [ "HerschelBulkley", "classFoam_1_1laminarModels_1_1generalisedNewtonianViscosityModels_1_1HerschelBulkley.html", "classFoam_1_1laminarModels_1_1generalisedNewtonianViscosityModels_1_1HerschelBulkley" ]
-];

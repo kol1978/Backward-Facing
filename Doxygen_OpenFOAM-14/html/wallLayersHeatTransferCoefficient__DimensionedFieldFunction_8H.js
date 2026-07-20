@@ -1,0 +1,4 @@
+var wallLayersHeatTransferCoefficient__DimensionedFieldFunction_8H =
+[
+    [ "wallLayersHeatTransferCoefficient", "classFoam_1_1DimensionedFieldFunctions_1_1wallLayersHeatTransferCoefficient.html", "classFoam_1_1DimensionedFieldFunctions_1_1wallLayersHeatTransferCoefficient" ]
+];

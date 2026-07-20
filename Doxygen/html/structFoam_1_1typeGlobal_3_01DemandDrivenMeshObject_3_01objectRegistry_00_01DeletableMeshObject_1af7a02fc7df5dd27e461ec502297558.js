@@ -1,4 +1,0 @@
-var structFoam_1_1typeGlobal_3_01DemandDrivenMeshObject_3_01objectRegistry_00_01DeletableMeshObject_1af7a02fc7df5dd27e461ec502297558 =
-[
-    [ "global", "structFoam_1_1typeGlobal_3_01DemandDrivenMeshObject_3_01objectRegistry_00_01DeletableMeshObject_1af7a02fc7df5dd27e461ec502297558.html#a288e578670054bd80e88dffe71d28b7b", null ]
-];

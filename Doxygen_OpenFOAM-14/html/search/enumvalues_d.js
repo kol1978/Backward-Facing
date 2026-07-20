@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['object_0',['OBJECT',['../classFoam_1_1fileOperation.html#a631372ca4f28d9792e14f9b83cf4a863a6f78e99ade8d62ec44d30013723e6e75',1,'Foam::fileOperation']]],
+  ['objintersections_1',['OBJINTERSECTIONS',['../classFoam_1_1meshRefinement.html#a92dc814ea7fd34acae287945426740d3a50b15c65d009344158e450a82a31e1a9',1,'Foam::meshRefinement']]],
+  ['off_2',['off',['../classFoam_1_1Switch.html#a024bcf0bf4d06c636ee587cdf15c68eaa3262d48df5d75e3452f0f16b313b7808',1,'Foam::Switch']]],
+  ['omega_3',['omega',['../classFoam_1_1functionObjects_1_1turbulenceFields.html#aa506fc2be724c07cc6a57629898873deac6d6bd7ebf806f43c76acc3681703b81',1,'Foam::functionObjects::turbulenceFields::omega'],['../classFoam_1_1functionObjects_1_1turbulenceFields.html#aaa4b119eaaa003546b8e0ebac89d1afeac6d6bd7ebf806f43c76acc3681703b81',1,'Foam::functionObjects::turbulenceFields::omega']]],
+  ['on_4',['on',['../classFoam_1_1Switch.html#a024bcf0bf4d06c636ee587cdf15c68eaaed2b5c0139cec8ad2873829dc1117d50',1,'Foam::Switch']]],
+  ['onboundary_5',['onBoundary',['../classFoam_1_1LagrangianMesh.html#a5f269c22e6d9d32b0b0ad7e6166854dfa71bad41396c8c585e9281d39620c2d3d',1,'Foam::LagrangianMesh']]],
+  ['oninternalface_6',['onInternalFace',['../namespaceFoam.html#a6cfe10a2eee860a1888270ac137c45f9a58931a2edb5633256306f48cd9b57273',1,'Foam']]],
+  ['onpatchzero_7',['onpatchzero',['../namespaceFoam.html#ac496730ff51e48eec2717d8a304ceaf7ac113ae928ece8c7f7ac8e386f3fa6dc8',1,'Foam::onPatchZero'],['../namespaceFoam.html#a6cfe10a2eee860a1888270ac137c45f9ac113ae928ece8c7f7ac8e386f3fa6dc8',1,'Foam::onPatchZero']]],
+  ['open_8',['open',['../classFoam_1_1extendedEdgeMesh.html#a9bf24153af0cf5754b35c9cae8de8ce2a0e0143636c29971736eab47415868eae',1,'Foam::extendedEdgeMesh::OPEN'],['../classFoam_1_1PrimitivePatch.html#af77d580611dd288d9fb2572be3e48394a0e0143636c29971736eab47415868eae',1,'Foam::PrimitivePatch::OPEN']]],
+  ['opened_9',['OPENED',['../classFoam_1_1IOstream.html#ac5431983de639952893299974b067e16a45c1c97bdcce420fc01045ee101a0cf2',1,'Foam::IOstream']]],
+  ['orientedsum_10',['orientedSum',['../classFoam_1_1functionObjects_1_1fieldValues_1_1surfaceFieldValue.html#affa85dc1e35a993bd64e73041e528ac7a7aaeada34e0def657e88af7f92fcc1a5',1,'Foam::functionObjects::fieldValues::surfaceFieldValue']]],
+  ['outer_11',['outer',['../classFoam_1_1zoneGenerators_1_1face.html#a6d2b064dc34a4269d9116afdf3f4d141a7cfcbd1c1575dd7eae454f18b9267188',1,'Foam::zoneGenerators::face']]],
+  ['outerinternal_12',['outerInternal',['../classFoam_1_1zoneGenerators_1_1face.html#a6d2b064dc34a4269d9116afdf3f4d141a7601f5abb837b2cc5386f693eb76b3b4',1,'Foam::zoneGenerators::face']]],
+  ['outputlayerinfo_13',['OUTPUTLAYERINFO',['../classFoam_1_1meshRefinement.html#adc72d03b0853feb6cb18a149e7937be9a5f73b37d5000db8cca252b7bb08e50e0',1,'Foam::meshRefinement']]],
+  ['outputtime_14',['outputTime',['../classFoam_1_1timeControl.html#a486c49b16794e789de0f771292309ae2afa75932e765bac478fe98ed2bb6a0d61',1,'Foam::timeControl']]],
+  ['outside_15',['outside',['../classFoam_1_1surfaceZonesInfo.html#a153a25d13c0b8379eadf40b31a2c4af6a3c0a64074de1af803bba09ed1870689d',1,'Foam::surfaceZonesInfo::OUTSIDE'],['../classFoam_1_1cellClassification.html#ad5caa064df6b31464d3d168da2a62001a3c0a64074de1af803bba09ed1870689d',1,'Foam::cellClassification::OUTSIDE'],['../classFoam_1_1extendedEdgeMesh.html#aa6376232c086ea48a8b69bdac97b2ceca3c0a64074de1af803bba09ed1870689d',1,'Foam::extendedEdgeMesh::OUTSIDE'],['../classFoam_1_1triSurfaceTools.html#a0e01ae8050b9d9315d8ee222471bcabea3c0a64074de1af803bba09ed1870689d',1,'Foam::triSurfaceTools::OUTSIDE'],['../classFoam_1_1volumeType.html#a7aead736a07eaf25623ad7bfa1f0ee2dac8da1cf898317d8ad0684c8e696e7e7f',1,'Foam::volumeType::outside'],['../classFoam_1_1refinementRegions.html#a9452174f01048845e999407fca3cf05cac30163615770c8b2b8873288e828de41',1,'Foam::refinementRegions::outside'],['../classFoam_1_1zoneGenerators_1_1volume.html#a79d1b0e96e042367a41a73d13a4a09f1ac30163615770c8b2b8873288e828de41',1,'Foam::zoneGenerators::volume::outside']]],
+  ['outsidemesh_16',['outsideMesh',['../classFoam_1_1LagrangianMesh.html#a5f269c22e6d9d32b0b0ad7e6166854dfa5ccb2da0198fc04fef9a4b8d8e1e53c3',1,'Foam::LagrangianMesh']]],
+  ['outsidespan_17',['outsideSpan',['../classFoam_1_1refinementRegions.html#a9452174f01048845e999407fca3cf05ca86e4d006fc52ccb7861eaaba9234739e',1,'Foam::refinementRegions']]],
+  ['owner_18',['OWNER',['../classFoam_1_1faceToCell.html#ae42b9a449085f5f8d8e0f73b252a7ff4adce3f6fabb3ba828076711c23b81d1d7',1,'Foam::faceToCell']]]
+];

@@ -1,4 +1,0 @@
-var atmosphericBoundaryLayerTurbulentKineticEnergyFvPatchScalarField_8H =
-[
-    [ "atmosphericBoundaryLayerTurbulentKineticEnergyFvPatchScalarField", "classFoam_1_1atmosphericBoundaryLayerTurbulentKineticEnergyFvPatchScalarField.html", "classFoam_1_1atmosphericBoundaryLayerTurbulentKineticEnergyFvPatchScalarField" ]
-];

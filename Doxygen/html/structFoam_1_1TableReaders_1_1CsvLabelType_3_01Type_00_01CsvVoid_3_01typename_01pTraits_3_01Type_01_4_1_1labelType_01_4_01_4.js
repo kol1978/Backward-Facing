@@ -1,6 +1,0 @@
-var structFoam_1_1TableReaders_1_1CsvLabelType_3_01Type_00_01CsvVoid_3_01typename_01pTraits_3_01Type_01_4_1_1labelType_01_4_01_4 =
-[
-    [ "type", "structFoam_1_1TableReaders_1_1CsvLabelType_3_01Type_00_01CsvVoid_3_01typename_01pTraits_3_01Type_01_4_1_1labelType_01_4_01_4.html#a2354e6b96875697c86247379270ac4ca", null ],
-    [ "oldType", "structFoam_1_1TableReaders_1_1CsvLabelType_3_01Type_00_01CsvVoid_3_01typename_01pTraits_3_01Type_01_4_1_1labelType_01_4_01_4.html#a740e68536d03f50cb8b55663bc6ae3ed", null ],
-    [ "operator()", "structFoam_1_1TableReaders_1_1CsvLabelType_3_01Type_00_01CsvVoid_3_01typename_01pTraits_3_01Type_01_4_1_1labelType_01_4_01_4.html#a3fe8648623fe1471289af59c58d65700", null ]
-];

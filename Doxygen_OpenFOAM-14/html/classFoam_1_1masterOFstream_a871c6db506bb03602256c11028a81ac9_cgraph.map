@@ -1,0 +1,33 @@
+<map id="~masterOFstream" name="~masterOFstream">
+<area shape="rect" id="Node000001" title="Destructor." alt="" coords="5,230,148,256"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="216,80,409,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,229,126,173,158,141,195,114,208,108,210,112,197,119,161,145,130,176,88,232"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="477,80,683,105"/>
+<area shape="poly" id="edge8_Node000001_Node000014" title=" " alt="" coords="79,229,93,194,116,148,149,101,171,81,195,65,219,56,251,52,331,53,418,62,499,75,499,80,418,68,330,58,251,58,220,62,197,69,174,85,153,105,120,150,97,196,84,231"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="489,30,671,56"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="78,229,90,190,112,137,146,83,169,60,195,41,236,22,279,10,324,4,369,3,454,10,524,24,523,29,453,16,369,8,324,10,280,16,237,27,197,45,172,64,150,86,117,139,95,192,83,231"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#ad2750efe0594a0466b9015f0c30175d9" title="Is this a parallel run?" alt="" coords="488,129,672,154"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="126,228,195,211,490,154,491,159,197,216,127,233"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="221,281,405,306"/>
+<area shape="poly" id="edge5_Node000001_Node000029" title=" " alt="" coords="137,253,240,275,239,281,136,258"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1UPstream.html#a30260fa445b5e3e14a9042269664adde" title="Process index of the master." alt="" coords="479,306,681,332"/>
+<area shape="poly" id="edge7_Node000001_Node000030" title=" " alt="" coords="94,254,137,287,166,304,197,316,271,332,348,337,422,336,487,331,487,336,422,341,348,343,271,337,195,322,164,309,134,292,90,258"/>
+<area shape="rect" id="Node000031" href="$gmvOutputSpray_8H.html#a36d713f40cba42587b1917b8149fcb93" title=" " alt="" coords="293,382,332,408"/>
+<area shape="poly" id="edge11_Node000001_Node000031" title=" " alt="" coords="89,254,132,306,163,336,197,361,239,378,280,388,279,393,238,384,195,365,159,340,128,310,85,258"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1Pstream.html#a00bc7d5a0b660cfa53523561af48def2" title="Scatter data. Distribute without modification. Reverse of gather." alt="" coords="226,129,399,154"/>
+<area shape="poly" id="edge12_Node000001_Node000032" title=" " alt="" coords="95,228,139,200,195,171,240,156,242,161,197,176,142,204,98,232"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1UOPstream.html#a0efefd773fa79fc3b687978f9e1ee9ba" title="Write given buffer to given processor." alt="" coords="489,205,671,230"/>
+<area shape="poly" id="edge19_Node000001_Node000033" title=" " alt="" coords="148,237,476,220,476,226,148,242"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#ac9115addd2c38cd566ef0a2d84f2217f" title="Same file?" alt="" coords="196,432,429,486"/>
+<area shape="poly" id="edge17_Node000001_Node000034" title=" " alt="" coords="85,255,100,288,124,332,157,378,198,418,203,422,200,427,194,422,153,381,120,334,95,290,81,257"/>
+<area shape="rect" id="Node000028" href="$makeGraphs_8H.html#a8f30b3c2179b03a7acf273e9dea43342" title=" " alt="" coords="285,510,340,536"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="82,256,92,302,112,368,127,404,146,438,170,470,198,497,215,507,233,514,272,521,271,526,232,519,212,512,194,501,166,473,142,441,123,406,107,370,87,304,77,257"/>
+<area shape="poly" id="edge2_Node000002_Node000014" title=" " alt="" coords="410,90,463,90,463,95,410,95"/>
+<area shape="poly" id="edge3_Node000002_Node000015" title=" " alt="" coords="382,77,497,56,498,61,383,82"/>
+<area shape="poly" id="edge4_Node000002_Node000013" title=" " alt="" coords="383,102,498,124,497,129,382,108"/>
+<area shape="poly" id="edge6_Node000029_Node000030" title=" " alt="" coords="405,300,465,305,465,311,404,305"/>
+<area shape="poly" id="edge13_Node000032_Node000014" title=" " alt="" coords="382,126,497,105,498,110,383,132"/>
+<area shape="poly" id="edge14_Node000032_Node000015" title=" " alt="" coords="398,126,428,114,442,103,451,90,460,77,476,65,490,58,492,63,479,69,464,81,456,93,446,106,431,119,400,131"/>
+<area shape="poly" id="edge15_Node000032_Node000013" title=" " alt="" coords="400,139,474,139,474,144,400,144"/>
+<area shape="poly" id="edge16_Node000032_Node000033" title=" " alt="" coords="359,152,522,199,520,204,358,157"/>
+</map>
