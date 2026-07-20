@@ -1,0 +1,52 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : extrudeMesh
+Date   : Jul 20 2026
+Time   : 23:22:20
+Host   : "kol-serv"
+PID    : 597639
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/aerofoilNACA0012
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "extrudeMeshDict"
+
+
+Selecting extrudeModel plane
+Extruding from patch using model plane
+Collapsing edges < 0.0001 of bounding box
+
+Extruding patches 1(back) on mesh "/home/kol/OpenFOAM/kol-12/Backward-Facing_github/aerofoilNACA0012"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Mesh bounding box : (-1.7 -0.1 -2) (4 0 2)
+        with span : (5.7 0.1 4)
+Merge distance    : 1e-05
+
+Collapsing edges < 1e-05 ...
+
+            Uncollapsed edges = 0 / 80720
+    Number of points : 32480
+    Not visited      : 0
+    Not collapsed    : 32480
+    Collapsed        : 0
+
+Collapsing 0 cells
+Writing mesh to "constant/region0"
+
+End
+

@@ -1,0 +1,95 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : blockMesh
+Date   : Jul 20 2026
+Time   : 23:22:19
+Host   : "kol-serv"
+PID    : 597636
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/aerofoilNACA0012
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Basic statistics
+    Number of internal faces : 6
+    Number of boundary faces : 24
+    Number of defined boundary faces : 24
+    Number of undefined boundary faces : 0
+
+Checking topology
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.021083319 .. 0.0042027547 0.021083319 .. 0.0042027547 0.021143009 .. 0.004397095 0.021143009 .. 0.004397095 
+        j : 0.2
+        k : 0.0022667051 .. 0.090668205 0.0022269042 .. 0.092187804 0.0022667051 .. 0.090668205 0.0022269042 .. 0.092187804 
+    Block 1 cell size :
+        i : 0.023435647 .. 0.023435645 0.023435647 .. 0.023435645 0.023435252 .. 0.023435525 0.023435252 .. 0.023435525 
+        j : 0.2
+        k : 0.0023368179 .. 0.093472715 0.0023329364 .. 0.093317457 0.0023368179 .. 0.093472715 0.0023329364 .. 0.093317457 
+    Block 2 cell size :
+        i : 0.018989548 .. 0.18989548
+        j : 0.2
+        k : 0.0023368179 .. 0.093472715
+    Block 3 cell size :
+        i : 0.021083319 .. 0.0042027547 0.021083319 .. 0.0042027547 0.021143009 .. 0.004397095 0.021143009 .. 0.004397095 
+        j : 0.2
+        k : 0.0022667051 .. 0.090668205 0.0022269042 .. 0.092187804 0.0022667051 .. 0.090668205 0.0022269042 .. 0.092187804 
+    Block 4 cell size :
+        i : 0.023435647 .. 0.023435645 0.023435647 .. 0.023435645 0.023435252 .. 0.023435525 0.023435252 .. 0.023435525 
+        j : 0.2
+        k : 0.0023368179 .. 0.093472715 0.0023329364 .. 0.093317457 0.0023368179 .. 0.093472715 0.0023329364 .. 0.093317457 
+    Block 5 cell size :
+        i : 0.018989548 .. 0.18989548
+        j : 0.2
+        k : 0.0023368179 .. 0.093472715
+
+No patch pairs to merge
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-1.7 -0.1 -2) (4 0.1 2)
+  nPoints: 32480
+  nCells: 16000
+  nFaces: 64240
+  nInternalFaces: 31760
+----------------
+Patches
+----------------
+  patch 0 (start: 31760 size: 120) name: aerofoil
+  patch 1 (start: 31880 size: 200) name: inlet
+  patch 2 (start: 32080 size: 160) name: outlet
+  patch 3 (start: 32240 size: 16000) name: back
+  patch 4 (start: 48240 size: 16000) name: front
+
+End
+
