@@ -1,0 +1,4 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity8c952ad142d65c411eea00b1c0e1b29d =
+[
+    [ "BirdCarreau", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1BirdCarreau.html", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1BirdCarreau" ]
+];

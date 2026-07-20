@@ -1,0 +1,28 @@
+var classFoam_1_1volBSplinesBase =
+[
+    [ "volBSplinesBase", "classFoam_1_1volBSplinesBase.html#ac1056f3ab66566cc625c69bf9fea0b2b", null ],
+    [ "~volBSplinesBase", "classFoam_1_1volBSplinesBase.html#a15ac35c71c2b9c858cd2f2aa758417a7", null ],
+    [ "TypeName", "classFoam_1_1volBSplinesBase.html#aa28b55e9879f455c202e250d26d436b1", null ],
+    [ "boxes", "classFoam_1_1volBSplinesBase.html#a370ae460855f21c8987d23e41ca4a46c", null ],
+    [ "boxesRef", "classFoam_1_1volBSplinesBase.html#aa0e7eae516c22f6fb62e6dda69c3492b", null ],
+    [ "box", "classFoam_1_1volBSplinesBase.html#aa8e9506c348c577b4ff039fb7d76329b", null ],
+    [ "boxRef", "classFoam_1_1volBSplinesBase.html#a804b29bd6b159b12847f11a1608881e0", null ],
+    [ "getControlPoints", "classFoam_1_1volBSplinesBase.html#a3145ca7d7b2023b0495c1780bec66a10", null ],
+    [ "getAllControlPoints", "classFoam_1_1volBSplinesBase.html#a4132cf8dcf0baa5ad1701c4656388dc4", null ],
+    [ "getTotalControlPointsNumber", "classFoam_1_1volBSplinesBase.html#aabd7df9873e5aa76da82e7f2be2058d0", null ],
+    [ "getNumberOfBoxes", "classFoam_1_1volBSplinesBase.html#afb84f678f55faa5b612796bc0800f6cc", null ],
+    [ "getStartCpID", "classFoam_1_1volBSplinesBase.html#a7106387e1c6457b99c5c7c94ee267669", null ],
+    [ "getStartVarID", "classFoam_1_1volBSplinesBase.html#a737a1351bc1280b4f20d3a6489db6083", null ],
+    [ "findBoxID", "classFoam_1_1volBSplinesBase.html#a7e5b128627f313892707a9091d6a6907", null ],
+    [ "decomposeDV", "classFoam_1_1volBSplinesBase.html#afc7579f2e42e256d891da9e8ef8c0e7d", null ],
+    [ "getActiveDesignVariables", "classFoam_1_1volBSplinesBase.html#a4164f3d2beaa7c08eb41d6e0aa9e9c1f", null ],
+    [ "computeMaxBoundaryDisplacement", "classFoam_1_1volBSplinesBase.html#a4fe57bc48f177dd32ccceb75f4cb80b0", null ],
+    [ "computeBoundaryDisplacement", "classFoam_1_1volBSplinesBase.html#af363de578dfd89419ca57e3710749da1", null ],
+    [ "boundControlPointMovement", "classFoam_1_1volBSplinesBase.html#ab9db7bf52cf78f36bc7fbc0e3d214ce2", null ],
+    [ "moveControlPoints", "classFoam_1_1volBSplinesBase.html#a3141808a59232ca8f32bf0862914836b", null ],
+    [ "writeControlPoints", "classFoam_1_1volBSplinesBase.html#a419a5bf5e98380762be3ecbeb381e6c8", null ],
+    [ "movePoints", "classFoam_1_1volBSplinesBase.html#a049fe0a86e2c86b4c0bb5fe02583bea4", null ],
+    [ "updateMesh", "classFoam_1_1volBSplinesBase.html#ad57565956fd4064299f4bd3c4eebb1d4", null ],
+    [ "volume_", "classFoam_1_1volBSplinesBase.html#abe511bfde3b01e0c7d8ed5900be8adfc", null ],
+    [ "activeDesignVariables_", "classFoam_1_1volBSplinesBase.html#aa334135e0470b344d44b849deaecf832", null ]
+];

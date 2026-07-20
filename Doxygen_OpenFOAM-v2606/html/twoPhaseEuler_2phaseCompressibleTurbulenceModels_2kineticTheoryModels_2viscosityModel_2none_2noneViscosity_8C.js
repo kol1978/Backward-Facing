@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2none_2noneViscosity_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2none_2noneViscosity_8C.html#a30826dd485299cbabcde3c21cdacedb9", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2none_2noneViscosity_8C.html#aba900446319dde56d472366bcf706918", null ]
+];

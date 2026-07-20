@@ -1,0 +1,4 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffi4dbd1c7fcb21677cd0736eac19249d41 =
+[
+    [ "constantVirtualMassCoefficient", "classFoam_1_1virtualMassModels_1_1constantVirtualMassCoefficient.html", "classFoam_1_1virtualMassModels_1_1constantVirtualMassCoefficient" ]
+];

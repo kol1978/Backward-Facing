@@ -1,0 +1,31 @@
+<map id="surface" name="surface">
+<area shape="rect" id="Node000001" title="The underlying searchableSurface." alt="" coords="203,327,273,352"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1searchableSurfaceWithGaps.html#a96361011f8440feb1a1d941f97066429" title="Get bounding spheres (centre and radius squared), one per element." alt="" coords="13,5,147,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,313,232,258,221,185,210,147,196,110,177,75,153,44,138,33,141,29,157,40,182,72,201,108,216,146,226,184,237,257,240,313"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1searchableSurfaceWithGaps.html#a8588425fa7c02f0d31cd313487bc58bf" title="Get representative set of element coordinates." alt="" coords="31,55,129,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,313,227,266,214,207,191,146,174,118,153,93,128,78,131,74,156,89,178,115,195,144,219,206,233,265,238,313"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1searchableSurfaceWithGaps.html#a55cc02a6ebd2ba7f53b1f4249376059c" title="Find nearest on original surface. Note:does not use perturbation." alt="" coords="31,104,129,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,314,222,276,208,230,185,183,153,143,127,128,130,123,156,139,190,180,213,228,227,274,236,312"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1searchableSurfaceWithGaps.html#a7d2ab05fdef7edf388982908057155b8" title="WIP. From a set of hits (points and." alt="" coords="43,153,117,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="227,314,200,253,179,220,153,192,136,182,117,175,119,170,138,177,156,188,184,217,205,250,232,312"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1searchableSurfaceWithGaps.html#a2ebf98ae4f41351b6ac7c8a77fdbbb69" title="From a set of points and indices get the normal." alt="" coords="35,203,125,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="220,316,192,278,153,242,124,228,127,223,156,237,196,274,224,313"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1searchableSurfaceWithGaps.html#a293529d2b9916fb913c2b1bf66ba1a6e" title="From a set of points and indices get the region." alt="" coords="36,252,124,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="206,321,154,291,123,279,125,274,156,286,209,316"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1searchableSurfaceWithGaps.html#a6179519b6e2ccdf07df4b13165fa7528" title="Determine type (inside/outside/mixed) for points." alt="" coords="19,301,141,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="189,334,141,326,142,321,190,329"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1searchableSurfaceWithGaps.html#ae5781b05a933dbf11f448346b8099bee" title="Whether supports volume type (below)" alt="" coords="18,351,142,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="189,349,143,357,142,351,189,344"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1searchableSurfaceWithGaps.html#aa61d4542990e34d549e5064464fc885e" title="What is type of points outside bounds." alt="" coords="5,400,155,425"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="207,362,156,390,124,402,122,398,154,385,204,357"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1searchableSurfaceWithGaps.html#a08f2ea4b6bed9e040b0e13009dfcc7b3" title="Does any part of the surface overlap the supplied bound box?" alt="" coords="41,449,119,475"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="223,366,195,403,156,439,120,456,118,451,153,434,191,400,219,363"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1searchableSurfaceWithGaps.html#a9fb42cee589871fe4ed6bdebb9706448" title="Get the points that define the surface." alt="" coords="49,499,111,524"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="231,366,204,427,183,460,156,488,135,501,113,509,111,504,133,496,153,484,179,456,200,424,226,364"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1searchableSurfaceWithGaps.html#af5f5ddba950cc1343cd37e5141c4f2d3" title="Name of regions." alt="" coords="45,548,115,573"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="235,366,227,404,212,450,189,497,156,537,137,550,116,558,115,553,135,545,153,533,184,494,207,448,222,403,230,365"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1searchableSurfaceWithGaps.html#a03bc1200aac252c4d3e18657d700b71c" title="Range of local indices that can be returned." alt="" coords="56,597,104,623"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="238,366,232,412,219,471,195,533,178,561,156,587,131,603,105,610,103,605,129,598,153,583,173,558,190,530,214,470,227,411,233,365"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1searchableSurfaceWithGaps.html#a4c658e15d7e8f5819cdc0eedbbbeb85e" title="Pure virtual writeData function." alt="" coords="37,647,123,672"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="240,366,237,422,225,493,215,532,200,569,181,604,157,636,142,647,124,655,122,650,139,643,153,632,177,601,195,567,210,530,220,492,231,421,234,366"/>
+</map>

@@ -1,0 +1,5 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2wallLubricationModels_2TomiyamaWallLubrication_2TomiyamaWallLubrication_8C =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2multiphaseSystem_2interfacialModels_2wallLubricationModels_2TomiyamaWallLubrication_2TomiyamaWallLubrication_8C.html#ac7ba442cd19dd636369f2927c6afeb4b", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialModels_2wallLubricationModels_2TomiyamaWallLubrication_2TomiyamaWallLubrication_8C.html#aadba4cc7073a26c92d46468d9360d82f", null ]
+];

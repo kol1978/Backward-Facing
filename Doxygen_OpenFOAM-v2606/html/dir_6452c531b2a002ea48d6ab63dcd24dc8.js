@@ -1,0 +1,5 @@
+var dir_6452c531b2a002ea48d6ab63dcd24dc8 =
+[
+    [ "SinclairJacksonRadial.C", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJackson_2SinclairJacksonRadial_8C.html", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJackson_2SinclairJacksonRadial_8C" ],
+    [ "SinclairJacksonRadial.H", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJackson_2SinclairJacksonRadial_8H.html", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJackson_2SinclairJacksonRadial_8H" ]
+];

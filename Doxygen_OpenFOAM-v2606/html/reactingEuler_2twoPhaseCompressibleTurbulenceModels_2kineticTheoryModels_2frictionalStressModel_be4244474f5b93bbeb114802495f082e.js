@@ -1,0 +1,5 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_be4244474f5b93bbeb114802495f082e =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_be4244474f5b93bbeb114802495f082e.html#ae1df08b5196b5b734e24b21d37a27a0c", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_be4244474f5b93bbeb114802495f082e.html#a025475bea8d606930bbcb3bc23468a05", null ]
+];

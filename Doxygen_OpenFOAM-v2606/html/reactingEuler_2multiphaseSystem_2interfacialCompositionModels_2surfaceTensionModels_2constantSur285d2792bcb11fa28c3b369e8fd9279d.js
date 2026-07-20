@@ -1,0 +1,4 @@
+var reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2surfaceTensionModels_2constantSur285d2792bcb11fa28c3b369e8fd9279d =
+[
+    [ "constantSurfaceTensionCoefficient", "classFoam_1_1reactingMultiphaseEuler_1_1surfaceTensionModels_1_1constantSurfaceTensionCoefficient.html", "classFoam_1_1reactingMultiphaseEuler_1_1surfaceTensionModels_1_1constantSurfaceTensionCoefficient" ]
+];

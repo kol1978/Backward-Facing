@@ -1,0 +1,41 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1ParticleForce.html" title="Abstract base class for particle forces." alt="" coords="5,437,208,462"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1BrownianMotionForce.html" title="Calculates particle Brownian motion force." alt="" coords="290,5,453,45"/>
+<area shape="poly" id="edge5210_Node000000_Node000001" title=" " alt="" coords="107,423,117,350,141,251,160,198,185,146,216,98,254,55,270,44,288,35,291,40,273,48,258,59,220,101,190,149,165,200,146,253,123,351,113,424"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1CoulombForce.html" title="Particle electric force model involving the Coulomb force calculation." alt="" coords="265,70,477,95"/>
+<area shape="poly" id="edge5211_Node000000_Node000002" title=" " alt="" coords="109,422,121,358,147,272,166,226,190,182,219,141,254,106,275,93,278,98,258,110,223,145,194,185,171,229,152,274,126,359,114,423"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1DistortedSphereDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed by..." alt="" coords="275,120,468,160"/>
+<area shape="poly" id="edge5212_Node000000_Node000003" title=" " alt="" coords="112,423,129,370,157,301,198,231,224,198,254,170,273,158,276,162,258,174,228,202,203,234,162,304,134,371,117,424"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1ErgunWenYuDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed ba..." alt="" coords="287,184,455,224"/>
+<area shape="poly" id="edge5213_Node000000_Node000004" title=" " alt="" coords="116,422,136,381,167,330,206,278,254,234,286,217,288,222,258,238,210,282,171,333,141,384,121,425"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1GravityForce.html" title="Calculates particle gravity force." alt="" coords="270,249,473,274"/>
+<area shape="poly" id="edge5214_Node000000_Node000005" title=" " alt="" coords="120,424,143,391,173,353,211,315,255,283,280,272,282,277,257,288,215,319,177,356,147,394,125,427"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1InterfaceForce.html" title="Vector force apply to particles to avoid the crossing of particles from one phase to the other...." alt="" coords="265,298,477,323"/>
+<area shape="poly" id="edge5215_Node000000_Node000006" title=" " alt="" coords="128,425,183,377,218,353,255,332,287,321,288,326,257,337,220,357,186,382,132,429"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1LiftForce.html" title="Base class for particle lift force models." alt="" coords="284,347,459,373"/>
+<area shape="poly" id="edge5216_Node000000_Node000007" title=" " alt="" coords="145,428,196,405,255,383,302,370,303,375,257,388,199,410,147,433"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1NonInertialFrameForce.html" title="Calculates particle non&#45;inertial reference frame force. Variable names as from Landau and Lifshitz,..." alt="" coords="286,397,457,437"/>
+<area shape="poly" id="edge5219_Node000000_Node000010" title=" " alt="" coords="221,433,285,425,286,430,222,438"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1NonSphereDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed ba..." alt="" coords="292,461,451,501"/>
+<area shape="poly" id="edge5220_Node000000_Node000011" title=" " alt="" coords="222,461,292,469,292,474,222,466"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1ParamagneticForce.html" title="Calculates particle paramagnetic (magnetic field) force." alt="" coords="293,525,450,565"/>
+<area shape="poly" id="edge5221_Node000000_Node000012" title=" " alt="" coords="148,465,257,511,294,523,292,528,255,516,146,470"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1PlessisMasliyahDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed ba..." alt="" coords="275,589,467,629"/>
+<area shape="poly" id="edge5222_Node000000_Node000013" title=" " alt="" coords="130,470,184,523,220,551,257,575,284,587,282,592,255,580,216,555,181,527,126,474"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1PressureGradientForce.html" title="Calculates particle pressure gradient force." alt="" coords="287,653,456,693"/>
+<area shape="poly" id="edge5223_Node000000_Node000014" title=" " alt="" coords="123,473,144,511,174,555,212,601,257,639,287,654,285,659,255,644,209,605,170,559,140,513,118,476"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1SRFForce.html" title="Calculates particle SRF reference frame force." alt="" coords="282,718,461,743"/>
+<area shape="poly" id="edge5225_Node000000_Node000016" title=" " alt="" coords="118,475,135,524,164,587,204,650,229,679,258,703,283,716,280,721,254,708,225,682,200,653,159,589,130,526,113,476"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1SphereDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed ba..." alt="" coords="256,767,487,793"/>
+<area shape="poly" id="edge5226_Node000000_Node000017" title=" " alt="" coords="115,475,129,534,156,610,175,650,198,688,225,724,258,754,276,765,273,770,254,758,221,727,194,691,170,652,151,612,124,535,110,476"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1TomiyamaDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed us..." alt="" coords="288,817,455,857"/>
+<area shape="poly" id="edge5227_Node000000_Node000018" title=" " alt="" coords="114,475,126,542,151,630,170,677,194,723,223,766,258,803,289,822,286,826,254,807,219,769,189,726,165,680,146,632,121,543,108,476"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1WenYuDragForce.html" title="Particle&#45;drag model wherein drag forces (per unit carrier&#45;fluid velocity) are dynamically computed ba..." alt="" coords="257,882,485,907"/>
+<area shape="poly" id="edge5228_Node000000_Node000019" title=" " alt="" coords="112,476,119,554,128,605,141,660,160,717,185,772,217,823,258,867,277,880,274,884,254,871,213,826,180,775,155,719,136,661,123,606,114,554,106,476"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1SaffmanMeiLiftForce.html" title="Saffman&#45;Mei particle lift force model applicable to spherical particles." alt="" coords="573,308,727,348"/>
+<area shape="poly" id="edge5217_Node000007_Node000008" title=" " alt="" coords="472,346,572,334,573,339,473,351"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1TomiyamaLiftForce.html" title="Tomiyama particle lift force model applicable to deformable bubbles." alt="" coords="572,372,728,412"/>
+<area shape="poly" id="edge5218_Node000007_Node000009" title=" " alt="" coords="472,369,572,380,571,386,472,374"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1VirtualMassForce.html" title="Calculates particle virtual mass force." alt="" coords="535,661,765,686"/>
+<area shape="poly" id="edge5224_Node000014_Node000015" title=" " alt="" coords="470,671,534,671,534,676,470,676"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1fileOperation.html" title="An encapsulation of filesystem&#45;related operations." alt="" coords="5,55,112,80"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1fileOperations_1_1dummyFileOperation.html" title="Dummy fileOperation, to be used as a placeholder for interfaces taking a reference to a fileOperation..." alt="" coords="193,5,352,31"/>
+<area shape="poly" id="edge4589_Node000000_Node000001" title=" " alt="" coords="121,49,159,39,210,28,211,33,161,45,123,54"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html" title="fileOperations that performs all file operations on the master processor. Requires the calls to be pa..." alt="" coords="160,55,385,80"/>
+<area shape="poly" id="edge4590_Node000000_Node000002" title=" " alt="" coords="126,65,160,65,160,70,126,70"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fileOperations_1_1uncollatedFileOperation.html" title="fileOperation that assumes file operations are local." alt="" coords="184,104,361,129"/>
+<area shape="poly" id="edge4594_Node000000_Node000006" title=" " alt="" coords="126,81,161,89,215,101,214,107,159,94,125,86"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1fileOperations_1_1collatedFileOperation.html" title="Version of masterUncollatedFileOperation that collates regIOobjects into a container in the processor..." alt="" coords="456,31,617,56"/>
+<area shape="poly" id="edge4591_Node000002_Node000003" title=" " alt="" coords="399,53,455,48,456,53,399,59"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fileOperations_1_1hostUncollatedFileOperation.html" title="Version of masterUncollated with host&#45;based IO ranks." alt="" coords="433,80,640,105"/>
+<area shape="poly" id="edge4593_Node000002_Node000005" title=" " alt="" coords="399,77,433,80,433,85,399,82"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1fileOperations_1_1hostCollatedFileOperation.html" title="Version of collatedFileOperation with multiple read/write ranks." alt="" coords="688,31,879,56"/>
+<area shape="poly" id="edge4592_Node000003_Node000004" title=" " alt="" coords="631,41,688,41,688,46,631,46"/>
+</map>

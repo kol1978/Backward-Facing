@@ -1,0 +1,4 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2conduc77f2d86242bc5951957ee8657b698e78 =
+[
+    [ "conductivityModel", "classFoam_1_1kineticTheoryModels_1_1conductivityModel.html", "classFoam_1_1kineticTheoryModels_1_1conductivityModel" ]
+];

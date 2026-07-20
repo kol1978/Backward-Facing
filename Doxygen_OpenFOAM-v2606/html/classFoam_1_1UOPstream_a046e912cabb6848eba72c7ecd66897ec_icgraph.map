@@ -1,0 +1,45 @@
+<map id="write" name="write">
+<area shape="rect" id="Node000001" title="Write buffer contents (contiguous types only) to given processor." alt="" coords="315,675,369,701"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1processorLduInterface.html#a8b92f0365504355ae51fcba507dd695b" title="Raw send function with data compression." alt="" coords="31,5,241,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="337,661,328,525,313,334,292,155,279,93,265,59,240,41,243,36,269,56,284,91,297,155,319,333,334,525,342,661"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1metisLikeDecomp.html#ade7fcefea26c062a77ede6094665448f" title="Serial and/or collect/distribute for parallel operation." alt="" coords="45,69,227,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="338,661,337,546,329,384,320,302,306,226,288,165,277,141,265,123,247,109,227,99,229,95,250,104,269,120,282,138,293,163,312,225,325,301,334,384,343,546,344,661"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1mapDistributeBase.html#ac4fc2a28c49bcd83c1eb67beffcf4a7d" title="Distribute assign data with specified negate operator (for flips). Uses assignment for combine operat..." alt="" coords="41,133,231,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="338,661,335,558,325,415,315,343,303,277,286,223,265,187,249,174,230,165,233,160,252,170,269,184,291,221,308,276,321,342,330,415,340,557,343,661"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1mapDistributeBase.html#a9af2c3ac1c4ff54462b3ae91dd916742" title="Distribute combine data with specified combine operation and negate operator (for flips)." alt="" coords="41,197,231,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="337,662,332,570,321,446,311,384,299,328,283,282,265,251,249,238,230,229,233,224,252,234,269,248,288,280,304,327,316,383,326,446,338,569,343,661"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1mapDistributeBase.html#a6fdcadfd9dae3fb3d6681dc29e8f6df1" title="Distribute combine data with specified combine operation and negate operator (for flips)." alt="" coords="41,261,231,301"/>
+<area shape="poly" id="edge5_Node000001_Node000015" title=" " alt="" coords="336,662,330,582,316,478,295,379,281,341,265,315,249,303,231,294,233,289,252,298,269,312,286,338,300,377,322,477,335,581,342,661"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1mapDistributeBase.html#ac6e864389776bcc69e30a75f0655ad1d" title="Synchronize send/recv mask buffers as a &#39;copy&#39; operation." alt="" coords="41,325,231,365"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="335,662,327,595,312,510,291,430,279,400,265,379,249,367,230,358,233,353,252,362,269,376,283,397,296,429,317,509,332,594,341,661"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1decomposedBlockData.html#a2d630686a1da33561e3d31bbde95dd74" title="Helper: gather data from (subset of) sub&#45;ranks." alt="" coords="28,389,244,429"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="338,662,335,614,324,555,302,495,286,467,265,443,243,428,246,424,268,439,290,464,307,493,329,554,340,614,343,661"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1lduCalculatedProcessorField.html#a202fc6302e594b02bed6e65f27b2d41f" title="Initialise neighbour matrix update." alt="" coords="21,453,251,493"/>
+<area shape="poly" id="edge8_Node000001_Node000018" title=" " alt="" coords="335,662,328,627,315,585,295,543,265,507,248,496,251,491,268,503,299,540,320,583,333,626,340,661"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1processorGAMGInterfaceField.html#a202fc6302e594b02bed6e65f27b2d41f" title="Initialise neighbour matrix update." alt="" coords="21,517,251,557"/>
+<area shape="poly" id="edge9_Node000001_Node000019" title=" " alt="" coords="329,663,305,616,287,592,265,571,245,560,247,555,268,567,291,588,309,613,334,661"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1calculatedProcessorGAMGInterfaceField.html#a202fc6302e594b02bed6e65f27b2d41f" title="Initialise neighbour matrix update." alt="" coords="17,582,255,637"/>
+<area shape="poly" id="edge10_Node000001_Node000020" title=" " alt="" coords="307,671,266,650,236,639,238,634,268,646,309,666"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a34dff2a5c25f24aed2217da53d96d3a6" title="Read file contents and send to processors." alt="" coords="19,661,253,715"/>
+<area shape="poly" id="edge11_Node000001_Node000021" title=" " alt="" coords="301,691,253,691,253,685,301,685"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1decomposedBlockData.html#ab3ff3d4d04b0aeab21cf3cf5363d170d" title="Read data (on master) and transmit." alt="" coords="28,740,244,780"/>
+<area shape="poly" id="edge12_Node000001_Node000022" title=" " alt="" coords="309,710,268,729,227,743,225,737,266,724,306,705"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1decomposedBlockData.html#ae919e5fce9347eb6ee87242bb80cee1a" title="Read master header information (into headerIO) and return data in stream." alt="" coords="28,804,244,844"/>
+<area shape="poly" id="edge13_Node000001_Node000024" title=" " alt="" coords="332,714,307,756,289,777,268,794,246,806,243,802,265,790,285,773,302,753,327,712"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1distributedDILUPreconditioner.html#a13fa65b0c6c39d7a7b10fc64d7842cb7" title="Start sending sendBufs_." alt="" coords="5,868,267,908"/>
+<area shape="poly" id="edge14_Node000001_Node000025" title=" " alt="" coords="339,715,331,748,318,786,297,825,268,858,250,870,247,866,265,854,293,822,313,784,326,746,334,714"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1mapDistributeBase.html#a3c4fe6b994161290c6ebe7c5912541dc" title="Start all sends and receives (always non&#45;blocking)" alt="" coords="41,932,231,972"/>
+<area shape="poly" id="edge15_Node000001_Node000026" title=" " alt="" coords="343,715,339,759,327,815,305,873,289,899,268,922,252,934,233,943,230,938,249,930,265,918,285,896,300,870,322,814,333,759,338,714"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1processorLduInterface.html#acb7f4c62868ee0b88f81109e5764b62d" title="Raw send function." alt="" coords="31,996,241,1036"/>
+<area shape="poly" id="edge16_Node000001_Node000027" title=" " alt="" coords="340,715,331,779,316,860,295,936,283,965,269,986,243,1003,240,999,265,982,278,963,290,934,311,859,326,778,335,714"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1LUscalarMatrix.html#a803702a028f92e51831047c7d21b57c0" title="Solve the linear system with the given source." alt="" coords="54,1060,218,1100"/>
+<area shape="poly" id="edge17_Node000001_Node000031" title=" " alt="" coords="341,715,334,792,321,892,299,987,285,1024,269,1050,246,1067,219,1077,217,1072,243,1062,265,1046,280,1022,294,985,315,891,329,791,336,714"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1syncTools.html#a61988484ac2118dcd435a7d034d3a1aa" title="Synchronize values on boundary faces only." alt="" coords="21,1124,251,1164"/>
+<area shape="poly" id="edge18_Node000001_Node000032" title=" " alt="" coords="342,714,337,803,325,923,315,983,303,1038,288,1083,269,1114,252,1127,249,1123,265,1110,283,1080,298,1036,310,982,320,922,332,803,337,714"/>
+<area shape="rect" id="Node000171" href="$classFoam_1_1syncTools.html#afa9239c4d180f9ee86b3cf0aa59baaa7" title="Synchronize face values from PackedList/bitSet." alt="" coords="27,1189,245,1214"/>
+<area shape="poly" id="edge19_Node000001_Node000171" title=" " alt="" coords="343,715,340,816,330,955,321,1025,308,1089,291,1142,269,1178,247,1193,244,1189,265,1174,286,1140,303,1088,315,1024,325,954,335,816,338,714"/>
+<area shape="rect" id="Node000172" href="$classFoam_1_1OFstreamCollator.html#a116f57ec54bb796c9f7a850fa802f8e2" title="Write file with contents, possibly taking ownership of the content." alt="" coords="45,1239,227,1279"/>
+<area shape="poly" id="edge20_Node000001_Node000172" title=" " alt="" coords="343,715,341,825,332,978,323,1056,310,1127,292,1186,281,1209,269,1227,250,1242,228,1253,226,1248,247,1238,265,1224,276,1207,287,1184,304,1126,317,1055,327,977,336,825,338,714"/>
+<area shape="rect" id="Node000173" href="$classFoam_1_1decomposedBlockData.html#a6400b20d25123ae9f1d1003a6420e27a" title="Write *this. Ostream only valid on master." alt="" coords="28,1303,244,1343"/>
+<area shape="poly" id="edge21_Node000001_Node000173" title=" " alt="" coords="344,715,344,837,336,1010,327,1099,314,1179,295,1246,283,1272,269,1292,246,1310,243,1306,265,1289,278,1270,290,1244,308,1178,322,1098,331,1010,338,837,339,715"/>
+</map>

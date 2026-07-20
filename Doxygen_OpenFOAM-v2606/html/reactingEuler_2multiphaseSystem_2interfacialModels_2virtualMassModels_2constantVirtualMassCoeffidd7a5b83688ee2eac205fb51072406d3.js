@@ -1,0 +1,5 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffidd7a5b83688ee2eac205fb51072406d3 =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2multiphaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffidd7a5b83688ee2eac205fb51072406d3.html#a20fe4e936273316bc30a3558c74d5f7c", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffidd7a5b83688ee2eac205fb51072406d3.html#a198e02095e6e9358af2afcc10fd761cd", null ]
+];

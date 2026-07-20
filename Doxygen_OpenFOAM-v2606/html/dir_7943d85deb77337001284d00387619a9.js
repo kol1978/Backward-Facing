@@ -1,0 +1,5 @@
+var dir_7943d85deb77337001284d00387619a9 =
+[
+    [ "sphericalHeatTransfer.C", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2heatTransferModels_2sphericalHeatTransfer_2sphericalHeatTransfer_8C.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2heatTransferModels_2sphericalHeatTransfer_2sphericalHeatTransfer_8C" ],
+    [ "sphericalHeatTransfer.H", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2heatTransferModels_2sphericalHeatTransfer_2sphericalHeatTransfer_8H.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2heatTransferModels_2sphericalHeatTransfer_2sphericalHeatTransfer_8H" ]
+];

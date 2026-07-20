@@ -1,0 +1,29 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1decompositionMethod.html" title="Abstract base class for domain decomposition." alt="" coords="5,228,172,253"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1geomDecomp.html" title="Base for geometrical domain decomposition methods." alt="" coords="236,55,349,80"/>
+<area shape="poly" id="edge4399_Node000000_Node000001" title=" " alt="" coords="103,215,150,152,182,118,219,89,241,78,243,82,221,94,186,122,154,156,107,218"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1manualDecomp.html" title="Decompose based on cell&#45;to&#45;processor association in a file." alt="" coords="230,104,355,129"/>
+<area shape="poly" id="edge4402_Node000000_Node000004" title=" " alt="" coords="112,217,159,177,219,138,245,127,247,132,221,143,162,182,115,221"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1metisLikeDecomp.html" title="Domain decomposition using METIS&#45;like data structures." alt="" coords="223,153,362,179"/>
+<area shape="poly" id="edge4403_Node000000_Node000005" title=" " alt="" coords="133,221,219,187,251,176,253,181,221,193,135,225"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1multiLevelDecomp.html" title="Decompose given using consecutive application of decomposers." alt="" coords="220,203,365,228"/>
+<area shape="poly" id="edge4407_Node000000_Node000009" title=" " alt="" coords="185,226,219,222,220,227,186,231"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1noDecomp.html" title="A dummy decomposition method, selected as none." alt="" coords="247,252,339,277"/>
+<area shape="poly" id="edge4408_Node000000_Node000010" title=" " alt="" coords="186,249,246,257,246,262,186,255"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1ptscotchDecomp.html" title="PTScotch domain decomposition." alt="" coords="227,301,358,327"/>
+<area shape="poly" id="edge4409_Node000000_Node000011" title=" " alt="" coords="138,256,221,286,256,299,254,304,219,291,136,261"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1randomDecomp.html" title="Decomposition according to pseudo&#45;random number generator, which is useful for development and stress..." alt="" coords="229,351,356,376"/>
+<area shape="poly" id="edge4410_Node000000_Node000012" title=" " alt="" coords="116,261,163,298,221,336,250,348,248,353,219,340,160,303,113,265"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1structuredDecomp.html" title="Walk out decomposition of patch cells mesh &#45; selectable as structured." alt="" coords="221,400,364,425"/>
+<area shape="poly" id="edge4411_Node000000_Node000013" title=" " alt="" coords="107,263,154,325,186,358,221,386,243,398,241,402,219,391,182,362,150,328,103,267"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1hierarchGeomDecomp.html" title="Does hierarchical decomposition of points, selectable as hierarchical." alt="" coords="413,5,581,31"/>
+<area shape="poly" id="edge4400_Node000001_Node000002" title=" " alt="" coords="358,49,443,28,444,33,360,54"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1simpleGeomDecomp.html" title="Simple geometric decomposition, selectable as simple." alt="" coords="418,55,577,80"/>
+<area shape="poly" id="edge4401_Node000001_Node000003" title=" " alt="" coords="363,65,418,65,418,70,363,70"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1kahipDecomp.html" title="Domain decomposition using KaHIP http://algo2.iti.kit.edu/documents/kahip/." alt="" coords="442,104,553,129"/>
+<area shape="poly" id="edge4404_Node000005_Node000006" title=" " alt="" coords="358,148,443,127,444,132,360,153"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1metisDecomp.html" title="Metis domain decomposition." alt="" coords="441,153,554,179"/>
+<area shape="poly" id="edge4405_Node000005_Node000007" title=" " alt="" coords="376,163,440,163,440,169,376,169"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1scotchDecomp.html" title="Scotch domain decomposition." alt="" coords="438,203,557,228"/>
+<area shape="poly" id="edge4406_Node000005_Node000008" title=" " alt="" coords="360,179,444,200,443,205,358,184"/>
+</map>

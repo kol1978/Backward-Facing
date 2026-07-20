@@ -1,0 +1,51 @@
+<map id="localPoints" name="localPoints">
+<area shape="rect" id="Node000001" title="Return pointField of points in patch." alt="" coords="272,749,365,774"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1snappyLayerDriver.html#a763fdd4af75939b41f923967cbc004af" title=" " alt="" coords="20,5,209,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,735,313,595,302,392,290,288,274,192,251,113,237,82,222,59,208,47,211,43,226,56,242,80,256,111,279,191,296,287,307,392,318,595,320,735"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1snappySnapDriver.html#afd4d0bc8076355e778a983cde07f58af" title="Calculate edge length per patch point." alt="" coords="22,69,207,109"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="314,735,311,607,298,423,286,329,270,242,249,171,236,144,222,123,206,110,209,105,226,120,241,141,254,169,275,241,292,328,303,422,316,606,320,735"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1triSurfaceTools.html#a3aee046d49916c8984f42f5710679e3f" title="Create new triSurface by collapsing edges to edge mids." alt="" coords="33,133,196,173"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="314,735,309,618,294,454,282,370,266,293,246,230,235,206,222,187,195,168,198,164,226,183,239,203,251,228,272,291,287,369,299,453,314,618,319,735"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1triSurfaceTools.html#a5d5f37658655f0d947ff457a0d8f061c" title="Create new triSurface by collapsing edges to specified." alt="" coords="33,197,196,237"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="313,735,306,630,290,485,278,411,263,343,244,288,222,251,195,232,198,228,226,248,249,286,268,342,283,410,295,484,311,629,319,735"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1cyclicPolyPatch.html#a4c970d354b1bca8ccb1dff0855586ed7" title="Return connected edges (from patch local to neighbour patch local)." alt="" coords="31,261,198,301"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="313,735,304,642,286,516,274,452,259,394,242,347,222,315,197,297,200,293,226,312,247,345,264,393,279,451,291,515,309,641,318,735"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1snappySnapDriver.html#aa958f4f6d3063fa318a31ef8d8ba90e4" title="Snap onto surface &amp; features." alt="" coords="22,325,207,365"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="312,736,301,654,282,547,255,445,239,406,222,379,206,366,209,362,226,376,244,403,260,444,287,546,306,653,317,735"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1edgeSurface.html#abe6268d682c2dab294acf2175f47ca38" title="Construct from surface and intersection description." alt="" coords="37,389,192,429"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="315,735,312,675,299,597,287,555,271,515,249,477,222,443,208,432,191,424,193,419,211,428,226,439,254,474,276,512,292,554,304,596,317,675,320,735"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1triSurfaceTools.html#abfb8b3103f67e2652cfb672525ec5d43" title="Refine edges by splitting to opposite vertex." alt="" coords="33,453,196,493"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="313,736,306,687,290,625,264,562,245,533,222,507,195,490,198,485,226,503,249,530,268,559,295,624,311,686,318,735"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1processorPolyPatch.html#a644d6229ea284692666de14387870409" title="Initialize ordering for primitivePatch. Does not." alt="" coords="19,517,211,557"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="309,736,299,699,281,654,256,610,222,571,205,560,208,555,226,567,260,606,286,652,304,697,314,734"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1processorCyclicPolyPatch.html#a644d6229ea284692666de14387870409" title="Initialize ordering for primitivePatch. Does not." alt="" coords="17,581,213,621"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="303,738,271,686,249,659,222,636,201,624,204,619,226,631,253,655,276,683,308,735"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1triSurfaceTools.html#aedcb2ebabdbe8437654ce1d4ef881e71" title="Returns element in edgeIndices with minimum length." alt="" coords="33,645,196,685"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="289,742,258,720,223,700,193,688,195,683,225,695,261,716,293,738"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1triSurfaceTools.html#a44799249ec25a8721893cffeffcdec1f" title="Merge points within distance." alt="" coords="33,709,196,749"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="258,755,196,745,197,739,258,749"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1triSurfaceTools.html#ac365a22b30a404441ffa961fefac8348" title="Returns element in edgeIndices with minimum length." alt="" coords="33,773,196,813"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="258,773,197,783,196,778,258,768"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1edgeIntersections.html#aab87294afba9ae44ed84b862eaad0a64" title="Calculate min edge length for every surface point." alt="" coords="23,837,206,877"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="293,785,261,807,225,828,195,840,193,835,223,823,258,803,289,781"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1slidingInterface.html#ac05c3f18da75b17c4b6c13757cacbff1" title="Modify motion points to comply with the topological change." alt="" coords="31,901,198,941"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="308,788,276,840,253,868,226,892,200,906,197,901,222,887,249,864,271,837,303,785"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1polyBoundaryMesh.html#a430d61af7deb5b3579553b92d7a3034c" title="Per patch the edges on the neighbouring patch." alt="" coords="19,965,210,1005"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="314,788,304,826,286,871,260,916,226,955,208,967,205,963,222,951,256,913,281,868,299,824,309,787"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1processorPolyPatch.html#aa9533329384a73e819a040bcde1b4b3d" title="Return new ordering for primitivePatch." alt="" coords="19,1029,211,1069"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="318,788,311,837,295,899,268,963,249,993,226,1019,209,1031,206,1027,222,1015,245,990,264,961,290,897,306,836,313,787"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1boundaryMesh.html#a2ee25ae613c57256a825ff088edc0839" title="Read from triSurface." alt="" coords="33,1093,196,1133"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="320,788,317,848,304,927,292,969,276,1010,254,1049,226,1083,198,1102,195,1097,222,1079,249,1046,271,1008,287,967,299,926,312,848,315,788"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1addPatchCellLayer.html#a2c19ac1e0552b46875bfff3c02bfd222" title="Play commands into polyTopoChange to create layers on top." alt="" coords="21,1157,208,1197"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="317,788,306,869,287,976,260,1079,244,1119,226,1147,210,1160,207,1156,222,1144,239,1117,255,1077,282,975,301,868,312,787"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1snappySnapDriver.html#ab9edad6f253859d05fb0b849fc55f5e2" title="Smooth the displacement field to the internal." alt="" coords="22,1221,207,1261"/>
+<area shape="poly" id="edge20_Node000001_Node000023" title=" " alt="" coords="318,788,309,882,291,1008,279,1072,264,1130,247,1178,226,1211,209,1225,206,1220,222,1208,242,1176,259,1128,274,1071,286,1007,304,881,313,787"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1triSurfaceTools.html#ae00858e2e83c342b4f2520e8db4bd345" title="Given nearest point (to sample) on surface determines which side." alt="" coords="33,1285,196,1325"/>
+<area shape="poly" id="edge21_Node000001_Node000024" title=" " alt="" coords="319,788,311,893,295,1039,283,1113,268,1181,249,1236,226,1275,198,1295,195,1290,222,1272,244,1234,263,1179,278,1112,290,1038,306,893,313,788"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1OBJstream.html#a637351118b249727413592f1deacf455" title="Write patch faces as points with lines/filled&#45;polygon." alt="" coords="27,1350,203,1375"/>
+<area shape="poly" id="edge22_Node000001_Node000026" title=" " alt="" coords="319,788,315,906,301,1071,289,1155,273,1232,252,1296,240,1320,226,1339,205,1354,202,1350,222,1335,235,1317,247,1294,268,1231,283,1154,295,1070,309,905,314,788"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1triSurfaceTools.html#a4a9bece42e85cb21f786abe9c9833d2b" title="Write vertex subset to OBJ format file." alt="" coords="33,1400,196,1440"/>
+<area shape="poly" id="edge23_Node000001_Node000027" title=" " alt="" coords="320,788,315,914,302,1093,290,1185,274,1270,253,1340,240,1367,226,1388,213,1400,197,1409,195,1404,210,1396,222,1385,236,1365,248,1338,269,1269,285,1185,297,1093,310,914,314,788"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1lumpedPointMovement.html#ac82f619359a9710c9b9fc229e5f32e60" title="Write pressure&#45;zones geometry, write as VTK PolyData format." alt="" coords="5,1464,224,1504"/>
+<area shape="poly" id="edge24_Node000001_Node000028" title=" " alt="" coords="320,788,318,926,306,1125,295,1228,278,1322,256,1400,242,1430,226,1454,212,1466,209,1462,222,1450,237,1428,251,1398,273,1321,289,1227,301,1124,313,926,315,788"/>
+</map>

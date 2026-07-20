@@ -1,0 +1,31 @@
+<map id="porosityModel" name="porosityModel">
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,327,120,352"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1boundBox.html#a715e725983a1322db51f839ad3469097" title="Extend to include the second box." alt="" coords="179,5,341,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,326,67,273,82,196,95,154,113,113,136,74,166,40,171,36,175,40,170,44,141,77,118,115,100,156,87,198,72,274,67,327"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1porosityModel.html#aaa5e9279a04004ec963549be3b01f248" title="Local coordinate system." alt="" coords="235,55,285,80"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="63,326,71,281,88,217,119,148,140,117,166,89,192,74,220,67,221,72,194,79,170,93,144,120,123,151,93,219,76,282,68,327"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#ae2aa5f8e535bdbce0467a919990247f4" title="Decrement the indent level." alt="" coords="193,104,327,129"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="64,326,75,289,95,238,125,185,144,160,166,139,179,131,182,135,170,143,148,163,129,187,99,240,80,290,69,327"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1porosityModel.html#ab78af227b7df31772d6003526a5207ff" title="Return dictionary used for model construction." alt="" coords="237,153,283,179"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="67,325,101,260,130,221,166,188,194,174,222,167,224,172,196,179,170,192,134,224,106,263,71,328"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if List is empty (ie, size() is zero)" alt="" coords="185,203,335,228"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="72,325,110,282,137,258,167,237,180,230,183,235,169,242,140,262,114,285,76,328"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="213,252,307,277"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="86,324,167,286,199,276,200,281,169,291,88,329"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="215,301,305,327"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="120,329,201,319,201,324,121,335"/>
+<area shape="rect" id="Node000014" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="195,351,325,376"/>
+<area shape="poly" id="edge8_Node000001_Node000014" title=" " alt="" coords="121,344,181,351,181,356,120,349"/>
+<area shape="rect" id="Node000015" href="$namespaceFoam.html#a7731a7ce298b2318e8ca1efa82593c06" title="Increment the indent level." alt="" coords="195,400,325,425"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="90,350,169,385,195,394,194,399,167,390,88,355"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a7e15d05978b545ad4cbf3149a70b0dbf" title="Indent stream." alt="" coords="207,449,313,475"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="76,350,114,392,140,415,169,434,195,446,193,450,167,439,137,419,111,396,72,354"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="168,499,352,524"/>
+<area shape="poly" id="edge11_Node000001_Node000019" title=" " alt="" coords="72,351,107,415,135,452,170,484,181,491,179,495,166,488,131,456,102,418,67,353"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1boundBox.html#a447de6b436d6aa59edf6a09ba28a4164" title="Inplace parallel reduction of min/max values, using UPstream::worldComm." alt="" coords="169,548,351,573"/>
+<area shape="poly" id="edge12_Node000001_Node000021" title=" " alt="" coords="70,351,80,388,100,437,129,489,148,513,170,533,179,539,176,544,166,537,144,516,125,492,95,439,75,389,64,353"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a9675e579191e6c248d05b2fdd8d9ec9b" title="Perform logical (and) MPI Allreduce on a copy. Uses UPstream::reduceAnd." alt="" coords="171,597,349,623"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="68,352,76,396,94,458,124,525,145,556,170,583,178,589,175,593,166,587,140,559,119,528,89,460,71,397,63,353"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1boundBox.html#aef985a837dcf02baf1e4b5c96cabe398" title="The bounding box span (from minimum to maximum)" alt="" coords="175,647,345,672"/>
+<area shape="poly" id="edge14_Node000001_Node000024" title=" " alt="" coords="67,352,72,404,88,479,101,521,118,561,141,599,170,632,177,638,173,642,166,636,137,602,114,564,96,522,82,481,67,405,62,352"/>
+</map>

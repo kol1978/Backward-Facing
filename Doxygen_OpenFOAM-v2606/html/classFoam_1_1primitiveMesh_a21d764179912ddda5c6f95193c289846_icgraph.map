@@ -1,0 +1,45 @@
+<map id="edges" name="edges">
+<area shape="rect" id="Node000001" title="Return mesh edges. Uses calcEdges." alt="" coords="583,561,644,587"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1motionSmootherAlgo.html#afe7337247dc97f18455f2cbee9b050e5" title=" " alt="" coords="299,5,535,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="609,548,607,439,596,287,587,211,573,141,555,83,545,62,533,45,517,33,520,29,537,41,549,59,560,81,578,139,592,210,602,287,612,439,615,548"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1addPatchCellLayer.html#a867b4b4d9eeb5d68fab13b864edeb60e" title="Determine extrude information per patch edge:" alt="" coords="323,55,510,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="609,548,604,451,591,319,582,253,569,192,552,143,533,109,509,92,512,87,537,106,557,140,574,191,587,252,597,319,609,450,614,547"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1polyDualMesh.html#a9462253b504fad04ae7194f1f17469c8" title="Helper function to create feature edges and points based on." alt="" coords="337,119,496,159"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="608,548,601,463,587,351,565,243,550,201,533,173,516,160,495,150,497,146,518,155,537,170,555,199,570,242,593,350,606,462,613,547"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1edgeVertex.html#a272d10ee27ddbd3a20bccfc71015fb18" title="Return coordinate of cut (uses weight if edgeCut)" alt="" coords="325,184,509,209"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="607,548,599,472,585,374,563,282,549,246,533,223,507,206,510,202,537,219,553,244,568,280,590,373,605,471,613,547"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1geomCellLooper.html#a9fefde55fc93b9e9f0320e02da054c64" title="Same but now also base point of cut provided (instead of always." alt="" coords="317,233,517,259"/>
+<area shape="poly" id="edge5_Node000001_Node000010" title=" " alt="" coords="606,548,597,482,581,399,560,321,547,292,533,272,515,260,519,255,537,268,551,289,565,319,586,398,602,481,612,547"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1topoCellLooper.html#aa1626fec2bbc271e971cdf7baab8f534" title="Create cut along circumference of celli. Gets current mesh cuts." alt="" coords="321,283,513,308"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="609,547,606,499,595,438,572,375,555,347,533,323,511,309,514,304,536,319,559,344,577,373,600,436,611,498,615,547"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1directionInfo.html#a979a0fce341d87c9c179d936a0e85e03" title="Given edge on hex cell find corresponding edge on face. Is either." alt="" coords="343,333,491,373"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="606,548,599,511,585,468,564,424,533,387,513,373,490,364,492,359,515,369,536,383,568,421,590,466,604,510,611,547"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1searchableExtrudedCircle.html#abcba8bd92ba7574fc1c26411b59e7b23" title="Unique to parametric geometry: given points find." alt="" coords="311,397,523,437"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="601,550,575,499,556,473,533,451,514,439,516,435,536,447,560,469,580,496,605,547"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1cellLooper.html#ab75c3d9ec9300af044556dd27a438feb" title="Get first edge connected to vertI and on facei." alt="" coords="321,461,512,501"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="587,554,562,533,533,515,505,503,507,498,536,510,565,529,591,550"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1searchableExtrudedCircle.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48" title="From a set of points and indices get the normal." alt="" coords="319,525,514,565"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="569,570,514,562,515,557,569,565"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1addPatchCellLayer.html#a3d103fee545eb2d18c5bf09488ad094c" title="Per patch edge the pp faces (in global indices) using it." alt="" coords="35,642,221,682"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="570,583,299,630,222,645,221,640,298,625,569,578"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1boundaryMesh.html#a0e01df03fc2c7dbfd31c0fa36528926a" title="Set featureEdges, edgeToFeature, featureSegments according." alt="" coords="335,639,498,679"/>
+<area shape="poly" id="edge12_Node000001_Node000019" title=" " alt="" coords="583,596,536,623,488,642,486,637,534,618,581,592"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1meshCutter.html#ad6964ecaeb84631835d8a4e51bf706bb" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="5,760,251,785"/>
+<area shape="poly" id="edge13_Node000001_Node000020" title=" " alt="" coords="611,601,602,663,587,741,565,813,552,841,536,859,512,874,486,885,459,891,431,894,374,889,317,874,263,853,215,830,146,788,149,783,218,825,265,848,319,869,375,884,431,888,458,886,484,880,509,869,533,855,547,838,560,811,582,740,597,662,606,600"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1meshCutAndRemove.html#ad6a2acdc12be8ac11fcb64607238e053" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="315,754,518,794"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="609,601,601,634,586,672,565,710,536,743,516,756,513,752,533,739,561,707,581,669,596,632,604,600"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1syncTools.html#af80d93b7d6f33a45f53431fdc3a02834" title="Synchronize values on selected mesh edges." alt="" coords="305,819,528,844"/>
+<area shape="poly" id="edge15_Node000001_Node000023" title=" " alt="" coords="614,601,609,646,597,702,574,759,557,785,536,808,518,821,515,816,533,804,553,782,569,757,592,700,604,645,609,600"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1syncTools.html#af9a38e7e948154f3a2e5d5b5f8afd267" title="Synchronize values on all mesh edges." alt="" coords="305,704,528,729"/>
+<area shape="poly" id="edge16_Node000001_Node000024" title=" " alt="" coords="604,601,579,649,559,673,536,694,511,706,509,702,533,689,556,669,574,646,600,598"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1directionInfo.html#a77204b39a1795badf6e3b5db01bef0c6" title="Influence of neighbouring face." alt="" coords="343,919,491,959"/>
+<area shape="poly" id="edge19_Node000001_Node000035" title=" " alt="" coords="612,600,602,671,587,760,565,846,552,879,537,902,516,919,492,930,490,925,513,914,533,899,547,877,560,844,582,759,597,670,606,600"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1externalPointEdgePoint.html#a619fb781c7a06f2d8217842d0eff9751" title="Influence of point on edge." alt="" coords="307,983,526,1023"/>
+<area shape="poly" id="edge20_Node000001_Node000036" title=" " alt="" coords="613,601,606,685,592,796,570,902,555,944,537,973,522,985,519,981,533,970,550,942,565,901,587,795,601,684,608,600"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1pointEdgePoint.html#ac3a9c1cc1a1a3638a1c0dfa117c262e7" title="Influence of point on edge." alt="" coords="335,1047,499,1087"/>
+<area shape="poly" id="edge21_Node000001_Node000037" title=" " alt="" coords="614,601,609,697,596,827,586,893,573,953,557,1003,537,1037,520,1051,500,1060,498,1056,517,1047,533,1034,552,1001,568,952,581,892,591,826,603,697,609,600"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1edgeVertex.html#ab744e4dd8f405c1378292d3e078a1fa9" title="Write cut description to Ostream." alt="" coords="315,1112,518,1137"/>
+<area shape="poly" id="edge22_Node000001_Node000039" title=" " alt="" coords="615,601,612,709,601,859,592,935,578,1005,560,1062,549,1084,537,1101,520,1114,517,1110,533,1097,545,1081,555,1060,573,1003,586,934,596,858,606,709,609,601"/>
+<area shape="poly" id="edge17_Node000024_Node000016" title=" " alt="" coords="335,704,221,682,222,677,336,699"/>
+<area shape="poly" id="edge18_Node000024_Node000020" title=" " alt="" coords="337,735,195,763,194,757,336,729"/>
+</map>

@@ -1,0 +1,35 @@
+var classFoam_1_1multiphaseInter_1_1interfaceCompositionModel =
+[
+    [ "modelVariable", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9cf9628a09cdc4a4de477cf4149343cd", [
+      [ "T", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9cf9628a09cdc4a4de477cf4149343cda21f40778b7db9343a6ca75ec2c41ccce", null ],
+      [ "P", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9cf9628a09cdc4a4de477cf4149343cda82f05f38f6a17b117cdd2b83227912c6", null ],
+      [ "Y", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9cf9628a09cdc4a4de477cf4149343cda5596231eabd6cf29050967d5ac83ad84", null ],
+      [ "alpha", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9cf9628a09cdc4a4de477cf4149343cda2cf6ecbb4e108d5977ec6bcc0750f86a", null ]
+    ] ],
+    [ "interfaceCompositionModel", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a52285ac97dfbb9b4386c07c6e3a2c608", null ],
+    [ "~interfaceCompositionModel", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#aa4037cfb3b7933cc71fa7a4c90a9691c", null ],
+    [ "TypeName", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#abe8dcb84f9f806132e9c99a56089455a", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ab33894833ebd10b8c5df3ff39b164761", null ],
+    [ "New", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a8835c591d8884987355f47424e1e451f", null ],
+    [ "transferSpecie", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a4411af6fea66c706a7dcb20ae2d58eea", null ],
+    [ "pair", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a60f8f25557242f42e8f3fcfcf05b4066", null ],
+    [ "fluid", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a877a3695a3aebc4db5244571fc134972", null ],
+    [ "Yf", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a64f0c5e0cd3f13736f8d07f44b1e68b1", null ],
+    [ "dY", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a9975f65be3c78a3e7197ad427a7a5f00", null ],
+    [ "Dfrom", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a700ed54c120cc6e5f7fcc69c5083066e", null ],
+    [ "Dto", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ad1b298bd20ff5e2e2720b16a8f37cbab", null ],
+    [ "L", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a59a716904cbdfa9ea0e145eb848441a5", null ],
+    [ "Kexp", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ad6e991812fc45f1ebe8732cf07644811", null ],
+    [ "KSp", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a3b7a9b41e24a0dea81e60ca4cb458199", null ],
+    [ "KSu", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ac46b21f3edc733a26c57ab75590d0136", null ],
+    [ "Tactivate", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a27ea66cba8b3d494402e23ed4fc0b808", null ],
+    [ "includeDivU", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#afbd5cb692856af6211b8d6f869650236", null ],
+    [ "includeVolChange", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#acf9c1df51f17a8c6b84bcaf5af691bc3", null ],
+    [ "variable", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ab777070bb03f93f86db343c1b7f57379", null ],
+    [ "modelVariableNames_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a23a3ef097fcad4d0cd77d5aef1f84645", null ],
+    [ "modelVariable_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#af072ac8737540bd27b93c407fe1c4f9f", null ],
+    [ "includeVolChange_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a698972fdb600936320407bb54f24ba2e", null ],
+    [ "pair_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#afd0567a30e2ea4703b446fd80ca5ec0b", null ],
+    [ "speciesName_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#ac331f0cbaabf59767621223bdb873e97", null ],
+    [ "mesh_", "classFoam_1_1multiphaseInter_1_1interfaceCompositionModel.html#a23edeeeecebcef11921a33dd5d990570", null ]
+];

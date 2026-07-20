@@ -1,0 +1,4 @@
+var phaseSystemModels_2reactingEuler_2multiphaseSystem_2interfacialCompositionModels_2surfaceTensionccd109af28712c367d8804a4be4df7ad =
+[
+    [ "surfaceTensionModel", "classFoam_1_1reactingMultiphaseEuler_1_1surfaceTensionModel.html", "classFoam_1_1reactingMultiphaseEuler_1_1surfaceTensionModel" ]
+];

@@ -1,0 +1,4 @@
+var regionFaModels_2liquidFilm_2subModels_2kinematic_2force_2contactAngleForces_2contactAngleForce_2contactAngleForce_8H =
+[
+    [ "contactAngleForce", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1contactAngleForce.html", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1contactAngleForce" ]
+];

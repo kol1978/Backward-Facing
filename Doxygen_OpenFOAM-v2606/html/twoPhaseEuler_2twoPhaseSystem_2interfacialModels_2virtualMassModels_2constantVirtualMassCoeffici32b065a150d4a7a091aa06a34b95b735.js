@@ -1,0 +1,5 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffici32b065a150d4a7a091aa06a34b95b735 =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffici32b065a150d4a7a091aa06a34b95b735.html#a20fe4e936273316bc30a3558c74d5f7c", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2virtualMassModels_2constantVirtualMassCoeffici32b065a150d4a7a091aa06a34b95b735.html#a198e02095e6e9358af2afcc10fd761cd", null ]
+];

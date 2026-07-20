@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_787c89cd154e78c46806a1a12c7c35b9 =
+[
+    [ "JohnsonJackson", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJackson.html", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJackson" ]
+];

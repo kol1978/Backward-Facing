@@ -1,0 +1,5 @@
+var dir_c191248d35fd8b0f3eeeb9461c75b645 =
+[
+    [ "GidaspowSchillerNaumann.C", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowSchillerNaumann_2GidaspowSchillerNaumann_8C.html", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowSchillerNaumann_2GidaspowSchillerNaumann_8C" ],
+    [ "GidaspowSchillerNaumann.H", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowSchillerNaumann_2GidaspowSchillerNaumann_8H.html", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2GidaspowSchillerNaumann_2GidaspowSchillerNaumann_8H" ]
+];

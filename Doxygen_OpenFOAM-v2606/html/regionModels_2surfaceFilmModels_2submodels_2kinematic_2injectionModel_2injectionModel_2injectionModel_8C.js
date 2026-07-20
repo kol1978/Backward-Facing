@@ -1,0 +1,5 @@
+var regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2injectionModel_2injectionModel_8C =
+[
+    [ "defineTypeNameAndDebug", "regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2injectionModel_2injectionModel_8C.html#afa2125aee6ed225f4a4251645a1d4a5f", null ],
+    [ "defineRunTimeSelectionTable", "regionModels_2surfaceFilmModels_2submodels_2kinematic_2injectionModel_2injectionModel_2injectionModel_8C.html#a5bb225ec9bb0668fb9d1a17b205e1739", null ]
+];

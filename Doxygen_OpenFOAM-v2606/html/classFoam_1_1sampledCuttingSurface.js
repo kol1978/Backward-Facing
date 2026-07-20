@@ -1,0 +1,28 @@
+var classFoam_1_1sampledCuttingSurface =
+[
+    [ "sampledCuttingSurface", "classFoam_1_1sampledCuttingSurface.html#af9b0a8b32d01a845bdd96d07f19c598c", null ],
+    [ "sampledCuttingSurface", "classFoam_1_1sampledCuttingSurface.html#a15eb3b4bb9cd53a8589a6a0bbc4da469", null ],
+    [ "~sampledCuttingSurface", "classFoam_1_1sampledCuttingSurface.html#aba677ca86e92af916052f1773c5bfcb6", null ],
+    [ "TypeName", "classFoam_1_1sampledCuttingSurface.html#a61fd06ffea2f7688e90791fd526481e7", null ],
+    [ "needsUpdate", "classFoam_1_1sampledCuttingSurface.html#aa0ea374c75eabd2f592dc4e6c3304c6b", null ],
+    [ "expire", "classFoam_1_1sampledCuttingSurface.html#a99e9f0908a967713d117081d26ed51d0", null ],
+    [ "update", "classFoam_1_1sampledCuttingSurface.html#aa2aac016e2bf7b5bd2b271786c2791aa", null ],
+    [ "points", "classFoam_1_1sampledCuttingSurface.html#a05372debeb84d0a1e4aa76d8d1d7501f", null ],
+    [ "faces", "classFoam_1_1sampledCuttingSurface.html#a7fb70231893fc7905d150cef063f2be8", null ],
+    [ "zoneIds", "classFoam_1_1sampledCuttingSurface.html#a8486964146b6bebc228eaf4affae824c", null ],
+    [ "Sf", "classFoam_1_1sampledCuttingSurface.html#aa3949e79e8984168f17cba392a1c65b0", null ],
+    [ "magSf", "classFoam_1_1sampledCuttingSurface.html#a8e0328a009cd1f75b31cc23371e29e5b", null ],
+    [ "Cf", "classFoam_1_1sampledCuttingSurface.html#a819c91bdf63b59007dd19b512e24b907", null ],
+    [ "sample", "classFoam_1_1sampledCuttingSurface.html#a649a019850681f7199dc1deabb3f5d37", null ],
+    [ "sample", "classFoam_1_1sampledCuttingSurface.html#a20a5a7f5d5a2bbd84b08f3632f8dc0c9", null ],
+    [ "sample", "classFoam_1_1sampledCuttingSurface.html#a714dedb60bd81044619fbf0cc216865c", null ],
+    [ "sample", "classFoam_1_1sampledCuttingSurface.html#aaa6499937a02aaf28c9f3bf5756fb403", null ],
+    [ "sample", "classFoam_1_1sampledCuttingSurface.html#a30bbc7d9c3e8434838652511d71ab229", null ],
+    [ "interpolate", "classFoam_1_1sampledCuttingSurface.html#a2c6f41bd777a7f537189753b7c707267", null ],
+    [ "interpolate", "classFoam_1_1sampledCuttingSurface.html#a32232850df62e53c473f8eb1c85938e1", null ],
+    [ "interpolate", "classFoam_1_1sampledCuttingSurface.html#a6656c1d44f08b65448e0a8563ad26f2e", null ],
+    [ "interpolate", "classFoam_1_1sampledCuttingSurface.html#ac74a05a7a49a767bbd986b7dacce74b0", null ],
+    [ "interpolate", "classFoam_1_1sampledCuttingSurface.html#a893e89b48263145651d6b4bf36fffd47", null ],
+    [ "sampleOnFaces", "classFoam_1_1sampledCuttingSurface.html#a9929d343aebc5d8d33d87d5fa1d4fe5a", null ],
+    [ "sampleOnPoints", "classFoam_1_1sampledCuttingSurface.html#a9b24483d4ab63e16a56c5a7f8c350566", null ]
+];

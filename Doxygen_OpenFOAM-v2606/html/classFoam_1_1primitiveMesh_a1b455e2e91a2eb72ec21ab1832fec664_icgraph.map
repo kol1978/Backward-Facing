@@ -1,0 +1,58 @@
+<map id="nBoundaryFaces" name="nBoundaryFaces">
+<area shape="rect" id="Node000001" title="Number of boundary faces (== nFaces &#45; nInternalFaces)" alt="" coords="607,786,735,811"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1dynamicRefineFvMesh.html#a733c874c6086685ba54775c9d5e73d1f" title="Calculate cells that cannot be refined since would trigger." alt="" coords="322,5,537,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="667,772,662,625,648,411,634,300,615,198,589,115,574,83,557,59,535,43,539,39,561,55,578,80,594,113,620,197,639,299,653,410,668,625,672,772"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1meshRefinement.html#a9ba55ad37b0d2cb2314d246df7da8040" title="Helper function: check that face zones are synced." alt="" coords="334,69,525,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="666,772,660,637,644,441,630,341,611,249,587,174,572,145,557,123,542,111,524,102,526,97,545,106,561,120,577,142,592,172,616,248,635,340,649,441,666,637,671,772"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1polyMeshGeometry.html#a5014e575335db939bc66eb2fe32ac48f" title="See primitiveMesh." alt="" coords="332,133,527,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="666,773,658,649,640,472,625,382,607,300,584,232,571,207,557,187,543,175,526,167,528,162,545,171,561,184,576,204,589,230,612,298,631,381,645,472,663,648,671,772"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1polyMeshGeometry.html#ac78de3d27453106d3cf818bda3fd90f4" title="See primitiveMesh." alt="" coords="332,197,527,237"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="665,772,655,660,636,503,621,423,603,350,582,291,557,251,542,239,526,231,528,226,545,235,561,248,587,289,608,349,626,422,641,502,661,659,670,772"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1polyMeshTetDecomposition.html#a5041ce71d4d19419b583f1266325b8f0" title="Check face&#45;decomposition tet volume." alt="" coords="306,261,553,301"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="664,773,653,672,631,534,617,464,599,401,579,350,557,315,542,303,545,299,561,312,584,347,604,400,622,463,637,533,658,671,670,772"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1polyMeshGeometry.html#a1d15f5f7fdae54e4c34b03a0462cd535" title="Triangle (from face&#45;centre decomposition) normal v.s." alt="" coords="332,325,527,365"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="663,773,650,684,627,566,596,452,577,409,557,379,542,368,526,360,528,355,545,363,561,376,582,406,601,451,632,565,655,683,669,772"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1polyMeshGeometry.html#a6dbbfaac834107f888c95c13272d8d8a" title="Interpolation weights (0.5 for regular mesh)" alt="" coords="332,389,527,429"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="667,772,662,706,647,617,633,570,614,523,589,481,557,443,526,424,529,420,560,439,593,478,619,521,638,568,652,616,668,705,672,772"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1faceZone.html#ae0d853449ed62624abe28bda852337c6" title="Check whether all procs have faces synchronised." alt="" coords="303,454,555,479"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="665,772,659,714,642,638,628,598,609,560,586,524,557,494,538,482,541,477,560,490,590,521,614,557,632,596,647,637,664,713,671,772"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1polyMeshGeometry.html#aa63d73334ea3f55a0fd59896924c6eb5" title="Cell volume ratio of neighbouring cells (1 for regular mesh)" alt="" coords="332,504,527,544"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="662,773,650,728,630,672,599,614,580,588,557,565,526,545,528,541,560,561,584,584,604,611,635,670,655,726,667,772"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1addPatchCellLayer.html#a60dca6e259ded655bcfea0f5d5de1fda" title="Helper: given patch and points on patch that are extruded." alt="" coords="35,623,222,663"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="661,774,648,734,628,688,598,643,579,624,557,609,510,588,458,577,406,575,353,578,302,587,254,599,177,625,175,620,253,594,301,582,352,573,406,569,459,572,511,583,560,604,582,620,602,640,632,686,653,733,666,772"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1localPointRegion.html#ada4b8f94bf6f76d8d4342d0d169ce358" title="Helper routine to find all baffles (two boundary faces." alt="" coords="341,619,517,659"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="653,776,614,723,587,696,557,673,517,655,519,650,560,668,591,692,618,720,657,773"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1polyMeshTetDecomposition.html#a3336759b0c761efa929d4adf95831754" title="Find a suitable base point for each face for decomposition into tets." alt="" coords="5,809,252,849"/>
+<area shape="poly" id="edge12_Node000001_Node000027" title=" " alt="" coords="659,825,621,880,593,908,560,929,490,954,460,958,432,958,372,948,299,929,257,914,217,894,154,852,157,847,220,889,259,909,301,924,373,943,432,953,460,953,489,948,557,924,589,904,616,877,654,822"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1boundaryMesh.html#a7cfb30aa0fa4868d8a08ec928d0c1315" title="Get bMesh index of nearest face for every boundary face in." alt="" coords="348,747,511,787"/>
+<area shape="poly" id="edge13_Node000001_Node000042" title=" " alt="" coords="593,791,511,780,511,775,594,786"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1volPointInterpolationAdjoint.html#a82accfc2cda0f2ebe403fe2a73b412ce" title="Interpolate sensitivties from points to faces." alt="" coords="300,811,559,851"/>
+<area shape="poly" id="edge14_Node000001_Node000043" title=" " alt="" coords="593,812,559,816,559,811,593,806"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1volPointInterpolationAdjoint.html#ae1e1d451512447a365c1e006d2dbd5ef" title="Interpolate sensitivties from points to faces." alt="" coords="300,875,559,915"/>
+<area shape="poly" id="edge15_Node000001_Node000044" title=" " alt="" coords="641,821,603,844,560,865,525,877,523,872,558,860,600,839,638,817"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1meshRefinement.html#a7dc436e8c04fafd4732806a903adc205" title="Mark faces on interface between set and rest." alt="" coords="40,1363,217,1403"/>
+<area shape="poly" id="edge16_Node000001_Node000045" title=" " alt="" coords="672,826,666,952,650,1131,636,1222,617,1304,592,1370,577,1396,560,1414,515,1442,464,1458,410,1462,355,1459,302,1449,252,1435,171,1405,173,1400,253,1430,303,1444,356,1453,410,1457,463,1452,512,1437,557,1410,573,1392,587,1368,612,1302,631,1221,645,1130,661,952,666,825"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1meshRefinement.html#a8a78f1f33f714c4c8ccc1f77423ec0a3" title="Merge coplanar faces if sets are of size mergeSize." alt="" coords="341,989,518,1029"/>
+<area shape="poly" id="edge17_Node000001_Node000046" title=" " alt="" coords="662,826,647,859,625,899,596,939,560,973,520,994,517,990,557,969,592,935,620,896,642,857,657,823"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1boundaryMesh.html#ae2705f64a0b5d9d61dc1b67afa50a160" title="Take over patches onto polyMesh from nearest face in *this." alt="" coords="348,1053,511,1093"/>
+<area shape="poly" id="edge18_Node000001_Node000047" title=" " alt="" coords="668,826,657,873,636,932,605,992,585,1019,560,1043,537,1058,512,1067,510,1062,535,1053,557,1039,581,1016,601,989,632,930,651,871,662,825"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1boundaryMesh.html#ad75a6a0d6490bd22adad55646a22e51b" title="Read from boundaryMesh of polyMesh." alt="" coords="348,1117,511,1157"/>
+<area shape="poly" id="edge19_Node000001_Node000048" title=" " alt="" coords="671,825,663,883,646,960,631,1000,613,1039,589,1075,560,1107,538,1123,512,1132,510,1127,535,1118,557,1103,585,1072,608,1036,627,998,640,958,658,883,665,825"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1SloanRenumber.html#ac56868baa0519cff2a33d1ccd5f49847" title="Return the cell visit order (from ordered back to original cell id) using the mesh to determine the c..." alt="" coords="345,1181,514,1221"/>
+<area shape="poly" id="edge20_Node000001_Node000049" title=" " alt="" coords="672,825,669,894,654,987,640,1037,620,1086,594,1131,560,1171,539,1186,515,1196,513,1191,537,1182,557,1167,590,1128,616,1084,635,1036,649,986,664,894,667,825"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1mappedPatchBase.html#a7e348da81551c80758c505e5c5140772" title="Return size of mapped mesh/patch/boundary." alt="" coords="336,1245,523,1285"/>
+<area shape="poly" id="edge21_Node000001_Node000050" title=" " alt="" coords="669,825,656,917,633,1040,601,1158,582,1204,561,1235,544,1248,524,1257,522,1253,541,1244,557,1232,577,1201,596,1156,628,1038,651,916,664,825"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1syncTools.html#a0887bea26cfec93a8bf345a15a977847" title="Extract and swap to obtain neighbour cell values for all boundary faces." alt="" coords="313,1309,546,1349"/>
+<area shape="poly" id="edge22_Node000001_Node000051" title=" " alt="" coords="670,825,659,929,637,1071,623,1143,605,1208,585,1262,561,1299,545,1311,542,1307,557,1296,580,1260,600,1207,618,1142,632,1070,653,928,664,825"/>
+<area shape="rect" id="Node000064" href="$classFoam_1_1faceZoneSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceZoneSet across coupled patches." alt="" coords="336,1374,523,1399"/>
+<area shape="poly" id="edge24_Node000001_Node000064" title=" " alt="" coords="671,825,662,940,643,1102,628,1184,610,1260,588,1321,575,1345,561,1363,543,1376,524,1385,522,1380,541,1372,557,1359,570,1342,583,1319,605,1258,623,1183,637,1101,657,940,665,825"/>
+<area shape="rect" id="Node000065" href="$classFoam_1_1syncTools.html#a61988484ac2118dcd435a7d034d3a1aa" title="Synchronize values on boundary faces only." alt="" coords="315,683,544,723"/>
+<area shape="poly" id="edge25_Node000001_Node000065" title=" " alt="" coords="638,781,600,758,558,737,523,725,525,720,560,732,603,753,641,776"/>
+<area shape="rect" id="Node000155" href="$classFoam_1_1triSurfaceTools.html#a071090deeb0e1fddca336be41434de86" title=" " alt="" coords="348,1475,511,1515"/>
+<area shape="poly" id="edge28_Node000001_Node000155" title=" " alt="" coords="671,825,664,957,647,1146,632,1244,614,1333,590,1407,576,1436,561,1458,538,1476,512,1487,510,1483,535,1471,557,1454,572,1433,585,1405,609,1332,627,1243,641,1146,659,957,666,825"/>
+<area shape="rect" id="Node000156" href="$classFoam_1_1triSurfaceTools.html#abf2be73c84828e0d5db6921bf8b57353" title="Face&#45;centre triangulation of (selected patches of) boundaryMesh." alt="" coords="343,1539,516,1579"/>
+<area shape="poly" id="edge29_Node000001_Node000156" title=" " alt="" coords="672,825,667,970,652,1181,638,1290,619,1390,593,1472,578,1504,561,1529,541,1544,517,1554,515,1549,538,1540,557,1525,573,1501,589,1470,614,1388,633,1289,647,1180,662,969,666,825"/>
+<area shape="poly" id="edge23_Node000051_Node000045" title=" " alt="" coords="303,1354,218,1370,217,1364,302,1349"/>
+<area shape="poly" id="edge26_Node000065_Node000015" title=" " alt="" coords="314,683,221,664,223,659,315,677"/>
+<area shape="poly" id="edge27_Node000065_Node000027" title=" " alt="" coords="323,729,301,737,225,774,162,811,159,807,222,769,299,732,322,724"/>
+</map>

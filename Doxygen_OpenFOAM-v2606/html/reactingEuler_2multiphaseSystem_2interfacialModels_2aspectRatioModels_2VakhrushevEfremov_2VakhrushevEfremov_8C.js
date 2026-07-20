@@ -1,0 +1,5 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C.html#a184db4f3909f44b6234cfcf1e2734b7a", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C.html#a9da894c0a74fc8cfae18478ca958cdbb", null ]
+];

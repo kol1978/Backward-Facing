@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2CarnahanSdf875b73c1d7d42ef8dd415197384de8 =
+[
+    [ "CarnahanStarling", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1CarnahanStarling.html", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1CarnahanStarling" ]
+];

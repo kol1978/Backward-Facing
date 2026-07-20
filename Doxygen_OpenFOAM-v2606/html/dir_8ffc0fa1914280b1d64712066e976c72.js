@@ -1,0 +1,5 @@
+var dir_8ffc0fa1914280b1d64712066e976c72 =
+[
+    [ "heatTransferModel.C", "phaseSystemModels_2reactingEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2heatTb009f210c219d7b1ecfe8b0f963dc93a.html", "phaseSystemModels_2reactingEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2heatTb009f210c219d7b1ecfe8b0f963dc93a" ],
+    [ "heatTransferModel.H", "phaseSystemModels_2reactingEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2heatT2f82b9418c53676a224256ec00844d06.html", "phaseSystemModels_2reactingEuler_2multiphaseSystem_2interfacialModels_2heatTransferModels_2heatT2f82b9418c53676a224256ec00844d06" ]
+];

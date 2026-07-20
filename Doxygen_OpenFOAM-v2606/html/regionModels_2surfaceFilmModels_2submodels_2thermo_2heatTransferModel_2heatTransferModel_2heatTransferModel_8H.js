@@ -1,0 +1,4 @@
+var regionModels_2surfaceFilmModels_2submodels_2thermo_2heatTransferModel_2heatTransferModel_2heatTransferModel_8H =
+[
+    [ "heatTransferModel", "classFoam_1_1regionModels_1_1surfaceFilmModels_1_1heatTransferModel.html", "classFoam_1_1regionModels_1_1surfaceFilmModels_1_1heatTransferModel" ]
+];

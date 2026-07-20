@@ -1,0 +1,4 @@
+var multiphaseInter_2phasesSystem_2interfaceModels_2surfaceTensionModels_2constantSurfaceTensionCoefade91ad3131c4a34a0574c9438360406 =
+[
+    [ "constantSurfaceTensionCoefficient", "classFoam_1_1multiphaseInter_1_1surfaceTensionModels_1_1constantSurfaceTensionCoefficient.html", "classFoam_1_1multiphaseInter_1_1surfaceTensionModels_1_1constantSurfaceTensionCoefficient" ]
+];

@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2HrenyaSinc07466f1a8c9796100df820cd1b7f454 =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2HrenyaSinc07466f1a8c9796100df820cd1b7f454.html#a0cd7d7b8c2e993cba2e047cc1b4ee688", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2HrenyaSinc07466f1a8c9796100df820cd1b7f454.html#ada48e9fcf2294a278c3770245535b0ae", null ]
+];

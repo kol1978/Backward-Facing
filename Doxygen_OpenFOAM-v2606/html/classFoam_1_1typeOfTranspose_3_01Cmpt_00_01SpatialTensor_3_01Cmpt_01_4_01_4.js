@@ -1,0 +1,4 @@
+var classFoam_1_1typeOfTranspose_3_01Cmpt_00_01SpatialTensor_3_01Cmpt_01_4_01_4 =
+[
+    [ "type", "classFoam_1_1typeOfTranspose_3_01Cmpt_00_01SpatialTensor_3_01Cmpt_01_4_01_4.html#a782fc5c9ed25d10d98e7a96bba1084c3", null ]
+];

@@ -1,0 +1,4 @@
+var twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2turbulentDispersionModels_2LopezDeBertodano_2LopezDeBertodano_8H =
+[
+    [ "LopezDeBertodano", "classFoam_1_1turbulentDispersionModels_1_1LopezDeBertodano.html", "classFoam_1_1turbulentDispersionModels_1_1LopezDeBertodano" ]
+];

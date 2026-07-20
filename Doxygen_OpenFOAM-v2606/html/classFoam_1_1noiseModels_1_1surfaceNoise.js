@@ -1,0 +1,28 @@
+var classFoam_1_1noiseModels_1_1surfaceNoise =
+[
+    [ "surfaceNoise", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a2d292785c1e50423c7672b49e7f79d84", null ],
+    [ "~surfaceNoise", "classFoam_1_1noiseModels_1_1surfaceNoise.html#ac005744660947538f981212d7bb04a17", null ],
+    [ "initialise", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a12e93a7372f50d58498e5eeb69cf3199", null ],
+    [ "readSurfaceData", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a019dbfaab5e66f7a33c07b2f43d94fe1", null ],
+    [ "surfaceAverage", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a5095536094acb2bdab4cb2944fdfd6fb", null ],
+    [ "writeSurfaceData", "classFoam_1_1noiseModels_1_1surfaceNoise.html#af824befd2fe53d2517f6bfa09cb4fae1", null ],
+    [ "TypeName", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a2c7322d52242e10f6acc98849569892b", null ],
+    [ "read", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a6ce0c64db98eb6144d363dbfc86104eb", null ],
+    [ "calculate", "classFoam_1_1noiseModels_1_1surfaceNoise.html#afe1d8348c24e6589bc7c0b3f689316a7", null ],
+    [ "inputFileNames_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a701670af1d83196ef306b99ff1416c93", null ],
+    [ "pName_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a0c19d97efb38c13265d9631f25767b36", null ],
+    [ "pIndex_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#ae19e06a9aabc895c2b36d2c25e552245", null ],
+    [ "times_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a040cf9158ded712b679e3984ffa065be", null ],
+    [ "deltaT_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a4616b005c393bfd411c720f4921a0de6", null ],
+    [ "startTimeIndex_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#ac807a225253c4823a9a3646ed3acb558", null ],
+    [ "nFaces_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a237cd74fe81bde76ce8d0d58b58da1cd", null ],
+    [ "nFaceCentres_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#acee638dc646f51b65a740d36e546fdaa", null ],
+    [ "fftWriteInterval_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#acd0012765e09f887338fb7290309a436", null ],
+    [ "areaAverage_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#adf82f20d34761f5f13fde744fc61c798", null ],
+    [ "useBroadcast_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#aa99c1a22b4b1ce9f910e5468dc05c924", null ],
+    [ "commType_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a707175e88f626ac4b6170b847b1f812c", null ],
+    [ "readerType_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#aa1cdf8e6b173d4e5729afa91bd5ef530", null ],
+    [ "readerOptions_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a3e6c7cdc39874a6230c8a803649c1125", null ],
+    [ "readerPtr_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#adf5920e9dc018609b3bc153b061c8d4e", null ],
+    [ "writerPtr_", "classFoam_1_1noiseModels_1_1surfaceNoise.html#a97eb5fc4bc6fffc669517f6594efba78", null ]
+];

@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Syamlal_2SyamlalConductivity_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Syamlal_2SyamlalConductivity_8C.html#ada6848543e5022e3d0759010691ec84c", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Syamlal_2SyamlalConductivity_8C.html#adeeee159bb145352ce6fffdac67754c5", null ]
+];

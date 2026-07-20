@@ -1,0 +1,4 @@
+var TurbulenceModels_2incompressible_2turbulentTransportModels_2derivedFvPatchFields_2wallFunctions_83037ffe3c8c314f1af79ebf34b4365a =
+[
+    [ "makePatchTypeField", "TurbulenceModels_2incompressible_2turbulentTransportModels_2derivedFvPatchFields_2wallFunctions_83037ffe3c8c314f1af79ebf34b4365a.html#a70d893bdf7d8c2126c06de033ad78b8e", null ]
+];

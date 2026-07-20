@@ -1,0 +1,53 @@
+<map id="syncFaceList" name="syncFaceList">
+<area shape="rect" id="Node000001" title="Synchronize values on all mesh faces." alt="" coords="300,753,404,779"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1refinementHistory.html#a5eae4943003f9ab4ea27a384e9a1d3ac" title="Add my decomposition constraints." alt="" coords="21,5,236,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="348,740,347,596,335,387,323,279,306,180,282,99,267,68,250,45,235,33,238,29,254,41,271,66,287,97,311,179,329,278,341,386,352,596,354,740"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1decompositionConstraints_1_1geometric.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add this constraint to list of constraints." alt="" coords="11,55,247,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="348,739,344,607,330,418,318,320,301,231,278,158,265,130,250,109,236,97,240,93,254,106,270,128,283,156,306,230,323,320,335,417,349,607,353,739"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1decompositionConstraints_1_1preserveBaffles.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add my constraints to list of constraints." alt="" coords="11,119,247,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="347,739,342,619,326,448,314,361,297,282,276,217,264,192,250,173,236,162,240,157,254,170,268,189,281,215,302,281,319,361,332,448,347,618,353,739"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1decompositionConstraints_1_1preserveFaceZones.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add my constraints to list of constraints." alt="" coords="11,183,247,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="347,740,339,631,322,480,309,403,293,333,274,276,250,237,236,226,240,222,254,234,278,273,298,331,315,402,328,479,344,631,352,740"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1decompositionConstraints_1_1preservePatches.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add my constraints to list of constraints." alt="" coords="11,247,247,287"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="346,740,337,643,318,511,305,444,290,384,271,334,250,301,236,289,239,285,254,298,276,332,295,382,310,443,323,510,342,642,351,739"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1decompositionConstraints_1_1singleProcessorFaceSets.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add this constraint to list of constraints." alt="" coords="11,311,247,351"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="345,740,334,655,314,542,286,435,269,393,250,365,235,354,239,349,254,362,273,391,291,433,319,541,339,654,350,739"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1polyMeshTetDecomposition.html#a6a2ab02aef63d588b91e7c26706186b7" title="Return an adjusted list of tet base points." alt="" coords="5,375,252,415"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="349,740,345,676,332,593,320,548,303,505,280,465,250,429,235,418,238,413,254,425,284,461,307,503,325,547,337,591,351,676,354,739"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1meshRefinement.html#ad6e302cdb3108e513a7d225fd636fe2c" title="Redecompose according to cell count." alt="" coords="40,439,217,479"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="346,740,340,687,324,621,311,586,295,552,275,521,250,493,234,482,216,473,218,469,237,477,254,489,279,517,300,549,316,584,329,619,345,686,352,739"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1holeToFace.html#aab70a19ba8bba575b5dc5d54327b3183" title="Optional direct use to generate the set of faces and the method to." alt="" coords="19,504,239,529"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="344,740,335,696,318,643,290,589,272,565,250,544,230,532,233,527,254,540,276,561,294,586,322,641,340,695,350,739"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1dynamicRefineFvMesh.html#a733c874c6086685ba54775c9d5e73d1f" title="Calculate cells that cannot be refined since would trigger." alt="" coords="21,554,236,594"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="339,741,326,710,307,674,282,638,250,608,231,596,233,592,254,604,286,635,312,671,331,708,344,739"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1meshRefinement.html#aa20a067cc4a1b5ecab356368e05fed0c" title=" " alt="" coords="40,618,217,658"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="330,744,296,707,251,672,216,657,219,653,253,668,299,703,334,740"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1meshRefinement.html#adf59ba1ba1060862e3274059692eea57" title="Create baffle for every internal face where ownPatch != &#45;1." alt="" coords="40,682,217,722"/>
+<area shape="poly" id="edge12_Node000001_Node000016" title=" " alt="" coords="299,751,251,737,209,725,210,720,253,731,301,746"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1dynamicRefineFvMesh.html#aca33f11db2aea5e8f53b5919d8699c04" title="Extend markedCell with cell&#45;face&#45;cell." alt="" coords="21,746,236,786"/>
+<area shape="poly" id="edge13_Node000001_Node000017" title=" " alt="" coords="286,769,236,769,236,763,286,763"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1distanceSurface.html#a17806bb8d7015c11e885775078bb86c3" title="Prepare blockedFaces for region split." alt="" coords="37,810,221,850"/>
+<area shape="poly" id="edge14_Node000001_Node000018" title=" " alt="" coords="301,786,253,801,210,812,209,807,251,795,299,781"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1meshRefinement.html#addad8a30136df5abece92c0d79da1ebd" title=" " alt="" coords="40,874,217,914"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="334,792,299,829,253,864,219,879,216,875,251,860,296,825,330,788"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1meshRefinement.html#a5db50747f841ecd86def64f7edbd931e" title=" " alt="" coords="40,938,217,978"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="344,793,331,824,312,861,286,897,254,928,219,946,217,941,250,924,282,894,307,858,326,822,339,791"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1dynamicRefineFvMesh.html#a460e489a34859d4868bfb74195ae243c" title="Initialise all non&#45;demand&#45;driven data." alt="" coords="21,1002,236,1042"/>
+<area shape="poly" id="edge17_Node000001_Node000022" title=" " alt="" coords="349,793,340,836,322,890,294,945,275,970,254,992,236,1004,233,1000,250,988,271,967,289,942,317,888,334,835,344,792"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1oversetFvMeshBase.html#a174de860f22e3ca2e1d5bcefd84c3f60" title=" " alt="" coords="29,1066,228,1106"/>
+<area shape="poly" id="edge18_Node000001_Node000024" title=" " alt="" coords="352,793,346,848,331,919,318,956,301,992,280,1026,254,1056,230,1072,227,1067,250,1052,276,1023,297,990,313,954,326,917,341,847,347,793"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="17,1131,240,1156"/>
+<area shape="poly" id="edge19_Node000001_Node000025" title=" " alt="" coords="354,793,353,859,341,947,328,994,310,1040,286,1083,254,1120,236,1133,232,1128,250,1116,281,1080,305,1038,323,993,335,946,347,859,349,793"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1meshRefinement.html#a0561e85c24662d487e24f35b5b043767" title="Split off (with optional buffer layers) unreachable areas." alt="" coords="40,1181,217,1221"/>
+<area shape="poly" id="edge20_Node000001_Node000026" title=" " alt="" coords="350,793,339,878,319,990,291,1098,273,1140,254,1169,237,1182,219,1191,216,1187,235,1178,250,1166,269,1138,285,1096,314,989,333,877,345,792"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1faceBitSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceBitSet across coupled patches." alt="" coords="43,1245,214,1271"/>
+<area shape="poly" id="edge21_Node000001_Node000027" title=" " alt="" coords="351,792,342,890,324,1022,311,1089,295,1150,276,1200,254,1235,236,1248,216,1256,214,1251,233,1243,250,1231,272,1198,290,1149,306,1088,319,1021,337,889,346,792"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1faceBoolSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceBoolSet across coupled patches." alt="" coords="37,1295,220,1320"/>
+<area shape="poly" id="edge22_Node000001_Node000028" title=" " alt="" coords="352,793,344,900,327,1047,315,1122,298,1190,278,1246,254,1284,239,1296,221,1304,219,1299,236,1291,250,1280,274,1243,293,1188,309,1121,322,1046,339,899,347,793"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1faceSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceSet across coupled patches." alt="" coords="52,1344,205,1369"/>
+<area shape="poly" id="edge23_Node000001_Node000029" title=" " alt="" coords="353,792,346,908,331,1070,318,1153,301,1229,280,1291,268,1315,254,1333,232,1349,206,1358,205,1353,229,1344,250,1329,263,1312,275,1289,296,1227,313,1152,325,1070,341,907,347,792"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1meshRefinement.html#a3c25e06495435a8c738fbd24f1246dee" title="Find any intersection of surface. Store in surfaceIndex_." alt="" coords="40,1394,217,1434"/>
+<area shape="poly" id="edge24_Node000001_Node000030" title=" " alt="" coords="353,792,348,916,333,1093,320,1184,303,1267,282,1335,269,1362,254,1382,238,1396,219,1406,217,1401,235,1392,250,1379,264,1359,277,1333,298,1265,315,1183,327,1092,342,916,347,792"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1cellCellStencil.html#a4e96ba900b1872f98ba738be1c497722" title="Surround holes with layer(s) of interpolated cells." alt="" coords="49,1458,208,1498"/>
+<area shape="poly" id="edge25_Node000001_Node000033" title=" " alt="" coords="353,792,350,928,337,1125,324,1226,307,1319,284,1395,270,1425,254,1448,233,1464,209,1474,207,1469,231,1459,250,1444,265,1422,279,1393,302,1317,319,1225,332,1124,345,928,348,792"/>
+</map>

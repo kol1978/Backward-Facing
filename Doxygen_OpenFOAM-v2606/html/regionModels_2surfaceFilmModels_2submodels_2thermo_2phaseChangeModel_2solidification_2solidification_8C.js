@@ -1,0 +1,5 @@
+var regionModels_2surfaceFilmModels_2submodels_2thermo_2phaseChangeModel_2solidification_2solidification_8C =
+[
+    [ "defineTypeNameAndDebug", "regionModels_2surfaceFilmModels_2submodels_2thermo_2phaseChangeModel_2solidification_2solidification_8C.html#a68219fdf8dcad627f7974118d50f48e8", null ],
+    [ "addToRunTimeSelectionTable", "regionModels_2surfaceFilmModels_2submodels_2thermo_2phaseChangeModel_2solidification_2solidification_8C.html#a8020ad01f6335533a0be7e1c624beeb3", null ]
+];

@@ -1,0 +1,5 @@
+var dir_86fada0eb0b95cbad5db7104d68d31bc =
+[
+    [ "LegendreMagnaudet.C", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8C.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8C" ],
+    [ "LegendreMagnaudet.H", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8H.html", "twoPhaseEuler_2twoPhaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8H" ]
+];

@@ -1,0 +1,44 @@
+<map id="is_parallel" name="is_parallel">
+<area shape="rect" id="Node000001" title="True if parallel algorithm or exchange is required." alt="" coords="491,484,580,510"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1bitSet.html#ac8a499a50cd69790a6dffaa2d27977df" title="Allgather individual values into bitSet locations." alt="" coords="15,315,187,340"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,470,524,374,509,245,497,180,482,122,463,75,441,46,416,28,393,16,370,10,347,8,323,11,299,19,247,46,212,74,183,108,160,146,142,187,118,263,107,316,102,314,112,261,137,185,155,144,179,105,208,70,244,41,297,14,322,6,346,3,371,5,395,11,419,24,445,42,468,73,487,120,502,179,514,244,529,373,536,470"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1bitSet.html#a5be2b76dc1340757ab815fcd99903d13" title="Broadcast the contents." alt="" coords="256,56,432,82"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="529,471,519,386,501,273,475,166,459,124,441,96,424,84,427,80,445,93,464,122,480,164,507,272,524,385,534,470"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1globalIndex.html#a7da149d345b891dc86d77fe39b1fde11" title="Based on the local input size(s), calculate a globally&#45;consistent local start offset." alt="" coords="269,106,419,146"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="532,471,530,408,518,325,507,281,491,237,469,196,441,160,418,144,421,140,445,156,473,194,495,235,512,279,523,324,535,408,537,471"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1IOobjectList.html#a609b11b0953b5b89c453e9a89d938fc4" title="Verify that object names are synchronised across processors." alt="" coords="273,170,415,210"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="530,471,524,419,510,353,483,284,464,252,441,224,414,207,417,202,444,220,469,249,488,282,515,351,530,418,535,470"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#ac2b3c43b79034428050af143dff1b7af" title="Locate the first rank for which the condition is true, or &#45;1 if no ranks satisfy the condition." alt="" coords="305,235,383,260"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="528,471,520,428,505,374,479,320,462,295,441,274,414,259,383,252,384,246,415,254,444,270,466,292,483,317,510,372,526,426,534,470"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#aa1b4f897e696ae6114721127c5017e65" title="Locate the last rank for which the condition is true, or &#45;1 if no ranks satisfy the condition." alt="" coords="305,284,383,310"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="525,472,514,438,497,397,473,357,441,323,413,309,382,302,383,296,415,304,444,319,477,354,502,395,519,436,530,470"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1bitSet.html#a20d29fe791d5fbea766dba49b89c1330" title="Gather individual values into bitSet locations." alt="" coords="245,334,443,359"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="519,474,487,426,466,402,441,381,402,362,404,357,444,376,469,398,491,423,523,471"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1expressions_1_1exprValueFieldTag.html#a447de6b436d6aa59edf6a09ba28a4164" title="Inplace parallel reduction, uses worldComm." alt="" coords="5,396,197,436"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="512,476,481,447,442,425,380,409,316,401,254,400,198,404,197,399,254,395,317,396,381,403,444,420,484,443,516,472"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a19fe91cb09d9de298e16d9645b556230" title="Reduce inplace (Allreduce) for MinMax with sum/plus semantics, which corresponds to op_min on the min..." alt="" coords="289,435,399,460"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="477,484,442,474,397,463,399,458,443,469,478,478"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="289,484,399,510"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="477,500,400,500,400,494,477,494"/>
+<area shape="rect" id="Node000401" href="$namespaceFoam.html#ac830534aaef249baf918f2220b22cea6" title="Reduce inplace (cf. MPI Allreduce) the sum of value and counter (eg, for averaging)" alt="" coords="30,510,173,535"/>
+<area shape="poly" id="edge21_Node000001_Node000401" title=" " alt="" coords="485,516,443,525,371,532,299,534,173,531,173,525,299,529,371,526,442,520,484,511"/>
+<area shape="rect" id="Node000525" href="$namespaceFoam.html#aff71cd91dff791dbc3bd42d9644799c2" title="Reduce inplace (cf. MPI Allreduce) multiple values (same size on all ranks!)" alt="" coords="289,586,399,611"/>
+<area shape="poly" id="edge14_Node000001_Node000525" title=" " alt="" coords="511,521,480,546,444,569,396,588,394,583,441,564,477,541,508,517"/>
+<area shape="rect" id="Node000526" href="$namespaceFoam.html#a53a1050afa16d26809050b501964a82b" title="Non&#45;blocking reduce inplace (cf. MPI Iallreduce) multiple values. Sets request." alt="" coords="289,635,399,660"/>
+<area shape="poly" id="edge15_Node000001_Node000526" title=" " alt="" coords="525,523,494,576,471,603,444,626,423,637,400,644,399,639,421,632,441,622,467,599,489,573,520,521"/>
+<area shape="rect" id="Node000527" href="$namespaceFoam_1_1PstreamDetail.html#a63fc014b076b8eb4d452b7935c0b71fb" title=" " alt="" coords="265,685,423,725"/>
+<area shape="poly" id="edge16_Node000001_Node000527" title=" " alt="" coords="530,524,519,558,501,599,476,640,444,675,425,688,422,683,441,671,472,636,496,596,514,556,525,522"/>
+<area shape="rect" id="Node000528" href="$namespaceFoam_1_1PstreamDetail.html#a3c50b86cc020652c151310f47f19d6e7" title=" " alt="" coords="261,749,427,789"/>
+<area shape="poly" id="edge17_Node000001_Node000528" title=" " alt="" coords="534,524,526,570,510,627,484,687,466,715,444,739,428,751,425,747,441,735,462,711,479,684,505,626,521,569,529,523"/>
+<area shape="rect" id="Node000529" href="$classFoam_1_1bitSet.html#a04ab631d62db59c6a29d64a699be80a7" title="Inplace bit_and parallel reduction." alt="" coords="253,814,435,839"/>
+<area shape="poly" id="edge18_Node000001_Node000529" title=" " alt="" coords="537,524,533,581,520,656,509,696,493,735,471,771,444,803,426,816,423,811,441,799,467,768,488,733,504,694,515,655,528,581,532,524"/>
+<area shape="rect" id="Node000530" href="$namespaceFoam.html#a327b87fb393e015adb972fa12f1fce79" title="Parallel reduction of multiple OffsetRange (eg, GlobalOffset) items." alt="" coords="266,863,422,888"/>
+<area shape="poly" id="edge19_Node000001_Node000530" title=" " alt="" coords="533,524,522,600,503,698,478,792,462,828,445,854,424,868,421,863,441,850,457,826,473,790,498,697,517,599,528,523"/>
+<area shape="rect" id="Node000531" href="$classFoam_1_1bitSet.html#a8ecdcebf0d50d2dea93b1a1e99eed0d0" title="Inplace bit_or parallel reduction." alt="" coords="259,912,429,938"/>
+<area shape="poly" id="edge20_Node000001_Node000531" title=" " alt="" coords="534,524,525,609,507,723,481,831,464,874,445,903,429,914,426,910,441,899,459,871,475,830,502,722,519,609,529,523"/>
+<area shape="rect" id="Node000532" href="$classFoam_1_1globalMeshData.html#ae5693a309a936ac1040dd48c2881677f" title="Change global mesh data given a topological change. Does a." alt="" coords="258,962,430,1002"/>
+<area shape="poly" id="edge22_Node000001_Node000532" title=" " alt="" coords="535,524,526,618,509,746,497,811,482,870,465,918,445,952,431,964,427,960,441,949,460,916,477,868,492,810,504,745,521,618,529,523"/>
+<area shape="poly" id="edge8_Node000009_Node000002" title=" " alt="" coords="231,340,187,337,188,332,232,335"/>
+<area shape="poly" id="edge12_Node000013_Node000010" title=" " alt="" coords="276,483,244,474,149,438,151,433,246,469,277,478"/>
+<area shape="poly" id="edge13_Node000013_Node000401" title=" " alt="" coords="275,507,173,518,173,512,274,502"/>
+</map>

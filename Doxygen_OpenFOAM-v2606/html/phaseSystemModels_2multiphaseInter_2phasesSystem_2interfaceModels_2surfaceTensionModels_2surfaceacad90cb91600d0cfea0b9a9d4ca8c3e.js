@@ -1,0 +1,4 @@
+var phaseSystemModels_2multiphaseInter_2phasesSystem_2interfaceModels_2surfaceTensionModels_2surfaceacad90cb91600d0cfea0b9a9d4ca8c3e =
+[
+    [ "surfaceTensionModel", "classFoam_1_1multiphaseInter_1_1surfaceTensionModel.html", "classFoam_1_1multiphaseInter_1_1surfaceTensionModel" ]
+];

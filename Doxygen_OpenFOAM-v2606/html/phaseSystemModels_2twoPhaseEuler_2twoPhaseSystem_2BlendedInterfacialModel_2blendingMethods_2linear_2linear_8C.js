@@ -1,0 +1,5 @@
+var phaseSystemModels_2twoPhaseEuler_2twoPhaseSystem_2BlendedInterfacialModel_2blendingMethods_2linear_2linear_8C =
+[
+    [ "defineTypeNameAndDebug", "phaseSystemModels_2twoPhaseEuler_2twoPhaseSystem_2BlendedInterfacialModel_2blendingMethods_2linear_2linear_8C.html#aaeeb02c6afa2f209afbc0944aa1185d6", null ],
+    [ "addToRunTimeSelectionTable", "phaseSystemModels_2twoPhaseEuler_2twoPhaseSystem_2BlendedInterfacialModel_2blendingMethods_2linear_2linear_8C.html#a195da862165fc2036b6573e1067224dd", null ]
+];

@@ -1,0 +1,25 @@
+var group__grpMultiphaseSolvers =
+[
+    [ "cavitatingDyMFoam.C", "cavitatingDyMFoam_8C.html", null ],
+    [ "cavitatingFoam.C", "cavitatingFoam_8C.html", null ],
+    [ "compressibleInterFoam.C", "compressibleInterFoam_8C.html", null ],
+    [ "overCompressibleInterDyMFoam.C", "overCompressibleInterDyMFoam_8C.html", null ],
+    [ "compressibleMultiphaseInterFoam.C", "compressibleMultiphaseInterFoam_8C.html", null ],
+    [ "driftFluxFoam.C", "driftFluxFoam_8C.html", null ],
+    [ "icoReactingMultiphaseInterFoam.C", "icoReactingMultiphaseInterFoam_8C.html", null ],
+    [ "interCondensatingEvaporatingFoam.C", "interCondensatingEvaporatingFoam_8C.html", null ],
+    [ "interFoam.C", "interFoam_8C.html", null ],
+    [ "interMixingFoam.C", "interMixingFoam_8C.html", null ],
+    [ "overInterDyMFoam.C", "overInterDyMFoam_8C.html", null ],
+    [ "interIsoFoam.C", "interIsoFoam_8C.html", null ],
+    [ "interPhaseChangeDyMFoam.C", "interPhaseChangeDyMFoam_8C.html", null ],
+    [ "interPhaseChangeFoam.C", "interPhaseChangeFoam_8C.html", null ],
+    [ "overInterPhaseChangeDyMFoam.C", "overInterPhaseChangeDyMFoam_8C.html", null ],
+    [ "multiphaseEulerFoam.C", "multiphaseEulerFoam_8C.html", null ],
+    [ "multiphaseInterFoam.C", "multiphaseInterFoam_8C.html", null ],
+    [ "potentialFreeSurfaceDyMFoam.C", "potentialFreeSurfaceDyMFoam_8C.html", null ],
+    [ "potentialFreeSurfaceFoam.C", "potentialFreeSurfaceFoam_8C.html", null ],
+    [ "reactingTwoPhaseEulerFoam.C", "reactingTwoPhaseEulerFoam_8C.html", null ],
+    [ "twoLiquidMixingFoam.C", "twoLiquidMixingFoam_8C.html", null ],
+    [ "twoPhaseEulerFoam.C", "twoPhaseEulerFoam_8C.html", null ]
+];

@@ -1,0 +1,42 @@
+<map id="src/thermophysicalModels/specie/reaction/Reactions/Reaction/Reaction.H" name="src/thermophysicalModels/specie/reaction/Reactions/Reaction/Reaction.H">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1802,5,1995,60"/>
+<area shape="rect" id="Node000002" href="$diffusionMulticomponent_8H.html" title=" " alt="" coords="5,115,208,170"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1788,38,1449,44,997,57,548,79,361,93,220,111,187,118,186,113,220,105,361,88,547,73,996,52,1449,39,1788,33"/>
+<area shape="rect" id="Node000005" href="$StandardChemistryModel_8H.html" title=" " alt="" coords="232,108,552,177"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="1788,38,1564,43,1260,54,914,76,737,92,564,111,552,112,552,107,564,105,737,86,914,71,1260,49,1564,37,1788,32"/>
+<area shape="rect" id="Node000014" href="$EulerImplicit_8C.html" title=" " alt="" coords="577,115,818,170"/>
+<area shape="poly" id="edge3_Node000001_Node000014" title=" " alt="" coords="1788,38,1607,44,1370,56,1104,78,838,111,798,118,797,113,837,105,1104,72,1369,51,1606,39,1788,33"/>
+<area shape="rect" id="Node000015" href="$chemistryReader_8H.html" title=" " alt="" coords="794,225,1059,280"/>
+<area shape="poly" id="edge4_Node000001_Node000015" title=" " alt="" coords="1788,36,1550,39,1264,49,1129,59,1014,72,928,89,900,99,883,110,875,122,872,136,875,166,889,197,907,224,903,227,885,199,870,168,866,135,870,120,879,106,898,94,927,84,1013,66,1129,53,1264,44,1549,34,1788,31"/>
+<area shape="rect" id="Node000053" href="$multiComponentMixture_8H.html" title=" " alt="" coords="1123,108,1421,177"/>
+<area shape="poly" id="edge5_Node000001_Node000053" title=" " alt="" coords="1789,53,1434,111,1422,113,1421,108,1433,105,1788,47"/>
+<area shape="rect" id="Node000058" href="$solidChemistryModel_8H.html" title=" " alt="" coords="1445,115,1712,170"/>
+<area shape="poly" id="edge6_Node000001_Node000058" title=" " alt="" coords="1808,67,1657,118,1655,113,1807,62"/>
+<area shape="rect" id="Node000064" href="$solidReaction_8H.html" title=" " alt="" coords="1786,115,2011,170"/>
+<area shape="poly" id="edge7_Node000001_Node000064" title=" " alt="" coords="1901,74,1901,115,1896,115,1896,74"/>
+<area shape="rect" id="Node000067" href="$makeSolidReaction_8H.html" title="Macros for instantiating reactions for solid." alt="" coords="1788,225,2009,280"/>
+<area shape="poly" id="edge9_Node000001_Node000067" title=" " alt="" coords="1816,69,1793,87,1776,109,1767,127,1765,143,1767,158,1776,176,1798,203,1828,223,1825,227,1795,207,1771,179,1762,160,1759,143,1762,126,1771,107,1790,83,1813,65"/>
+<area shape="rect" id="Node000069" href="$reactionTypes_8H.html" title="Type definitions for reactions." alt="" coords="2955,123,3181,163"/>
+<area shape="poly" id="edge10_Node000001_Node000069" title=" " alt="" coords="2009,32,2188,37,2421,49,2682,71,2814,86,2943,105,3007,120,3006,125,2942,111,2813,91,2681,76,2421,54,2188,43,2009,38"/>
+<area shape="rect" id="Node000072" href="$IrreversibleReaction_8H.html" title=" " alt="" coords="2035,108,2269,177"/>
+<area shape="poly" id="edge11_Node000001_Node000072" title=" " alt="" coords="1974,63,2074,105,2072,110,1972,68"/>
+<area shape="rect" id="Node000074" href="$makeReaction_8H.html" title="Macros for instantiating reactions on given thermo packages." alt="" coords="2295,225,2489,280"/>
+<area shape="poly" id="edge23_Node000001_Node000074" title=" " alt="" coords="2009,44,2165,69,2234,86,2283,106,2302,121,2312,138,2334,176,2372,224,2368,227,2330,179,2308,140,2298,125,2280,110,2233,91,2164,74,2008,49"/>
+<area shape="rect" id="Node000075" href="$NonEquilibriumReversibleReaction_8H.html" title=" " alt="" coords="2344,108,2611,177"/>
+<area shape="poly" id="edge14_Node000001_Node000075" title=" " alt="" coords="2009,49,2326,105,2344,109,2343,114,2325,111,2009,54"/>
+<area shape="rect" id="Node000077" href="$Reaction_8C.html" title=" " alt="" coords="3206,115,3399,170"/>
+<area shape="poly" id="edge16_Node000001_Node000077" title=" " alt="" coords="2010,34,2277,43,2618,58,2951,78,3089,91,3194,105,3226,113,3224,118,3193,111,3088,96,2951,84,2618,63,2277,48,2009,40"/>
+<area shape="rect" id="Node000078" href="$ReactionI_8H.html" title=" " alt="" coords="3423,115,3617,170"/>
+<area shape="poly" id="edge17_Node000001_Node000078" title=" " alt="" coords="2009,33,2315,40,2716,54,3112,75,3276,89,3400,105,3433,113,3431,118,3400,111,3275,94,3111,80,2716,59,2315,46,2009,39"/>
+<area shape="rect" id="Node000079" href="$ReactionList_8H.html" title=" " alt="" coords="894,115,1098,170"/>
+<area shape="poly" id="edge19_Node000001_Node000079" title=" " alt="" coords="1788,40,1651,48,1482,61,1296,81,1111,111,1079,118,1078,113,1110,105,1295,76,1481,56,1651,43,1788,35"/>
+<area shape="rect" id="Node000081" href="$ReversibleReaction_8H.html" title=" " alt="" coords="2635,115,2931,170"/>
+<area shape="poly" id="edge21_Node000001_Node000081" title=" " alt="" coords="2009,39,2288,64,2456,82,2623,105,2665,113,2664,118,2622,111,2455,88,2288,69,2009,44"/>
+<area shape="poly" id="edge8_Node000064_Node000067" title=" " alt="" coords="1901,184,1901,225,1896,225,1896,184"/>
+<area shape="poly" id="edge12_Node000072_Node000067" title=" " alt="" coords="2062,185,1961,228,1959,223,2060,180"/>
+<area shape="poly" id="edge13_Node000072_Node000074" title=" " alt="" coords="2240,180,2335,223,2333,228,2238,185"/>
+<area shape="poly" id="edge15_Node000075_Node000074" title=" " alt="" coords="2444,190,2415,227,2411,223,2440,186"/>
+<area shape="poly" id="edge18_Node000078_Node000001" title=" " alt="" coords="3442,114,3424,111,3295,94,3125,80,2716,58,2303,45,1996,38,1996,33,2303,39,2716,53,3126,74,3296,89,3424,105,3443,109"/>
+<area shape="poly" id="edge20_Node000079_Node000015" title=" " alt="" coords="974,183,946,227,941,224,969,181"/>
+<area shape="poly" id="edge22_Node000081_Node000074" title=" " alt="" coords="2675,176,2488,228,2486,223,2674,171"/>
+</map>

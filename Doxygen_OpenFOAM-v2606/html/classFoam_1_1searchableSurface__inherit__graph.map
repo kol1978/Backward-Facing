@@ -1,0 +1,29 @@
+<map id="searchableSurface" name="searchableSurface">
+<area shape="rect" id="Node000001" title="Base class of (analytical or triangulated) surface. Encapsulates all the search routines...." alt="" coords="151,277,293,303"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1searchableBox.html" title="Searching on bounding box." alt="" coords="385,5,504,31"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="226,263,238,215,259,154,293,92,314,64,340,40,361,27,384,20,386,25,363,32,343,44,318,68,297,95,264,156,243,216,231,264"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1searchableCone.html" title="Searching on (optionally hollow) cone." alt="" coords="381,55,508,80"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="229,263,244,224,267,177,299,129,340,89,359,78,380,71,382,76,361,83,343,93,303,133,271,180,249,226,234,265"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1searchableCylinder.html" title="Searching on a cylinder." alt="" coords="371,104,518,129"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="234,264,275,201,305,167,340,138,370,125,372,130,343,143,308,171,279,204,238,267"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1searchableDisk.html" title="Searching on circular disk given as origin, normal (gets normalised) and radius. Optionally it can be..." alt="" coords="383,153,506,179"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="242,265,285,225,311,205,340,188,382,173,384,178,342,192,314,209,288,229,246,269"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1searchableExtrudedCircle.html" title="Searching on edgeMesh with constant radius." alt="" coords="351,203,539,228"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="261,269,340,237,381,226,382,231,342,242,263,274"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1searchablePlane.html" title="Searching on (infinite) plane. The dictionary specifications are identical to the Foam::plane require..." alt="" coords="380,252,509,277"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="307,278,379,269,380,275,307,283"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1searchablePlate.html" title="Searching on finite plate. Plate has to be aligned with coordinate axes. Plate defined as origin and ..." alt="" coords="381,301,508,327"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="307,296,381,305,381,310,307,302"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1searchableRotatedBox.html" title="Searching on a rotated box." alt="" coords="360,351,529,376"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="264,306,342,337,383,348,381,353,340,342,262,311"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1searchableSphere.html" title="Searching on general spheroid." alt="" coords="375,400,514,425"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="246,311,288,350,315,370,342,386,376,399,374,404,340,391,312,374,285,354,242,315"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1searchableSurfaceCollection.html" title="Set of transformed searchableSurfaces. Does not do boolean operations so when meshing might find part..." alt="" coords="341,449,548,475"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="238,313,279,376,309,408,343,436,366,447,364,452,340,440,305,412,275,379,234,316"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1searchableSurfaceWithGaps.html" title="searchableSurface using multiple slightly shifted underlying surfaces to make sure pierces don&#39;t go t..." alt="" coords="342,499,547,524"/>
+<area shape="poly" id="edge12_Node000001_Node000015" title=" " alt="" coords="234,315,249,353,272,400,303,446,343,485,363,496,360,501,340,489,299,450,267,402,244,355,229,317"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1triSurfaceMesh.html" title="IOoject and searching on triSurface." alt="" coords="385,548,505,573"/>
+<area shape="poly" id="edge13_Node000001_Node000016" title=" " alt="" coords="231,316,243,363,264,423,297,484,318,511,343,535,363,546,385,553,383,558,361,551,340,539,314,514,293,486,259,425,238,365,226,317"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1regIOobject.html" title="regIOobject is an abstract class derived from IOobject to handle automatic object registration with t..." alt="" coords="5,277,103,303"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,287,150,287,150,293,116,293"/>
+</map>

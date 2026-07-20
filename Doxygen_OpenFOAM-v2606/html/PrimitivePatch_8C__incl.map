@@ -1,0 +1,29 @@
+<map id="src/OpenFOAM/meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.C" name="src/OpenFOAM/meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.C">
+<area shape="rect" id="Node000001" title=" " alt="" coords="979,5,1197,60"/>
+<area shape="rect" id="Node000002" href="$Map_8H.html" title=" " alt="" coords="1377,196,1441,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="978,36,727,38,423,47,279,56,156,70,65,87,34,98,16,110,10,119,8,128,10,137,16,146,36,154,77,162,212,175,400,186,618,193,1060,202,1363,204,1363,210,1060,207,618,198,400,191,212,181,76,167,34,159,13,150,5,139,3,128,5,117,13,106,32,93,63,82,155,64,279,51,423,42,727,32,978,31"/>
+<area shape="rect" id="Node000085" href="$PrimitivePatchAddressing_8C.html" title="This function calculates the list of patch edges, defined on the list of points supporting the patch...." alt="" coords="27,115,229,141"/>
+<area shape="poly" id="edge2_Node000001_Node000085" title=" " alt="" coords="979,43,648,69,444,88,240,111,205,116,204,110,239,105,444,82,647,63,978,38"/>
+<area shape="rect" id="Node000218" href="$PrimitivePatchEdgeLoops_8C.html" title="Create the list of loops of outside vertices. Goes wrong on multiply connected edges (loops will be u..." alt="" coords="253,115,451,141"/>
+<area shape="poly" id="edge3_Node000001_Node000218" title=" " alt="" coords="979,48,742,75,464,111,431,116,430,110,463,105,741,69,978,43"/>
+<area shape="rect" id="Node000219" href="$PrimitivePatchClear_8C.html" title=" " alt="" coords="476,115,639,141"/>
+<area shape="poly" id="edge4_Node000001_Node000219" title=" " alt="" coords="979,54,651,111,627,115,626,110,650,105,978,49"/>
+<area shape="rect" id="Node000220" href="$PrimitivePatchBdryFaces_8C.html" title=" " alt="" coords="663,115,857,141"/>
+<area shape="poly" id="edge5_Node000001_Node000220" title=" " alt="" coords="996,63,814,114,812,109,995,57"/>
+<area shape="rect" id="Node000221" href="$PrimitivePatchBdryPoints_8C.html" title=" " alt="" coords="882,115,1081,141"/>
+<area shape="poly" id="edge6_Node000001_Node000221" title=" " alt="" coords="1059,62,1007,108,1003,104,1056,58"/>
+<area shape="rect" id="Node000222" href="$PrimitivePatchLocalPointOrder_8C.html" title="Orders the local points on the patch for most efficient search." alt="" coords="1105,108,1287,148"/>
+<area shape="poly" id="edge7_Node000001_Node000222" title=" " alt="" coords="1120,58,1165,97,1162,101,1117,62"/>
+<area shape="rect" id="Node000225" href="$PrimitivePatchMeshData_8C.html" title=" " alt="" coords="1312,115,1507,141"/>
+<area shape="poly" id="edge8_Node000001_Node000225" title=" " alt="" coords="1179,57,1358,109,1356,114,1177,63"/>
+<area shape="rect" id="Node000226" href="$PrimitivePatchMeshEdges_8C.html" title=" " alt="" coords="1531,115,1733,141"/>
+<area shape="poly" id="edge10_Node000001_Node000226" title=" " alt="" coords="1198,50,1552,110,1551,116,1197,55"/>
+<area shape="rect" id="Node000227" href="$PrimitivePatchPointAddressing_8C.html" title="Point addressing on the patch: pointEdges and pointFaces." alt="" coords="1757,115,1992,141"/>
+<area shape="poly" id="edge11_Node000001_Node000227" title=" " alt="" coords="1198,43,1746,105,1786,111,1785,116,1745,111,1197,48"/>
+<area shape="rect" id="Node000228" href="$PrimitivePatchProjectPoints_8C.html" title="For every point on the patch find the closest face on the target side. Return a target face label for..." alt="" coords="2017,115,2231,141"/>
+<area shape="poly" id="edge12_Node000001_Node000228" title=" " alt="" coords="1198,38,1556,62,1780,82,2004,105,2044,111,2043,116,2004,111,1779,87,1556,68,1197,43"/>
+<area shape="rect" id="Node000230" href="$PrimitivePatchCheck_8C.html" title="Checks topology of the patch." alt="" coords="2255,115,2425,141"/>
+<area shape="poly" id="edge13_Node000001_Node000230" title=" " alt="" coords="1198,34,1394,40,1655,53,1948,74,2244,105,2275,110,2274,115,2243,111,1948,79,1654,58,1394,46,1197,39"/>
+<area shape="poly" id="edge9_Node000225_Node000002" title=" " alt="" coords="1412,141,1412,182,1407,182,1407,141"/>
+<area shape="poly" id="edge14_Node000230_Node000002" title=" " alt="" coords="2288,143,2244,151,2012,176,1785,193,1455,209,1455,203,1784,188,2012,171,2243,145,2287,138"/>
+</map>

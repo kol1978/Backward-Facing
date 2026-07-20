@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C.html#a3c0aaf19f4f8a682a3c526dc58fedc7e", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C.html#ab4eb53550d6f4d01d7686f7de198387b", null ]
+];

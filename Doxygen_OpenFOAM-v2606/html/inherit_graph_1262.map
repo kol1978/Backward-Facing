@@ -1,0 +1,41 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1lduMatrix_1_1preconditioner.html" title="Abstract base&#45;class for lduMatrix preconditioners." alt="" coords="185,153,372,179"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1DICPreconditioner.html" title="Simplified diagonal&#45;based incomplete Cholesky preconditioner for symmetric matrices (symmetric equiva..." alt="" coords="459,5,598,31"/>
+<area shape="poly" id="edge4986_Node000000_Node000001" title=" " alt="" coords="297,141,348,89,382,62,419,40,458,25,460,30,421,44,385,67,352,93,301,145"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1DILUPreconditioner.html" title="Simplified diagonal&#45;based incomplete LU preconditioner for asymmetric matrices. The reciprocal of the..." alt="" coords="455,55,602,80"/>
+<area shape="poly" id="edge4987_Node000000_Node000002" title=" " alt="" coords="310,144,360,115,419,89,456,78,458,83,421,94,363,120,313,148"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1FDICPreconditioner.html" title="Faster version of the DICPreconditioner diagonal&#45;based incomplete Cholesky preconditioner for symmetr..." alt="" coords="455,104,602,129"/>
+<area shape="poly" id="edge4988_Node000000_Node000003" title=" " alt="" coords="356,148,463,127,464,132,358,153"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1GAMGPreconditioner.html" title="Geometric agglomerated algebraic multigrid preconditioner." alt="" coords="450,301,607,327"/>
+<area shape="poly" id="edge4989_Node000000_Node000004" title=" " alt="" coords="310,185,374,237,397,264,406,276,421,286,451,299,449,304,419,291,403,279,392,268,370,241,307,189"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1diagonalPreconditioner.html" title="Diagonal preconditioner for both symmetric and asymmetric matrices." alt="" coords="443,153,615,179"/>
+<area shape="poly" id="edge4990_Node000000_Node000016" title=" " alt="" coords="386,163,443,163,443,169,386,169"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1distributedDILUPreconditioner.html" title="Version of DILUpreconditioner that uses preconditioning across processor (and coupled) boundaries...." alt="" coords="420,203,637,228"/>
+<area shape="poly" id="edge4991_Node000000_Node000017" title=" " alt="" coords="358,179,464,200,463,205,356,184"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1noPreconditioner.html" title="Null preconditioner for both symmetric and asymmetric matrices." alt="" coords="463,252,595,277"/>
+<area shape="poly" id="edge4993_Node000000_Node000019" title=" " alt="" coords="314,184,363,211,421,237,463,250,462,255,419,242,361,216,311,188"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1distributedDICPreconditioner.html" title="Version of DICpreconditioner that uses preconditioning across processor (and coupled) boundaries...." alt="" coords="685,203,895,228"/>
+<area shape="poly" id="edge4992_Node000017_Node000018" title=" " alt="" coords="651,213,685,213,685,218,651,218"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1lduMatrix_1_1solver.html" title="Abstract base&#45;class for lduMatrix solvers." alt="" coords="5,449,137,475"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1FPCG.html" title="A &#39;faster&#39; preconditioned conjugate gradient solver for symmetric lduMatrices using a run&#45;time select..." alt="" coords="250,252,307,277"/>
+<area shape="poly" id="edge4994_Node000006_Node000007" title=" " alt="" coords="80,435,95,401,118,361,147,321,184,286,216,271,249,264,250,269,218,276,187,291,151,324,122,364,100,404,85,437"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1GAMGSolver.html" title="Geometric agglomerated algebraic multigrid solver." alt="" coords="227,301,331,327"/>
+<area shape="poly" id="edge4995_Node000006_Node000005" title=" " alt="" coords="86,436,126,385,153,358,184,336,226,319,228,324,187,340,157,362,130,389,90,440"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1PBiCG.html" title="Preconditioned bi&#45;conjugate gradient solver for asymmetric lduMatrices using a run&#45;time selectable pr..." alt="" coords="247,351,310,376"/>
+<area shape="poly" id="edge4997_Node000006_Node000008" title=" " alt="" coords="98,439,138,412,184,386,246,367,248,372,186,391,141,416,102,443"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1PBiCGStab.html" title="Preconditioned bi&#45;conjugate gradient stabilized solver for asymmetric lduMatrices using a run&#45;time se..." alt="" coords="233,400,324,425"/>
+<area shape="poly" id="edge4998_Node000006_Node000009" title=" " alt="" coords="138,443,232,421,234,426,139,449"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1PCG.html" title="Preconditioned conjugate gradient solver for symmetric lduMatrices using a run&#45;time selectable precon..." alt="" coords="254,449,303,475"/>
+<area shape="poly" id="edge4999_Node000006_Node000010" title=" " alt="" coords="151,459,254,459,254,465,151,465"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1PPCG.html" title="Preconditioned pipelined conjugate gradient solver for symmetric lduMatrices using a run&#45;time selecta..." alt="" coords="250,499,307,524"/>
+<area shape="poly" id="edge5000_Node000006_Node000011" title=" " alt="" coords="139,475,251,502,249,507,138,480"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1diagonalSolver.html" title="Foam::diagonalSolver." alt="" coords="219,548,338,573"/>
+<area shape="poly" id="edge5002_Node000006_Node000013" title=" " alt="" coords="101,481,140,509,186,534,220,546,218,551,184,539,137,513,98,486"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1parProfilingSolver.html" title="Wrapper to switch on parProfiling around a linear solver." alt="" coords="210,597,347,623"/>
+<area shape="poly" id="edge5003_Node000006_Node000014" title=" " alt="" coords="90,484,130,535,157,562,187,584,211,595,209,600,184,588,153,566,126,539,86,488"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1smoothSolver.html" title="Iterative solver for symmetric and asymmetric matrices which uses a run&#45;time selected smoother e...." alt="" coords="223,647,335,672"/>
+<area shape="poly" id="edge5004_Node000006_Node000015" title=" " alt="" coords="85,487,100,520,122,560,151,600,187,633,204,643,223,649,221,655,202,648,184,637,147,603,118,563,95,523,80,489"/>
+<area shape="poly" id="edge4996_Node000005_Node000004" title=" " alt="" coords="345,311,450,311,450,317,345,317"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1PPCR.html" title="Preconditioned pipelined conjugate residuals solver for symmetric lduMatrices using a run&#45;time select..." alt="" coords="501,499,557,524"/>
+<area shape="poly" id="edge5001_Node000011_Node000012" title=" " alt="" coords="321,509,501,509,501,514,321,514"/>
+</map>

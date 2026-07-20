@@ -1,0 +1,4 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_2Jo5540ad876c9860a1f4f80c9fd52e1ea2 =
+[
+    [ "JohnsonJacksonSchaeffer", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer.html", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer" ]
+];

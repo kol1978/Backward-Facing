@@ -1,0 +1,4 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Syamlal_2SyamlalConductivity_8H =
+[
+    [ "Syamlal", "classFoam_1_1kineticTheoryModels_1_1conductivityModels_1_1Syamlal.html", "classFoam_1_1kineticTheoryModels_1_1conductivityModels_1_1Syamlal" ]
+];

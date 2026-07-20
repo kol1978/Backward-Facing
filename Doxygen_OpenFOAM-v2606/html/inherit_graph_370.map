@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1base64Layer.html" title="An output filter layer to write base&#45;64 encoded content." alt="" coords="5,29,111,55"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1vtk_1_1foamVtkBase64Layer.html" title="Base&#45;64 encoded output layer &#45; normally only used indirectly by formatters." alt="" coords="159,29,321,55"/>
+<area shape="poly" id="edge4105_Node000000_Node000001" title=" " alt="" coords="124,39,158,39,158,45,124,45"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1vtk_1_1appendBase64Formatter.html" title="Appended base&#45;64 encoded binary output. Uses an output filter layer to write base&#45;64 encoded content." alt="" coords="369,5,552,31"/>
+<area shape="poly" id="edge4106_Node000001_Node000002" title=" " alt="" coords="335,29,369,25,369,31,336,34"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1vtk_1_1base64Formatter.html" title="Inline base&#45;64 encoded binary output. Uses an output filter layer to write base&#45;64 encoded content." alt="" coords="394,55,527,80"/>
+<area shape="poly" id="edge4107_Node000001_Node000003" title=" " alt="" coords="336,50,394,57,393,62,335,56"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1vtk_1_1formatter.html" title="Abstract class for a VTK output stream formatter." alt="" coords="16,103,100,128"/>
+<area shape="poly" id="edge4111_Node000004_Node000001" title=" " alt="" coords="93,94,158,64,190,52,192,57,160,68,95,99"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1vtk_1_1appendRawFormatter.html" title="Appended raw binary output." alt="" coords="159,79,321,104"/>
+<area shape="poly" id="edge4108_Node000004_Node000005" title=" " alt="" coords="113,105,158,99,159,105,114,111"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1vtk_1_1asciiFormatter.html" title="Inline ASCII output. Adds spaces between entries and a newline every 9 items (for consistency with wh..." alt="" coords="182,128,298,153"/>
+<area shape="poly" id="edge4109_Node000004_Node000006" title=" " alt="" coords="114,120,182,130,181,135,113,126"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1vtk_1_1legacyRawFormatter.html" title="Binary output for the VTK legacy format, always written as big&#45;endian and with 32&#45;bit integers." alt="" coords="161,177,319,203"/>
+<area shape="poly" id="edge4112_Node000004_Node000008" title=" " alt="" coords="96,132,160,162,195,175,193,180,158,167,94,137"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1vtk_1_1legacyAsciiFormatter.html" title="Formatting as per Foam::vtk::asciiFormatter, but with naming for legacy output." alt="" coords="381,128,541,153"/>
+<area shape="poly" id="edge4110_Node000006_Node000007" title=" " alt="" coords="311,138,380,138,380,143,311,143"/>
+</map>

@@ -1,0 +1,5 @@
+var src_2phaseSystemModels_2reactingEuler_2multiphaseSystem_2derivedFvPatchFields_2alphaContactAngle45878afe9ff8aeb0f2166d5a422f4fea =
+[
+    [ "alphaContactAngleFvPatchScalarField", "classFoam_1_1reactingMultiphaseEuler_1_1alphaContactAngleFvPatchScalarField.html", "classFoam_1_1reactingMultiphaseEuler_1_1alphaContactAngleFvPatchScalarField" ],
+    [ "interfaceThetaProps", "classFoam_1_1reactingMultiphaseEuler_1_1alphaContactAngleFvPatchScalarField_1_1interfaceThetaProps.html", "classFoam_1_1reactingMultiphaseEuler_1_1alphaContactAngleFvPatchScalarField_1_1interfaceThetaProps" ]
+];

@@ -1,0 +1,4 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Hre61f7372af88b2a52a20b8d1be05b3320 =
+[
+    [ "HrenyaSinclair", "classFoam_1_1kineticTheoryModels_1_1conductivityModels_1_1HrenyaSinclair.html", "classFoam_1_1kineticTheoryModels_1_1conductivityModels_1_1HrenyaSinclair" ]
+];

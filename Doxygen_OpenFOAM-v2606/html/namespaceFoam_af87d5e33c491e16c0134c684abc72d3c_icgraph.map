@@ -1,0 +1,71 @@
+<map id="limiter" name="limiter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="328,1034,393,1059"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fv_1_1faceLimitedGrad.html#a888b9f973d263ba5820597263f00824c" title=" " alt="" coords="45,5,240,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,1020,352,817,340,511,330,356,317,219,299,115,289,80,278,59,260,44,239,34,241,30,263,40,282,56,294,78,304,114,322,218,336,355,346,511,358,817,362,1020"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1fv_1_1cellLimitedGrad.html#adf1a55487c09f6e0b1d18bd08f747931" title="Calculate the grad of the given field into supplied field." alt="" coords="48,69,237,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="356,1020,351,829,338,543,328,399,315,271,298,175,288,142,278,123,259,108,236,98,239,93,262,103,282,120,293,140,303,173,320,271,333,398,344,543,357,829,362,1020"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1ATCModel.html#af7f4105c3aade63c355f7a8bc1484740" title="Compute limiter based on the prescribed cells and number of smoothing iterations." alt="" coords="22,134,263,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,1020,351,837,338,568,327,432,314,312,297,222,288,192,278,174,262,161,265,157,282,170,293,190,303,220,319,311,332,431,343,567,356,837,361,1020"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fa_1_1limitedLnGrad.html#a0226f0ea607e8a71157a9be54665374e" title="Return the explicit correction to the limitedLnGrad for the given field." alt="" coords="53,184,232,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="356,1020,349,850,335,601,324,476,311,366,296,282,287,254,278,238,257,221,231,211,233,206,260,216,282,234,292,252,301,281,317,365,330,475,340,601,355,850,361,1020"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fv_1_1limitedSnGrad.html#ab85727e995470e7484f0dec7544b1e4d" title="Return the explicit correction to the limitedSnGrad for the given field." alt="" coords="53,248,232,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="356,1020,348,862,333,633,309,418,295,342,286,317,278,302,257,285,231,275,233,270,259,280,282,298,291,315,300,341,315,417,338,633,353,861,361,1020"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1limiterBlended.html#a9c79cff1f5952f2e865730d39bf9b2fe" title="Return the explicit correction to the face&#45;interpolate." alt="" coords="61,336,224,376"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="355,1020,346,879,330,678,307,491,293,425,278,390,253,371,223,361,225,356,256,367,282,386,298,423,312,490,335,678,352,879,361,1020"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1ATCModel.html#a0950f13cfd9b877f4f25612f3b95685d" title="Return a limiter based on given cells. For use with classes other than ATC which employ the same smoo..." alt="" coords="30,401,255,426"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="357,1020,357,896,348,722,338,632,324,551,304,485,292,459,278,441,254,424,257,419,282,437,297,457,309,483,329,550,344,632,353,721,362,896,362,1020"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1wallDampingModels_1_1interpolated.html#a2a1a5630829e4a0aa6c3400c18fbdb83" title="Return damped face force." alt="" coords="43,451,242,491"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="357,1020,354,909,343,754,333,675,319,603,301,544,290,521,278,504,261,491,241,481,243,476,264,486,282,501,295,519,306,542,325,602,339,674,348,753,359,909,362,1020"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1wallDampingModels_1_1interpolated.html#af21ca90ee3692e6518c2468e5b748545" title="Return damped coefficient." alt="" coords="43,515,242,555"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="356,1020,351,920,339,785,329,716,316,654,299,603,278,568,261,555,241,545,243,541,264,550,282,565,304,600,321,652,334,715,344,784,357,920,361,1020"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1wallDampingModels_1_1interpolated.html#aa005eb6c31c93b9a5ca09aaf8b9f8695" title="Return damped force." alt="" coords="43,579,242,619"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="355,1021,349,933,335,816,312,705,296,661,278,632,261,619,241,610,243,605,264,615,282,629,301,659,317,703,340,816,354,933,361,1020"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a96c8ed019fabd5455715ef2cff1d858d" title=" " alt="" coords="39,643,246,683"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="354,1021,346,945,330,848,308,756,294,720,278,696,263,684,245,676,247,671,266,680,282,693,299,718,313,754,336,847,351,945,360,1020"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a25f0ab7a7059a82964c3c95a60c8fde3" title=" " alt="" coords="39,707,246,747"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="358,1020,356,965,346,895,336,858,321,823,303,790,278,761,263,749,245,740,247,735,266,744,282,757,307,786,326,820,341,857,351,894,361,965,363,1020"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a7aee127a7d39aec739cba23bb5a3a754" title=" " alt="" coords="39,771,246,811"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="355,1021,350,978,337,924,314,870,298,846,278,825,245,805,248,800,282,821,302,843,319,868,342,923,355,977,361,1020"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a82fa2b28de390c874f88fb6d0809f933" title=" " alt="" coords="39,835,246,875"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="351,1022,342,991,327,954,306,919,278,889,245,871,248,866,282,885,311,916,332,952,347,989,356,1020"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a99f00bf3e97999dbef023a5fd7886fcf" title=" " alt="" coords="39,899,246,939"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="343,1024,316,986,299,968,279,953,245,937,247,933,281,948,302,964,320,983,348,1021"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a258e7f5a77a49a8756fccbb0e9823117" title=" " alt="" coords="39,963,246,1003"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="317,1031,279,1017,237,1005,239,1000,281,1012,319,1026"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#af01c2bc6fa9c5a59987c362be05d67e6" title=" " alt="" coords="39,1027,246,1067"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="314,1049,246,1049,246,1044,314,1044"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#a79c4380903f4f57e10f54b2abd3e31b0" title=" " alt="" coords="39,1091,246,1131"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="319,1067,281,1081,239,1093,237,1088,279,1076,317,1062"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fa_1_1boundedBackwardFaDdtScheme.html#ab1d8a528c5983579e1957eb32f11a7a5" title=" " alt="" coords="39,1155,246,1195"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="348,1073,320,1110,302,1129,281,1145,247,1161,245,1156,279,1140,299,1125,316,1107,343,1070"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1limiterBlended.html#ab035bb9b9690d329b1d5f4c8e0bdf569" title="Return the face&#45;interpolate of the given cell field." alt="" coords="61,1219,224,1259"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="356,1073,347,1104,332,1141,311,1178,282,1209,255,1225,225,1234,223,1229,252,1220,278,1205,306,1175,327,1139,342,1103,351,1072"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam_1_1MULES.html#a71d1731d21977db75d5f9bf2e880775f" title=" " alt="" coords="68,1283,217,1309"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="361,1074,355,1117,343,1171,319,1226,302,1251,282,1273,252,1290,218,1299,217,1293,250,1285,278,1269,298,1248,315,1224,338,1170,350,1116,355,1073"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1fv_1_1cellLimitedGrad.html#a706733b7c861fa3a9f91e36a446ff90f" title=" " alt="" coords="48,1333,237,1373"/>
+<area shape="poly" id="edge23_Node000001_Node000026" title=" " alt="" coords="362,1073,360,1126,349,1192,338,1228,324,1262,306,1294,282,1322,261,1337,238,1347,236,1342,259,1332,278,1318,301,1291,320,1260,333,1226,343,1191,354,1125,357,1073"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1fv_1_1cellLimitedGrad.html#a7b2288551f38270acb4d985dace89df9" title=" " alt="" coords="48,1397,237,1437"/>
+<area shape="poly" id="edge24_Node000001_Node000027" title=" " alt="" coords="359,1073,350,1146,335,1240,312,1329,298,1363,282,1387,262,1402,238,1412,236,1407,259,1398,278,1383,293,1361,307,1327,330,1239,345,1145,354,1073"/>
+<area shape="rect" id="Node000028" href="$edgeLimitedFaGrads_8C.html#a9711f3d0559ab4794360d02f415206f0" title=" " alt="" coords="65,1462,220,1487"/>
+<area shape="poly" id="edge25_Node000001_Node000028" title=" " alt="" coords="361,1073,354,1159,340,1272,317,1380,301,1422,282,1451,253,1470,221,1479,220,1473,251,1465,278,1447,296,1420,312,1379,335,1271,349,1158,355,1073"/>
+<area shape="rect" id="Node000029" href="$faceLimitedFaGrads_8C.html#ac9b3d8c0e6537191884ad1502eb5a6fa" title=" " alt="" coords="65,1511,220,1537"/>
+<area shape="poly" id="edge26_Node000001_Node000029" title=" " alt="" coords="361,1073,356,1168,343,1296,333,1361,320,1419,303,1468,282,1501,253,1519,221,1528,219,1523,251,1514,278,1497,298,1465,315,1418,328,1360,338,1295,351,1167,356,1073"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1multivariateScheme.html#a1df2075ff6df9ddb6b2bf9570e8905eb" title="Construct for field, faceFlux and Istream." alt="" coords="43,1561,242,1601"/>
+<area shape="poly" id="edge27_Node000001_Node000030" title=" " alt="" coords="362,1073,357,1177,346,1320,335,1392,322,1458,304,1512,282,1550,264,1565,243,1575,241,1570,261,1560,278,1546,299,1510,317,1457,330,1391,340,1319,352,1177,356,1073"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1multivariateSelectionScheme.html#a3f90d5fb2cb054bd811362c07ceb2019" title="Construct for field, faceFlux and Istream." alt="" coords="5,1625,280,1665"/>
+<area shape="poly" id="edge28_Node000001_Node000031" title=" " alt="" coords="362,1073,360,1189,350,1351,340,1434,326,1510,307,1572,295,1596,282,1615,268,1627,265,1623,278,1612,291,1594,302,1570,321,1509,335,1433,345,1351,355,1189,357,1073"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1ATCModel.html#a704dd4ff37d0bdcee146a52dcc5c268c" title="Smooth an arbitrary field on a given list of cells." alt="" coords="33,1689,252,1729"/>
+<area shape="poly" id="edge29_Node000001_Node000032" title=" " alt="" coords="363,1074,362,1201,354,1382,344,1475,330,1561,309,1631,297,1658,282,1679,254,1700,250,1695,278,1675,292,1655,304,1629,325,1559,339,1475,348,1382,357,1201,357,1074"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1GammaWeight.html#aacbab68dd915e1d68a92b9ab87f4b75f" title=" " alt="" coords="57,1753,228,1793"/>
+<area shape="poly" id="edge30_Node000001_Node000033" title=" " alt="" coords="361,1073,352,1221,336,1434,313,1633,299,1704,291,1728,282,1743,258,1762,229,1772,227,1767,255,1757,278,1740,286,1726,294,1702,308,1632,331,1433,347,1221,355,1073"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1faNVDscheme.html#a363e3b1daada022f584a8f6a40693323" title="Return the interpolation weighting factors." alt="" coords="59,1817,226,1857"/>
+<area shape="poly" id="edge31_Node000001_Node000034" title=" " alt="" coords="361,1073,354,1234,339,1466,328,1583,315,1686,300,1764,291,1790,282,1807,257,1826,227,1837,225,1832,254,1822,278,1804,287,1788,295,1762,310,1685,323,1582,333,1466,348,1233,356,1073"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1limitedSurfaceInterpolationScheme.html#ab307d17b11cf6f53ef80e7c11db38671" title="Return the interpolation weighting factors for the given field." alt="" coords="21,1881,265,1921"/>
+<area shape="poly" id="edge32_Node000001_Node000035" title=" " alt="" coords="361,1073,355,1246,341,1499,330,1626,317,1738,301,1824,292,1853,282,1871,267,1885,263,1881,278,1868,287,1851,296,1822,312,1737,325,1626,335,1498,349,1245,356,1073"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1limitWith.html#ae118b0d95e252078324b00004ef362ef" title="Return the interpolation weighting factors." alt="" coords="50,1970,235,1995"/>
+<area shape="poly" id="edge33_Node000001_Node000036" title=" " alt="" coords="361,1073,355,1256,341,1529,330,1667,317,1789,301,1883,292,1915,282,1935,256,1958,225,1972,223,1968,253,1953,278,1932,287,1913,296,1881,312,1789,325,1667,335,1529,350,1256,356,1073"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1limiterBlended.html#a714f951f747788eab2252ad315bb0d4f" title="Return the interpolation weighting factors." alt="" coords="61,2020,224,2060"/>
+<area shape="poly" id="edge35_Node000001_Node000037" title=" " alt="" coords="362,1073,357,1270,345,1567,334,1718,321,1851,304,1952,294,1987,282,2008,256,2029,225,2039,223,2034,253,2024,278,2005,289,1985,299,1951,316,1850,329,1717,339,1567,352,1270,356,1073"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="179,324,166,317,143,315,122,317,109,321,105,327,107,335,102,336,100,326,106,317,121,311,143,309,168,312,182,320"/>
+<area shape="poly" id="edge34_Node000036_Node000036" title=" " alt="" coords="181,1960,171,1952,143,1949,120,1951,107,1956,105,1961,111,1968,107,1972,100,1962,104,1952,118,1946,143,1943,173,1947,185,1956"/>
+</map>

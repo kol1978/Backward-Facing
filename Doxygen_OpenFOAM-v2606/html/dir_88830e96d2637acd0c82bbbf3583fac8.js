@@ -1,0 +1,5 @@
+var dir_88830e96d2637acd0c82bbbf3583fac8 =
+[
+    [ "GidaspowConductivity.C", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C" ],
+    [ "GidaspowConductivity.H", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8H.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8H" ]
+];

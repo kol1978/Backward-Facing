@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2conduc55fb8f677c1aa94a466bc4aef6553591 =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2conduc55fb8f677c1aa94a466bc4aef6553591.html#ace12102456b96cd198dba201023c7ee1", null ],
+    [ "defineRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2conduc55fb8f677c1aa94a466bc4aef6553591.html#a6299938a13a9f0566a3f3ec97930d321", null ]
+];

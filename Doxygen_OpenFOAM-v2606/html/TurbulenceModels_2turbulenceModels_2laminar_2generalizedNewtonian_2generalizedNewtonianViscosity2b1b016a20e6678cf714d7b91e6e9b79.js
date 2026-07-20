@@ -1,0 +1,5 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity2b1b016a20e6678cf714d7b91e6e9b79 =
+[
+    [ "defineTypeNameAndDebug", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity2b1b016a20e6678cf714d7b91e6e9b79.html#a8430c863f85af70507e73352505bd9de", null ],
+    [ "addToRunTimeSelectionTable", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosity2b1b016a20e6678cf714d7b91e6e9b79.html#aa3d8526f578c7abb5856bbf204426848", null ]
+];

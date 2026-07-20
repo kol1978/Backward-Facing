@@ -1,0 +1,25 @@
+var septernion_8H =
+[
+    [ "septernion", "classFoam_1_1septernion.html", "classFoam_1_1septernion" ],
+    [ "is_contiguous< septernion >", "structFoam_1_1is__contiguous_3_01septernion_01_4.html", null ],
+    [ "is_contiguous_scalar< septernion >", "structFoam_1_1is__contiguous__scalar_3_01septernion_01_4.html", null ],
+    [ "operator>>", "septernion_8H.html#a9173f8a84227e1bf9b282ada0231ef39", null ],
+    [ "operator<<", "septernion_8H.html#af0f63017791b0eca60a35ff5c58e380d", null ],
+    [ "inv", "septernion_8H.html#a29454029112b143685743f62e092cd02", null ],
+    [ "name", "septernion_8H.html#a135ca7ba0131b24638d4bf871d8e3a25", null ],
+    [ "slerp", "septernion_8H.html#aff844207a9215bddc006930702973436", null ],
+    [ "average", "septernion_8H.html#a419e6516e7622c70317f86ea5f88fc37", null ],
+    [ "operator==", "septernion_8H.html#a3ede8d3eaac13eb5d2c2f3622970e87b", null ],
+    [ "operator!=", "septernion_8H.html#a33c02f7601e4fc23b92d50ed4eef05de", null ],
+    [ "operator+", "septernion_8H.html#a61ed9d36aa02369fb98fe88d53677683", null ],
+    [ "operator+", "septernion_8H.html#a71064502bbdef6e1fa5defa11a0409c3", null ],
+    [ "operator-", "septernion_8H.html#a9c0208ce98f9ad6f022ce14f9e192d66", null ],
+    [ "operator*", "septernion_8H.html#a8c9064842f4c256da43719fff06fa462", null ],
+    [ "operator*", "septernion_8H.html#a3651f397a7d11094e80bce546987cd51", null ],
+    [ "operator/", "septernion_8H.html#a12cddf97e996921f5a96008f88fc3b76", null ],
+    [ "operator*", "septernion_8H.html#a18deb08b65428d63d876c7feb680721c", null ],
+    [ "operator/", "septernion_8H.html#a609a6489481f74840a2eac39a5b736a3", null ],
+    [ "operator*", "septernion_8H.html#a2606314294d29f7d8b08449f44b38594", null ],
+    [ "operator*", "septernion_8H.html#a40045beb1a6cb567a5d01a69657306d8", null ],
+    [ "operator/", "septernion_8H.html#a90a4df74267804421d1f0f00d59cdf5f", null ]
+];

@@ -1,0 +1,23 @@
+<map id="objectiveIncompressible" name="objectiveIncompressible">
+<area shape="rect" id="Node000001" title="Abstract base class for objective functions in incompressible flows." alt="" coords="136,203,317,228"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1objectives_1_1objectiveFlowRate.html" title="Minimize/maximize flow rate through a given set of patches." alt="" coords="399,5,542,31"/>
+<area shape="poly" id="edge2_Node000001_Node000012" title=" " alt="" coords="238,189,258,155,286,114,322,74,364,40,398,25,400,30,367,44,325,78,290,118,263,158,243,192"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1objectives_1_1objectiveFlowRatePartition.html" title="Split inlet flow rate to given percentages at the prescribed outlet patches." alt="" coords="372,55,569,80"/>
+<area shape="poly" id="edge3_Node000001_Node000013" title=" " alt="" coords="245,190,295,139,328,112,364,89,392,78,394,83,367,94,331,116,299,143,249,194"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1objectives_1_1objectiveForce.html" title=" " alt="" coords="412,104,529,129"/>
+<area shape="poly" id="edge4_Node000001_Node000014" title=" " alt="" coords="258,193,307,165,364,138,411,124,413,130,366,143,309,170,260,198"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1objectives_1_1objectiveMoment.html" title=" " alt="" coords="403,153,539,179"/>
+<area shape="poly" id="edge5_Node000001_Node000015" title=" " alt="" coords="303,197,406,176,408,181,304,203"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1objectives_1_1objectiveNutSqr.html" title="Objective qualitatively quantifying noise through the integral of the squared turbulent viscosity ove..." alt="" coords="407,203,534,228"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="331,213,407,213,407,218,331,218"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1objectives_1_1objectivePowerDissipation.html" title="Computes and minimizes the power dissipation within given cellZones. In the absence of significant vi..." alt="" coords="373,252,568,277"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="304,228,408,249,406,255,303,233"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1objectives_1_1objectivePtLosses.html" title=" " alt="" coords="401,301,540,327"/>
+<area shape="poly" id="edge8_Node000001_Node000018" title=" " alt="" coords="260,233,309,261,366,288,403,299,401,304,364,292,307,266,258,238"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1objectives_1_1objectiveUniformityCellZone.html" title="Computes and minimizes (half) the variance of the velocity distribution in a given set of cellZones." alt="" coords="365,351,576,376"/>
+<area shape="poly" id="edge9_Node000001_Node000019" title=" " alt="" coords="249,237,299,288,331,315,367,337,394,348,392,353,364,342,328,319,295,292,245,241"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1objectives_1_1objectiveUniformityPatch.html" title="Computes and minimizes (half) the variance of the velocity distribution in a given set of patches." alt="" coords="377,400,564,425"/>
+<area shape="poly" id="edge10_Node000001_Node000020" title=" " alt="" coords="243,239,263,273,290,313,325,353,367,386,390,398,388,402,364,391,322,357,286,316,258,276,238,242"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1objective.html" title="Abstract base class for objective functions. No point in making this runTime selectable since its chi..." alt="" coords="5,203,88,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,213,136,213,136,218,102,218"/>
+</map>

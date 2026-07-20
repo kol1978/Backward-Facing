@@ -1,0 +1,5 @@
+var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2powerLaw_2powerLaw_8C =
+[
+    [ "defineTypeNameAndDebug", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2powerLaw_2powerLaw_8C.html#a0a562b87ff1dda47e8069b7184f698e1", null ],
+    [ "addToRunTimeSelectionTable", "TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2powerLaw_2powerLaw_8C.html#a0fb8d63fbe7096693b70fa95ed6aab7f", null ]
+];

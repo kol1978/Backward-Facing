@@ -1,0 +1,5 @@
+var phaseSystemModels_2reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2vis2690735ca479d96a97f26a00334db88d =
+[
+    [ "defineTypeNameAndDebug", "phaseSystemModels_2reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2vis2690735ca479d96a97f26a00334db88d.html#a92e4ace11cc9a8441d400020e59ece33", null ],
+    [ "defineRunTimeSelectionTable", "phaseSystemModels_2reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2vis2690735ca479d96a97f26a00334db88d.html#afcb7079b842d59b7e8c94e2a46a71f5d", null ]
+];

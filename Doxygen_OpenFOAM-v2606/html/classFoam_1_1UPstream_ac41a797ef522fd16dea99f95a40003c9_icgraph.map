@@ -1,0 +1,14 @@
+<map id="commGlobal" name="commGlobal">
+<area shape="rect" id="Node000001" title="Communicator for all ranks, irrespective of any local worlds." alt="" coords="487,96,592,122"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1multiWorldConnections.html#aa61ddee6e75d988d2f917409b3805faa" title="Create all communicators. Low&#45;level, not normally called directly." alt="" coords="5,57,223,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="518,87,484,51,462,35,438,22,401,12,362,8,323,10,284,16,213,36,156,59,154,54,211,31,283,11,322,5,362,3,401,7,440,17,465,30,487,47,522,83"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fileOperation.html#a1ca3918284e3f618f80d0b7289a70a3b" title="Construction helper: check for locally allocated communicator." alt="" coords="277,32,432,72"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="484,95,419,74,420,69,485,90"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#afb911036180f8d25c3ca8564fb941b57" title="My world." alt="" coords="315,96,395,122"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="473,112,395,112,395,106,473,106"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPstream.html#a9553e7894757b38358b3d3c8d984f89f" title="My worldID." alt="" coords="307,146,402,171"/>
+<area shape="poly" id="edge4_Node000001_Node000017" title=" " alt="" coords="479,128,403,148,401,143,477,123"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1functionObjects_1_1syncObjects.html#ad55f80ed3cd8b6c4f247763b747016af" title="Do all: synchronise all IOFields and objectRegistry." alt="" coords="271,196,439,236"/>
+<area shape="poly" id="edge6_Node000001_Node000019" title=" " alt="" coords="515,132,480,159,440,185,413,198,410,193,437,180,477,154,511,128"/>
+<area shape="poly" id="edge5_Node000017_Node000002" title=" " alt="" coords="297,144,270,136,168,100,170,95,272,130,298,139"/>
+</map>

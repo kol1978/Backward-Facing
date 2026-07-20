@@ -1,0 +1,5 @@
+var reactingEuler_2twoPhaseSystem_2diameterModels_2IATE_2IATEsources_2wakeEntrainmentCoalescence_2wakeEntrainmentCoalescence_8C =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2twoPhaseSystem_2diameterModels_2IATE_2IATEsources_2wakeEntrainmentCoalescence_2wakeEntrainmentCoalescence_8C.html#a6cf71a19a200cdc5edf42cda5c4e5154", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2twoPhaseSystem_2diameterModels_2IATE_2IATEsources_2wakeEntrainmentCoalescence_2wakeEntrainmentCoalescence_8C.html#a954be91987755e9d3aa7fbf3eaf65297", null ]
+];

@@ -1,0 +1,5 @@
+var multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2SchillerNaumann_2SchillerNaumann_8C =
+[
+    [ "defineTypeNameAndDebug", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2SchillerNaumann_2SchillerNaumann_8C.html#ad904941e898b20dc66937c88f16c126b", null ],
+    [ "addToRunTimeSelectionTable", "multiphaseEuler_2multiphaseSystem_2interfacialModels_2dragModels_2SchillerNaumann_2SchillerNaumann_8C.html#a888f91450ab4a81c89783c6da3a4190b", null ]
+];

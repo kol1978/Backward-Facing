@@ -1,0 +1,5 @@
+var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2CarnahanStarling_2CarnahanStarlingRadial_8C =
+[
+    [ "defineTypeNameAndDebug", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2CarnahanStarling_2CarnahanStarlingRadial_8C.html#a0aec8e536bc0a789724f7176b9a30d0c", null ],
+    [ "addToRunTimeSelectionTable", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2CarnahanStarling_2CarnahanStarlingRadial_8C.html#a2cac92a932f3ef3d555c11b6f51be742", null ]
+];

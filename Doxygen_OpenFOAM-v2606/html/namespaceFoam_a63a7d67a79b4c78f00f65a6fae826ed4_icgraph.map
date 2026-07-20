@@ -1,0 +1,34 @@
+<map id="findLower" name="findLower">
+<area shape="rect" id="Node000001" title="Binary search to find the index of the last element in a sorted list that is less than value." alt="" coords="495,447,580,473"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PDRblock_1_1location.html#a646cbe9de9df355c4e886719dac8ec5d" title="Find the cell index enclosing this location." alt="" coords="250,5,438,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,434,521,349,504,237,478,129,462,87,445,59,431,47,434,43,449,56,467,85,483,128,509,236,527,349,536,433"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1globalIndex.html#a64e67805a41cf6630060f60aa1eb41ba" title="Find processor with specified global id. Check proci first, followed by binary search." alt="" coords="269,69,419,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="534,434,533,371,522,288,510,244,494,200,473,159,445,123,418,105,421,101,448,119,477,156,499,198,515,242,527,287,538,371,540,434"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1globalIndex.html#aee7728d08fd1cb34a629fcbd3884d2b4" title="Find processor above proci with specified global id &#45; binary search." alt="" coords="269,133,419,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="532,434,527,382,513,316,487,247,468,215,445,187,418,170,421,165,448,183,473,212,492,244,518,314,532,381,538,433"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1globalIndex.html#a4bac4036f695640509a55d0fa40f5a64" title="Find processor below proci with specified global id &#45; binary search." alt="" coords="269,197,419,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="530,434,521,394,505,345,480,294,464,272,445,251,418,235,421,230,448,247,468,268,484,292,510,343,526,393,535,433"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1CompactListList.html#a645324d9051b8ed2065e8ff4f32c3fe7" title="Find row where global index comes from. Binary search." alt="" coords="259,261,429,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="525,436,495,375,473,343,445,315,426,304,429,299,448,311,477,339,500,372,529,433"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#a4f30d5fd2037806fb3c68e89a72cfe89" title=" " alt="" coords="287,326,401,351"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="518,438,487,400,467,382,445,366,401,349,403,344,448,362,471,378,491,397,522,434"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1linearInterpolationWeights.html#a42dece8958c346b18f6386f075da8768" title="Calculate weights and indices to calculate integrand of t1..t2 from samples." alt="" coords="241,376,447,416"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="487,445,446,431,409,419,411,414,448,425,489,440"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a57bdf7b01710ed2e644bd945b4c229df" title="The range (start/size) of the commLocalNode ranks in terms of the (const) world communicator processo..." alt="" coords="243,440,445,480"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="481,463,446,463,446,457,481,457"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#a53ab1b57bfdd21f68fc3d35c79dcf964" title="Supply pts0Dir and pts1Dir. They are directions associated with the points." alt="" coords="293,505,395,530"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="491,480,447,495,396,508,395,503,446,489,489,475"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#abc7cba30306098a4eaf18f508d39ea10" title="Determine correspondence between pointFields. Gets passed." alt="" coords="293,554,395,579"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="518,486,487,516,448,544,422,555,396,562,395,557,421,549,445,539,484,512,514,482"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1colourTable.html#a059623637f07a73adaabc688e6465d8d" title="Return the colour at x. The input is clipped to 0&#45;1 range." alt="" coords="270,604,418,644"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="527,487,497,540,475,568,448,593,419,609,417,604,445,589,471,565,492,537,523,484"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1linearInterpolationWeights.html#af5a583ed770fba7cf1e0c968f80ac48e" title="Calculate weights and indices to calculate t from samples." alt="" coords="251,668,437,708"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="534,487,524,525,507,571,483,618,448,658,431,670,428,666,445,654,478,615,502,569,519,524,528,486"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1splineInterpolationWeights.html#af5a583ed770fba7cf1e0c968f80ac48e" title="Calculate weights and indices to calculate t from samples." alt="" coords="5,697,193,737"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="539,487,535,539,522,604,511,637,495,669,474,698,448,722,414,741,378,754,339,760,300,762,225,755,160,740,161,735,225,749,300,756,339,755,376,748,412,736,445,718,470,695,490,667,506,635,517,602,530,538,533,486"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1polyBoundaryMesh.html#aff2cd79df12b4d15d608024e83a626fd" title="Lookup mesh face index and return (patchi, patchFacei) tuple or (&#45;1, meshFacei) for internal faces." alt="" coords="249,783,439,823"/>
+<area shape="poly" id="edge15_Node000001_Node000024" title=" " alt="" coords="538,487,534,543,521,617,510,657,494,696,474,733,449,766,423,785,420,781,445,762,470,730,489,694,504,655,516,616,529,543,533,486"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1mapDistribute.html#a0772f98ea84f7c9e56a8fb32f405a8cb" title="Find transform from transformElements." alt="" coords="265,847,423,887"/>
+<area shape="poly" id="edge16_Node000001_Node000026" title=" " alt="" coords="536,487,525,566,507,671,482,770,466,809,449,837,425,854,422,849,445,833,461,807,477,768,502,669,520,566,530,486"/>
+<area shape="poly" id="edge13_Node000018_Node000023" title=" " alt="" coords="238,703,194,709,193,703,237,698"/>
+</map>

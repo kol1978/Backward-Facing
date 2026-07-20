@@ -1,0 +1,5 @@
+var dir_92f7204606960184ea87c9bb59bf7732 =
+[
+    [ "VakhrushevEfremov.C", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8C" ],
+    [ "VakhrushevEfremov.H", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8H.html", "reactingEuler_2multiphaseSystem_2interfacialModels_2aspectRatioModels_2VakhrushevEfremov_2VakhrushevEfremov_8H" ]
+];

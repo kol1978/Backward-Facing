@@ -1,0 +1,5 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2LopezDeBertodano_2LopezDeBertodano_8C =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2LopezDeBertodano_2LopezDeBertodano_8C.html#a7ed8cedeab04ad491cd89d9e53166897", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialModels_2turbulentDispersionModels_2LopezDeBertodano_2LopezDeBertodano_8C.html#a4b3d70fb6c7e657f04a17618f51642e5", null ]
+];

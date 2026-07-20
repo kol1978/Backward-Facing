@@ -1,0 +1,25 @@
+var classFoam_1_1RecycleInteraction =
+[
+    [ "parcelType", "classFoam_1_1RecycleInteraction.html#af0f76934788484dc51d59cce66edc382", null ],
+    [ "RecycleInteraction", "classFoam_1_1RecycleInteraction.html#a5572a86155473696b3bc8d3b3481dd78", null ],
+    [ "RecycleInteraction", "classFoam_1_1RecycleInteraction.html#a4f2bac70038184890f7557b6ed8feb9d", null ],
+    [ "~RecycleInteraction", "classFoam_1_1RecycleInteraction.html#ab6d391cd5eac998e34a0094cdfed984d", null ],
+    [ "writeFileHeader", "classFoam_1_1RecycleInteraction.html#ad0c7a238f021a605e38a115efbb20aa3", null ],
+    [ "TypeName", "classFoam_1_1RecycleInteraction.html#ae68f90d276202afad7676b9e4ca42812", null ],
+    [ "clone", "classFoam_1_1RecycleInteraction.html#a5e2a4fe1294c929f29ed8715b89699b5", null ],
+    [ "correct", "classFoam_1_1RecycleInteraction.html#a9eb8927ff6c48fccda63d53b40332f5d", null ],
+    [ "postEvolve", "classFoam_1_1RecycleInteraction.html#a0bf23f36eb3424966e359419a566eb0a", null ],
+    [ "info", "classFoam_1_1RecycleInteraction.html#ac1b66fe77173de9e5e8542b2823d6071", null ],
+    [ "mesh_", "classFoam_1_1RecycleInteraction.html#a23edeeeecebcef11921a33dd5d990570", null ],
+    [ "recyclePatches_", "classFoam_1_1RecycleInteraction.html#ab542a7054025c776867ccfe5af83264d", null ],
+    [ "recyclePatchesIds_", "classFoam_1_1RecycleInteraction.html#a63be02c623fcc9020210074e6a38e5a8", null ],
+    [ "recycledParcels_", "classFoam_1_1RecycleInteraction.html#ae862f1db39f0d6bc9b83c8067aa8a08c", null ],
+    [ "nRemoved_", "classFoam_1_1RecycleInteraction.html#aa8e2122e21db81cd1d42228b5ebaf7c9", null ],
+    [ "massRemoved_", "classFoam_1_1RecycleInteraction.html#ada15c87b54cb578a6812482671847b83", null ],
+    [ "nInjected_", "classFoam_1_1RecycleInteraction.html#ab9aac6718741d16cb55532e91f9ed08d", null ],
+    [ "massInjected_", "classFoam_1_1RecycleInteraction.html#a7b2a6f355f522e12e8ba7ee9a430de86", null ],
+    [ "injIdToIndex_", "classFoam_1_1RecycleInteraction.html#a7ad8da5d7315da28e90b0db1f45ffd27", null ],
+    [ "injectionPatchPtr_", "classFoam_1_1RecycleInteraction.html#afa7cf85505e9d6d12b0b180cc137588e", null ],
+    [ "recycleFraction_", "classFoam_1_1RecycleInteraction.html#ae0f629d55a787d56c1a8f4f4b10e7e0b", null ],
+    [ "outputByInjectorId_", "classFoam_1_1RecycleInteraction.html#afa13b05b81c6b148dd8672634012a38e", null ]
+];

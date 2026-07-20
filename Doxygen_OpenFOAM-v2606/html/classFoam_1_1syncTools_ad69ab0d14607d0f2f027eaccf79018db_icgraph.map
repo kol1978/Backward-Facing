@@ -1,0 +1,42 @@
+<map id="swapBoundaryFaceList" name="swapBoundaryFaceList">
+<area shape="rect" id="Node000001" title="Swap coupled boundary face values. Uses eqOp." alt="" coords="548,533,719,559"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#ad24c436b9876435a5808e0434bb3721f" title=" " alt="" coords="285,5,463,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="626,520,611,416,584,272,566,200,546,134,523,81,498,45,482,34,463,26,465,21,484,29,502,41,528,78,551,132,571,198,589,271,616,415,631,519"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1dynamicRefineFvMesh.html#a733c874c6086685ba54775c9d5e73d1f" title="Calculate cells that cannot be refined since would trigger." alt="" coords="267,55,481,95"/>
+<area shape="poly" id="edge2_Node000001_Node000023" title=" " alt="" coords="630,520,626,440,620,387,609,329,592,270,569,211,538,157,498,109,480,96,483,92,502,105,542,154,574,209,597,268,614,328,625,386,631,439,635,520"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1meshRefinement.html#a9ba55ad37b0d2cb2314d246df7da8040" title="Helper function: check that face zones are synced." alt="" coords="279,119,469,159"/>
+<area shape="poly" id="edge3_Node000001_Node000024" title=" " alt="" coords="628,520,621,450,600,357,584,307,562,258,533,213,498,173,468,155,471,150,502,169,538,209,566,255,589,305,606,355,626,449,633,519"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1meshRefinement.html#a2c4ac7a26c8a7aeb644c5d0f345f3f4e" title="Debugging: check that all faces still obey start()&gt;end()" alt="" coords="285,183,463,223"/>
+<area shape="poly" id="edge4_Node000001_Node000025" title=" " alt="" coords="626,520,615,461,592,385,575,344,554,305,529,269,498,237,481,226,462,217,464,212,484,221,502,233,533,265,559,302,580,342,597,383,620,460,631,519"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1hexRef8.html#a432ff341842268fa21b8363e6b2c45b9" title="Debug: Check coupled mesh for correctness." alt="" coords="273,248,475,273"/>
+<area shape="poly" id="edge5_Node000001_Node000026" title=" " alt="" coords="624,521,611,470,586,406,550,341,526,312,498,287,474,273,476,269,502,282,530,308,554,338,591,404,616,468,629,519"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1faceZone.html#ae0d853449ed62624abe28bda852337c6" title="Check whether all procs have faces synchronised." alt="" coords="248,297,500,323"/>
+<area shape="poly" id="edge6_Node000001_Node000030" title=" " alt="" coords="621,521,604,480,579,430,543,379,522,357,499,338,474,325,477,320,501,333,526,353,547,376,583,427,609,478,626,519"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1hexRef8.html#a02570ed86624586145fa5b8bb20a2d12" title="Debug: Check 2:1 consistency across faces." alt="" coords="253,347,495,387"/>
+<area shape="poly" id="edge7_Node000001_Node000031" title=" " alt="" coords="615,524,568,462,535,429,499,402,474,390,477,385,501,397,539,425,572,458,619,520"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1polyMeshGeometry.html#aa63d73334ea3f55a0fd59896924c6eb5" title="Cell volume ratio of neighbouring cells (1 for regular mesh)" alt="" coords="277,411,471,451"/>
+<area shape="poly" id="edge8_Node000001_Node000032" title=" " alt="" coords="600,528,553,500,499,472,449,454,450,449,501,468,556,495,603,524"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1hexRef8.html#a11f117689e45448afaf2192041730bc8" title="Like consistentRefinement but slower:" alt="" coords="5,751,200,791"/>
+<area shape="poly" id="edge9_Node000001_Node000034" title=" " alt="" coords="590,531,521,507,433,489,385,485,338,488,292,497,249,516,218,539,192,568,169,600,151,634,125,701,111,752,106,750,120,699,146,632,165,598,187,565,215,535,247,512,290,492,337,482,385,480,433,483,522,502,592,526"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1hexRef8.html#aeb8716163dcd0280ef71a13d2f7814a8" title="Like consistentSlowRefinement but uses different meshWave." alt="" coords="277,526,471,566"/>
+<area shape="poly" id="edge10_Node000001_Node000035" title=" " alt="" coords="535,549,472,549,472,543,535,543"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1hexRef8.html#abf9b3d2f2aab0f68bcd539d27b46cfcf" title="Given proposed." alt="" coords="277,590,471,630"/>
+<area shape="poly" id="edge11_Node000001_Node000036" title=" " alt="" coords="568,565,457,593,455,587,567,559"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1functionObjects_1_1fluxSummary.html#a3c50cb94890b263a0faf19694eabb57c" title="Initialise face set from cell zone and direction." alt="" coords="271,655,477,709"/>
+<area shape="poly" id="edge12_Node000001_Node000037" title=" " alt="" coords="609,570,561,607,501,644,473,657,471,652,499,640,558,603,606,566"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1SloanRenumber.html#ac56868baa0519cff2a33d1ccd5f49847" title="Return the cell visit order (from ordered back to original cell id) using the mesh to determine the c..." alt="" coords="289,734,459,774"/>
+<area shape="poly" id="edge13_Node000001_Node000038" title=" " alt="" coords="622,572,604,606,577,647,542,688,501,723,460,742,458,737,499,718,539,684,572,644,599,603,618,570"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1fv_1_1rotorDiskSource.html#a161ab2dd610fa2868ae3529d99faf5d9" title="Set the face areas per cell, and optionally correct the rotor axis." alt="" coords="279,798,469,838"/>
+<area shape="poly" id="edge14_Node000001_Node000039" title=" " alt="" coords="628,573,612,620,587,678,550,737,528,765,502,788,471,805,469,800,498,784,524,761,546,734,582,675,607,618,623,571"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1tetDecomposer.html#abec9dbd7e1f262c0ab2c5d71e3068555" title="Insert all changes into meshMod to convert the polyMesh into." alt="" coords="291,862,457,902"/>
+<area shape="poly" id="edge15_Node000001_Node000040" title=" " alt="" coords="631,573,619,630,596,706,579,746,558,785,532,821,502,852,481,865,459,875,457,870,479,861,498,848,528,817,554,782,574,744,591,704,614,629,626,572"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1addPatchCellLayer.html#a2c19ac1e0552b46875bfff3c02bfd222" title="Play commands into polyTopoChange to create layers on top." alt="" coords="281,926,467,966"/>
+<area shape="poly" id="edge16_Node000001_Node000041" title=" " alt="" coords="633,573,625,641,605,734,588,783,566,832,537,877,502,916,469,936,466,931,498,912,533,874,561,829,583,781,600,733,620,641,628,572"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="263,991,485,1016"/>
+<area shape="poly" id="edge17_Node000001_Node000043" title=" " alt="" coords="635,573,632,653,625,705,615,763,598,822,574,880,543,934,502,980,483,993,480,988,498,976,538,930,570,878,593,820,609,762,620,705,626,652,630,572"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1syncTools.html#a0887bea26cfec93a8bf345a15a977847" title="Extract and swap to obtain neighbour cell values for all boundary faces." alt="" coords="291,1040,457,1065"/>
+<area shape="poly" id="edge18_Node000001_Node000044" title=" " alt="" coords="631,573,615,673,588,811,570,880,550,943,527,994,502,1029,482,1043,459,1052,457,1047,479,1038,498,1025,522,992,545,941,565,878,582,809,610,672,626,572"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1faceZoneSet.html#aa7fca4a1afef0062c91f4d1e3776659d" title="Sync faceZoneSet across coupled patches." alt="" coords="281,1089,467,1115"/>
+<area shape="poly" id="edge20_Node000001_Node000057" title=" " alt="" coords="632,573,617,683,591,835,573,912,553,982,529,1040,502,1079,486,1090,469,1098,467,1093,484,1086,498,1075,524,1037,548,980,568,911,586,834,612,682,626,572"/>
+<area shape="poly" id="edge19_Node000044_Node000034" title=" " alt="" coords="276,1045,247,1030,217,1004,191,973,150,906,122,841,107,792,112,791,127,840,155,904,195,970,220,1000,249,1025,279,1040"/>
+</map>

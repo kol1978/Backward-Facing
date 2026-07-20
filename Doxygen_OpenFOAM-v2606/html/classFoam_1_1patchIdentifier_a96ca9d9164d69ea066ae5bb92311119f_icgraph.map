@@ -1,0 +1,50 @@
+<map id="name" name="name">
+<area shape="rect" id="Node000001" title="The patch name." alt="" coords="285,683,344,708"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1patchIdentifier.html#af952394095929fe79d3bb37103d6dcb0" title="Add (unique) group for the patch." alt="" coords="79,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,669,301,529,286,330,264,145,250,80,235,45,220,33,202,25,164,19,164,13,204,20,223,28,239,42,255,78,269,144,291,330,307,528,315,669"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1symmetryPlanePolyPatch.html#a58bb4c0382e9ee570811fb3f005a0a97" title="Calculate the patch geometry." alt="" coords="5,55,237,95"/>
+<area shape="poly" id="edge2_Node000001_Node000015" title=" " alt="" coords="311,668,310,549,301,381,292,295,278,217,259,153,248,128,235,109,222,98,226,94,239,106,253,125,264,151,283,216,297,295,306,381,315,549,316,668"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1wedgePolyPatch.html#a58bb4c0382e9ee570811fb3f005a0a97" title="Calculate the patch geometry." alt="" coords="35,119,207,159"/>
+<area shape="poly" id="edge3_Node000001_Node000016" title=" " alt="" coords="311,668,307,561,297,412,287,337,274,268,257,211,235,173,222,162,206,153,209,148,225,157,239,170,262,209,279,266,293,336,302,412,313,560,316,668"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1PatchFunction1Types_1_1ConstantField.html#afba27586b75090ebd04dca389622feae" title="Construct from components." alt="" coords="13,183,229,223"/>
+<area shape="poly" id="edge4_Node000001_Node000017" title=" " alt="" coords="310,669,305,573,293,444,283,378,271,319,255,270,235,237,222,226,226,222,239,234,260,268,276,317,289,377,298,443,310,573,315,669"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1cyclicAMIPolyPatch.html#a86b7b028f5b366e0d24246648e3f4ec7" title="Construct given the original patch and resetting the." alt="" coords="26,247,217,287"/>
+<area shape="poly" id="edge5_Node000001_Node000018" title=" " alt="" coords="309,669,302,586,289,475,267,370,252,329,235,301,215,286,218,282,239,298,257,326,272,368,294,474,308,585,314,669"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1cyclicAMIPolyPatch.html#ac54495a2af4565b74f9a916303811932" title="Construct from dictionary." alt="" coords="26,311,217,351"/>
+<area shape="poly" id="edge6_Node000001_Node000019" title=" " alt="" coords="308,669,299,598,285,507,263,421,250,388,235,365,215,350,219,346,239,362,255,385,268,419,290,506,305,598,313,669"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1cyclicPolyPatch.html#a64d8d1d636e903fafa180cb11312edee" title="Construct given the original patch and resetting the face list and boundary mesh information." alt="" coords="38,375,205,415"/>
+<area shape="poly" id="edge7_Node000001_Node000020" title=" " alt="" coords="311,669,308,619,298,554,288,520,275,487,258,456,235,429,221,418,204,409,206,405,224,413,239,425,262,453,280,485,293,518,303,553,314,618,316,669"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1cyclicPolyPatch.html#ab3015cdec440447023de5430c98b5e0c" title="Construct from dictionary." alt="" coords="38,439,205,479"/>
+<area shape="poly" id="edge8_Node000001_Node000021" title=" " alt="" coords="308,670,302,630,289,583,268,534,253,513,236,493,203,474,206,470,239,489,257,509,272,532,294,581,307,629,314,669"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1patchIdentifier.html#a6fa763f8b722d2bfcb05ddb87f9f2340" title="True if given name is in a group." alt="" coords="85,504,158,529"/>
+<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="305,670,296,640,282,606,262,572,236,544,218,533,198,526,158,519,159,514,199,521,220,528,239,540,267,569,287,603,301,638,310,668"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1meshPointPatch.html#a41e4de12027e101cfe0c42fbe4a5ae3c" title="Construct from components." alt="" coords="36,554,207,594"/>
+<area shape="poly" id="edge10_Node000001_Node000023" title=" " alt="" coords="296,672,271,639,236,608,206,594,208,589,239,604,274,635,301,669"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1meshPointPatch.html#aef25775a245b508ff6564fb12f5f47cd" title="Construct from single&#45;constraint (i.e. slip, provided normals)" alt="" coords="36,618,207,658"/>
+<area shape="poly" id="edge11_Node000001_Node000024" title=" " alt="" coords="272,684,237,673,196,661,198,656,238,667,273,679"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1fvPatch.html#a05ff7aca2b2d901acaec7624079f415e" title="Return name." alt="" coords="42,683,201,708"/>
+<area shape="poly" id="edge12_Node000001_Node000025" title=" " alt="" coords="272,698,201,698,201,693,272,693"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1faPatch.html#a713db5955cd1fed9e6d4a5614760060a" title="Return pointer to a new patch created on freestore from dictionary." alt="" coords="46,756,197,781"/>
+<area shape="poly" id="edge13_Node000001_Node000029" title=" " alt="" coords="274,713,157,758,155,753,272,708"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1pointPatch.html#ace8977a054bb16ed71de11f8f3bc5735" title="Return a pointer to a new patch created on freestore. Returns null if not found." alt="" coords="36,805,207,831"/>
+<area shape="poly" id="edge15_Node000001_Node000030" title=" " alt="" coords="303,721,277,760,259,779,239,795,208,809,206,804,236,790,256,775,273,756,298,718"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1polyPatch.html#a1741756fc2a2b6260b8086d1c4f57291" title="Return pointer to a new patch created on freestore from components." alt="" coords="38,855,205,880"/>
+<area shape="poly" id="edge16_Node000001_Node000032" title=" " alt="" coords="310,722,286,784,266,817,239,844,206,861,204,856,236,840,262,813,281,782,305,720"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1oldCyclicPolyPatch.html#a53f05a8ec1d5fc1fb5bde6d6a6645404" title="Construct from dictionary." alt="" coords="27,905,215,945"/>
+<area shape="poly" id="edge17_Node000001_Node000044" title=" " alt="" coords="313,722,306,760,293,806,271,853,257,874,239,893,217,908,214,904,236,889,252,871,267,850,288,804,301,759,308,721"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1cyclicACMIPolyPatch.html#ad21338130d56ecbd066e4e633b4899e8" title="Reset the AMI interpolator, supply patch points." alt="" coords="21,969,221,1009"/>
+<area shape="poly" id="edge18_Node000001_Node000045" title=" " alt="" coords="316,722,313,772,302,835,279,901,262,932,239,959,223,971,220,967,235,955,257,929,274,899,297,834,308,771,311,722"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1cyclicAMIPolyPatch.html#a4311a993a0ec47d3001231c8077d1219" title="Helper to re&#45;apply the geometric scaling lost during mesh updates." alt="" coords="26,1033,217,1073"/>
+<area shape="poly" id="edge19_Node000001_Node000046" title=" " alt="" coords="313,722,304,792,289,881,268,966,254,999,239,1022,219,1038,215,1034,235,1019,250,997,263,965,284,880,299,791,308,721"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1cyclicACMIPolyPatch.html#a15bd053a5270123a78998db1851225b3" title="Scale patch face areas to maintain physical area." alt="" coords="21,1097,221,1137"/>
+<area shape="poly" id="edge20_Node000001_Node000047" title=" " alt="" coords="314,722,307,804,294,913,272,1017,257,1058,239,1086,223,1100,220,1095,235,1083,252,1056,266,1016,288,912,302,804,309,722"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1cyclicACMIPolyPatch.html#a7baf66ef91d29d9840434915b1c1e721" title="Scale patch face areas to maintain physical area." alt="" coords="21,1161,221,1201"/>
+<area shape="poly" id="edge21_Node000001_Node000048" title=" " alt="" coords="315,722,310,817,298,945,288,1009,275,1068,259,1117,239,1150,223,1164,220,1160,235,1147,254,1115,270,1067,283,1008,293,944,305,816,310,722"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1symmetryFaPatch.html#af7f00cfb522a3d834b5082551f8f50b4" title="Construct from dictionary." alt="" coords="30,1225,213,1265"/>
+<area shape="poly" id="edge22_Node000001_Node000049" title=" " alt="" coords="316,722,313,829,302,976,292,1050,279,1119,262,1175,239,1214,215,1233,212,1229,235,1211,257,1173,274,1118,287,1050,297,975,307,828,310,722"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1cyclicPolyPatch.html#aa5af908ce117c3633484f843f2e1cca3" title=" " alt="" coords="38,1289,205,1329"/>
+<area shape="poly" id="edge23_Node000001_Node000050" title=" " alt="" coords="316,722,315,840,306,1006,296,1091,283,1169,264,1234,253,1259,239,1278,224,1292,206,1301,204,1296,221,1287,235,1275,248,1256,259,1232,278,1168,291,1091,300,1006,310,840,311,722"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1wedgeFaPatch.html#a3725bcc95c2717a9c6c6aad758e6fe19" title="Construct from dictionary." alt="" coords="42,1353,201,1393"/>
+<area shape="poly" id="edge24_Node000001_Node000051" title=" " alt="" coords="315,722,306,860,290,1057,268,1240,255,1306,239,1342,222,1357,202,1367,200,1362,219,1353,235,1339,249,1304,263,1240,285,1056,301,860,309,721"/>
+<area shape="poly" id="edge14_Node000029_Node000029" title=" " alt="" coords="155,746,146,738,121,735,101,737,90,741,88,747,94,754,90,757,83,748,86,738,100,732,121,729,148,733,159,742"/>
+</map>

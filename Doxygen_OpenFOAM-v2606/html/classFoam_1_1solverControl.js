@@ -1,0 +1,26 @@
+var classFoam_1_1solverControl =
+[
+    [ "solverControl", "classFoam_1_1solverControl.html#a83ae0543b19e0f09be19a6249ace7488", null ],
+    [ "~solverControl", "classFoam_1_1solverControl.html#a20925d03f78ca0812accfa1dcbff2e37", null ],
+    [ "read", "classFoam_1_1solverControl.html#af816873151ddb0126e98bb2f914d8ed5", null ],
+    [ "TypeName", "classFoam_1_1solverControl.html#ad1c42773f3703d652cd98be7024f1344", null ],
+    [ "solverDict", "classFoam_1_1solverControl.html#ab96a427c6e3a00292239967e77fce354", null ],
+    [ "solutionDict", "classFoam_1_1solverControl.html#a904010fd293dcfbbf48314585569b3af", null ],
+    [ "printMaxMags", "classFoam_1_1solverControl.html#a915c9ee0f2e77bea517e549b39824feb", null ],
+    [ "storeInitValues", "classFoam_1_1solverControl.html#a1411b355f80b20202f8f678e6bda970a", null ],
+    [ "iter", "classFoam_1_1solverControl.html#af314f0ddec82dbac9a57f8cb64e80f64", null ],
+    [ "averageIter", "classFoam_1_1solverControl.html#a7cdb805c53fc877ffa001ab66028b305", null ],
+    [ "averageIter", "classFoam_1_1solverControl.html#a5e3b6c507ca378b884db4ed5a9b15f78", null ],
+    [ "averageStartIter", "classFoam_1_1solverControl.html#a433fbce6074cc27840d43c7dc9451bba", null ],
+    [ "doAverageIter", "classFoam_1_1solverControl.html#a06351fa9ff31ae31687fde35dae93701", null ],
+    [ "useAveragedFields", "classFoam_1_1solverControl.html#a961297976cc919e6a2777c67d11835f6", null ],
+    [ "average", "classFoam_1_1solverControl.html#af0d8537359b1cd12bc0c4e64b5f5d986", null ],
+    [ "getSolver", "classFoam_1_1solverControl.html#afcdee7ba315658802419e3198a7b96d4", null ],
+    [ "solver_", "classFoam_1_1solverControl.html#a0d72b3b231b0e14b53e12bbca4361320", null ],
+    [ "printMaxMags_", "classFoam_1_1solverControl.html#af93c1e85b56e11766af7cd57c38b5eb9", null ],
+    [ "iter_", "classFoam_1_1solverControl.html#aaeb1e99e2cc5fc1ca88ca20af4fba5d6", null ],
+    [ "averageIter_", "classFoam_1_1solverControl.html#aab72635b383ee6a39463df1d61a8929c", null ],
+    [ "averageStartIter_", "classFoam_1_1solverControl.html#a848d8863ca2d78e28349e7d79df51751", null ],
+    [ "storeInitValues_", "classFoam_1_1solverControl.html#a3bf203c1b75401e36031a75149276a2b", null ],
+    [ "average_", "classFoam_1_1solverControl.html#a7fe4c5034c8d10b4b9cb1d69f290f6d8", null ]
+];

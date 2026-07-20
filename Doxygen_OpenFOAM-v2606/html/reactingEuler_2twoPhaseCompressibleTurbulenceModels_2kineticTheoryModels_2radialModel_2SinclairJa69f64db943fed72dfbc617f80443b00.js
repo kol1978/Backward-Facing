@@ -1,0 +1,5 @@
+var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJa69f64db943fed72dfbc617f80443b00 =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJa69f64db943fed72dfbc617f80443b00.html#a074c507cfc2acc657aa1540c89f669ec", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJa69f64db943fed72dfbc617f80443b00.html#aea505869efa315b07f0be3de71671b38", null ]
+];

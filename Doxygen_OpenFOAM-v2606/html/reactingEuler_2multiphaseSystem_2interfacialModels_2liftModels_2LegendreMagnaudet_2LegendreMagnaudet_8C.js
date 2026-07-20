@@ -1,0 +1,5 @@
+var reactingEuler_2multiphaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8C =
+[
+    [ "defineTypeNameAndDebug", "reactingEuler_2multiphaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8C.html#af892ee2bd5378ddc41a7366953c615ed", null ],
+    [ "addToRunTimeSelectionTable", "reactingEuler_2multiphaseSystem_2interfacialModels_2liftModels_2LegendreMagnaudet_2LegendreMagnaudet_8C.html#a9966cc9dbaed5c6b6b4a2f8d153acadd", null ]
+];

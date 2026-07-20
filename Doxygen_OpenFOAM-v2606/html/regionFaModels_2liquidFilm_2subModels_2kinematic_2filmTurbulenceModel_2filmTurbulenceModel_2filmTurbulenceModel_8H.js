@@ -1,0 +1,4 @@
+var regionFaModels_2liquidFilm_2subModels_2kinematic_2filmTurbulenceModel_2filmTurbulenceModel_2filmTurbulenceModel_8H =
+[
+    [ "filmTurbulenceModel", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1filmTurbulenceModel.html", "classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1filmTurbulenceModel" ]
+];

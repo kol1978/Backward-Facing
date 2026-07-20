@@ -1,0 +1,25 @@
+var classFoam_1_1searchableSurfaceWithGaps =
+[
+    [ "searchableSurfaceWithGaps", "classFoam_1_1searchableSurfaceWithGaps.html#a6822eae5a2827d5eabce3748aefe1362", null ],
+    [ "~searchableSurfaceWithGaps", "classFoam_1_1searchableSurfaceWithGaps.html#ae0bec2fdf74d9ecfb74b7b174e0264c2", null ],
+    [ "TypeName", "classFoam_1_1searchableSurfaceWithGaps.html#a1a459105a682658c505eed3e34674b64", null ],
+    [ "surface", "classFoam_1_1searchableSurfaceWithGaps.html#ae083d0326e64cf7ce44cb58c1589e26c", null ],
+    [ "regions", "classFoam_1_1searchableSurfaceWithGaps.html#af5f5ddba950cc1343cd37e5141c4f2d3", null ],
+    [ "hasVolumeType", "classFoam_1_1searchableSurfaceWithGaps.html#ae5781b05a933dbf11f448346b8099bee", null ],
+    [ "outsideVolumeType", "classFoam_1_1searchableSurfaceWithGaps.html#aa61d4542990e34d549e5064464fc885e", null ],
+    [ "size", "classFoam_1_1searchableSurfaceWithGaps.html#a03bc1200aac252c4d3e18657d700b71c", null ],
+    [ "coordinates", "classFoam_1_1searchableSurfaceWithGaps.html#a8588425fa7c02f0d31cd313487bc58bf", null ],
+    [ "boundingSpheres", "classFoam_1_1searchableSurfaceWithGaps.html#a96361011f8440feb1a1d941f97066429", null ],
+    [ "points", "classFoam_1_1searchableSurfaceWithGaps.html#a9fb42cee589871fe4ed6bdebb9706448", null ],
+    [ "overlaps", "classFoam_1_1searchableSurfaceWithGaps.html#a08f2ea4b6bed9e040b0e13009dfcc7b3", null ],
+    [ "findNearest", "classFoam_1_1searchableSurfaceWithGaps.html#a55cc02a6ebd2ba7f53b1f4249376059c", null ],
+    [ "findLine", "classFoam_1_1searchableSurfaceWithGaps.html#a2a363a8584a3ae8109cce2aaf6436e3f", null ],
+    [ "findLineAny", "classFoam_1_1searchableSurfaceWithGaps.html#a3cb961eda9c4705631ac1b5b1ca29b97", null ],
+    [ "findLineAll", "classFoam_1_1searchableSurfaceWithGaps.html#a32c00098bc496f0cc93bf1aebc19ee49", null ],
+    [ "getRegion", "classFoam_1_1searchableSurfaceWithGaps.html#a293529d2b9916fb913c2b1bf66ba1a6e", null ],
+    [ "getNormal", "classFoam_1_1searchableSurfaceWithGaps.html#a2ebf98ae4f41351b6ac7c8a77fdbbb69", null ],
+    [ "getVolumeType", "classFoam_1_1searchableSurfaceWithGaps.html#a6179519b6e2ccdf07df4b13165fa7528", null ],
+    [ "setField", "classFoam_1_1searchableSurfaceWithGaps.html#a51d4c03021fdfbbf945ae029ad7a6aed", null ],
+    [ "getField", "classFoam_1_1searchableSurfaceWithGaps.html#a7d2ab05fdef7edf388982908057155b8", null ],
+    [ "writeData", "classFoam_1_1searchableSurfaceWithGaps.html#a4c658e15d7e8f5819cdc0eedbbbeb85e", null ]
+];

@@ -1,0 +1,25 @@
+var classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch =
+[
+    [ "boundaryRadiationPropertiesPatch", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#af7f7b2eb62aafd7861777f8e6d8e4b73", null ],
+    [ "~boundaryRadiationPropertiesPatch", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a99524ea67524c9bff61d6d1cedba3ff6", null ],
+    [ "TypeName", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a027de8c468516f288b7370941a4f247f", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a5eb6c15ae642143fbf9b146d70b5f266", null ],
+    [ "New", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a316791325e78299c7891877c850a4bd7", null ],
+    [ "absorptionEmission", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a164c264baa3c6b5f357920d11df34240", null ],
+    [ "transmissiveModel", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a158271f321db5d590b139cda0c80fa20", null ],
+    [ "e", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a507e5a2a19f0d70d841bbbaf6a6c7e69", null ],
+    [ "e", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#ad987f418d33ac82156eb368022c9a105", null ],
+    [ "a", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#acc0af6872794a0afc9db46298cd38925", null ],
+    [ "a", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a2fb05de433ad2571b6d349cfbcf635ea", null ],
+    [ "t", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#ade562d45e8057f7c5d433212e76ba70f", null ],
+    [ "t", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a8c5dc10800b473a4611f9aeffbd1df61", null ],
+    [ "rSpec", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a6a2921183865a2d6ae8c89cb6ff789fe", null ],
+    [ "rSpec", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a3fd406b63a091bcc1732078e6d3c9f5e", null ],
+    [ "rDiff", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#ae64024dfdbefc7e02f168870a36f06e1", null ],
+    [ "rDiff", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#ad438f901abfd5853e28a2acf66d21323", null ],
+    [ "isGrey", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a74004fc5cf11f1ff541513b51c424ffc", null ],
+    [ "nBands", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a8a648db22f1ae67b49bee623a9256434", null ],
+    [ "write", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#a293fdfec8bdfbd5c3913ab4c9f3454ff", null ],
+    [ "absorptionEmission_", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#ad26cffb1ab1a5d5d897c3472a8b38294", null ],
+    [ "transmissivity_", "classFoam_1_1radiation_1_1boundaryRadiationPropertiesPatch.html#afc0c9a53458a2e07c65723ba9f82a950", null ]
+];

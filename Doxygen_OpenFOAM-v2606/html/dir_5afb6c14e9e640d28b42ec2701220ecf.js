@@ -1,0 +1,5 @@
+var dir_5afb6c14e9e640d28b42ec2701220ecf =
+[
+    [ "SchaefferFrictionalStress.C", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_b20e3421a8a20caabd0e5848204f70e5.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_b20e3421a8a20caabd0e5848204f70e5" ],
+    [ "SchaefferFrictionalStress.H", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_72abf54678f7e51e06e1eba710396111.html", "reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_72abf54678f7e51e06e1eba710396111" ]
+];

@@ -1,0 +1,11 @@
+<map id="find_first" name="find_first">
+<area shape="rect" id="Node000001" title="Locate the first rank for which the condition is true, or &#45;1 if no ranks satisfy the condition." alt="" coords="5,80,84,105"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPstream.html#a78987de05491f5e12169b5b5a991f975" title="True if parallel algorithm or exchange is required." alt="" coords="145,5,234,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,78,131,40,143,34,145,39,133,44,67,82"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#aa69d6cdc0e0b56fafe3d53083013b5aa" title="In&#45;place reduction of values with same result on all ranks." alt="" coords="132,55,247,80"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="84,83,118,77,119,82,85,89"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="145,104,234,129"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="84,96,131,104,130,110,84,102"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="157,153,222,179"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="69,103,133,138,148,145,145,150,131,143,66,108"/>
+</map>

@@ -1,0 +1,4 @@
+var turbulentTemperatureCoupledBaffleMixedFvPatchScalarField_8H =
+[
+    [ "turbulentTemperatureCoupledBaffleMixedFvPatchScalarField", "classFoam_1_1compressible_1_1turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.html", "classFoam_1_1compressible_1_1turbulentTemperatureCoupledBaffleMixedFvPatchScalarField" ]
+];
