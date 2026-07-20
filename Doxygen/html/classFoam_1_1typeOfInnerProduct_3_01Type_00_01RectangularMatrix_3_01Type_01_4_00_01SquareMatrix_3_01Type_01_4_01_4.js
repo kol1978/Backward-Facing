@@ -1,4 +1,0 @@
-var classFoam_1_1typeOfInnerProduct_3_01Type_00_01RectangularMatrix_3_01Type_01_4_00_01SquareMatrix_3_01Type_01_4_01_4 =
-[
-    [ "type", "classFoam_1_1typeOfInnerProduct_3_01Type_00_01RectangularMatrix_3_01Type_01_4_00_01SquareMatrix_3_01Type_01_4_01_4.html#a580d65561ea8a19c81512dbc33604245", null ]
-];

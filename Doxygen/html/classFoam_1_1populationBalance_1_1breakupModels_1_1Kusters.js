@@ -1,7 +1,0 @@
-var classFoam_1_1populationBalance_1_1breakupModels_1_1Kusters =
-[
-    [ "Kusters", "classFoam_1_1populationBalance_1_1breakupModels_1_1Kusters.html#a26ff8f795629a6b263216d2bc9398c44", null ],
-    [ "~Kusters", "classFoam_1_1populationBalance_1_1breakupModels_1_1Kusters.html#aadc7661e0640b8c093dc0426d0704d46", null ],
-    [ "TypeName", "classFoam_1_1populationBalance_1_1breakupModels_1_1Kusters.html#a0daccb70fc214baa5cae3d6a7fa5e355", null ],
-    [ "rate", "classFoam_1_1populationBalance_1_1breakupModels_1_1Kusters.html#a95c7d56a40cd6e35af20e79b0d366761", null ]
-];

@@ -1,5 +1,0 @@
-var dir_f177c65a58531ee40a3fbccae502177d =
-[
-    [ "exponential.C", "applications_2modules_2multiphaseEuler_2populationBalance_2breakupModels_2exponential_2exponential_8C.html", "applications_2modules_2multiphaseEuler_2populationBalance_2breakupModels_2exponential_2exponential_8C" ],
-    [ "exponential.H", "applications_2modules_2multiphaseEuler_2populationBalance_2breakupModels_2exponential_2exponential_8H.html", "applications_2modules_2multiphaseEuler_2populationBalance_2breakupModels_2exponential_2exponential_8H" ]
-];

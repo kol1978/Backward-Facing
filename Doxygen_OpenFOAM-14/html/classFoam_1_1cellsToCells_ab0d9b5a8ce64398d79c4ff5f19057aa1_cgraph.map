@@ -1,0 +1,25 @@
+<map id="tgtMeshSendCells" name="tgtMeshSendCells">
+<area shape="rect" id="Node000001" title="Determine which target cells need to be sent to the source." alt="" coords="5,221,144,246"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1primitiveMesh.html#af19bf800d725a623c7b1d0101d65e7d3" title=" " alt="" coords="210,5,370,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,220,93,187,117,143,149,96,190,55,198,50,201,54,194,59,153,99,121,145,98,189,83,222"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1polyMesh.html#a431c0a24765f0bb6d32f6a03ce0e9b57" title="Return raw faces." alt="" coords="204,70,376,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,219,126,168,156,138,191,112,221,98,223,102,193,117,160,142,129,172,87,222"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="193,221,387,246"/>
+<area shape="poly" id="edge3_Node000001_Node000015" title=" " alt="" coords="144,231,180,231,180,236,144,236"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="436,171,641,197"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="88,218,132,185,160,168,191,156,229,147,269,143,348,143,421,153,482,165,481,171,420,158,347,149,269,148,230,153,193,161,163,173,135,190,92,223"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="448,221,629,246"/>
+<area shape="poly" id="edge8_Node000001_Node000017" title=" " alt="" coords="124,243,192,256,290,262,388,256,463,246,464,251,388,261,290,268,192,261,123,249"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1primitiveMesh.html#aa9b1d9b9ac730ab1e6b7bc1f5246aee9" title=" " alt="" coords="210,321,370,361"/>
+<area shape="poly" id="edge7_Node000001_Node000031" title=" " alt="" coords="97,244,140,271,193,300,222,314,220,318,191,305,137,276,94,248"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1polyMesh.html#ac44123fc1265297c41a43c3b62fdb4c2" title="Return raw points." alt="" coords="201,386,379,411"/>
+<area shape="poly" id="edge9_Node000001_Node000032" title=" " alt="" coords="85,245,125,306,157,341,193,371,207,379,205,383,191,376,153,345,121,309,81,248"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="192,171,388,197"/>
+<area shape="poly" id="edge10_Node000001_Node000033" title=" " alt="" coords="130,218,220,197,221,202,131,223"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1List.html#a25ad1d2084d16b234b0cf91c07e832c0" title="Transfer the contents of the argument List into this list." alt="" coords="216,435,364,461"/>
+<area shape="poly" id="edge13_Node000001_Node000034" title=" " alt="" coords="83,245,96,281,118,329,151,379,171,402,194,422,205,429,202,433,190,426,167,406,147,383,114,332,91,283,78,247"/>
+<area shape="poly" id="edge4_Node000015_Node000016" title=" " alt="" coords="354,218,460,197,461,202,355,223"/>
+<area shape="poly" id="edge5_Node000015_Node000017" title=" " alt="" coords="387,231,434,231,434,236,387,236"/>
+<area shape="poly" id="edge11_Node000033_Node000016" title=" " alt="" coords="388,181,422,181,422,187,388,187"/>
+<area shape="poly" id="edge12_Node000033_Node000017" title=" " alt="" coords="355,194,461,215,460,221,354,199"/>
+</map>

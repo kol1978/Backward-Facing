@@ -1,0 +1,27 @@
+var classFoam_1_1waveSuperposition =
+[
+    [ "waveSuperposition", "classFoam_1_1waveSuperposition.html#a645a29da705274d8f36ed3e025c4af0d", null ],
+    [ "~waveSuperposition", "classFoam_1_1waveSuperposition.html#a77c514abeb8218209ad852e7eb6f967e", null ],
+    [ "transformation", "classFoam_1_1waveSuperposition.html#a76bbbfd09501a61a60533af74187906e", null ],
+    [ "elevation", "classFoam_1_1waveSuperposition.html#a1c657a262d55feda2f940fa6e3226348", null ],
+    [ "velocity", "classFoam_1_1waveSuperposition.html#aea942e1032b9910ee32aca5a4dd11f65", null ],
+    [ "scale", "classFoam_1_1waveSuperposition.html#a74c7a148bedaac766e3019eb9b9156f2", null ],
+    [ "TypeName", "classFoam_1_1waveSuperposition.html#a1a795f770fca834df79bc2fcfca57fe0", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1waveSuperposition.html#ab552b75ab42e74ff6d24e21816159165", null ],
+    [ "New", "classFoam_1_1waveSuperposition.html#aa567697fa4b993bbcbb5dc39944318b6", null ],
+    [ "maxWaveSpeed", "classFoam_1_1waveSuperposition.html#aba2eea5c44f82471c74df123b462bd9e", null ],
+    [ "height", "classFoam_1_1waveSuperposition.html#a49e8684d52c2f399afea4ff9a48b868c", null ],
+    [ "ULiquid", "classFoam_1_1waveSuperposition.html#a5879a5f447be45689d49f6bff285cd65", null ],
+    [ "UGas", "classFoam_1_1waveSuperposition.html#a6096d617d5908b1af95e8b325582215e", null ],
+    [ "write", "classFoam_1_1waveSuperposition.html#a293fdfec8bdfbd5c3913ab4c9f3454ff", null ],
+    [ "write", "classFoam_1_1waveSuperposition.html#a9ba84ddfd80ea27e29fd19513c253f56", null ],
+    [ "origin_", "classFoam_1_1waveSuperposition.html#a26caa7072a0d4ef3b133e859bb2833e4", null ],
+    [ "direction_", "classFoam_1_1waveSuperposition.html#a8e35c6dea2da441afcb54f5ab6cc7b1a", null ],
+    [ "waveModels_", "classFoam_1_1waveSuperposition.html#aa4fba224c0fe388f15d94b9819e2abde", null ],
+    [ "waveAngles_", "classFoam_1_1waveSuperposition.html#a81df805c576c17ee20d8d532c27e9de9", null ],
+    [ "UMean_", "classFoam_1_1waveSuperposition.html#a25bc280d42403f78cc04528e9ca8335e", null ],
+    [ "scale_", "classFoam_1_1waveSuperposition.html#a780de8cd01cfea0eb5904c14a625ac91", null ],
+    [ "crossScale_", "classFoam_1_1waveSuperposition.html#a8725cda48aabdd66edfdda3fcb6b3f3a", null ],
+    [ "heightAboveWave_", "classFoam_1_1waveSuperposition.html#a176c1573a024f582a837c3ce4494b757", null ],
+    [ "dictName", "classFoam_1_1waveSuperposition.html#a6c0594caa0f33d4f0d55236b1fa9feaa", null ]
+];

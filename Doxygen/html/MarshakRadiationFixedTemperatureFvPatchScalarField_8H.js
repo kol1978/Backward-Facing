@@ -1,4 +1,0 @@
-var MarshakRadiationFixedTemperatureFvPatchScalarField_8H =
-[
-    [ "MarshakRadiationFixedTemperatureFvPatchScalarField", "classFoam_1_1MarshakRadiationFixedTemperatureFvPatchScalarField.html", "classFoam_1_1MarshakRadiationFixedTemperatureFvPatchScalarField" ]
-];

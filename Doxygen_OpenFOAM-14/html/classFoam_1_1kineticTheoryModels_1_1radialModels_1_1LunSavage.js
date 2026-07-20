@@ -1,0 +1,8 @@
+var classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage =
+[
+    [ "LunSavage", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html#a7fc3a406bb464b0c174aef1e495f266a", null ],
+    [ "~LunSavage", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html#acf3fe3856a6fbf4cca30d77bbdfcbb6c", null ],
+    [ "TypeName", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html#aa7326a112256126f745e25a13b058971", null ],
+    [ "g0", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html#af769cf50d4b2ef51d7379decc8e86be2", null ],
+    [ "g0prime", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1LunSavage.html#a19692ef13414b378f87c9e4041464fff", null ]
+];

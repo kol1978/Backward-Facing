@@ -1,4 +1,0 @@
-var GidaspowSchillerNaumann_8H =
-[
-    [ "GidaspowSchillerNaumann", "classFoam_1_1dragModels_1_1GidaspowSchillerNaumann.html", "classFoam_1_1dragModels_1_1GidaspowSchillerNaumann" ]
-];

@@ -1,5 +1,0 @@
-var src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalisebe0d70c74398c277a31c85a216a6951a =
-[
-    [ "defineTypeNameAndDebug", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalisebe0d70c74398c277a31c85a216a6951a.html#a0a562b87ff1dda47e8069b7184f698e1", null ],
-    [ "addToRunTimeSelectionTable", "src_2MomentumTransportModels_2momentumTransportModels_2laminar_2generalisedNewtonian_2generalisebe0d70c74398c277a31c85a216a6951a.html#ad699b8fdf916473f17c160abca86fb27", null ]
-];

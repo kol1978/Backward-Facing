@@ -10,28 +10,10 @@
 Выявить недочёты и понять, какие доработки нужны в основной версии.<br>
 
 ### Краткое описание проекта — что это и какую проблему решает:
-Проверка/выбор решателя(ей) для openFOAMv2412.<br>
+Проверка/выбор решателя(ей)...<br>
 
-Замечание 1: компиляция завершается ошибкой... пока причина не устранена, выполнен переход на версию openFOAMv2512.<br>
-Ошибка:<br>
-/home/kol/OpenFOAM/ThirdParty-v2412/platforms/linux64Gcc/CGAL-4.14.3/include/CGAL/boost/graph/iterator.h:432:22: error: ‘const class CGAL::Halfedge_around_face_iterator<Graph>’ has no member named ‘base’ [-Wtemplate-body]<br>
-make[2]: *** [/wmake/rules/General/transform:38: /OpenFOAM-v2412/build/linux64GccDPInt64Opt/applications/utilities/preProcessing/viewFactorsGen/viewFactorsGen.o] Error 1<br>
-make[1]: *** [/OpenFOAM-v2412/wmake/makefiles/apps:28: viewFactorsGen] Error 2<br>
-make: *** [/OpenFOAM-v2412/wmake/makefiles/apps:28: preProcessing] Error 2<br>
-
-Замечание 2: компиляция версии openFOAMv2512 проходит без ошибок но при выполнении кода происходит ошибка: декомпозиции. Выполнен переход на версию (пока причина не устранена):<br>
----------------------------------------------------------------------------<br>
-Build  : 12-0b487fc98b88<br>
-Exec   : decomposePar -force<br>
-Date   : Jun 23 2026<br>
-Time   : 10:49:26<br>
-I/O    : uncollated<br>
-Case   : Backward-Facing<br>
-nProcs : 1<br>
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).<br>
-fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)<br>
-allowSystemOperations : Allowing user-supplied system call operations<br>
-
+выполнен переход на версию openFOAMv2606.<br>
+выполнен переход на версию openFOAM-14.<br>
 --------------------------------------------------------------------------<br>
 [8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[2](https://blog.skillfactory.ru/readme-md-github/)[5](https://doka.guide/recipes/github-add-readme/)
 

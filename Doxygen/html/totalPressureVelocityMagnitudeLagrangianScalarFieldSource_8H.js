@@ -1,4 +1,0 @@
-var totalPressureVelocityMagnitudeLagrangianScalarFieldSource_8H =
-[
-    [ "totalPressureVelocityMagnitudeLagrangianScalarFieldSource", "classFoam_1_1totalPressureVelocityMagnitudeLagrangianScalarFieldSource.html", "classFoam_1_1totalPressureVelocityMagnitudeLagrangianScalarFieldSource" ]
-];

@@ -1,5 +1,0 @@
-var dir_dd996303cf5064b6a1252143c07cbf4d =
-[
-    [ "HerschelBulkley.C", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8C.html", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8C" ],
-    [ "HerschelBulkley.H", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8H.html", "applications_2modules_2incompressibleDriftFlux_2mixtureViscosityModels_2HerschelBulkley_2HerschelBulkley_8H" ]
-];

@@ -1,0 +1,77 @@
+<map id="src/finiteVolume/finiteVolume/fvc/fvcFlux.H" name="src/finiteVolume/finiteVolume/fvc/fvcFlux.H">
+<area shape="rect" id="Node000001" title="Calculate the face&#45;flux of the given field." alt="" coords="4382,5,4595,45"/>
+<area shape="rect" id="Node000002" href="$PDRFoam_8C.html" title="Solver for compressible premixed/partially&#45;premixed combustion with turbulence modelling." alt="" coords="5,108,175,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4368,30,3459,36,2103,48,834,68,400,81,262,88,188,96,143,110,142,105,187,91,261,83,399,75,834,62,2103,42,3459,30,4368,25"/>
+<area shape="rect" id="Node000003" href="$rhoPorousSimpleFoam_8C.html" title="Steady&#45;state solver for turbulent flow of compressible fluids, with implicit or explicit porosity tre..." alt="" coords="199,108,426,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="4368,29,3544,30,2315,38,1689,46,1130,58,695,74,541,84,438,96,381,110,380,105,438,91,540,79,694,69,1130,52,1689,40,2315,32,3544,25,4368,24"/>
+<area shape="rect" id="Node000004" href="$mhdFoam_8C.html" title="Solver for magnetohydrodynamics (MHD): incompressible, laminar flow of a conducting fluid under the i..." alt="" coords="450,108,658,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="4368,29,3586,30,2430,37,1843,46,1319,57,911,74,766,84,671,96,618,110,616,105,669,91,766,79,910,69,1319,52,1843,40,2430,32,3586,25,4368,24"/>
+<area shape="rect" id="Node000005" href="$adjointShapeOptimisationFoam_8C.html" title="Steady&#45;state solver for incompressible, turbulent flow of non&#45;Newtonian fluids with optimisation of d..." alt="" coords="682,101,997,170"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="4368,30,3648,36,2600,48,1595,68,1227,81,1009,96,965,103,965,98,1008,91,1226,76,1595,63,2599,43,3648,31,4368,25"/>
+<area shape="rect" id="Node000006" href="$icoFoam_8C.html" title="Transient solver for incompressible, laminar flow of Newtonian fluids." alt="" coords="1021,108,1205,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="4368,29,3686,31,2702,39,2206,48,1763,59,1419,75,1298,85,1217,96,1170,110,1168,105,1216,91,1297,80,1419,70,1763,54,2205,42,2702,34,3686,26,4368,24"/>
+<area shape="rect" id="Node000007" href="$porousSimpleFoam_8C.html" title="Steady&#45;state solver for incompressible, turbulent flow with implicit or explicit porosity treatment a..." alt="" coords="1229,108,1447,163"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="4368,30,3732,34,2825,45,2368,54,1962,65,1646,79,1534,87,1460,96,1404,111,1403,105,1459,91,1534,82,1646,73,1962,59,2368,48,2825,40,3732,29,4368,25"/>
+<area shape="rect" id="Node000008" href="$shallowWaterFoam_8C.html" title="Transient solver for inviscid shallow&#45;water equations with rotation." alt="" coords="1472,108,1689,163"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="4368,30,3777,35,2946,47,2159,66,1871,80,1769,88,1701,96,1646,111,1645,105,1700,91,1768,82,1871,75,2159,61,2946,41,3777,30,4368,25"/>
+<area shape="rect" id="Node000009" href="$XiFluid_2thermophysicalPredictor_8C.html" title=" " alt="" coords="1713,115,1960,155"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="4368,31,3829,38,3083,51,2380,70,2123,82,1972,96,1929,105,1888,118,1886,113,1927,100,1971,91,2123,77,2380,65,3083,46,3829,32,4368,25"/>
+<area shape="rect" id="Node000010" href="$compressibleMultiphaseVoF_2alphaPredictor_8C.html" title=" " alt="" coords="1984,108,2193,163"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="4369,31,3875,38,3201,51,2571,70,2341,82,2205,96,2153,110,2151,105,2204,91,2340,77,2571,65,3201,45,3875,32,4368,25"/>
+<area shape="rect" id="Node000011" href="$compressibleMultiphaseVoF_2pressureCorrector_8C.html" title=" " alt="" coords="2217,108,2427,163"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="4368,29,3959,29,3401,36,3113,44,2845,56,2614,73,2440,96,2387,110,2386,105,2439,91,2614,68,2845,51,3113,38,3401,30,3959,23,4368,23"/>
+<area shape="rect" id="Node000012" href="$compressibleVoF_2pressureCorrector_8C.html" title=" " alt="" coords="2451,115,2721,155"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="4368,30,4012,35,3540,46,3073,65,2880,79,2733,96,2642,118,2641,113,2732,91,2879,74,3073,60,3540,41,4012,30,4368,25"/>
+<area shape="rect" id="Node000013" href="$incompressibleDenseParticleFluid_2correctPressure_8C.html" title=" " alt="" coords="2745,108,2960,163"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="4368,30,4057,35,3654,45,3259,65,3096,79,2972,96,2918,111,2917,105,2971,91,3095,73,3258,59,3654,40,4057,29,4368,25"/>
+<area shape="rect" id="Node000014" href="$incompressibleDenseParticleFluid_8C.html" title=" " alt="" coords="2984,101,3231,170"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="4368,32,3785,53,3472,71,3342,83,3244,96,3210,103,3209,98,3243,91,3342,78,3471,66,3785,47,4368,27"/>
+<area shape="rect" id="Node000015" href="$incompressibleDriftFlux_2alphaSuSp_8C.html" title=" " alt="" coords="3255,108,3437,163"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="4368,32,4150,40,3885,52,3632,71,3528,82,3449,96,3403,110,3402,105,3448,91,3528,77,3632,65,3885,47,4150,34,4368,27"/>
+<area shape="rect" id="Node000016" href="$incompressibleFluid_2correctPressure_8C.html" title=" " alt="" coords="3461,108,3623,163"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="4368,34,3977,55,3779,73,3698,84,3636,96,3595,110,3593,105,3635,91,3697,79,3778,68,3977,50,4368,28"/>
+<area shape="rect" id="Node000017" href="$incompressibleMultiphaseVoF_2alphaPredictor_8C.html" title=" " alt="" coords="3647,108,3861,163"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="4369,34,4138,54,4005,71,3873,96,3822,110,3821,105,3872,91,4004,66,4137,48,4368,29"/>
+<area shape="rect" id="Node000018" href="$incompressibleMultiphaseVoF_2pressureCorrector_8C.html" title=" " alt="" coords="3885,108,4098,163"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="4369,46,4244,67,4111,96,4062,110,4061,105,4109,91,4243,62,4368,40"/>
+<area shape="rect" id="Node000019" href="$correctAlpha_8C.html" title=" " alt="" coords="4123,115,4345,155"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="4433,53,4280,118,4278,113,4431,48"/>
+<area shape="rect" id="Node000020" href="$isothermalFilm_8C.html" title=" " alt="" coords="4369,115,4608,155"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="4491,59,4491,115,4486,115,4486,59"/>
+<area shape="rect" id="Node000021" href="$correctBuoyantPressure_8C.html" title=" " alt="" coords="4632,108,4863,163"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="4548,48,4685,105,4683,110,4545,53"/>
+<area shape="rect" id="Node000022" href="$isothermalFluid_2correctPressure_8C.html" title=" " alt="" coords="4887,115,5133,155"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="4610,41,4738,62,4876,91,4954,113,4953,118,4875,96,4737,68,4609,46"/>
+<area shape="rect" id="Node000023" href="$isothermalFluid_2setRDeltaT_8C.html" title=" " alt="" coords="5158,115,5374,155"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="4609,28,4723,35,4858,47,5003,65,5147,91,5220,113,5218,118,5145,96,5002,70,4858,52,4723,40,4609,33"/>
+<area shape="rect" id="Node000024" href="$cellPressureCorrector_8C.html" title=" " alt="" coords="5399,108,5613,163"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="4609,23,4765,27,4960,37,5174,57,5282,72,5387,91,5440,105,5438,111,5385,96,5281,77,5173,62,4960,42,4765,32,4609,29"/>
+<area shape="rect" id="Node000025" href="$facePressureCorrector_8C.html" title=" " alt="" coords="5637,108,5857,163"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="4609,27,4847,35,5140,48,5422,66,5538,78,5627,91,5681,105,5679,111,5625,96,5537,83,5421,71,5140,53,4847,40,4609,32"/>
+<area shape="rect" id="Node000026" href="$dispersedLiftModel_8C.html" title=" " alt="" coords="5881,101,6171,170"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="4609,27,5258,47,5612,66,5759,78,5870,91,5909,98,5908,103,5870,96,5758,83,5612,71,5258,53,4609,32"/>
+<area shape="rect" id="Node000027" href="$dispersedWallLubricationModel_8C.html" title=" " alt="" coords="6195,93,6471,177"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="4609,25,4953,30,5408,42,5856,61,6042,75,6184,91,6195,93,6194,98,6183,96,6042,80,5856,67,5408,47,4953,36,4609,31"/>
+<area shape="rect" id="Node000028" href="$momentumTransferSystem_8C.html" title=" " alt="" coords="6495,101,6829,170"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="4609,25,5008,30,5549,41,6089,61,6313,74,6484,91,6528,98,6527,103,6483,96,6313,80,6089,66,5549,47,5008,35,4609,30"/>
+<area shape="rect" id="Node000029" href="$MovingPhaseModel_8C.html" title=" " alt="" coords="6854,101,7097,170"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="4609,26,5811,47,6463,66,6701,78,6842,91,6877,98,6876,103,6842,96,6701,83,6463,71,5811,52,4609,31"/>
+<area shape="rect" id="Node000030" href="$phaseSystemSolve_8C.html" title=" " alt="" coords="7121,108,7376,163"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="4609,25,5168,32,5946,45,6681,65,6950,77,7109,91,7173,105,7171,111,7108,96,6950,82,6681,70,5946,51,5168,38,4609,31"/>
+<area shape="rect" id="Node000031" href="$twoPhaseSolver_2alphaPredictor_8C.html" title=" " alt="" coords="7401,115,7641,155"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="4609,25,5221,30,6088,42,6910,62,7211,75,7389,91,7432,100,7472,113,7471,118,7431,105,7388,96,7211,80,6910,67,6088,48,5221,36,4609,30"/>
+<area shape="rect" id="Node000032" href="$twoPhaseSolver_2pressureCorrector_8C.html" title=" " alt="" coords="7665,115,7928,155"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="4609,25,5271,30,6220,42,7125,62,7457,75,7653,91,7700,100,7743,113,7742,118,7698,105,7652,96,7457,80,7125,67,6220,47,5271,35,4609,30"/>
+<area shape="rect" id="Node000033" href="$momentumTransportModel_8C.html" title=" " alt="" coords="7953,108,8179,163"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="4609,24,5324,27,6364,37,6891,45,7360,57,7725,72,7855,81,7941,91,7999,105,7997,110,7940,96,7854,86,7725,77,7360,62,6891,51,6364,42,5324,33,4609,30"/>
+<area shape="rect" id="Node000034" href="$fvc_8H.html" title=" " alt="" coords="8203,115,8417,155"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="4609,24,5371,25,6490,34,7058,42,7564,54,7959,70,8099,80,8192,91,8231,100,8267,113,8265,118,8229,105,8191,96,8098,85,7959,75,7564,59,7058,47,6490,39,5371,31,4609,29"/>
+<area shape="rect" id="Node000035" href="$fvcFluxTemplates_8C.html" title=" " alt="" coords="8441,115,8654,155"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="4609,24,5413,24,6607,32,7215,40,7757,52,8180,68,8330,79,8429,91,8468,100,8504,113,8502,118,8466,105,8428,96,8329,84,8180,74,7757,57,7215,45,6607,37,5413,30,4609,29"/>
+<area shape="rect" id="Node000036" href="$energyFlux_8C.html" title=" " alt="" coords="8678,115,8899,155"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="4609,24,5456,24,6725,31,7372,39,7950,51,8401,68,8560,78,8666,91,8706,100,8744,113,8742,118,8705,105,8666,96,8560,84,8401,73,7950,56,7372,44,6725,36,5456,29,4609,29"/>
+<area shape="rect" id="Node000037" href="$specieFlux_8C.html" title=" " alt="" coords="8924,115,9139,155"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="4609,25,5541,32,6936,45,8244,65,8692,77,8835,84,8912,91,8951,100,8987,113,8986,118,8949,105,8911,96,8835,89,8692,83,8244,70,6936,51,5541,37,4609,30"/>
+<area shape="rect" id="Node000038" href="$scalarTransport_8C.html" title=" " alt="" coords="9163,108,9339,163"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="4609,24,5586,29,7061,41,7801,50,8445,61,8920,75,9071,82,9152,91,9198,105,9197,110,9151,96,9070,88,8919,80,8445,66,7801,55,7061,47,5586,35,4609,30"/>
+</map>

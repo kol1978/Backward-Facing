@@ -1,0 +1,37 @@
+<map id="LUscalarMatrix" name="LUscalarMatrix">
+<area shape="rect" id="Node000001" title="Construct from lduMatrix and perform LU decomposition." alt="" coords="5,401,125,427"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="225,5,320,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,401,64,337,76,240,89,186,109,133,136,83,172,40,190,27,211,20,213,25,192,32,175,44,140,86,114,135,94,188,82,241,70,337,69,401"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#acf61876860b10a79aff95e52dd0c533f" title="Process index of first slave." alt="" coords="173,55,372,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="64,401,68,344,82,260,96,214,114,169,139,126,171,89,176,85,180,89,175,93,144,129,119,171,101,216,87,262,73,345,69,401"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#a6ba6de79b96f3b7f2d987b2b657f47e1" title="Process index of last slave." alt="" coords="173,104,372,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="65,400,73,353,91,285,105,248,123,211,145,177,172,147,191,133,194,137,175,151,149,180,127,214,110,250,96,287,78,354,71,401"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="431,129,612,155"/>
+<area shape="poly" id="edge15_Node000001_Node000006" title=" " alt="" coords="66,400,75,359,94,301,125,241,146,213,172,190,214,172,276,159,416,144,417,149,277,164,216,177,175,195,150,217,130,244,99,303,80,360,71,401"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#a4c90a8a26de44c9bed71aef2138ce997" title="LU decompose the matrix with pivoting." alt="" coords="193,229,353,255"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="70,400,106,334,135,296,172,264,182,258,185,262,175,268,139,300,110,337,75,402"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Matrix.html#a910305ebc963132f09b276357a5a6da0" title="Return the number of rows." alt="" coords="208,279,337,304"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="75,399,114,357,142,333,172,313,194,303,196,308,175,318,145,337,118,361,79,403"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#ac0f58a26bf5c19be228c3c249e104eb0" title=" " alt="" coords="225,352,320,377"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="119,399,211,376,213,382,120,404"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="181,401,365,427"/>
+<area shape="poly" id="edge10_Node000001_Node000022" title=" " alt="" coords="126,411,167,411,167,417,126,417"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1UPstream.html#a30260fa445b5e3e14a9042269664adde" title="Process index of the master." alt="" coords="420,427,623,452"/>
+<area shape="poly" id="edge12_Node000001_Node000023" title=" " alt="" coords="110,424,174,437,293,444,406,443,406,449,293,450,173,442,109,429"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPstream.html#a54a2c5e7def88e6f81d1f0588004de2c" title="Message tag of standard messages." alt="" coords="175,503,371,528"/>
+<area shape="poly" id="edge13_Node000001_Node000024" title=" " alt="" coords="85,425,125,452,174,481,212,496,210,501,172,486,122,457,82,429"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1Matrix.html#a8a840ce72ef06572aff1f3e950889757" title="Return the number of columns." alt="" coords="211,552,335,577"/>
+<area shape="poly" id="edge14_Node000001_Node000025" title=" " alt="" coords="76,425,113,481,141,512,175,538,198,549,196,554,172,543,138,516,109,484,71,428"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1Matrix.html#ad45f0c48fdd6db7dd8a366abed87cc32" title="Return subscript&#45;checked row of Matrix." alt="" coords="182,601,363,627"/>
+<area shape="poly" id="edge16_Node000001_Node000026" title=" " alt="" coords="73,426,85,459,106,503,136,549,154,570,175,588,183,593,180,597,172,592,151,574,132,552,102,506,80,461,68,428"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#ad2750efe0594a0466b9015f0c30175d9" title="Is this a parallel run?" alt="" coords="181,651,365,676"/>
+<area shape="poly" id="edge17_Node000001_Node000020" title=" " alt="" coords="71,426,81,468,100,525,130,586,151,613,175,637,181,642,178,646,172,641,147,617,126,589,95,527,76,469,66,428"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1List.html#aedb985ffeaf1bdbfeccc2a8730405703" title="Reset size of List." alt="" coords="201,700,345,725"/>
+<area shape="poly" id="edge18_Node000001_Node000027" title=" " alt="" coords="70,426,77,475,93,546,107,584,125,622,147,657,175,687,189,696,186,701,172,691,143,660,120,624,102,586,88,547,71,476,65,427"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1Matrix.html#a93d40b8a05883de27dab00922c927120" title="Transfer the contents of the argument Matrix into this Matrix." alt="" coords="189,749,356,775"/>
+<area shape="poly" id="edge19_Node000001_Node000030" title=" " alt="" coords="69,427,73,483,87,567,101,613,119,658,144,700,175,736,180,740,176,744,171,740,139,703,114,660,96,615,82,568,68,484,64,427"/>
+<area shape="poly" id="edge4_Node000005_Node000006" title=" " alt="" coords="373,124,417,129,417,134,372,129"/>
+<area shape="poly" id="edge6_Node000007_Node000007" title=" " alt="" coords="239,231,232,221,235,211,249,205,273,203,301,206,313,215,309,220,299,211,273,208,251,210,239,215,237,220,243,228"/>
+<area shape="poly" id="edge9_Node000010_Node000010" title=" " alt="" coords="239,354,232,344,235,334,249,328,273,325,301,329,313,338,309,342,299,334,273,331,251,333,239,337,237,343,243,350"/>
+<area shape="poly" id="edge11_Node000022_Node000023" title=" " alt="" coords="365,421,407,425,406,430,365,426"/>
+</map>

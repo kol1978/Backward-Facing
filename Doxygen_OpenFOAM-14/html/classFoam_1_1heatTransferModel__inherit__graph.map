@@ -1,0 +1,17 @@
+<map id="heatTransferModel" name="heatTransferModel">
+<area shape="rect" id="Node000001" title="Model for heat transfer between phases." alt="" coords="151,129,293,155"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1heatTransferModels_1_1Gunn.html" title="Gunn (1978) correlation for fixed and fluidised beds with Re &lt; 10^5 and continuous phase fraction bet..." alt="" coords="423,5,479,31"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="242,117,285,77,311,57,340,40,382,25,422,18,423,23,384,30,342,44,314,61,288,81,246,121"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1heatTransferModels_1_1Prandtl.html" title="This simple model creates a heat transfer coefficient in proportion with the corresponding drag model..." alt="" coords="417,55,485,80"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="261,121,341,89,416,70,417,76,342,94,263,126"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1heatTransferModels_1_1RanzMarshall.html" title="Ranz&#45;Marshall correlation for turbulent heat transfer from the surface of a sphere to the surrounding..." alt="" coords="395,104,506,129"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="307,130,395,120,396,125,307,135"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1heatTransferModels_1_1constantNuHeatTransfer.html" title="Model which applies a user provided constant Nusselt number for interfacial heat transfer." alt="" coords="361,153,540,179"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="307,148,361,154,361,159,307,154"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1heatTransferModels_1_1sphericalHeatTransfer.html" title="Model which applies an analytical solution for heat transfer from the surface of a sphere to the matt..." alt="" coords="369,203,533,228"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="263,158,342,189,384,200,382,205,340,194,262,163"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1heatTransferModels_1_1timeScaleFilteredHeatTransfer.html" title=" " alt="" coords="341,252,560,277"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="246,163,288,202,314,222,342,238,372,249,370,254,340,243,312,226,285,206,242,167"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1regIOobject.html" title="regIOobject is an abstract class derived from IOobject to handle automatic object registration with t..." alt="" coords="5,129,103,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,139,150,139,150,145,116,145"/>
+</map>

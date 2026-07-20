@@ -1,0 +1,4 @@
+var LaakkonenDaughterSizeDistribution_8H =
+[
+    [ "LaakkonenDaughterSizeDistribution", "classFoam_1_1populationBalance_1_1daughterSizeDistributionModels_1_1LaakkonenDaughterSizeDistribution.html", "classFoam_1_1populationBalance_1_1daughterSizeDistributionModels_1_1LaakkonenDaughterSizeDistribution" ]
+];

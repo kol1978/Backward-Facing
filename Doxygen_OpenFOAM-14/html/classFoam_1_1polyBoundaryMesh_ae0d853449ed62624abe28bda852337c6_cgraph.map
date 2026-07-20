@@ -1,0 +1,27 @@
+<map id="checkParallelSync" name="checkParallelSync">
+<area shape="rect" id="Node000001" title="Check whether all procs have all patches and in same order. Return." alt="" coords="5,145,144,170"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="491,21,586,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,144,97,118,121,86,153,54,191,30,227,17,266,9,343,3,416,7,478,17,477,22,416,12,343,8,266,14,229,22,193,35,156,58,125,89,101,121,85,146"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="193,70,387,96"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="101,142,191,105,216,97,218,102,193,110,103,147"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="436,70,641,96"/>
+<area shape="poly" id="edge8_Node000001_Node000014" title=" " alt="" coords="84,143,126,97,156,73,191,55,245,41,288,41,388,55,464,65,463,71,388,60,288,46,245,47,193,60,159,78,130,101,88,147"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="448,120,629,145"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="144,158,258,159,388,154,458,145,459,150,388,159,259,164,144,163"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#ad2750efe0594a0466b9015f0c30175d9" title="Is this a parallel run?" alt="" coords="447,169,631,194"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="103,168,144,185,193,199,262,207,333,207,401,202,459,194,460,199,401,207,334,212,262,212,191,204,142,190,100,173"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="198,272,382,297"/>
+<area shape="poly" id="edge7_Node000001_Node000029" title=" " alt="" coords="90,169,134,208,193,250,227,265,225,270,191,255,130,212,87,172"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1Pstream.html#a23c38ee54f04c9d53a327db9edbdb7f0" title="Scatter data. Reverse of gatherList." alt="" coords="192,120,388,145"/>
+<area shape="poly" id="edge11_Node000001_Node000031" title=" " alt="" coords="144,147,178,143,179,148,145,152"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1List.html#aedb985ffeaf1bdbfeccc2a8730405703" title="Reset size of List." alt="" coords="218,321,362,346"/>
+<area shape="poly" id="edge16_Node000001_Node000032" title=" " alt="" coords="84,169,124,236,155,275,194,308,206,315,204,319,190,312,151,279,119,239,80,172"/>
+<area shape="poly" id="edge3_Node000004_Node000002" title=" " alt="" coords="354,68,478,43,479,48,355,73"/>
+<area shape="poly" id="edge4_Node000004_Node000014" title=" " alt="" coords="387,80,422,80,422,86,387,86"/>
+<area shape="poly" id="edge5_Node000004_Node000015" title=" " alt="" coords="355,93,461,114,460,120,354,98"/>
+<area shape="poly" id="edge6_Node000004_Node000013" title=" " alt="" coords="363,93,389,105,405,117,414,130,423,143,437,154,454,162,451,167,435,159,419,146,410,133,401,121,387,109,361,98"/>
+<area shape="poly" id="edge12_Node000031_Node000002" title=" " alt="" coords="358,117,387,105,401,93,410,81,419,68,435,55,477,39,478,44,437,60,423,71,414,84,405,97,389,109,360,122"/>
+<area shape="poly" id="edge13_Node000031_Node000014" title=" " alt="" coords="354,117,460,96,461,101,355,122"/>
+<area shape="poly" id="edge14_Node000031_Node000015" title=" " alt="" coords="388,130,434,130,434,135,388,135"/>
+<area shape="poly" id="edge15_Node000031_Node000013" title=" " alt="" coords="355,142,461,164,460,169,354,148"/>
+</map>
