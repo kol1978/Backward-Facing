@@ -1,0 +1,57 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFoam_1_1cloudLagrangianModel.html" title="Mix&#45;in for Lagrangian models that refer to a cloud." alt="" coords="148,243,317,268"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1Lagrangian_1_1SaffmanMeiLift.html" title="Lift model of Saffman (1965) as extended by Mei (1992). Applicable to spherical particles." alt="" coords="418,243,538,268"/>
+<area shape="poly" id="edge3436_Node000000_Node000001" title=" " alt="" coords="331,253,418,253,418,258,331,258"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1Lagrangian_1_1collisionPhaseTransfer.html" title="Model to represent the absorption of droplets or bubbles into a corresponding Eulerian phase as a res..." alt="" coords="657,143,823,168"/>
+<area shape="poly" id="edge3437_Node000000_Node000020" title=" " alt="" coords="238,228,253,184,278,129,314,76,338,53,364,34,423,9,450,4,475,3,529,13,592,34,636,56,676,86,730,141,726,144,672,90,633,61,590,39,527,18,475,8,450,9,425,14,367,39,341,57,319,79,283,132,258,186,243,230"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Lagrangian_1_1constantCoefficientVirtualMass.html" title="Constant&#45;coefficient virtual mass model." alt="" coords="365,292,591,317"/>
+<area shape="poly" id="edge3438_Node000000_Node000003" title=" " alt="" coords="311,268,414,289,413,295,309,274"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1Lagrangian_1_1constantFluxCarrierTransfer.html" title="Model to represent mass transfer into the carrier phase with a constant surface volume or mass flux...." alt="" coords="639,403,841,428"/>
+<area shape="poly" id="edge3439_Node000000_Node000021" title=" " alt="" coords="242,229,260,194,287,154,321,115,364,85,427,57,455,48,483,44,510,45,537,51,564,65,592,85,609,102,620,119,631,154,630,191,623,228,616,265,612,303,619,341,628,359,641,378,655,391,673,400,671,405,652,395,637,381,623,362,614,342,607,303,610,265,618,227,625,190,626,155,616,121,605,105,589,89,561,69,535,56,509,50,483,49,457,54,429,62,367,90,325,119,291,157,265,197,247,232"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Lagrangian_1_1drag.html" title="Base class for Lagrangian drag models." alt="" coords="453,539,503,564"/>
+<area shape="poly" id="edge3440_Node000000_Node000004" title=" " alt="" coords="260,276,291,311,320,353,330,379,335,403,336,447,341,486,350,506,367,525,387,538,409,546,453,550,452,556,408,551,384,543,364,529,346,509,336,488,331,447,330,404,325,380,315,355,287,314,256,280"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Lagrangian_1_1gravity.html" title="Gravity force model." alt="" coords="444,391,512,416"/>
+<area shape="poly" id="edge3443_Node000000_Node000007" title=" " alt="" coords="254,277,301,329,332,355,367,377,406,391,444,398,443,404,404,397,364,382,329,359,298,332,250,281"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Lagrangian_1_1heatTransfer.html" title="Base class for Lagrangian heat transfer models." alt="" coords="427,341,529,367"/>
+<area shape="poly" id="edge3444_Node000000_Node000008" title=" " alt="" coords="265,273,311,302,366,328,427,344,426,349,364,333,309,306,262,278"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1Lagrangian_1_1patchInjection.html" title="Patch injection model. This injects particles continuously at a patch with a given number rate...." alt="" coords="683,575,797,600"/>
+<area shape="poly" id="edge3446_Node000000_Node000016" title=" " alt="" coords="249,230,296,176,328,150,364,130,429,105,485,91,511,91,538,97,565,110,593,131,605,146,613,166,622,217,623,278,620,345,617,412,617,475,624,526,631,546,641,562,660,576,683,583,682,588,657,581,637,565,626,549,619,527,612,475,612,412,615,345,618,278,617,217,608,168,600,149,589,135,562,114,536,102,511,96,485,97,430,110,366,135,331,155,299,180,253,233"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1Lagrangian_1_1pressureGradientForce.html" title="Pressure gradient force model." alt="" coords="393,144,563,169"/>
+<area shape="poly" id="edge3447_Node000000_Node000010" title=" " alt="" coords="263,233,309,206,364,180,406,167,408,172,366,185,312,210,265,238"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Lagrangian_1_1pressureWork.html" title="Model for pressure work. Subtracts the pressure&#45;volume work associated with particle expansion from t..." alt="" coords="423,193,533,219"/>
+<area shape="poly" id="edge3448_Node000000_Node000011" title=" " alt="" coords="309,237,422,214,423,220,310,243"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1Lagrangian_1_1turbulentDispersion.html" title="Model for turbulent dispersion. This model creates a random turbulent velocity fluctuation based on t..." alt="" coords="403,440,553,465"/>
+<area shape="poly" id="edge3449_Node000000_Node000012" title=" " alt="" coords="257,277,320,353,333,375,340,394,350,410,367,427,404,443,402,448,364,431,345,414,336,396,328,377,315,356,253,280"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1Lagrangian_1_1GidaspowErgunWenYuDrag.html" title="Drag model of Gidaspow which switches between the drag models of Ergun and Wen and Yu at different pa..." alt="" coords="641,525,839,551"/>
+<area shape="poly" id="edge3441_Node000004_Node000005" title=" " alt="" coords="517,547,641,540,641,546,517,552"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1Lagrangian_1_1SchillerNaumannDrag.html" title="Drag model of Schiller and Naumann for spherical particles in a turbulent carrier flow." alt="" coords="658,476,822,501"/>
+<area shape="poly" id="edge3442_Node000004_Node000006" title=" " alt="" coords="516,541,590,525,638,512,687,499,688,504,639,517,591,530,518,547"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Lagrangian_1_1RanzMarshallHeatTransfer.html" title="Heat transfer model of Ranz and Marshall for spherical particles in a turbulent carrier flow." alt="" coords="643,341,837,367"/>
+<area shape="poly" id="edge3445_Node000008_Node000009" title=" " alt="" coords="543,351,643,351,643,357,543,357"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1stateModel.html" title="Base class for models with state." alt="" coords="5,365,100,391"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1LagrangianModel.html" title="Base class for Lagrangian models." alt="" coords="165,365,300,391"/>
+<area shape="poly" id="edge3450_Node000022_Node000002" title=" " alt="" coords="114,375,165,375,165,381,114,381"/>
+<area shape="poly" id="edge3451_Node000002_Node000001" title=" " alt="" coords="256,354,303,315,364,278,417,262,419,267,366,283,306,319,259,358"/>
+<area shape="poly" id="edge3452_Node000002_Node000003" title=" " alt="" coords="277,358,365,328,414,315,415,320,366,333,279,363"/>
+<area shape="poly" id="edge3453_Node000002_Node000004" title=" " alt="" coords="250,401,297,464,329,498,367,525,388,535,411,542,453,548,452,553,410,547,386,540,364,530,326,502,293,468,246,404"/>
+<area shape="poly" id="edge3454_Node000002_Node000007" title=" " alt="" coords="314,384,444,397,444,403,313,389"/>
+<area shape="poly" id="edge3455_Node000002_Node000008" title=" " alt="" coords="313,368,426,356,427,362,314,373"/>
+<area shape="poly" id="edge3456_Node000002_Node000010" title=" " alt="" coords="255,353,285,319,315,279,328,252,334,227,343,203,364,180,392,165,394,169,367,184,348,206,340,228,333,253,320,282,289,323,259,357"/>
+<area shape="poly" id="edge3457_Node000002_Node000011" title=" " alt="" coords="252,353,364,229,392,217,422,209,423,214,394,222,367,234,256,357"/>
+<area shape="poly" id="edge3458_Node000002_Node000012" title=" " alt="" coords="277,394,366,426,410,437,408,443,365,431,275,399"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1LagrangianInjection.html" title="Base class for Lagrangian injections. Minimal wrapper over LagrangianSource. Implements some utility ..." alt="" coords="403,648,553,673"/>
+<area shape="poly" id="edge3459_Node000002_Node000013" title=" " alt="" coords="249,402,297,483,330,530,367,575,414,616,457,646,454,650,410,620,363,579,326,533,292,485,245,404"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1LagrangianSource.html" title="Base class for Lagrangian sources. Minimal wrapper over LagrangianModel that provides an interface to..." alt="" coords="409,489,547,515"/>
+<area shape="poly" id="edge3465_Node000002_Node000019" title=" " alt="" coords="258,398,306,438,335,459,366,476,409,490,408,495,364,481,333,463,303,443,255,402"/>
+<area shape="poly" id="edge3462_Node000013_Node000016" title=" " alt="" coords="532,641,638,610,686,598,687,603,639,615,534,647"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1Lagrangian_1_1diskInjection.html" title="Disk injection model. This injects particles continuously over a disk with a given number rate...." alt="" coords="687,624,793,649"/>
+<area shape="poly" id="edge3460_Node000013_Node000014" title=" " alt="" coords="567,650,687,639,687,644,568,655"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Lagrangian_1_1manualInjection.html" title="Manual injection model. This injects particles instantaneously at a list of positions specified in a ..." alt="" coords="677,673,803,699"/>
+<area shape="poly" id="edge3461_Node000013_Node000015" title=" " alt="" coords="567,667,677,677,676,683,567,672"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1Lagrangian_1_1pointInjection.html" title="Point injection model. This injects particles continuously at a point with a given number rate...." alt="" coords="685,723,795,748"/>
+<area shape="poly" id="edge3463_Node000013_Node000017" title=" " alt="" coords="531,675,639,709,685,721,684,726,638,714,529,680"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1Lagrangian_1_1volumeInjection.html" title="Volume injection model. This injects particles instantaneously within the volume of a set of cells...." alt="" coords="677,772,803,797"/>
+<area shape="poly" id="edge3464_Node000013_Node000018" title=" " alt="" coords="508,680,567,720,640,758,677,771,675,776,638,763,564,724,505,684"/>
+<area shape="poly" id="edge3466_Node000019_Node000020" title=" " alt="" coords="559,493,589,476,604,459,613,443,621,410,624,373,636,329,685,235,728,167,732,170,690,238,641,331,629,374,626,411,618,445,608,463,592,480,562,497"/>
+<area shape="poly" id="edge3467_Node000019_Node000021" title=" " alt="" coords="560,484,590,476,656,451,711,426,714,431,658,456,591,481,562,489"/>
+</map>

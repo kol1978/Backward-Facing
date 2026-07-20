@@ -1,0 +1,4 @@
+var nutAtmosphericBoundaryLayerWallFunctionFvPatchScalarField_8H =
+[
+    [ "nutAtmosphericBoundaryLayerWallFunctionFvPatchScalarField", "classFoam_1_1nutAtmosphericBoundaryLayerWallFunctionFvPatchScalarField.html", "classFoam_1_1nutAtmosphericBoundaryLayerWallFunctionFvPatchScalarField" ]
+];

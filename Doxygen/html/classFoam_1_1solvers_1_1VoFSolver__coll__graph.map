@@ -1,0 +1,31 @@
+<map id="VoFSolver" name="VoFSolver">
+<area shape="rect" id="Node000001" title="Base solver module base&#45;class for the solution of immiscible fluids using a VOF (volume of fluid) pha..." alt="" coords="1131,337,1217,362"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solvers_1_1basicFluidSolver.html" title="Base solver module for fluid solvers." alt="" coords="806,9,935,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="947,5,988,3,1030,6,1072,18,1108,41,1125,64,1138,98,1158,185,1169,274,1175,337,1169,337,1164,275,1152,186,1133,99,1120,66,1105,45,1070,23,1029,12,987,8,947,10"/>
+<area shape="rect" id="Node000063" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="762,58,979,84"/>
+<area shape="poly" id="edge2_Node000001_Node000063" title=" " alt="" coords="993,58,1024,62,1054,70,1083,82,1109,100,1122,118,1134,144,1153,213,1174,336,1168,337,1148,214,1129,146,1117,120,1105,104,1080,87,1053,75,1023,68,993,64"/>
+<area shape="rect" id="Node000064" href="$classFoam_1_1VoFMixture.html" title="VoF mixture." alt="" coords="823,108,919,133"/>
+<area shape="poly" id="edge3_Node000001_Node000064" title=" " alt="" coords="933,120,975,126,1022,137,1068,156,1109,185,1137,223,1156,265,1168,306,1174,336,1168,337,1163,307,1151,267,1133,225,1105,189,1066,161,1021,142,974,131,932,125"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1word.html" title="A class for handling words, derived from string." alt="" coords="843,196,898,221"/>
+<area shape="poly" id="edge4_Node000001_Node000017" title=" " alt="" coords="912,201,955,200,1006,204,1059,215,1108,238,1132,260,1151,287,1171,336,1167,338,1146,290,1128,264,1105,243,1057,220,1005,209,955,205,912,207"/>
+<area shape="poly" id="edge5_Node000017_Node000017" title=" " alt="" coords="834,183,844,173,871,169,892,171,905,178,908,188,900,198,896,195,902,187,901,181,890,176,871,174,846,178,838,187"/>
+<area shape="rect" id="Node000065" href="$classFoam_1_1GeometricField.html" title=" " alt="" coords="544,298,736,324"/>
+<area shape="poly" id="edge6_Node000001_Node000065" title=" " alt="" coords="750,316,1131,344,1130,349,749,322"/>
+<area shape="rect" id="Node000071" href="$classFoam_1_1GeometricField.html" title="Generic GeometricField class." alt="" coords="5,291,205,331"/>
+<area shape="poly" id="edge12_Node000001_Node000071" title=" " alt="" coords="219,289,229,288,441,272,606,268,771,276,982,298,1045,306,1107,320,1146,334,1144,339,1106,326,1044,311,981,303,770,282,606,273,441,278,230,294,219,295"/>
+<area shape="poly" id="edge7_Node000065_Node000071" title=" " alt="" coords="219,308,544,308,544,314,219,314"/>
+<area shape="rect" id="Node000074" href="$classFoam_1_1GeometricField.html" title=" " alt="" coords="329,376,520,401"/>
+<area shape="poly" id="edge9_Node000074_Node000071" title=" " alt="" coords="170,333,230,352,330,373,329,378,229,358,169,338"/>
+<area shape="poly" id="edge8_Node000001_Node000074" title=" " alt="" coords="534,385,741,380,981,368,1130,353,1131,358,982,374,742,386,534,390"/>
+<area shape="rect" id="Node000077" href="$classFoam_1_1solvers_1_1buoyancy.html" title="Buoyancy related data for the Foam::solvers::isothermalFluid solver module when solving buoyant cases..." alt="" coords="828,437,913,462"/>
+<area shape="poly" id="edge11_Node000077_Node000074" title=" " alt="" coords="456,407,497,430,545,448,622,461,700,463,771,460,828,454,828,459,771,465,700,469,621,466,543,454,495,435,454,411"/>
+<area shape="poly" id="edge10_Node000001_Node000077" title=" " alt="" coords="927,451,968,451,1014,446,1061,436,1105,419,1124,407,1140,391,1163,361,1167,364,1144,395,1127,411,1108,424,1063,442,1015,452,968,456,927,456"/>
+<area shape="rect" id="Node000079" href="$classFoam_1_1MRFZones.html" title="MRF zones DemandDrivenMeshObject read from MRFProperties dictionary." alt="" coords="825,486,916,512"/>
+<area shape="poly" id="edge13_Node000001_Node000079" title=" " alt="" coords="930,503,972,504,1018,500,1063,489,1105,469,1130,445,1148,415,1167,362,1172,363,1153,418,1134,448,1108,473,1065,494,1018,506,972,510,930,509"/>
+<area shape="rect" id="Node000094" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="773,536,969,576"/>
+<area shape="poly" id="edge14_Node000001_Node000094" title=" " alt="" coords="960,576,997,579,1035,577,1072,569,1105,552,1126,532,1141,508,1153,482,1161,454,1169,401,1170,362,1176,363,1174,402,1166,455,1158,484,1146,511,1130,535,1108,556,1074,574,1036,583,997,584,960,581"/>
+<area shape="rect" id="Node000095" href="$classFoam_1_1tmp.html" title=" " alt="" coords="760,601,981,626"/>
+<area shape="poly" id="edge15_Node000001_Node000095" title=" " alt="" coords="932,626,975,632,1020,632,1065,622,1086,613,1105,601,1118,584,1130,558,1149,488,1162,415,1169,362,1174,363,1167,416,1154,490,1135,560,1123,587,1108,605,1089,618,1067,627,1021,637,974,637,932,632"/>
+<area shape="rect" id="Node000097" href="$classFoam_1_1tmp.html" title=" " alt="" coords="782,650,959,676"/>
+<area shape="poly" id="edge16_Node000001_Node000097" title=" " alt="" coords="928,676,971,683,1018,684,1065,675,1086,666,1105,653,1120,632,1133,600,1153,514,1164,425,1169,362,1175,363,1169,425,1158,514,1138,601,1125,635,1109,657,1088,671,1066,680,1019,689,971,688,927,681"/>
+</map>

@@ -1,0 +1,28 @@
+var classFoam_1_1RASModels_1_1kOmega2006 =
+[
+    [ "alphaField", "classFoam_1_1RASModels_1_1kOmega2006.html#a002e1eb4b5d44a78ef0350be348bd889", null ],
+    [ "rhoField", "classFoam_1_1RASModels_1_1kOmega2006.html#afd540dbb856dc705381e40a16b2ca26a", null ],
+    [ "kOmega2006", "classFoam_1_1RASModels_1_1kOmega2006.html#ac5058daa710b45581961d9ac365496ce", null ],
+    [ "~kOmega2006", "classFoam_1_1RASModels_1_1kOmega2006.html#a37ff9b0922932fdaffa813e871d291ca", null ],
+    [ "boundOmega", "classFoam_1_1RASModels_1_1kOmega2006.html#a14d6bb040e3c390443ded862751a15a6", null ],
+    [ "correctNut", "classFoam_1_1RASModels_1_1kOmega2006.html#aaffe89433f18f1ee4137486e19219448", null ],
+    [ "kSource", "classFoam_1_1RASModels_1_1kOmega2006.html#abd7aa1bd65c38f9773745c8d98a2fed0", null ],
+    [ "omegaSource", "classFoam_1_1RASModels_1_1kOmega2006.html#aaf8f6ba0b3a39d35811c05789df09119", null ],
+    [ "TypeName", "classFoam_1_1RASModels_1_1kOmega2006.html#ac32b1d35971848f6958cdb712f25fd4f", null ],
+    [ "read", "classFoam_1_1RASModels_1_1kOmega2006.html#af816873151ddb0126e98bb2f914d8ed5", null ],
+    [ "DkEff", "classFoam_1_1RASModels_1_1kOmega2006.html#afa968c8e26ddbc10cb14bff5ee93a069", null ],
+    [ "DomegaEff", "classFoam_1_1RASModels_1_1kOmega2006.html#a28a2dbdbf993ebc75b2743edcb71ce26", null ],
+    [ "k", "classFoam_1_1RASModels_1_1kOmega2006.html#ae56aec84727b858569546de928188628", null ],
+    [ "omega", "classFoam_1_1RASModels_1_1kOmega2006.html#ace18df5b5de542d5c89ea753efdb8762", null ],
+    [ "epsilon", "classFoam_1_1RASModels_1_1kOmega2006.html#af2dd40bec6ece3bef6f3963ca1d7f779", null ],
+    [ "correct", "classFoam_1_1RASModels_1_1kOmega2006.html#a3ae44b28050c3aa494c1d8e18cf618c1", null ],
+    [ "betaStar_", "classFoam_1_1RASModels_1_1kOmega2006.html#af4050911d62a3498c4654e23cb61589f", null ],
+    [ "beta0_", "classFoam_1_1RASModels_1_1kOmega2006.html#a88a6c59eb0d8da8cd03f3a086106d679", null ],
+    [ "gamma_", "classFoam_1_1RASModels_1_1kOmega2006.html#a98e9599e54fa5f83f63055c9389961a9", null ],
+    [ "Clim_", "classFoam_1_1RASModels_1_1kOmega2006.html#accbab597cc5b9b1d30c47ae33e08e304", null ],
+    [ "sigmaDo_", "classFoam_1_1RASModels_1_1kOmega2006.html#abc6c9ca63475673a1f28cc26af5e5aaa", null ],
+    [ "alphaK_", "classFoam_1_1RASModels_1_1kOmega2006.html#af4591c0835368dee5b1cda3f27aed342", null ],
+    [ "alphaOmega_", "classFoam_1_1RASModels_1_1kOmega2006.html#a3bdecbb44cf4063f1f80e5c3ec9344e2", null ],
+    [ "k_", "classFoam_1_1RASModels_1_1kOmega2006.html#a2166e9ffd139700fb0f21c44414e3545", null ],
+    [ "omega_", "classFoam_1_1RASModels_1_1kOmega2006.html#aa1fedc59e2c07e01eabd6ad8bf35c95f", null ]
+];

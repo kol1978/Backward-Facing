@@ -1,0 +1,35 @@
+<map id="readHeader" name="readHeader">
+<area shape="rect" id="Node000001" title="Read object header from supplied file." alt="" coords="5,313,104,338"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="700,258,795,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,312,58,266,72,202,85,167,101,134,123,105,150,81,218,41,281,16,342,4,401,5,461,18,522,42,586,75,654,117,685,145,710,179,728,214,740,244,735,246,723,216,705,182,681,148,650,121,583,79,520,47,460,23,401,11,342,10,282,21,220,46,154,85,127,108,106,137,90,169,78,203,64,267,59,313"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Pstream.html#afbdf64fb42cd760690d51a9a321792d9" title="Gather data but keep individual values separate." alt="" coords="179,233,372,258"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="77,310,151,275,202,259,203,264,153,280,79,315"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#afc74d89573de32a3032c916f8cdd1733" title="Number of this process (starting from masterNo() = 0)" alt="" coords="447,131,652,157"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="55,312,62,272,78,218,90,189,106,161,126,137,151,117,195,95,243,83,292,80,342,82,390,90,434,100,507,124,505,129,433,105,389,95,341,88,292,85,244,89,197,100,153,121,130,140,110,164,95,191,83,219,67,273,60,313"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#aada0e04d8127eda8ee95be0772754a4f" title="Number of processes in parallel run." alt="" coords="459,182,640,207"/>
+<area shape="poly" id="edge12_Node000001_Node000015" title=" " alt="" coords="61,311,95,264,120,238,151,218,187,203,224,192,302,179,377,175,445,178,445,184,377,181,302,184,225,197,188,208,153,222,124,242,99,267,65,314"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1IOobject.html#aae87c996d1cf9f84dcee2f9e9cfbb113" title="Return name of the class name read from header." alt="" coords="152,398,399,423"/>
+<area shape="poly" id="edge6_Node000001_Node000029" title=" " alt="" coords="74,336,109,360,153,383,181,392,179,397,151,388,106,365,71,340"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1UPstream.html#a36af549940a0aae3733774649594489f" title="Am I the master process." alt="" coords="183,447,367,473"/>
+<area shape="poly" id="edge7_Node000001_Node000030" title=" " alt="" coords="65,337,99,385,124,412,153,434,171,442,169,447,151,438,120,416,95,388,61,340"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1UPstream.html#a54a2c5e7def88e6f81d1f0588004de2c" title="Message tag of standard messages." alt="" coords="177,497,373,522"/>
+<area shape="poly" id="edge8_Node000001_Node000032" title=" " alt="" coords="62,337,73,368,92,408,118,449,154,483,166,491,163,495,150,488,114,453,87,411,68,370,57,339"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1IOobject.html#a51ae053ef677d6c2d35ce01b46089706" title="Return name." alt="" coords="193,546,358,571"/>
+<area shape="poly" id="edge10_Node000001_Node000033" title=" " alt="" coords="60,338,68,377,85,430,113,486,131,511,154,533,181,547,178,552,150,537,127,515,108,489,80,432,63,378,55,339"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1IOobject.html#a03e265b8edea0a6c30d02e83d1ce72d2" title="Return non&#45;constant access to the optional note." alt="" coords="197,595,354,621"/>
+<area shape="poly" id="edge11_Node000001_Node000034" title=" " alt="" coords="59,338,64,385,79,452,91,488,107,523,128,555,154,582,185,599,182,604,150,586,123,558,102,525,86,490,73,453,59,386,54,339"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1IOobject.html#acc5353ca76293212d9dba8a82c0d9a44" title="Read header." alt="" coords="447,283,651,309"/>
+<area shape="poly" id="edge13_Node000001_Node000035" title=" " alt="" coords="104,320,433,300,433,306,104,325"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1decomposedBlockData.html#a2bd4081614bfee0c9364939c04ff8524" title="Read header. Call only on master." alt="" coords="167,333,383,373"/>
+<area shape="poly" id="edge15_Node000001_Node000040" title=" " alt="" coords="105,329,154,335,154,341,104,334"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1Pstream.html#a00bc7d5a0b660cfa53523561af48def2" title="Scatter data. Distribute without modification. Reverse of gather." alt="" coords="189,131,362,157"/>
+<area shape="poly" id="edge18_Node000001_Node000041" title=" " alt="" coords="58,312,70,283,89,246,116,207,150,174,177,159,180,164,154,178,120,210,94,249,75,285,63,314"/>
+<area shape="poly" id="edge3_Node000004_Node000002" title=" " alt="" coords="372,248,686,265,686,270,372,253"/>
+<area shape="poly" id="edge4_Node000004_Node000014" title=" " alt="" coords="300,230,365,199,446,167,476,158,477,163,448,172,367,204,303,235"/>
+<area shape="poly" id="edge5_Node000004_Node000015" title=" " alt="" coords="344,230,466,207,467,213,345,235"/>
+<area shape="poly" id="edge14_Node000035_Node000002" title=" " alt="" coords="649,281,686,276,686,281,649,286"/>
+<area shape="poly" id="edge16_Node000040_Node000002" title=" " alt="" coords="383,353,513,345,583,335,651,319,685,305,715,288,718,293,687,310,653,324,584,340,514,351,384,358"/>
+<area shape="poly" id="edge17_Node000040_Node000035" title=" " alt="" coords="371,331,474,309,475,314,372,336"/>
+<area shape="poly" id="edge19_Node000041_Node000014" title=" " alt="" coords="362,141,433,141,433,147,362,147"/>
+<area shape="poly" id="edge20_Node000041_Node000015" title=" " alt="" coords="345,154,467,177,466,182,344,159"/>
+</map>

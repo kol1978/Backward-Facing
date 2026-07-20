@@ -1,0 +1,25 @@
+var classFoam_1_1sampledSurfaces_1_1patch =
+[
+    [ "patch", "classFoam_1_1sampledSurfaces_1_1patch.html#ab2b22ce1fc9fa00d1cd612c17bccf7b9", null ],
+    [ "patch", "classFoam_1_1sampledSurfaces_1_1patch.html#af70f6a236007d55d1a717fa494acdf81", null ],
+    [ "~patch", "classFoam_1_1sampledSurfaces_1_1patch.html#a2a6a6f16f58749c8ffe29c6b6039200f", null ],
+    [ "patchNames", "classFoam_1_1sampledSurfaces_1_1patch.html#a6953179e6a676e273c8f545019599e9b", null ],
+    [ "patchIndices", "classFoam_1_1sampledSurfaces_1_1patch.html#a056226b5e429f2dcbc773c81dbaa5dea", null ],
+    [ "patchStart", "classFoam_1_1sampledSurfaces_1_1patch.html#a04af4b0c0d1c26d3be797f42912627cd", null ],
+    [ "patchFaceLabels", "classFoam_1_1sampledSurfaces_1_1patch.html#ad8fac29f3d05ba601e5ec58b5ac5d74f", null ],
+    [ "TypeName", "classFoam_1_1sampledSurfaces_1_1patch.html#a2bf9afc16643e31296e23b17c078d5c5", null ],
+    [ "needsUpdate", "classFoam_1_1sampledSurfaces_1_1patch.html#aa0ea374c75eabd2f592dc4e6c3304c6b", null ],
+    [ "update", "classFoam_1_1sampledSurfaces_1_1patch.html#aa2aac016e2bf7b5bd2b271786c2791aa", null ],
+    [ "points", "classFoam_1_1sampledSurfaces_1_1patch.html#a05372debeb84d0a1e4aa76d8d1d7501f", null ],
+    [ "faces", "classFoam_1_1sampledSurfaces_1_1patch.html#a7fb70231893fc7905d150cef063f2be8", null ],
+    [ "FOR_ALL_FIELD_TYPES", "classFoam_1_1sampledSurfaces_1_1patch.html#a68c494c33b1a6998abbbf29e7cd24f69", null ],
+    [ "FOR_ALL_FIELD_TYPES", "classFoam_1_1sampledSurfaces_1_1patch.html#a28040dcfb04403a7b67725fd7f13e309", null ],
+    [ "movePoints", "classFoam_1_1sampledSurfaces_1_1patch.html#a6515a3b20e9603401422337166c347f2", null ],
+    [ "topoChange", "classFoam_1_1sampledSurfaces_1_1patch.html#a5bef3a12dde22d35b534b26c8619b722", null ],
+    [ "mapMesh", "classFoam_1_1sampledSurfaces_1_1patch.html#a9074a9be829fe8d36101bd87e4b683a6", null ],
+    [ "distribute", "classFoam_1_1sampledSurfaces_1_1patch.html#a616d67aab6d3f90d7cc5bd2a6dcaf74d", null ],
+    [ "print", "classFoam_1_1sampledSurfaces_1_1patch.html#aa61247f481294e0822e293753513bd29", null ],
+    [ "sampleField", "classFoam_1_1sampledSurfaces_1_1patch.html#abeb7eb272fb5f83394798446cb6c21fd", null ],
+    [ "sampleField", "classFoam_1_1sampledSurfaces_1_1patch.html#a122647817755f2047e8458701d9dca22", null ],
+    [ "interpolateField", "classFoam_1_1sampledSurfaces_1_1patch.html#a97e871b180530d4b46dc5ef8941bad0f", null ]
+];

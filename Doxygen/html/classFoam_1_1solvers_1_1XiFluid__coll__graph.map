@@ -1,0 +1,37 @@
+<map id="XiFluid" name="XiFluid">
+<area shape="rect" id="Node000001" title="Solver module for compressible premixed/partially&#45;premixed combustion with turbulence modelling." alt="" coords="1313,605,1380,630"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1solvers_1_1isothermalFluid.html" title="Solver module for steady or transient turbulent flow of compressible isothermal fluids with optional ..." alt="" coords="883,217,1007,242"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1020,214,1085,210,1158,215,1194,223,1230,235,1262,252,1291,276,1308,301,1321,340,1337,437,1345,536,1348,604,1343,605,1340,536,1332,438,1316,341,1303,304,1287,279,1259,257,1227,240,1193,228,1157,221,1085,216,1020,219"/>
+<area shape="rect" id="Node000068" href="$classFoam_1_1GeometricField.html" title="Generic GeometricField class." alt="" coords="5,185,205,225"/>
+<area shape="poly" id="edge17_Node000001_Node000068" title=" " alt="" coords="144,175,225,127,274,104,326,87,386,75,451,66,591,61,738,68,883,86,1019,112,1137,146,1231,184,1266,205,1291,226,1310,256,1323,301,1333,355,1340,414,1347,528,1348,604,1343,604,1342,528,1335,414,1328,356,1318,302,1305,259,1287,230,1263,209,1228,189,1136,151,1017,118,882,91,737,73,591,66,452,72,387,80,327,92,276,109,227,131,147,180"/>
+<area shape="poly" id="edge2_Node000002_Node000068" title=" " alt="" coords="219,198,478,194,632,196,786,204,883,216,882,221,785,209,632,202,478,199,219,203"/>
+<area shape="rect" id="Node000074" href="$classFoam_1_1GeometricField.html" title=" " alt="" coords="327,239,517,265"/>
+<area shape="poly" id="edge4_Node000074_Node000068" title=" " alt="" coords="219,219,335,237,335,242,219,225"/>
+<area shape="rect" id="Node000109" href="$classFoam_1_1compressibleMomentumTransportModel.html" title="Base class for single&#45;phase compressible momentum transport models." alt="" coords="541,327,785,367"/>
+<area shape="poly" id="edge15_Node000109_Node000068" title=" " alt="" coords="165,228,230,252,392,294,542,324,541,330,391,299,229,257,163,233"/>
+<area shape="poly" id="edge6_Node000001_Node000074" title=" " alt="" coords="531,259,991,304,1197,327,1291,343,1305,363,1317,393,1333,469,1343,548,1347,604,1342,605,1338,549,1328,470,1312,395,1300,366,1288,348,1197,333,990,310,531,265"/>
+<area shape="poly" id="edge3_Node000002_Node000074" title=" " alt="" coords="531,253,653,253,785,248,882,237,883,242,786,253,653,258,531,258"/>
+<area shape="rect" id="Node000104" href="$classFoam_1_1ubRhoThermo.html" title=" " alt="" coords="888,407,1001,433"/>
+<area shape="poly" id="edge5_Node000001_Node000104" title=" " alt="" coords="1015,412,1089,409,1170,409,1242,417,1270,424,1291,435,1309,453,1323,475,1340,523,1347,570,1349,605,1343,605,1342,570,1335,525,1318,477,1305,457,1288,439,1268,429,1241,422,1170,415,1089,414,1015,417"/>
+<area shape="rect" id="Node000107" href="$classFoam_1_1ubMomentumTransportModel.html" title=" " alt="" coords="838,470,1051,495"/>
+<area shape="poly" id="edge7_Node000001_Node000107" title=" " alt="" coords="1065,479,1196,487,1252,497,1291,512,1312,533,1328,558,1345,604,1340,606,1323,560,1308,536,1288,517,1250,502,1195,493,1065,485"/>
+<area shape="rect" id="Node000113" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="809,533,1080,573"/>
+<area shape="poly" id="edge8_Node000001_Node000113" title=" " alt="" coords="1094,559,1207,569,1290,584,1328,602,1325,607,1289,589,1206,575,1094,564"/>
+<area shape="rect" id="Node000114" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="827,598,1063,623"/>
+<area shape="poly" id="edge9_Node000001_Node000114" title=" " alt="" coords="1077,613,1104,613,1313,615,1313,620,1104,619,1076,618"/>
+<area shape="rect" id="Node000087" href="$classFoam_1_1IOdictionary.html" title="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..." alt="" coords="894,647,995,673"/>
+<area shape="poly" id="edge10_Node000001_Node000087" title=" " alt="" coords="1009,659,1139,656,1214,648,1289,636,1316,628,1318,633,1290,641,1215,654,1139,661,1009,664"/>
+<area shape="rect" id="Node000115" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="825,697,1065,722"/>
+<area shape="poly" id="edge11_Node000001_Node000115" title=" " alt="" coords="1078,718,1130,716,1184,710,1238,697,1288,678,1317,655,1336,628,1340,632,1321,658,1291,682,1239,703,1185,715,1130,721,1078,723"/>
+<area shape="rect" id="Node000116" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="845,746,1044,771"/>
+<area shape="poly" id="edge12_Node000001_Node000116" title=" " alt="" coords="1013,771,1076,779,1148,780,1185,776,1221,768,1256,756,1288,738,1311,714,1327,684,1336,654,1341,630,1346,631,1342,655,1332,686,1315,717,1291,742,1258,761,1223,773,1186,781,1148,786,1075,785,1012,777"/>
+<area shape="rect" id="Node000117" href="$classFoam_1_1autoPtr.html" title=" " alt="" coords="847,795,1043,821"/>
+<area shape="poly" id="edge13_Node000001_Node000117" title=" " alt="" coords="1057,818,1124,822,1192,822,1250,816,1272,810,1288,802,1306,784,1320,763,1337,714,1343,666,1343,630,1349,630,1348,666,1342,715,1324,765,1310,787,1291,806,1274,815,1251,822,1192,828,1124,827,1056,823"/>
+<area shape="poly" id="edge14_Node000001_Node000109" title=" " alt="" coords="799,342,943,342,1095,347,1222,357,1266,365,1291,375,1304,392,1315,418,1331,484,1347,604,1342,605,1326,485,1310,420,1299,395,1288,379,1264,370,1221,362,1095,352,943,348,799,347"/>
+<area shape="rect" id="Node000118" href="$classFoam_1_1PhaseThermophysicalTransportModel.html" title="Templated base class for multiphase thermophysical transport models." alt="" coords="817,845,1073,899"/>
+<area shape="poly" id="edge16_Node000001_Node000118" title=" " alt="" coords="1064,899,1121,904,1180,902,1237,888,1264,876,1287,859,1300,843,1310,818,1327,752,1337,682,1342,630,1347,631,1342,682,1332,753,1315,820,1304,846,1291,863,1266,880,1239,893,1181,907,1121,910,1063,904"/>
+<area shape="rect" id="Node000122" href="$classFoam_1_1uRhoMulticomponentThermo.html" title="Base&#45;class for combustion fluid thermodynamic properties based on compressibility." alt="" coords="839,923,1050,949"/>
+<area shape="poly" id="edge18_Node000001_Node000122" title=" " alt="" coords="1064,946,1131,949,1196,949,1252,941,1273,935,1288,926,1303,905,1315,872,1331,784,1340,694,1342,630,1348,630,1345,694,1337,785,1320,873,1307,907,1291,930,1275,940,1253,947,1197,954,1131,955,1064,951"/>
+<area shape="rect" id="Node000125" href="$classFoam_1_1bRhoMulticomponentThermo.html" title="Base&#45;class for combustion fluid thermodynamic properties based on compressibility." alt="" coords="839,973,1050,998"/>
+<area shape="poly" id="edge19_Node000001_Node000125" title=" " alt="" coords="1000,999,1065,1013,1142,1018,1182,1015,1220,1007,1256,992,1287,970,1304,945,1318,906,1327,858,1334,805,1341,701,1343,630,1348,630,1347,701,1340,806,1333,859,1323,908,1309,948,1291,974,1258,997,1222,1012,1182,1020,1142,1023,1064,1018,998,1004"/>
+</map>

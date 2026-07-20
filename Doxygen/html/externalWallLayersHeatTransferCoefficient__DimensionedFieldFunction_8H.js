@@ -1,0 +1,4 @@
+var externalWallLayersHeatTransferCoefficient__DimensionedFieldFunction_8H =
+[
+    [ "externalWallLayersHeatTransferCoefficient", "classFoam_1_1DimensionedFieldFunctions_1_1externalWallLayersHeatTransferCoefficient.html", "classFoam_1_1DimensionedFieldFunctions_1_1externalWallLayersHeatTransferCoefficient" ]
+];

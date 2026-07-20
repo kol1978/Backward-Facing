@@ -1,0 +1,32 @@
+<map id="phases" name="phases">
+<area shape="rect" id="Node000001" title="Return the phase models." alt="" coords="328,431,396,457"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1functionObjects_1_1phaseForces.html#ae006844a02161d12182ab372ca5c257b" title="Calculate the force fields." alt="" coords="57,5,228,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,418,348,336,333,228,310,125,295,86,278,59,255,43,227,32,229,27,257,38,282,55,300,83,315,124,339,227,354,335,361,417"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1multiphaseExternalTemperatureFvPatchScalarField.html#a07a0920bc5557d35bc799df81def830e" title="Get the patch kappa, sum kappa*Tc/delta, kappa/delta and." alt="" coords="29,70,256,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="359,417,358,360,347,285,337,246,323,207,303,171,278,139,255,122,258,117,282,135,308,168,328,205,342,244,353,284,363,360,364,417"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1multiphaseCoupledTemperatureFvPatchScalarField.html#a539d4669b1fa84f42cd7eeb2b91a3526" title="Get the neighbour patch sum kappa*Tc/delta and kappa/delta." alt="" coords="5,149,280,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,418,352,371,340,313,316,254,299,227,278,203,262,192,265,187,282,199,304,224,321,251,345,312,358,371,363,417"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1multiphaseCoupledTemperatureFvPatchScalarField.html#aae497d30414fdd09e7c3fcb037ee8690" title="Get the patch kappa, sum kappa*Tc/delta and kappa/delta for all." alt="" coords="5,213,280,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="354,419,345,384,331,343,309,302,278,267,261,256,264,251,282,263,313,299,336,341,350,383,359,418"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1phaseInterface.html#a0ee0eb159255deedfe48d60dc42645fa" title="Return references to the phases associated with a given name, and a." alt="" coords="61,277,224,317"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="347,420,320,374,301,351,279,332,252,318,223,309,225,304,254,313,281,327,305,347,325,371,352,417"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1phaseSystem.html#aa37a99b5522d09d10bbda5d0aa26241e" title="Returns true if the phase pressure is treated implicitly." alt="" coords="59,342,226,367"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="337,423,310,401,279,382,225,366,227,361,281,378,313,397,340,419"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1phaseInterface.html#a4fceaa6915a3d6553e129b661e65be8a" title="Split an interface name and return all its parts." alt="" coords="61,392,224,432"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="314,440,224,426,225,421,315,435"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1phaseInterface.html#a047f065709e7b0c267d467ad48b238a6" title="Convert old&#45;format interface name parts to an interface name. Used." alt="" coords="55,456,230,496"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="315,453,231,466,230,461,314,448"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1phaseSystem.html#ab64eb37c4c226f6294898e959d4628b6" title="Construct from fvMesh." alt="" coords="87,521,198,546"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="340,469,313,491,281,510,240,524,199,532,198,527,238,519,279,506,310,487,337,465"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1groupPropertyFvScalarField.html#a8fe2aa89d396271e312c78dcca9c71ae" title="Return the population balance." alt="" coords="35,571,250,611"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="352,470,324,516,305,540,281,560,251,575,249,570,279,555,301,536,320,513,347,468"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients." alt="" coords="35,635,250,690"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="359,471,350,505,335,547,313,589,282,625,252,644,249,639,278,621,308,586,330,545,345,504,353,469"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f" title="Update the coefficients." alt="" coords="35,714,250,769"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="363,471,358,520,346,582,322,647,304,677,282,703,252,724,249,720,278,699,300,674,317,645,341,581,353,519,358,471"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1functionObjects_1_1phaseMap.html#ae8f6374e29a250261b3979bbd6e5cb40" title="Write the force fields." alt="" coords="59,817,227,857"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="360,471,350,542,333,634,310,722,297,757,282,782,256,804,227,820,224,815,253,800,278,778,292,755,305,721,328,633,345,541,355,470"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1functionObjects_1_1populationBalanceSetSizeDistribution.html#ae8f6374e29a250261b3979bbd6e5cb40" title="Calculate and write the group fraction fields." alt="" coords="5,882,280,937"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="362,470,355,559,341,679,317,794,301,840,282,871,267,884,264,880,278,868,296,837,312,793,335,678,350,559,357,470"/>
+<area shape="poly" id="edge14_Node000018_Node000018" title=" " alt="" coords="180,806,167,799,143,796,122,798,109,803,104,809,107,816,102,818,99,808,106,798,120,793,143,791,168,794,182,801"/>
+</map>
