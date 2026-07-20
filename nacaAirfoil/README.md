@@ -1,0 +1,15 @@
+- nacaAirfoil
+ - большая область с профилем аэродинамического сечения вблизи центра
+ - крайне неортогональная, сильно перекошенная сетка, уточненная вокруг аэродинамического профиля
+ - скорость 1,78 Маха
+ - ограниченная поправка 0,5 для всех схем лапласиана, так как сетка очень плохая
+ - запуск до t = 0,02 с функцией nextWrite; для продолжения запуска измените на stopAt endTime
+ - значение deltaT можно увеличить до 2e-07 в процессе запуска
+===========================
+- nacaAirfoil
+  - large domain with airfoil section near centre
+  - extremely non-orthogonal, highly skew mesh refined around the airfoil
+  - running at Mach 1.78
+  - limited corrected 0.5 on all laplacianSchemes because the mesh is so poor
+  - run to t = 0.02 with nextWrite; change to stopAt endTime to continue running
+  - deltaT can be increased later in the run to 2e-07
