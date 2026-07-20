@@ -1,0 +1,26 @@
+var classFoam_1_1LBFGS =
+[
+    [ "LBFGS", "classFoam_1_1LBFGS.html#a0b9bf2d3fd643fa9a6d9596ced6e2b4e", null ],
+    [ "~LBFGS", "classFoam_1_1LBFGS.html#ad607b1f5bcdc123d96cd120c305facc9", null ],
+    [ "allocateVectors", "classFoam_1_1LBFGS.html#a38d7e48a85ac1bc007e7684bc5e5fbdb", null ],
+    [ "pivotFields", "classFoam_1_1LBFGS.html#a08d12bf27c1af974846cd6918bd14c67", null ],
+    [ "updateVectors", "classFoam_1_1LBFGS.html#a1ee5344402630efb7e8ae9a09ecf7227", null ],
+    [ "applyDamping", "classFoam_1_1LBFGS.html#a0b5ecb2384edfeafc78ee9543a2f9067", null ],
+    [ "updateHessian", "classFoam_1_1LBFGS.html#affb63d87b67372f89f3791a843b78b37", null ],
+    [ "update", "classFoam_1_1LBFGS.html#ac5c54df7ed3b930268c8d7752c101725", null ],
+    [ "invHessianVectorProduct", "classFoam_1_1LBFGS.html#ab4bc860cd28d6fdab05c1ec50098d960", null ],
+    [ "invHessianVectorProduct", "classFoam_1_1LBFGS.html#aef584c444f3aaaac8e6952af22007b1f", null ],
+    [ "HessianVectorProduct", "classFoam_1_1LBFGS.html#a3cbac4c00c80d0b3adb1564067467884", null ],
+    [ "HessianVectorProduct", "classFoam_1_1LBFGS.html#a1ab706faeddc5295c82369b1b67e21d7", null ],
+    [ "HessianDiag", "classFoam_1_1LBFGS.html#a60cdbfd412fae08a789b1f937b9d344d", null ],
+    [ "SR1HessianVectorProduct", "classFoam_1_1LBFGS.html#a449c018b53fc796efcd88779c4cf5e7d", null ],
+    [ "SR1HessianVectorProduct", "classFoam_1_1LBFGS.html#a88f3fa407c17711a2e1259aa4f79061a", null ],
+    [ "SR1HessianDiag", "classFoam_1_1LBFGS.html#ac941c01054f662f83c2a7a8876ee488e", null ],
+    [ "TypeName", "classFoam_1_1LBFGS.html#af798265fa98c5afa492f43511bc5ce3e", null ],
+    [ "writeData", "classFoam_1_1LBFGS.html#a4c658e15d7e8f5819cdc0eedbbbeb85e", null ],
+    [ "nPrevSteps_", "classFoam_1_1LBFGS.html#a7de83442760def4c76b33703fce12c97", null ],
+    [ "y_", "classFoam_1_1LBFGS.html#a040409189f1407f382214564ee954f5e", null ],
+    [ "s_", "classFoam_1_1LBFGS.html#a4f3e6707524c40b2587b15d5dc371ac2", null ],
+    [ "useSDamping_", "classFoam_1_1LBFGS.html#aa2668ca27485123911ecb19d49f9ba8e", null ],
+    [ "useYDamping_", "classFoam_1_1LBFGS.html#a65c193cdde4321755205d71f6f21a6a8", null ]
+];

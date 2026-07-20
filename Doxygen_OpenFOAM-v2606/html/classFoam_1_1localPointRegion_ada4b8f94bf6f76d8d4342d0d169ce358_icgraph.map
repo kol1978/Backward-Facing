@@ -1,0 +1,22 @@
+<map id="findDuplicateFacePairs" name="findDuplicateFacePairs">
+<area shape="rect" id="Node000001" title="Helper routine to find all baffles (two boundary faces." alt="" coords="523,255,691,281"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionConstraints_1_1preserveBaffles.html#a7eb9dd70c4d20347b6ad9132139e6cd2" title="Add my constraints to list of constraints." alt="" coords="239,5,475,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="594,244,577,203,552,153,517,102,496,79,473,59,454,48,456,43,476,55,500,76,521,99,556,150,582,201,599,242"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1decompositionConstraints_1_1preserveBaffles.html#a37f5f686855452b8a05bb30a3eef55fc" title="Apply any additional post&#45;decomposition constraints." alt="" coords="239,69,475,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="588,245,541,184,509,151,473,124,450,112,452,107,476,119,513,147,546,180,592,242"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1meshRefinement.html#ad6e302cdb3108e513a7d225fd636fe2c" title="Redecompose according to cell count." alt="" coords="268,133,445,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="573,250,527,222,474,194,426,176,428,171,476,190,530,217,576,246"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1snappySnapDriver.html#aa958f4f6d3063fa318a31ef8d8ba90e4" title="Snap onto surface &amp; features." alt="" coords="5,220,191,260"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="550,254,474,239,400,233,325,231,191,235,191,230,325,225,400,227,475,233,551,249"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1snappyLayerDriver.html#a7128b396c70bc7efe512d77ddf54be88" title="Duplicate points on faceZones with layers. Re&#45;used when adding buffer layers. Can be made private aga..." alt="" coords="262,248,451,288"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="509,271,452,271,452,265,509,265"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshRefinement.html#a478d831ffe4b33fc23131e094f1c58d0" title="Merge free&#45;standing baffles." alt="" coords="255,312,458,352"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="544,287,436,314,435,309,542,282"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1snappyLayerDriver.html#ab642416a937b9aa602f0cc73a27b2215" title="Merge patch faces on same cell. Return total number of faces/edges changed." alt="" coords="262,376,451,416"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="583,292,535,330,476,366,446,378,444,373,473,362,532,326,580,288"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1meshRefinement.html#ad4cd24cc4cc245a7614cf40462d92c80" title="Merge all baffles on faceZones." alt="" coords="268,440,445,480"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="594,295,548,362,515,399,476,430,447,445,444,440,473,426,511,395,543,359,589,292"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1displacementMeshMoverMotionSolver.html#a78a8dc311f0ab4993157828d0d3109f8" title=" " alt="" coords="241,504,472,544"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="600,295,584,338,558,392,523,447,501,472,476,494,456,506,454,502,473,490,497,468,518,444,554,389,579,336,595,293"/>
+<area shape="poly" id="edge6_Node000007_Node000006" title=" " alt="" coords="248,259,191,253,191,247,248,254"/>
+</map>

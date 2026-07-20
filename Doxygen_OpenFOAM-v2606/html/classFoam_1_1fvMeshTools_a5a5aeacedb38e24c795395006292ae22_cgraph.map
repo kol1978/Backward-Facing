@@ -1,0 +1,58 @@
+<map id="newMesh" name="newMesh">
+<area shape="rect" id="Node000001" title="Read mesh or create dummy mesh (0 cells, &gt;0 patches)." alt="" coords="5,649,89,675"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvMesh.html#a2a93f445b6d8b82bcb59540f94db1b8d" title="Add boundary patches. Constructor helper." alt="" coords="157,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,649,47,533,58,349,68,253,84,163,106,90,120,62,135,40,143,33,147,37,139,44,124,64,111,92,89,165,74,253,63,350,53,533,51,649"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1polyMesh.html#a97137f6a3e0dc65188ec229bbdb61a2b" title="Add mesh zones." alt="" coords="162,55,363,80"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="46,649,50,542,62,377,73,290,89,209,109,143,121,117,135,98,151,85,154,89,139,101,126,120,114,145,94,211,79,291,68,377,55,543,52,649"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="436,80,587,105"/>
+<area shape="poly" id="edge27_Node000001_Node000006" title=" " alt="" coords="46,649,50,550,63,396,74,316,89,242,109,182,122,159,136,141,156,128,184,117,258,102,342,94,422,90,422,96,343,99,259,107,186,122,158,133,139,145,126,162,114,184,94,244,79,317,68,397,55,550,52,649"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="181,156,344,181"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="47,649,52,558,67,420,78,348,93,282,112,228,135,191,150,179,167,172,169,176,153,184,139,194,117,230,98,283,84,349,72,421,58,559,52,649"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1fvMesh.html#aa4fb7dfe01b8c7688ec3feae973dff22" title="Return reference to boundary mesh." alt="" coords="171,205,354,231"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="47,649,54,566,70,443,82,379,96,321,114,273,135,240,157,225,160,230,139,244,119,275,101,322,87,380,75,444,59,567,52,649"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="146,255,379,280"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="47,649,56,575,73,467,99,360,116,318,135,290,140,286,143,290,139,293,121,320,104,361,78,468,61,576,53,650"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1Pstream.html#af7208025888f4a0c33ce78176c131be7" title="Broadcast multiple items to all communicator ranks. Does nothing in non&#45;parallel." alt="" coords="163,304,362,329"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="48,649,58,584,76,490,102,399,118,363,135,339,149,329,152,333,139,343,123,366,107,401,82,492,63,585,53,650"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1polyMesh.html#a950d3b2d24b2803abaf1f6c5068ea163" title="Return cell zone mesh." alt="" coords="163,353,363,379"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="46,649,49,599,61,529,72,490,87,453,108,418,136,388,149,378,152,383,139,392,113,421,92,455,77,492,66,530,54,600,51,649"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="189,403,336,428"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="47,649,53,607,67,550,93,489,112,461,136,437,154,425,175,418,177,423,157,430,139,441,116,465,98,492,72,551,58,608,52,649"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1PtrList.html#a2469c6f79d2158c2ad16e05c71ce517f" title="Make a copy by cloning each of the list elements." alt="" coords="187,452,338,477"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="49,648,57,615,74,571,99,525,116,504,136,487,154,476,173,469,175,474,156,481,139,491,120,508,104,528,79,573,62,617,54,650"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="179,525,346,551"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="54,648,85,604,109,580,136,560,165,547,167,552,139,564,112,584,90,607,58,651"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1polyMesh.html#a091fab9ec32116ddc2f5fb0a802306bc" title="Return face zone mesh." alt="" coords="160,575,365,600"/>
+<area shape="poly" id="edge14_Node000001_Node000018" title=" " alt="" coords="65,647,98,627,136,609,161,601,163,606,138,614,100,632,68,652"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UList.html#aba254b6363bbbc96e53a909aa61f651a" title="Return bool value at specified position, always false for out&#45;of&#45;range access." alt="" coords="199,624,327,649"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="89,654,184,643,185,648,90,660"/>
+<area shape="rect" id="Node000020" href="$namespaceFoam.html#aeb53e94fd0882811464b5e04683bfb5b" title="Does the name exist as a DIRECTORY in the file system?" alt="" coords="215,673,311,699"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="90,664,201,677,201,682,89,669"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="171,723,355,748"/>
+<area shape="poly" id="edge17_Node000001_Node000024" title=" " alt="" coords="70,673,101,691,138,708,169,717,167,722,136,712,99,695,67,677"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1polyMesh.html#a35bc3ae2032ce6d7dda00f90cd70414a" title="Return the local mesh directory (dbDir()/meshSubDir)" alt="" coords="167,772,359,797"/>
+<area shape="poly" id="edge18_Node000001_Node000026" title=" " alt="" coords="59,673,90,715,113,738,139,757,155,765,153,770,136,762,109,742,86,719,54,676"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1autoPtr.html#aaea33ebc504bdca5b97f88a0aea57d4e" title="Construct autoPtr with forwarding arguments." alt="" coords="187,821,338,847"/>
+<area shape="poly" id="edge19_Node000001_Node000027" title=" " alt="" coords="55,674,65,702,83,739,107,776,139,806,175,823,173,828,136,811,103,779,78,741,60,704,50,676"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1polyPatch.html#a1741756fc2a2b6260b8086d1c4f57291" title="Return pointer to a new patch created on freestore from components." alt="" coords="179,871,346,896"/>
+<area shape="poly" id="edge20_Node000001_Node000028" title=" " alt="" coords="53,674,60,711,76,761,101,813,118,836,139,856,167,871,165,876,136,860,114,839,97,815,71,763,55,712,48,676"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="183,921,343,961"/>
+<area shape="poly" id="edge21_Node000001_Node000034" title=" " alt="" coords="52,675,57,719,70,781,81,815,96,848,115,879,139,905,171,925,168,929,136,909,111,882,92,850,77,817,65,783,52,720,47,675"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="171,985,355,1011"/>
+<area shape="poly" id="edge22_Node000001_Node000035" title=" " alt="" coords="51,675,51,730,61,810,72,854,88,897,110,936,139,971,159,984,156,988,136,975,105,939,83,899,67,855,56,811,46,730,45,675"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1polyMesh.html#abee37d8dfd64b7c348458d15597f72f0" title="Return point zone mesh." alt="" coords="157,1035,368,1060"/>
+<area shape="poly" id="edge23_Node000001_Node000036" title=" " alt="" coords="53,674,62,746,79,851,105,954,121,994,139,1020,147,1027,144,1031,135,1024,117,996,100,956,74,852,56,747,47,675"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1fvMesh.html#ac0182771afe06e7f2d7d52a627a0e16f" title="Remove boundary patches. Warning: fvPatchFields hold ref to these fvPatches." alt="" coords="137,1084,388,1109"/>
+<area shape="poly" id="edge24_Node000001_Node000037" title=" " alt="" coords="52,674,60,755,76,874,88,936,102,993,119,1039,139,1070,144,1074,141,1078,135,1073,115,1041,97,995,83,938,71,875,54,755,47,675"/>
+<area shape="rect" id="Node000041" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="179,1133,347,1159"/>
+<area shape="poly" id="edge25_Node000001_Node000041" title=" " alt="" coords="52,675,58,764,73,898,84,968,99,1032,117,1084,139,1119,167,1137,164,1141,135,1123,113,1087,94,1034,79,969,68,899,53,764,47,675"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="195,1183,330,1208"/>
+<area shape="poly" id="edge26_Node000001_Node000043" title=" " alt="" coords="52,675,56,772,70,921,81,999,96,1071,116,1129,127,1152,139,1168,159,1182,183,1191,181,1196,157,1187,135,1172,122,1154,111,1132,91,1072,76,1000,65,922,51,772,46,675"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="196,1232,329,1257"/>
+<area shape="poly" id="edge28_Node000001_Node000046" title=" " alt="" coords="51,675,55,781,67,945,78,1031,93,1110,114,1175,126,1199,139,1217,159,1232,183,1240,181,1245,157,1237,135,1221,121,1202,109,1177,88,1111,73,1032,62,945,49,781,46,675"/>
+<area shape="rect" id="Node000048" href="$namespaceFoam.html#a69e2e8a647a7073be8ce6437c0aff762" title="Return the file type: DIRECTORY or FILE, normally following symbolic links." alt="" coords="215,1281,310,1307"/>
+<area shape="poly" id="edge29_Node000001_Node000048" title=" " alt="" coords="51,675,53,789,64,968,75,1062,90,1149,112,1220,125,1247,139,1267,152,1278,168,1285,202,1293,201,1298,166,1290,150,1282,135,1270,120,1249,107,1222,85,1150,69,1063,59,969,48,789,46,675"/>
+<area shape="poly" id="edge3_Node000005_Node000006" title=" " alt="" coords="364,75,422,81,422,86,363,80"/>
+<area shape="poly" id="edge4_Node000006_Node000006" title=" " alt="" coords="471,82,462,72,467,62,484,56,511,53,546,57,556,62,560,68,556,71,553,66,545,62,511,59,485,61,471,66,468,71,475,78"/>
+<area shape="poly" id="edge13_Node000017_Node000017" title=" " alt="" coords="228,527,220,517,224,507,239,501,263,499,292,502,304,511,301,516,290,507,263,504,240,506,228,511,225,516,232,524"/>
+</map>

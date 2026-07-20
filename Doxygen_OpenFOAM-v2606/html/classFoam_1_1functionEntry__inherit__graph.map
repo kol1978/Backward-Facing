@@ -1,0 +1,35 @@
+<map id="functionEntry" name="functionEntry">
+<area shape="rect" id="Node000001" title="A functionEntry causes entries to be added/manipulated on the specified dictionary given an input str..." alt="" coords="168,351,277,376"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1functionEntries_1_1codeStream.html" title="Dictionary entry that contains C++ OpenFOAM code that is compiled to generate the entry itself...." alt="" coords="353,5,453,31"/>
+<area shape="poly" id="edge2_Node000001_Node000013" title=" " alt="" coords="222,336,227,276,242,197,255,155,273,113,295,75,324,40,351,24,354,28,327,44,299,78,277,116,260,157,247,198,232,277,227,337"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1functionEntries_1_1evalEntry.html" title="Uses expressions::fieldExprDriver to evaluate mathematical expressions with scalars,..." alt="" coords="361,55,445,80"/>
+<area shape="poly" id="edge3_Node000001_Node000015" title=" " alt="" coords="224,336,232,285,249,218,278,150,299,118,324,89,341,78,360,71,362,76,343,82,327,93,303,121,283,152,254,220,237,286,229,337"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1functionEntries_1_1ifeqEntry.html" title="Conditional parsing of dictionary entries." alt="" coords="362,104,443,129"/>
+<area shape="poly" id="edge4_Node000001_Node000016" title=" " alt="" coords="226,337,237,294,255,241,284,186,302,161,324,139,341,127,361,120,363,125,344,132,327,143,306,164,288,189,260,243,242,296,231,338"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1functionEntries_1_1includeEntry.html" title="A dictionary directive for including a file, expects a single string to follow." alt="" coords="351,153,454,179"/>
+<area shape="poly" id="edge5_Node000001_Node000018" title=" " alt="" coords="230,337,243,303,263,263,290,223,324,188,350,174,353,178,327,192,294,226,268,266,248,305,235,338"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1functionEntries_1_1includeEtcEntry.html" title="A dictionary directive for including a file found using the Foam::findEtcFile() mechanism." alt="" coords="341,203,464,228"/>
+<area shape="poly" id="edge6_Node000001_Node000020" title=" " alt="" coords="236,337,271,287,296,260,324,237,346,226,348,230,327,242,300,264,276,290,240,340"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1functionEntries_1_1includeFuncEntry.html" title="Specify a functionObject dictionary file to include, expects the functionObject name to follow with o..." alt="" coords="336,252,469,277"/>
+<area shape="poly" id="edge7_Node000001_Node000022" title=" " alt="" coords="247,340,282,312,324,286,352,275,354,280,327,291,285,317,250,344"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1functionEntries_1_1inputMode.html" title="Specify the global input mode when reading further dictionaries, expects a single word to follow." alt="" coords="357,301,448,327"/>
+<area shape="poly" id="edge8_Node000001_Node000023" title=" " alt="" coords="282,344,356,324,358,329,283,350"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1functionEntries_1_1inputModeDefault.html" title="Temporarily change inputMode to protect for the following entry." alt="" coords="333,351,472,376"/>
+<area shape="poly" id="edge9_Node000001_Node000024" title=" " alt="" coords="291,361,333,361,333,366,291,366"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1functionEntries_1_1inputModeError.html" title="Temporarily change inputMode to error for the following entry." alt="" coords="341,400,464,425"/>
+<area shape="poly" id="edge10_Node000001_Node000025" title=" " alt="" coords="284,377,356,397,354,402,282,382"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1functionEntries_1_1inputModeMerge.html" title="Temporarily change inputMode to merge for the following entry." alt="" coords="337,449,469,475"/>
+<area shape="poly" id="edge11_Node000001_Node000026" title=" " alt="" coords="250,383,285,410,327,436,354,447,352,452,324,440,282,414,247,387"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1functionEntries_1_1inputModeOverwrite.html" title="Temporarily change inputMode to overwrite for the following entry." alt="" coords="325,499,480,524"/>
+<area shape="poly" id="edge12_Node000001_Node000027" title=" " alt="" coords="240,386,276,437,300,463,327,485,348,496,346,501,324,490,296,467,271,440,236,389"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1functionEntries_1_1inputModeWarn.html" title="Temporarily change inputMode to warn for the following entry." alt="" coords="341,548,465,573"/>
+<area shape="poly" id="edge13_Node000001_Node000028" title=" " alt="" coords="235,388,248,422,268,461,294,501,327,535,346,546,343,550,324,539,290,504,263,464,243,424,230,390"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1functionEntries_1_1messageDirective.html" title="Expands string content and reports as a message on stderr." alt="" coords="333,597,473,623"/>
+<area shape="poly" id="edge14_Node000001_Node000029" title=" " alt="" coords="231,389,242,431,260,484,288,538,306,562,327,584,344,595,342,600,324,588,302,566,284,541,255,486,237,433,226,390"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1functionEntries_1_1removeEntry.html" title="Remove a dictionary entry." alt="" coords="349,647,456,672"/>
+<area shape="poly" id="edge15_Node000001_Node000030" title=" " alt="" coords="229,389,237,441,254,506,283,575,303,606,327,633,351,648,348,652,324,637,299,609,278,577,249,508,232,442,224,390"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1functionEntries_1_1wordDirective.html" title="Converts/expands string content to a word. This can be useful for composition of names." alt="" coords="346,696,459,721"/>
+<area shape="poly" id="edge16_Node000001_Node000031" title=" " alt="" coords="227,390,232,450,247,528,260,570,277,611,299,649,327,683,347,696,344,700,324,687,295,652,273,613,255,572,242,530,227,450,222,390"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1primitiveEntry.html" title="A keyword and a list of tokens comprise a primitiveEntry. A primitiveEntry can be read,..." alt="" coords="5,351,120,376"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,361,168,361,168,366,134,366"/>
+</map>

@@ -1,0 +1,27 @@
+var classFoam_1_1fvsPatchFieldBase =
+[
+    [ "fvsPatchFieldBase", "classFoam_1_1fvsPatchFieldBase.html#afafa4d0757af8e815640f92de7329bab", null ],
+    [ "fvsPatchFieldBase", "classFoam_1_1fvsPatchFieldBase.html#a5a00a8c7c0f03e01457e448a1a25796b", null ],
+    [ "fvsPatchFieldBase", "classFoam_1_1fvsPatchFieldBase.html#ad24f5c525d64f7ccc181799647f03d56", null ],
+    [ "fvsPatchFieldBase", "classFoam_1_1fvsPatchFieldBase.html#a2ef0503284457394a53fa49cafe2182b", null ],
+    [ "~fvsPatchFieldBase", "classFoam_1_1fvsPatchFieldBase.html#a38b1118d3f37bde3ff7ab782943e0ef3", null ],
+    [ "readDict", "classFoam_1_1fvsPatchFieldBase.html#a7584255853c0d142f9bfa0e571c70a60", null ],
+    [ "TypeName", "classFoam_1_1fvsPatchFieldBase.html#a78cb7605924af9a4352ddc49125406d2", null ],
+    [ "emptyType", "classFoam_1_1fvsPatchFieldBase.html#aefbd3fe3ee5e4ca1899f516741619ccb", null ],
+    [ "calculatedType", "classFoam_1_1fvsPatchFieldBase.html#a41482a5806b4b2767aa3feeafaf47c5e", null ],
+    [ "zeroValueType", "classFoam_1_1fvsPatchFieldBase.html#a3c214007c2630c782828a37750d4a3da", null ],
+    [ "assignable", "classFoam_1_1fvsPatchFieldBase.html#acbeb7dc057bd06ed4fbfdd907bd45ce6", null ],
+    [ "fixesValue", "classFoam_1_1fvsPatchFieldBase.html#a0de932061a01f71d2b747c01a4d1a467", null ],
+    [ "coupled", "classFoam_1_1fvsPatchFieldBase.html#a39c01db0e66d00fe0621a0c7e5fc4ead", null ],
+    [ "db", "classFoam_1_1fvsPatchFieldBase.html#a46442a6e5b8016371802345377059b2e", null ],
+    [ "patch", "classFoam_1_1fvsPatchFieldBase.html#a6c283bf5e068b250e2a7f6ccac5ee085", null ],
+    [ "patchType", "classFoam_1_1fvsPatchFieldBase.html#a9c54c1aae0020189584b8965f8739161", null ],
+    [ "patchType", "classFoam_1_1fvsPatchFieldBase.html#ad332c15c3023db5b9634de0cc7818138", null ],
+    [ "constraintOverride", "classFoam_1_1fvsPatchFieldBase.html#ac945c43e86169814ac79521fc7052c04", null ],
+    [ "updated", "classFoam_1_1fvsPatchFieldBase.html#ad0df50a43396a6a16cc64d689bf86bf7", null ],
+    [ "setUpdated", "classFoam_1_1fvsPatchFieldBase.html#a7fb4bd090bd95b08a91f32d738763c23", null ],
+    [ "manipulatedMatrix", "classFoam_1_1fvsPatchFieldBase.html#ab9e00988846bfc116ce44029de05ee50", null ],
+    [ "setManipulated", "classFoam_1_1fvsPatchFieldBase.html#a6faad74de8f4dc914a28082555268fba", null ],
+    [ "checkPatch", "classFoam_1_1fvsPatchFieldBase.html#a9dc0335b3a1d146416ef997d05462856", null ],
+    [ "disallowGenericPatchField", "classFoam_1_1fvsPatchFieldBase.html#a87cb9597c990ca65fd7e1661c3b2fc7c", null ]
+];

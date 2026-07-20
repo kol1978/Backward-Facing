@@ -1,0 +1,30 @@
+<map id="createBaffles" name="createBaffles">
+<area shape="rect" id="Node000001" title="Create baffle for every internal face where ownPatch != &#45;1." alt="" coords="5,315,113,340"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="221,5,321,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,314,64,264,80,193,93,154,110,116,132,80,160,48,182,33,206,23,208,28,184,38,163,52,136,83,115,118,98,156,85,194,70,265,64,314"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1polyTopoChange.html#aadea253a54827c1e9ba3edf6deb58fe8" title="Inplace changes mesh without change of patches." alt="" coords="184,106,357,146"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="63,313,96,243,124,200,160,163,179,150,182,154,163,167,128,203,100,245,68,315"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="456,67,551,92"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="59,314,65,270,81,208,94,175,111,144,133,115,160,92,193,73,230,60,267,53,306,49,380,52,443,62,442,67,379,57,306,55,268,58,231,66,196,78,163,96,137,119,116,147,99,177,87,210,71,271,64,315"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="428,151,579,176"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="65,313,100,260,127,230,160,206,223,180,290,165,355,157,414,155,414,161,356,163,291,170,224,185,163,211,131,234,104,263,69,316"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1mapPolyMesh.html#a88be2f780943d58bc6a19f00394b4964" title="Old face map." alt="" coords="187,221,354,261"/>
+<area shape="poly" id="edge7_Node000001_Node000033" title=" " alt="" coords="81,312,160,272,184,262,186,267,162,276,83,317"/>
+<area shape="rect" id="Node000034" href="$namespaceFoam.html#a07575dc8f5db1a87af23b7c4e2647e3f" title=" " alt="" coords="209,285,332,311"/>
+<area shape="poly" id="edge8_Node000001_Node000034" title=" " alt="" coords="113,317,195,306,196,311,114,322"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1mapPolyMesh.html#a8bf2090aa7e4d977fe8ce729e2362845" title="Has valid preMotionPoints?" alt="" coords="187,335,354,375"/>
+<area shape="poly" id="edge9_Node000001_Node000037" title=" " alt="" coords="114,332,174,340,173,345,114,337"/>
+<area shape="rect" id="Node000039" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="251,400,290,425"/>
+<area shape="poly" id="edge10_Node000001_Node000039" title=" " alt="" coords="80,338,117,362,162,385,201,397,239,405,237,411,200,403,160,390,114,366,77,342"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1mapPolyMesh.html#a4ebc66bfbee5225601a2a30cab7f43de" title="Pre&#45;motion point positions." alt="" coords="187,450,354,490"/>
+<area shape="poly" id="edge11_Node000001_Node000040" title=" " alt="" coords="71,338,107,386,133,413,163,436,176,443,173,448,160,440,130,417,103,389,67,342"/>
+<area shape="rect" id="Node000041" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="187,515,355,540"/>
+<area shape="poly" id="edge12_Node000001_Node000041" title=" " alt="" coords="67,339,78,372,97,416,125,462,143,482,163,500,176,508,173,512,160,504,139,486,121,465,92,419,73,374,62,341"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1mapPolyMesh.html#a721bf7a232eb216c500737d317dad1f3" title="Reverse face map." alt="" coords="187,565,354,605"/>
+<area shape="poly" id="edge13_Node000001_Node000043" title=" " alt="" coords="65,340,74,381,91,438,120,498,140,526,163,551,176,560,173,564,160,555,136,530,116,501,86,439,69,382,60,341"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1syncTools.html#af0aa5d4138c5a7f7b673eed9a1fb42f7" title="Synchronize values on all mesh faces." alt="" coords="161,629,380,655"/>
+<area shape="poly" id="edge15_Node000001_Node000044" title=" " alt="" coords="64,340,68,391,82,466,95,506,112,546,135,583,163,615,170,620,167,624,160,619,130,586,107,548,90,508,77,467,63,392,58,340"/>
+<area shape="poly" id="edge3_Node000004_Node000009" title=" " alt="" coords="357,106,442,89,443,94,358,111"/>
+<area shape="poly" id="edge4_Node000004_Node000023" title=" " alt="" coords="358,137,415,147,414,152,357,143"/>
+<area shape="poly" id="edge5_Node000023_Node000023" title=" " alt="" coords="466,152,457,142,462,132,477,126,503,124,536,128,548,137,545,142,534,133,503,129,478,131,465,136,463,142,470,149"/>
+</map>

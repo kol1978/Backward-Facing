@@ -1,0 +1,26 @@
+var classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE =
+[
+    [ "ShihQuadraticKE", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#af009f704ea20a835fa4a1ace3086ce4b", null ],
+    [ "~ShihQuadraticKE", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a507eb395c066c1a49dc39f72cd42b88c", null ],
+    [ "correctNut", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#aaffe89433f18f1ee4137486e19219448", null ],
+    [ "correctNonlinearStress", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#aaeceed08f8e5aa404ea620bbed333cf2", null ],
+    [ "TypeName", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a8f30844f7b69c9f3eecc54c784a52feb", null ],
+    [ "read", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#af816873151ddb0126e98bb2f914d8ed5", null ],
+    [ "DkEff", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#afa968c8e26ddbc10cb14bff5ee93a069", null ],
+    [ "DepsilonEff", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a7985d7c6a12298c40d68503c22e97780", null ],
+    [ "k", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#ae56aec84727b858569546de928188628", null ],
+    [ "epsilon", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#af2dd40bec6ece3bef6f3963ca1d7f779", null ],
+    [ "correct", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a3ae44b28050c3aa494c1d8e18cf618c1", null ],
+    [ "Ceps1_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#ac7750c94aac403f5bbda471cd3f5fd40", null ],
+    [ "Ceps2_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a3cf0cd60fdb7508210aa249452ecd313", null ],
+    [ "sigmak_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a1c4d80e34d39e7ffccd625df6016b6f7", null ],
+    [ "sigmaEps_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a2f26c65464368e5619b31aa5d5392a19", null ],
+    [ "Cmu1_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a2727a07dfd2128b9b5e8c78b9e337bb1", null ],
+    [ "Cmu2_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a4d4588a4c2a4f1e8626a66d3b9905570", null ],
+    [ "Cbeta_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#ab56118cad4a8cd7a3870bf02e1a81ea7", null ],
+    [ "Cbeta1_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a4f762282395956d4bf95d27108fc160d", null ],
+    [ "Cbeta2_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a4795ca71a6a40fcd74ced5ac060f28c9", null ],
+    [ "Cbeta3_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#aabf6fb0ca20f3457d70284b603b96eae", null ],
+    [ "k_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a2166e9ffd139700fb0f21c44414e3545", null ],
+    [ "epsilon_", "classFoam_1_1incompressible_1_1RASModels_1_1ShihQuadraticKE.html#a027dddd791551bd248d0fcacb013dd68", null ]
+];

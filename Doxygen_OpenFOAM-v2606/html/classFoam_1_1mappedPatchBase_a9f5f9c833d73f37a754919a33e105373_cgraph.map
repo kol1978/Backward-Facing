@@ -1,0 +1,25 @@
+<map id="collectSamples" name="collectSamples">
+<area shape="rect" id="Node000001" title="Collect single list of samples and originating processor+face + wanted world." alt="" coords="5,252,127,277"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#a3fb553e6d728b81df364d351a6ce2b14" title="Gather data, but keep individual values separate. Uses MPI_Allgather or manual communication." alt="" coords="175,5,386,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,251,77,210,96,153,127,92,148,64,173,40,180,35,183,39,176,44,152,67,132,95,101,155,82,211,72,252"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPstream.html#ab571c97d18e5deccaf3803eaa45c30f2" title="Alter communicator debugging setting. Warns for use of any communicator differing from specified...." alt="" coords="175,55,387,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="69,251,81,218,103,174,133,128,152,107,173,89,182,84,185,88,176,93,156,111,137,131,107,177,86,220,74,253"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="233,104,328,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="72,250,110,196,139,165,173,138,196,128,219,121,221,126,197,133,176,143,143,168,115,199,77,253"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#a99115fd95d9b4146cdcfabe303e13fce" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="223,153,339,179"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="80,250,121,218,174,188,209,176,210,181,176,192,124,223,83,254"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="183,203,379,228"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="120,249,174,237,210,229,211,234,175,242,121,255"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="178,252,383,277"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="127,262,164,262,164,267,127,267"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1OSstream.html#a085ba947e5c8597cb3ab29f68d5d38f8" title="Get the name of the output serial stream. (eg, the name of the Fstream file name)" alt="" coords="193,301,368,327"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="123,275,212,296,211,301,121,280"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="190,351,371,376"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="84,275,124,306,176,336,199,344,197,349,174,340,121,310,81,280"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="203,400,358,425"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="77,276,115,329,143,360,176,385,191,393,189,398,173,390,139,364,111,333,72,279"/>
+<area shape="rect" id="Node000015" href="$utilities_2postProcessing_2miscellaneous_2pdfPlot_2createFields_8H.html#a65fd97654d201da2dc818750d9148c73" title=" " alt="" coords="242,449,319,475"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="74,276,86,309,108,352,137,397,176,435,201,448,229,455,227,460,199,452,173,439,133,400,103,355,82,311,69,278"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="214,499,347,524"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="72,277,82,318,101,374,132,434,152,461,176,484,202,498,199,503,173,488,148,464,127,436,96,376,77,319,67,278"/>
+</map>

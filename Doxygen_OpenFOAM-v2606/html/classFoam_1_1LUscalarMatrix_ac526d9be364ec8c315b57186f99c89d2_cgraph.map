@@ -1,0 +1,37 @@
+<map id="LUscalarMatrix" name="LUscalarMatrix">
+<area shape="rect" id="Node000001" title="Construct from lduMatrix and perform LU decomposition. In parallel it assembles the matrix on the mas..." alt="" coords="5,403,125,428"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#a76507eb28a08ba04cf96e67a56136f44" title="Construct and set a new element at given position, (discard old element at that location)." alt="" coords="173,5,372,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,402,64,338,76,241,89,187,109,133,136,84,171,40,176,36,180,40,175,44,140,87,113,136,94,188,81,242,70,338,69,403"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="225,55,320,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="64,402,68,345,82,261,96,215,114,169,139,126,172,89,190,77,211,70,212,75,192,82,175,93,144,130,119,171,101,217,87,262,73,346,69,403"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam.html#a4c90a8a26de44c9bed71aef2138ce997" title="LU decompose the matrix with pivoting." alt="" coords="193,128,353,153"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="65,402,73,357,91,292,105,257,123,222,145,190,172,163,179,157,182,161,175,167,149,194,127,225,110,259,96,294,79,358,71,403"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#a8ac5b57f98f906c36b8a4e989a77dbba" title=" " alt="" coords="225,177,320,203"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="67,402,78,364,98,313,129,258,149,233,172,212,190,201,211,194,212,199,193,206,175,216,152,237,133,261,103,315,83,366,72,403"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="181,227,365,252"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="70,401,107,338,136,301,172,269,198,255,201,259,175,274,140,305,112,341,75,404"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="420,252,623,277"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="74,401,113,357,141,333,172,313,230,291,290,275,350,266,406,262,407,267,351,272,291,281,231,296,175,318,144,337,117,360,78,404"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="175,328,371,353"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="89,400,127,381,172,362,197,354,199,359,174,367,129,386,91,405"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Matrix.html#a95b5c76a876dd33f361601560b8941b6" title="The number of columns." alt="" coords="197,377,349,403"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="126,405,183,398,184,404,126,411"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="182,427,363,452"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="126,420,169,425,168,430,126,425"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1Matrix.html#aa2be338a45b85a4a3b338adb970d0afb" title="The number of rows." alt="" coords="193,476,352,501"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="93,426,174,461,203,470,201,475,172,466,91,430"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Matrix.html#abb3fb8ffce0b5a5d3e652d8c14369757" title="Return const pointer to data in the specified row &#45; rowData()." alt="" coords="182,525,363,551"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="79,426,118,468,145,491,175,510,192,518,190,523,172,515,142,495,115,472,75,430"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="181,575,365,600"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="75,427,110,491,139,528,175,560,187,567,184,571,172,564,135,532,106,494,70,430"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1IPstream.html#a8ad479699fe099a227884bac5b10247b" title="Receive and deserialize a value. Uses operator&gt;&gt; for de&#45;serialization." alt="" coords="193,624,353,649"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="72,427,83,464,104,513,134,565,153,589,175,609,185,616,182,620,172,613,149,592,129,568,99,516,78,466,67,429"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UOPstream.html#ab48b722a20154c0f1b39ceea06331d7f" title="Send buffer contents now and not in destructor [advanced usage]. Returns true on success." alt="" coords="183,673,362,699"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="71,428,79,472,97,535,128,602,150,632,175,659,183,665,180,669,172,663,145,636,124,604,92,537,74,473,66,429"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="205,723,340,748"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="70,428,75,480,91,556,105,597,123,638,146,675,175,708,194,720,191,725,172,712,142,679,118,640,100,599,86,557,70,481,65,429"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#a45a430adbf09bcd8480ee9d8fb431675" title="Range of process indices for sub&#45;processes." alt="" coords="175,772,371,797"/>
+<area shape="poly" id="edge18_Node000001_Node000022" title=" " alt="" coords="69,428,72,488,85,577,98,625,117,673,142,718,175,757,181,763,178,767,171,761,138,721,112,676,93,627,80,578,67,488,64,428"/>
+<area shape="poly" id="edge4_Node000005_Node000005" title=" " alt="" coords="239,130,232,120,235,110,249,104,273,101,301,105,313,114,309,118,299,110,273,107,251,109,239,113,237,119,243,126"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="365,246,407,250,406,256,365,251"/>
+</map>

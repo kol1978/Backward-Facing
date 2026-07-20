@@ -1,0 +1,26 @@
+var classFoam_1_1cyclicFaPatch =
+[
+    [ "cyclicFaPatch", "classFoam_1_1cyclicFaPatch.html#a40a76b498b4d5ec878d8a3de6a8fef61", null ],
+    [ "~cyclicFaPatch", "classFoam_1_1cyclicFaPatch.html#a9cf15fb184c076508fef05b985a53a1f", null ],
+    [ "makeWeights", "classFoam_1_1cyclicFaPatch.html#a40382e092b8e9cf9b729b883c6dd46f6", null ],
+    [ "makeLPN", "classFoam_1_1cyclicFaPatch.html#a4919850703f4128602237c7135b020ec", null ],
+    [ "makeDeltaCoeffs", "classFoam_1_1cyclicFaPatch.html#a5e78c9fd3221a1aeeac314c0cd7aa1be", null ],
+    [ "makeCorrectionVectors", "classFoam_1_1cyclicFaPatch.html#af01a45958f99c25b749a7cec2e8ccb3f", null ],
+    [ "TypeName", "classFoam_1_1cyclicFaPatch.html#ab4322ebe6d983d3cc6e5fb59b0d6f6d6", null ],
+    [ "owner", "classFoam_1_1cyclicFaPatch.html#a357c5e37e5d7c583fa172625b8c11009", null ],
+    [ "neighbPatchID", "classFoam_1_1cyclicFaPatch.html#a5e6024547ab7c53848c8bbe7b0a634ba", null ],
+    [ "neighbPatch", "classFoam_1_1cyclicFaPatch.html#a1a5afc9557c03d30c9aff744a1484294", null ],
+    [ "forwardT", "classFoam_1_1cyclicFaPatch.html#afd57cc6d6a68ac778640c5a3be82aab8", null ],
+    [ "reverseT", "classFoam_1_1cyclicFaPatch.html#a4a45acfcb1366256a58a5cefe632f635", null ],
+    [ "initGeometry", "classFoam_1_1cyclicFaPatch.html#a633b37f544e6c45c018011729ee1f7da", null ],
+    [ "calcGeometry", "classFoam_1_1cyclicFaPatch.html#a58bb4c0382e9ee570811fb3f005a0a97", null ],
+    [ "initMovePoints", "classFoam_1_1cyclicFaPatch.html#a2bad1de417e8eb8f09a4ed66147a3274", null ],
+    [ "movePoints", "classFoam_1_1cyclicFaPatch.html#aacd07914399d9e26077bb4ed6a0ed2a2", null ],
+    [ "delta", "classFoam_1_1cyclicFaPatch.html#a8c83ba56d8c5964b15844718d953be71", null ],
+    [ "interfaceInternalField", "classFoam_1_1cyclicFaPatch.html#aa8871ae0f8409c5f343da9516cd8c846", null ],
+    [ "interfaceInternalField", "classFoam_1_1cyclicFaPatch.html#a6bba6db1b7ce93c4f83de5599bb41ec2", null ],
+    [ "transfer", "classFoam_1_1cyclicFaPatch.html#a6240fe2b274a082110ca23f45d64d887", null ],
+    [ "internalFieldTransfer", "classFoam_1_1cyclicFaPatch.html#a237c9448fbff6fcefb820f4076a58f26", null ],
+    [ "internalFieldTransfer", "classFoam_1_1cyclicFaPatch.html#a00d59df53fd1a514364ed43e6515ffad", null ],
+    [ "matchTol_", "classFoam_1_1cyclicFaPatch.html#a7acd567b0cb61e86cbc14c72e10fb32b", null ]
+];

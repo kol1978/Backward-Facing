@@ -1,0 +1,36 @@
+var classFoam_1_1fa_1_1faceSetOption =
+[
+    [ "selectionModeType", "classFoam_1_1fa_1_1faceSetOption.html#a5a3c4faf3582171e951e3db6be6f7e43", [
+      [ "smAll", "classFoam_1_1fa_1_1faceSetOption.html#a5a3c4faf3582171e951e3db6be6f7e43ac6a2d567d0ac6ef1ddf758592da900f3", null ],
+      [ "smFaceSet", "classFoam_1_1fa_1_1faceSetOption.html#a5a3c4faf3582171e951e3db6be6f7e43aebcf75b52a05b35e5277eaad625b240b", null ],
+      [ "smFaceZone", "classFoam_1_1fa_1_1faceSetOption.html#a5a3c4faf3582171e951e3db6be6f7e43a91571f8c341f56bc60938ab072a94998", null ],
+      [ "smPatch", "classFoam_1_1fa_1_1faceSetOption.html#a5a3c4faf3582171e951e3db6be6f7e43a2a989808b58f048cacd2772dd549e000", null ]
+    ] ],
+    [ "faceSetOption", "classFoam_1_1fa_1_1faceSetOption.html#aa316360ae6b62574c461844574be085c", null ],
+    [ "~faceSetOption", "classFoam_1_1fa_1_1faceSetOption.html#a282c9a67844d86878fee42b0c49bd5ba", null ],
+    [ "setSelection", "classFoam_1_1fa_1_1faceSetOption.html#a40d71191aea6cb2209a6faf579b7e6b0", null ],
+    [ "setFaceSelection", "classFoam_1_1fa_1_1faceSetOption.html#a0e97ec1d118c6fbfedba2878ed003c0f", null ],
+    [ "setArea", "classFoam_1_1fa_1_1faceSetOption.html#afcf817b2e48469eb5f92807ba2fbc792", null ],
+    [ "subsetFilter", "classFoam_1_1fa_1_1faceSetOption.html#a2f43ba3f15a75d4bc85adf576bb9da47", null ],
+    [ "TypeName", "classFoam_1_1fa_1_1faceSetOption.html#aa76daf2f11ee1b48c1824464b3ba7b12", null ],
+    [ "timeStart", "classFoam_1_1fa_1_1faceSetOption.html#a0621db1bc9e69876749a381b082496da", null ],
+    [ "duration", "classFoam_1_1fa_1_1faceSetOption.html#a0e31cff8f3f02c0cdb9a67a8985f635b", null ],
+    [ "inTimeLimits", "classFoam_1_1fa_1_1faceSetOption.html#af8f6dceedbd054f7a06170f0590e6099", null ],
+    [ "useSubMesh", "classFoam_1_1fa_1_1faceSetOption.html#a8cc45193735d6587e708448face2f2dd", null ],
+    [ "selectionMode", "classFoam_1_1fa_1_1faceSetOption.html#a67e9adeb3fceb08a75ff68c193e18c61", null ],
+    [ "selectionNames", "classFoam_1_1fa_1_1faceSetOption.html#adee27d686202efc6807b47024a005a98", null ],
+    [ "zoneName", "classFoam_1_1fa_1_1faceSetOption.html#a932a522f90876a0593bacca939a05acc", null ],
+    [ "A", "classFoam_1_1fa_1_1faceSetOption.html#ae0a62d8a279d1fa7712e3dc66339f024", null ],
+    [ "faces", "classFoam_1_1fa_1_1faceSetOption.html#ace935ea9bcaa99205f898b2a68c13262", null ],
+    [ "timeStart", "classFoam_1_1fa_1_1faceSetOption.html#a3a324f5813adea4ae5c29e8b8c4df208", null ],
+    [ "duration", "classFoam_1_1fa_1_1faceSetOption.html#a2b35d95907f5d7b38f32b72c6b280657", null ],
+    [ "isActive", "classFoam_1_1fa_1_1faceSetOption.html#aa1f512ab0fcc05612f8e3d6a4664ce9a", null ],
+    [ "read", "classFoam_1_1fa_1_1faceSetOption.html#a6ce0c64db98eb6144d363dbfc86104eb", null ],
+    [ "selectionModeTypeNames_", "classFoam_1_1fa_1_1faceSetOption.html#ad73e4e1b30b8c2ef95c49b6d4626f185", null ],
+    [ "timeStart_", "classFoam_1_1fa_1_1faceSetOption.html#a923d682721e46b66339c5b3a1cd8cdc7", null ],
+    [ "duration_", "classFoam_1_1fa_1_1faceSetOption.html#a8e77a9d5914088338fe4c7605ec6d470", null ],
+    [ "selectionMode_", "classFoam_1_1fa_1_1faceSetOption.html#aa9fb364ae80671fa29ab15aa5842ff33", null ],
+    [ "selectionNames_", "classFoam_1_1fa_1_1faceSetOption.html#a30abe7b91bab8bda39b3fffd4f0a71a1", null ],
+    [ "faces_", "classFoam_1_1fa_1_1faceSetOption.html#a06fdd861cf7348a6cf4523679bcaee6e", null ],
+    [ "A_", "classFoam_1_1fa_1_1faceSetOption.html#a470f484be0b7ecd159b0971e3023a490", null ]
+];

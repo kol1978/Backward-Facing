@@ -1,0 +1,26 @@
+<map id="calcDistribution" name="calcDistribution">
+<area shape="rect" id="Node000001" title="Calculate if patches are on multiple processors. Allocates local communicator and returns &#45;1 or proce..." alt="" coords="5,231,129,256"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="235,5,329,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,230,80,192,101,141,132,86,152,61,176,40,197,28,220,20,222,26,199,33,179,44,156,65,136,89,106,143,85,194,74,231"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="217,55,347,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="72,229,86,200,108,162,138,122,176,89,203,76,205,81,179,94,142,126,112,165,90,202,76,231"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="190,104,374,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="78,229,119,188,146,166,176,146,211,131,213,136,179,151,149,170,122,192,82,232"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="435,137,637,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="90,228,129,208,177,190,238,175,302,164,421,152,421,157,303,170,240,180,178,195,131,213,92,233"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="191,205,373,231"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="129,233,177,228,178,233,130,239"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="461,224,611,249"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="130,241,387,241,447,239,447,244,387,246,130,247"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="190,307,374,332"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="99,254,178,285,225,300,223,305,176,290,97,259"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1PtrList.html#a3809aca9dcd2c52a4711126018cc961d" title="Append an element to the end of the list." alt="" coords="190,356,374,381"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="81,254,120,298,148,322,179,342,193,349,191,354,176,347,145,326,117,302,77,258"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#aa895b14edcff59b8705a5cfa4f019590" title="Test for communicator equality." alt="" coords="177,405,387,431"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="76,255,90,284,113,321,142,360,179,392,189,398,186,402,176,396,138,363,108,324,86,286,72,257"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a53e54aae19ba347f6f4544c764905331" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="207,455,357,480"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="74,255,85,292,106,343,137,396,156,421,179,441,195,451,193,456,176,445,152,424,132,399,101,345,80,294,69,257"/>
+<area shape="poly" id="edge4_Node000005_Node000006" title=" " alt="" coords="374,126,426,133,425,138,374,131"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="373,222,447,227,447,233,373,227"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="495,226,486,216,491,206,508,200,536,197,572,201,582,206,586,212,581,215,578,210,570,206,536,203,509,205,494,210,491,215,499,222"/>
+</map>

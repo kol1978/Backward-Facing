@@ -1,0 +1,28 @@
+var classFoam_1_1engineValve =
+[
+    [ "engineValve", "classFoam_1_1engineValve.html#a360a6df14a174c113c1dd90ac6a597d0", null ],
+    [ "engineValve", "classFoam_1_1engineValve.html#afbe177003ebe74224a60b4317c3efe21", null ],
+    [ "~engineValve", "classFoam_1_1engineValve.html#af46d7ae5e6ccbb8884020a6254f3d0fc", null ],
+    [ "name", "classFoam_1_1engineValve.html#a51ae053ef677d6c2d35ce01b46089706", null ],
+    [ "cs", "classFoam_1_1engineValve.html#a80411ecb863f1b4007ef81058189028f", null ],
+    [ "liftProfile", "classFoam_1_1engineValve.html#a83ba2286f0f825b692a8bb200a56780a", null ],
+    [ "diameter", "classFoam_1_1engineValve.html#a50db3ef00a9fd0de0b61a4e9cc370f15", null ],
+    [ "bottomPatchID", "classFoam_1_1engineValve.html#adef5ac38c2629a8e6050810ae14dd557", null ],
+    [ "poppetPatchID", "classFoam_1_1engineValve.html#a2bd6c6a3016a3472d2ad731c78f2c8d0", null ],
+    [ "stemPatchID", "classFoam_1_1engineValve.html#ab74c726b8c69a0d90171f1d456297ebb", null ],
+    [ "curtainInCylinderPatchID", "classFoam_1_1engineValve.html#aa35889b5f3565c54a8d068a9d6dd90f0", null ],
+    [ "curtainInPortPatchID", "classFoam_1_1engineValve.html#a1db5db32f07c6eae74d59370635447b8", null ],
+    [ "detachInCylinderPatchID", "classFoam_1_1engineValve.html#ae5209238020565e282ea7567d0933881", null ],
+    [ "detachInPortPatchID", "classFoam_1_1engineValve.html#a616523d1fc9a1fab3322f68a2752a52b", null ],
+    [ "detachFaces", "classFoam_1_1engineValve.html#aacd57e4284ea0cd6f0c146abf3220441", null ],
+    [ "minTopLayer", "classFoam_1_1engineValve.html#a8fec53855067e224e6e8ad4558b0a38f", null ],
+    [ "maxTopLayer", "classFoam_1_1engineValve.html#a2212ac5f8aec13197272a61658bd833f", null ],
+    [ "minBottomLayer", "classFoam_1_1engineValve.html#a372aac4d04e897c7574de93ed51b6166", null ],
+    [ "maxBottomLayer", "classFoam_1_1engineValve.html#a396acc1ee38631c6946e55a64fcbec0d", null ],
+    [ "lift", "classFoam_1_1engineValve.html#a3f2011ba1a4551db1639dcc7f6be1586", null ],
+    [ "isOpen", "classFoam_1_1engineValve.html#a002ed331862370f434b7befe331b5a0b", null ],
+    [ "curLift", "classFoam_1_1engineValve.html#a7139238b07334e8eee7c1148602182e6", null ],
+    [ "curVelocity", "classFoam_1_1engineValve.html#ab102fa397f53e58b09d93a2aebdac96b", null ],
+    [ "movingPatchIDs", "classFoam_1_1engineValve.html#a55a4dda5c766467c400926d50a9aff7f", null ],
+    [ "writeDict", "classFoam_1_1engineValve.html#ab26d88f22673919344c02e7cbe3a2881", null ]
+];

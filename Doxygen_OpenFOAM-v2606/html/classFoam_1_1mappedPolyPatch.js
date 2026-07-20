@@ -1,0 +1,28 @@
+var classFoam_1_1mappedPolyPatch =
+[
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#a3204b30aa6f9ab05950a8dc142b4a6a3", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#ab2222347e4a8a6c852ebecfc15fd65db", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#a959f514258e89129b49638702b608d62", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#ac2f0322f59bceee40340a1a75bd0a23f", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#a4c6448c7506d9eeaaa5b883685c80872", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#aae043fe83bd72bde0210ceeb0d2942aa", null ],
+    [ "mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#a95e8d3add97c4fb546709f6b42cb61ce", null ],
+    [ "~mappedPolyPatch", "classFoam_1_1mappedPolyPatch.html#a0efbe9f57db6ae06e2428b7e64cc56c6", null ],
+    [ "initGeometry", "classFoam_1_1mappedPolyPatch.html#a633b37f544e6c45c018011729ee1f7da", null ],
+    [ "calcGeometry", "classFoam_1_1mappedPolyPatch.html#a58bb4c0382e9ee570811fb3f005a0a97", null ],
+    [ "initMovePoints", "classFoam_1_1mappedPolyPatch.html#a2bad1de417e8eb8f09a4ed66147a3274", null ],
+    [ "movePoints", "classFoam_1_1mappedPolyPatch.html#aacd07914399d9e26077bb4ed6a0ed2a2", null ],
+    [ "initUpdateMesh", "classFoam_1_1mappedPolyPatch.html#aba14098b759b2f349996ba9d0c33544c", null ],
+    [ "updateMesh", "classFoam_1_1mappedPolyPatch.html#a06139aa7a91eeed82560f0c3d03d1845", null ],
+    [ "TypeName", "classFoam_1_1mappedPolyPatch.html#aefb1f209f683d81e44e7d94cf79aa517", null ],
+    [ "clone", "classFoam_1_1mappedPolyPatch.html#a017aa060febb8005fbc67c00dd89757e", null ],
+    [ "clone", "classFoam_1_1mappedPolyPatch.html#a7403d936f9383d2168edc40d90adb651", null ],
+    [ "clone", "classFoam_1_1mappedPolyPatch.html#aa45e81ce2c0cf2ff8a4e5aba68e571a7", null ],
+    [ "newInternalProcFaces", "classFoam_1_1mappedPolyPatch.html#adb51900e65b531009dc5498cdef8e10f", null ],
+    [ "nbrCells", "classFoam_1_1mappedPolyPatch.html#a7712d8474b60c8554dea5c503b0d8cef", null ],
+    [ "neighbPolyPatchID", "classFoam_1_1mappedPolyPatch.html#a304c4fe78b11b623afef7901c3912df0", null ],
+    [ "mapCollocatedFaces", "classFoam_1_1mappedPolyPatch.html#a960e90300767ff0168f2430d4a88af00", null ],
+    [ "masterImplicit", "classFoam_1_1mappedPolyPatch.html#a3fbde5aca5ecfc8ba808da5263b156cd", null ],
+    [ "neighbRegionID", "classFoam_1_1mappedPolyPatch.html#ae8231f7cf1a7f2edfa287ca404a4e2a2", null ],
+    [ "write", "classFoam_1_1mappedPolyPatch.html#a293fdfec8bdfbd5c3913ab4c9f3454ff", null ]
+];

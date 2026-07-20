@@ -1,0 +1,19 @@
+<map id="gatherValues" name="gatherValues">
+<area shape="rect" id="Node000001" title="Gather individual values into bitSet locations." alt="" coords="5,195,112,220"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UList.html#a9eaee4e9a7b7b5ea5372a3c7aae5b262" title="Return pointer to the underlying array serving as data storage." alt="" coords="195,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,193,73,162,93,121,121,78,158,41,181,29,184,33,162,45,126,81,98,123,78,164,67,195"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPstream.html#a78987de05491f5e12169b5b5a991f975" title="True if parallel algorithm or exchange is required." alt="" coords="189,55,338,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="67,193,104,150,130,126,159,105,175,97,177,101,161,110,133,130,108,154,71,196"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="171,120,355,145"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="80,192,116,173,159,154,184,146,185,151,161,159,119,178,83,197"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a44ec5cc30a1c123de4a5d0aad3d9e188" title="Receive identically&#45;sized (contiguous) data from all ranks." alt="" coords="160,169,367,195"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="112,198,147,194,148,199,112,203"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="173,219,354,244"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="112,211,159,216,159,222,112,216"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1List.html#abcfb5796d79fe232cf87a5271bcc8a3a" title="Adjust allocated size of list." alt="" coords="195,268,331,293"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="84,218,161,253,190,262,188,267,159,258,82,223"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="186,317,341,343"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="72,219,108,260,133,283,161,302,178,310,176,315,159,307,130,287,104,264,67,222"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="196,367,331,392"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="67,219,100,283,127,321,162,352,184,364,182,368,158,356,123,324,96,286,63,221"/>
+</map>

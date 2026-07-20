@@ -1,0 +1,33 @@
+<map id="send" name="send">
+<area shape="rect" id="Node000001" title="Start all sends and receives (always non&#45;blocking)" alt="" coords="5,328,59,353"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="160,5,260,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,327,40,267,55,180,76,96,89,63,105,40,124,27,146,19,147,24,126,32,109,44,94,65,81,98,60,182,45,267,37,328"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#a3ae5bcf46394d9e19c7e44d5d76c5940" title="Range of process indices for all processes." alt="" coords="115,55,305,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="30,327,32,282,41,218,50,183,63,149,81,117,105,89,110,85,113,89,109,93,86,120,68,151,55,185,46,219,37,283,36,328"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if List is empty (ie, size() is zero)" alt="" coords="135,104,285,129"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="31,327,36,290,47,239,69,185,85,160,105,139,121,128,124,132,108,143,89,164,74,188,52,241,41,291,37,328"/>
+<area shape="rect" id="Node000007" href="$combustion_2reactingFoam_2setRDeltaT_8H.html#a9698eee39c0e58c7c0df6fe1a4cc3168" title=" " alt="" coords="185,153,235,179"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="33,327,40,298,54,261,75,221,105,188,137,172,170,165,171,170,139,177,108,192,79,224,59,263,46,300,38,328"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="107,203,313,228"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="37,326,62,282,81,258,105,237,115,231,118,236,108,242,85,261,66,285,41,329"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="119,252,301,277"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="51,325,106,294,146,279,148,284,108,299,53,330"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="361,277,512,303"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="59,335,348,298,348,304,59,340"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a1e96cf32256feb7e8a1808a973a3e9a0" title="Number of outstanding requests (on the internal list of requests)" alt="" coords="107,353,313,379"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="59,342,108,349,107,354,58,347"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UIPstream.html#a00ac8647e5edfdd172c29fabef24b538" title="Receive buffer contents (contiguous types) from given processor." alt="" coords="125,403,295,428"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="50,351,76,370,108,388,130,396,129,401,106,392,73,375,47,356"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1PtrList.html#a35fc868178d51a036f1886bb0ea38813" title="Release ownership of the pointer at the given position." alt="" coords="129,452,291,477"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="41,352,67,395,85,418,108,437,121,444,118,449,105,442,82,421,62,398,37,355"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="133,501,287,527"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="38,353,46,381,59,417,80,455,108,487,121,495,119,500,105,491,75,458,55,420,41,383,33,354"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="143,551,277,576"/>
+<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="37,353,41,390,53,439,74,492,90,515,108,536,132,550,129,555,105,540,85,519,69,494,48,441,36,391,31,354"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1PtrList.html#aa0cbd26b8c9c655508c172c720d0d2f7" title="Like emplace_set() but will not overwrite an occupied (non&#45;null) location." alt="" coords="143,601,277,641"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="36,353,38,397,48,459,57,493,70,527,87,558,108,585,132,602,129,606,105,589,82,561,65,529,52,495,43,460,33,398,31,354"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UOPstream.html#a046e912cabb6848eba72c7ecd66897ec" title="Write buffer contents (contiguous types only) to given processor." alt="" coords="119,665,301,691"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="37,353,45,416,59,506,80,594,94,628,109,651,114,656,110,660,105,654,89,631,75,596,54,507,39,417,32,354"/>
+<area shape="poly" id="edge7_Node000009_Node000010" title=" " alt="" coords="301,272,348,277,348,283,301,277"/>
+<area shape="poly" id="edge8_Node000010_Node000010" title=" " alt="" coords="400,279,392,269,396,259,411,253,437,251,469,255,481,264,477,268,467,259,437,256,412,258,400,263,397,268,404,275"/>
+</map>

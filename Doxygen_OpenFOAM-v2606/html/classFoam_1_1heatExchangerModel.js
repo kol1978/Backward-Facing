@@ -1,0 +1,25 @@
+var classFoam_1_1heatExchangerModel =
+[
+    [ "heatExchangerModel", "classFoam_1_1heatExchangerModel.html#a6631e2b6ac95646086cfc4652ae288f9", null ],
+    [ "heatExchangerModel", "classFoam_1_1heatExchangerModel.html#a0b838db5d6b409d83a2e465068683f43", null ],
+    [ "~heatExchangerModel", "classFoam_1_1heatExchangerModel.html#a723d3e492cb30135528ea62367c5b702", null ],
+    [ "TypeName", "classFoam_1_1heatExchangerModel.html#af5c9ee031f286ec375e6a1544367ebf3", null ],
+    [ "declareRunTimeSelectionTable", "classFoam_1_1heatExchangerModel.html#a105acc96781894b076919b95c610619e", null ],
+    [ "New", "classFoam_1_1heatExchangerModel.html#aec3bbaea48b07470c9e44c7be2a0b900", null ],
+    [ "operator=", "classFoam_1_1heatExchangerModel.html#aa1192502de49559ecd02cd49d3cc9492", null ],
+    [ "U", "classFoam_1_1heatExchangerModel.html#af4678ab84c65693429eaf2ebbef7018a", null ],
+    [ "initialise", "classFoam_1_1heatExchangerModel.html#a18abf8b19283101238a77c9e6865b673", null ],
+    [ "energyDensity", "classFoam_1_1heatExchangerModel.html#a7e2df217012a80c236d2a806626c2ffb", null ],
+    [ "read", "classFoam_1_1heatExchangerModel.html#af5f2d605171cd6bcbf8c0d59d1aa3832", null ],
+    [ "write", "classFoam_1_1heatExchangerModel.html#a293d22651cd526e9eb6b975276106f2e", null ],
+    [ "mesh_", "classFoam_1_1heatExchangerModel.html#a23edeeeecebcef11921a33dd5d990570", null ],
+    [ "coeffs_", "classFoam_1_1heatExchangerModel.html#aac50da26e44db5a14f02e48a80a912ab", null ],
+    [ "name_", "classFoam_1_1heatExchangerModel.html#a20cd88c54856c07bd89c07ec26f2345b", null ],
+    [ "UName_", "classFoam_1_1heatExchangerModel.html#a26baeb8965b38a0f4d68f1ce68b39500", null ],
+    [ "TName_", "classFoam_1_1heatExchangerModel.html#ae091c1ea8d32cb9565bf9482beec9886", null ],
+    [ "phiName_", "classFoam_1_1heatExchangerModel.html#a85db68b6cca3c5d40537dc08fc537155", null ],
+    [ "faceZoneName_", "classFoam_1_1heatExchangerModel.html#aadf5dfd373c74f8857dd7fcde389d2eb", null ],
+    [ "faceId_", "classFoam_1_1heatExchangerModel.html#ad87da89e94e1367b45f9facca86ec0fd", null ],
+    [ "facePatchId_", "classFoam_1_1heatExchangerModel.html#ae882dec91b9c83fb86213c8e9d4e11ce", null ],
+    [ "faceSign_", "classFoam_1_1heatExchangerModel.html#aeeab4e49ce2c84f8162e5b9683cb1761", null ]
+];

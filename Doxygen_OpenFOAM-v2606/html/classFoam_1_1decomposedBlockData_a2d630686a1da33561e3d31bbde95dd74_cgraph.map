@@ -1,0 +1,33 @@
+<map id="gatherProcData" name="gatherProcData">
+<area shape="rect" id="Node000001" title="Helper: gather data from (subset of) sub&#45;ranks." alt="" coords="5,328,128,353"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPtrList.html#a169ad4153b300672ec298a08076e707b" title="Return iterator to begin traversal of non&#45;nullptr entries." alt="" coords="203,5,364,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,327,71,274,87,196,101,154,119,112,144,73,174,40,189,30,192,34,178,44,148,77,124,115,106,156,92,198,76,275,71,328"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPtrList.html#a9f2206db85fdfd40934f8ca7867aeb9c" title="Return const_iterator to begin traversal of non&#45;nullptr entries." alt="" coords="199,55,367,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="67,327,75,282,93,217,107,183,125,148,147,117,174,89,185,82,188,86,178,93,151,120,130,151,112,185,98,219,80,283,72,328"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="210,104,357,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="68,327,79,290,100,238,131,184,151,160,174,139,196,127,198,131,178,143,155,163,135,187,105,241,84,292,73,329"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="200,177,367,203"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="73,326,111,271,140,239,175,212,187,205,189,210,177,216,144,242,115,274,77,329"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="191,227,375,252"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="83,326,124,298,175,269,215,254,217,259,177,274,127,302,86,330"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="439,252,641,277"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="117,325,176,313,304,292,425,275,425,280,305,297,176,318,118,331"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a146845c4f8484e08642166062ac351c3" title="Receive variable length data from all ranks." alt="" coords="176,328,391,353"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="128,338,162,338,162,343,128,343"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="185,377,381,403"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="124,351,214,372,213,377,123,356"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="181,427,386,452"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="85,351,125,382,177,412,201,420,199,425,175,416,122,386,81,356"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="193,476,374,501"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="78,352,116,405,144,436,177,461,193,469,190,473,175,466,141,440,112,409,73,355"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="465,501,615,527"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="74,353,85,387,105,432,136,477,155,496,177,512,215,528,254,539,296,545,337,546,415,540,481,527,482,533,416,545,337,551,295,550,253,544,213,533,175,516,152,500,132,480,101,434,80,389,69,354"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UIPstream.html#a00ac8647e5edfdd172c29fabef24b538" title="Receive buffer contents (contiguous types) from given processor." alt="" coords="198,577,369,603"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="73,353,84,393,104,447,134,506,154,533,178,556,199,570,197,574,174,560,150,536,130,509,99,450,79,394,68,354"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UOPstream.html#a046e912cabb6848eba72c7ecd66897ec" title="Write buffer contents (contiguous types only) to given processor." alt="" coords="193,627,374,652"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="72,353,78,402,95,473,109,511,127,549,150,584,178,613,183,618,180,622,174,617,145,587,122,551,104,513,90,475,73,403,66,354"/>
+<area shape="poly" id="edge5_Node000006_Node000006" title=" " alt="" coords="248,179,240,169,244,159,259,153,283,151,313,154,325,163,322,168,311,159,283,156,260,158,248,163,246,168,252,176"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="376,246,425,251,424,256,375,251"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="374,495,451,503,451,508,374,500"/>
+<area shape="poly" id="edge14_Node000013_Node000013" title=" " alt="" coords="499,503,490,493,494,483,511,477,540,475,576,479,586,483,590,489,586,492,583,487,575,484,540,480,512,482,498,487,495,492,502,499"/>
+</map>

@@ -1,0 +1,49 @@
+<map id="calcExtrudeInfo" name="calcExtrudeInfo">
+<area shape="rect" id="Node000001" title="Determine extrude information per patch edge:" alt="" coords="5,543,128,568"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="176,5,409,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,542,75,444,94,292,108,213,126,140,148,81,160,58,174,40,178,37,181,41,178,44,165,60,153,83,131,142,114,214,99,293,80,444,72,543"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="219,55,366,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="67,542,77,452,97,316,112,245,129,180,150,127,174,91,189,80,205,72,207,77,191,84,178,94,155,129,135,182,117,247,103,317,82,453,72,543"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1primitiveMesh.html#ad38ecd2902727a890ebd437731c271c8" title=" " alt="" coords="213,105,373,145"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="65,542,66,476,78,375,91,318,111,262,138,209,174,161,199,143,202,147,178,165,143,211,116,264,97,320,83,376,71,477,70,542"/>
+<area shape="rect" id="Node000008" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="490,169,585,195"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="65,542,66,480,77,387,90,337,110,288,138,243,174,205,197,193,229,185,309,175,398,173,476,176,476,181,398,179,309,181,230,190,199,198,178,209,142,246,115,290,96,339,83,388,71,481,70,543"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1PrimitivePatch.html#ad38ecd2902727a890ebd437731c271c8" title="Return edge&#45;face addressing." alt="" coords="213,219,373,259"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="66,542,73,491,90,418,104,378,122,338,145,302,174,269,198,254,201,258,178,273,150,305,127,341,109,380,95,420,78,492,72,543"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1primitiveMesh.html#a21d764179912ddda5c6f95193c289846" title="Return mesh edges. Uses calcEdges." alt="" coords="213,283,373,323"/>
+<area shape="poly" id="edge6_Node000001_Node000023" title=" " alt="" coords="68,542,78,502,98,445,129,385,150,357,174,333,198,318,201,323,178,337,154,361,134,388,103,447,83,503,73,543"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1PrimitivePatch.html#a21d764179912ddda5c6f95193c289846" title="Return list of edges, address into LOCAL point list." alt="" coords="457,529,617,569"/>
+<area shape="poly" id="edge7_Node000001_Node000024" title=" " alt="" coords="73,541,110,486,139,457,175,434,238,411,292,405,346,413,410,434,442,450,470,471,514,516,511,520,467,475,439,455,408,439,345,418,292,410,239,416,177,439,143,461,114,490,77,544"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1polyMesh.html#a5e9cb8eb9e52843d336386b13423d19c" title="Return parallel info (demand&#45;driven)" alt="" coords="189,348,397,373"/>
+<area shape="poly" id="edge9_Node000001_Node000025" title=" " alt="" coords="70,541,84,511,106,470,136,427,174,391,201,376,204,381,178,395,140,431,110,473,89,513,75,544"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1primitiveMesh.html#a00fe9eacde7a2cbe10925b85ff1c16b1" title="Return true if given face label is internal to the mesh." alt="" coords="213,449,373,489"/>
+<area shape="poly" id="edge11_Node000001_Node000026" title=" " alt="" coords="89,540,128,519,175,498,199,490,201,495,177,503,131,524,91,545"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1PatchTools.html#a623dcb7755ce73a3cb3aea9eaa596cd5" title="Find corresponding edges on patches sharing the same points." alt="" coords="181,513,404,539"/>
+<area shape="poly" id="edge12_Node000001_Node000027" title=" " alt="" coords="128,545,181,538,182,543,129,550"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1PrimitivePatch.html#a3c91e7d5baf71c37da45885242cd1c7d" title="Return labels of patch edges in the global edge list using cell addressing." alt="" coords="213,563,373,603"/>
+<area shape="poly" id="edge13_Node000001_Node000031" title=" " alt="" coords="129,560,199,569,198,574,128,566"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1PrimitivePatch.html#a52e3a457780fe74b31d39dc046bce1d8" title="Return labelList of mesh points in patch." alt="" coords="213,627,373,667"/>
+<area shape="poly" id="edge14_Node000001_Node000032" title=" " alt="" coords="89,566,129,589,177,613,201,622,199,627,175,618,126,594,86,570"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1PrimitivePatch.html#a086513bcff1a3f1684e1a3879dd90deb" title="Number of edges in patch." alt="" coords="213,691,373,731"/>
+<area shape="poly" id="edge15_Node000001_Node000033" title=" " alt="" coords="78,566,116,620,144,651,177,677,201,689,198,694,175,682,141,655,112,624,73,570"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="462,756,613,781"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="74,568,84,604,104,652,135,702,155,723,177,741,210,758,245,771,319,784,392,786,457,781,457,786,392,791,319,790,244,776,208,763,175,746,151,727,131,705,100,655,79,606,68,569"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="201,807,385,832"/>
+<area shape="poly" id="edge19_Node000001_Node000034" title=" " alt="" coords="73,568,82,610,101,669,132,732,153,760,178,785,199,799,196,804,174,789,149,764,128,734,96,671,77,611,68,569"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1primitiveMesh.html#a219060536b044c749e6178283665d632" title=" " alt="" coords="213,857,373,897"/>
+<area shape="poly" id="edge20_Node000001_Node000035" title=" " alt="" coords="72,568,78,619,95,693,108,733,126,772,149,809,178,841,201,857,198,861,174,845,145,812,122,775,103,735,90,694,73,620,66,569"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1PrimitivePatch.html#a86a3422c0f49e9c5c301abd089cc465a" title="Return reference to global points." alt="" coords="213,921,373,961"/>
+<area shape="poly" id="edge21_Node000001_Node000036" title=" " alt="" coords="70,568,73,629,87,720,100,770,119,820,144,866,178,907,202,923,199,927,174,911,140,869,114,822,95,772,81,721,68,629,65,568"/>
+<area shape="rect" id="Node000037" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="273,985,312,1011"/>
+<area shape="poly" id="edge22_Node000001_Node000037" title=" " alt="" coords="72,568,84,650,105,772,120,835,137,893,157,940,178,971,196,983,217,991,260,997,259,1002,216,996,193,988,174,975,152,942,132,895,115,836,100,773,78,651,67,569"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1PtrList.html#a1a7984b90f8855606fc18a92a71fa99f" title="Same as resize()" alt="" coords="211,1035,374,1060"/>
+<area shape="poly" id="edge23_Node000001_Node000013" title=" " alt="" coords="72,568,82,658,102,795,117,866,134,932,155,985,178,1020,200,1035,197,1039,174,1024,150,987,129,933,112,867,97,796,76,659,66,568"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1globalMeshData.html#a9a349a456d09777614f65131f0e83e5b" title="Helper: synchronise data with transforms." alt="" coords="207,1085,379,1125"/>
+<area shape="poly" id="edge25_Node000001_Node000038" title=" " alt="" coords="72,568,80,667,100,819,115,898,132,971,153,1031,178,1071,196,1085,192,1089,174,1074,149,1033,127,972,109,899,95,819,75,667,66,569"/>
+<area shape="poly" id="edge4_Node000005_Node000008" title=" " alt="" coords="374,141,477,165,476,170,372,146"/>
+<area shape="poly" id="edge10_Node000025_Node000008" title=" " alt="" coords="381,345,408,333,445,304,476,270,521,205,525,208,481,273,448,308,411,338,383,350"/>
+<area shape="poly" id="edge16_Node000033_Node000024" title=" " alt="" coords="372,693,408,677,439,655,467,629,512,578,516,581,471,633,442,659,411,682,374,698"/>
+<area shape="poly" id="edge17_Node000033_Node000017" title=" " alt="" coords="374,727,470,750,469,755,372,733"/>
+<area shape="poly" id="edge18_Node000017_Node000017" title=" " alt="" coords="498,758,489,748,494,738,510,732,537,729,572,733,581,738,585,744,581,747,578,742,570,738,537,735,511,737,497,742,495,747,502,754"/>
+<area shape="poly" id="edge26_Node000038_Node000017" title=" " alt="" coords="378,1088,408,1071,437,1040,461,1004,481,966,497,927,519,852,530,795,535,796,524,854,502,929,486,968,466,1007,441,1043,411,1075,381,1093"/>
+</map>

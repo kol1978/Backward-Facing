@@ -1,0 +1,41 @@
+<map id="MeshedSurface&lt; Face &gt;" name="MeshedSurface&lt; Face &gt;">
+<area shape="rect" id="Node000001" title="A surface geometry mesh with zone information, not to be confused with the similarly named surfaceMes..." alt="" coords="253,482,435,507"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1ModifiableMeshedSurface.html" title="A special purpose MeshedSurface that exposes the stored values for direct modification." alt="" coords="595,5,786,45"/>
+<area shape="poly" id="edge3_Node000001_Node000011" title=" " alt="" coords="346,468,357,408,378,328,410,240,431,197,456,157,486,121,514,96,588,55,615,43,617,48,591,60,517,101,490,124,461,160,436,200,415,242,383,330,362,409,352,469"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UnsortedMeshedSurface.html" title="A surface geometry mesh, in which the surface zone information is conveyed by the &#39;zoneId&#39; associated..." alt="" coords="600,69,781,109"/>
+<area shape="poly" id="edge4_Node000001_Node000012" title=" " alt="" coords="349,468,362,418,384,354,415,284,457,218,487,183,515,159,588,119,616,107,618,112,591,124,518,164,491,187,461,222,420,286,389,356,367,420,354,469"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1fileFormats_1_1ABAQUSsurfaceFormat.html" title="Abaqus surface reader." alt="" coords="605,133,776,173"/>
+<area shape="poly" id="edge5_Node000001_Node000014" title=" " alt="" coords="352,468,391,379,420,326,457,277,488,244,516,222,588,183,616,171,618,176,590,188,519,226,492,248,461,280,425,329,395,381,357,470"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1fileFormats_1_1AC3DsurfaceFormat.html" title="Read/write AC3D format." alt="" coords="609,197,772,237"/>
+<area shape="poly" id="edge6_Node000001_Node000015" title=" " alt="" coords="356,468,397,402,425,364,457,329,490,300,518,281,588,247,618,235,620,240,590,252,521,285,493,304,461,333,429,367,401,405,361,471"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fileFormats_1_1FLMAsurfaceFormat.html" title="Provide a means of writing AVL/FIRE FLMA format." alt="" coords="609,261,772,301"/>
+<area shape="poly" id="edge7_Node000001_Node000016" title=" " alt="" coords="361,469,403,422,457,374,495,350,536,329,615,299,617,304,538,334,498,354,460,378,406,426,365,473"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1fileFormats_1_1NASsurfaceFormat.html" title="Nastran surface reader/writer." alt="" coords="589,326,792,351"/>
+<area shape="poly" id="edge8_Node000001_Node000018" title=" " alt="" coords="371,471,411,443,457,414,521,383,589,360,629,349,630,354,590,365,523,388,460,418,414,447,374,476"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1fileFormats_1_1OBJsurfaceFormat.html" title="Read/write Alias/Wavefront OBJ format." alt="" coords="591,375,790,401"/>
+<area shape="poly" id="edge9_Node000001_Node000019" title=" " alt="" coords="386,474,458,447,523,427,589,409,634,398,635,403,590,415,524,432,460,452,388,479"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fileFormats_1_1OFFsurfaceFormat.html" title="Read/write Geomview OFF polyList format." alt="" coords="590,425,791,450"/>
+<area shape="poly" id="edge10_Node000001_Node000020" title=" " alt="" coords="435,477,613,447,614,453,435,482"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fileFormats_1_1SMESHsurfaceFormat.html" title="Write tetgen SMESH format (Tetgen http://tetgen.berlios.de)" alt="" coords="609,475,772,515"/>
+<area shape="poly" id="edge11_Node000001_Node000021" title=" " alt="" coords="448,492,609,492,609,497,448,497"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1fileFormats_1_1STARCDsurfaceFormat.html" title="Read/write the surface shells from PROSTAR vrt/cel files." alt="" coords="607,539,775,579"/>
+<area shape="poly" id="edge12_Node000001_Node000022" title=" " alt="" coords="428,507,607,541,606,546,427,513"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1fileFormats_1_1STLsurfaceFormat.html" title="Provide a means of reading/writing STL files (ASCII and BINARY)." alt="" coords="591,603,790,629"/>
+<area shape="poly" id="edge13_Node000001_Node000023" title=" " alt="" coords="388,510,480,548,590,588,635,601,633,606,589,593,478,553,386,515"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1fileFormats_1_1TRIsurfaceFormat.html" title="Provide a means of reading/writing .tri format." alt="" coords="593,653,789,678"/>
+<area shape="poly" id="edge14_Node000001_Node000024" title=" " alt="" coords="370,515,411,550,460,584,523,616,590,639,630,650,628,655,589,644,521,621,457,589,408,554,367,519"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1fileFormats_1_1VTKsurfaceFormat.html" title="Read/write VTK legacy format (ASCII) for surfaces." alt="" coords="590,702,791,727"/>
+<area shape="poly" id="edge15_Node000001_Node000025" title=" " alt="" coords="361,518,402,576,429,607,460,635,497,658,536,676,614,699,613,705,534,681,494,663,457,639,425,611,397,579,357,521"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1fileFormats_1_1VTPsurfaceFormat.html" title="Write surfaces in VTP (xml) format. The default format is INLINE_BASE64." alt="" coords="591,751,791,777"/>
+<area shape="poly" id="edge16_Node000001_Node000026" title=" " alt="" coords="356,519,370,557,393,604,422,651,460,691,490,712,523,728,591,749,590,754,521,733,487,716,457,695,418,654,388,606,366,560,351,521"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1fileFormats_1_1X3DsurfaceFormat.html" title="Provide a means of writing x3d format." alt="" coords="589,801,792,826"/>
+<area shape="poly" id="edge17_Node000001_Node000027" title=" " alt="" coords="352,520,363,569,384,630,415,693,436,722,460,747,489,768,522,784,590,803,588,808,520,789,487,773,457,751,432,725,411,696,379,632,358,570,347,521"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1MeshedSurface.html" title=" " alt="" coords="601,850,781,875"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="349,521,355,582,372,663,386,705,405,746,430,784,460,817,492,837,527,851,564,859,601,863,600,869,563,865,525,856,489,842,457,821,426,787,401,749,381,707,367,664,350,583,343,521"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1MeshedSurface.html" title=" " alt="" coords="604,900,777,940"/>
+<area shape="poly" id="edge19_Node000001_Node000047" title=" " alt="" coords="347,521,349,593,363,691,377,743,397,793,425,840,460,879,492,900,529,914,567,921,604,924,604,929,566,927,527,919,490,905,457,883,420,843,392,795,372,744,358,692,344,594,342,521"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PrimitivePatch.html" title=" " alt="" coords="5,445,204,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,477,253,481,253,486,217,482"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1fileFormats_1_1surfaceFormatsCore.html" title="A collection of helper functions for reading/writing surface formats." alt="" coords="28,510,181,535"/>
+<area shape="poly" id="edge2_Node000001_Node000010" title=" " alt="" coords="195,509,253,503,253,508,195,515"/>
+</map>

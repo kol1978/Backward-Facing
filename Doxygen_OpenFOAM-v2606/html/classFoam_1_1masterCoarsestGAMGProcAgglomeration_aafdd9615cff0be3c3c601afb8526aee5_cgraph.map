@@ -1,0 +1,31 @@
+<map id="agglomerate" name="agglomerate">
+<area shape="rect" id="Node000001" title="Modify agglomeration. Return true if modified." alt="" coords="5,286,111,311"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1GAMGProcAgglomeration.html#a12f8aee2a8262bad4ece599ecd67ead5" title="Modify agglomeration." alt="" coords="174,5,405,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,285,65,241,81,179,111,113,132,82,157,55,163,51,166,55,160,59,136,85,116,115,87,181,70,243,63,286"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPtrList.html#a4a557503c0b752dd1bd74295f499129f" title="Reference to the last element of the list." alt="" coords="211,70,367,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,285,70,250,89,203,118,154,136,132,157,113,176,101,197,92,199,97,179,105,160,117,140,136,122,157,94,206,75,252,65,286"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1GAMGAgglomeration.html#a2924c769d07fb681fe84b5036f9977d6" title="Given fine to coarse processor map determine:" alt="" coords="188,221,391,261"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,283,158,271,193,262,194,267,159,276,109,289"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="468,133,673,158"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="63,284,97,229,124,198,157,174,195,157,235,144,317,129,397,126,469,129,468,134,397,131,317,135,236,149,197,162,160,178,128,202,101,232,68,287"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="495,286,646,311"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="103,309,159,320,232,327,289,329,420,320,491,311,492,316,420,325,289,334,232,332,158,325,102,314"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="504,193,637,218"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="67,284,103,244,128,223,158,207,200,193,245,184,335,176,421,179,493,188,493,193,420,185,335,182,246,189,202,198,160,212,131,227,106,248,71,288"/>
+<area shape="rect" id="Node000015" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="523,513,618,538"/>
+<area shape="poly" id="edge8_Node000001_Node000015" title=" " alt="" coords="65,311,75,345,94,389,122,435,139,456,160,472,187,485,224,495,318,510,421,518,510,522,510,527,421,524,318,515,223,501,185,490,157,477,136,459,117,439,89,392,70,346,60,312"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="224,387,355,413"/>
+<area shape="poly" id="edge9_Node000001_Node000017" title=" " alt="" coords="75,309,112,338,160,366,212,383,210,388,158,370,109,342,72,313"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam.html#ad74305a381cf061cce59098189211732" title="Invert one&#45;to&#45;many map. Unmapped elements will be size 0." alt="" coords="199,437,379,462"/>
+<area shape="poly" id="edge10_Node000001_Node000018" title=" " alt="" coords="68,310,102,365,128,396,160,422,187,434,185,439,157,426,124,400,97,368,63,313"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#ad69aacc06573f5d5137c461b41fb9d05" title="Create new communicator with sub&#45;ranks on the parent communicator." alt="" coords="159,538,420,563"/>
+<area shape="poly" id="edge12_Node000001_Node000021" title=" " alt="" coords="64,311,72,351,89,407,118,466,137,493,160,517,182,530,179,535,157,521,133,497,113,469,84,409,67,352,59,312"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="199,286,380,311"/>
+<area shape="poly" id="edge14_Node000001_Node000032" title=" " alt="" coords="111,296,185,296,185,301,111,301"/>
+<area shape="poly" id="edge4_Node000004_Node000007" title=" " alt="" coords="348,219,467,177,518,160,520,165,469,183,349,224"/>
+<area shape="poly" id="edge5_Node000004_Node000012" title=" " alt="" coords="389,259,495,281,494,286,388,264"/>
+<area shape="poly" id="edge7_Node000004_Node000013" title=" " alt="" coords="391,226,490,213,491,218,391,231"/>
+<area shape="poly" id="edge6_Node000012_Node000012" title=" " alt="" coords="526,288,516,278,521,268,539,261,571,259,611,264,622,269,626,275,621,277,618,273,610,269,571,265,540,267,524,272,521,277,529,284"/>
+<area shape="poly" id="edge13_Node000021_Node000015" title=" " alt="" coords="420,536,509,528,509,533,420,542"/>
+<area shape="poly" id="edge15_Node000032_Node000012" title=" " alt="" coords="380,296,482,296,482,301,380,301"/>
+</map>

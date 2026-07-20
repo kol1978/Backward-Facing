@@ -1,0 +1,19 @@
+<map id="decompositionMethod" name="decompositionMethod">
+<area shape="rect" id="Node000001" title="Abstract base class for domain decomposition." alt="" coords="5,179,172,204"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1geomDecomp.html" title="Base for geometrical domain decomposition methods." alt="" coords="236,5,349,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,165,150,103,182,69,219,40,241,28,243,33,221,44,186,73,154,106,107,168"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1manualDecomp.html" title="Decompose based on cell&#45;to&#45;processor association in a file." alt="" coords="230,55,355,80"/>
+<area shape="poly" id="edge2_Node000001_Node000005" title=" " alt="" coords="112,168,159,128,219,89,245,78,247,83,221,94,162,132,115,172"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1metisLikeDecomp.html" title="Domain decomposition using METIS&#45;like data structures." alt="" coords="223,104,362,129"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="133,171,219,138,251,127,253,132,221,143,135,176"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1multiLevelDecomp.html" title="Decompose given using consecutive application of decomposers." alt="" coords="220,153,365,179"/>
+<area shape="poly" id="edge4_Node000001_Node000010" title=" " alt="" coords="185,177,219,172,220,178,186,182"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1noDecomp.html" title="A dummy decomposition method, selected as none." alt="" coords="247,203,339,228"/>
+<area shape="poly" id="edge5_Node000001_Node000011" title=" " alt="" coords="186,200,246,207,246,213,186,205"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1ptscotchDecomp.html" title="PTScotch domain decomposition." alt="" coords="227,252,358,277"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="138,206,221,237,256,249,254,255,219,242,136,211"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1randomDecomp.html" title="Decomposition according to pseudo&#45;random number generator, which is useful for development and stress..." alt="" coords="229,301,356,327"/>
+<area shape="poly" id="edge7_Node000001_Node000013" title=" " alt="" coords="116,211,163,249,221,286,250,299,248,304,219,291,160,253,113,215"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1structuredDecomp.html" title="Walk out decomposition of patch cells mesh &#45; selectable as structured." alt="" coords="221,351,364,376"/>
+<area shape="poly" id="edge8_Node000001_Node000014" title=" " alt="" coords="108,214,155,275,186,307,221,336,246,348,244,353,219,340,183,311,150,278,104,217"/>
+</map>

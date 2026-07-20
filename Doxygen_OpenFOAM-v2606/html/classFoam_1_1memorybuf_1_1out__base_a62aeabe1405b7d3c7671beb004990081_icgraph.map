@@ -1,0 +1,32 @@
+<map id="span_tellp" name="span_tellp">
+<area shape="rect" id="Node000001" title="The current buffer put position." alt="" coords="468,343,557,368"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a45f77363bd1c82ed4b3b77b11c06ab67" title="Increase (reserve) space for another count entries." alt="" coords="11,136,181,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,331,471,270,447,238,419,213,377,196,317,182,181,165,182,160,318,177,379,191,421,208,451,235,475,267,505,329"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#ad192cae20e1bd3dc15ee970700cc2542" title="Increase (reserve) space for another count entries." alt="" coords="5,485,187,525"/>
+<area shape="poly" id="edge2_Node000001_Node000012" title=" " alt="" coords="498,382,466,420,445,439,421,454,363,478,302,494,242,504,187,508,187,503,241,498,301,489,362,473,419,449,441,434,462,416,493,378"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1memorybuf_1_1out__base.html#a72969a4ccec22ab8536ba264c5ce2228" title="True if position is within the current output range." alt="" coords="288,56,367,82"/>
+<area shape="poly" id="edge3_Node000001_Node000015" title=" " alt="" coords="507,329,501,280,486,217,460,152,441,122,418,96,394,82,366,74,368,69,396,77,422,92,445,119,465,149,491,215,506,279,513,329"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1memorybuf_1_1out__base.html#a96333432d4ea563dff8d37dccdea2f6d" title="Overwrite a sub&#45;slice with character content." alt="" coords="54,31,138,56"/>
+<area shape="poly" id="edge8_Node000001_Node000017" title=" " alt="" coords="505,330,494,261,475,175,450,95,435,65,418,46,385,27,348,15,309,9,269,9,194,18,134,34,133,28,193,13,269,3,309,4,349,9,387,22,422,42,439,62,454,93,480,173,499,260,510,329"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1memorybuf_1_1out__base.html#a89318aa2ab2853dcdc58dc2481f6a2c1" title="Some information about the output buffer position/capacity." alt="" coords="304,222,351,247"/>
+<area shape="poly" id="edge5_Node000001_Node000033" title=" " alt="" coords="493,334,461,297,419,262,384,247,350,240,352,235,386,242,421,257,465,293,497,330"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1ocharstream.html#af653038889584808422b15d80cbebd4f" title="The current output position within the buffer (tellp)" alt="" coords="249,272,405,312"/>
+<area shape="poly" id="edge6_Node000001_Node000034" title=" " alt="" coords="461,341,385,314,387,309,463,336"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1ospanstream.html#af653038889584808422b15d80cbebd4f" title="The current output position within the buffer (tellp)" alt="" coords="248,336,407,376"/>
+<area shape="poly" id="edge7_Node000001_Node000040" title=" " alt="" coords="454,358,407,358,407,353,454,353"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a5b71a3499eebcdfbb7daf34af79f7b53" title="Reset buffer and return contents as a DynamicList. The list size corresponds to the region of output." alt="" coords="242,400,413,440"/>
+<area shape="poly" id="edge9_Node000001_Node000046" title=" " alt="" coords="463,376,387,402,385,397,461,371"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#aeacdbb2047b62521feae4686a357da34" title="Increase capacity (if needed) and adjust buffer pointers. Applies a min&#45;size and capacity doubling." alt="" coords="242,106,413,146"/>
+<area shape="poly" id="edge10_Node000001_Node000049" title=" " alt="" coords="503,330,492,294,474,251,450,206,418,167,391,149,394,144,422,163,455,203,479,249,497,293,508,329"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a24b49022cad0a04c1cca46997604d6b5" title="Increase capacity for at least this size. Does not apply min&#45;size or capacity doubling etc." alt="" coords="235,514,420,554"/>
+<area shape="poly" id="edge12_Node000001_Node000054" title=" " alt="" coords="503,383,471,440,449,471,422,498,391,517,389,512,418,494,445,467,467,437,498,380"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a5f16304f80b6fb253c7b0ead3e16dd18" title="Shrink storage to addressed storage." alt="" coords="241,578,414,618"/>
+<area shape="poly" id="edge14_Node000001_Node000057" title=" " alt="" coords="509,383,500,423,483,473,458,524,441,547,422,568,405,580,402,576,418,564,437,544,453,521,478,471,495,422,504,382"/>
+<area shape="rect" id="Node000059" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a35eba259d50eb731e96d0527a09ac6ed" title="Exchange buffer content and parameter contents, reset positions." alt="" coords="242,642,413,682"/>
+<area shape="poly" id="edge15_Node000001_Node000059" title=" " alt="" coords="513,383,507,434,492,501,465,571,446,603,422,632,406,644,403,640,418,629,441,600,460,568,487,500,501,434,507,382"/>
+<area shape="rect" id="Node000060" href="$classFoam_1_1memorybuf_1_1out__dynamic.html#a0bc98884e2f468320a5c64ace7c65b2d" title="Exchange buffer content and parameter contents, reset positions." alt="" coords="242,706,413,746"/>
+<area shape="poly" id="edge16_Node000001_Node000060" title=" " alt="" coords="515,382,512,445,500,528,489,573,472,617,450,659,422,696,407,708,404,704,418,693,446,656,467,615,484,571,495,527,507,444,509,382"/>
+<area shape="poly" id="edge4_Node000015_Node000017" title=" " alt="" coords="274,66,138,51,138,46,275,61"/>
+<area shape="poly" id="edge11_Node000049_Node000002" title=" " alt="" coords="228,142,182,148,181,142,228,136"/>
+<area shape="poly" id="edge13_Node000054_Node000012" title=" " alt="" coords="221,524,186,519,187,514,221,518"/>
+</map>

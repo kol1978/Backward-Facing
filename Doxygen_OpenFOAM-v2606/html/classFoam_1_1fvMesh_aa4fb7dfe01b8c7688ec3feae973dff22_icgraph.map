@@ -1,0 +1,47 @@
+<map id="boundary" name="boundary">
+<area shape="rect" id="Node000001" title="Return reference to boundary mesh." alt="" coords="312,703,395,729"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1topOVariablesBase.html#a99ab8a3d959604defb6d6191c3b18688" title="Check whether the boundary faces of the initial domain belong to the fluid part and add them to the s..." alt="" coords="30,5,239,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,689,348,557,338,368,327,270,311,181,290,108,277,80,262,59,238,41,241,37,266,55,281,78,295,106,316,180,332,270,343,367,353,557,355,689"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1topOVariablesBase.html#a21832978e3b3b586d41104b29d0fdaec" title="Check whether the cutFace intersects the boundary of the initial domain and add fluid part of the int..." alt="" coords="23,69,247,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,689,346,569,334,398,323,311,308,232,287,167,275,142,262,123,245,110,249,105,266,120,280,139,292,165,313,231,328,311,339,398,351,568,355,689"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1meshRefinement.html#a7648b2de2bf053048ba38532a8cf73a1" title="Helper:add patch to mesh. Update all registered fields." alt="" coords="46,133,223,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="349,690,343,581,330,430,319,353,304,283,285,226,262,187,244,173,223,163,225,159,247,168,266,184,290,223,309,282,324,352,335,429,349,581,354,690"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1meshRefinement.html#aed2a5a12ca106976301dd2d80efcb85a" title="Helper:append patch to end of mesh." alt="" coords="46,197,223,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="348,690,341,593,326,461,314,394,300,334,283,284,262,251,244,237,223,228,225,223,247,233,266,248,287,282,305,332,320,393,331,460,346,592,353,689"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1assemblyFaceAreaPairGAMGAgglomeration.html#a20d2ad010af40e1bebd54b2bfc442dff" title="Construct given mesh and controls." alt="" coords="5,262,264,317"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="347,690,337,608,320,501,294,398,279,358,262,331,248,319,252,315,266,328,284,356,300,396,325,500,342,608,352,689"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1pointPatchDist.html#a3ae44b28050c3aa494c1d8e18cf618c1" title="Correct for mesh geom/topo changes." alt="" coords="55,341,215,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="350,690,349,629,338,550,327,508,311,467,290,429,262,395,240,380,214,370,216,365,243,375,266,391,294,426,316,465,332,506,343,549,354,629,356,690"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1ThermalPhaseChangePhaseSystem.html#a49acbe6bbfb8665ce4c3fdc7e52d385b" title="Correct the interface thermodynamics." alt="" coords="24,406,245,461"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="347,690,340,644,326,586,301,526,283,499,262,475,244,462,247,457,266,471,287,496,305,524,331,584,346,642,353,689"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1outletStabilised.html#a9c79cff1f5952f2e865730d39bf9b2fe" title="Return the explicit correction to the face&#45;interpolate." alt="" coords="51,485,219,525"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="344,690,334,656,318,615,294,574,262,539,241,526,218,517,220,512,244,522,266,535,298,571,322,612,339,654,349,689"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1linearUpwind.html#ad25d61b69bb476886334d918209c41b7" title=" " alt="" coords="59,549,211,589"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="337,693,307,646,286,623,263,604,237,591,210,582,212,577,239,586,265,599,290,619,311,643,342,690"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#ac715075c5f81c84029fced91dd0df0c3" title=" " alt="" coords="35,613,234,653"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="320,698,263,668,228,656,230,651,265,663,323,693"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam.html#ad5cb4535e2e4528ff3c9c7ed55e91ada" title=" " alt="" coords="26,678,243,703"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="298,712,243,706,244,701,299,707"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1engineMesh.html#ac9e1a1e4fbbd91b4fb4cd7b1155ccd5f" title="Construct from objectRegistry, and read/write options." alt="" coords="19,727,251,753"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="299,725,251,730,250,725,298,719"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1singleCellFvMesh.html#ad95850bbb9650861281f78c439da4392" title=" " alt="" coords="44,777,225,817"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="322,738,265,766,226,780,224,775,263,762,319,733"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1weightedFlux.html#a3192994737539d563a5dc450b9d8c04d" title="Interpolate the cell values to faces." alt="" coords="57,841,212,881"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="342,742,311,788,290,812,265,832,240,845,213,854,211,849,238,840,263,827,286,808,307,785,337,739"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1volPointInterpolationAdjoint.html#a82accfc2cda0f2ebe403fe2a73b412ce" title="Interpolate sensitivties from points to faces." alt="" coords="5,905,264,945"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="349,743,339,778,322,819,298,860,266,895,247,908,244,903,262,891,294,857,317,817,334,776,344,741"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1volPointInterpolationAdjoint.html#ae1e1d451512447a365c1e006d2dbd5ef" title="Interpolate sensitivties from points to faces." alt="" coords="5,969,264,1009"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="353,743,346,789,332,848,306,908,288,935,266,959,249,971,246,967,262,955,284,932,301,905,327,846,341,788,348,742"/>
+<area shape="rect" id="Node000019" href="$namespaceFoam.html#a128b923116f1959d6a70281846271068" title=" " alt="" coords="55,1034,215,1059"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="356,742,353,801,342,877,331,917,315,956,293,992,266,1023,242,1039,216,1047,214,1042,240,1034,262,1019,289,989,310,953,326,915,337,875,348,800,350,742"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fvMeshTools.html#a5a5aeacedb38e24c795395006292ae22" title="Read mesh or create dummy mesh (0 cells, &gt;0 patches)." alt="" coords="57,1084,212,1124"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="352,742,341,818,323,917,298,1011,283,1047,266,1073,241,1090,213,1101,211,1096,239,1085,262,1069,278,1045,293,1009,318,916,336,817,346,742"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fvMeshTools.html#a18d7d3895abc0ab81c525bd81ba69a9c" title="Reorder and remove trailing patches." alt="" coords="57,1148,212,1188"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="353,743,344,831,328,949,302,1063,286,1107,266,1138,241,1156,213,1166,211,1161,239,1151,262,1134,281,1105,297,1061,323,948,339,831,347,742"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1faMatrix.html#ac6f9bae6c70094af19510e911b238a2b" title="Set solution in given faces to the specified values." alt="" coords="39,1212,231,1252"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="354,743,347,844,332,981,321,1050,306,1114,288,1166,266,1202,250,1215,232,1224,230,1219,247,1210,262,1198,283,1164,301,1112,315,1049,327,980,342,843,348,743"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1outletStabilised.html#a714f951f747788eab2252ad315bb0d4f" title="Return the interpolation weighting factors." alt="" coords="51,1276,219,1316"/>
+<area shape="poly" id="edge21_Node000001_Node000023" title=" " alt="" coords="354,743,349,855,336,1011,325,1091,310,1164,291,1224,279,1248,266,1266,245,1282,220,1292,218,1288,242,1278,262,1262,274,1245,286,1222,305,1163,320,1090,331,1011,344,854,349,742"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1topOVariablesBase.html#abefc838bef3f77c2135757ba40037f9f" title="Write the surface describing the fluid domain to stl and vtp files." alt="" coords="40,1340,229,1380"/>
+<area shape="poly" id="edge22_Node000001_Node000024" title=" " alt="" coords="355,742,352,866,340,1042,329,1132,314,1215,293,1283,280,1309,266,1330,250,1344,231,1353,228,1348,247,1339,262,1326,276,1307,288,1281,309,1213,324,1131,335,1041,346,866,349,742"/>
+</map>

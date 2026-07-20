@@ -1,0 +1,37 @@
+var classFoam_1_1coordSet =
+[
+    [ "coordFormat", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090", [
+      [ "X", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090a02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090a57cec4137b614c87cb4e24a3d003a3e0", null ],
+      [ "Z", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090a21c2e59531c8710156d34a3c30ac81d5", null ],
+      [ "RADIUS", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090a5c6d0ec312d680ed011756648c9e96ea", null ],
+      [ "DISTANCE", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090ab06c2037eb7a58030a42212c8244d477", null ],
+      [ "XYZ", "classFoam_1_1coordSet.html#af5fb44f4f50c97b5f3c1af44781d0090ae65075d550f9b5bf9992fa1d71a131be", null ]
+    ] ],
+    [ "coordSet", "classFoam_1_1coordSet.html#a88808f5490fb4b1dcd605b1e489faf94", null ],
+    [ "coordSet", "classFoam_1_1coordSet.html#a4128a5df737fce741fc1eeb1b4ac69b7", null ],
+    [ "coordSet", "classFoam_1_1coordSet.html#aab1c971210ef4fa1b158455804805714", null ],
+    [ "coordSet", "classFoam_1_1coordSet.html#ac9a71c4800ed562eeec995bbeb12da63", null ],
+    [ "checkDimensions", "classFoam_1_1coordSet.html#a98c8791af9ee3e7ec0905af03ddec599", null ],
+    [ "name", "classFoam_1_1coordSet.html#a96ca9d9164d69ea066ae5bb92311119f", null ],
+    [ "axis", "classFoam_1_1coordSet.html#a247364b53ac2ad40d59c85ec53772737", null ],
+    [ "points", "classFoam_1_1coordSet.html#aa421becdbcf630a4bc471123cea56b97", null ],
+    [ "distance", "classFoam_1_1coordSet.html#a871e4e13a4a6e5ec900da77b53f0ee75", null ],
+    [ "nPoints", "classFoam_1_1coordSet.html#a17e4fc065a027aa88a63f73eb6e8d5c7", null ],
+    [ "rename", "classFoam_1_1coordSet.html#af41376d1e0031e06613d5ce3c740cf7d", null ],
+    [ "setPoints", "classFoam_1_1coordSet.html#a948be780fa1bada570a0bcd37da10891", null ],
+    [ "setPoints", "classFoam_1_1coordSet.html#ab3c0870a1b1ebab6deca45887cf2a989", null ],
+    [ "setDistance", "classFoam_1_1coordSet.html#addd1a3b81b55b2d5840dabd738eb7350", null ],
+    [ "setDistance", "classFoam_1_1coordSet.html#a1f8dfb6b5d85af6379316799b4e35bee", null ],
+    [ "hasVectorAxis", "classFoam_1_1coordSet.html#a6f1907d7c4b0aa3756d70739d12a297d", null ],
+    [ "scalarCoord", "classFoam_1_1coordSet.html#ae6a6abb009b265fdbf1fc3609c10355c", null ],
+    [ "vectorCoord", "classFoam_1_1coordSet.html#a243560f1d5866bff4301564865c85889", null ],
+    [ "write", "classFoam_1_1coordSet.html#a84ca8fa40b9dd104c93d1a4fae89d009", null ],
+    [ "gatherSort", "classFoam_1_1coordSet.html#a6b99e06cabd858fe1fe3518c2f5f8c3f", null ],
+    [ "curveDist", "classFoam_1_1coordSet.html#a1f70dbb06f8ea3b38f1922076e779d2b", null ],
+    [ "setCurveDist", "classFoam_1_1coordSet.html#ac519633d0d6ced8779c158a67c385f06", null ],
+    [ "coordFormatNames", "classFoam_1_1coordSet.html#acf5256498a217bb95834207533a250a5", null ],
+    [ "name_", "classFoam_1_1coordSet.html#a50fd7d13a0f7a6007ca5027b3bb8765a", null ],
+    [ "distance_", "classFoam_1_1coordSet.html#a17f760f8245c203beb829d7d2365bc85", null ],
+    [ "axis_", "classFoam_1_1coordSet.html#a4b45aa5da53f4632c1d22d8d831fa2f1", null ]
+];

@@ -1,0 +1,35 @@
+<map id="cyclicAMIGAMGInterface" name="cyclicAMIGAMGInterface">
+<area shape="rect" id="Node000001" title="Construct from fine level interface, local and neighbour restrict addressing." alt="" coords="5,367,188,392"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cyclicAMIGAMGInterface.html#ab214119a136db27fc4290e3ac62548e6" title=" " alt="" coords="319,5,365,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,366,105,307,127,218,145,170,168,122,198,78,234,40,250,29,269,22,304,16,305,21,270,27,253,34,238,44,202,81,173,125,150,172,132,220,110,308,102,367"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="261,55,423,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="97,366,109,314,133,239,151,198,174,158,202,121,234,89,247,81,250,86,238,93,206,125,179,161,156,201,138,241,114,316,103,367"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#ab571c97d18e5deccaf3803eaa45c30f2" title="Alter communicator debugging setting. Warns for use of any communicator differing from specified...." alt="" coords="236,104,448,129"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="99,366,113,322,140,260,180,194,205,164,234,139,242,133,245,138,238,143,209,168,184,197,145,262,118,324,104,367"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="295,153,389,179"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="101,365,118,329,147,281,186,230,209,207,235,188,257,177,280,169,282,175,259,182,237,192,213,211,190,234,151,284,123,332,106,367"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="277,203,407,228"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="105,365,154,303,192,267,235,237,262,225,265,230,237,242,195,271,158,307,109,368"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#a99115fd95d9b4146cdcfabe303e13fce" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="284,252,400,277"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="112,364,165,326,235,288,270,276,271,281,237,292,168,331,116,369"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1GAMGInterface.html#a3a0e8421624386fd1af3c3943ea29049" title=" " alt="" coords="259,302,425,342"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="151,364,246,342,247,347,152,369"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="239,367,445,392"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="188,377,225,377,225,382,188,382"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="251,416,433,441"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="161,389,265,411,264,416,160,395"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="496,441,647,467"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="117,390,169,422,202,438,237,450,300,461,364,466,482,462,482,468,364,471,299,467,235,455,200,443,166,427,114,394"/>
+<area shape="rect" id="Node000015" href="$namespaceFoam.html#a0b18ffad13f9e7e1ae8e921f396c51f5" title="A dynamic_cast (for references) to Type reference." alt="" coords="285,517,399,543"/>
+<area shape="poly" id="edge12_Node000001_Node000015" title=" " alt="" coords="111,390,163,441,198,470,237,496,273,511,271,516,235,500,195,475,159,445,107,394"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1GAMGInterface.html#a03bc1200aac252c4d3e18657d700b71c" title="Return size." alt="" coords="259,567,425,607"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="107,391,125,423,154,467,192,512,238,552,249,559,247,564,234,556,188,516,150,470,121,426,102,393"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1globalIndex.html#a2be4752608ec0f3f98a3d29c9c6fec73" title="The total addressed size, which corresponds to the end offset and also the sum of all localSizes." alt="" coords="267,631,417,671"/>
+<area shape="poly" id="edge15_Node000001_Node000021" title=" " alt="" coords="104,392,119,435,146,496,185,561,210,591,238,617,255,628,252,633,234,621,206,595,181,564,141,498,114,437,99,393"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1List.html#a12194004a66b30e6dfd3d9faa83f6b5a" title="Transfer the contents of the argument List into this list and annul the argument list." alt="" coords="268,696,416,721"/>
+<area shape="poly" id="edge16_Node000001_Node000022" title=" " alt="" coords="102,392,113,445,137,524,154,567,177,609,205,648,238,681,257,693,254,697,234,685,200,651,172,612,150,569,132,526,108,447,97,393"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1PtrList.html#a0bc76d46c3a7f71bd74ddafdf84dbfbc" title="Transfer into this list and annul the argument list." alt="" coords="259,745,425,771"/>
+<area shape="poly" id="edge17_Node000001_Node000024" title=" " alt="" coords="102,392,109,453,131,545,148,596,171,645,201,691,238,731,248,738,245,742,234,735,197,694,167,648,143,598,126,547,104,454,96,393"/>
+<area shape="poly" id="edge10_Node000013_Node000014" title=" " alt="" coords="433,436,483,442,482,447,433,441"/>
+<area shape="poly" id="edge11_Node000014_Node000014" title=" " alt="" coords="534,443,526,433,530,423,546,417,571,415,604,419,616,428,613,432,602,423,571,420,547,422,534,427,531,432,538,439"/>
+</map>

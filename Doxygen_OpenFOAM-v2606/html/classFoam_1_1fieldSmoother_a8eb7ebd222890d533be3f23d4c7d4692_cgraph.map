@@ -1,0 +1,34 @@
+<map id="smoothNormals" name="smoothNormals">
+<area shape="rect" id="Node000001" title="Smooth interior normals." alt="" coords="5,308,132,333"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#ae31df1e5717aa026651c12c7fc3ce539" title=" " alt="" coords="209,5,328,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,307,77,260,96,191,110,153,128,115,151,79,178,48,197,34,200,39,182,52,155,83,133,118,115,155,101,192,82,261,74,308"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1meshRefinement.html#a04c017383424fc7aafa5a9ab2fd259fb" title="Helper: calculate edge weights (1/length)" alt="" coords="180,157,357,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="79,306,120,262,178,213,201,200,203,205,182,218,124,266,83,310"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a8ac5b57f98f906c36b8a4e989a77dbba" title=" " alt="" coords="469,107,564,132"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="69,307,77,264,96,203,110,172,128,141,151,114,179,92,215,74,255,65,296,62,337,64,413,79,475,99,473,104,412,84,336,69,296,67,256,70,217,79,181,96,155,118,133,144,115,174,101,205,82,265,74,308"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="450,221,583,247"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="86,306,127,280,179,257,246,241,314,232,436,228,436,233,314,238,247,247,181,262,129,284,89,310"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="221,501,316,527"/>
+<area shape="poly" id="edge5_Node000001_Node000021" title=" " alt="" coords="78,332,115,402,145,444,182,480,210,496,207,500,178,484,141,447,110,405,73,335"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1meshRefinement.html#a120bdbd3063d39997fdc113e676a074c" title="Helper: calculate average." alt="" coords="180,386,357,426"/>
+<area shape="poly" id="edge6_Node000001_Node000029" title=" " alt="" coords="101,331,210,378,208,383,98,336"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1UPtrList.html#a53e54aae19ba347f6f4544c764905331" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="441,336,592,361"/>
+<area shape="poly" id="edge15_Node000001_Node000033" title=" " alt="" coords="133,322,428,340,427,346,132,327"/>
+<area shape="rect" id="Node000035" href="$namespaceFoam.html#a99115fd95d9b4146cdcfabe303e13fce" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="211,551,327,576"/>
+<area shape="poly" id="edge8_Node000001_Node000035" title=" " alt="" coords="75,333,86,373,106,429,138,487,158,514,182,537,199,548,196,552,178,541,154,518,133,490,101,431,81,375,70,335"/>
+<area shape="rect" id="Node000036" href="$namespaceFoam.html#a28414de435fdb36254b463728306dcaa" title="Return the normalised (unit) quaternion of the given quaternion." alt="" coords="199,107,338,132"/>
+<area shape="poly" id="edge10_Node000001_Node000036" title=" " alt="" coords="72,307,85,274,107,229,138,183,178,143,189,136,192,140,182,147,142,186,112,232,90,276,77,309"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="201,600,336,625"/>
+<area shape="poly" id="edge12_Node000001_Node000038" title=" " alt="" coords="74,333,82,381,100,450,114,487,132,523,154,557,182,587,190,593,187,597,178,591,150,561,127,526,109,489,95,451,76,382,69,334"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1syncTools.html#af5bc1e56ab816a506dc01789e3e57857" title="Synchronize values on all mesh points." alt="" coords="405,417,628,443"/>
+<area shape="poly" id="edge14_Node000001_Node000040" title=" " alt="" coords="79,332,117,385,146,414,181,436,216,448,252,455,326,460,396,454,456,443,457,448,397,459,326,465,251,461,214,453,179,440,143,418,113,389,75,335"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1meshRefinement.html#aa3e263cda935b4adc9d37370e4fd16a3" title="Helper: weighted sum (over all subset of mesh points) by." alt="" coords="180,271,357,311"/>
+<area shape="poly" id="edge16_Node000001_Node000043" title=" " alt="" coords="132,309,166,304,167,309,133,314"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="355,154,455,131,457,136,356,159"/>
+<area shape="poly" id="edge4_Node000003_Node000014" title=" " alt="" coords="356,194,449,216,447,221,355,199"/>
+<area shape="poly" id="edge7_Node000029_Node000033" title=" " alt="" coords="355,383,447,362,449,367,356,389"/>
+<area shape="poly" id="edge11_Node000036_Node000004" title=" " alt="" coords="338,117,456,117,456,122,338,122"/>
+<area shape="poly" id="edge17_Node000043_Node000014" title=" " alt="" coords="355,269,447,247,449,252,356,274"/>
+<area shape="poly" id="edge19_Node000043_Node000033" title=" " alt="" coords="356,309,449,330,447,336,355,314"/>
+<area shape="poly" id="edge18_Node000043_Node000040" title=" " alt="" coords="304,309,407,370,479,409,476,413,404,375,301,314"/>
+</map>

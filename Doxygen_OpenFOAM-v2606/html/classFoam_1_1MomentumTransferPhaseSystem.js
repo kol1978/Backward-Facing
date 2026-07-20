@@ -1,0 +1,27 @@
+var classFoam_1_1MomentumTransferPhaseSystem =
+[
+    [ "KdTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a1fcb98a8e1351ee2d5bf7e61661a85aa", null ],
+    [ "KdfTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a7e2f83bd3ad9627a15090e67a5a10598", null ],
+    [ "VmTable", "classFoam_1_1MomentumTransferPhaseSystem.html#aa6696f5209dd51f00a16c655088bc718", null ],
+    [ "VmfTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a65bbe7d6c32fc27c4087e5d4933a7ec4", null ],
+    [ "dragModelTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a1209aaf5f43fa642c540240ff7c0b0b9", null ],
+    [ "virtualMassModelTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a9f1d83362eedd5fa43ad2d77c3df94f3", null ],
+    [ "liftModelTable", "classFoam_1_1MomentumTransferPhaseSystem.html#af2203c81ca223ef1e5f49e97f5fa264c", null ],
+    [ "wallLubricationModelTable", "classFoam_1_1MomentumTransferPhaseSystem.html#aece07e9726465352c7f43f60ce793210", null ],
+    [ "turbulentDispersionModelTable", "classFoam_1_1MomentumTransferPhaseSystem.html#a508bcdcfb2e8467da22e0fd9c9b8d8a4", null ],
+    [ "MomentumTransferPhaseSystem", "classFoam_1_1MomentumTransferPhaseSystem.html#abd71e3ed48296773492a589ab1c8d795", null ],
+    [ "~MomentumTransferPhaseSystem", "classFoam_1_1MomentumTransferPhaseSystem.html#a893669a20fa07c01f479da40cd9f92e1", null ],
+    [ "momentumTransfer", "classFoam_1_1MomentumTransferPhaseSystem.html#a2bdac508787911619d0e2c5d70e4bc60", null ],
+    [ "momentumTransferf", "classFoam_1_1MomentumTransferPhaseSystem.html#ac0532a78a319ba9c24141b8c567ae494", null ],
+    [ "AFfs", "classFoam_1_1MomentumTransferPhaseSystem.html#a04864ad542f057b72c1cc52c3fd5cec4", null ],
+    [ "phiFs", "classFoam_1_1MomentumTransferPhaseSystem.html#a2188dc7d3e0ff84caaf7b56e833d3b7a", null ],
+    [ "phiFfs", "classFoam_1_1MomentumTransferPhaseSystem.html#abba55466635624cfc495ba28f6174513", null ],
+    [ "phiKdPhis", "classFoam_1_1MomentumTransferPhaseSystem.html#ade4060a9707bc11b2d41ef3242b0a38d", null ],
+    [ "phiKdPhifs", "classFoam_1_1MomentumTransferPhaseSystem.html#a496779d279297b0f628f5525dca8f209", null ],
+    [ "KdUByAs", "classFoam_1_1MomentumTransferPhaseSystem.html#aab1c6a574dad42640a6c0775a6675db9", null ],
+    [ "partialElimination", "classFoam_1_1MomentumTransferPhaseSystem.html#a46bce2347ab0ca9a8155d7db15a27701", null ],
+    [ "partialEliminationf", "classFoam_1_1MomentumTransferPhaseSystem.html#aacfd3158baa058ac04b481670d27e819", null ],
+    [ "ddtCorrByAs", "classFoam_1_1MomentumTransferPhaseSystem.html#a419e5977a02339f1ce38b330eed8e236", null ],
+    [ "DByAfs", "classFoam_1_1MomentumTransferPhaseSystem.html#aabc63f75ebb96f80c21d0229b74cd203", null ],
+    [ "read", "classFoam_1_1MomentumTransferPhaseSystem.html#af816873151ddb0126e98bb2f914d8ed5", null ]
+];
