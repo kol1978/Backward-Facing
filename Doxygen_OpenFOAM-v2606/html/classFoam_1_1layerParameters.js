@@ -1,0 +1,37 @@
+var classFoam_1_1layerParameters =
+[
+    [ "thicknessModelType", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5", [
+      [ "FIRST_AND_TOTAL", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5a8cbca0f3d6f7c6b7326b777c90299646", null ],
+      [ "FIRST_AND_EXPANSION", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5af64f0aa763721f4a72e04cb98821ff43", null ],
+      [ "FINAL_AND_TOTAL", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5a6b61b3a26ef4c15009a9c9dcbd6f698b", null ],
+      [ "FINAL_AND_EXPANSION", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5a53ae2d0acc76160bca4eceb263ab5771", null ],
+      [ "TOTAL_AND_EXPANSION", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5a2306b6090a4d81a7705b9d2a9cb07803", null ],
+      [ "FIRST_AND_RELATIVE_FINAL", "classFoam_1_1layerParameters.html#a6dfb8f8ee87ec8d14f50378f5d353cb5af856d0fb6cacafe667e23896ca703bb4", null ]
+    ] ],
+    [ "layerParameters", "classFoam_1_1layerParameters.html#affb203fb68c0cbf619a0d76a87ae3d5c", null ],
+    [ "dict", "classFoam_1_1layerParameters.html#ac87edda858f35cef34d1ead9c97662bc", null ],
+    [ "numLayers", "classFoam_1_1layerParameters.html#af68c33c1204b2ce092d932ac0785dff6", null ],
+    [ "relativeSizes", "classFoam_1_1layerParameters.html#aea17302946300020079bcc4c7df1c454", null ],
+    [ "layerModels", "classFoam_1_1layerParameters.html#a1e7a97446e54ec215ebfaf18f2087091", null ],
+    [ "expansionRatio", "classFoam_1_1layerParameters.html#a53f9129c96725775641d9012393feba6", null ],
+    [ "finalLayerThickness", "classFoam_1_1layerParameters.html#a220bc13f5c8b8d0d37cc4aaaa9277be6", null ],
+    [ "firstLayerThickness", "classFoam_1_1layerParameters.html#a8dff682077a1ca80181e1c27decdce1a", null ],
+    [ "thickness", "classFoam_1_1layerParameters.html#a6b32e866a4a1cfabf3150d07f7e43784", null ],
+    [ "minThickness", "classFoam_1_1layerParameters.html#a3a56a678e0c2e368ff0c875f63608e6d", null ],
+    [ "nLayerIter", "classFoam_1_1layerParameters.html#ab6bc2e765821b155b8dbc8f27571322f", null ],
+    [ "nOuterIter", "classFoam_1_1layerParameters.html#a9bd3563b9924e8eed597ef5c66512fdc", null ],
+    [ "nRelaxedIter", "classFoam_1_1layerParameters.html#a51fbdc6d52e7c69ac9c73fa8a90f88cf", null ],
+    [ "featureAngle", "classFoam_1_1layerParameters.html#a3c075be6fc0291f381047420ca98aa18", null ],
+    [ "mergePatchFacesAngle", "classFoam_1_1layerParameters.html#a20bf2ab7cae47e94bbe041fac72791c2", null ],
+    [ "concaveAngle", "classFoam_1_1layerParameters.html#a7e0be1cfa4e00f90be69e4c9ef82b078", null ],
+    [ "nGrow", "classFoam_1_1layerParameters.html#a81202da575c86dfbda2f5724865a1eb2", null ],
+    [ "maxFaceThicknessRatio", "classFoam_1_1layerParameters.html#aa76cf048a05e40b653d4a09da02c4f73", null ],
+    [ "nBufferCellsNoExtrude", "classFoam_1_1layerParameters.html#aa463593d21d80173cf87db44f29f12cc", null ],
+    [ "additionalReporting", "classFoam_1_1layerParameters.html#a57550cd06f8baae1447ffaafff9f9fb9", null ],
+    [ "meshShrinker", "classFoam_1_1layerParameters.html#a5658b735ee27269433c30615e0a928c6", null ],
+    [ "layerThickness", "classFoam_1_1layerParameters.html#a8a1c8ec8918bc516a618bc1a05708d3e", null ],
+    [ "layerExpansionRatio", "classFoam_1_1layerParameters.html#abdb309f4ee4bb82691d1c95372330adb", null ],
+    [ "firstLayerThickness", "classFoam_1_1layerParameters.html#a76d989b1093dd046b699ae0fed6408cc", null ],
+    [ "finalLayerThicknessRatio", "classFoam_1_1layerParameters.html#ac07b278f64ef171368daeae460c48893", null ],
+    [ "layerThickness", "classFoam_1_1layerParameters.html#ae87eb24e18f854d6f115992a02d31ab2", null ]
+];

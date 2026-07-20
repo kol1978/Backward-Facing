@@ -1,0 +1,34 @@
+<map id="GAMGSolver" name="GAMGSolver">
+<area shape="rect" id="Node000001" title="Construct from lduMatrix and solver controls." alt="" coords="5,308,109,333"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="217,5,311,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,308,61,258,75,185,88,146,105,107,127,71,156,40,177,26,202,19,203,24,180,31,159,44,132,74,110,110,93,148,81,187,66,258,62,308"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="461,105,552,131"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="60,307,71,275,90,234,118,192,136,173,156,157,191,138,229,124,308,108,384,104,448,108,448,113,384,110,309,114,231,129,193,143,159,162,139,177,122,195,95,237,76,277,65,309"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1dictionary.html#a649ba593ad38d4fe64d0cd797ff07a1c" title="Find an entry (const access) with the given keyword." alt="" coords="166,308,362,333"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="110,318,152,318,152,323,110,323"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1lduMatrix_1_1solver.html#a4a70ea95f6b13d703c6765ada838f2f1" title=" " alt="" coords="419,163,595,203"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="62,307,74,281,95,249,122,217,156,192,217,169,282,159,347,158,405,162,405,167,346,163,283,164,219,174,159,196,125,221,99,252,79,284,66,309"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1lduMatrix_1_1solver.html#a7da9614f93c5b2d0f108912ae8896730" title=" " alt="" coords="419,242,595,282"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="105,305,157,294,286,277,405,266,405,271,286,282,158,299,106,311"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1GAMGInterface.html#a9d64f73698c79b37460797ed20977575" title="Return a pointer to a new interface created on freestore given." alt="" coords="163,55,365,80"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="58,307,66,267,84,211,113,150,132,122,156,97,177,83,180,88,159,101,136,125,117,153,89,213,72,268,63,309"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a1148edcd5b937a181997b4db3e01c631" title="Global function forwards to reuseTmpDimensionedField::New." alt="" coords="217,357,311,383"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="108,331,158,343,204,354,202,359,157,349,107,336"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1lduMatrix_1_1solver.html#a888c9beabc058a32d5e9cb8752e00d69" title="Return a new solver of given type." alt="" coords="157,207,371,232"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="72,306,109,277,156,249,195,234,197,239,159,254,112,282,75,310"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1OCharStream.html#ae99d5e90c832f843bd32007d258dd886" title="Rewind the stream, clearing any old errors." alt="" coords="183,407,345,447"/>
+<area shape="poly" id="edge13_Node000001_Node000019" title=" " alt="" coords="74,331,111,362,159,393,173,400,171,405,156,398,108,366,71,336"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="197,472,331,497"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="66,332,99,393,126,428,159,457,184,470,182,474,156,462,122,432,95,396,62,335"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="189,545,339,571"/>
+<area shape="poly" id="edge15_Node000001_Node000026" title=" " alt="" coords="65,333,76,367,95,413,123,463,159,508,182,525,207,538,204,542,179,529,155,512,118,466,90,416,71,369,60,334"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1lduMatrix_1_1solver.html#ae080588ed506b12c855f76f91a820702" title="Runtime type information." alt="" coords="176,595,352,635"/>
+<area shape="poly" id="edge17_Node000001_Node000027" title=" " alt="" coords="62,333,68,380,84,447,96,483,113,519,134,552,159,581,166,587,163,591,155,585,129,555,108,522,92,485,79,449,63,381,57,334"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1OCharStream.html#aa20dce2ddc0ff82a9cb2c4c39a6f328c" title="A string_view of buffer contents." alt="" coords="168,660,360,685"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="61,333,63,390,75,475,87,521,104,566,128,609,159,645,165,651,162,655,155,649,124,612,100,569,82,523,70,476,58,391,56,334"/>
+<area shape="poly" id="edge7_Node000009_Node000004" title=" " alt="" coords="326,78,448,103,447,108,325,83"/>
+<area shape="poly" id="edge10_Node000015_Node000004" title=" " alt="" coords="292,204,418,149,458,133,459,138,420,154,294,209"/>
+<area shape="poly" id="edge11_Node000015_Node000007" title=" " alt="" coords="350,204,405,196,406,201,350,209"/>
+<area shape="poly" id="edge12_Node000015_Node000008" title=" " alt="" coords="337,229,406,242,405,247,336,235"/>
+<area shape="poly" id="edge16_Node000026_Node000026" title=" " alt="" coords="230,547,223,537,227,527,241,521,264,519,293,522,304,531,301,536,290,527,264,524,242,526,231,531,228,536,234,544"/>
+</map>

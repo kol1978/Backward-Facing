@@ -1,0 +1,26 @@
+var classFoam_1_1LESModels_1_1kOmegaSSTDES =
+[
+    [ "alphaField", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a06a66094f33d6817d19225445c5ea874", null ],
+    [ "rhoField", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a1dda906cfc9022335f0782a632302cd8", null ],
+    [ "transportModel", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#ac0a5dc3c45a2d1c61a649bc435a1a48a", null ],
+    [ "kOmegaSSTDES", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a61e32c50c3c3776ee1ace3a5e71a9ae5", null ],
+    [ "~kOmegaSSTDES", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a7490cd3219965ab2ccebfde808f85b9c", null ],
+    [ "CDES", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#aaecf7734511927d82b1004754dc2c0ff", null ],
+    [ "correctNut", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a33916cfc8e49489bc827e9cc1af6f08c", null ],
+    [ "correctNut", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#aaffe89433f18f1ee4137486e19219448", null ],
+    [ "r", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#adc28de7e3738144cdea32f8de6a1d791", null ],
+    [ "S2", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a7a564db227b7c57bbab5832519acf66f", null ],
+    [ "dTilda", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a05b0aa03bb567315935f4951c10a00f0", null ],
+    [ "epsilonByk", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#ac8891d1ebd5342ae151953407291c254", null ],
+    [ "GbyNu0", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a9b0e55a92caf9a90de3a30f2870029c0", null ],
+    [ "GbyNu", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a87cefbf14a13e5463aeb7ab314497135", null ],
+    [ "TypeName", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a0d070ac44da80872e2882f61acfcd93e", null ],
+    [ "read", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#af816873151ddb0126e98bb2f914d8ed5", null ],
+    [ "lengthScaleRAS", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a45528d590cb8f02e6d5d54838142a634", null ],
+    [ "lengthScaleLES", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a257ba3b845ba79d38041e3e0d563c7d9", null ],
+    [ "LESRegion", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a7eef3334e06f2a7760a09b79bf71e55d", null ],
+    [ "useSigma_", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a16fce565fea05a8de9d796b88bef757f", null ],
+    [ "kappa_", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a4ddd9bd801f70201f884bfb2e2840544", null ],
+    [ "CDESkom_", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#aaf339b357bff95beb9fd3124be7dcf54", null ],
+    [ "CDESkeps_", "classFoam_1_1LESModels_1_1kOmegaSSTDES.html#a7afb24d1e37a44666fa257a6f60ead12", null ]
+];

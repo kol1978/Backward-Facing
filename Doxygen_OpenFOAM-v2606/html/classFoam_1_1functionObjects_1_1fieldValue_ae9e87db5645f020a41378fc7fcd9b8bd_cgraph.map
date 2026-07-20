@@ -1,0 +1,13 @@
+<map id="combineFields" name="combineFields">
+<area shape="rect" id="Node000001" title="Combine fields from all processor domains into single field." alt="" coords="5,104,121,129"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#a3fb553e6d728b81df364d351a6ce2b14" title="Gather data, but keep individual values separate. Uses MPI_Allgather or manual communication." alt="" coords="169,5,380,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,102,116,70,168,40,187,32,189,37,171,44,119,75,80,106"/>
+<area shape="rect" id="Node000003" href="$combustion_2reactingFoam_2setRDeltaT_8H.html#a9698eee39c0e58c7c0df6fe1a4cc3168" title=" " alt="" coords="249,55,300,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,101,169,89,235,73,236,79,170,94,117,107"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="172,104,377,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,114,158,114,158,119,122,119"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="184,153,365,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="119,127,207,148,206,153,118,132"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="183,203,367,228"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="81,127,120,158,170,188,193,196,191,201,168,192,117,162,78,132"/>
+</map>

@@ -1,0 +1,27 @@
+var classFoam_1_1Function1Types_1_1Sine =
+[
+    [ "Sine", "classFoam_1_1Function1Types_1_1Sine.html#aa0612d9129690c560c53aaae3a2e7241", null ],
+    [ "Sine", "classFoam_1_1Function1Types_1_1Sine.html#a7836529b64d69c823abda6e6b1e25085", null ],
+    [ "~Sine", "classFoam_1_1Function1Types_1_1Sine.html#a1eb7e5fa21a7d1ddfa9a20977848ece1", null ],
+    [ "cycle", "classFoam_1_1Function1Types_1_1Sine.html#aee15b3ca4b450b91892104ad10b0c53d", null ],
+    [ "cosForm", "classFoam_1_1Function1Types_1_1Sine.html#a7a107482b23de9ee8fefce804d5f1e58", null ],
+    [ "sinForm", "classFoam_1_1Function1Types_1_1Sine.html#a715caa0a193f43a7c873f23298571a15", null ],
+    [ "squareForm", "classFoam_1_1Function1Types_1_1Sine.html#a2a6a59d07b3373aabc24fcaabb5227f5", null ],
+    [ "cosValue", "classFoam_1_1Function1Types_1_1Sine.html#ab3627f32bc073af33c74b649e12c1f16", null ],
+    [ "sinValue", "classFoam_1_1Function1Types_1_1Sine.html#ab530286bf13adeba953c26ec484c8830", null ],
+    [ "squareValue", "classFoam_1_1Function1Types_1_1Sine.html#a30ce42223368f59fc9c9d547b89235b8", null ],
+    [ "TypeName", "classFoam_1_1Function1Types_1_1Sine.html#a33c7be900b7642a50de9fe3539ee19d7", null ],
+    [ "operator=", "classFoam_1_1Function1Types_1_1Sine.html#a3901aa992bf6a33933d3a449648e7787", null ],
+    [ "clone", "classFoam_1_1Function1Types_1_1Sine.html#a1603d0b69cb10c8329dafa41b9426d42", null ],
+    [ "userTimeToTime", "classFoam_1_1Function1Types_1_1Sine.html#af7667c84061411e4afeaa86f0fe88a05", null ],
+    [ "value", "classFoam_1_1Function1Types_1_1Sine.html#a2eddf367c9f7463efc0fcaceec7fb36d", null ],
+    [ "integrate", "classFoam_1_1Function1Types_1_1Sine.html#a6e58b8d333b7e0e12d534c47b228a3dd", null ],
+    [ "writeData", "classFoam_1_1Function1Types_1_1Sine.html#a4a9a5e81ef203c89a365d47f0acc39b9", null ],
+    [ "writeEntries", "classFoam_1_1Function1Types_1_1Sine.html#a73e7f1792444ba2b044bf833a415c73d", null ],
+    [ "t0_", "classFoam_1_1Function1Types_1_1Sine.html#a3816eaa23a3b93f40d8710360534d0a2", null ],
+    [ "amplitude_", "classFoam_1_1Function1Types_1_1Sine.html#aa2f35131f1c21f898d91a685ed3864fe", null ],
+    [ "period_", "classFoam_1_1Function1Types_1_1Sine.html#a23b41cc0ad2798761c2fb73711ab544d", null ],
+    [ "frequency_", "classFoam_1_1Function1Types_1_1Sine.html#aeb361951d0a4c162b41acd57c0f05fc2", null ],
+    [ "scale_", "classFoam_1_1Function1Types_1_1Sine.html#ab3dc748dd799ed81ffac99483798e788", null ],
+    [ "level_", "classFoam_1_1Function1Types_1_1Sine.html#ae4d30a5f90f50a43c65fed0e82870050", null ]
+];

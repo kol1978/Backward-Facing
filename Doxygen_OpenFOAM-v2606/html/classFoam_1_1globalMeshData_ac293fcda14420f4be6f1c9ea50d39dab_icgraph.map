@@ -1,0 +1,29 @@
+<map id="calcCellCells" name="calcCellCells">
+<area shape="rect" id="Node000001" title="Determine (local or global) cellCells from mesh agglomeration." alt="" coords="264,369,369,395"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1globalMeshData.html#aa4acfd2d95108f0b0556534f07ee2bd6" title="Determine (local or global) sub&#45;mesh connectivity." alt="" coords="58,5,163,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,356,310,292,297,209,285,164,267,121,244,80,214,45,190,30,163,23,164,18,193,25,218,41,248,77,272,118,290,162,302,207,316,292,319,356"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1decompositionMethod.html#acb5057665328ba9d9025d09789c2edea" title="Determine (local or global) cellCells from mesh agglomeration." alt="" coords="5,55,216,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="311,356,303,304,287,238,259,169,239,137,214,109,198,98,202,93,218,105,243,134,263,166,292,236,309,303,316,355"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1decompositionMethod.html#af7eca33cb08c9ecda876edb45da5025d" title="Determine (local or global) cellCells and face weights from mesh agglomeration." alt="" coords="5,119,216,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,356,297,316,278,267,251,216,234,193,214,173,197,162,200,157,218,169,238,190,256,213,283,264,302,314,313,355"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1globalMeshData.html#a5e88c08001304aa92a5c1cea44f00285" title="Determine (local or global) sub&#45;mesh connectivity." alt="" coords="58,184,163,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="304,358,291,327,272,290,246,254,214,224,190,211,163,204,164,199,192,206,218,220,250,251,276,287,296,324,309,356"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1metisLikeDecomp.html#ab03ee6d02aacaa4cf67480fedc99966b" title="Return for every coordinate the wanted processor number." alt="" coords="19,234,202,274"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="295,360,260,323,215,288,190,277,193,272,217,284,263,319,299,357"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1ptscotchDecomp.html#ab03ee6d02aacaa4cf67480fedc99966b" title="Return for every coordinate the wanted processor number." alt="" coords="23,298,198,338"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="262,368,215,353,177,341,178,335,217,347,264,363"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1decompositionMethod.html#a48c31d87aa89a223519e5f8fd7b63284" title="Return for every coordinate the wanted processor number." alt="" coords="5,362,216,402"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="250,385,216,385,216,379,250,379"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1multiLevelDecomp.html#a8beb012d0801241dc30e0ade698fff3a" title="Return for every coordinate the wanted processor number." alt="" coords="16,426,205,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="264,401,217,417,178,429,177,423,215,411,262,396"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1metisLikeDecomp.html#a85aa54b6b7552dbe1fef811556cb24c3" title="Return for every coordinate the wanted processor number." alt="" coords="19,490,202,530"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="299,407,263,445,217,480,193,492,190,487,215,476,260,441,295,404"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1ptscotchDecomp.html#a85aa54b6b7552dbe1fef811556cb24c3" title="Return for every coordinate the wanted processor number." alt="" coords="23,554,198,594"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="308,409,275,476,250,513,218,544,198,556,195,552,214,540,245,509,271,474,304,407"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1renumberMethod.html#ac56868baa0519cff2a33d1ccd5f49847" title="Return the cell visit order (from ordered back to original cell id) using the mesh to determine the c..." alt="" coords="21,618,200,658"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="314,409,303,452,285,505,257,560,239,586,218,608,200,620,197,616,214,604,235,582,253,558,280,503,298,450,308,407"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1springRenumber.html#ac56868baa0519cff2a33d1ccd5f49847" title="Return the cell visit order (from ordered back to original cell id) using the mesh to determine the c..." alt="" coords="24,682,197,722"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="317,409,310,463,294,534,281,571,265,608,244,642,218,672,199,685,196,681,214,668,239,639,260,605,276,569,289,532,305,463,311,408"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1renumberMethod.html#a1b0215eb7e7acad569292d037947aedb" title="Deprecated &#45; renumbering with agglomeration map. Calculate globalCellCells directly." alt="" coords="21,746,200,786"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="319,409,316,474,302,561,290,608,272,654,248,698,218,736,202,748,199,744,214,732,244,695,267,652,285,607,297,560,310,473,313,408"/>
+</map>

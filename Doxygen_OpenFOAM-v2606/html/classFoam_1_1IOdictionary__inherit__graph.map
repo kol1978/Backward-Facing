@@ -1,0 +1,79 @@
+<map id="IOdictionary" name="IOdictionary">
+<area shape="rect" id="Node000001" title="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..." alt="" coords="185,900,287,925"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1IOMRFZoneList.html" title="List of MRF zones with IO functionality. MRF zones are specified by a list of dictionary entries,..." alt="" coords="401,5,523,31"/>
+<area shape="poly" id="edge2_Node000001_Node000010" title=" " alt="" coords="236,886,245,704,264,435,277,300,293,181,311,90,322,59,333,40,347,28,364,20,400,12,401,18,366,25,350,33,337,44,326,62,316,91,298,181,283,300,269,436,250,704,241,886"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1IOporosityModelList.html" title="List of porosity models with IO functionality." alt="" coords="386,55,538,80"/>
+<area shape="poly" id="edge3_Node000001_Node000011" title=" " alt="" coords="236,886,246,714,266,461,279,333,295,221,312,136,322,108,333,90,357,72,385,64,386,69,359,77,337,93,327,110,317,138,300,222,284,334,271,461,251,714,241,886"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1SRF_1_1SRFModel.html" title="Top level model for single rotating frame." alt="" coords="419,104,505,129"/>
+<area shape="poly" id="edge4_Node000001_Node000012" title=" " alt="" coords="236,886,247,723,267,486,281,367,296,262,313,183,323,156,333,139,351,125,373,116,418,110,419,116,375,121,354,129,337,142,327,158,318,184,301,263,286,367,273,486,252,723,242,886"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1basicChemistryModel.html" title="Base class for chemistry models." alt="" coords="381,153,543,179"/>
+<area shape="poly" id="edge5_Node000001_Node000014" title=" " alt="" coords="234,886,235,742,246,532,258,424,276,325,300,244,315,212,333,188,354,172,380,164,381,169,357,177,337,192,320,215,305,246,281,326,263,425,251,533,241,743,240,886"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1basicThermo.html" title="Abstract base&#45;class for fluid and solid thermodynamic properties." alt="" coords="409,203,515,228"/>
+<area shape="poly" id="edge6_Node000001_Node000022" title=" " alt="" coords="235,886,237,752,250,557,262,457,279,365,302,290,316,261,333,239,349,226,368,217,408,210,409,215,370,222,352,230,337,243,321,264,307,292,284,367,267,458,255,557,243,752,240,886"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1combustionModel.html" title="Base class for combustion models." alt="" coords="393,252,531,277"/>
+<area shape="poly" id="edge7_Node000001_Node000036" title=" " alt="" coords="235,886,239,760,253,580,265,488,282,404,304,335,318,309,333,288,360,270,392,261,393,266,362,275,337,292,322,311,309,337,287,406,270,489,258,581,244,760,240,886"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1decompositionModel.html" title="MeshObject wrapper of decompositionMethod." alt="" coords="383,301,541,327"/>
+<area shape="poly" id="edge8_Node000001_Node000052" title=" " alt="" coords="235,886,241,769,256,604,268,520,285,443,306,380,319,356,333,337,355,321,381,313,383,318,358,326,337,341,323,359,311,383,290,445,274,521,261,605,246,769,241,886"/>
+<area shape="rect" id="Node000053" href="$classFoam_1_1fa_1_1options.html" title="Finite&#45;area options, which is an IOdictionary of values and a fa::optionList." alt="" coords="427,351,497,376"/>
+<area shape="poly" id="edge9_Node000001_Node000053" title=" " alt="" coords="236,886,243,777,259,628,272,552,288,482,308,426,333,387,354,372,378,363,426,358,427,363,379,368,356,376,337,390,313,428,293,484,277,553,264,628,248,778,241,886"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1functionObjects_1_1caseInfo.html" title="Collects and writes case information to file." alt="" coords="423,400,501,425"/>
+<area shape="poly" id="edge10_Node000001_Node000054" title=" " alt="" coords="236,886,245,787,262,652,275,584,291,522,310,471,333,436,353,422,376,413,423,407,423,413,378,418,355,426,337,440,315,473,296,523,280,585,268,653,250,787,242,886"/>
+<area shape="rect" id="Node000055" href="$classFoam_1_1functionObjects_1_1properties.html" title="Storage for function object properties, derived from IOdictionary. Provides functionality to read/wri..." alt="" coords="418,449,506,475"/>
+<area shape="poly" id="edge11_Node000001_Node000055" title=" " alt="" coords="237,886,247,796,266,676,279,616,294,561,312,516,333,485,352,472,374,463,418,457,418,462,375,468,354,477,337,489,317,519,299,563,284,617,271,677,252,797,242,887"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1fv_1_1options.html" title="Finite&#45;volume options, which is an IOdictionary of values and a fv::optionList." alt="" coords="427,499,497,524"/>
+<area shape="poly" id="edge12_Node000001_Node000056" title=" " alt="" coords="238,886,250,806,269,700,297,600,314,561,333,535,354,520,378,512,426,506,427,512,380,517,356,525,337,539,319,564,302,602,275,701,255,806,243,887"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModel.html" title="Abstract base class for incompressible turbulence models." alt="" coords="395,548,529,573"/>
+<area shape="poly" id="edge13_Node000001_Node000057" title=" " alt="" coords="234,886,237,824,250,742,262,699,280,657,303,618,333,584,362,567,394,558,396,563,364,571,336,588,307,621,284,659,267,701,255,744,242,825,239,886"/>
+<area shape="rect" id="Node000061" href="$classFoam_1_1incompressibleThreePhaseMixture.html" title=" " alt="" coords="363,598,561,638"/>
+<area shape="poly" id="edge14_Node000001_Node000061" title=" " alt="" coords="237,886,244,836,260,771,288,705,308,675,333,648,361,630,364,635,336,652,313,678,293,708,265,773,249,837,242,887"/>
+<area shape="rect" id="Node000063" href="$classFoam_1_1incompressibleTwoPhaseInteractingMixture.html" title="A two&#45;phase incompressible transportModel for interacting phases requiring the direct evaluation of t..." alt="" coords="335,662,589,702"/>
+<area shape="poly" id="edge15_Node000001_Node000063" title=" " alt="" coords="240,886,251,847,270,801,296,754,333,713,354,700,357,704,336,717,301,757,274,803,256,849,245,887"/>
+<area shape="rect" id="Node000064" href="$classFoam_1_1incompressibleTwoPhaseMixture.html" title="A two&#45;phase incompressible transportModel." alt="" coords="345,727,579,752"/>
+<area shape="poly" id="edge16_Node000001_Node000064" title=" " alt="" coords="244,886,277,823,302,790,333,762,358,750,361,754,336,767,306,794,281,826,249,888"/>
+<area shape="rect" id="Node000071" href="$classFoam_1_1meshState.html" title="Database for mesh data, solution data, solver performance and other reduced data." alt="" coords="416,776,508,801"/>
+<area shape="poly" id="edge17_Node000001_Node000071" title=" " alt="" coords="252,887,286,848,309,828,333,812,375,796,415,789,416,794,376,801,336,816,312,832,290,852,256,891"/>
+<area shape="rect" id="Node000072" href="$classFoam_1_1motionSolver.html" title="Virtual base class for mesh motion solver." alt="" coords="407,825,517,851"/>
+<area shape="poly" id="edge18_Node000001_Node000072" title=" " alt="" coords="269,891,334,861,406,843,408,848,336,866,271,896"/>
+<area shape="rect" id="Node000102" href="$classFoam_1_1multiphaseMixture.html" title="Incompressible multi&#45;phase mixture with built in solution for the phase fractions with interface comp..." alt="" coords="389,875,535,900"/>
+<area shape="poly" id="edge19_Node000001_Node000102" title=" " alt="" coords="300,903,389,893,390,898,301,908"/>
+<area shape="rect" id="Node000103" href="$classFoam_1_1multiphaseSystem.html" title="Incompressible multi&#45;phase mixture with built in solution for the phase fractions with interface comp..." alt="" coords="637,1001,781,1027"/>
+<area shape="poly" id="edge20_Node000001_Node000103" title=" " alt="" coords="301,915,435,930,513,944,590,962,640,980,683,999,681,1004,638,985,589,967,512,949,434,936,300,920"/>
+<area shape="rect" id="Node000104" href="$classFoam_1_1optimisationManager.html" title="Abstract base class for optimisation methods." alt="" coords="381,976,543,1001"/>
+<area shape="poly" id="edge21_Node000001_Node000104" title=" " alt="" coords="276,929,336,954,402,973,401,979,334,959,274,934"/>
+<area shape="rect" id="Node000107" href="$classFoam_1_1phaseSystem.html" title="Class to represent a system of phases and model interfacial transfers between them." alt="" coords="407,1025,517,1051"/>
+<area shape="poly" id="edge22_Node000001_Node000107" title=" " alt="" coords="255,935,289,975,311,995,336,1012,371,1025,407,1032,406,1038,369,1030,333,1016,308,999,286,979,251,938"/>
+<area shape="rect" id="Node000108" href="$classFoam_1_1twoPhaseSystem.html" title="Class which solves the volume fraction equations for two phases." alt="" coords="642,1051,777,1076"/>
+<area shape="poly" id="edge38_Node000001_Node000108" title=" " alt="" coords="248,937,260,968,279,1003,304,1036,336,1061,377,1079,421,1090,466,1095,511,1096,596,1087,663,1074,664,1079,597,1093,512,1101,466,1100,420,1095,375,1084,333,1066,300,1039,274,1006,255,970,243,939"/>
+<area shape="rect" id="Node000109" href="$classFoam_1_1profiling.html" title="Code profiling." alt="" coords="425,1127,499,1152"/>
+<area shape="poly" id="edge25_Node000001_Node000109" title=" " alt="" coords="245,938,256,975,275,1021,301,1067,336,1105,357,1118,380,1127,425,1135,424,1141,378,1132,354,1123,333,1109,297,1070,270,1023,251,977,240,939"/>
+<area shape="rect" id="Node000110" href="$classFoam_1_1radiation_1_1radiationModel.html" title="Top level model for radiation modelling." alt="" coords="402,1176,522,1201"/>
+<area shape="poly" id="edge26_Node000001_Node000110" title=" " alt="" coords="242,939,249,987,265,1048,293,1111,313,1139,336,1163,367,1179,402,1187,401,1192,365,1184,333,1167,309,1142,289,1113,260,1050,244,988,237,939"/>
+<area shape="rect" id="Node000118" href="$classFoam_1_1reconstructionSchemes.html" title="Original code supplied by Henning Scheufler, DLR (2019)" alt="" coords="375,1225,549,1251"/>
+<area shape="poly" id="edge27_Node000001_Node000118" title=" " alt="" coords="240,939,244,996,258,1071,271,1110,287,1147,309,1182,336,1212,354,1224,375,1232,373,1237,352,1229,333,1216,305,1185,283,1150,266,1112,253,1072,239,997,235,939"/>
+<area shape="rect" id="Node000122" href="$classFoam_1_1regionModels_1_1areaSurfaceFilmModels_1_1regionFaIBMList.html" title="Immersed Boundary Method (IBM) for finite area (FA)" alt="" coords="399,1275,525,1300"/>
+<area shape="poly" id="edge28_Node000001_Node000122" title=" " alt="" coords="244,939,256,1014,276,1111,304,1203,319,1238,336,1261,366,1278,399,1286,398,1291,364,1283,333,1265,315,1241,299,1205,271,1113,251,1015,238,940"/>
+<area shape="rect" id="Node000123" href="$classFoam_1_1regionModels_1_1regionFaModel.html" title="Base class for area region models." alt="" coords="403,1324,521,1349"/>
+<area shape="poly" id="edge29_Node000001_Node000123" title=" " alt="" coords="243,939,254,1024,273,1136,300,1243,318,1284,337,1311,351,1321,367,1329,404,1336,403,1341,366,1334,348,1326,333,1315,313,1286,295,1244,267,1137,248,1024,237,939"/>
+<area shape="rect" id="Node000132" href="$classFoam_1_1regionModels_1_1regionModel.html" title="Base class for region models." alt="" coords="411,1373,513,1399"/>
+<area shape="poly" id="edge30_Node000001_Node000132" title=" " alt="" coords="242,939,251,1033,269,1160,282,1224,297,1282,316,1329,337,1360,353,1372,371,1380,411,1386,410,1391,370,1385,350,1376,333,1364,311,1331,292,1284,277,1225,264,1161,246,1033,237,939"/>
+<area shape="rect" id="Node000145" href="$classFoam_1_1saturationModel.html" title=" " alt="" coords="398,1423,526,1448"/>
+<area shape="poly" id="edge31_Node000001_Node000145" title=" " alt="" coords="241,939,249,1043,266,1185,279,1256,294,1321,314,1374,337,1409,365,1427,398,1435,397,1440,363,1432,333,1413,309,1377,289,1323,273,1257,261,1185,244,1043,236,939"/>
+<area shape="rect" id="Node000152" href="$classFoam_1_1schemesLookup.html" title="Selector class for finite area/finite volume differencing schemes." alt="" coords="399,1472,525,1497"/>
+<area shape="poly" id="edge32_Node000001_Node000152" title=" " alt="" coords="241,939,247,1052,263,1209,275,1288,291,1361,312,1420,324,1442,337,1459,350,1469,365,1477,399,1484,397,1489,363,1482,347,1474,333,1463,319,1445,307,1422,286,1362,270,1289,257,1209,242,1052,236,939"/>
+<area shape="rect" id="Node000188" href="$classFoam_1_1singlePhaseTransportModel.html" title="A simple single&#45;phase transport model based on viscosityModel." alt="" coords="362,1521,562,1547"/>
+<area shape="poly" id="edge33_Node000001_Node000188" title=" " alt="" coords="240,939,245,1061,259,1233,272,1320,288,1400,310,1465,323,1490,336,1508,363,1525,360,1530,333,1512,318,1493,305,1467,283,1401,267,1321,254,1233,240,1062,235,940"/>
+<area shape="rect" id="Node000189" href="$classFoam_1_1solution.html" title="Selector class for relaxation factors, solver type and solution." alt="" coords="425,1571,499,1596"/>
+<area shape="poly" id="edge34_Node000001_Node000189" title=" " alt="" coords="240,939,243,1069,256,1256,268,1352,285,1439,308,1510,321,1537,337,1557,356,1571,378,1580,425,1584,424,1589,377,1585,353,1576,333,1561,317,1540,303,1512,280,1440,263,1352,251,1256,238,1070,235,939"/>
+<area shape="rect" id="Node000192" href="$classFoam_1_1temperaturePhaseChangeTwoPhaseMixture.html" title=" " alt="" coords="354,1621,570,1661"/>
+<area shape="poly" id="edge35_Node000001_Node000192" title=" " alt="" coords="240,939,242,1078,255,1278,267,1382,284,1477,307,1555,321,1584,337,1607,355,1622,352,1626,333,1610,316,1587,302,1556,279,1478,261,1383,249,1279,237,1078,235,939"/>
+<area shape="rect" id="Node000195" href="$classFoam_1_1tolerances.html" title="Selector class for solution tolerances." alt="" coords="417,1685,507,1711"/>
+<area shape="poly" id="edge36_Node000001_Node000195" title=" " alt="" coords="239,939,240,1089,249,1310,261,1424,279,1528,304,1614,319,1646,337,1671,354,1684,374,1692,417,1699,416,1704,372,1698,351,1689,333,1675,314,1649,299,1616,273,1529,256,1425,244,1310,234,1089,234,939"/>
+<area shape="rect" id="Node000196" href="$classFoam_1_1turbulenceModel.html" title="Abstract base class for turbulence models (RAS, LES and laminar)." alt="" coords="397,1735,527,1760"/>
+<area shape="poly" id="edge37_Node000001_Node000196" title=" " alt="" coords="241,939,252,1110,271,1359,285,1484,300,1594,318,1678,327,1705,337,1722,349,1732,364,1739,397,1747,396,1752,362,1744,346,1736,333,1725,322,1707,312,1679,295,1595,279,1485,266,1359,246,1110,236,939"/>
+<area shape="rect" id="Node000226" href="$classFoam_1_1waveModel.html" title="Base class for waveModels." alt="" coords="413,1784,511,1809"/>
+<area shape="poly" id="edge39_Node000001_Node000226" title=" " alt="" coords="241,939,251,1119,270,1384,283,1517,299,1635,317,1724,326,1753,337,1771,353,1783,372,1792,413,1798,412,1803,370,1797,350,1788,333,1774,322,1756,311,1725,293,1636,278,1518,264,1384,245,1119,236,939"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1baseIOdictionary.html" title="baseIOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO function..." alt="" coords="5,900,137,925"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,910,185,910,185,915,151,915"/>
+<area shape="poly" id="edge23_Node000107_Node000103" title=" " alt="" coords="531,1029,637,1018,637,1024,532,1034"/>
+<area shape="poly" id="edge24_Node000107_Node000108" title=" " alt="" coords="531,1042,642,1054,641,1059,531,1048"/>
+</map>

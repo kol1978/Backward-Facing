@@ -1,0 +1,33 @@
+<map id="balance" name="balance">
+<area shape="rect" id="Node000001" title="Redecompose according to cell count." alt="" coords="5,334,79,359"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decompositionMethod.html#aa773954da76a1f4918d0a285a8dcf210" title="Return the wanted processor number for every coordinate, using uniform or specified point weights." alt="" coords="131,5,341,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="41,333,43,284,54,211,65,172,79,132,99,95,125,62,138,51,142,55,129,66,104,98,84,135,70,173,59,213,49,284,46,334"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="592,227,687,253"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="40,334,43,289,54,225,64,192,79,159,99,130,125,106,162,89,212,80,270,77,333,79,396,86,455,96,506,110,545,126,572,144,595,167,627,214,623,217,591,171,568,148,543,130,505,115,454,102,395,91,333,84,270,82,213,85,164,94,128,110,103,133,84,162,69,193,59,226,48,289,46,334"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1localPointRegion.html#ada4b8f94bf6f76d8d4342d0d169ce358" title="Helper routine to find all baffles (two boundary faces." alt="" coords="148,120,324,160"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="44,333,53,302,68,260,92,216,125,177,142,164,145,169,128,181,97,219,73,262,58,303,49,334"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="393,165,544,190"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="45,333,73,278,96,247,125,222,171,205,236,192,379,179,380,184,236,198,172,210,128,226,100,251,77,281,50,335"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPtrList.html#a1c9828bc3de9502754d944c95a2ce0d9" title="Reference to the first element of the list." alt="" coords="161,235,311,261"/>
+<area shape="poly" id="edge6_Node000001_Node000018" title=" " alt="" coords="52,332,83,301,125,271,146,262,148,267,128,276,87,305,56,336"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1Pstream.html#a9cb47c1bb88743865be3a392c8c1f908" title="Reduce list elements (list must be equal size on all ranks), applying bop to each list element." alt="" coords="138,285,334,310"/>
+<area shape="poly" id="edge7_Node000001_Node000020" title=" " alt="" coords="78,333,126,320,164,311,165,316,127,325,80,339"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="144,334,328,359"/>
+<area shape="poly" id="edge8_Node000001_Node000021" title=" " alt="" coords="79,344,130,344,130,349,79,349"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="413,385,524,410"/>
+<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="80,357,127,369,199,380,272,388,400,394,399,399,272,393,199,386,126,375,78,362"/>
+<area shape="rect" id="Node000029" href="$namespaceFoam.html#a75556bf3a6366314fddd9b676c015084" title="Perform reduction on a copy, using specified binary operation." alt="" coords="159,435,313,461"/>
+<area shape="poly" id="edge11_Node000001_Node000029" title=" " alt="" coords="57,358,88,386,128,414,164,429,162,434,125,418,85,390,54,362"/>
+<area shape="rect" id="Node000030" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="152,485,320,510"/>
+<area shape="poly" id="edge13_Node000001_Node000030" title=" " alt="" coords="50,358,77,414,100,445,128,471,140,478,138,483,125,475,96,449,73,416,46,361"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1decompositionMethod.html#a6956f783a6bdf2289d350b336b118821" title="Helper: extract constraints:" alt="" coords="131,535,341,575"/>
+<area shape="poly" id="edge14_Node000001_Node000032" title=" " alt="" coords="48,359,56,392,71,435,95,481,110,502,128,521,135,525,131,530,125,525,106,506,90,484,66,437,51,393,43,360"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1PtrList.html#a1a7984b90f8855606fc18a92a71fa99f" title="Same as resize()" alt="" coords="155,599,317,625"/>
+<area shape="poly" id="edge15_Node000001_Node000036" title=" " alt="" coords="46,359,50,403,62,464,73,497,87,529,105,559,128,585,144,595,140,600,125,589,101,562,82,531,68,499,57,465,45,403,41,360"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1syncTools.html#af0aa5d4138c5a7f7b673eed9a1fb42f7" title="Synchronize values on all mesh faces." alt="" coords="127,649,345,674"/>
+<area shape="poly" id="edge17_Node000001_Node000040" title=" " alt="" coords="45,359,46,411,56,486,66,526,81,566,101,603,129,635,133,639,130,643,125,639,97,606,76,568,61,528,51,487,41,411,40,359"/>
+<area shape="poly" id="edge4_Node000005_Node000017" title=" " alt="" coords="325,151,380,160,379,166,324,157"/>
+<area shape="poly" id="edge5_Node000017_Node000017" title=" " alt="" coords="440,166,434,156,437,147,449,140,469,138,492,141,502,150,499,154,490,146,469,143,451,145,441,150,439,156,445,163"/>
+<area shape="poly" id="edge10_Node000022_Node000003" title=" " alt="" coords="482,383,612,261,616,264,486,386"/>
+<area shape="poly" id="edge12_Node000029_Node000022" title=" " alt="" coords="295,433,399,410,401,415,296,438"/>
+</map>

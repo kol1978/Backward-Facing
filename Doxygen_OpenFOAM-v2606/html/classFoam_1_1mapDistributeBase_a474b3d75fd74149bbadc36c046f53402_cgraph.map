@@ -1,0 +1,20 @@
+<map id="schedule" name="schedule">
+<area shape="rect" id="Node000001" title="Calculate a communication schedule. See above." alt="" coords="5,181,85,207"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="144,5,328,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,180,76,117,101,80,132,48,156,33,159,38,135,52,105,83,81,120,53,182"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="387,31,589,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="51,180,82,136,105,111,132,92,175,76,235,64,372,48,373,54,236,70,176,82,135,96,108,115,86,139,56,183"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="133,107,339,132"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="64,179,95,159,132,141,154,133,156,138,134,146,98,164,67,183"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="145,156,327,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="85,186,131,180,132,185,86,191"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="144,205,328,231"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="86,196,131,202,130,207,85,202"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1IPstream.html#a8ad479699fe099a227884bac5b10247b" title="Receive and deserialize a value. Uses operator&gt;&gt; for de&#45;serialization." alt="" coords="156,255,316,280"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="68,204,98,222,134,240,161,248,159,253,132,244,96,227,65,209"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UOPstream.html#ab48b722a20154c0f1b39ceea06331d7f" title="Send buffer contents now and not in destructor [advanced usage]. Returns true on success." alt="" coords="147,304,325,329"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="57,205,87,247,109,270,135,289,150,297,147,301,132,294,106,274,83,251,52,209"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a45a430adbf09bcd8480ee9d8fb431675" title="Range of process indices for sub&#45;processes." alt="" coords="138,353,334,379"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="53,206,63,234,80,270,104,307,135,339,146,345,143,350,132,343,100,311,75,273,58,236,48,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,25,373,29,372,34,328,30"/>
+</map>

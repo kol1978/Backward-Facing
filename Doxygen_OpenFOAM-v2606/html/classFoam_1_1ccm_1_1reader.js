@@ -1,0 +1,28 @@
+var classFoam_1_1ccm_1_1reader =
+[
+    [ "options", "classFoam_1_1ccm_1_1reader_1_1options.html", "classFoam_1_1ccm_1_1reader_1_1options" ],
+    [ "reader", "classFoam_1_1ccm_1_1reader.html#a5cae2c2f4003e0303a8d38f1fa3eef97", null ],
+    [ "~reader", "classFoam_1_1ccm_1_1reader.html#a6bf0af165e9318e16fdac1c2d671c7b5", null ],
+    [ "warnDuplicates", "classFoam_1_1ccm_1_1reader.html#afd5c095408c53db2729b295d62a33093", null ],
+    [ "option", "classFoam_1_1ccm_1_1reader.html#a8b23af30e4367f7b833a52bb713aef76", null ],
+    [ "mesh", "classFoam_1_1ccm_1_1reader.html#ac33aba85f4605b276ea524b4d152cd0d", null ],
+    [ "hasGeometry", "classFoam_1_1ccm_1_1reader.html#a8c6d4b381ea21b12cda4c609f42be6db", null ],
+    [ "hasSolution", "classFoam_1_1ccm_1_1reader.html#a77b447ea358eea141eda41073c1241cf", null ],
+    [ "remapMeshInfo", "classFoam_1_1ccm_1_1reader.html#a1f3c49c0fe7f16b98463577a32fcfad8", null ],
+    [ "writeMesh", "classFoam_1_1ccm_1_1reader.html#a125cec43fd66c4607b2fd23c3f6c509c", null ],
+    [ "writeAux", "classFoam_1_1ccm_1_1reader.html#af0cbcecb35dc0e5bd0d026c3f6ae7ea1", null ],
+    [ "readGeometry", "classFoam_1_1ccm_1_1reader.html#a90083fbdf90aae15592149e61ec55174", null ],
+    [ "printInfo", "classFoam_1_1ccm_1_1reader.html#aa6c05e6a3011bfa6f4e7431c7a405188", null ],
+    [ "clearGeom", "classFoam_1_1ccm_1_1reader.html#a499a7f858dc495c47b618e168fec6372", null ],
+    [ "origCellId", "classFoam_1_1ccm_1_1reader.html#ae717b50b4994c592c19f8008530693e7", null ],
+    [ "origFaceId", "classFoam_1_1ccm_1_1reader.html#aa274bc743446106728a2cdc3d962ffb3", null ],
+    [ "interfaceDefinitionsInfo", "classFoam_1_1ccm_1_1reader.html#a96c2ff68f01ca3ef8fb38bf24aa125ed", null ],
+    [ "boundaryTableInfo", "classFoam_1_1ccm_1_1reader.html#a731e8d704f626b908f3d70125fef8495", null ],
+    [ "cellTableInfo", "classFoam_1_1ccm_1_1reader.html#a9b36bdcef817b64e6185e20d2dd67444", null ],
+    [ "fluids", "classFoam_1_1ccm_1_1reader.html#ae2b390380dfee32718b25a8c8cc831f5", null ],
+    [ "solids", "classFoam_1_1ccm_1_1reader.html#afbdc2a0737b073d7d6f4693ba77ba73f", null ],
+    [ "solutions", "classFoam_1_1ccm_1_1reader.html#a948e402359e25d1d24864823908e652e", null ],
+    [ "fields", "classFoam_1_1ccm_1_1reader.html#aad2c199615c129ee65ffe60f9ee9ae2b", null ],
+    [ "lagrangian", "classFoam_1_1ccm_1_1reader.html#aabe2dfcfb6ccc6a4381ac2f4715c4506", null ],
+    [ "readField", "classFoam_1_1ccm_1_1reader.html#abc4279b05d7091df1325b6f766d3b4f0", null ]
+];

@@ -1,0 +1,36 @@
+<map id="readBlocks" name="readBlocks">
+<area shape="rect" id="Node000001" title="Read data (on master) and transmit." alt="" coords="5,368,100,393"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="191,5,338,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,368,64,299,84,201,111,104,128,66,146,40,177,22,180,27,150,44,132,68,116,106,89,202,69,300,58,368"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="217,55,312,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="51,368,54,316,67,242,79,201,95,160,118,123,146,91,173,74,203,66,204,71,175,79,150,95,122,126,100,163,84,202,72,243,60,317,57,368"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#ad4ed52143b12e7bf5e7bb2000766ade4" title="True if process corresponds to a sub&#45;rank in the given communicator." alt="" coords="190,105,339,145"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="53,367,61,328,78,273,105,213,124,186,146,161,176,142,179,146,150,165,128,189,110,216,83,274,66,329,58,368"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="429,169,632,195"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="54,367,63,333,80,288,108,242,125,222,147,205,183,186,223,172,264,163,306,158,386,157,456,165,456,170,386,163,306,163,265,168,224,177,186,190,149,210,129,226,112,245,85,290,68,335,59,368"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="173,220,357,245"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="58,366,90,312,115,280,146,254,158,248,161,253,150,259,119,284,94,315,62,369"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="167,269,363,295"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="64,366,99,334,147,304,165,296,167,301,149,308,102,339,68,370"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="174,319,355,344"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="99,365,147,353,185,344,187,349,149,358,100,370"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a1e96cf32256feb7e8a1808a973a3e9a0" title="Number of outstanding requests (on the internal list of requests)" alt="" coords="161,368,368,393"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="100,378,148,378,148,383,100,383"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#ad956035cbe487240e0c6fdddf602406a" title="A standard or non&#45;blocking probe for an incoming message." alt="" coords="148,417,381,443"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="101,390,149,402,191,412,190,417,147,407,100,395"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UIPstream.html#a00ac8647e5edfdd172c29fabef24b538" title="Receive buffer contents (contiguous types) from given processor." alt="" coords="179,467,350,492"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="68,392,103,422,149,452,171,460,169,465,147,456,100,426,65,396"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1decomposedBlockData.html#a11d288a25403d5de4d5135289a8d0a48" title="Helper: read block of (binary) character data." alt="" coords="204,516,325,541"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="62,392,94,446,119,476,149,501,170,511,192,518,190,523,168,516,147,506,115,480,90,449,58,395"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="187,565,342,591"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="60,393,69,425,87,468,114,513,130,533,150,550,175,564,173,569,146,555,126,537,109,516,82,471,64,427,55,394"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#a45a430adbf09bcd8480ee9d8fb431675" title="Range of process indices for sub&#45;processes." alt="" coords="167,615,363,640"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="58,393,65,434,81,490,108,550,127,577,150,600,158,606,155,610,146,604,123,580,103,552,76,492,60,435,53,394"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#acd6ccb9cf5a7b0742fda41bf9a0deee6" title="Wait for all requests to finish." alt="" coords="151,688,378,713"/>
+<area shape="poly" id="edge16_Node000001_Node000021" title=" " alt="" coords="58,394,63,441,78,509,106,583,126,618,150,649,172,667,198,681,195,685,169,672,146,653,121,621,101,585,73,510,58,442,52,394"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UOPstream.html#a046e912cabb6848eba72c7ecd66897ec" title="Write buffer contents (contiguous types only) to given processor." alt="" coords="174,737,355,763"/>
+<area shape="poly" id="edge18_Node000001_Node000022" title=" " alt="" coords="58,393,69,462,89,562,116,660,132,698,150,723,163,733,160,737,146,727,128,700,111,662,83,563,64,463,53,394"/>
+<area shape="poly" id="edge4_Node000006_Node000007" title=" " alt="" coords="340,138,458,164,457,169,339,143"/>
+<area shape="poly" id="edge6_Node000008_Node000007" title=" " alt="" coords="332,217,449,195,450,200,333,223"/>
+<area shape="poly" id="edge17_Node000021_Node000021" title=" " alt="" coords="230,690,223,680,227,670,241,664,265,661,294,665,306,674,302,678,292,670,265,667,242,669,230,673,228,679,234,686"/>
+</map>

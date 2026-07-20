@@ -1,0 +1,32 @@
+<map id="preMotionPoints" name="preMotionPoints">
+<area shape="rect" id="Node000001" title="Pre&#45;motion point positions." alt="" coords="480,415,608,441"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1snappyLayerDriver.html#a2654851d1ffedc26e8ff1424f7097ba6" title="Add cell layers." alt="" coords="243,5,432,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="540,402,535,334,520,242,506,193,487,145,462,99,430,59,415,48,419,43,434,55,466,96,492,142,511,191,525,241,541,333,545,401"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1snappyLayerDriver.html#a763fdd4af75939b41f923967cbc004af" title=" " alt="" coords="243,69,432,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="537,402,528,347,510,274,478,198,456,162,430,130,405,112,408,107,434,126,461,159,483,195,515,273,534,346,543,402"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1snappyLayerDriver.html#a583ba067f4573637907a1ae35074ad8b" title="For debugging. Can be removed." alt="" coords="5,99,195,139"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="537,403,528,353,509,290,495,258,477,227,456,198,431,174,391,156,331,142,195,126,195,121,332,137,392,151,433,170,460,195,482,224,499,255,514,288,533,352,542,402"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1polyMeshFilter.html#a6d46f578539dd45f89a6ea89738c75b5" title="Return a copy of an fvMesh." alt="" coords="256,184,419,224"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="532,403,518,367,496,322,467,277,430,238,412,226,415,222,434,234,471,274,501,320,523,364,537,401"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1meshRefinement.html#adf59ba1ba1060862e3274059692eea57" title="Create baffle for every internal face where ownPatch != &#45;1." alt="" coords="249,248,426,288"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="525,405,486,353,460,326,431,302,409,290,412,286,433,298,464,322,490,350,530,402"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1meshRefinement.html#a83e3bb2e199d4b70c1267e514e0087f9" title="Remove cells. Put exposedFaces into exposedPatchIDs." alt="" coords="249,312,426,352"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="510,410,431,366,402,355,404,350,433,362,513,405"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshRefinement.html#abc00befdbca6596b6efcb39b90efbee3" title=" " alt="" coords="249,376,426,416"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="466,419,426,412,426,407,467,413"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1meshRefinement.html#a53184ae27cf1ac7a736faed4abf1c9d6" title=" " alt="" coords="249,440,426,480"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="467,443,426,449,426,444,466,437"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1meshRefinement.html#a9dbc8bd1d38070053486014e911d03a1" title="Find boundary points that connect to more than one cell." alt="" coords="249,504,426,544"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="513,451,433,494,404,506,402,501,431,490,510,446"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1meshRefinement.html#a73f27eb53d6b6d02316a3fd17f5782b1" title="Merge baffles. Gets pairs of faces and boundary faces to move." alt="" coords="249,568,426,608"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="530,454,490,506,464,534,433,558,412,570,409,566,431,554,460,530,486,503,525,451"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1meshRefinement.html#a8a78f1f33f714c4c8ccc1f77423ec0a3" title="Merge coplanar faces if sets are of size mergeSize." alt="" coords="249,632,426,672"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="537,455,523,492,501,536,471,582,434,622,415,634,412,630,430,618,467,579,496,534,518,489,532,453"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1meshRefinement.html#a50f522ab008d9fffeaf6f9d5a7803854" title="Merge duplicate points." alt="" coords="249,696,426,736"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="541,455,530,503,510,565,479,630,458,659,434,686,417,698,414,694,430,682,454,656,474,627,505,563,525,502,536,453"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1meshRefinement.html#ac9571690bc552fe5150042c81c4f8229" title="Refine some cells." alt="" coords="249,760,426,800"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="544,455,536,515,519,593,504,635,486,677,463,715,434,750,418,762,415,758,430,746,458,712,481,674,499,633,514,592,531,514,538,454"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1meshRefinement.html#ad9d623284f94cb7d4363a01c520b92ab" title="Split faces along diagonal. Maintain mesh quality. Return." alt="" coords="249,824,426,864"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="546,455,542,525,527,621,513,672,493,723,467,771,434,814,419,826,415,822,430,810,463,768,488,721,508,671,521,620,536,524,540,454"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,105,195,110,194,104,229,100"/>
+</map>

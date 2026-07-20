@@ -1,0 +1,61 @@
+<map id="fieldExpression" name="fieldExpression">
+<area shape="rect" id="Node000001" title="Intermediate class for handling field expression function objects (e.g. blendingFactor etc...." alt="" coords="220,672,341,697"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1functionObjects_1_1CourantNo.html" title="Computes the Courant number field for time&#45;variant simulations." alt="" coords="437,5,528,31"/>
+<area shape="poly" id="edge2_Node000001_Node000007" title=" " alt="" coords="280,658,286,528,303,343,317,248,335,161,358,90,372,62,387,40,410,24,436,17,438,22,412,29,391,44,377,64,363,92,340,163,322,249,308,344,292,529,285,658"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1functionObjects_1_1LambVector.html" title="Computes Lamb vector, i.e. the cross product of vorticity and velocity. Calculation of the divergence..." alt="" coords="433,55,532,80"/>
+<area shape="poly" id="edge3_Node000001_Node000008" title=" " alt="" coords="280,658,288,537,306,367,320,280,338,200,360,135,373,109,387,89,408,75,432,67,434,72,411,80,391,93,378,112,365,137,343,202,325,281,311,368,293,538,286,658"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1functionObjects_1_1Lambda2.html" title="Computes the second largest eigenvalue of the sum of the square of the symmetrical and anti&#45;symmetric..." alt="" coords="441,104,524,129"/>
+<area shape="poly" id="edge4_Node000001_Node000009" title=" " alt="" coords="281,658,290,547,309,391,323,312,341,239,362,180,387,139,412,122,440,115,442,120,414,127,391,143,367,182,346,241,328,313,314,392,295,547,286,659"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1functionObjects_1_1MachNo.html" title="Computes the Mach number as a volScalarField." alt="" coords="445,153,520,179"/>
+<area shape="poly" id="edge5_Node000001_Node000010" title=" " alt="" coords="281,658,292,556,312,415,327,344,344,278,364,225,387,188,414,171,444,164,446,169,416,176,391,192,369,227,349,280,332,345,318,416,297,556,287,659"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1functionObjects_1_1PecletNo.html" title="Computes the Peclet number as a surfaceScalarField." alt="" coords="443,203,523,228"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="282,658,294,565,316,439,330,375,347,317,366,270,387,237,413,221,442,214,443,219,415,226,391,241,370,273,352,319,335,377,321,440,299,565,287,659"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1functionObjects_1_1Q.html" title="Computes the second invariant of the velocity gradient tensor ." alt="" coords="463,252,502,277"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="283,658,297,574,319,463,350,357,368,315,387,287,405,274,425,267,463,262,464,267,427,272,408,279,391,291,372,318,355,359,324,464,302,575,288,659"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1functionObjects_1_1blendingFactor.html" title="Computes blending factor as an indicator about which of the schemes is active across the domain." alt="" coords="424,301,541,327"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="279,658,284,593,299,507,312,460,331,415,356,373,388,336,404,324,423,317,425,322,407,329,391,340,360,376,336,418,318,462,304,508,289,594,285,658"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1functionObjects_1_1components.html" title="Extracts the components of elements of a field and outputs the result into new fields,..." alt="" coords="431,351,534,376"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="281,658,288,601,305,528,319,489,337,451,360,416,388,385,408,372,430,365,432,370,410,377,391,389,364,419,342,454,324,491,311,529,293,602,286,658"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1functionObjects_1_1ddt.html" title="Computes the Eulerian time derivative of an input volume field for time&#45;variant simulations (not appr..." alt="" coords="461,400,504,425"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="283,657,293,609,313,549,343,488,363,459,388,435,405,423,424,416,461,410,461,416,426,421,407,428,391,439,368,463,348,490,318,551,299,611,288,658"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1functionObjects_1_1div.html" title="Computes the divergence of an input field." alt="" coords="461,449,504,475"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="286,658,299,619,320,572,349,524,388,484,405,473,425,466,461,460,461,465,426,471,408,478,391,488,353,528,325,574,304,621,291,659"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1functionObjects_1_1enstrophy.html" title="Computes the enstrophy of an input volVectorField." alt="" coords="439,499,526,524"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="291,658,328,595,355,562,388,533,412,521,438,514,440,519,414,526,391,538,359,565,332,598,295,661"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1functionObjects_1_1flowType.html" title="Computes the flow type indicator of an input velocity field." alt="" coords="443,548,522,573"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="299,659,338,620,362,599,388,582,415,571,442,564,444,569,417,576,391,587,365,604,341,624,303,663"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1functionObjects_1_1flux.html" title="Computes the flux of an input vector field." alt="" coords="459,597,506,623"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="317,663,388,631,458,612,460,617,390,637,319,668"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1functionObjects_1_1grad.html" title="Computes the gradient of an input field." alt="" coords="457,647,508,672"/>
+<area shape="poly" id="edge15_Node000001_Node000020" title=" " alt="" coords="355,673,457,660,457,665,356,678"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1functionObjects_1_1heatTransferCoeff.html" title="Computes the heat transfer coefficient [W/(m^2 K)] as a volScalarField for a given set of patches." alt="" coords="414,696,551,721"/>
+<area shape="poly" id="edge16_Node000001_Node000021" title=" " alt="" coords="356,691,414,698,414,703,355,696"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1functionObjects_1_1log.html" title="Computes the natural logarithm of an input volScalarField." alt="" coords="461,745,504,771"/>
+<area shape="poly" id="edge17_Node000001_Node000022" title=" " alt="" coords="320,701,390,731,462,751,461,756,388,737,318,706"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1functionObjects_1_1mag.html" title="Computes the magnitude of an input field." alt="" coords="457,795,508,820"/>
+<area shape="poly" id="edge18_Node000001_Node000023" title=" " alt="" coords="303,706,341,745,391,781,425,794,458,802,457,807,423,800,388,786,338,749,299,710"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1functionObjects_1_1magSqr.html" title="Computes the magnitude of the square of an input field." alt="" coords="447,844,519,869"/>
+<area shape="poly" id="edge19_Node000001_Node000024" title=" " alt="" coords="296,709,332,770,359,803,391,830,418,844,447,851,446,856,417,849,388,835,355,807,328,773,291,711"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1functionObjects_1_1multiphaseInterHtcModel.html" title="A heat transfer coefficient for multiphase inter solvers (e.g. icoReactingMultiphaseFoam)." alt="" coords="389,893,576,919"/>
+<area shape="poly" id="edge20_Node000001_Node000025" title=" " alt="" coords="291,710,304,748,325,794,353,841,391,880,410,891,407,896,388,884,349,844,320,797,299,750,286,712"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1functionObjects_1_1norm.html" title="Normalises an input field with a chosen norm, and outputs a new normalised field." alt="" coords="455,943,511,968"/>
+<area shape="poly" id="edge21_Node000001_Node000026" title=" " alt="" coords="288,711,299,758,318,817,348,878,368,905,391,929,422,945,455,952,454,957,420,950,388,933,364,909,343,881,313,819,294,760,283,712"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1functionObjects_1_1pow.html" title="Computes the power of an input volScalarField." alt="" coords="458,992,507,1017"/>
+<area shape="poly" id="edge22_Node000001_Node000027" title=" " alt="" coords="286,711,294,767,311,839,324,877,342,914,364,949,391,979,406,989,424,996,458,1002,457,1007,422,1001,404,994,388,983,360,952,337,917,319,879,306,841,288,768,281,711"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1functionObjects_1_1pressure.html" title="Provides several methods to convert an input pressure field into derived forms, including:" alt="" coords="443,1041,522,1067"/>
+<area shape="poly" id="edge23_Node000001_Node000028" title=" " alt="" coords="285,711,289,775,304,861,318,906,336,951,360,992,391,1028,416,1043,444,1050,443,1055,414,1048,388,1032,356,995,331,953,313,908,299,862,284,776,279,711"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1functionObjects_1_1randomise.html" title="Adds a random component to an input field, with a specified perturbation magnitude." alt="" coords="437,1091,528,1116"/>
+<area shape="poly" id="edge24_Node000001_Node000029" title=" " alt="" coords="288,711,302,794,324,905,355,1010,372,1050,391,1077,413,1091,438,1098,436,1104,410,1096,387,1081,368,1053,350,1012,319,906,297,795,283,712"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1functionObjects_1_1reactingEulerHtcModel.html" title="A heat transfer coefficient for reactingEuler solvers." alt="" coords="397,1140,568,1165"/>
+<area shape="poly" id="edge25_Node000001_Node000030" title=" " alt="" coords="287,711,300,804,321,929,335,992,352,1049,370,1096,391,1127,406,1138,403,1142,387,1131,366,1098,347,1051,330,993,316,930,294,804,282,711"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1functionObjects_1_1reference.html" title="Computes a field whose values are offset to a reference value obtained by from a Function1." alt="" coords="441,1189,525,1215"/>
+<area shape="poly" id="edge26_Node000001_Node000031" title=" " alt="" coords="287,711,297,813,318,953,332,1024,349,1088,369,1141,391,1176,414,1191,441,1198,440,1203,412,1196,387,1180,364,1143,344,1090,327,1025,312,954,292,813,281,711"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1functionObjects_1_1stabilityBlendingFactor.html" title="Computes the stabilityBlendingFactor to be used by the local blended convection scheme...." alt="" coords="397,1239,568,1264"/>
+<area shape="poly" id="edge27_Node000001_Node000032" title=" " alt="" coords="286,711,295,822,314,977,329,1056,346,1127,367,1186,391,1226,405,1236,402,1241,387,1229,362,1188,341,1129,323,1057,309,978,290,822,281,711"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1functionObjects_1_1streamFunction.html" title="Computes the stream function (i.e. https://w.wiki/Ncm)." alt="" coords="421,1288,544,1313"/>
+<area shape="poly" id="edge28_Node000001_Node000033" title=" " alt="" coords="286,711,293,831,311,1001,325,1088,343,1167,365,1231,378,1256,391,1275,405,1286,422,1293,420,1298,403,1290,387,1279,373,1259,360,1233,338,1168,320,1089,306,1002,288,832,280,711"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1functionObjects_1_1vorticity.html" title="Computes the vorticity, the curl of the velocity." alt="" coords="445,1337,521,1363"/>
+<area shape="poly" id="edge29_Node000001_Node000034" title=" " alt="" coords="285,711,292,840,308,1025,322,1119,340,1206,363,1277,377,1304,391,1324,416,1340,445,1347,444,1352,414,1345,387,1328,372,1306,358,1279,335,1207,317,1120,303,1025,286,841,280,711"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1functionObjects_1_1fvMeshFunctionObject.html" title="Specialization of Foam::functionObject for an Foam::fvMesh, providing a reference to the Foam::fvMesh..." alt="" coords="5,672,172,697"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,682,220,682,220,687,186,687"/>
+</map>

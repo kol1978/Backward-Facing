@@ -1,0 +1,27 @@
+var classFoam_1_1cyclicAMIFvPatch =
+[
+    [ "cyclicAMIFvPatch", "classFoam_1_1cyclicAMIFvPatch.html#a32ed35dc94e2aeffd93937e766e748e1", null ],
+    [ "makeWeights", "classFoam_1_1cyclicAMIFvPatch.html#a40382e092b8e9cf9b729b883c6dd46f6", null ],
+    [ "makeDeltaCoeffs", "classFoam_1_1cyclicAMIFvPatch.html#a5e78c9fd3221a1aeeac314c0cd7aa1be", null ],
+    [ "makeNonOrthoDeltaCoeffs", "classFoam_1_1cyclicAMIFvPatch.html#a52919a4956b6051262a612f882629670", null ],
+    [ "makeNonOrthoCorrVectors", "classFoam_1_1cyclicAMIFvPatch.html#a9630ec940daa770d47bc87a741cba045", null ],
+    [ "movePoints", "classFoam_1_1cyclicAMIFvPatch.html#a6515a3b20e9603401422337166c347f2", null ],
+    [ "TypeName", "classFoam_1_1cyclicAMIFvPatch.html#a2c8cfe2b3f7bcd462076e7225c39bbd2", null ],
+    [ "cyclicAMIPatch", "classFoam_1_1cyclicAMIFvPatch.html#a5d232a2a7f78f7e528e1b1f0c68f079e", null ],
+    [ "owner", "classFoam_1_1cyclicAMIFvPatch.html#a357c5e37e5d7c583fa172625b8c11009", null ],
+    [ "neighbPatchID", "classFoam_1_1cyclicAMIFvPatch.html#a5e6024547ab7c53848c8bbe7b0a634ba", null ],
+    [ "neighbPatch", "classFoam_1_1cyclicAMIFvPatch.html#a5e8395739c246dcabf46cb8e73d82dfb", null ],
+    [ "AMI", "classFoam_1_1cyclicAMIFvPatch.html#ab214119a136db27fc4290e3ac62548e6", null ],
+    [ "applyLowWeightCorrection", "classFoam_1_1cyclicAMIFvPatch.html#af24c165759cdd174fd05d955dafb0a0e", null ],
+    [ "parallel", "classFoam_1_1cyclicAMIFvPatch.html#a6f2ad23016ecf05385032d2ea2fea27d", null ],
+    [ "forwardT", "classFoam_1_1cyclicAMIFvPatch.html#afd57cc6d6a68ac778640c5a3be82aab8", null ],
+    [ "reverseT", "classFoam_1_1cyclicAMIFvPatch.html#a4a45acfcb1366256a58a5cefe632f635", null ],
+    [ "neighbFvPatch", "classFoam_1_1cyclicAMIFvPatch.html#a88071cd19680cd385b265d3733bba374", null ],
+    [ "coupled", "classFoam_1_1cyclicAMIFvPatch.html#a6cba23fc88759866538bd49a1bdbc3e7", null ],
+    [ "delta", "classFoam_1_1cyclicAMIFvPatch.html#a8c83ba56d8c5964b15844718d953be71", null ],
+    [ "interpolate", "classFoam_1_1cyclicAMIFvPatch.html#a99e667bddc74849e354b20594b4bb24c", null ],
+    [ "interpolate", "classFoam_1_1cyclicAMIFvPatch.html#ad64a30fd81a73d135b6cd5e8c95513b2", null ],
+    [ "interfaceInternalField", "classFoam_1_1cyclicAMIFvPatch.html#aa8871ae0f8409c5f343da9516cd8c846", null ],
+    [ "interfaceInternalField", "classFoam_1_1cyclicAMIFvPatch.html#a89680a9bb5a8c0a70375d9aed599b4ad", null ],
+    [ "internalFieldTransfer", "classFoam_1_1cyclicAMIFvPatch.html#a237c9448fbff6fcefb820f4076a58f26", null ]
+];

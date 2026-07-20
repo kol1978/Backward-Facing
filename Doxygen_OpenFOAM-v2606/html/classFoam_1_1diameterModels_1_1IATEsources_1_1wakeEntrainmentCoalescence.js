@@ -1,0 +1,11 @@
+var classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence =
+[
+    [ "wakeEntrainmentCoalescence", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#a9540f4cfa12bb8cc8f1f67129227651e", null ],
+    [ "~wakeEntrainmentCoalescence", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#ad1f9503344236178f9914399de6d3e81", null ],
+    [ "wakeEntrainmentCoalescence", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#a9540f4cfa12bb8cc8f1f67129227651e", null ],
+    [ "~wakeEntrainmentCoalescence", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#ad1f9503344236178f9914399de6d3e81", null ],
+    [ "TypeName", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#a77014559792e9c79f383f110a81e9f60", null ],
+    [ "R", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#ae775dea4b3261d3719ead5a907bba9cf", null ],
+    [ "TypeName", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#a77014559792e9c79f383f110a81e9f60", null ],
+    [ "R", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html#a0850999c6bf69d9b978edc4344be9001", null ]
+];

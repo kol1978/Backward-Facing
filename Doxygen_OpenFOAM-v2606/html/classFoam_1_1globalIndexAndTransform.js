@@ -1,0 +1,25 @@
+var classFoam_1_1globalIndexAndTransform =
+[
+    [ "less", "classFoam_1_1globalIndexAndTransform_1_1less.html", "classFoam_1_1globalIndexAndTransform_1_1less" ],
+    [ "globalIndexAndTransform", "classFoam_1_1globalIndexAndTransform.html#a6a82addd80d8b6487e55a787d3e0369d", null ],
+    [ "ClassName", "classFoam_1_1globalIndexAndTransform.html#ad8538b37d6b3241bb21f05e3fbd2d1fd", null ],
+    [ "encodeTransformIndex", "classFoam_1_1globalIndexAndTransform.html#a5ad7c4efca1981054edaa6ede7cf61a1", null ],
+    [ "decodeTransformIndex", "classFoam_1_1globalIndexAndTransform.html#aa5d03acefc3500c9ba5e129de60d117d", null ],
+    [ "addToTransformIndex", "classFoam_1_1globalIndexAndTransform.html#ae9329ecbff5414c32adf2e3ea298efad", null ],
+    [ "mergeTransformIndex", "classFoam_1_1globalIndexAndTransform.html#a201e1eb5807137eecb2692185dc44055", null ],
+    [ "minimumTransformIndex", "classFoam_1_1globalIndexAndTransform.html#af4f7e1b27247d7622a8c39abdd1f5b9d", null ],
+    [ "subtractTransformIndex", "classFoam_1_1globalIndexAndTransform.html#abfb13fbd76cb673f79ddfa1dd260e326", null ],
+    [ "encode", "classFoam_1_1globalIndexAndTransform.html#a82059177855ade061a7ad0663ed4cc68", null ],
+    [ "encode", "classFoam_1_1globalIndexAndTransform.html#a4f1009e1909455e8dc9e980d200d5ab0", null ],
+    [ "index", "classFoam_1_1globalIndexAndTransform.html#ae5f27da3d24cfe83d18f00b1adc4a8de", null ],
+    [ "processor", "classFoam_1_1globalIndexAndTransform.html#a391cb1737676bea47a5ef19684a4bb9f", null ],
+    [ "transformIndex", "classFoam_1_1globalIndexAndTransform.html#a37a9d2a80e0db88cf7320ecfd71f5c35", null ],
+    [ "nIndependentTransforms", "classFoam_1_1globalIndexAndTransform.html#ae93fab6ca70314aff46e2a9c11cf4df2", null ],
+    [ "transforms", "classFoam_1_1globalIndexAndTransform.html#a57f7667ee97bc3db65523a3380b64f43", null ],
+    [ "transformPermutations", "classFoam_1_1globalIndexAndTransform.html#aa3c488fb461eb31d5964943e91a21b1d", null ],
+    [ "nullTransformIndex", "classFoam_1_1globalIndexAndTransform.html#a78984df8a1ade6e191693aae57670aee", null ],
+    [ "patchTransformSign", "classFoam_1_1globalIndexAndTransform.html#adf8b6e10e66537c83e38632a8f22f169", null ],
+    [ "transform", "classFoam_1_1globalIndexAndTransform.html#a394b589af5b529c46b524bb6418c05d5", null ],
+    [ "transformIndicesForPatches", "classFoam_1_1globalIndexAndTransform.html#a00076648153dc2996ad3ceebc7fd643b", null ],
+    [ "transformPatches", "classFoam_1_1globalIndexAndTransform.html#a1d11393fe85222da1ad68d53c263fe35", null ]
+];

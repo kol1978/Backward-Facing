@@ -1,0 +1,4 @@
+var applications_2solvers_2multiphase_2interCondensatingEvaporatingFoam_2temperaturePhaseChangeTwoPh70940c135a6c3edf4854752439ac17cd =
+[
+    [ "interfaceHeatResistance", "classFoam_1_1temperaturePhaseChangeTwoPhaseMixtures_1_1interfaceHeatResistance.html", "classFoam_1_1temperaturePhaseChangeTwoPhaseMixtures_1_1interfaceHeatResistance" ]
+];

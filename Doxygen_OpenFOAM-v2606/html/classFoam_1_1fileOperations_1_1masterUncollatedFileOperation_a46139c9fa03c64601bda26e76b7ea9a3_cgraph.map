@@ -1,0 +1,54 @@
+<map id="readStream" name="readStream">
+<area shape="rect" id="Node000001" title="Reads header for regIOobject and returns an ISstream to read the contents." alt="" coords="5,515,104,540"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="441,248,587,273"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,514,57,466,71,398,83,362,100,327,122,295,150,269,187,248,226,235,267,227,309,224,390,229,457,242,456,247,389,235,309,230,268,232,228,240,189,253,154,273,126,299,105,330,88,364,76,399,63,467,59,514"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1fileOperation.html#a2ed9a1d96be8fd5f1adc4ac1bc9427f7" title="Detect processor number from &#39;path/processorDDD/abc&#39; or &#39;path/processorsNN/abc&#39;, &#39;path/processorsNN_0..." alt="" coords="179,535,341,575"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="104,531,165,540,164,545,104,537"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="431,628,597,653"/>
+<area shape="poly" id="edge3_Node000001_Node000011" title=" " alt="" coords="73,538,109,562,153,585,220,605,289,620,417,634,417,640,289,625,219,610,151,590,106,567,70,542"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="467,83,561,108"/>
+<area shape="poly" id="edge5_Node000001_Node000012" title=" " alt="" coords="54,514,59,419,74,274,86,199,103,130,124,75,136,54,150,39,190,15,234,4,280,4,327,11,372,24,414,40,481,73,479,78,412,45,371,29,326,16,280,9,235,10,192,20,154,43,141,57,129,77,108,132,92,200,79,275,64,419,59,514"/>
+<area shape="rect" id="Node000014" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="469,151,559,176"/>
+<area shape="poly" id="edge6_Node000001_Node000014" title=" " alt="" coords="53,514,56,461,68,384,80,342,98,300,120,262,150,229,185,204,223,185,264,171,305,162,386,154,455,155,455,160,386,159,306,167,265,177,225,190,187,209,154,233,125,265,102,303,86,343,74,385,61,461,59,514"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam.html#aa5582dba8646c05350c12882867ba7a4" title="Return size of file or &#45;1 on failure (normally follows symbolic links)." alt="" coords="203,53,317,79"/>
+<area shape="poly" id="edge7_Node000001_Node000016" title=" " alt="" coords="54,514,63,430,81,302,94,235,109,174,128,124,150,89,168,76,189,68,191,73,171,81,154,93,133,126,114,176,99,236,86,303,68,430,60,515"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="195,715,325,740"/>
+<area shape="poly" id="edge9_Node000001_Node000017" title=" " alt="" coords="62,539,72,572,90,616,117,662,134,682,154,700,183,715,180,720,150,704,130,686,113,665,85,618,67,574,57,541"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1decomposedBlockData.html#aa576bec5080e6bf718d2bcfaeed44b62" title="True if object type is a known collated type." alt="" coords="152,765,368,805"/>
+<area shape="poly" id="edge10_Node000001_Node000018" title=" " alt="" coords="60,540,68,581,84,637,112,698,131,726,154,751,159,755,156,759,150,755,127,730,108,701,79,639,63,582,55,541"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#a293fc10921ffd6ec3a73c2d3d5b750b6" title="True if process corresponds to the master rank in the communicator." alt="" coords="422,312,606,337"/>
+<area shape="poly" id="edge11_Node000001_Node000019" title=" " alt="" coords="54,514,60,472,76,413,88,382,104,353,125,327,151,305,190,285,232,274,276,270,320,271,403,285,470,305,468,310,402,290,320,276,276,275,233,279,192,290,153,310,129,330,109,356,93,385,81,415,66,473,60,515"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="416,373,612,399"/>
+<area shape="poly" id="edge12_Node000001_Node000021" title=" " alt="" coords="69,512,104,484,151,457,214,434,279,416,402,394,403,399,280,421,215,439,153,462,107,488,72,516"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="157,829,363,855"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="59,540,62,591,75,666,87,706,104,746,126,783,154,815,161,820,158,824,150,819,121,786,99,748,82,708,70,667,57,592,53,540"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1OSstream.html#a085ba947e5c8597cb3ab29f68d5d38f8" title="Get the name of the output serial stream. (eg, the name of the Fstream file name)" alt="" coords="173,879,347,904"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="58,540,59,599,69,687,80,735,98,783,122,827,154,865,162,872,159,876,150,869,117,830,93,785,75,737,64,688,53,599,53,540"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="423,429,605,455"/>
+<area shape="poly" id="edge15_Node000001_Node000024" title=" " alt="" coords="90,512,151,494,285,468,409,451,410,456,286,473,153,499,92,517"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="168,928,352,953"/>
+<area shape="poly" id="edge16_Node000001_Node000025" title=" " alt="" coords="60,540,70,617,89,730,117,842,134,886,154,915,158,918,154,922,150,918,130,888,112,844,84,731,64,618,55,541"/>
+<area shape="rect" id="Node000008" href="$namespaceFoam.html#a1fd1b86b5fb56f395590d38fff785534" title="Same as readInt32." alt="" coords="213,977,307,1003"/>
+<area shape="poly" id="edge17_Node000001_Node000008" title=" " alt="" coords="60,540,68,625,86,754,98,820,114,881,133,931,154,964,175,978,200,986,198,991,172,983,150,968,128,933,109,883,93,821,80,754,63,626,54,540"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1decomposedBlockData.html#a61bab09ba0ab58ae951792d99b2a1afd" title="Read selected block (non&#45;seeking) + header information." alt="" coords="152,103,368,143"/>
+<area shape="poly" id="edge18_Node000001_Node000026" title=" " alt="" coords="53,514,53,452,64,358,76,306,93,254,118,204,150,160,163,149,167,153,154,164,122,207,98,256,81,307,69,359,59,453,58,514"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1decomposedBlockData.html#ab3ff3d4d04b0aeab21cf3cf5363d170d" title="Read data (on master) and transmit." alt="" coords="152,319,368,359"/>
+<area shape="poly" id="edge21_Node000001_Node000029" title=" " alt="" coords="58,513,90,449,117,410,150,376,170,363,173,368,154,380,121,413,95,451,63,516"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="437,485,591,511"/>
+<area shape="poly" id="edge29_Node000001_Node000034" title=" " alt="" coords="104,522,423,501,423,506,104,527"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1UPstream.html#ae198caac3d3fc8c126b8bd58b74bd9a0" title="Logical (or) reduction (MPI_AllReduce)" alt="" coords="161,1027,359,1052"/>
+<area shape="poly" id="edge28_Node000001_Node000041" title=" " alt="" coords="59,540,66,634,83,777,95,852,111,920,131,976,154,1014,158,1017,154,1021,150,1017,126,979,106,922,90,853,77,778,61,634,54,540"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1fileOperation.html#aca46dd792427d684dcfc02f2f23af191" title="True if the file names are identical. False on an empty list." alt="" coords="185,650,335,690"/>
+<area shape="poly" id="edge30_Node000001_Node000042" title=" " alt="" coords="67,538,102,582,126,607,153,629,177,642,174,647,151,634,122,611,98,586,62,542"/>
+<area shape="poly" id="edge4_Node000011_Node000011" title=" " alt="" coords="473,630,464,620,469,610,486,603,514,601,550,605,560,610,564,616,559,619,556,614,548,610,514,607,487,609,472,614,469,619,477,626"/>
+<area shape="poly" id="edge8_Node000016_Node000012" title=" " alt="" coords="317,70,453,86,453,91,317,75"/>
+<area shape="poly" id="edge19_Node000026_Node000012" title=" " alt="" coords="368,109,452,99,453,105,369,114"/>
+<area shape="poly" id="edge20_Node000026_Node000014" title=" " alt="" coords="369,138,455,151,454,157,368,143"/>
+<area shape="poly" id="edge22_Node000029_Node000002" title=" " alt="" coords="325,317,458,275,460,280,326,322"/>
+<area shape="poly" id="edge23_Node000029_Node000012" title=" " alt="" coords="270,317,325,232,366,181,414,136,458,111,461,116,418,140,370,185,329,235,275,320"/>
+<area shape="poly" id="edge24_Node000029_Node000019" title=" " alt="" coords="368,330,408,328,408,333,368,336"/>
+<area shape="poly" id="edge25_Node000029_Node000021" title=" " alt="" coords="369,357,431,368,430,373,368,362"/>
+<area shape="poly" id="edge26_Node000029_Node000024" title=" " alt="" coords="303,357,417,407,459,423,457,428,415,412,301,362"/>
+<area shape="poly" id="edge27_Node000029_Node000034" title=" " alt="" coords="283,358,340,410,378,439,417,464,451,478,449,483,415,468,375,443,337,414,279,362"/>
+<area shape="poly" id="edge31_Node000042_Node000011" title=" " alt="" coords="335,659,417,649,417,654,336,664"/>
+</map>

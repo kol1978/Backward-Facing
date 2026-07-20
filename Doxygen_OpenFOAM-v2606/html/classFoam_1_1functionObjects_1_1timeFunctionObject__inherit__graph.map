@@ -1,0 +1,27 @@
+<map id="timeFunctionObject" name="timeFunctionObject">
+<area shape="rect" id="Node000001" title="Virtual base class for function objects with a reference to Time." alt="" coords="171,268,320,293"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1functionObjects_1_1abort.html" title="Watches for presence of the named trigger file in the case directory and signals a simulation stop (o..." alt="" coords="453,5,509,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,254,263,207,285,149,319,90,341,63,366,40,387,28,410,20,452,15,453,20,411,26,389,33,370,44,345,67,324,93,290,151,268,209,255,255"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1functionObjects_1_1codedFunctionObject.html" title="Provides a general interface to enable dynamic code compilation." alt="" coords="401,55,560,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,254,269,216,293,171,326,127,367,89,400,74,402,78,369,94,330,130,298,174,274,219,258,256"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1functionObjects_1_1externalCoupled.html" title="Provides a simple file&#45;based communication interface for explicit coupling with an external applicati..." alt="" coords="416,104,545,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="259,254,302,195,332,164,367,138,390,128,415,121,416,126,392,133,369,143,335,168,306,199,263,258"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1functionObjects_1_1multiRegion.html" title="Wrapper that clones the supplied function object for each region." alt="" coords="430,153,531,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="269,257,312,222,367,189,398,178,429,170,430,175,399,183,369,194,315,226,272,261"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1functionObjects_1_1setTimeStepFaRegionsFunctionObject.html" title="This function object controls the time step for classes of the type regionFaModel...." alt="" coords="368,203,593,243"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="311,262,397,241,399,246,312,267"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1functionObjects_1_1setTimeStepFunctionObject.html" title="This function object overrides the calculation time step." alt="" coords="380,268,581,293"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="334,278,380,278,380,283,334,283"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1functionObjects_1_1stateFunctionObject.html" title="Base class for function objects, adding functionality to read/write state information (data required ..." alt="" coords="405,317,557,343"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="320,294,420,315,419,320,319,299"/>
+<area shape="rect" id="Node000141" href="$classFoam_1_1functionObjects_1_1timeActivatedFileUpdate.html" title="Performs a file copy/replacement once a specified time has been reached." alt="" coords="389,367,573,392"/>
+<area shape="poly" id="edge9_Node000001_Node000141" title=" " alt="" coords="276,299,319,327,369,353,404,364,403,369,367,358,316,332,273,304"/>
+<area shape="rect" id="Node000142" href="$classFoam_1_1functionObjects_1_1timeControl.html" title="Wrapper around functionObjects to add time control." alt="" coords="431,416,530,441"/>
+<area shape="poly" id="edge10_Node000001_Node000142" title=" " alt="" coords="265,303,308,354,337,380,369,402,400,415,432,422,431,427,398,420,367,407,334,385,305,358,261,306"/>
+<area shape="rect" id="Node000143" href="$classFoam_1_1functionObjects_1_1timeInfo.html" title="Writes the run time (time&#45;step), cpuTime and clockTime &#45; optionally with cpuTime and clockTime change..." alt="" coords="442,465,519,491"/>
+<area shape="poly" id="edge11_Node000001_Node000143" title=" " alt="" coords="259,305,276,339,300,379,331,419,369,452,405,467,442,474,441,479,404,472,367,456,328,422,296,382,271,341,255,307"/>
+<area shape="rect" id="Node000144" href="$classFoam_1_1functionObjects_1_1vtkWrite.html" title="Writes fields in VTK (xml or legacy) format. Writes cell&#45;values or point&#45;interpolated values for volF..." alt="" coords="441,515,520,540"/>
+<area shape="poly" id="edge12_Node000001_Node000144" title=" " alt="" coords="256,306,270,350,293,403,326,457,346,481,369,501,404,518,441,524,441,530,403,523,367,506,342,484,321,460,288,405,265,352,251,308"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1functionObject.html" title="Abstract base&#45;class for Time/database function objects." alt="" coords="5,268,123,293"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,278,170,278,170,283,136,283"/>
+</map>

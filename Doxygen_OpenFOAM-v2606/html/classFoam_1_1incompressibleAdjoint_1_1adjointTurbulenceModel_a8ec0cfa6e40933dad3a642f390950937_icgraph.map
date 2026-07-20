@@ -1,0 +1,59 @@
+<map id="nu" name="nu">
+<area shape="rect" id="Node000001" title="Return the laminar viscosity." alt="" coords="917,671,956,696"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#a12c06ff2531b6460a8bea4cd0efee0e1" title=" " alt="" coords="618,73,865,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="933,657,933,546,925,391,917,312,905,240,889,181,867,141,856,130,860,126,871,138,894,179,911,239,923,312,931,391,938,545,938,656"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#ab3a57cb54287f19aec59818a0ca87bcb" title="Sensitivity terms resulting from the differentiation of the distance field. Misses dxdb,..." alt="" coords="314,41,561,96"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="932,657,927,521,915,331,895,155,882,94,875,74,867,62,828,35,784,18,737,10,688,9,639,13,592,21,510,44,508,39,591,16,638,7,688,3,737,5,786,13,831,31,871,59,880,71,887,92,901,154,920,331,932,521,937,656"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointLaminar.html#adf9888bc2862e2fee3ba3b9d64d24d8a" title="Return the effective stress tensor based on a given velocity field." alt="" coords="614,152,869,207"/>
+<area shape="poly" id="edge3_Node000001_Node000025" title=" " alt="" coords="932,657,929,562,919,434,911,369,900,310,885,261,867,228,846,209,850,205,871,224,890,259,905,308,916,368,924,433,934,562,938,656"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#af7743e06df4ebd70bcc29d7e7e1df3b3" title="F1 Jacobian wrt omega (no contributions from grad(omega))" alt="" coords="613,283,869,337"/>
+<area shape="poly" id="edge4_Node000001_Node000026" title=" " alt="" coords="931,657,924,587,911,498,892,414,881,381,867,358,845,340,849,335,871,355,885,379,897,412,916,497,929,587,936,656"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a949d4ced276ef02b16869d78c25c9d3f" title="Source to waEqn from the differentiation of F1." alt="" coords="309,207,565,261"/>
+<area shape="poly" id="edge34_Node000001_Node000027" title=" " alt="" coords="933,657,930,569,920,452,912,394,901,342,886,299,867,272,847,259,819,249,743,236,654,230,565,231,565,225,654,225,743,230,820,244,850,254,871,268,891,297,906,340,917,393,926,452,935,569,938,657"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a3943a674f2efa83ddaabda3e30977d3d" title="F2 Jacobian wrt k." alt="" coords="309,285,565,340"/>
+<area shape="poly" id="edge6_Node000001_Node000029" title=" " alt="" coords="930,657,922,597,909,522,891,452,880,425,868,408,565,342,566,337,871,404,884,423,896,450,914,521,927,596,935,656"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#affbf3424c18b7dae6b81f81fce90ca8f" title="F2 Jacobian wrt omega." alt="" coords="309,364,565,419"/>
+<area shape="poly" id="edge7_Node000001_Node000036" title=" " alt="" coords="934,656,932,611,923,556,903,500,887,475,868,453,847,440,818,429,742,413,653,402,566,397,566,391,654,397,743,407,820,424,849,436,871,449,892,472,908,497,928,554,937,611,939,656"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a02d460178c77f98e9e282d5267f82fe4" title="Diffusion coeff at the boundary for k." alt="" coords="613,877,869,932"/>
+<area shape="poly" id="edge8_Node000001_Node000040" title=" " alt="" coords="935,710,928,744,917,784,898,824,871,860,845,879,842,875,867,856,893,821,912,782,923,743,930,709"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#a02d460178c77f98e9e282d5267f82fe4" title="Diffusion coefficient of the first primal and adjoint turbulence model equation. Needed for some adjo..." alt="" coords="618,956,865,1011"/>
+<area shape="poly" id="edge9_Node000001_Node000041" title=" " alt="" coords="935,710,912,837,894,903,883,928,871,946,858,958,855,954,867,943,879,926,889,901,907,836,929,709"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#acbb5a78f2c4b8f29bdf17c533ea8748f" title="Diffusion coeff at the boundary for omega." alt="" coords="613,1035,869,1089"/>
+<area shape="poly" id="edge10_Node000001_Node000043" title=" " alt="" coords="936,710,930,783,918,877,899,966,886,1001,871,1025,859,1036,855,1032,867,1022,881,998,894,964,913,876,925,782,931,710"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#af2ef33bafeb888f28bb15b2ea7da5889" title="Return the effective diffusivity for k." alt="" coords="309,835,565,889"/>
+<area shape="poly" id="edge12_Node000001_Node000044" title=" " alt="" coords="932,711,912,765,895,793,871,816,848,828,818,837,741,851,653,859,566,864,565,858,652,854,740,846,816,832,846,823,868,812,891,790,908,763,927,709"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a4dcce4d3976f413371589fd8db0923ea" title="Update of the primal cached fields." alt="" coords="5,704,261,759"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="904,684,804,680,657,677,485,681,310,695,244,706,243,701,309,690,485,675,657,672,804,674,904,679"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#ab59d1ba52782352e2a8a785a516cd396" title=" " alt="" coords="618,1113,865,1168"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="937,710,933,798,923,915,903,1028,889,1073,871,1104,859,1115,855,1111,867,1100,884,1070,898,1027,918,914,928,798,932,710"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#a3db17e0612d3f43dfc21d593b7f7a942" title=" " alt="" coords="618,1192,865,1247"/>
+<area shape="poly" id="edge15_Node000001_Node000045" title=" " alt="" coords="938,710,936,813,928,953,920,1025,908,1090,892,1145,871,1182,859,1194,856,1190,867,1179,887,1142,903,1089,914,1024,923,953,931,812,933,710"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a91782df59f38d55bd1c5f0f76df8d8fa" title="Return the effective diffusivity for omega." alt="" coords="309,704,565,759"/>
+<area shape="poly" id="edge16_Node000001_Node000046" title=" " alt="" coords="904,689,566,722,566,716,903,684"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointSpalartAllmaras.html#a083f8c8c6d615d2ae85290d8b6e4d1b0" title=" " alt="" coords="618,1271,865,1325"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="937,710,916,1009,896,1171,885,1229,872,1261,860,1272,856,1268,867,1258,880,1227,891,1170,910,1009,931,710"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a4b3838a294a5355dc1f45ab1c5605384" title=" " alt="" coords="613,747,869,801"/>
+<area shape="poly" id="edge19_Node000001_Node000047" title=" " alt="" coords="909,706,871,730,827,749,825,744,868,725,906,702"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a3c753cf60b7d2683953ef4fe93e9e67e" title=" " alt="" coords="613,464,869,519"/>
+<area shape="poly" id="edge23_Node000001_Node000056" title=" " alt="" coords="928,658,907,599,890,567,868,540,840,521,843,517,871,536,895,564,912,597,933,656"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a65a0544e539c3f3de587a0c3c061c46f" title="Jacobian of nut wrt to k." alt="" coords="309,495,565,549"/>
+<area shape="poly" id="edge31_Node000001_Node000033" title=" " alt="" coords="920,659,898,628,868,601,815,581,739,563,565,537,566,532,740,558,817,576,871,597,902,625,924,656"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a05d32000fd2117c53a0a4a14a355de68" title="Jacobian of nut wrt to omega." alt="" coords="309,573,565,628"/>
+<area shape="poly" id="edge32_Node000001_Node000039" title=" " alt="" coords="909,664,868,642,792,621,713,607,636,600,566,598,566,593,636,595,714,602,793,615,870,637,911,660"/>
+<area shape="rect" id="Node000059" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a0bab0b8eba8a6c1d833a0d962ae7cd8a" title="Sensitivity derivative contributions when using the FI approach." alt="" coords="613,1349,869,1404"/>
+<area shape="poly" id="edge29_Node000001_Node000059" title=" " alt="" coords="937,710,931,850,918,1049,899,1236,886,1302,872,1339,860,1351,856,1347,867,1336,881,1301,893,1235,913,1049,925,850,932,710"/>
+<area shape="rect" id="Node000061" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a43c6cb00728050ee5d2a603f3da3c259" title="Source to kaEqn from the differentiation of F1." alt="" coords="613,1428,869,1483"/>
+<area shape="poly" id="edge30_Node000001_Node000061" title=" " alt="" coords="937,710,932,865,920,1089,901,1300,888,1376,880,1402,871,1418,860,1430,856,1426,867,1415,875,1400,882,1375,896,1300,915,1088,927,864,932,709"/>
+<area shape="poly" id="edge2_Node000002_Node000004" title=" " alt="" coords="604,89,561,84,561,79,605,84"/>
+<area shape="poly" id="edge5_Node000026_Node000027" title=" " alt="" coords="618,282,547,264,548,259,619,277"/>
+<area shape="poly" id="edge13_Node000044_Node000034" title=" " alt="" coords="345,832,308,818,187,761,189,756,310,813,346,827"/>
+<area shape="poly" id="edge17_Node000046_Node000034" title=" " alt="" coords="296,734,261,734,261,729,296,729"/>
+<area shape="poly" id="edge20_Node000047_Node000044" title=" " alt="" coords="634,808,533,837,532,832,633,802"/>
+<area shape="poly" id="edge22_Node000047_Node000034" title=" " alt="" coords="600,783,459,784,309,774,237,761,237,756,310,769,459,778,600,778"/>
+<area shape="poly" id="edge21_Node000047_Node000046" title=" " alt="" coords="599,757,565,752,566,747,600,751"/>
+<area shape="poly" id="edge24_Node000056_Node000029" title=" " alt="" coords="690,457,612,396,589,373,564,353,541,342,543,337,567,349,592,369,615,392,693,453"/>
+<area shape="poly" id="edge25_Node000056_Node000036" title=" " alt="" coords="643,462,520,421,522,416,645,457"/>
+<area shape="poly" id="edge28_Node000056_Node000034" title=" " alt="" coords="630,464,555,452,473,448,431,450,389,457,349,468,311,484,278,505,250,531,224,560,202,592,168,654,147,705,142,703,163,652,198,589,220,557,246,527,275,501,308,480,347,463,388,452,430,445,473,442,556,446,631,458"/>
+<area shape="poly" id="edge26_Node000056_Node000033" title=" " alt="" coords="600,508,566,512,565,506,599,503"/>
+<area shape="poly" id="edge27_Node000056_Node000039" title=" " alt="" coords="665,526,566,564,533,576,531,571,564,559,663,521"/>
+</map>

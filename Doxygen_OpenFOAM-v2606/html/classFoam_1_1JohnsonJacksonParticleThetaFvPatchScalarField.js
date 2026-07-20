@@ -1,0 +1,25 @@
+var classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField =
+[
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ab4de2b6aeef0cd5aed0a94d42a80ca16", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ad896ebd47fc1f2f92971dcefbdda839a", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a03a64c935d490f41a81587c1efe70ba4", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a776934ab24d6b05d512b0382e6cbf0fd", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ac2b2839dc73e19d88a2704004f8c68cd", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ab4de2b6aeef0cd5aed0a94d42a80ca16", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ad896ebd47fc1f2f92971dcefbdda839a", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a03a64c935d490f41a81587c1efe70ba4", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a776934ab24d6b05d512b0382e6cbf0fd", null ],
+    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#ac2b2839dc73e19d88a2704004f8c68cd", null ],
+    [ "TypeName", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a3503fab13eb0a7226df1231951df6089", null ],
+    [ "clone", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a2ba3976b147665b409351155ef1046ad", null ],
+    [ "autoMap", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a0ab0c43ce90d756c88dd81e3d0a9eef5", null ],
+    [ "rmap", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a713277715ccc0a5ef466b0516d44731f", null ],
+    [ "updateCoeffs", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a7e24eafac629d3733181cd942d4c902f", null ],
+    [ "write", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a293fdfec8bdfbd5c3913ab4c9f3454ff", null ],
+    [ "TypeName", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a3503fab13eb0a7226df1231951df6089", null ],
+    [ "clone", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a2ba3976b147665b409351155ef1046ad", null ],
+    [ "autoMap", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a14e8e75907d10256d8a4ab61520e7e08", null ],
+    [ "rmap", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a1a69c2588e34c53c0a08a60930c964bc", null ],
+    [ "updateCoeffs", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#a578f7c989cf81854d45213ec3ee3062a", null ],
+    [ "write", "classFoam_1_1JohnsonJacksonParticleThetaFvPatchScalarField.html#aee7d874639b15522c4b683f23bbff5fd", null ]
+];

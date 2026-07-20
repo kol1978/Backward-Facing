@@ -1,0 +1,80 @@
+<map id="update" name="update">
+<area shape="rect" id="Node000001" title="Update stencils. Return false if nothing changed." alt="" coords="5,877,72,903"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#a3fb553e6d728b81df364d351a6ce2b14" title="Gather data, but keep individual values separate. Uses MPI_Allgather or manual communication." alt="" coords="126,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,877,43,713,57,446,67,308,81,185,97,92,107,60,118,40,121,37,125,41,122,44,112,62,103,93,86,186,73,309,62,446,48,713,43,877"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="150,55,313,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="38,877,44,722,58,471,69,341,82,226,98,138,108,108,118,90,136,76,139,80,122,93,113,110,104,139,88,227,74,342,63,471,49,722,43,877"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#aca0b7feea326c0e1e9e04078a319d019" title=" " alt="" coords="186,128,277,153"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="38,877,45,735,60,507,71,390,84,286,100,207,108,180,118,163,143,146,171,138,173,143,145,151,122,166,113,182,105,208,90,287,77,390,66,507,50,735,43,877"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="158,177,305,203"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="38,877,46,743,62,532,86,327,101,254,109,229,118,214,143,196,146,200,122,217,114,231,106,256,91,328,67,532,51,743,43,877"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1oversetFvMeshBase.html#a1e295ecd656ab950c72d3cdc196f3ef0" title="Correct boundary conditions of certain type (TypeOnly = true) or explicitly not of the type (TypeOnly..." alt="" coords="128,227,335,267"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="37,877,38,763,47,583,56,488,71,400,91,328,103,299,118,278,121,275,125,278,122,281,108,302,96,330,76,402,62,489,52,583,43,763,43,877"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#af5ae0ea903bfc65a1a998bebd2e4f9e9" title=" " alt="" coords="162,292,301,317"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="37,877,39,771,48,605,58,518,72,438,92,372,104,346,118,327,132,316,148,308,150,313,135,320,122,330,109,349,97,374,77,439,63,519,54,605,44,771,43,877"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam.html#ae2aa5f8e535bdbce0467a919990247f4" title="Decrement the indent level." alt="" coords="164,341,299,367"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="37,877,41,780,51,629,62,551,75,478,94,418,105,395,118,377,133,366,149,358,152,363,135,370,122,381,110,398,99,420,81,479,67,551,57,630,46,780,43,877"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1mapDistribute.html#a93e1a643307eb8869f583019ca92cec2" title="Distribute List data using default commsType, default flip/negate operator." alt="" coords="152,391,311,431"/>
+<area shape="poly" id="edge9_Node000001_Node000015" title=" " alt="" coords="38,877,44,792,58,664,68,597,81,535,98,484,118,448,138,431,142,435,122,452,103,486,87,536,73,598,63,664,49,792,43,877"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="589,1060,684,1085"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="38,877,43,798,56,680,66,620,80,565,97,521,118,492,147,472,174,458,201,451,228,449,256,453,284,462,344,492,382,518,417,548,449,581,477,618,526,697,564,780,592,861,613,936,634,1046,629,1047,608,937,587,863,559,782,521,699,473,621,445,585,413,551,379,522,341,496,282,466,254,458,228,454,202,456,176,463,149,476,122,496,101,524,85,567,71,621,61,681,48,798,43,877"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1dictionary.html#a991aa8aeeb065b985015a48bb5066b99" title="Find an entry (const access) with the given keyword." alt="" coords="144,507,319,532"/>
+<area shape="poly" id="edge11_Node000001_Node000019" title=" " alt="" coords="39,877,46,807,62,706,85,607,100,568,118,542,130,532,134,536,122,545,105,570,90,609,67,707,51,808,44,877"/>
+<area shape="rect" id="Node000020" href="$namespaceFoam.html#ae8d631fb8e841947408bb711abfb1e67" title=" " alt="" coords="180,556,283,581"/>
+<area shape="poly" id="edge12_Node000001_Node000020" title=" " alt="" coords="39,877,48,816,65,730,88,646,102,613,118,591,140,576,166,568,167,573,143,581,122,595,107,616,93,648,70,731,53,817,44,878"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam.html#a7731a7ce298b2318e8ca1efa82593c06" title="Increment the indent level." alt="" coords="166,605,297,631"/>
+<area shape="poly" id="edge13_Node000001_Node000021" title=" " alt="" coords="37,877,40,831,51,768,61,733,75,699,94,667,118,640,134,629,152,622,154,627,137,634,122,644,98,671,80,701,66,735,56,769,45,832,43,877"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam.html#a7e15d05978b545ad4cbf3149a70b0dbf" title="Indent stream." alt="" coords="178,655,285,680"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="39,877,44,839,57,789,81,735,98,710,118,689,140,676,164,668,165,674,142,681,122,693,102,714,86,738,62,790,49,840,44,877"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1Pstream.html#a9cb47c1bb88743865be3a392c8c1f908" title="Reduce list elements (list must be equal size on all ranks), applying bop to each list element." alt="" coords="133,704,329,729"/>
+<area shape="poly" id="edge15_Node000001_Node000025" title=" " alt="" coords="40,876,49,848,64,810,87,771,118,739,126,733,129,738,122,743,91,775,69,813,54,849,46,878"/>
+<area shape="rect" id="Node000026" href="$namespaceFoam.html#a8ac5b57f98f906c36b8a4e989a77dbba" title=" " alt="" coords="184,753,279,779"/>
+<area shape="poly" id="edge16_Node000001_Node000026" title=" " alt="" coords="44,876,72,832,93,808,119,788,143,776,169,769,171,774,145,781,121,792,97,812,76,835,49,879"/>
+<area shape="rect" id="Node000027" href="$searchingEngine_8H.html#aca34e70ba5606c10e37ee4f12dab90a2" title=" " alt="" coords="194,803,269,828"/>
+<area shape="poly" id="edge17_Node000001_Node000027" title=" " alt="" coords="55,875,84,855,119,837,180,820,181,825,121,842,86,860,58,880"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam.html#a29d00c4f6f15a72ca273332f74137075" title="Make a directory and return an error if it could not be created." alt="" coords="178,852,285,877"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="72,883,164,871,165,876,73,888"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="391,927,541,952"/>
+<area shape="poly" id="edge36_Node000001_Node000034" title=" " alt="" coords="73,891,377,926,377,932,72,896"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="129,953,334,979"/>
+<area shape="poly" id="edge22_Node000001_Node000035" title=" " alt="" coords="62,901,121,932,166,947,164,952,119,936,59,905"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1OFstream.html#a085ba947e5c8597cb3ab29f68d5d38f8" title="Read/write access to the name of the stream." alt="" coords="144,1003,319,1028"/>
+<area shape="poly" id="edge23_Node000001_Node000036" title=" " alt="" coords="49,901,76,944,97,968,121,988,136,995,133,1000,119,992,93,972,72,948,44,904"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1polyMesh.html#a13bdd7dac9c1c63be5f5ad4f4bcf2f63" title="Return the number of valid geometric dimensions in the mesh." alt="" coords="120,1052,343,1077"/>
+<area shape="poly" id="edge24_Node000001_Node000037" title=" " alt="" coords="46,902,54,930,69,967,91,1005,122,1037,131,1044,128,1048,118,1041,87,1009,64,970,49,932,40,904"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1primitiveMesh.html#a9c6b6154e2b365cfc39a2514d2b79353" title="Number of mesh points." alt="" coords="151,1102,311,1142"/>
+<area shape="poly" id="edge25_Node000001_Node000039" title=" " alt="" coords="44,902,50,939,63,988,87,1041,103,1065,122,1087,140,1099,137,1104,118,1091,98,1069,82,1044,58,990,45,940,39,903"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="141,1167,322,1192"/>
+<area shape="poly" id="edge26_Node000001_Node000040" title=" " alt="" coords="42,903,44,950,54,1017,64,1054,78,1090,97,1123,122,1152,130,1159,127,1163,118,1156,93,1126,73,1092,59,1056,49,1019,39,950,37,903"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1polyMesh.html#ac44123fc1265297c41a43c3b62fdb4c2" title="Return raw points." alt="" coords="143,1216,320,1241"/>
+<area shape="poly" id="edge28_Node000001_Node000041" title=" " alt="" coords="44,902,53,966,69,1056,92,1145,106,1179,122,1202,132,1210,129,1214,118,1205,102,1181,87,1146,64,1057,48,967,39,903"/>
+<area shape="rect" id="Node000044" href="$namespaceFoam.html#a94480bcb2ac528e15dc0e6bf381e4b4b" title="Reduce inplace (cf. MPI Allreduce)" alt="" coords="411,1267,521,1292"/>
+<area shape="poly" id="edge29_Node000001_Node000044" title=" " alt="" coords="44,903,50,976,64,1082,75,1136,88,1185,103,1225,122,1251,141,1262,168,1270,240,1280,322,1282,397,1281,397,1286,322,1288,240,1285,167,1275,139,1267,118,1255,99,1228,83,1187,69,1137,59,1083,45,976,38,903"/>
+<area shape="rect" id="Node000051" href="$namespaceFoam.html#a75556bf3a6366314fddd9b676c015084" title="Perform reduction on a copy, using specified binary operation." alt="" coords="155,1317,308,1343"/>
+<area shape="poly" id="edge31_Node000001_Node000051" title=" " alt="" coords="43,903,50,983,64,1101,88,1219,103,1265,122,1296,144,1312,140,1317,118,1300,99,1267,82,1220,59,1102,44,983,38,903"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1schemesLookup.html#a7291ef97a24527845773f5a1d1a5da63" title="The entire dictionary or the optional &quot;select&quot; sub&#45;dictionary." alt="" coords="146,1367,317,1407"/>
+<area shape="poly" id="edge33_Node000001_Node000052" title=" " alt="" coords="43,903,48,992,61,1127,71,1198,84,1263,101,1316,122,1352,136,1364,132,1368,118,1356,97,1318,79,1264,66,1199,55,1128,43,992,38,903"/>
+<area shape="rect" id="Node000053" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="164,1432,299,1457"/>
+<area shape="poly" id="edge34_Node000001_Node000053" title=" " alt="" coords="43,903,45,1003,56,1159,66,1240,80,1315,98,1377,109,1400,122,1418,135,1428,151,1436,149,1441,133,1433,118,1421,105,1403,93,1379,74,1316,60,1241,50,1159,40,1004,37,903"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1PtrList.html#a1a7984b90f8855606fc18a92a71fa99f" title="Same as resize()" alt="" coords="150,1481,313,1507"/>
+<area shape="poly" id="edge35_Node000001_Node000056" title=" " alt="" coords="43,903,44,1012,53,1182,62,1272,77,1354,96,1422,108,1448,122,1467,139,1480,136,1484,118,1471,104,1450,91,1424,71,1355,57,1273,47,1183,38,1012,37,903"/>
+<area shape="rect" id="Node000060" href="$namespaceFoam.html#a8616bd62eebf2342a80222fecb1bda71" title=" " alt="" coords="186,1555,277,1580"/>
+<area shape="poly" id="edge37_Node000001_Node000060" title=" " alt="" coords="43,903,45,1018,54,1202,64,1299,78,1389,97,1465,109,1494,122,1516,145,1538,174,1552,172,1557,142,1542,118,1520,104,1496,92,1466,73,1390,59,1300,49,1202,39,1018,37,903"/>
+<area shape="rect" id="Node000061" href="$classFoam_1_1dictionary.html#a2a39871f2c637ad85e794cf107ae37bd" title="Find and return a sub&#45;dictionary." alt="" coords="138,1604,325,1629"/>
+<area shape="poly" id="edge39_Node000001_Node000061" title=" " alt="" coords="43,903,51,1041,67,1261,91,1474,106,1549,114,1575,122,1590,129,1596,125,1600,118,1593,109,1577,100,1551,85,1474,61,1261,45,1041,38,903"/>
+<area shape="rect" id="Node000062" href="$classFoam_1_1PtrList.html#a0bc76d46c3a7f71bd74ddafdf84dbfbc" title="Transfer into this list and annul the argument list." alt="" coords="148,1653,315,1679"/>
+<area shape="poly" id="edge40_Node000001_Node000062" title=" " alt="" coords="43,903,50,1050,65,1286,76,1407,89,1514,105,1596,113,1623,122,1639,137,1651,134,1655,118,1642,108,1625,99,1597,84,1515,71,1407,60,1286,45,1051,38,903"/>
+<area shape="rect" id="Node000063" href="$namespaceFoam.html#a69e2e8a647a7073be8ce6437c0aff762" title="Return the file type: DIRECTORY or FILE, normally following symbolic links." alt="" coords="419,1509,513,1535"/>
+<area shape="poly" id="edge41_Node000001_Node000063" title=" " alt="" coords="43,903,48,1060,61,1313,71,1443,85,1558,102,1645,111,1673,122,1690,148,1710,174,1723,200,1730,226,1730,252,1726,280,1717,341,1689,362,1676,381,1660,413,1621,437,1581,453,1547,458,1549,441,1584,417,1625,385,1664,365,1680,344,1694,282,1722,253,1731,226,1736,199,1735,172,1728,146,1715,118,1693,107,1676,97,1646,79,1559,66,1444,55,1314,42,1060,38,903"/>
+<area shape="rect" id="Node000064" href="$classFoam_1_1OBJstream.html#aba7c88de6fe2b39ef12d4992d53bb9c4" title="Write line joining two points." alt="" coords="130,1755,333,1780"/>
+<area shape="poly" id="edge43_Node000001_Node000064" title=" " alt="" coords="43,903,49,1066,63,1332,74,1469,87,1591,103,1684,112,1715,122,1734,135,1746,132,1750,118,1737,108,1717,98,1685,82,1591,68,1469,58,1332,44,1066,38,903"/>
+<area shape="poly" id="edge4_Node000006_Node000006" title=" " alt="" coords="200,129,193,120,196,110,210,104,231,101,258,105,269,114,265,118,256,110,231,107,211,109,200,113,198,119,204,126"/>
+<area shape="poly" id="edge19_Node000028_Node000017" title=" " alt="" coords="285,852,342,846,409,847,479,859,512,871,543,888,562,904,579,922,605,965,623,1009,633,1046,628,1047,617,1011,600,968,575,926,559,907,540,892,510,876,477,864,409,852,342,851,285,857"/>
+<area shape="poly" id="edge20_Node000028_Node000034" title=" " alt="" coords="279,875,343,894,418,919,416,925,342,899,278,880"/>
+<area shape="poly" id="edge21_Node000034_Node000034" title=" " alt="" coords="437,928,431,918,435,909,447,902,466,900,489,903,499,912,496,916,487,908,466,905,448,907,439,912,437,918,442,925"/>
+<area shape="poly" id="edge27_Node000040_Node000034" title=" " alt="" coords="319,1164,341,1152,364,1132,384,1109,417,1057,440,1006,455,965,460,966,445,1008,422,1060,388,1112,368,1136,344,1156,321,1169"/>
+<area shape="poly" id="edge30_Node000044_Node000017" title=" " alt="" coords="476,1265,614,1094,618,1098,480,1268"/>
+<area shape="poly" id="edge32_Node000051_Node000044" title=" " alt="" coords="291,1315,397,1291,398,1297,292,1320"/>
+<area shape="poly" id="edge38_Node000060_Node000060" title=" " alt="" coords="200,1556,193,1546,196,1536,210,1530,231,1528,258,1532,269,1540,265,1544,256,1536,231,1533,211,1535,200,1540,198,1546,204,1553"/>
+<area shape="poly" id="edge42_Node000063_Node000017" title=" " alt="" coords="470,1508,623,1097,628,1099,475,1510"/>
+</map>

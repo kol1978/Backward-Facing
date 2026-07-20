@@ -1,0 +1,26 @@
+var classFoam_1_1fieldRegularisation =
+[
+    [ "fieldRegularisation", "classFoam_1_1fieldRegularisation.html#af4a99516fd0a1bbd03e5770626da4cec", null ],
+    [ "~fieldRegularisation", "classFoam_1_1fieldRegularisation.html#a97ec0c5b3756747b3d76dc1a0d121324", null ],
+    [ "TypeName", "classFoam_1_1fieldRegularisation.html#a34404a210a2fb20f68fbcdcd79906b60", null ],
+    [ "beta", "classFoam_1_1fieldRegularisation.html#ac8ddbecebe3925a15d134b0a57c2abf2", null ],
+    [ "growFromWalls", "classFoam_1_1fieldRegularisation.html#a038df02c74515b8d54be91a1b97f8021", null ],
+    [ "shouldRegularise", "classFoam_1_1fieldRegularisation.html#ad0e3f77f7fcfbe39bd2db37025e5b092", null ],
+    [ "updateBeta", "classFoam_1_1fieldRegularisation.html#a323ef92187499c73f1841300137afeb1", null ],
+    [ "regularise", "classFoam_1_1fieldRegularisation.html#aaddacdfcc92c418473d5529b07fc8b0c", null ],
+    [ "regularise", "classFoam_1_1fieldRegularisation.html#a44fe8bd9c195ec5a83dc0fe9cd3115dd", null ],
+    [ "postProcessSens", "classFoam_1_1fieldRegularisation.html#a8cb4fc6b6ff752d05fb395a6e0068fe8", null ],
+    [ "mesh_", "classFoam_1_1fieldRegularisation.html#ad11fd245eb0e1a8279a432baf8530212", null ],
+    [ "dict_", "classFoam_1_1fieldRegularisation.html#a5c644b0ad2ff77590a77fb0198c4a785", null ],
+    [ "zones_", "classFoam_1_1fieldRegularisation.html#aeeb992150502571e6aee01cd21a685f9", null ],
+    [ "regularise_", "classFoam_1_1fieldRegularisation.html#a2f4f3d228de961adb7ae9aeb07c00e1f", null ],
+    [ "project_", "classFoam_1_1fieldRegularisation.html#a3a5b3319600583e7edb49ae3f2b2ec2c", null ],
+    [ "radius_", "classFoam_1_1fieldRegularisation.html#a2483bc6f78cad9dcb3467eb4a22e6169", null ],
+    [ "alpha_", "classFoam_1_1fieldRegularisation.html#afde67d12535a946b3b671eb9a9b263e9", null ],
+    [ "alphaTilda_", "classFoam_1_1fieldRegularisation.html#a9a7af740737d81483707421566eb8aed", null ],
+    [ "sharpenFunction_", "classFoam_1_1fieldRegularisation.html#a71d28c512cc5319d86a228d6ea93996c", null ],
+    [ "regularisationPDE_", "classFoam_1_1fieldRegularisation.html#ae4ef3baabd5c1d8ea53e0690d496b690", null ],
+    [ "betaArg_", "classFoam_1_1fieldRegularisation.html#af76a96c4a9f0bbc691c2a411079ec0e6", null ],
+    [ "growFromWalls_", "classFoam_1_1fieldRegularisation.html#a050b6a513f07ddb1ec26b239f9fe2c08", null ],
+    [ "beta_", "classFoam_1_1fieldRegularisation.html#a6ac3b225ff3945911c41e0dc6468a26b", null ]
+];

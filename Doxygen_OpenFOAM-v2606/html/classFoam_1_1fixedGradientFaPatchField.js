@@ -1,0 +1,26 @@
+var classFoam_1_1fixedGradientFaPatchField =
+[
+    [ "fixedGradientFaPatchField", "classFoam_1_1fixedGradientFaPatchField.html#a79556e9cb6c6d7e655dd258ea5d87711", null ],
+    [ "fixedGradientFaPatchField", "classFoam_1_1fixedGradientFaPatchField.html#a066d3bb39c0f548178d59d5f2ba6ef59", null ],
+    [ "fixedGradientFaPatchField", "classFoam_1_1fixedGradientFaPatchField.html#a05717a23e956caa003891339721c9e50", null ],
+    [ "fixedGradientFaPatchField", "classFoam_1_1fixedGradientFaPatchField.html#afaae5704b2f6b8c1168900e129264fdf", null ],
+    [ "fixedGradientFaPatchField", "classFoam_1_1fixedGradientFaPatchField.html#a60fed051fdbf1b9228587951ef791ca3", null ],
+    [ "readGradientEntry", "classFoam_1_1fixedGradientFaPatchField.html#a80a3e351e03780e002035e2bc1d447c8", null ],
+    [ "TypeName", "classFoam_1_1fixedGradientFaPatchField.html#a7d2135b17815d0bd71062ea67867b887", null ],
+    [ "clone", "classFoam_1_1fixedGradientFaPatchField.html#ab54ebc4428698e40b21d95d115b9ee77", null ],
+    [ "gradient", "classFoam_1_1fixedGradientFaPatchField.html#a34ba65bd2078260d3198965225435dfe", null ],
+    [ "gradient", "classFoam_1_1fixedGradientFaPatchField.html#add2e63ecf2f9d731b8d4ed97f53fda93", null ],
+    [ "autoMap", "classFoam_1_1fixedGradientFaPatchField.html#af0c9f442aa5c760fa7af3fd94ffcc6f2", null ],
+    [ "rmap", "classFoam_1_1fixedGradientFaPatchField.html#a624e73326c58444e1796320503d86eb3", null ],
+    [ "snGrad", "classFoam_1_1fixedGradientFaPatchField.html#a8cb19151284860ab432f39ba0d054027", null ],
+    [ "snGrad", "classFoam_1_1fixedGradientFaPatchField.html#ac47e76b688e5bb95205da8efb9377355", null ],
+    [ "evaluate", "classFoam_1_1fixedGradientFaPatchField.html#a6f440ab109a7aa1a502f346edc0486ec", null ],
+    [ "valueInternalCoeffs", "classFoam_1_1fixedGradientFaPatchField.html#a2456a4082d9079475656f205ae6b0de7", null ],
+    [ "valueBoundaryCoeffs", "classFoam_1_1fixedGradientFaPatchField.html#a085cd0846459eba227fb263aa084d65a", null ],
+    [ "gradientInternalCoeffs", "classFoam_1_1fixedGradientFaPatchField.html#a7c53e0abf1fc2fb7dbbf9bbd9bee18dd", null ],
+    [ "gradientBoundaryCoeffs", "classFoam_1_1fixedGradientFaPatchField.html#afbbc3f8b4a40056d9bdcb14c1063ca53", null ],
+    [ "write", "classFoam_1_1fixedGradientFaPatchField.html#aee7d874639b15522c4b683f23bbff5fd", null ],
+    [ "operator=", "classFoam_1_1fixedGradientFaPatchField.html#a80674e13d0dd5a9a6fcc4dd8fa7df782", null ],
+    [ "operator=", "classFoam_1_1fixedGradientFaPatchField.html#ab9d771e304b9dc05ec7c73077d6d69d5", null ],
+    [ "operator=", "classFoam_1_1fixedGradientFaPatchField.html#a42d7c2639dc01e902cdf724b97b04122", null ]
+];

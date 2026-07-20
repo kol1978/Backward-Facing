@@ -1,0 +1,27 @@
+var classFoam_1_1meshReader =
+[
+    [ "cellFaceIdentifier", "classFoam_1_1meshReader_1_1cellFaceIdentifier.html", "classFoam_1_1meshReader_1_1cellFaceIdentifier" ],
+    [ "meshReader", "classFoam_1_1meshReader.html#a2620e48802524863af7f155a3840604b", null ],
+    [ "~meshReader", "classFoam_1_1meshReader.html#ab893d358daa2d0bc70a689c27ae5b316", null ],
+    [ "readGeometry", "classFoam_1_1meshReader.html#a755bcf2c5528ad20b324f92b38b500cc", null ],
+    [ "warnDuplicates", "classFoam_1_1meshReader.html#a2638db035b2a192cbe57e864292f2823", null ],
+    [ "mesh", "classFoam_1_1meshReader.html#a5aca9ab4bac609de1e0e8c268bfc363f", null ],
+    [ "writeAux", "classFoam_1_1meshReader.html#a69cf38a0328cb0a300ce52095582764e", null ],
+    [ "writeMesh", "classFoam_1_1meshReader.html#aaa911dffa71e11861fff1090f450642f", null ],
+    [ "geometryFile_", "classFoam_1_1meshReader.html#af534ed099b488929ee0cc9e0acb20700", null ],
+    [ "scaleFactor_", "classFoam_1_1meshReader.html#a0da3932be8114c41f8456155d20d842f", null ],
+    [ "points_", "classFoam_1_1meshReader.html#a9571db2603ef1bc30fb88bdd1102437f", null ],
+    [ "origCellId_", "classFoam_1_1meshReader.html#a8329569de48887767838a22dcc53c500", null ],
+    [ "boundaryIds_", "classFoam_1_1meshReader.html#a2c9f64e8b5e22b8e417029dd00b12224", null ],
+    [ "patchTypes_", "classFoam_1_1meshReader.html#afbacae9cb39b7da8c4e49ae562e783ee", null ],
+    [ "patchNames_", "classFoam_1_1meshReader.html#a65ff7f3d0db01fa5c600366c6c52d7d2", null ],
+    [ "patchPhysicalTypes_", "classFoam_1_1meshReader.html#a3a73c23eed66ca914ce4d13a8c3720b2", null ],
+    [ "patchStarts_", "classFoam_1_1meshReader.html#ae0535a79890c8d8c4229722285d9fa25", null ],
+    [ "patchSizes_", "classFoam_1_1meshReader.html#aa5f9b7e06ee4befd8472e04ce13f307a", null ],
+    [ "nInternalFaces_", "classFoam_1_1meshReader.html#a7094ffdb56376063e0c83662efe01a4d", null ],
+    [ "meshFaces_", "classFoam_1_1meshReader.html#a4e8feffb91f495f129050b1c81a30696", null ],
+    [ "cellFaces_", "classFoam_1_1meshReader.html#adafe8df20865f74a428bc43949811876", null ],
+    [ "baffleFaces_", "classFoam_1_1meshReader.html#aac86d62e6daa912470d64042f4c8e073", null ],
+    [ "cellTableId_", "classFoam_1_1meshReader.html#a7a3ac5f881efcddc607648c2ec14e348", null ],
+    [ "cellTable_", "classFoam_1_1meshReader.html#a72dc2b5988078f5bf493526a0e1288aa", null ]
+];

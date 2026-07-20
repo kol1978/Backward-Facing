@@ -1,0 +1,33 @@
+<map id="option" name="option">
+<area shape="rect" id="Node000001" title="Base abstract class for handling finite volume options (i.e. fvOption)." alt="" coords="5,381,68,406"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fv_1_1MapFieldConstraint.html" title="The MapFieldConstraint constrains values of given fields of Type with a source field from an external..." alt="" coords="161,5,309,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,366,47,294,62,202,85,114,98,79,114,56,135,40,159,30,161,35,138,44,118,59,103,82,90,115,68,203,52,295,43,367"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1fv_1_1PhaseLimitStabilization.html" title="Stabilization source for phase transport equations of Type, where &lt;Type&gt;=Scalar/Vector/SphericalTenso..." alt="" coords="147,69,322,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="35,367,38,315,49,249,59,214,73,179,91,148,114,119,146,99,148,104,118,123,95,151,77,182,64,215,54,250,43,315,40,367"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1fv_1_1buoyancyEnergy.html" title="Applies buoyancy energy sources (i.e. Sb) to the energy equation for compressible flows." alt="" coords="169,134,300,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="37,367,42,323,54,270,77,215,94,190,114,169,140,153,168,145,170,151,142,158,118,173,98,194,82,218,59,271,47,324,42,367"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fv_1_1buoyancyForce.html" title="Applies buoyancy force sources (i.e. Sf) to the momentum equation for incompressible and compressible..." alt="" coords="175,183,295,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="40,366,48,332,62,292,84,252,114,218,143,202,174,195,175,200,145,207,118,222,88,255,67,294,53,334,45,368"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fv_1_1cellSetOption.html" title="Intermediate abstract class for handling cell&#45;set options for the derived fvOptions." alt="" coords="180,233,289,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="45,367,70,316,90,289,115,267,146,252,179,245,180,250,148,257,117,272,94,293,75,318,49,369"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1fv_1_1interRegionOption.html" title="Intermediate class for handling inter&#45;region exchanges." alt="" coords="165,282,305,307"/>
+<area shape="poly" id="edge6_Node000001_Node000036" title=" " alt="" coords="54,368,81,341,115,316,163,300,165,305,117,321,84,345,58,372"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1fv_1_1jouleHeatingSource.html" title="Evolves an electrical potential equation." alt="" coords="160,331,309,357"/>
+<area shape="poly" id="edge7_Node000001_Node000043" title=" " alt="" coords="80,376,115,365,164,354,165,359,117,371,82,381"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1fv_1_1multiphaseMangrovesSource.html" title=" " alt="" coords="129,381,340,406"/>
+<area shape="poly" id="edge8_Node000001_Node000044" title=" " alt="" coords="82,391,129,391,129,396,82,396"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1fv_1_1multiphaseMangrovesTurbulenceModel.html" title=" " alt="" coords="116,431,353,471"/>
+<area shape="poly" id="edge9_Node000001_Node000045" title=" " alt="" coords="82,404,117,415,163,428,161,433,115,420,80,409"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1fv_1_1multiphaseStabilizedTurbulence.html" title="Applies corrections to the turbulent kinetic energy equation (i.e. k) and turbulent viscosity field (..." alt="" coords="120,495,349,521"/>
+<area shape="poly" id="edge10_Node000001_Node000046" title=" " alt="" coords="55,417,82,450,117,480,146,493,143,498,115,485,78,454,51,420"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1fv_1_1patchCellsSource.html" title="Source defined by a boundary condition applied to cells next to patches. This fvOption needs to be us..." alt="" coords="167,545,302,570"/>
+<area shape="poly" id="edge11_Node000001_Node000047" title=" " alt="" coords="48,418,72,475,92,505,118,530,141,543,168,550,166,556,139,548,114,534,88,509,68,478,43,420"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1fv_1_1radiation.html" title="Applies radiation sources (i.e. Sh) to the energy equation for compressible flows." alt="" coords="195,594,275,619"/>
+<area shape="poly" id="edge12_Node000001_Node000048" title=" " alt="" coords="44,419,51,456,65,499,86,543,101,562,118,579,135,590,155,598,195,605,194,610,153,603,133,595,114,583,97,566,82,546,60,501,46,457,39,420"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1fv_1_1tabulatedAccelerationSource.html" title="Solid&#45;body 6&#45;DoF acceleration source." alt="" coords="130,643,339,669"/>
+<area shape="poly" id="edge13_Node000001_Node000049" title=" " alt="" coords="41,420,46,465,58,522,81,580,97,606,118,629,136,641,133,645,114,633,93,609,76,582,52,524,40,466,36,420"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1fv_1_1topOSource.html" title="Implements Brinkman penalisation terms for topology optimisation. Looks up the indicator field (beta)..." alt="" coords="186,693,283,718"/>
+<area shape="poly" id="edge14_Node000001_Node000050" title=" " alt="" coords="39,420,41,475,51,544,61,581,75,617,93,649,118,678,133,689,150,696,186,704,185,709,148,701,130,693,114,682,89,653,70,619,56,583,46,546,36,475,34,420"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1fv_1_1viscousDissipation.html" title="Applies a viscous dissipation energy source to the energy equation." alt="" coords="163,742,307,767"/>
+<area shape="poly" id="edge15_Node000001_Node000051" title=" " alt="" coords="43,420,52,492,67,585,89,672,103,705,118,727,139,742,163,750,162,755,136,746,114,731,98,708,84,673,62,586,47,493,38,420"/>
+</map>

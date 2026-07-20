@@ -1,0 +1,31 @@
+<map id="calculateProtectedCells" name="calculateProtectedCells">
+<area shape="rect" id="Node000001" title="Calculate cells that cannot be refined since would trigger." alt="" coords="5,356,180,381"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1hexRef8.html#a2a2e8a8a2cf3148a28a20db6aa61c076" title=" " alt="" coords="251,5,438,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,356,101,298,122,212,139,165,162,119,191,76,226,40,238,32,241,36,230,44,195,80,167,122,144,167,127,214,106,299,98,356"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="271,55,418,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,355,105,305,128,232,146,193,168,155,195,119,226,89,257,73,260,78,230,94,199,123,172,158,151,196,133,234,110,306,99,356"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1PackedList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)." alt="" coords="253,104,437,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="95,355,109,313,135,254,174,191,198,163,226,139,238,131,241,136,230,143,202,166,178,194,140,256,114,315,100,357"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1polyMesh.html#a9fb57b52c700ed61f09ada65412d13e3" title="Return face neighbour." alt="" coords="229,153,461,179"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="97,355,114,321,142,275,180,227,202,206,227,188,237,182,240,187,229,192,205,210,184,231,146,278,119,323,102,357"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1polyMesh.html#a57752b49bfee23ca1944c3fb0493974f" title="Return face owner." alt="" coords="241,203,448,228"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="101,354,150,298,186,265,227,238,246,230,248,235,229,243,189,270,154,301,105,358"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1primitiveMesh.html#a1b455e2e91a2eb72ec21ab1832fec664" title="Number of boundary faces (== nFaces &#45; nInternalFaces)" alt="" coords="265,253,425,293"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="116,353,167,328,227,302,251,294,253,299,229,307,169,333,119,358"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1primitiveMesh.html#aad20a227e963e21b706a9dfa3ab7e158" title="Number of mesh faces." alt="" coords="265,317,425,357"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="180,355,251,346,251,351,180,360"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="265,381,425,421"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="180,377,251,386,251,391,180,382"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="267,445,422,471"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="118,379,168,405,229,430,261,440,259,445,227,435,166,410,115,384"/>
+<area shape="rect" id="Node000014" href="$namespaceFoam.html#a0e059740c037fff1ec5d71f5611dc4be" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="261,495,429,520"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="107,380,157,429,191,457,229,480,250,488,248,493,227,484,188,461,153,433,103,383"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="277,544,412,569"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="103,380,121,411,149,452,186,494,229,529,265,544,263,549,227,534,182,498,145,455,117,414,98,383"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1syncTools.html#ad69ab0d14607d0f2f027eaccf79018db" title="Swap coupled boundary face values. Uses eqOp." alt="" coords="228,594,461,634"/>
+<area shape="poly" id="edge12_Node000001_Node000019" title=" " alt="" coords="101,380,116,419,143,473,181,530,204,556,230,579,240,585,237,590,226,583,200,560,177,533,138,476,111,421,96,382"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1syncTools.html#af0aa5d4138c5a7f7b673eed9a1fb42f7" title="Synchronize values on all mesh faces." alt="" coords="235,659,454,684"/>
+<area shape="poly" id="edge13_Node000001_Node000034" title=" " alt="" coords="99,381,110,431,134,503,151,541,173,579,199,614,230,644,238,650,235,654,226,648,195,618,168,582,146,544,129,505,105,432,94,382"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1UPtrList.html#a53e54aae19ba347f6f4544c764905331" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="269,708,420,733"/>
+<area shape="poly" id="edge14_Node000001_Node000035" title=" " alt="" coords="98,381,106,438,127,524,144,570,167,615,195,657,230,693,257,709,255,713,226,697,191,661,162,618,140,572,122,525,101,440,92,382"/>
+</map>

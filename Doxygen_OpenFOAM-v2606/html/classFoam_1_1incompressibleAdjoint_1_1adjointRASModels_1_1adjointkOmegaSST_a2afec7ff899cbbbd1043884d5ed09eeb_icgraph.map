@@ -1,0 +1,32 @@
+<map id="wa" name="wa">
+<area shape="rect" id="Node000001" title=" " alt="" coords="683,274,724,299"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a941dfe7af6e8a6fb5973078edaa9b172" title="Contributions from the differentiation of k existing in nutkWallFunction." alt="" coords="144,324,312,350"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="671,303,635,314,550,329,463,337,312,342,312,336,463,332,549,323,634,309,669,298"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a3ae44b28050c3aa494c1d8e18cf618c1" title="Solve the adjoint turbulence equations." alt="" coords="5,274,72,299"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="698,260,693,225,682,184,663,144,650,127,633,113,601,94,572,84,544,80,516,82,457,96,385,113,306,129,246,146,190,172,122,213,82,244,53,275,49,272,78,240,118,208,187,167,245,141,305,124,383,108,456,90,516,77,544,75,573,78,603,89,636,108,653,123,668,141,687,182,698,224,703,259"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a988e3f123d5b9627c415d1bbbea4cdc7" title="Source term added to the adjoint mean flow due to the differentiation of the turbulence model." alt="" coords="420,123,599,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="693,261,672,210,655,184,633,162,598,145,600,140,636,158,659,180,677,207,698,259"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a11893174d6ca40acae1637d9c324c8fb" title="Derivative of the primal equations wrt F1." alt="" coords="474,172,545,198"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="683,265,661,241,633,219,589,201,545,191,546,186,590,196,636,215,664,237,687,261"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a0bab0b8eba8a6c1d833a0d962ae7cd8a" title="Sensitivity derivative contributions when using the FI approach." alt="" coords="161,223,295,248"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="669,275,634,264,543,249,451,240,295,237,296,231,451,235,544,243,635,258,671,270"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a442dc0e749983a027216d0ae714d599e" title="Derivative of the primal equations wrt nut." alt="" coords="472,274,547,299"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="669,289,547,289,547,284,669,284"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#aac55f4d0b421f412118e7e949030c795" title="Source to kaEqn from the differentiation of CDkOmega." alt="" coords="122,448,334,474"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="706,313,704,359,695,414,687,442,674,469,658,494,636,514,613,529,587,540,534,551,478,551,423,542,370,527,322,510,251,476,253,471,324,505,371,522,424,537,479,546,533,546,586,535,610,524,633,510,654,490,670,467,682,440,690,413,699,358,701,313"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a9d943d3eb34fdddb2c7df0a463bfb9f8" title="Non&#45;conservative part of the terms added to the mean flow equations." alt="" coords="384,375,635,400"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="687,312,664,336,636,358,588,377,586,372,633,353,661,332,683,308"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a5b53f360232042bc4ea4bafe235589cb" title="Nullify all adjoint turbulence model fields and their old times." alt="" coords="478,424,541,450"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="698,313,677,366,659,393,636,415,613,428,588,436,541,441,541,436,587,430,611,423,633,411,655,389,672,363,693,311"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#ae3fcca347c89bb4d168d4d152e034ecd" title="Term contributing to the computation of topology optimisation sensitivities." alt="" coords="430,474,589,499"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="702,314,697,348,685,389,666,430,636,464,614,478,590,486,588,481,612,473,633,460,661,427,680,387,691,347,697,313"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1incompressibleAdjoint_1_1adjointRASModels_1_1adjointkOmegaSST.html#a42777234f20f4bcaa23a4c9b90a7dd19" title="Source to waEqn from the differentiation of CDkOmega." alt="" coords="120,22,336,47"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="700,260,698,217,688,164,668,111,653,88,633,69,592,43,547,25,500,14,451,10,358,13,282,24,281,19,358,7,451,4,501,9,549,20,595,38,636,64,657,85,673,109,693,163,703,216,705,260"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,323,72,298,73,293,167,318"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="461,196,296,226,295,221,460,191"/>
+<area shape="poly" id="edge8_Node000010_Node000002" title=" " alt="" coords="458,298,300,327,299,322,458,293"/>
+<area shape="poly" id="edge9_Node000010_Node000003" title=" " alt="" coords="458,289,72,289,72,284,458,284"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="458,280,295,250,296,245,459,275"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="201,441,118,364,52,301,55,297,122,360,204,437"/>
+<area shape="poly" id="edge18_Node000015_Node000003" title=" " alt="" coords="140,55,122,68,101,92,84,119,61,178,48,234,43,274,38,273,43,233,56,177,79,117,97,89,118,64,137,51"/>
+</map>

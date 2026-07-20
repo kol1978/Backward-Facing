@@ -1,0 +1,26 @@
+<map id="exchangeMasks" name="exchangeMasks">
+<area shape="rect" id="Node000001" title="Synchronize send/recv mask buffers as a &#39;copy&#39; operation." alt="" coords="5,229,132,255"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="243,5,343,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,228,82,191,103,140,134,86,155,61,178,40,203,27,229,19,230,24,205,32,182,44,159,65,139,89,107,142,87,193,76,230"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1mapDistributeBase.html#abe3e9297d601d8a0370f2da7ee2935dc" title="The communicator used." alt="" coords="262,55,325,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="73,228,87,199,110,161,141,122,179,89,213,74,247,67,249,72,214,79,181,94,144,125,114,164,92,201,78,230"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#afe2beaae9117fa39b1b8ca7fcdc1bd91" title="Rank of this process in the communicator (starting from masterNo()). Negative if the process is not a..." alt="" coords="191,104,396,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="78,227,119,183,147,159,179,138,194,131,197,136,181,143,150,163,122,187,82,231"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#a8de8462ce826fdb859683978aa361216" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="203,153,384,179"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="99,227,179,195,229,180,231,185,181,201,101,232"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="455,179,605,204"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="132,232,440,198,441,204,133,238"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a1e96cf32256feb7e8a1808a973a3e9a0" title="Number of outstanding requests (on the internal list of requests)" alt="" coords="190,255,397,280"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="133,246,177,251,176,257,132,252"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="201,304,385,329"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="96,252,181,289,213,298,212,303,179,294,94,257"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UIPstream.html#a00ac8647e5edfdd172c29fabef24b538" title="Receive buffer contents (contiguous types) from given processor." alt="" coords="208,353,379,379"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="82,253,123,296,151,319,181,338,200,347,198,352,179,343,147,323,119,299,78,257"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#acd6ccb9cf5a7b0742fda41bf9a0deee6" title="Wait for all requests to finish." alt="" coords="180,427,407,452"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="79,253,117,317,147,354,182,388,209,406,238,419,236,424,206,410,178,392,143,358,113,320,74,256"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UOPstream.html#a046e912cabb6848eba72c7ecd66897ec" title="Write buffer contents (contiguous types only) to given processor." alt="" coords="203,476,384,501"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="75,254,85,295,105,351,137,411,157,438,182,461,192,468,189,473,178,465,153,442,132,414,100,354,80,297,70,256"/>
+<area shape="poly" id="edge5_Node000006_Node000007" title=" " alt="" coords="384,173,441,179,441,185,384,178"/>
+<area shape="poly" id="edge6_Node000007_Node000007" title=" " alt="" coords="492,180,484,170,488,160,504,154,530,152,563,156,576,165,572,170,561,161,530,157,505,159,491,164,489,170,496,177"/>
+<area shape="poly" id="edge12_Node000011_Node000011" title=" " alt="" coords="257,428,249,418,253,408,268,402,293,400,325,404,337,413,334,417,323,409,293,405,269,407,257,412,254,418,261,425"/>
+</map>

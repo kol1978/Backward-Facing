@@ -1,0 +1,25 @@
+var classFoam_1_1ISpanStream =
+[
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#a8f6be07e050db69b730fe2f8250a8191", null ],
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#ab0f5729aea999610d2757f7fe5a5b87b", null ],
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#a169b87ad8553c74d46cb99e1281cbf90", null ],
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#a11f201b7ea6bf6f8079606797e2f814e", null ],
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#a9f994be85b307aeed66ab73642fbcbe0", null ],
+    [ "ISpanStream", "classFoam_1_1ISpanStream.html#a8e2b00292f68968ddf7ceba357f93ba1", null ],
+    [ "tellg", "classFoam_1_1ISpanStream.html#a244d6b2ad7a5291c7109d59009b3f9d8", null ],
+    [ "input_pos", "classFoam_1_1ISpanStream.html#abfaeaf9b89e2809d013e2b6ad0e70726", null ],
+    [ "size", "classFoam_1_1ISpanStream.html#a9facbf0a118d395c89884e45a5ca4e4b", null ],
+    [ "capacity", "classFoam_1_1ISpanStream.html#a44981822d0b15aac1f6b3a4ba44d17a7", null ],
+    [ "remaining", "classFoam_1_1ISpanStream.html#a215ccc2f55e53d82c66d9b501e8dcf39", null ],
+    [ "view", "classFoam_1_1ISpanStream.html#aa20dce2ddc0ff82a9cb2c4c39a6f328c", null ],
+    [ "view", "classFoam_1_1ISpanStream.html#a6354001d4f43224bc305178ca1526d4b", null ],
+    [ "list", "classFoam_1_1ISpanStream.html#a6ecd06a8e5af225ea1336275abfbb39e", null ],
+    [ "str", "classFoam_1_1ISpanStream.html#a791b263e208e61962a0ac33014d39bb6", null ],
+    [ "reset", "classFoam_1_1ISpanStream.html#adb60d6369783ab4983e8a68e0f769223", null ],
+    [ "reset", "classFoam_1_1ISpanStream.html#a0fbf4e9becf0b8ba17399512a636a089", null ],
+    [ "reset", "classFoam_1_1ISpanStream.html#ae32512f207b8c36344247b7c33ac21fc", null ],
+    [ "rewind", "classFoam_1_1ISpanStream.html#abd300d3f6fb3fb25e1ab863434e34a3a", null ],
+    [ "seek", "classFoam_1_1ISpanStream.html#a8c1a4a389b044b2cfd54578e2cf55405", null ],
+    [ "print", "classFoam_1_1ISpanStream.html#ac3ed2cbdf0134219b71760cc82fbf5fe", null ],
+    [ "operator()", "classFoam_1_1ISpanStream.html#a276e3a92206dae9e2bd4d9f003ae3e76", null ]
+];

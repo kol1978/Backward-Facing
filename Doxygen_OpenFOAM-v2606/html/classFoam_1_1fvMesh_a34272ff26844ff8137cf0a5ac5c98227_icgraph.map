@@ -1,0 +1,21 @@
+<map id="lduAddr" name="lduAddr">
+<area shape="rect" id="Node000001" title="Return ldu addressing." alt="" coords="321,269,393,294"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1MGridGenGAMGAgglomeration.html#a58a6d81e665e5ef71ae1eb965de92ca4" title="Agglomerate from a starting level. Starting level is usually 0 (initial mesh) but sometimes &gt;0 (resta..." alt="" coords="5,5,273,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="351,255,345,212,332,159,308,105,291,81,272,59,255,48,258,43,275,55,296,77,312,102,337,157,350,211,357,255"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1processorColour.html#aa29a10eb956fe5d4f5f9802b07e57dbc" title="Calculate (locally) per cell colour according to walking from global patches. Returns number of colou..." alt="" coords="54,69,225,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="347,256,337,225,322,189,300,153,272,123,249,110,224,101,226,96,251,105,275,119,305,150,327,187,342,224,352,255"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1lduPrimitiveMesh.html#a6a4be28680202058735c4aa4ecf78d3e" title="Gather meshes from other processors using agglomComm." alt="" coords="49,133,229,173"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="339,258,311,221,292,203,272,188,228,169,230,164,275,183,296,199,315,218,343,255"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1GAMGProcAgglomeration.html#a59b7daeb97bb6479a59cdeacff965dc5" title="Debug: calculate global cell&#45;cells." alt="" coords="24,197,255,237"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="312,266,273,252,230,240,232,235,274,247,314,261"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1lduPrimitiveMesh.html#a2961e325df1c17c3e58594fb1a57b963" title="Calculate global cell&#45;cells." alt="" coords="49,261,229,301"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="307,284,230,284,230,279,307,279"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1fvMesh.html#a9ce2366dbc848fdd1117bb8e5bba84b6" title="Internal face neighbour." alt="" coords="96,326,183,351"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="315,302,274,316,184,335,182,330,273,311,314,297"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fvMesh.html#a7e28acdb8ccf45d8b75b1e7cda9c1685" title="Internal face owner. Note bypassing virtual mechanism so." alt="" coords="108,375,171,401"/>
+<area shape="poly" id="edge7_Node000001_Node000020" title=" " alt="" coords="341,307,312,337,275,365,248,376,221,383,171,390,170,385,220,378,247,371,272,360,309,334,337,303"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1lduMatrix.html#afc4b5ff9ffc952ff96e5b9769e458fd8" title="Update interfaced interfaces for matrix operations." alt="" coords="28,425,251,465"/>
+<area shape="poly" id="edge8_Node000001_Node000021" title=" " alt="" coords="349,308,322,362,301,390,275,414,252,428,249,423,272,410,297,387,317,359,344,305"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1processorColour.html#a9b97b8747ed53665d258733be5623842" title=" " alt="" coords="54,489,225,529"/>
+<area shape="poly" id="edge9_Node000001_Node000026" title=" " alt="" coords="355,308,347,347,332,393,309,440,293,461,275,479,252,494,226,504,224,499,249,490,272,475,289,457,304,437,327,391,342,345,350,307"/>
+</map>

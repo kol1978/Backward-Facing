@@ -1,0 +1,15 @@
+<map id="edgeVertex" name="edgeVertex">
+<area shape="rect" id="Node000001" title="Combines edge or vertex in single label. Used to specify cuts across cell circumference." alt="" coords="325,5,421,31"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cellCuts.html" title="Description of cuts across cells." alt="" coords="5,79,80,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,35,93,81,81,84,80,79,91,76,311,29"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1cellLooper.html" title="Abstract base class. Concrete implementations know how to cut a cell (i.e. determine a loop around th..." alt="" coords="105,79,194,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="325,37,186,81,185,76,324,32"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1meshCutAndRemove.html" title="Like meshCutter but also removes non&#45;anchor side of cell." alt="" coords="218,79,377,104"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="353,42,312,80,308,76,349,38"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshCutter.html" title="Cuts (splits) cells." alt="" coords="401,79,500,104"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="398,38,440,76,436,80,394,42"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1refinementIterator.html" title="Utility class to do iterating meshCutter until all requests satisfied." alt="" coords="524,79,665,104"/>
+<area shape="poly" id="edge5_Node000001_Node000010" title=" " alt="" coords="422,32,560,76,558,81,421,37"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1wallLayerCells.html" title="After construction is a list of &lt;refineCell&gt; of cells within a certain distance to the wall and with ..." alt="" coords="689,79,807,104"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="436,28,689,76,688,81,435,34"/>
+</map>
