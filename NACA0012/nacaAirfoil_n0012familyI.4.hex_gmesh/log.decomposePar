@@ -1,0 +1,205 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : decomposePar -force
+Date   : Jul 21 2026
+Time   : 22:35:13
+Host   : "kol-serv"
+PID    : 80057
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/NACA0012/nacaAirfoil_n0012familyI.4.hex_gmesh
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Removing 0 existing processor directories
+
+Calculating distribution of cells
+
+
+Selecting decomposer scotch
+
+Finished decomposition in 0.292217 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 23139
+    Number of faces shared with processor 1 = 202
+    Number of faces shared with processor 2 = 177
+    Number of faces shared with processor 7 = 220
+    Number of processor patches = 3
+    Number of processor faces = 599
+    Number of boundary faces = 46385
+
+Processor 1
+    Number of cells = 22938
+    Number of faces shared with processor 0 = 202
+    Number of faces shared with processor 2 = 114
+    Number of processor patches = 2
+    Number of processor faces = 316
+    Number of boundary faces = 46192
+
+Processor 2
+    Number of cells = 22986
+    Number of faces shared with processor 0 = 177
+    Number of faces shared with processor 1 = 114
+    Number of faces shared with processor 3 = 121
+    Number of faces shared with processor 4 = 140
+    Number of processor patches = 4
+    Number of processor faces = 552
+    Number of boundary faces = 46152
+
+Processor 3
+    Number of cells = 23144
+    Number of faces shared with processor 2 = 121
+    Number of faces shared with processor 4 = 214
+    Number of faces shared with processor 5 = 122
+    Number of processor patches = 3
+    Number of processor faces = 457
+    Number of boundary faces = 46463
+
+Processor 4
+    Number of cells = 22848
+    Number of faces shared with processor 2 = 140
+    Number of faces shared with processor 3 = 214
+    Number of faces shared with processor 5 = 17
+    Number of faces shared with processor 6 = 123
+    Number of processor patches = 4
+    Number of processor faces = 494
+    Number of boundary faces = 45878
+
+Processor 5
+    Number of cells = 22956
+    Number of faces shared with processor 3 = 122
+    Number of faces shared with processor 4 = 17
+    Number of faces shared with processor 6 = 217
+    Number of faces shared with processor 8 = 140
+    Number of processor patches = 4
+    Number of processor faces = 496
+    Number of boundary faces = 46096
+
+Processor 6
+    Number of cells = 22845
+    Number of faces shared with processor 4 = 123
+    Number of faces shared with processor 5 = 217
+    Number of faces shared with processor 7 = 99
+    Number of faces shared with processor 8 = 33
+    Number of processor patches = 4
+    Number of processor faces = 472
+    Number of boundary faces = 45860
+
+Processor 7
+    Number of cells = 22871
+    Number of faces shared with processor 0 = 220
+    Number of faces shared with processor 6 = 99
+    Number of faces shared with processor 8 = 142
+    Number of faces shared with processor 9 = 139
+    Number of processor patches = 4
+    Number of processor faces = 600
+    Number of boundary faces = 45906
+
+Processor 8
+    Number of cells = 22771
+    Number of faces shared with processor 5 = 140
+    Number of faces shared with processor 6 = 33
+    Number of faces shared with processor 7 = 142
+    Number of faces shared with processor 9 = 178
+    Number of processor patches = 4
+    Number of processor faces = 493
+    Number of boundary faces = 45675
+
+Processor 9
+    Number of cells = 22878
+    Number of faces shared with processor 7 = 139
+    Number of faces shared with processor 8 = 178
+    Number of processor patches = 2
+    Number of processor faces = 317
+    Number of boundary faces = 46065
+
+Number of processor faces = 2398
+Max number of cells = 23144 (0.899833% above average 22937.6)
+Max number of processor patches = 4 (17.6471% above average 3.4)
+Max number of faces between processors = 600 (25.1043% above average 479.6)
+
+Time = 0s
+
+Decomposing FV fields
+
+    Decomposing volScalarFields
+
+        alphat
+        p
+        nut
+        T
+        k
+        epsilon
+
+    Decomposing volVectorFields
+
+        U
+Creating new library in "dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/platforms/linux64GccDPInt64Opt/lib/libcodeStream_b5efd560b2ceecc20b61f872706c4b2b70629a17.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/kol-12/Backward-Facing_github/NACA0012/nacaAirfoil_n0012familyI.4.hex_gmesh/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/kol-12/Backward-Facing_github/NACA0012/nacaAirfoil_n0012familyI.4.hex_gmesh/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/kol-12/Backward-Facing_github/NACA0012/nacaAirfoil_n0012familyI.4.hex_gmesh/dynamicCode/_b5efd560b2ceecc20b61f872706c4b2b70629a17/../platforms/linux64GccDPInt64Opt/lib/libcodeStream_b5efd560b2ceecc20b61f872706c4b2b70629a17.so
+
+
+--> FOAM FATAL ERROR: 
+Unknown functionEntry #calcInclude
+
+Valid functions are : 
+
+24
+(
+#codeBlock
+#codeBlockDict
+#codeBlockStream
+#codeDict
+#codeInclude
+#codeStream
+#dump
+#elif
+#else
+#endCodeBlock
+#endif
+#exit
+#if
+#ifeq
+#include
+#includeConstraint
+#includeEtc
+#includeFunc
+#includeIfPresent
+#includeModel
+#inputMode
+#print
+#remove
+#stream
+)
+
+
+    From function static Foam::autoPtr<Foam::functionEntry> Foam::functionEntry::New(const Foam::keyType&, const Foam::dictionary&, Foam::Istream&)
+    in file db/dictionary/functionEntries/functionEntry/functionEntry.C at line 490.
+
+FOAM exiting
+
