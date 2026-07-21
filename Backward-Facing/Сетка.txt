@@ -1,0 +1,69 @@
+Mesh stats
+    points:           612120
+    faces:            1520427
+    internal faces:   1208733
+    cells:            454860
+    faces per cell:   6
+    boundary patches: 5
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     454860
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+ ***Total number of faces on empty patches is not divisible by the number of cells in the mesh. Hence this mesh is not 1D or 2D.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology
+    inlet               306      412      ok (non-closed singly connected)
+    outlet              387      520      ok (non-closed singly connected)
+    upperWall           3840     5124     ok (non-closed singly connected)
+    lowerWall           3921     5232     ok (non-closed singly connected)
+    frontAndBack        303240   306060   ok (non-closed singly connected)
+
+Checking geometry...
+    Overall domain bounding box (-0.50000000000000022204 -0.012700000000000002953 -0.076200000000000031597) (0.50000000000000011102 0.10160000000000002363 0.076200000000000031597)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+    Max cell openness = 4.0174853037977503293e-16 OK.
+    Max aspect ratio = 11.727731821469669526 OK.
+    Minimum face area = 4.1553430760416509183e-08. Maximum face area = 0.00013550671261032434627.  Face area magnitudes OK.
+    Min volume = 2.1109142826291581556e-09. Max volume = 1.8783723936309680271e-07.  Total volume = 0.016451580000001145287.  Cell volumes OK.
+    Mesh non-orthogonality Max: 13.716210641200108356 average: 3.0937740262182438222
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.064168964864880675969 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+======================================================Разбор ключевых метрик
+Bounding box: задаёт габариты расчётной области. Дробные значения — это обычный эффект машинной точности (IEEE‑754), на качество не влияет.
+2 geometric (non-empty/wedge) directions (1 1 0) и 2 solution directions (1 1 0): сетка двумерная в 3D‑объёме (по сути, 2D‑задача с одной ячейкой по Z). Это нормально для плоских задач и клиновидных сечений. OpenFOAM это корректно обрабатывает.
+All edges aligned with or perpendicular to non-empty directions: рёбра ячеек строго выровнены по осям, нет «косых» смещений — это плюс для точности и устойчивости.
+Max cell openness = 4.02e‑16: фактически ноль. Openness — мера того, насколько многоугольник/многогранник замыкается. Значение ~1e‑16 — это предел машинной точности, значит, топология ячеек корректна.
+Max aspect ratio = 11.73: максимальный коэффициент вытянутости ячейки ≈ 11.7. Для большинства задач (включая RANS/LES в OpenFOAM) это вполне допустимо (часто считают приемлемым до 20–30, а в пограничных слоях и больше). Если у тебя нет сверхжёстких требований к точности в узких зонах, всё в порядке.
+Face area magnitudes OK / Cell volumes OK: разброс площадей граней и объёмов ячеек не экстремальный. Минимальный объём 2.11e‑09 и максимальный 1.88e‑07 отличаются примерно в 90 раз — для равномерной/слабо неравномерной сетки это нормально.
+Non-orthogonality Max: 13.7°, average: 3.1°: максимальный угол неортогональности 13.7° — это отличный показатель. В OpenFOAM обычно считают:
+< 15° — хорошо, стандартные схемы работают без проблем;
+15–45° — нужно следить за коррекциями неортогональности в fvSchemes;
+ 45° — риск неустойчивости и потери точности.
+У тебя сетка почти ортогональна — можно смело использовать стандартные настройки.
+
+Max skewness = 0.064: максимальная скошенность (skewness) всего 0.064 — это очень мало. Обычно допустимым считают до 3–4, а хорошим — до 1. Значит, ячейки близки к правильным четырёхугольникам/кубам, без сильных искажений.
+Coupled point location match (average 0) OK: совпадение узлов на интерфейсах (например, на циклических границах) идеальное — нет зазоров и перекрытий.
+
