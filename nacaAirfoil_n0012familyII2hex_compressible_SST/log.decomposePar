@@ -1,0 +1,160 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : decomposePar -force
+Date   : Jul 21 2026
+Time   : 13:39:38
+Host   : "kol-serv"
+PID    : 35307
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil_n0012familyII2hex_compressible_SST
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Removing 0 existing processor directories
+
+Calculating distribution of cells
+
+
+Selecting decomposer scotch
+
+Finished decomposition in 5.70188 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 367654
+    Number of faces shared with processor 1 = 1180
+    Number of faces shared with processor 2 = 1187
+    Number of processor patches = 2
+    Number of processor faces = 2367
+    Number of boundary faces = 735985
+
+Processor 1
+    Number of cells = 367578
+    Number of faces shared with processor 0 = 1180
+    Number of faces shared with processor 8 = 950
+    Number of faces shared with processor 9 = 215
+    Number of processor patches = 3
+    Number of processor faces = 2345
+    Number of boundary faces = 735927
+
+Processor 2
+    Number of cells = 366954
+    Number of faces shared with processor 0 = 1187
+    Number of faces shared with processor 3 = 698
+    Number of faces shared with processor 4 = 387
+    Number of processor patches = 3
+    Number of processor faces = 2272
+    Number of boundary faces = 734620
+
+Processor 3
+    Number of cells = 365774
+    Number of faces shared with processor 2 = 698
+    Number of faces shared with processor 4 = 912
+    Number of faces shared with processor 5 = 485
+    Number of processor patches = 3
+    Number of processor faces = 2095
+    Number of boundary faces = 732239
+
+Processor 4
+    Number of cells = 366136
+    Number of faces shared with processor 2 = 387
+    Number of faces shared with processor 3 = 912
+    Number of faces shared with processor 5 = 662
+    Number of processor patches = 3
+    Number of processor faces = 1961
+    Number of boundary faces = 733031
+
+Processor 5
+    Number of cells = 368161
+    Number of faces shared with processor 3 = 485
+    Number of faces shared with processor 4 = 662
+    Number of faces shared with processor 6 = 889
+    Number of faces shared with processor 8 = 382
+    Number of processor patches = 4
+    Number of processor faces = 2418
+    Number of boundary faces = 737014
+
+Processor 6
+    Number of cells = 367452
+    Number of faces shared with processor 5 = 889
+    Number of faces shared with processor 7 = 826
+    Number of faces shared with processor 8 = 347
+    Number of processor patches = 3
+    Number of processor faces = 2062
+    Number of boundary faces = 735804
+
+Processor 7
+    Number of cells = 366866
+    Number of faces shared with processor 6 = 826
+    Number of faces shared with processor 8 = 646
+    Number of faces shared with processor 9 = 573
+    Number of processor patches = 3
+    Number of processor faces = 2045
+    Number of boundary faces = 734915
+
+Processor 8
+    Number of cells = 366963
+    Number of faces shared with processor 1 = 950
+    Number of faces shared with processor 5 = 382
+    Number of faces shared with processor 6 = 347
+    Number of faces shared with processor 7 = 646
+    Number of faces shared with processor 9 = 886
+    Number of processor patches = 5
+    Number of processor faces = 3211
+    Number of boundary faces = 733993
+
+Processor 9
+    Number of cells = 366478
+    Number of faces shared with processor 1 = 215
+    Number of faces shared with processor 7 = 573
+    Number of faces shared with processor 8 = 886
+    Number of processor patches = 3
+    Number of processor faces = 1674
+    Number of boundary faces = 734184
+
+Number of processor faces = 11225
+Max number of cells = 368161 (0.315911% above average 367002)
+Max number of processor patches = 5 (56.25% above average 3.2)
+Max number of faces between processors = 3211 (43.029% above average 2245)
+
+Time = 0s
+
+Decomposing FV fields
+
+    Decomposing volScalarFields
+
+        alphat
+
+
+--> FOAM FATAL IO ERROR: 
+
+    patch type 'patch' not constraint type 'empty'
+    for patch front of field alphat in file "/home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil_n0012familyII2hex_compressible_SST/0/alphat"
+
+file: /home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil_n0012familyII2hex_compressible_SST/0/alphat!boundaryField/front from line 38 to 40.
+
+    From function Foam::emptyFvPatchField<Type>::emptyFvPatchField(const Foam::fvPatch&, const Foam::DimensionedField<Type, Foam::fvMesh>&, const Foam::dictionary&) [with Type = double]
+    in file fields/fvPatchFields/constraint/empty/emptyFvPatchField.C at line 54.
+
+FOAM exiting
+
