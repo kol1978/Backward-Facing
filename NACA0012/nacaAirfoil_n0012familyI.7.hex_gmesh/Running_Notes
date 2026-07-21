@@ -1,0 +1,136 @@
+
+Шаг интегрирования по времени определяет, насколько быстро система может изменяться во времени. Его выбор критически важен для обеспечения условной устойчивости разностного алгоритма. Часто шаг интегрирования выбирают в виде Δ t = τ / 2, где τ — некая величина, обеспечивающая устойчивость. Если шаг интегрирования будет слишком большим, слагаемые, пропорциональные τ (регуляризаторы), могут начать доминировать, что приведёт к нестабильности численного решения.
+elizarova.imamod.ru
+keldysh.ru
+Размер сетки (размер ячеек) влияет на разрешение расчётной области и точность моделирования. Чем меньше размер ячеек, тем больше ячеек требуется для покрытия той же области, что увеличивает объём вычислений. При этом размер ячеек должен быть достаточным для корректного описания физических процессов, которые моделируются. Например, в областях с резкими изменениями поля (например, вблизи стенок или в зонах турбулентности) требуется более мелкая сетка.
+Некоторые аспекты связи между этими параметрами:
+Условие устойчивости. Шаг интегрирования определяется характеристиками системы (например, скоростью изменения полей, жёсткостью сетки), а размер ячеек — геометрией задачи и требованиями к детализации.
+Требования к точности. Для обеспечения требуемой точности решения может потребоваться адаптация шага интегрирования под размер сетки. Например, при слишком большом шаге интегрирования даже при мелкой сетке решение может стать неустойчивым.
+Вычислительные затраты. Увеличение размера сетки (и, соответственно, количества ячеек) увеличивает объём вычислений, что может потребовать больше времени на решение задачи.
+При настройке расчёта в OpenFOAM важно находить баланс между этими параметрами, учитывая специфику задачи, требуемую точность и доступные вычислительные ресурсы.
+
+deltaT 2e-09; для nacaAirfoil_n0012familyI.7.hex
+
+========================================
+nacaAirfoil
+~~~~~~~~~~~
+* большая область с аэродинамическим профилем в центральной части
+* крайне неортогональная, сильно перекошенная сетка, уточненная вокруг аэродинамического профиля
+* скорость 1,78 Маха
+* ограниченная поправка 0,5 для всех схем Лапласа из-за низкого качества сетки
+* запуск до t = 0,02 с функцией nextWrite; для продолжения запуска измените на stopAt endTime
+* значение deltaT можно увеличить до 2e-07 в конце запуска
+-----------
+Limited corrected 0.5 на всех laplacianSchemes — это настройка численных схем для аппроксимации оператора Лапласа (диффузионных слагаемых) в вычислительных гидродинамических (CFD) программах, например в OpenFOAM
+Суть настройки:
+Limited — схема с ограниченным неортогональным коррекцией. Используется для стабилизации решения при сильной неортогональности сетки, которая может привести к нестабильности.
+Corrected — схема с явной коррекцией неортогональности для сохранения второго порядка точности.
+0.5 — значение коэффициента, который контролирует баланс между точностью и стабильностью. При таком значении неортогональная коррекция не превышает ортогональную часть, что обеспечивает баланс между точностью и устойчивостью решения.
+
+------limited corrected 0,5
+Где используется:
+В файле system/fvSchemes в блоке laplacianSchemes задаются схемы аппроксимации для всех лапласианских членов.
+
+Например, в некоторых исследованиях или учебных материалах упоминается использование Gauss linear limited corrected 0.5
+-------------------------------------------------
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-0b487fc98b88
+Exec   : checkMesh -allTopology
+Date   : May 18 2026
+Time   : 09:37:41
+Host   : "kol-serv"
+PID    : 5133
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/naca0012numerics-grids/nacaAirfoil_n0012familyI.7.hex_gmesh
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Enabling all (cell, face, edge, point) topology checks.
+
+Time = 0s
+
+Mesh stats
+    points:           7408
+    internal points:  0
+    edges:            18280
+    internal edges:   3464
+    internal edges using one boundary point:   0
+    internal edges using two boundary points:  3464
+    faces:            14456
+    internal faces:   7048
+    cells:            3584
+    faces per cell:   6
+    boundary patches: 6
+    point zones:      0
+    face zones:       1
+    cell zones:       1
+
+Overall number of cells of each type:
+    hexahedra:     3584
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Topological cell zip-up check OK.
+    Face-face connectivity OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology
+    QUAD_bdy____1       3584     3704     ok (non-closed singly connected)
+    QUAD_bdy____2       3584     3704     ok (non-closed singly connected)
+    QUAD_bdy____3       32       66       ok (non-closed singly connected)
+    QUAD_bdy____4       32       66       ok (non-closed singly connected)
+    QUAD_bdy____5       64       128      ok (non-closed singly connected)
+    QUAD_bdy____6       112      226      ok (non-closed singly connected)
+
+Checking geometry...
+    Overall domain bounding box (-498.667 -1 -515.743) (501 0 515.743)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 0 1)
+    Mesh has 2 solution (non-empty) directions (1 0 1)
+    All edges aligned with or perpendicular to non-empty directions.
+ ***High aspect ratio cells found, Max aspect ratio: 2.03727e+07, number of cells 454
+    Minimum face area = 2.7419e-08. Maximum face area = 36012.8.  Face area magnitudes OK.
+    Min volume = 2.7419e-08. Max volume = 36012.8.  Total volume = 897151.  Cell volumes OK.
+    Mesh non-orthogonality Max: 85.6345 average: 15.0584
+   *Number of severely non-orthogonal (> 70 degrees) faces: 166.
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.578745 OK.
+    Coupled point location match (average 0) OK.
+
+Failed 1 mesh checks.
+
+End
+
+=====================================================================
+nacaAirfoil
+~~~~~~~~~~~
+* large domain with airfoil section near centre
+* extremely non-orthogonal, highly skew mesh refined around the airfoil
+* running at Mach 1.78
+* limited corrected 0.5 on all laplacianSchemes because the mesh is so poor
+* run to t = 0.02 with nextWrite; change to stopAt endTime to continue running
+* deltaT can be increased later in the run to 2e-07
