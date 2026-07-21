@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : decomposePar -force
+Date   : Jul 21 2026
+Time   : 12:34:48
+Host   : "kol-serv"
+PID    : 26957
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/n0012familyII2hex_compressible_SST
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+--> FOAM FATAL ERROR: 
+Unknown functionEntry #calcInclude
+
+Valid functions are : 
+
+24
+(
+#codeBlock
+#codeBlockDict
+#codeBlockStream
+#codeDict
+#codeInclude
+#codeStream
+#dump
+#elif
+#else
+#endCodeBlock
+#endif
+#exit
+#if
+#ifeq
+#include
+#includeConstraint
+#includeEtc
+#includeFunc
+#includeIfPresent
+#includeModel
+#inputMode
+#print
+#remove
+#stream
+)
+
+
+    From function static Foam::autoPtr<Foam::functionEntry> Foam::functionEntry::New(const Foam::keyType&, const Foam::dictionary&, Foam::Istream&)
+    in file db/dictionary/functionEntries/functionEntry/functionEntry.C at line 490.
+
+FOAM exiting
+
