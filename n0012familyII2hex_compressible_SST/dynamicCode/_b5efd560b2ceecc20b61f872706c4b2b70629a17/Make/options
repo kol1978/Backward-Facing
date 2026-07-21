@@ -1,9 +1,0 @@
-
-EXE_INC = -g \
-    -fno-show-column -fno-diagnostics-show-caret \
-
-
-
-LIB_LIBS = \
-    -lOpenFOAM \
-
