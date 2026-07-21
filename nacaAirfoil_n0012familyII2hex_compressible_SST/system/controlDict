@@ -24,19 +24,19 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         0.01;
+endTime         0.001;
 
-deltaT          4e-08;
+deltaT          4e-030;
 
 writeControl    runTime;
 
-writeInterval   2e-04;
+writeInterval   2e-05;
 
 purgeWrite      0;
 
 writeFormat     ascii;
 
-writePrecision  6;
+writePrecision  20;
 
 writeCompression off;
 

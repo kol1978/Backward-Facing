@@ -8,9 +8,9 @@
 Build  : 14-0db507470b5e
 Exec   : decomposePar -force
 Date   : Jul 21 2026
-Time   : 14:31:03
+Time   : 14:40:35
 Host   : "kol-serv"
-PID    : 41643
+PID    : 42635
 I/O    : uncollated
 Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil_n0012familyII2hex_compressible_SST
 nProcs : 1
@@ -21,14 +21,14 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-Removing 0 existing processor directories
+Removing 10 existing processor directories
 
 Calculating distribution of cells
 
 
 Selecting decomposer scotch
 
-Finished decomposition in 5.86352 s
+Finished decomposition in 5.8208820000000001116 s
 
 Calculating original mesh data
 
@@ -133,9 +133,9 @@ Processor 9
     Number of boundary faces = 734184
 
 Number of processor faces = 11225
-Max number of cells = 368161 (0.315911% above average 367002)
-Max number of processor patches = 5 (56.25% above average 3.2)
-Max number of faces between processors = 3211 (43.029% above average 2245)
+Max number of cells = 368161 (0.31591142926897958221% above average 367001.59999999997672)
+Max number of processor patches = 5 (56.249999999999985789% above average 3.2000000000000001776)
+Max number of faces between processors = 3211 (43.028953229398666736% above average 2245)
 
 Time = 0s
 
