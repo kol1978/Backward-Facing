@@ -80,7 +80,7 @@ boundaryField
     {
         type            noSlip;
     }
-
+//для включения  type freestreamVelocity;
     #includeEtc "caseDicts/setConstraintTypes"
 }
 
