@@ -24,9 +24,9 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         0.01;
+endTime         0.001;
 
-deltaT          4e-09;
+deltaT          4e-30;
 
 writeControl    runTime;
 
@@ -45,5 +45,9 @@ timeFormat      general;
 timePrecision   6;
 
 runTimeModifiable true;
+//CFMesh (часто даёт сильно неоднородную/вытянутую сетку)  --- ВКЛЮЧЕНИЕ КОНТРОЛЯ ПО COURANT ---
+adjustTimeStep    yes;
+maxCo             1.0;
+maxDeltaT         1e-3;
 
 // ************************************************************************* //
