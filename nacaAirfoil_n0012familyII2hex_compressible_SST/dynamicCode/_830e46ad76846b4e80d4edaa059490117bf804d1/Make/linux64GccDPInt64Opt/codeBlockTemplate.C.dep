@@ -1,11 +1,12 @@
-$(OBJECTS_DIR)/codeStreamTemplate.C.dep: \
-codeStreamTemplate.C \
+$(OBJECTS_DIR)/codeBlockTemplate.C.dep: \
+codeBlockTemplate.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dictionaryEntry.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/fieldTypes.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Ostream.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Pstream.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/read.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/units.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/transform.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dictionary.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/InfoProxy.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/label.H \
@@ -29,6 +30,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pTraits.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IStringStream.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitSet.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dimensions.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/className.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/entry.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IDLList.H \
@@ -213,6 +215,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Ostream.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Pstream.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/read.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/units.H :
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/transform.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dictionary.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/InfoProxy.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/label.H :
@@ -236,6 +239,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pTraits.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IStringStream.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitSet.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dimensions.H :
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mathematicalConstants.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/className.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/entry.H :
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IDLList.H :

@@ -26,12 +26,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
+#include "dictionaryEntry.H"
 #include "fieldTypes.H"
 #include "Ostream.H"
 #include "Pstream.H"
 #include "read.H"
-#include "unitConversion.H"
+#include "units.H"
 
 //{{{ begin codeInclude
 
@@ -60,7 +60,7 @@ extern "C"
     )
     {
 //{{{ begin code
-        #line 1 ""
+        #line 18 "/home/kol/OpenFOAM/kol-12/Backward-Facing_github/NACA0012/nacaAirfoil_n0012familyI.6.hex_gmesh/0/U_old!"
 os << (-degToRad(dict.lookupScoped<int64_t>("angleOfAttack", true, false)));
 //}}} end code
     }
