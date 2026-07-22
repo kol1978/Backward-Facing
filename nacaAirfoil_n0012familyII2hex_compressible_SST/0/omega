@@ -8,39 +8,44 @@
 FoamFile
 {
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      physicalProperties;
+    class       volScalarField;
+    location    "0";
+    object      omega;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-thermoType
-{
-    type            hePsiThermo;
-    mixture         pureMixture;
-    transport       const;
-    thermo          hConst;
-    equationOfState perfectGas;
-    specie          specie;
-    energy          sensibleInternalEnergy;
-}
+omegaInlet      10;
 
-mixture // air at room temperature (293 K)
+dimensions      [turbulentOmega];
+
+internalField   uniform $omegaInlet;
+
+boundaryField
 {
-    specie
+    inlet
     {
-        molWeight   28.9;
+        type            inletOutlet;
+        inletValue      uniform $omegaInlet;
     }
-    thermodynamics
+
+   outlet1
     {
-        Cp          1005;
-        hf          0;
+        type            inletOutlet;
+        inletValue      uniform $omegaInlet;
     }
-    transport
+   outlet2
     {
-        mu          1.82e-05;
-        Pr          0.71;
+        type            inletOutlet;
+        inletValue      uniform $omegaInlet;
     }
+
+    wall
+    {
+        type            omegaWallFunction;
+        value           uniform $omegaInlet;
+    }
+
+    #includeEtc "caseDicts/setConstraintTypes"
 }
 
 // ************************************************************************* //

@@ -19,56 +19,46 @@ solvers
     p
     {
         solver          GAMG;
-        smoother        GaussSeidel;
-        tolerance       1e-6;
+        smoother        DIC;
+
+        tolerance       1e-8;
         relTol          0.01;
     }
 
-    pFinal
-    {
-        $p;
-        relTol          0;
-    }
-
-    "(rho|U|k|omega|e)"
+    "(U|k|omega|h)"
     {
         solver          PBiCGStab;
         preconditioner  DILU;
-        tolerance       1e-6;
+        tolerance       1e-10;
         relTol          0.1;
-    }
-
-    "(rho|U|k|omega|e)Final"
-    {
-        $U;
-        relTol          0;
     }
 }
 
-SIMPLE
+PIMPLE
 {
     residualControl
     {
-        p               1e-4;
-        U               1e-4;
-        "(k|omega|e)"   1e-4;
+        p               1e-6;
+        U               1e-5;
+        "(k|omega|h)"   1e-5;
     }
 
     nNonOrthogonalCorrectors 0;
 }
 
-PIMPLE
-{
-    nCorrectors              2;
-    nNonOrthogonalCorrectors 1;
-    nOuterCorrectors         1;
-}
-
 relaxationFactors
 {
+    fields
+    {
+        p               0.3;
+        rho             0.01;
+    }
+
     equations
     {
-        ".*"     1;
+        U               0.7;
+        h               0.7;
+        "(k|omega)"     0.7;
     }
 }
 

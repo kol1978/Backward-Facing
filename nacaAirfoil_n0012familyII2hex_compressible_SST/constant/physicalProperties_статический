@@ -9,12 +9,40 @@ FoamFile
 {
     format      ascii;
     class       dictionary;
-    location    "system";
-    object      functions;
+    location    "constant";
+    object      physicalProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#includeFunc MachNo
-#includeFunc residuals
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+mixture // air at room temperature (293 K)
+{
+    specie
+    {
+        molWeight   28.9;
+    }
+
+    thermodynamics
+    {
+        Cp          1005;
+        hf          0;
+    }
+
+    transport
+    {
+        mu          1.82e-05;
+        Pr          0.71;
+    }
+}
 
 // ************************************************************************* //
