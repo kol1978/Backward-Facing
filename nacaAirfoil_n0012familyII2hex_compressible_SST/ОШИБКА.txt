@@ -1,0 +1,110 @@
+ 
+Courant Number mean: 7.1855974277870134157e-06 max: 0.9725886598796364968
+deltaT = 1.657318239399219133e-08
+Time = 5.80058e-07s
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 9.097504615516817638e-11, Final residual = 9.097504615516817638e-11, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1.4307226153391144041e-06, Final residual = 7.3275646591872100061e-10, No Iterations 2
+DILUPBiCGStab:  Solving for e, Initial residual = 1.2064964766523586558e-08, Final residual = 7.2863438177970562581e-10, No Iterations 1
+DILUPBiCGStab:  Solving for p, Initial residual = 6.9587961961175775724e-11, Final residual = 1.209090054022628018e-13, No Iterations 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.8565900207092022591e-15, global = 5.3946471528165581739e-16, cumulative = 1.0296956890231366349e-14
+DILUPBiCGStab:  Solving for p, Initial residual = 3.1654662334531772715e-12, Final residual = 6.5862464926484588931e-14, No Iterations 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.6343546697877054702e-15, global = 4.2160819652998217077e-17, cumulative = 1.0339117709884365103e-14
+DILUPBiCGStab:  Solving for epsilon, Initial residual = 0.50395587502268268665, Final residual = 8.193317222270256402e-11, No Iterations 8
+DILUPBiCGStab:  Solving for k, Initial residual = 5.3308190054683062963e-05, Final residual = 6.0641991584152456492e-11, No Iterations 1
+ExecutionTime = 3379.4866440000000694 s  ClockTime = 3380 s
+
+forceCoeffs forces write:
+    Cm    = 0.0001169920722249910371
+    Cd    = 0.055035430041135008361
+    Cl    = -0.013509410590144203812
+    Cl(f) = -0.006637713222847110503
+    Cl(r) = -0.006871697367297093309
+
+Courant Number mean: 7.3881141626852529994e-06 max: 1.0688008992639614902
+deltaT = 1.5506332756087171876e-08
+Time = 5.95564e-07s
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 2.5708560663218380297e-09, Final residual = 8.6803275327128197867e-10, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1.5618251983488645707e-05, Final residual = 9.5230377000156352834e-10, No Iterations 227
+DILUPBiCGStab:  Solving for e, Initial residual = 1.6902342961665113461e-08, Final residual = 1.0814882531582024265e-11, No Iterations 2
+DILUPBiCGStab:  Solving for p, Initial residual = 7.5950266459603098821e-11, Final residual = 3.3767694377571190139e-13, No Iterations 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.8430247151112168947e-15, global = -5.6837921614557556449e-15, cumulative = 4.6553255484286094578e-15
+DILUPBiCGStab:  Solving for p, Initial residual = 3.1022805698426173274e-11, Final residual = 3.5806180523336955506e-13, No Iterations 1
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.428180695165992399e-15, global = -1.440209706710830049e-16, cumulative = 4.5113045777575261324e-15
+DILUPBiCGStab:  Solving for epsilon, Initial residual = 0.98011864344313537334, Final residual = 9.6830273086986855304e-11, No Iterations 223
+DILUPBiCGStab:  Solving for k, Initial residual = 8.3510908832978496446e-08, Final residual = 4.1794828612567817851e-12, No Iterations 1
+bounding k, min: -1.4902072514391946356 max: 485008.02357549645239 average: 1009.4787796872584522
+ExecutionTime = 3424.9710700000000543 s  ClockTime = 3426 s
+
+forceCoeffs forces write:
+    Cm    = -0.0011426354170232489674
+    Cd    = 0.05426578055005192025
+    Cl    = -0.015329800245436347658
+    Cl(f) = -0.0088075355397414234471
+    Cl(r) = -0.0065222647056949250785
+
+Courant Number mean: 6.9125250423723780111e-06 max: 89.846735322512401467
+deltaT = 1.7258649076592362146e-10
+Time = 5.95736e-07s
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 5.5183560084551265265e-07, Final residual = 7.0465322890848623067e-10, No Iterations 3
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.0010370227965050679217, Final residual = 2.8929626267880788128e-10, No Iterations 9
+DILUPBiCGStab:  Solving for e, Initial residual = 3.6762329972904262134e-06, Final residual = 3.0383844760570475764e-10, No Iterations 15
+[1]
+[1]
+[1] --> FOAM FATAL ERROR:
+[1] Negative initial temperature T0: -836.11886418199583204
+[1]
+[1]     From function static Foam::scalar Foam::species::thermo<Thermo, Type>::T(const ThermoType&, Foam::scalar, Foam::scalar, Foam::scalar, FType, dFdTType, LimitType, bool) [with ThermoType = Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy>; FType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; dFdTType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; LimitType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double) const; Thermo = Foam::hConstThermo<Foam::perfectGas<Foam::specie> >; Type = Foam::sensibleInternalEnergy; Foam::scalar = double]
+[1]     in file /home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/specie/lnInclude/thermoI.H at line 212.
+[1]
+FOAM parallel run aborting
+[1]
+[1] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+[1] #1  Foam::error::abort()[11]
+[11]
+[11] --> FOAM FATAL ERROR:
+[11] Negative initial temperature T0: -331.53750404980542044
+[11]
+[11]     From function static Foam::scalar Foam::species::thermo<Thermo, Type>::T(const ThermoType&, Foam::scalar, Foam::scalar, Foam::scalar, FType, dFdTType, LimitType, bool) [with ThermoType = Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy>; FType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; dFdTType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; LimitType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double) const; Thermo = Foam::hConstThermo<Foam::perfectGas<Foam::specie> >; Type = Foam::sensibleInternalEnergy; Foam::scalar = double]
+[11]     in file /home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/specie/lnInclude/thermoI.H at line 212.
+[11]
+FOAM parallel run aborting
+[11]
+[11] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+[1] #2  ? at ??:?
+[11] #1  Foam::error::abort() at psiThermos.C:?
+[1] #3  Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy> > >, Foam::psiThermo::composite> >::calculate() at ??:?
+[11] #2  ? at ??:?
+[1] #4  virtual thunk to Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy> > >, Foam::psiThermo::composite> >::correct() at psiThermos.C:?
+[11] #3  Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy> > >, Foam::psiThermo::composite> >::calculate() at ??:?
+[1] #5  Foam::solvers::fluid::thermophysicalPredictor() at ??:?
+[1] #6  ? at ??:?
+[11] #4  virtual thunk to Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleInternalEnergy> > >, Foam::psiThermo::composite> >::correct() at ??:?
+[1] #7  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+[1] #8  __libc_start_main at ??:?
+[11] #5  Foam::solvers::fluid::thermophysicalPredictor() at ??:?
+[11] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[1] #9  ?? at ??:?
+ at ??:?
+[11] #7  ?--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ in "/lib/x86_64-linux-gnu/libc.so.6"
+[11] #8  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[11] #9  ? at ??:?
+[kol-serv:69875] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[kol-serv:69875] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
