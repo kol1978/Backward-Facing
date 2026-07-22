@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  14
+    \\  /    A nd           | Version:  12
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -10,16 +10,38 @@ FoamFile
     format      ascii;
     class       dictionary;
     location    "constant";
-    object      momentumTransport;
+    object      physicalProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-simulationType RAS;
-
-RAS
+thermoType
 {
-    model               kOmegaSST;
-    turbulence          on;
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
 }
+
+mixture
+{
+    specie
+    {
+        molWeight       28.9;
+    }
+    thermodynamics
+    {
+        Cp              1005;
+        hf              0;
+    }
+    transport
+    {
+        mu              1.8e-05;
+        Pr              0.7;
+    }
+}
+
 
 // ************************************************************************* //

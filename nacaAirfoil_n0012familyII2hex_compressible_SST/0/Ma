@@ -8,39 +8,47 @@
 FoamFile
 {
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      physicalProperties;
+    class       volScalarField;
+    location    "0";
+    object      Ma;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-thermoType
+dimensions      [];
+
+internalField   uniform 0.57706084;
+
+boundaryField
 {
-    type            hePsiThermo;
-    mixture         pureMixture;
-    transport       const;
-    thermo          hConst;
-    equationOfState perfectGas;
-    specie          specie;
-    energy          sensibleInternalEnergy;
+    walls
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    inlet
+    {
+        type            calculated;
+        value           uniform 0.57706084;
+    }
+    outlet1
+    {
+        type            calculated;
+        value           uniform 0.57706084;
+    }
+    outlet2
+    {
+        type            calculated;
+        value           uniform 0.57706084;
+    }
+    Back
+    {
+        type            empty;
+    }
+    front
+    {
+        type            empty;
+    }
 }
 
-mixture // air at room temperature (293 K)
-{
-    specie
-    {
-        molWeight   28.9;
-    }
-    thermodynamics
-    {
-        Cp          1005;
-        hf          0;
-    }
-    transport
-    {
-        mu          1.82e-05;
-        Pr          0.71;
-    }
-}
 
 // ************************************************************************* //

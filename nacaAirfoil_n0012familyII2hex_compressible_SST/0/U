@@ -12,7 +12,7 @@ FoamFile
     object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-speed           250;
+speed           200;
 angleOfAttack   0 [deg];
 
 #codeBlock
@@ -53,7 +53,7 @@ boundaryField
         value           uniform $Uinlet;
     }
 
-   outlet1
+/*   outlet1
     {
         type            inletOutlet;
         inletValue      uniform $Uinlet;
@@ -63,6 +63,18 @@ boundaryField
     {
         type            inletOutlet;
         inletValue      uniform $Uinlet;
+        value           uniform $Uinlet;
+    }*/
+   outlet1
+    {
+        type            freestreamVelocity;
+        freestreamValue uniform $Uinlet;
+        value           uniform $Uinlet;
+    }
+   outlet2
+    {
+        type            freestreamVelocity;
+        freestreamValue uniform $Uinlet;
         value           uniform $Uinlet;
     }
 

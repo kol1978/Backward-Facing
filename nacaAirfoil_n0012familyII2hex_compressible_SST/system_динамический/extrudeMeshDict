@@ -10,11 +10,20 @@ FoamFile
     format      ascii;
     class       dictionary;
     location    "system";
-    object      functions;
+    object      extrudeMeshDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#includeFunc MachNo
-#includeFunc residuals
+constructFrom patch;
+sourceCase "$FOAM_CASE";
+
+sourcePatches (back);
+exposedPatchName front;
+
+extrudeModel  plane;
+thickness     0.1;
+
+flipNormals false;
+mergeFaces false;
 
 // ************************************************************************* //

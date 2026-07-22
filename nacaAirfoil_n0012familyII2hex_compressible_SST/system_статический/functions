@@ -16,5 +16,6 @@ FoamFile
 
 #includeFunc MachNo
 #includeFunc residuals
+#includeFunc forceCoeffsCompressible
 
 // ************************************************************************* //

@@ -10,11 +10,11 @@ FoamFile
     format      ascii;
     class       dictionary;
     location    "system";
-    object      functions;
+    object      fvConstraints;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#includeFunc MachNo
-#includeFunc residuals
+#includeConstraint limitPressure(minFactor=0.1, maxFactor=2)
+#includeConstraint limitTemperature(min=101, max=1000)
 
 // ************************************************************************* //
