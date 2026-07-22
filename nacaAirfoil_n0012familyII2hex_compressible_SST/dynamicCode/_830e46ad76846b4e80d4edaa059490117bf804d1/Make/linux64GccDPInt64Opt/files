@@ -1,0 +1,3 @@
+SOURCE += codeBlockTemplate.C
+
+LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libcodeBlock_830e46ad76846b4e80d4edaa059490117bf804d1

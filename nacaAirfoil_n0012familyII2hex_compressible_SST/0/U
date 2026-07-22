@@ -13,17 +13,17 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 speed           250;
-angleOfAttack   0; // degs
+angleOfAttack   0 [deg];
 
-angle           #calc "-degToRad($angleOfAttack)";
-
-#calcInclude    "transform.H"
-liftDir         #calc "transform(Ry($angle), vector(0, 0, 1))";
-dragDir         #calc "transform(Ry($angle), vector(1, 0, 0))";
+#codeBlock
+#codeInclude    "transform.H"
+liftDir         #calc "transform(Ry(-$<scalar>angleOfAttack), vector(0, 0, 1))";
+dragDir         #calc "transform(Ry( $<scalar>angleOfAttack), vector(1, 0, 0))";
 
 Uinlet          #calc "$speed*$<vector>dragDir";
+#endCodeBlock
 
-dimensions      [0 1 -1 0 0 0 0];
+dimensions      [velocity];
 
 internalField   uniform $Uinlet;
 

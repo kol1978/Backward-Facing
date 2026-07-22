@@ -18,13 +18,15 @@ FoamFile
 (
     front
     {
-        type            patch;
+        type            empty;
+        inGroups        List<word> 1(empty);
         nFaces          3670016;
         startFace       7336192;
     }
     Back
     {
-        type            patch;
+        type            empty;
+        inGroups        List<word> 1(empty);
         nFaces          3670016;
         startFace       11006208;
     }

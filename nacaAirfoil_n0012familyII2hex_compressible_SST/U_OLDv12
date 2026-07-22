@@ -12,44 +12,57 @@ FoamFile
     object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+speed           250;
+angleOfAttack   0; // degs
+
+angle           #calc "-degToRad($angleOfAttack)";
+
+#calcInclude    "transform.H"
+liftDir         #calc "transform(Ry($angle), vector(0, 0, 1))";
+dragDir         #calc "transform(Ry($angle), vector(1, 0, 0))";
+
+Uinlet          #calc "$speed*$<vector>dragDir";
 
 dimensions      [0 1 -1 0 0 0 0];
 
-internalField   uniform (600 148.16 0);
+internalField   uniform $Uinlet;
 
 boundaryField
 {
-     QUAD_bdy____6 // = inlet
+    inlet
     {
         type            supersonicFreestream;
         pInf            100000;
         TInf            300;
-        UInf            (600 148.16 0);
+        UInf            $Uinlet;
         gamma           1.4;
-        value           uniform (600 148.16 0);
+        value           uniform $Uinlet;
     }
 
-    QUAD_bdy____3 // = outlet1
+   outlet1
     {
         type            inletOutlet;
-        inletValue      uniform (600 148.16 0);
-        value           uniform (600 148.16 0);
+        inletValue      uniform $Uinlet;
+        value           uniform $Uinlet;
     }
-    QUAD_bdy____4 //= outlet2
+   outlet2
     {
         type            inletOutlet;
-        inletValue      uniform (600 148.16 0);
-        value           uniform (600 148.16 0);
+        inletValue      uniform $Uinlet;
+        value           uniform $Uinlet;
     }
-    QUAD_bdy____1 // = front
+
+     front
     {
         type            empty;
     }
-    QUAD_bdy____2 // = back
+
+     Back
     {
         type            empty;
     }
-    QUAD_bdy____5 // = wall
+
+    walls
     {
         type            noSlip;
     }

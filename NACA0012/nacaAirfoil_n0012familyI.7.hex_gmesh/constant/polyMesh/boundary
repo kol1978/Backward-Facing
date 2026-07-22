@@ -16,40 +16,40 @@ FoamFile
 
 6
 (
-    QUAD_bdy____1
+    QUAD_bdy____1 //QUAD_bdy____1 // = front
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          3584;
         startFace       7048;
     }
-    QUAD_bdy____2
+    QUAD_bdy____2 //QUAD_bdy____2 // = back
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          3584;
         startFace       10632;
     }
-    QUAD_bdy____3
+    QUAD_bdy____3 //QUAD_bdy____3 // = outlet1
     {
         type            patch;
         nFaces          32;
         startFace       14216;
     }
-    QUAD_bdy____4
+    QUAD_bdy____4 //QUAD_bdy____4 //= outlet2
     {
         type            patch;
         nFaces          32;
         startFace       14248;
     }
-    QUAD_bdy____5
+    QUAD_bdy____5 //QUAD_bdy____5 // = wall
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          64;
         startFace       14280;
     }
-    QUAD_bdy____6
+    QUAD_bdy____6 //QUAD_bdy____6 // = inlet
     {
         type            patch;
         nFaces          112;

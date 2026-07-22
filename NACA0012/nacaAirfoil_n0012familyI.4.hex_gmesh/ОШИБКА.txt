@@ -1,0 +1,57 @@
+ 
+Time = 0s
+
+Decomposing FV fields
+
+    Decomposing volScalarFields
+
+        alphat
+        p
+        nut
+        T
+        k
+        epsilon
+
+    Decomposing volVectorFields
+
+        U
+
+
+--> FOAM FATAL ERROR:
+Unknown functionEntry #calcInclude
+
+Valid functions are :
+
+24
+(
+#codeBlock
+#codeBlockDict
+#codeBlockStream
+#codeDict
+#codeInclude
+#codeStream
+#dump
+#elif
+#else
+#endCodeBlock
+#endif
+#exit
+#if
+#ifeq
+#include
+#includeConstraint
+#includeEtc
+#includeFunc
+#includeIfPresent
+#includeModel
+#inputMode
+#print
+#remove
+#stream
+)
+
+
+    From function static Foam::autoPtr<Foam::functionEntry> Foam::functionEntry::New(const Foam::keyType&, const Foam::dictionary&, Foam::Istream&)
+    in file db/dictionary/functionEntries/functionEntry/functionEntry.C at line 490.
+
+FOAM exiting
