@@ -29,13 +29,27 @@ internalField   uniform $Uinlet;
 
 boundaryField
 {
-    inlet
+/*    inlet
     {
         type            supersonicFreestream;
         pInf            100000;
         TInf            300;
         UInf            $Uinlet;
         gamma           1.4;
+        value           uniform $Uinlet;
+    }*/
+/*
+    inlet
+    {
+        type            inletOutlet;
+        inletValue      uniform $Uinlet;
+        value           uniform $Uinlet;
+    }*/
+
+    inlet
+    {
+        type            freestreamVelocity;
+        freestreamValue uniform $Uinlet;
         value           uniform $Uinlet;
     }
 
@@ -66,6 +80,8 @@ boundaryField
     {
         type            noSlip;
     }
+
+    #includeEtc "caseDicts/setConstraintTypes"
 }
 
 // ************************************************************************* //
