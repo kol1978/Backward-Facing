@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : zeroDimensionalMesh
+Date   : Jul 24 2026
+Time   : 16:34:49
+Host   : "kol-serv"
+PID    : 95210
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+End
+

@@ -1,0 +1,157 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0.1/multicomponentFluid";
+    object      air;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [];
+
+internalField   nonuniform List<scalar> 
+100
+(
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0.999999999998
+0.999999999957
+0.999999999087
+0.999999980293
+0.999999573509
+0.999990748004
+0.9997989435
+0.995641300529
+0.994354415542
+0.993573269963
+0.991866056536
+0.987733152832
+0.98163042566
+)
+;
+
+boundaryField
+{
+    bottom
+    {
+        type            zeroGradient;
+    }
+    top
+    {
+        type            inletOutlet;
+        inletValue      uniform 1;
+        value           uniform 0.98163042566;
+    }
+    defaultFaces
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    droplets
+    {
+        type            uniformFixedValue;
+        uniformValue    
+        {
+            type            constant;
+            value           0;
+        }
+    }
+}
+
+
+// ************************************************************************* //

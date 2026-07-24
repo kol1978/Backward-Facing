@@ -1,0 +1,193 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : foamPostProcess -solver multiphaseEuler -func populationBalanceSetSizeDistribution
+Date   : Jul 24 2026
+Time   : 16:39:15
+Host   : "kol-serv"
+PID    : 96549
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Constructing functionObjects from system/functions
+    Selecting populationBalanceSetSizeDistribution with name populationBalanceSetSizeDistribution
+        Selecting distribution type multiFixedValue
+            min/average/max value = 0.002/0.00252945628109/0.0028
+Time = 0s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+Creating new library in "dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_46e724bccc5fa4e51cb0d985e37730f6202264d1.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1'
+    ln: ./lnInclude
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1'
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_46e724bccc5fa4e51cb0d985e37730f6202264d1.so
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_46e724bccc5fa4e51cb0d985e37730f6202264d1'
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 0/0/0
+        Group #1: dSph = 0.0011, min/average/max fraction = 0/0/0
+        Group #2: dSph = 0.0012, min/average/max fraction = 0/0/0
+        Group #3: dSph = 0.0013, min/average/max fraction = 0/0/0
+        Group #4: dSph = 0.0014, min/average/max fraction = 0/0/0
+        Group #5: dSph = 0.0015, min/average/max fraction = 0/0/0
+        Group #6: dSph = 0.0016, min/average/max fraction = 0/0/0
+        Group #7: dSph = 0.0017, min/average/max fraction = 0/0/0
+        Group #8: dSph = 0.0018, min/average/max fraction = 0/0/0
+        Group #9: dSph = 0.0019, min/average/max fraction = 0/0/0
+        Group #10: dSph = 0.002, min/average/max fraction = 0/0/0
+        Group #11: dSph = 0.0021, min/average/max fraction = 0/0/0
+        Group #12: dSph = 0.0022, min/average/max fraction = 0/0/0
+        Group #13: dSph = 0.0023, min/average/max fraction = 0/0/0
+        Group #14: dSph = 0.0024, min/average/max fraction = 0/0/0
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0/0/0
+        Group #16: dSph = 0.0026, min/average/max fraction = 0/0/0
+        Group #17: dSph = 0.0027, min/average/max fraction = 0/0/0
+        Group #18: dSph = 0.0028, min/average/max fraction = 0/0/0
+        Group #19: dSph = 0.0029, min/average/max fraction = 0/0/0
+        Group #20: dSph = 0.003, min/average/max fraction = 0/0/0
+        Group #21: dSph = 0.0031, min/average/max fraction = 0/0/0
+        Group #22: dSph = 0.0032, min/average/max fraction = 0/0/0
+        Group #23: dSph = 0.0033, min/average/max fraction = 0/0/0
+        Group #24: dSph = 0.0034, min/average/max fraction = 0/0/0
+        Group #25: dSph = 0.0035, min/average/max fraction = 0/0/0
+        Group #26: dSph = 0.0036, min/average/max fraction = 0/0/0
+        Group #27: dSph = 0.0037, min/average/max fraction = 0/0/0
+        Group #28: dSph = 0.0038, min/average/max fraction = 0/0/0
+        Group #29: dSph = 0.0039, min/average/max fraction = 0/0/0
+        Group #30: dSph = 0.004, min/average/max fraction = 0/0/0
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00158396616725/0.00158396616725/0.00158396616725
+    air2 min/Sauter-mean/max diameter = 0.00318354197187/0.00318354197187/0.00318354197187
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+Creating new library in "dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_b2259a25bfa3d063da20b396c2468102930f96b3.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3'
+    ln: ./lnInclude
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3'
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_b2259a25bfa3d063da20b396c2468102930f96b3.so
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/dynamicCode/_b2259a25bfa3d063da20b396c2468102930f96b3'
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+End
+

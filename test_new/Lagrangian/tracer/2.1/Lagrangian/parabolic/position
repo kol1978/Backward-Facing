@@ -1,0 +1,42 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       LagrangianVectorField;
+    location    "2.1/Lagrangian/parabolic";
+    object      position;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+internalField   uniform (-0.0889133 0.370855 -3.1225e-17);
+
+boundaryField
+{
+    walls
+    {
+        type            calculated;
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    pointInjection
+    {
+        type            position;
+    }
+}
+
+
+// ************************************************************************* //

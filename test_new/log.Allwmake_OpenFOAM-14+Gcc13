@@ -1,0 +1,251 @@
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/IO'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler/machineA/fileHandler using 4 processes
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running foamFormatConvert in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running foamFormatConvert in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler using 4 processes
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/IO/fileHandler/machineA/fileHandler using 4 processes
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/IO'
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/VoF
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/VoF
+Running foamMultiRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/VoF
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries
+Running createNonConformalCouples on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries using 6 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/bubbles
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/coupling
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/coupling
+Running foamRun in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/coupling using 4 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/coupling
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/injections
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/injections
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/parabolic
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/parabolic
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/tracer
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/tracer
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+Running foamMultiRun on /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+sh: 1: Syntax error: "(" unexpected
+           line 0: warning: Skipping data file with no valid points
+sh: 1: Syntax error: "(" unexpected
+           line 0: warning: Skipping data file with no valid points
+sh: 1: Syntax error: "(" unexpected
+           line 0: warning: Skipping data file with no valid points
+sh: 1: Syntax error: "(" unexpected
+           line 0: warning: Skipping data file with no valid points
+
+multiplot> plot [0.01:]     v1=NaN "< paste     <(grep -v '^\\(#\\|0[ \t]\\)' postProcessing/incompressibleFluidDropletsPlot/0/LagrangianFieldValue.dat)     <(grep -v '^#' postProcessing/incompressibleFluid/incompressibleFluidCarrierPlot/0.01/volFieldValue.dat)"     u 1:(v0=v1,v1=$2,1e9*abs(v1-v0+$4)) w l lc 'red'     t "Incompressible Fluid Volume Error",         v1=NaN "< paste     <(grep -v '^\\(#\\|0[ \t]\\)' postProcessing/multicomponentFluidDropletsPlot/0/LagrangianFieldValue.dat)     <(grep -v '^#' postProcessing/multicomponentFluid/multicomponentFluidCarrierPlot/0.01/volFieldValue.dat)"     u 1:(v0=v1,v1=$2,1e6*abs(v1-v0+$4)) axes x1y2 w l lc 'goldenrod'     t "Multicompnent Fluid Mass Error",         v1=NaN "< paste     <(grep -v '^\\(#\\|0[ \t]\\)' postProcessing/incompressibleVoFDropletsPlot/0/LagrangianFieldValue.dat)     <(grep -v '^#' postProcessing/incompressibleVoF/incompressibleVoFCarrierPlot/0.01/volFieldValue.dat)"     u 1:(v0=v1,v1=$2,1e9*abs(v1-v0+$4+$5)) w l lc 'web-green'     t "Incompressible VoF Volume Error",         m1=NaN "< paste     <(grep -v '^\\(#\\|0[ \t]\\)' postProcessing/compressibleVoFDropletsPlot/0/LagrangianFieldValue.dat)     <(grep -v '^#' postProcessing/compressibleVoF/compressibleVoFCarrierPlot/0.01/volFieldValue.dat)"     u 1:(v0=m1,m1=$2,1e9*abs(m1-v0+$4+$5)) axes x1y2 w l lc 'web-blue'     t "Compressible VoF Mass Error"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+           line 0: x range is invalid
+
+make[1]: *** [/home/kol/OpenFOAM/OpenFOAM-14/bin/tools/MakefileDirs:39: transfers] Error 1
+make[1]: Target 'application' not remade because of errors.
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian'
+make: *** [/home/kol/OpenFOAM/OpenFOAM-14/bin/tools/MakefileDirs:39: Lagrangian] Error 2
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryLaunderSharma
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryLaunderSharma
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryNonNewtonian
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryNonNewtonian
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctions
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctions
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-2
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-3
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-4
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-5
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-6
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-7
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+    Setting nu to 1e-8
+Running boundaryFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Running foamLog on /home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer/boundaryWallFunctionsProfile
+Creating graph of u+ vs y+ to OF_vs_ANALYTICAL.eps
+Done
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/boundaryLayer'
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/chemistry'
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/gri
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/gri
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/h2
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/h2
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/ic8h18
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/ic8h18
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/ic8h18_TDAC
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/ic8h18_TDAC
+Running chemkinToFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/nc7h16
+Running chemFoam on /home/kol/OpenFOAM/OpenFOAM-14/test/chemistry/nc7h16
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/chemistry'
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary
+wmake Test-fvMeshTools
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/Test-fvMeshTools'
+Making dependency list for source file Test-fvMeshTools.C
+g++ -std=c++14 -m64 -DLIB_NAME=libNULL.so -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-256 -IfaceSelection -I/home/kol/OpenFOAM/OpenFOAM-14/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/polyTopoChange/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/meshTools/lnInclude -IlnInclude -I. -I/home/kol/OpenFOAM/OpenFOAM-14/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/OSspecific/POSIX/lnInclude   -fPIC  -c Test-fvMeshTools.C -o /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/fvMeshTools/Test-fvMeshTools/Test-fvMeshTools.o
+g++ -std=c++14 -m64 -DLIB_NAME=libNULL.so -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-256 -IfaceSelection -I/home/kol/OpenFOAM/OpenFOAM-14/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/polyTopoChange/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/meshTools/lnInclude -IlnInclude -I. -I/home/kol/OpenFOAM/OpenFOAM-14/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/OSspecific/POSIX/lnInclude   -fPIC  -fuse-ld=bfd -Xlinker --add-needed -Xlinker --no-as-needed /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/fvMeshTools/Test-fvMeshTools/Test-fvMeshTools.o -L/home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/lib \
+    -lpolyTopoChange -lmeshTools -lfiniteVolume -lgenericFvFields -lOpenFOAM -ldl  \
+     -lm -o /home/kol/OpenFOAM/kol-14/platforms/linux64Gcc13DPInt64Opt/bin/Test-fvMeshTools
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/Test-fvMeshTools'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+Running Test-fvMeshTools on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+Running checkMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+Running foamToVTK on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+Running decomposePar on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+Running Test-fvMeshTools in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity using 3 processes
+Running checkMesh in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity using 3 processes
+Running foamToEnsight in parallel on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity using 3 processes
+Running reconstructPar on /home/kol/OpenFOAM/OpenFOAM-14/test/fvMeshTools/cavity
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange/waterEvaporation
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/heatTransferLimitedPhaseChange'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamDictionary on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange/waterEvaporation
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/massDiffusionLimitedPhaseChange'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/binaryBreakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/binaryBreakup
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/breakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/breakup
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescence
+Running foamPostProcess on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescence
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescence
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescenceAndBreakup
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescenceAndBreakup
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/expansion
+Running createZones on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/expansion
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/expansion
+wmake uniformGrowth
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth'
+wmakeLnInclude: linking include files to ./lnInclude
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth'
+make[3]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth'
+Making dependency list for source file uniformGrowth.C
+Making dependency list for source file uniformGrowthGroupFractionFvScalarFieldSource.C
+g++ -std=c++14 -m64 -DLIB_NAME=libuniformGrowth.so -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-256 -I/home/kol/OpenFOAM/OpenFOAM-14/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/meshTools/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/sampling/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/physicalProperties/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/solidThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/specie/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/basic/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/multicomponentThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/twoPhaseMixture/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/compressibleTwoPhases/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/momentumTransportModels/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/compressible/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/thermophysicalTransportModel/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/fluid/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/fvModels/general/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/phaseSystem/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/populationBalance/lnInclude -IlnInclude -I. -I/home/kol/OpenFOAM/OpenFOAM-14/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/OSspecific/POSIX/lnInclude   -fPIC  -c uniformGrowthGroupFractionFvScalarFieldSource.C -o /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth/uniformGrowthGroupFractionFvScalarFieldSource.o
+g++ -std=c++14 -m64 -DLIB_NAME=libuniformGrowth.so -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-256 -I/home/kol/OpenFOAM/OpenFOAM-14/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/meshTools/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/sampling/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/physicalProperties/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/solidThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/specie/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/basic/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/multicomponentThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/twoPhaseMixture/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/compressibleTwoPhases/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/momentumTransportModels/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/compressible/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/thermophysicalTransportModel/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/fluid/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/fvModels/general/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/phaseSystem/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/populationBalance/lnInclude -IlnInclude -I. -I/home/kol/OpenFOAM/OpenFOAM-14/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/OSspecific/POSIX/lnInclude   -fPIC  -c uniformGrowth.C -o /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth/uniformGrowth.o
+g++ -std=c++14 -m64 -DLIB_NAME=libuniformGrowth.so -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-256 -I/home/kol/OpenFOAM/OpenFOAM-14/src/finiteVolume/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/meshTools/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/sampling/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/physicalProperties/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/solidThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/specie/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/basic/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/thermophysicalModels/multicomponentThermo/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/twoPhaseMixture/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/twoPhaseModels/compressibleTwoPhases/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/momentumTransportModels/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/MomentumTransportModels/compressible/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/thermophysicalTransportModel/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/ThermophysicalTransportModels/fluid/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/fvModels/general/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/phaseSystem/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/applications/modules/multiphaseEuler/populationBalance/lnInclude -IlnInclude -I. -I/home/kol/OpenFOAM/OpenFOAM-14/src/OpenFOAM/lnInclude -I/home/kol/OpenFOAM/OpenFOAM-14/src/OSspecific/POSIX/lnInclude   -fPIC  -fuse-ld=bfd -shared -Xlinker --add-needed -Xlinker --no-as-needed /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth/uniformGrowthGroupFractionFvScalarFieldSource.o /home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth/uniformGrowth.o -L/home/kol/OpenFOAM/OpenFOAM-14/platforms/linux64Gcc13DPInt64Opt/lib \
+    -lfiniteVolume -lsampling -lmeshTools -lmomentumTransportModels -lcompressibleMomentumTransportModels -lfluidThermoThermophysicalTransportModels -lfvModels -lphaseSystem -lpopulationBalance  -o /home/kol/OpenFOAM/kol-14/platforms/linux64Gcc13DPInt64Opt/lib/libuniformGrowth.so
+make[3]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth/uniformGrowth'
+Running zeroDimensionalMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+Running foamPostProcess on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+Running foamPostProcess on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance'
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler'
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing/channel
+Running createZones on /home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing/channel
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing/channel
+Running foamPostProcess on /home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing/channel
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/postProcessing'
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo'
+Running blockMesh on /home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate
+Running foamRun on /home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo'
+make: Target 'application' not remade because of errors.

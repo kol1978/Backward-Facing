@@ -1,0 +1,113 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : createNonConformalCouples -overwrite
+Date   : Jul 24 2026
+Time   : 16:05:58
+Host   : "kol-serv"
+PID    : 84111
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "createNonConformalCouplesDict"
+
+Creating new library in "dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_00d213e0a63f4e08749eff7c321f53c55e37b2e1.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_00d213e0a63f4e08749eff7c321f53c55e37b2e1.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_00d213e0a63f4e08749eff7c321f53c55e37b2e1'
+Creating new library in "dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_2ddd3d8cd7954e5cb1cc808a5aa5f3065bcf4ac0'
+Creating new library in "dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/boundaries/dynamicCode/_fffaadcdd317b2fdfa0b1936d9eff243b85dfd9a'
+Deprecated option 'overwrite' specified, this is now the default behaviour
+
+Adding nonConformalCyclic interfaces between patches: 
+    (nonCouple0 nonCouple1)
+In regions: 
+    (region0 region0)
+Named:
+    (slab_on_nonCouple0 slab_on_nonCouple1)
+With transform: 
+    transformType   translational;
+    separation      (-0.1 0 0);
+
+Adding nonConformalCyclic interfaces between patches: 
+    (nonCouple2 nonCouple3)
+In regions: 
+    (region0 region0)
+Named:
+    (wedge_on_nonCouple2 wedge_on_nonCouple3)
+With transform: 
+    transformType   rotational;
+    rotationAxis    (0 0 1);
+    rotationCentre  (0.25 -0.08523150547392272 0);
+    rotationAngle   0.4188790204786391;
+
+patchToPatch: Calculating couplings between ...
+    source patch nonCouple0 with 10 faces and ...
+    target patch nonCouple1 with 10 faces ...
+    with transformation separation=(-0.1 0 0)
+    Source min/average/max coverage = 1/1/1
+    Target min/average/max coverage = 0/0.666667/1
+    Source average openness/error/depth/angle = 8.47033e-17/1.52285e-16/0/0
+    Source max openness/error/depth/angle = 1.69407e-16/6.88299e-16/0/0
+    30 couplings calculated in 0.00133s
+patchToPatch: Calculating couplings between ...
+    source patch nonCouple2 with 10 faces and ...
+    target patch nonCouple3 with 10 faces ...
+    with transformation axis=(0 0 1), centre=(0.25 -0.0852315 0), angle=0.418879
+    No couplings found
+fvMeshStitcher: Connecting
+    Cell min/average/max openness = 0/6.84988e-17/9.82479e-16
+    Cell min/average/max projected volume fraction = 0/0.25/0.5
+--> FOAM Warning: 
+    From function bool Foam::fvMeshStitcher::connectThis(bool, bool, bool)
+    in file fvMesh/fvMeshStitchers/fvMeshStitcher/fvMeshStitcher.C at line 1955
+    Maximum projected volume fraction 0.5 may cause instability.
+    Volumetric distortion can be minimised by making the side of the interface
+    with smaller or more finely layered cells the neighbour.
+    This is done by specifying this side second to createNonConformalCouples;
+    either on the command line, or in the patches (and regions) entries within
+    the createNonConformalCouplesDict.
+
+Writing mesh to 0
+
+End
+

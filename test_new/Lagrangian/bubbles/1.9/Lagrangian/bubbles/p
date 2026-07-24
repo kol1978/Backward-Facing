@@ -1,0 +1,46 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       LagrangianScalarField;
+    location    "1.9/Lagrangian/bubbles";
+    object      p;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -2 0 0 0 0];
+
+internalField   uniform 10433.9155404;
+
+boundaryField
+{
+    bottom
+    {
+        type            calculated;
+    }
+    top
+    {
+        type            calculated;
+    }
+    defaultFaces
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    injection
+    {
+        type            pressure;
+    }
+}
+
+
+// ************************************************************************* //

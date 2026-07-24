@@ -1,0 +1,46 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       LagrangianVectorField;
+    location    "0.2/incompressibleVoF/Lagrangian/droplets";
+    object      CrankNicolson:S0(Uc);
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 4 -2 0 0 0 0];
+
+internalField   uniform (0 0 -1.42425e-09);
+
+boundaryField
+{
+    bottom
+    {
+        type            calculated;
+    }
+    top
+    {
+        type            calculated;
+    }
+    defaultFaces
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    injection
+    {
+        type            NaN;
+    }
+}
+
+
+// ************************************************************************* //

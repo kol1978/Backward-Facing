@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : blockMesh -region incompressibleVoF
+Date   : Jul 24 2026
+Time   : 16:06:57
+Host   : "kol-serv"
+PID    : 85382
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/Lagrangian/transfers
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Generating mesh for region incompressibleVoF
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/incompressibleVoF/blockMeshDict"
+No non-linear block edges defined
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Basic statistics
+    Number of internal faces : 0
+    Number of boundary faces : 6
+    Number of defined boundary faces : 6
+    Number of undefined boundary faces : 0
+
+Checking topology
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.01
+    Block 0 cell size :
+        i : 0.02
+        j : 0.02
+        k : 0.005
+
+No patch pairs to merge
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0.01 -0.01 0) (0.03 0.01 0.5)
+  nPoints: 404
+  nCells: 100
+  nFaces: 501
+  nInternalFaces: 99
+----------------
+Patches
+----------------
+  patch 0 (start: 99 size: 1) name: bottom
+  patch 1 (start: 100 size: 1) name: top
+  patch 2 (start: 101 size: 400) name: defaultFaces
+
+End
+
