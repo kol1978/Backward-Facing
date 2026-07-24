@@ -1,57 +1,0 @@
-/*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  13
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      binary;
-    class       LagrangianScalarField;
-    location    "0.35/Lagrangian/kinematicParcel";
-    object      tTurb;
-}
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-dimensions      [0 0 1 0 0 0 0];
-
-internalField   nonuniform List<scalar> 
-46
-(¹ä9?4`?—²dá§?³¬1ßºë ?‘?Oö-§?˜…Šò¤?¦ÎÁÿş?¡?tµ¾ğ	É§?NhÔè—¥?ª¤à¨Ú¦?m)W·&‹?'ÎĞSÊÅ`?Ø<Òê¦?YìË€`?I­[µä¤ ?B,ÖQ¼?×?eËR[§?'@é™s¡?Gíø/ÿ§?nîj!©?†œx
-1a?ÏróïŒ¦?S®xAğ;a?è¶ZÁÀ¦?Î‚A'‹?5¤aƒ÷¤?ß6rÊ†‹?5¾“wõ¡?jË æ¹®¨?W3@­`?^CiœbŠ?o¬~ä`?=eP½%â ?$hıš§?Ãòü¹c'¢?ªûÉi|§?å+÷¡?!n‡ã)#a??Íÿáa?Ì#<sj±¨?²A Û“p¢?DN‚Õvq§?„t)Â§b?Ei±å˜ş`?d¬=1fœ¢?¤l˜à”©?™Û–°~Œ?);
-
-boundaryField
-{
-    walls
-    {
-        type            calculated;
-    }
-    open
-    {
-        type            calculated;
-    }
-    frontAndBack
-    {
-        type            empty;
-    }
-    procBoundary1to0
-    {
-        type            processor;
-    }
-    procBoundary1to3
-    {
-        type            processor;
-    }
-}
-
-sources
-{
-    pointInjection
-    {
-        type            NaN;
-    }
-}
-
-
-// ************************************************************************* //

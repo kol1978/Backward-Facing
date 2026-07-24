@@ -8,9 +8,9 @@
 Build  : 14-0db507470b5e
 Exec   : decomposePar -force
 Date   : Jul 22 2026
-Time   : 14:19:52
+Time   : 21:39:06
 Host   : "kol-serv"
-PID    : 40029
+PID    : 85629
 I/O    : uncollated
 Case   : /home/kol/OpenFOAM/kol-12/Backward-Facing_github/nacaAirfoil_n0012familyII2hex_compressible_SST
 nProcs : 1
@@ -28,7 +28,7 @@ Calculating distribution of cells
 
 Selecting decomposer scotch
 
-Finished decomposition in 3.9694609999999999062 s
+Finished decomposition in 3.4528029999999998445 s
 
 Calculating original mesh data
 
@@ -164,11 +164,13 @@ Decomposing FV fields
     Decomposing volScalarFields
 
         alphat
-        p
+        Ma
         nut
+        p
         T
         k
         epsilon
+        omega
 
     Decomposing volVectorFields
 

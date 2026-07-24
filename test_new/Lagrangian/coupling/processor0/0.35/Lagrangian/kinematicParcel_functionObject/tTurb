@@ -1,58 +1,0 @@
-/*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  13
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      binary;
-    class       LagrangianScalarField;
-    location    "0.35/Lagrangian/kinematicParcel_functionObject";
-    object      tTurb;
-}
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-dimensions      [0 0 1 0 0 0 0];
-
-internalField   nonuniform List<scalar> 
-79
-(>Â(ÜhÀ«?¸7#´ð©?þ<`ÀÓ+¨?,šWIÜƒ®?+£Ë84Æ«?@¯ùŽè‚¦?>yŒÿè–©?œ‚à0Ö§?ß:BEGª?T¹‚“¬?´ðtÁ
-­?ïˆäh-@®?,¿Óœ=+«?7ßÜn³¢?Ïf)ž=`«?ópéµI«?ýÆíV£r£?°ñh¢æ>«?Ôý>–ª?þ¥Ÿï4€ª?ûùRÁó ¬?.Ly;¯?/¯äZÚF®?z=Yr`®?ýE±¯«?‘AK+«?ŒIï¾4®?Ñw¤)¬?GÆOÊP­?†nÝ½Ö’«?Še\â_w«?Wx‹L®ª?ññ!Ý:|­?”¼@’Ó¯?÷ÎC˜ê¢¬?½÷Ëñpžª?Ê'%ØW¬?2(æÂk­?$Úh¨.!¯?ÍÛ,Áä¯?æTà‚Á®?/¬"‚Ðl°?"+!ÅRÓ°?WF$nÂ!°?š™Ô£¯?ÓùÎGLj«?eúùÁ'Ù«?›`Wz“”©?5¡×¥«?	”ÍŠ·Ì¨?Tu ØR†¥?øë€G*­?¸"b­?Þ«’]Ñ»®?^³jØË\­?.¤ƒj“­?½Â†}æ¯?N’,¦Ø&«?Kõûê	Åa?óß¿ª?…>B{sÅ¬?oR˜ûÃ¬?gœðƒµš­?õ¿‡UÊ®?Ü2ó5¯?0ºP>&®?jïz¯®?hÂ”>"®?‚£¾3<Ü¯?¼={(dà©?¯‡)’‰¯?ÜÖýe"°?_Mœ:òô­?o-V6®?@Þy8
-±?M‚]°?l]=9*¯?³9\*ý­?ÿkúR³ä­?);
-
-boundaryField
-{
-    walls
-    {
-        type            calculated;
-    }
-    open
-    {
-        type            calculated;
-    }
-    frontAndBack
-    {
-        type            empty;
-    }
-    procBoundary0to1
-    {
-        type            processor;
-    }
-    procBoundary0to2
-    {
-        type            processor;
-    }
-}
-
-sources
-{
-    pointInjection
-    {
-        type            NaN;
-    }
-}
-
-
-// ************************************************************************* //

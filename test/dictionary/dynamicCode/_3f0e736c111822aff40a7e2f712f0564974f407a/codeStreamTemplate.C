@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
+#include "dictionaryEntry.H"
 #include "fieldTypes.H"
 #include "Ostream.H"
 #include "Pstream.H"
@@ -60,7 +60,7 @@ extern "C"
     )
     {
 //{{{ begin code
-        #line 1 ""
+        #line 0 ""
 os << ("movingBox_" + name(dict.lookupScoped<int64_t>("time", true, false)) + ".obj");
 //}}} end code
     }

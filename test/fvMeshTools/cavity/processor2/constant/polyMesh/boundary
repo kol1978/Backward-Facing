@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -21,35 +21,35 @@ FoamFile
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       244;
+        startFace       240;
     }
     movingWall
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          10;
-        startFace       244;
+        nFaces          0;
+        startFace       240;
     }
     fixedWalls
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          14;
-        startFace       254;
+        startFace       240;
     }
     frontAndBack
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          268;
-        startFace       268;
+        startFace       254;
     }
     procBoundary2to0
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          10;
-        startFace       536;
+        nFaces          21;
+        startFace       522;
         matchTolerance  0.0001;
         myProcNo        2;
         neighbProcNo    0;
@@ -58,8 +58,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          14;
-        startFace       546;
+        nFaces          21;
+        startFace       543;
         matchTolerance  0.0001;
         myProcNo        2;
         neighbProcNo    1;

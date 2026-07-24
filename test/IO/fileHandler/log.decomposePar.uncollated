@@ -2,17 +2,17 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : decomposePar -fileHandler uncollated -force
-Date   : Jun 23 2026
-Time   : 23:16:21
+Date   : Jul 24 2026
+Time   : 13:07:25
 Host   : "kol-serv"
-PID    : 1790406
+PID    : 82368
 I/O    : uncollated
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/IO/fileHandler
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -27,7 +27,7 @@ Calculating distribution of cells
 
 Selecting decomposer simple
 
-Finished decomposition in 0.001713 s
+Finished decomposition in 0.001723 s
 
 Calculating original mesh data
 

@@ -2,17 +2,17 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : blockMesh
-Date   : Jun 23 2026
-Time   : 23:51:16
+Date   : Jul 24 2026
+Time   : 13:43:40
 Host   : "kol-serv"
-PID    : 1808237
+PID    : 95423
 I/O    : uncollated
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -32,15 +32,13 @@ Creating topology patches
 
 Creating block mesh topology
 
-Check topology
+Basic statistics
+    Number of internal faces : 0
+    Number of boundary faces : 6
+    Number of defined boundary faces : 6
+    Number of undefined boundary faces : 0
 
-	Basic statistics
-		Number of internal faces : 0
-		Number of boundary faces : 6
-		Number of defined boundary faces : 6
-		Number of undefined boundary faces : 0
-	Checking patch -> block consistency
-
+Checking topology
 Creating block offsets
 Creating merge list .
 
