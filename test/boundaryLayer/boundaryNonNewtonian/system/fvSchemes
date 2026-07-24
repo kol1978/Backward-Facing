@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -37,7 +37,7 @@ divSchemes
 laplacianSchemes
 {
     default         none;
-    laplacian(nuEff,U) Gauss linear corrected;
+    laplacian(interpolate(nuEff),U) Gauss linear corrected;
     laplacian(DkEff,k) Gauss linear corrected;
     laplacian(DepsilonEff,epsilon) Gauss linear corrected;
     laplacian(DREff,R) Gauss linear corrected;

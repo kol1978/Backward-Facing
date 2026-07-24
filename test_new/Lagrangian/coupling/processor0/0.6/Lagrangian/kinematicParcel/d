@@ -1,68 +1,0 @@
-/*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  13
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      binary;
-    class       LagrangianScalarField;
-    location    "0.6/Lagrangian/kinematicParcel";
-    object      d;
-}
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-dimensions      [0 1 0 0 0 0 0];
-
-internalField   nonuniform List<scalar> 
-78
-(ã±p®m±:?/5™ä(8D?˛µåKü,J?·’›¨E?{h}8.™W?Ü‚uTXW?Pdÿ«‘I?j#ÀïT?öwfö‹S?T„äÛ9D?˛3Ê.lÒW?¶8¿"ıÇJ?"æe,É‡S?ùx~?{√J?
-Ú?˘±ÄM?Ï“∫êcT?oÇeäã∞S?€Fy–ã≤V?TªàØâM?Ní4ûSπT?BH¡#tH?€”PáC=?ÅoR›ºL?ì≥rpK?ƒkIﬂ~D?Vñ/¡(U?aì˚∞qI?
-√ñlR?•∆úÙ^Q?+ÕvUèO?€ÊO¬πOS?∏ïÜ›æV?ò3¬¸àS?˘[«/JO?‚aÑ´˜ûS?(˚Áê·S?¬&@kÒÃR?.ãxU?Hs√yQ?‰_bΩt)E?n}[VeAW?∆"´EåX?Ú9w1BL?·6*u◊^G?oÁ´ıQíP?$Óƒ¸G?∂EjﬂS?Löí%\◊S?∂ÌJß\C?Ñ%mÎ/¡P?ºé\•P?Ì=—§wD?ƒp9câVK?®Ï =êO?o°Ò**úG?â≈Hl&-Q?JZ>ôS?ug∆aîB?P2˙ÅóP?ê◊—;…R?qŒä†≠ÙU?*$,T?Á®¬\ßÉQ?a¢ı¥ÅU?ÍΩé€»R?úâip5F?˙€Ê™S?ì⁄ÁÑ÷ST?nÈ1vjT?ÕÆEﬁ(çT?.É>enV?ùË“∞’"P?€ÄbU?´“RÌn-P?:ùpPU? õ„v˚XK?.ﬁ“|g$X?h∏±6SµN?);
-
-boundaryField
-{
-    walls
-    {
-        type            calculated;
-    }
-    open
-    {
-        type            calculated;
-    }
-    frontAndBack
-    {
-        type            empty;
-    }
-    procBoundary0to1
-    {
-        type            processor;
-    }
-    procBoundary0to2
-    {
-        type            processor;
-    }
-}
-
-sources
-{
-    pointInjection
-    {
-        type            distributionDiameter;
-        distribution    
-        {
-            type            RosinRammler;
-            Q               0;
-            min             0.0001;
-            max             0.0015;
-            d               0.0014;
-            n               2;
-            rndGen          157738332533518;
-        }
-    }
-}
-
-
-// ************************************************************************* //

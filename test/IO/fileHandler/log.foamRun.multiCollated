@@ -2,15 +2,15 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : foamRun -parallel -fileHandler collated
-Date   : Jun 23 2026
-Time   : 23:16:24
+Date   : Jul 24 2026
+Time   : 13:07:29
 Host   : "kol-serv"
-PID    : 1790554
+PID    : 82512
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -18,16 +18,16 @@ I/O    : collated (maxThreadFileBufferSize 2e+09)
          threading by setting maxThreadFileBufferSize to 0 in
          $FOAM_ETC/controlDict
          IO nodes:
-             "kol-serv.1790554"
-             "kol-serv.1790556"
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler
+             "kol-serv.82512"
+             "kol-serv.82514"
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/IO/fileHandler
 nProcs : 4
 Slaves : 
 3
 (
-"kol-serv.1790555"
-"kol-serv.1790556"
-"kol-serv.1790557"
+"kol-serv.82513"
+"kol-serv.82514"
+"kol-serv.82515"
 )
 
 Pstream initialised with:
@@ -47,7 +47,7 @@ Create mesh for time = 0.00015
 Selecting solver incompressibleFluid
 Selecting viscosity model constant
 Selecting turbulence model type laminar
-Selecting laminar stress model Stokes
+    Selecting laminar stress model Stokes
 No MRF models present
 
 Courant Number mean: 0 max: 0
@@ -105,7 +105,7 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 0.170172 s  ClockTime = 0 s
+ExecutionTime = 0.168789 s  ClockTime = 0 s
 
 End
 

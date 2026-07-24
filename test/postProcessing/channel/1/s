@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -16,7 +16,7 @@ FoamFile
 
 dimensions      [];
 
-internalField   uniform 0.9998492567;
+internalField   uniform 0.9998632932;
 
 boundaryField
 {
@@ -29,7 +29,7 @@ boundaryField
     {
         type            inletOutlet;
         inletValue      uniform 0;
-        value           uniform 0.9998492567;
+        value           uniform 0.9998632932;
     }
     walls
     {

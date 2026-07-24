@@ -1,63 +1,0 @@
-/*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  13
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      binary;
-    class       LagrangianScalarField;
-    location    "0.45/Lagrangian/kinematicParcel";
-    object      tTurb;
-}
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-dimensions      [0 0 1 0 0 0 0];
-
-internalField   nonuniform List<scalar> 
-145
-(q¨eÈP´?¯øïÕğÎ¹?şGàª<İ²?5ÿÊºÉ³?¤öÁ{0½´?ûòŠµà«?z%ÜtÁ§´?œs È{$¦?yò#çxù¥?tİ€/AN¥?‹l-´â ?èİCòî³?šÑÑ~X³?Än¯œ¸?mÌ,–x¶?oŞ•š˜çª?÷šZPH¢µ?µ»‹Ì£?Òt3šA?òÔÑ˜:ƒ¦?3<ëîµ?D®îMµ?{HÀ^Nù±?æfæº!Õc?xª°ğ#xŒ?	ú™Ş?0Œ1Ì# ?ŸHˆ£?†ÇÕ*ÅJ ?·Ôešvé£?m½k1u©?ËVX¶?uëw€[~¦?™í9 ôç ?Ÿ'·öT§?ÒM¦šE¢?$î–Š“µ§?Í1Ê–eS§?ÑàÊ+ÿ†§?|Â‰‚7äd?=IŸ|(æ¨?)
-ñ\9Æµ?N3ï]m1²?6şRÇ=³?C‡òòã´?dOz*:+´?gN8qN³?ĞÄ°›M³?…Šà³s/µ?fÿTtÿV´?·û2Râğ±?1X çJc?ê›ÙŞK?ÎÂÀ«*İ?cÇòYE²?
-+ª¥?ÌÕô¤è·?ã/j<}€·?c#tê{Çb?]à%¡Û²?>ÄS³?âaz}Q°?A,’ªt´?«fş{9¦?UUb+•!¦?Ôep+¥?SØŸhO¥?êE	OKŒd?JºxéN ?Ç1ßïµ´?÷sâîPµ?]
-ã¯b? µZu“ü¶?kM”
-è*£?õœŒpó?bG¸ùo¤¥?‰şfõğ§?%ã(t)¡?p !•C¡?®Ô$b?ä³·ÂÉd§?óÂzÃe?Qê¸_³?£qÔØ&‹?Npy… Âb?6¶ïĞc?Å+Ç^:ñc?¢­<r/gc?‰½–*j+d?x¨µì¯Ï±?úğ*Ö*·?Ù/_¢ùµ?¹ÖB;î[d?5½ênnd?‡à½”­?åávVç?ê°ˆ?AıN19M¤?™=‰§ˆ¥?±Ùr$¶?g…äŞx²?I‰?rïØ{W¨?*9W‹ÓNd?;'É…M ?·’Ñ~¤?€CÑv¬?9ÖFñ>·?ù¸ëqK´?¬İuáÂ4c?,YÑ¶s°?ŒçµH´h°?Œ–JEŸ?¬óÑŸ`ô´?&"í
-u´?íàÖnZ†§?]‚­?;Ş»)ç¦?^÷øÕ$¥?e >¬?™®ğs§?)â4@?•^H­Ø±?Ø1Šñ¿š?¸usLıî§?ã²ä ac?Cq–
-ì~c?ñ÷O®´?YîR‚ªŒ?¸T.õ¤?õ6ƒ÷Ää±?6ÉrÆ„Ã¢?¯$G}ñk£?*ªhyvl¨?Ø(NjôŸ?x\ğ³é“©?Aı]s#x¨?Í¯œHe?C0Eßc?Q¿üù¦?ÇsIˆyı§?"QÄ[ìË¨?…WvÅb?å
-|©ùfb?¦wRèyª?);
-
-boundaryField
-{
-    walls
-    {
-        type            calculated;
-    }
-    open
-    {
-        type            calculated;
-    }
-    frontAndBack
-    {
-        type            empty;
-    }
-    procBoundary1to0
-    {
-        type            processor;
-    }
-    procBoundary1to3
-    {
-        type            processor;
-    }
-}
-
-sources
-{
-    pointInjection
-    {
-        type            NaN;
-    }
-}
-
-
-// ************************************************************************* //

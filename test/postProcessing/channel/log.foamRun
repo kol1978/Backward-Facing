@@ -2,17 +2,17 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : foamRun
-Date   : Jun 23 2026
-Time   : 23:51:19
+Date   : Jul 24 2026
+Time   : 13:43:44
 Host   : "kol-serv"
-PID    : 1808262
+PID    : 95425
 I/O    : uncollated
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -36,20 +36,7 @@ Selecting thermodynamics package
 }
 
 Selecting turbulence model type RAS
-Selecting RAS turbulence model kEpsilon
-RAS
-{
-    model           kEpsilon;
-    turbulence      on;
-    printCoeffs     on;
-    Cmu             0.09;
-    C1              1.44;
-    C2              1.92;
-    C3              0;
-    sigmak          1;
-    sigmaEps        1.3;
-}
-
+    Selecting RAS turbulence model kEpsilon
 No MRF models present
 
 Courant Number mean: 0.08 max: 0.08
@@ -66,9 +53,8 @@ PIMPLE: Operating solver in PISO mode
 
 Starting time loop
 
-turbulenceFields turbulenceFields(nuEff,R,devTau): storing fields:
+turbulenceFields turbulenceFields(nuEff,R): storing fields:
     nuEff
-    devTau
     R
 
 wallHeatFlux wallHeatFlux:
@@ -95,16 +81,16 @@ Reading set description:
 Reading set description:
     points
 
-streamlines streamlinesSphere(centre=(000),radius=0.1,nPoints=100,p,U,direction=forward):
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesLine(start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,p,U,direction=backward):
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesPatch(patch=inlet,nPoints=100,p,U):
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesPoints(points=((-0.2-0.20)(000)(0.20.20))p,U,direction=forward):
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward):
     automatic track length specified through number of sub cycles : 5
 
 Reading surface description:
@@ -116,84 +102,90 @@ Reading surface description:
 Reading surface description:
     patch
 
-surfaceFieldValue patchAverage(patch=inlet,k):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchAverage(k,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
+surfaceFieldValue patchIntegrate(epsilon,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaIntegrate
 
-surfaceFieldValue patchIntegrate(patch=inlet,epsilon):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchFlowRate(patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = sum
 
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region1 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchFlowRate(patch=inlet):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region2 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
+surfaceFieldValue faceZoneAverage(U,faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region1:
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue faceZoneFlowRate(faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = orientedSum
 
+surfaceFieldValue triSurfaceAverage(p,triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region2:
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaNormalIntegrate
 
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue faceZoneAverage(faceZone=f0,U):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
+volFieldValue cellMin(epsilon) read:
+    number of cells = 1
+    volume = 0.1
+    operation = min
 
-surfaceFieldValue faceZoneFlowRate(faceZone=f0):
-    total faces  = 1
-    total area   = 0.1
+volFieldValue cellMax(k) read:
+    number of cells = 1
+    volume = 0.1
+    operation = max
 
+volFieldValue cellMinMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = minMag
 
-surfaceFieldValue triSurfaceAverage(triSurface=mid.obj,p):
-    total faces  = 80
-    total area   = 0.1
+volFieldValue cellMaxMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = maxMag
 
+volFieldValue volAverage(p) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volAverage
 
-surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj):
-    total faces  = 80
-    total area   = 0.1
-
-
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1:
-    total faces  = 80
-    total area   = 0.1
-
-
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region2:
-    total faces  = 80
-    total area   = 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
+volFieldValue volIntegrate(rho) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volIntegrate
 
 diagonal:  Solving for age, Initial residual = 0, Final residual = 0, No Iterations 0
 Field age converged in 0 correctors
@@ -201,7 +193,7 @@ Field age converged in 0 correctors
 Min/max age:0 0.125
 writeVTK writeVTK(U,p) output:
 Time: 0
-    Internal  : "/home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel/VTK/channel_0.vtk"
+    Internal  : "/home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel/VTK/channel_0.vtk"
     Original cells:1 points:8   Additional cells:0  additional points:0
 
     Writing volVectorField field U
@@ -209,25 +201,22 @@ Time: 0
 --> FOAM Warning : functionObjects::subtract subtract(U,UMean,result=u) cannot find fields 1(UMean)
 --> FOAM Warning : functionObjects::divide divide(u,stabilise(mag(U)),result=uFrac) cannot find fields 1(u)
 --> FOAM Warning : functionObjects::multiply multiply(U,u) cannot find fields 1(u)
-scalarTransport write:
-diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
-
-phaseScalarTransport: Executing
-diagonal:  Solving for phaseScalarTransport:Phi.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
-diagonal:  Solving for s.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
-
-streamlines streamlinesSphere(centre=(000),radius=0.1,nPoints=100,p,U,direction=forward) write:
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward) write:
     Seeded 62 particles
     Sampled 372 locations
-streamlines streamlinesLine(start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,p,U,direction=backward) write:
+
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward) write:
     Seeded 100 particles
     Sampled 600 locations
-streamlines streamlinesPatch(patch=inlet,nPoints=100,p,U) write:
+
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100) write:
     Seeded 100 particles
     Sampled 1200 locations
-streamlines streamlinesPoints(points=((-0.2-0.20)(000)(0.20.20))p,U,direction=forward) write:
+
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward) write:
     Seeded 3 particles
     Sampled 18 locations
+
 Courant Number mean: 0.08 max: 0.08
 Time = 0.01s
 
@@ -243,9 +232,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.682107196e-15, global = -2.682107196e-15, cumulative = -4.789480847e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.504522 s  ClockTime = 1 s
+ExecutionTime = 1.56686 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -267,9 +256,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.491115611e-15, global = -2.491115611e-15, cumulative = -7.855468842e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.508476 s  ClockTime = 1 s
+ExecutionTime = 1.571139 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -291,9 +280,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 9.581804372e-16, global = 9.581804372e-16, cumulative = -7.088924381e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.511873 s  ClockTime = 1 s
+ExecutionTime = 1.574871 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -315,9 +304,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749147495e-16, global = 5.749147495e-16, cumulative = -5.172542194e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.515373 s  ClockTime = 1 s
+ExecutionTime = 1.578714 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -339,9 +328,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149836201e-15, global = 1.149836201e-15, cumulative = -1.531394455e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.519439 s  ClockTime = 1 s
+ExecutionTime = 1.582446 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -363,9 +352,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.874602611e-15, global = 2.874602611e-15, cumulative = 2.684689318e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.523106 s  ClockTime = 1 s
+ExecutionTime = 1.586169 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -387,9 +376,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665629538e-16, global = -7.665629538e-16, cumulative = 1.918126365e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.526665 s  ClockTime = 1 s
+ExecutionTime = 1.589883 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -411,9 +400,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = -1.899264154e-16
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.530135 s  ClockTime = 1 s
+ExecutionTime = 1.593595 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -435,9 +424,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916415125e-15, global = 1.916415125e-15, cumulative = 2.876337781e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.533778 s  ClockTime = 1 s
+ExecutionTime = 1.597315 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -459,9 +448,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.449552664e-15, global = 3.449552664e-15, cumulative = 4.79275593e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.537708 s  ClockTime = 1 s
+ExecutionTime = 1.60106 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -483,9 +472,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916420834e-15, global = 1.916420834e-15, cumulative = 8.625597597e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.54139 s  ClockTime = 1 s
+ExecutionTime = 1.604764 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -507,9 +496,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.724780933e-15, global = -1.724780933e-15, cumulative = 4.79275108e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.544965 s  ClockTime = 1 s
+ExecutionTime = 1.608473 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -531,9 +520,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = 2.109755434e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.548517 s  ClockTime = 1 s
+ExecutionTime = 1.612222 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -555,9 +544,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.066283952e-15, global = 3.066283952e-15, cumulative = 5.750967627e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.552473 s  ClockTime = 1 s
+ExecutionTime = 1.615922 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -579,9 +568,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832858608e-16, global = 3.832858608e-16, cumulative = 4.409467114e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.556308 s  ClockTime = 1 s
+ExecutionTime = 1.619699 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -603,9 +592,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665723924e-16, global = -7.665723924e-16, cumulative = 3.451251624e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.559907 s  ClockTime = 1 s
+ExecutionTime = 1.623423 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -627,9 +616,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.34150276e-15, global = -1.34150276e-15, cumulative = 1.673098403e-18
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.563523 s  ClockTime = 1 s
+ExecutionTime = 1.627172 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -651,9 +640,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665735667e-16, global = 7.665735667e-16, cumulative = 1.726463623e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.567103 s  ClockTime = 1 s
+ExecutionTime = 1.630884 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -675,9 +664,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.9164352e-16, global = 1.9164352e-16, cumulative = 3.259611783e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.57072 s  ClockTime = 1 s
+ExecutionTime = 1.6346 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -699,9 +688,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.74930912e-16, global = 5.74930912e-16, cumulative = 3.067968146e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.574381 s  ClockTime = 1 s
+ExecutionTime = 1.638317 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -723,9 +712,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749312341e-16, global = 5.749312341e-16, cumulative = 3.259611891e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.577892 s  ClockTime = 1 s
+ExecutionTime = 1.642037 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -747,9 +736,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665753718e-16, global = 7.665753718e-16, cumulative = 2.684680362e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.581532 s  ClockTime = 1 s
+ExecutionTime = 1.645739 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -771,9 +760,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.34150753e-15, global = 1.34150753e-15, cumulative = 4.026187891e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.585441 s  ClockTime = 1 s
+ExecutionTime = 1.64947 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -795,9 +784,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.53315212e-15, global = 1.53315212e-15, cumulative = 4.217831906e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.588934 s  ClockTime = 1 s
+ExecutionTime = 1.653188 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -819,9 +808,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916440902e-15, global = 1.916440902e-15, cumulative = 6.134272809e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.592538 s  ClockTime = 1 s
+ExecutionTime = 1.656887 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -843,9 +832,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916441591e-16, global = -1.916441591e-16, cumulative = 5.94262865e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.59605 s  ClockTime = 1 s
+ExecutionTime = 1.660631 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -867,9 +856,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.91644222e-16, global = -1.91644222e-16, cumulative = 3.06796532e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.599603 s  ClockTime = 1 s
+ExecutionTime = 1.664362 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -891,9 +880,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916442796e-16, global = -1.916442796e-16, cumulative = 2.109743922e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.603305 s  ClockTime = 1 s
+ExecutionTime = 1.668079 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -915,9 +904,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665773292e-16, global = 7.665773292e-16, cumulative = 3.834542912e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.6069 s  ClockTime = 1 s
+ExecutionTime = 1.671788 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -939,9 +928,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.533155044e-15, global = 1.533155044e-15, cumulative = 4.601120434e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.610534 s  ClockTime = 1 s
+ExecutionTime = 1.675514 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -963,9 +952,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 9.58222123e-16, global = -9.58222123e-16, cumulative = 3.259609462e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.614082 s  ClockTime = 1 s
+ExecutionTime = 1.679245 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -987,9 +976,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749333948e-16, global = 5.749333948e-16, cumulative = 1.726453743e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.617704 s  ClockTime = 1 s
+ExecutionTime = 1.682975 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1011,9 +1000,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.533156015e-15, global = -1.533156015e-15, cumulative = 1.653225991e-18
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.621235 s  ClockTime = 1 s
+ExecutionTime = 1.686691 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1035,9 +1024,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = 9.598759041e-16
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.624775 s  ClockTime = 1 s
+ExecutionTime = 1.690434 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1059,9 +1048,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.83289133e-16, global = 3.83289133e-16, cumulative = 1.534809604e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.628382 s  ClockTime = 1 s
+ExecutionTime = 1.694187 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1083,9 +1072,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832891895e-16, global = -3.832891895e-16, cumulative = -1.148214723e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.631934 s  ClockTime = 1 s
+ExecutionTime = 1.697912 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1107,9 +1096,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 9.582231031e-16, global = 9.582231031e-16, cumulative = -1.914793206e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.635759 s  ClockTime = 1 s
+ExecutionTime = 1.70165 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1131,9 +1120,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149867866e-15, global = 1.149867866e-15, cumulative = -1.531503917e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.639704 s  ClockTime = 1 s
+ExecutionTime = 1.705379 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1155,9 +1144,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = 7.682320739e-16
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.643715 s  ClockTime = 1 s
+ExecutionTime = 1.709115 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1179,9 +1168,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916446857e-15, global = -1.916446857e-15, cumulative = -9.565700976e-16
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.647904 s  ClockTime = 1 s
+ExecutionTime = 1.71282 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1203,9 +1192,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.108091742e-15, global = -2.108091742e-15, cumulative = -3.06466184e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.652137 s  ClockTime = 1 s
+ExecutionTime = 1.71655 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1227,9 +1216,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916447204e-15, global = -1.916447204e-15, cumulative = -4.789464323e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.656875 s  ClockTime = 1 s
+ExecutionTime = 1.720279 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1251,9 +1240,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916447356e-16, global = 1.916447356e-16, cumulative = -7.280845886e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.661092 s  ClockTime = 1 s
+ExecutionTime = 1.723995 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1275,9 +1264,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749342483e-16, global = 5.749342483e-16, cumulative = -9.580582879e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.666417 s  ClockTime = 1 s
+ExecutionTime = 1.727729 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1299,9 +1288,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149868573e-15, global = 1.149868573e-15, cumulative = -9.963872403e-15
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.670594 s  ClockTime = 1 s
+ExecutionTime = 1.731464 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1323,9 +1312,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.299737285e-15, global = -2.299737285e-15, cumulative = -1.398841265e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.675694 s  ClockTime = 1 s
+ExecutionTime = 1.735201 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1347,9 +1336,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.533158275e-15, global = -1.533158275e-15, cumulative = -1.590486049e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.679557 s  ClockTime = 1 s
+ExecutionTime = 1.738915 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1371,9 +1360,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916447941e-16, global = 1.916447941e-16, cumulative = -1.398841255e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.684017 s  ClockTime = 1 s
+ExecutionTime = 1.742647 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1395,9 +1384,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832896059e-16, global = -3.832896059e-16, cumulative = -1.456334696e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.688387 s  ClockTime = 1 s
+ExecutionTime = 1.746367 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1419,9 +1408,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149868866e-15, global = -1.149868866e-15, cumulative = -1.398841253e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.69207 s  ClockTime = 1 s
+ExecutionTime = 1.7501 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1443,9 +1432,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448185e-16, global = 1.916448185e-16, cumulative = -1.379676771e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.695632 s  ClockTime = 1 s
+ExecutionTime = 1.753806 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1467,9 +1456,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.108093079e-15, global = -2.108093079e-15, cumulative = -1.609650562e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.699128 s  ClockTime = 1 s
+ExecutionTime = 1.757558 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1491,9 +1480,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.724803484e-15, global = -1.724803484e-15, cumulative = -1.686308494e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.703902 s  ClockTime = 1 s
+ExecutionTime = 1.761275 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1515,9 +1504,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832896745e-16, global = -3.832896745e-16, cumulative = -1.647979527e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.707593 s  ClockTime = 1 s
+ExecutionTime = 1.764987 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1539,9 +1528,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149869055e-15, global = -1.149869055e-15, cumulative = -1.705472979e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.711038 s  ClockTime = 1 s
+ExecutionTime = 1.768712 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1563,9 +1552,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749345417e-16, global = 5.749345417e-16, cumulative = -1.724637464e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.715215 s  ClockTime = 1 s
+ExecutionTime = 1.772455 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1587,9 +1576,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448516e-16, global = -1.916448516e-16, cumulative = -1.839624375e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.719499 s  ClockTime = 1 s
+ExecutionTime = 1.776179 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1611,9 +1600,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = -1.686308491e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.72365 s  ClockTime = 1 s
+ExecutionTime = 1.779887 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1635,9 +1624,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665794369e-16, global = 7.665794369e-16, cumulative = -1.475499145e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.727514 s  ClockTime = 1 s
+ExecutionTime = 1.783615 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1659,9 +1648,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448626e-16, global = -1.916448626e-16, cumulative = -1.360512228e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.731132 s  ClockTime = 1 s
+ExecutionTime = 1.787349 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1683,9 +1672,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.491383253e-15, global = -2.491383253e-15, cumulative = -1.590486067e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.736032 s  ClockTime = 1 s
+ExecutionTime = 1.791076 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1707,9 +1696,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.491383289e-15, global = -2.491383289e-15, cumulative = -1.858788882e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.739915 s  ClockTime = 1 s
+ExecutionTime = 1.79478 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1731,9 +1720,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.108093581e-15, global = 2.108093581e-15, cumulative = -1.820459908e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.743515 s  ClockTime = 1 s
+ExecutionTime = 1.798507 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1755,9 +1744,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.533158987e-15, global = -1.533158987e-15, cumulative = -2.050433756e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.747157 s  ClockTime = 1 s
+ExecutionTime = 1.802226 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1779,9 +1768,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795018e-16, global = -7.665795018e-16, cumulative = -2.031269269e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.751656 s  ClockTime = 1 s
+ExecutionTime = 1.80593 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1803,9 +1792,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795097e-16, global = 7.665795097e-16, cumulative = -2.050433756e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.755795 s  ClockTime = 1 s
+ExecutionTime = 1.809676 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1827,9 +1816,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448792e-16, global = 1.916448792e-16, cumulative = -2.069598244e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.760251 s  ClockTime = 1 s
+ExecutionTime = 1.813395 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1851,9 +1840,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448808e-16, global = 1.916448808e-16, cumulative = -2.203749661e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.764071 s  ClockTime = 1 s
+ExecutionTime = 1.817127 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1875,9 +1864,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.74934647e-16, global = 5.74934647e-16, cumulative = -2.357065567e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.767786 s  ClockTime = 1 s
+ExecutionTime = 1.82093 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1899,9 +1888,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749346511e-16, global = -5.749346511e-16, cumulative = -2.702026358e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.771459 s  ClockTime = 1 s
+ExecutionTime = 1.824658 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1923,9 +1912,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 9.582244248e-16, global = 9.582244248e-16, cumulative = -2.606203915e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.775142 s  ClockTime = 1 s
+ExecutionTime = 1.828392 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1947,9 +1936,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149869317e-15, global = 1.149869317e-15, cumulative = -2.299572097e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.778835 s  ClockTime = 1 s
+ExecutionTime = 1.83212 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1971,9 +1960,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149869323e-15, global = 1.149869323e-15, cumulative = -2.165420676e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.782553 s  ClockTime = 1 s
+ExecutionTime = 1.835826 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -1995,9 +1984,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832897763e-16, global = 3.832897763e-16, cumulative = -1.973775788e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.786221 s  ClockTime = 1 s
+ExecutionTime = 1.839572 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2019,9 +2008,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.91644889e-15, global = -1.91644889e-15, cumulative = -2.184585166e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.789867 s  ClockTime = 1 s
+ExecutionTime = 1.843292 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2043,9 +2032,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448898e-16, global = -1.916448898e-16, cumulative = -1.992940276e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.793545 s  ClockTime = 1 s
+ExecutionTime = 1.847023 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2067,9 +2056,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149869343e-15, global = -1.149869343e-15, cumulative = -2.165420678e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.797245 s  ClockTime = 1 s
+ExecutionTime = 1.850731 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2091,9 +2080,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.724804021e-15, global = -1.724804021e-15, cumulative = -2.184585167e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.800909 s  ClockTime = 1 s
+ExecutionTime = 1.85445 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2115,9 +2104,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.449608053e-15, global = 3.449608053e-15, cumulative = -1.801295383e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.804543 s  ClockTime = 1 s
+ExecutionTime = 1.858181 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2139,9 +2128,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.149869354e-15, global = -1.149869354e-15, cumulative = -1.762966405e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.808207 s  ClockTime = 1 s
+ExecutionTime = 1.861881 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2163,9 +2152,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795717e-16, global = 7.665795717e-16, cumulative = -1.743801915e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.811981 s  ClockTime = 1 s
+ExecutionTime = 1.865616 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2187,9 +2176,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.683028507e-15, global = 2.683028507e-15, cumulative = -1.418005597e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.816018 s  ClockTime = 1 s
+ExecutionTime = 1.869358 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2211,9 +2200,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448938e-15, global = -1.916448938e-15, cumulative = -1.532992533e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.819688 s  ClockTime = 1 s
+ExecutionTime = 1.873082 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2235,9 +2224,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 2.108093836e-15, global = 2.108093836e-15, cumulative = -1.379676618e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.823386 s  ClockTime = 1 s
+ExecutionTime = 1.876796 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2259,9 +2248,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832897891e-16, global = -3.832897891e-16, cumulative = -1.245525191e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.82702 s  ClockTime = 1 s
+ExecutionTime = 1.880518 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2283,9 +2272,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795796e-16, global = -7.665795796e-16, cumulative = -1.513828044e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.830639 s  ClockTime = 1 s
+ExecutionTime = 1.88424 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2307,9 +2296,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795808e-16, global = 7.665795808e-16, cumulative = -1.360512128e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.834442 s  ClockTime = 1 s
+ExecutionTime = 1.88799 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2331,9 +2320,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.724804059e-15, global = -1.724804059e-15, cumulative = -1.628814982e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.838089 s  ClockTime = 1 s
+ExecutionTime = 1.891712 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2355,9 +2344,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.832897915e-16, global = -3.832897915e-16, cumulative = -1.935446815e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.841763 s  ClockTime = 1 s
+ExecutionTime = 1.895459 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2379,9 +2368,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 9.582244798e-16, global = 9.582244798e-16, cumulative = -2.088762732e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.845394 s  ClockTime = 1 s
+ExecutionTime = 1.89918 s  ClockTime = 1 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2403,9 +2392,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = -1.916282325e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.849086 s  ClockTime = 1 s
+ExecutionTime = 1.902884 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2427,9 +2416,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749346891e-16, global = -5.749346891e-16, cumulative = -2.222914159e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.852902 s  ClockTime = 1 s
+ExecutionTime = 1.906621 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2451,9 +2440,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 7.665795862e-16, global = 7.665795862e-16, cumulative = -2.280407628e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.856605 s  ClockTime = 1 s
+ExecutionTime = 1.910346 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2475,9 +2464,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.341514277e-15, global = 1.341514277e-15, cumulative = -2.069598242e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.860227 s  ClockTime = 1 s
+ExecutionTime = 1.914066 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2499,9 +2488,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 5.749346906e-16, global = -5.749346906e-16, cumulative = -2.299572118e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.863881 s  ClockTime = 1 s
+ExecutionTime = 1.917787 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2523,9 +2512,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 3.641253043e-15, global = -3.641253043e-15, cumulative = -2.81701334e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.867528 s  ClockTime = 1 s
+ExecutionTime = 1.921508 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2547,9 +2536,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448971e-16, global = 1.916448971e-16, cumulative = -2.721190891e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.871176 s  ClockTime = 1 s
+ExecutionTime = 1.925242 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2571,9 +2560,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.916448972e-15, global = -1.916448972e-15, cumulative = -2.81701334e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.875093 s  ClockTime = 1 s
+ExecutionTime = 1.92895 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2595,9 +2584,9 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 0, global = 0, cumulative = -2.529545994e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.878903 s  ClockTime = 1 s
+ExecutionTime = 1.93268 s  ClockTime = 2 s
 
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
@@ -2619,7 +2608,7 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 time step continuity errors : sum local = 1.533159179e-15, global = -1.533159179e-15, cumulative = -2.951164768e-14
 diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.884278 s  ClockTime = 1 s
+ExecutionTime = 1.937789 s  ClockTime = 2 s
 
 diagonal:  Solving for age, Initial residual = 0, Final residual = 0, No Iterations 0
 Field age converged in 0 correctors
@@ -2627,29 +2616,33 @@ Field age converged in 0 correctors
 Min/max age:0 0.1158625179
 writeVTK writeVTK(U,p) output:
 Time: 1
-    Internal  : "/home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel/VTK/channel_1.vtk"
+    Internal  : "/home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel/VTK/channel_1.vtk"
     Original cells:1 points:8   Additional cells:0  additional points:0
 
     Writing volVectorField field U
     Writing volScalarField field p
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
 diagonal:  Solving for phaseScalarTransport:Phi.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for s.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
 
-streamlines streamlinesSphere(centre=(000),radius=0.1,nPoints=100,p,U,direction=forward) write:
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward) write:
     Seeded 62 particles
     Sampled 372 locations
-streamlines streamlinesLine(start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,p,U,direction=backward) write:
+
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward) write:
     Seeded 100 particles
     Sampled 600 locations
-streamlines streamlinesPatch(patch=inlet,nPoints=100,p,U) write:
+
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100) write:
     Seeded 100 particles
     Sampled 1200 locations
-streamlines streamlinesPoints(points=((-0.2-0.20)(000)(0.20.20))p,U,direction=forward) write:
+
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward) write:
     Seeded 3 particles
     Sampled 18 locations
+
 End
 

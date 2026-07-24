@@ -1,72 +1,0 @@
-/*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  13
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      binary;
-    class       volScalarField;
-    location    "0.8";
-    object      epsilon;
-}
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-dimensions      [0 2 -3 0 0 0 0];
-
-internalField   nonuniform List<scalar> 
-100
-(õ%∆R?®¢êèfI?Y∫_&BA?Iòœû<?7s¸_ˆ&;?∆	wZU≤:?\≥≤$Óa:?_K¥&Ì9?ó!øv◊⁄8?ÙÌfgÌ6?‡]€™°7?∂ƒ…¨÷{7?¶AfÒT5?4âge¥¿-?[Ω”‡≤ˇ&?◊Q~29%?ÚE´Õ%?™Ê«”%?M§i†.O*?˚y»EB9?e¡6c—È7?^IΩLb;?”3€D<˘-?™A¢ê!?; ¬?N¢ò∫¨/?—Kî¶˜?ƒ<?6Aò?ˇ–ﬁÿã$?ºbøö©í:?«" )N=?JåcÂHB?
-L°±ÅË.?:(s‰&? &ı¯˜l?R-Á?`]•ÙÚ?Lm&˝p?eˇà6ø‚"?ßxyTú$;?Ø—∆{◊æA?a`'bπ—E?3ÖJmÛ®1?)“UÚá?0.÷éig?GaJHQ?å¨î?oväI+¬?cí¬™i"?7ï|Tm;?æ#y±9D?≥ì€m5F?‚HﬁC‹2?ó&& ?0ÓmÉZI?&éW˙?)U≈Z,˜?ÿà”F?#<ÈíM"?
-É˜$5ù;?√Ru‰ÓE?0êX»FC?(5‹˛ÕM1?~ö:â˚¢?RêI≠?∏55Îì?è!ST–?H1$]0(?ÈrZ∫ãJ"?√Û«≈G¿;?«Hî>ÄH?πÊvÖ§÷@?ŒkÅpp,?À¡gKäÙ?´p#ÏJ?Œ«:#å?ó6	7|?<Æ∏"≤?h%Ç ¬M"?ë˘∞ﬁe◊;?ôm/È
-DJ?ÍÜ˝™N??˝ﬁ`.(?˚{iuËΩ?û4J
-µ?õR|»÷£?˛U˛‡ﬂÏ?àTı!Ãˆ?–ú•0S"?–CDÂ;?ΩêìlP;K?NÁ:Û“<?¨*%?<0$?!Î;ﬂ
-?&‘∞Ó<N
-?ÒÂÉ	ro?@®Y„?ÉÎdÂ·Z"?ÈÛµ≠!Ó;?);
-
-boundaryField
-{
-    walls
-    {
-        type            epsilonWallFunction;
-        value           nonuniform List<scalar> 
-20
-(õ%∆R?®¢êèfI?Y∫_&BA?Iòœû<?7s¸_ˆ&;?∆	wZU≤:?\≥≤$Óa:?_K¥&Ì9?ó!øv◊⁄8?ÙÌfgÌ6?ÙÌfgÌ6?˚y»EB9?ºbøö©í:?ßxyTú$;?7ï|Tm;?
-É˜$5ù;?√Û«≈G¿;?ë˘∞ﬁe◊;?–CDÂ;?ÈÛµ≠!Ó;?);
-    }
-    open
-    {
-        type            inletOutlet;
-        inletValue      nonuniform List<scalar> 
-0
-;
-        value           nonuniform List<scalar> 
-0
-;
-    }
-    frontAndBack
-    {
-        type            empty;
-    }
-    procBoundary1to0
-    {
-        type            processor;
-        value           nonuniform List<scalar> 
-10
-(ùK)h"L?!ù%√˚7?î-DóE7?≥≤¸eA‹5?ﬂ*l
-E7?[ö¡›π™9?hh÷ËÜ=?U!Ü‚ﬁ¶A?T7!6>èF?˘E¬˝√¶L?);
-    }
-    procBoundary1to3
-    {
-        type            processor;
-        value           nonuniform List<scalar> 
-10
-(Ov…PøJ?∆8œGK9?aê§2⁄›!?Üâ‰.’$?√tÊ‹ˆq	?«ΩÌ#Ã†	?ª6
-¥J#?ÆmÔ√ãŸ?yPª€e"?&ûzëÙ;?);
-    }
-}
-
-
-// ************************************************************************* //

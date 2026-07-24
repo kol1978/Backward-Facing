@@ -2,17 +2,17 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : foamPostProcess -solver fluid -latestTime
-Date   : Jun 23 2026
-Time   : 23:51:21
+Date   : Jul 24 2026
+Time   : 13:43:46
 Host   : "kol-serv"
-PID    : 1808268
+PID    : 95428
 I/O    : uncollated
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -32,9 +32,8 @@ fieldAverage fieldAverage(U,k,epsilon):
     Reading field kMean
     Reading field epsilonMean
 
-turbulenceFields turbulenceFields(nuEff,R,devTau): storing fields:
+turbulenceFields turbulenceFields(nuEff,R): storing fields:
     nuEff
-    devTau
     R
 
 wallHeatFlux wallHeatFlux:
@@ -81,16 +80,16 @@ Reading set description:
 Reading set description:
     points
 
-streamlines streamlinesSphere(centre=(000),radius=0.1,nPoints=100,p,U,direction=forward):
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesLine(start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,p,U,direction=backward):
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesPatch(patch=inlet,nPoints=100,p,U):
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100):
     automatic track length specified through number of sub cycles : 5
 
-streamlines streamlinesPoints(points=((-0.2-0.20)(000)(0.20.20))p,U,direction=forward):
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward):
     automatic track length specified through number of sub cycles : 5
 
 Reading surface description:
@@ -102,84 +101,90 @@ Reading surface description:
 Reading surface description:
     patch
 
-surfaceFieldValue patchAverage(patch=inlet,k):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchAverage(k,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
+surfaceFieldValue patchIntegrate(epsilon,patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaIntegrate
 
-surfaceFieldValue patchIntegrate(patch=inlet,epsilon):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchFlowRate(patch=inlet) read:
+    number of faces = 1
+    area = 0.1
+    operation = sum
 
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region1 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchFlowRate(patch=inlet):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region2 read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
+surfaceFieldValue faceZoneAverage(U,faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region1:
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue faceZoneFlowRate(faceZone=f0) read:
+    number of faces = 1
+    area = 0.1
+    operation = orientedSum
 
+surfaceFieldValue triSurfaceAverage(p,triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region2:
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj) read:
+    number of faces = 80
+    area = 0.1
+    operation = areaNormalIntegrate
 
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
-surfaceFieldValue faceZoneAverage(faceZone=f0,U):
-    total faces  = 1
-    total area   = 0.1
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2 read:
+    number of faces = 80
+    area = 0.1
+    operation = areaAverage
 
+volFieldValue cellMin(epsilon) read:
+    number of cells = 1
+    volume = 0.1
+    operation = min
 
-surfaceFieldValue faceZoneFlowRate(faceZone=f0):
-    total faces  = 1
-    total area   = 0.1
+volFieldValue cellMax(k) read:
+    number of cells = 1
+    volume = 0.1
+    operation = max
 
+volFieldValue cellMinMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = minMag
 
-surfaceFieldValue triSurfaceAverage(triSurface=mid.obj,p):
-    total faces  = 80
-    total area   = 0.1
+volFieldValue cellMaxMag(U,writeLocation=yes) read:
+    number of cells = 1
+    volume = 0.1
+    operation = maxMag
 
+volFieldValue volAverage(p) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volAverage
 
-surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj):
-    total faces  = 80
-    total area   = 0.1
-
-
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1:
-    total faces  = 80
-    total area   = 0.1
-
-
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region2:
-    total faces  = 80
-    total area   = 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
-
-    - selecting all cells
-    - selected 1 cell(s) with volume 0.1
-
+volFieldValue volIntegrate(rho) read:
+    number of cells = 1
+    volume = 0.1
+    operation = volIntegrate
 
 Time = 1s
 Selecting solver fluid
@@ -195,20 +200,7 @@ Selecting thermodynamics package
 }
 
 Selecting turbulence model type RAS
-Selecting RAS turbulence model kEpsilon
-RAS
-{
-    model           kEpsilon;
-    turbulence      on;
-    printCoeffs     on;
-    Cmu             0.09;
-    C1              1.44;
-    C2              1.92;
-    C3              0;
-    sigmak          1;
-    sigmaEps        1.3;
-}
-
+    Selecting RAS turbulence model kEpsilon
 No MRF models present
 
 Courant Number mean: 0.08630929117 max: 0.08630929117
@@ -248,6 +240,8 @@ writeObjects writeObjects(kEpsilon:G) write:
     kMean                                   volScalarField
     kappa                                   volScalarField
     magSf                                   surfaceScalarField
+    meshSearch                              meshSearch
+    meshSearchBoundBox                      meshSearchBoundBox
     momentumTransport                       kEpsilon
     mu                                      volScalarField
     nearWallDist                            nearWallDist
@@ -271,16 +265,18 @@ writeObjects writeObjects(kEpsilon:G) write:
     solver                                  fluid
     tetBasePtIs                             labelList
     thermophysicalTransport                 eddyDiffusivity
+    zonesGenerator                          zonesGenerator
 
 diagonal:  Solving for age, Initial residual = 0, Final residual = 0, No Iterations 0
 Field age converged in 0 correctors
 
 Min/max age:0 0.115862518
+    functionObjects::age age writing field: age
     functionObjects::components components(U) writing field: Ux
     functionObjects::components components(U) writing field: Uy
     functionObjects::components components(U) writing field: Uz
     functionObjects::CourantNo CourantNo writing field: Co
-    functionObjects::cylindrical cylindrical(origin=(000),axis=(001),U) writing field: cylindrical(U)
+    functionObjects::cylindrical cylindrical(U,origin=(000),axis=(001)) writing field: cylindrical(U)
 --> FOAM Warning : 
     From function virtual bool Foam::functionObjects::ddt::calc()
     in file ddt/ddt.C at line 47
@@ -290,7 +286,7 @@ Min/max age:0 0.115862518
     functionObjects::enstrophy enstrophy writing field: enstrophy
 --> FOAM Warning : 
     From function virtual bool Foam::functionObjects::fieldAverage::execute()
-    in file fieldAverage/fieldAverage.C at line 465
+    in file fieldAverage/fieldAverage.C at line 464
     fieldAverage is not supported with the foamPostProcess utility
 fieldAverage fieldAverage(U,k,epsilon):
     Writing average fields
@@ -310,6 +306,8 @@ fieldAverage fieldAverage(U,k,epsilon):
         Zero flux boundary face not found. Using cell as a reference.
     functionObjects::streamFunction streamFunction writing field: streamFunction
     functionObjects::surfaceInterpolate surfaceInterpolate(rho,result=rhof) writing field: rhof
+    functionObjects::turbulenceFields turbulenceFields(nuEff,R) writing field: nuEff
+    functionObjects::turbulenceFields turbulenceFields(nuEff,R) writing field: R
 turbulenceIntensity turbulenceIntensity write:
     writing object I
     I : min = 0.05, max = 1, average = 0.050164493
@@ -334,7 +332,7 @@ wallShearStress wallShearStress write:
     Writing cell-volumes field Vc to 1
 writeVTK writeVTK(U,p) output:
 Time: 1
-    Internal  : "/home/kol/OpenFOAM/OpenFOAM-12/test/postProcessing/channel/VTK/channel_1.vtk"
+    Internal  : "/home/kol/OpenFOAM/OpenFOAM-13/test/postProcessing/channel/VTK/channel_1.vtk"
     Original cells:1 points:8   Additional cells:0  additional points:0
 
     Writing volVectorField field U
@@ -390,81 +388,85 @@ forceCoeffs forceCoeffsCompressible(patches=(walls),magUInf=20,rhoInf=1.225,lRef
     functionObjects::pressure totalPressureIncompressible(kinematic(p),rhoInf=1.2) writing field: total(kinematic(p))
     functionObjects::pressure totalPressureCompressible writing field: total(p)
     functionObjects::uniform uniform(fieldType=volScalarField,field=alpha.dummy,dimensions=[],value=0.2) writing field: alpha.dummy
-scalarTransport write:
+scalarTransport execute:
 diagonal:  Solving for s, Initial residual = 0, Final residual = 0, No Iterations 0
 
 phaseScalarTransport: Executing
 diagonal:  Solving for phaseScalarTransport:Phi.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
 diagonal:  Solving for s.dummy, Initial residual = 0, Final residual = 0, No Iterations 0
 
-streamlines streamlinesSphere(centre=(000),radius=0.1,nPoints=100,p,U,direction=forward) write:
+streamlines streamlinesSphere(p,U,centre=(000),radius=0.1,nPoints=100,direction=forward) write:
     Seeded 62 particles
     Sampled 372 locations
-streamlines streamlinesLine(start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,p,U,direction=backward) write:
+
+streamlines streamlinesLine(p,U,start=(-0.5-0.5-0.05),end=(0.50.50.05),nPoints=100,direction=backward) write:
     Seeded 100 particles
     Sampled 600 locations
-streamlines streamlinesPatch(patch=inlet,nPoints=100,p,U) write:
+
+streamlines streamlinesPatch(p,U,patch=inlet,nPoints=100) write:
     Seeded 100 particles
     Sampled 1200 locations
-streamlines streamlinesPoints(points=((-0.2-0.20)(000)(0.20.20))p,U,direction=forward) write:
+
+streamlines streamlinesPoints(U,points=((-0.2-0.20)(000)(0.20.20))p,direction=forward) write:
     Seeded 3 particles
     Sampled 18 locations
-surfaceFieldValue patchAverage(patch=inlet,k) write:
-    areaAverage("inlet") of k = 0.279347834
 
-surfaceFieldValue patchIntegrate(patch=inlet,epsilon) write:
-    areaIntegrate("inlet") of epsilon = 0.002426050544
+surfaceFieldValue patchAverage(k,patch=inlet) write:
+    areaAverage(inlet) of k = 0.279347834
+
+surfaceFieldValue patchIntegrate(epsilon,patch=inlet) write:
+    areaIntegrate(inlet) of epsilon = 0.002426050544
 
 surfaceFieldValue patchFlowRate(patch=inlet) write:
-    sum("inlet") of phi = -1
+    sum(inlet) of phi = -1
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region1 write:
-    areaAverage("inlet") of p = 100000.1926
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region1 write:
+    areaAverage(inlet) of p = 100000.1926
 
-surfaceFieldValue patchDifference(patch1=inlet,patch2=outlet,p).region2 write:
-    areaAverage("outlet") of p = 100000
+surfaceFieldValue patchDifference(p,patch1=inlet,patch2=outlet).region2 write:
+    areaAverage(outlet) of p = 100000
 
-fieldValueDelta patchDifference(patch1=inlet,patch2=outlet,p) write:
+fieldValueDelta patchDifference(p,patch1=inlet,patch2=outlet) write:
     subtract(p) = 0.1926
 
-surfaceFieldValue faceZoneAverage(faceZone=f0,U) write:
-    areaAverage("f0") of U = (8.630918592 0 0)
+surfaceFieldValue faceZoneAverage(U,faceZone=f0) write:
+    areaAverage(f0) of U = (8.630918592 0 0)
 
 surfaceFieldValue faceZoneFlowRate(faceZone=f0) write:
-    orientedSum("f0") of phi = -1
+    orientedSum(f0) of phi = -1
 
-surfaceFieldValue triSurfaceAverage(triSurface=mid.obj,p) write:
-    areaAverage("triSurfaceAverage(triSurface=mid.obj,p)") of p = 100000.1566
+surfaceFieldValue triSurfaceAverage(p,triSurface=mid.obj) write:
+    areaAverage(triSurfaceAverage(p,triSurface=mid.obj)) of p = 100000.1566
 
 surfaceFieldValue triSurfaceVolumetricFlowRate(triSurface=mid.obj) write:
-    areaNormalIntegrate("triSurfaceVolumetricFlowRate(triSurface=mid.obj)") of U = -0.5393670191
+    areaNormalIntegrate(triSurfaceVolumetricFlowRate(triSurface=mid.obj)) of U = -0.5393670191
 
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1 write:
-    areaAverage("triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1") of p = 100000.1902
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1 write:
+    areaAverage(triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region1) of p = 100000.1902
 
-surfaceFieldValue triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region2 write:
-    areaAverage("triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region2") of p = 100000.1036
+surfaceFieldValue triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2 write:
+    areaAverage(triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj).region2) of p = 100000.1036
 
-fieldValueDelta triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p) write:
+fieldValueDelta triSurfaceDifference(p,name1=nearInlet.obj,name2=nearOutlet.obj) write:
     subtract(p) = 0.08666999999
 
 volFieldValue cellMin(epsilon) write:
-    min() of epsilon = 0.1115927051 at location (0 0 0) in cell 0
+    min(all) of epsilon = 0.1115927051 at location (0 0 0) in cell 0
 
 volFieldValue cellMax(k) write:
-    max() of k = 0.2810915044 at location (0 0 0) in cell 0
+    max(all) of k = 0.2810915044 at location (0 0 0) in cell 0
 
 volFieldValue cellMinMag(U,writeLocation=yes) write:
-    minMag() of U = 8.629423898 at location (0 0 0) in cell 0
+    minMag(all) of U = 8.629423898 at location (0 0 0) in cell 0
 
 volFieldValue cellMaxMag(U,writeLocation=yes) write:
-    maxMag() of U = 8.629423898 at location (0 0 0) in cell 0
+    maxMag(all) of U = 8.629423898 at location (0 0 0) in cell 0
 
 volFieldValue volAverage(p) write:
-    volAverage() of p = 100000.1926
+    volAverage(all) of p = 100000.1926
 
 volFieldValue volIntegrate(rho) write:
-    volIntegrate() of rho = 0.1158625186
+    volIntegrate(all) of rho = 0.1158625186
 
 
 End

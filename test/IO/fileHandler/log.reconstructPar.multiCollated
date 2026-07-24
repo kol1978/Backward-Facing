@@ -2,15 +2,15 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
+    \\  /    A nd           | Version:  13
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-Build  : 12-0b487fc98b88
+Build  : 13-18870c24d21c
 Exec   : reconstructPar -latestTime -fileHandler collated
-Date   : Jun 23 2026
-Time   : 23:16:25
+Date   : Jul 24 2026
+Time   : 13:07:29
 Host   : "kol-serv"
-PID    : 1790601
+PID    : 82556
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -18,8 +18,8 @@ I/O    : collated (maxThreadFileBufferSize 2e+09)
          threading by setting maxThreadFileBufferSize to 0 in
          $FOAM_ETC/controlDict
          IO nodes:
-             "kol-serv.1790601"
-Case   : /home/kol/OpenFOAM/OpenFOAM-12/test/IO/fileHandler
+             "kol-serv.82556"
+Case   : /home/kol/OpenFOAM/OpenFOAM-13/test/IO/fileHandler
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStamp (fileModificationSkew 10)
