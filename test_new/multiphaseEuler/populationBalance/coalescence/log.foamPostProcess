@@ -1,0 +1,242 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : foamPostProcess -solver multiphaseEuler -func populationBalanceSetPhaseSizeDistribution
+Date   : Jul 24 2026
+Time   : 16:36:58
+Host   : "kol-serv"
+PID    : 96207
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescence
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Constructing functionObjects from system/functions
+    Selecting populationBalanceSetSizeDistribution with name populationBalanceSetPhaseSizeDistribution
+        Selecting distribution type multiFixedValue
+            min/average/max value = 0.0264722/0.371302/0.810482
+Time = 0s
+
+Selecting solver multiphaseEuler
+--> FOAM Warning: 
+    From function void Foam::solution::readDict()
+    in file matrices/solution/solution.C at line 69
+    Reading "/home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/coalescence/system/fvSolution" at line 63
+    Neither fields nor equations specified
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air3
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air3
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation exponential for dSph
+    Phase: air1
+        Group #0: dSph = 0.0264722, min/average/max fraction = 0/0/0
+        Group #1: dSph = 0.0285163, min/average/max fraction = 0/0/0
+        Group #2: dSph = 0.0307183, min/average/max fraction = 0/0/0
+        Group #3: dSph = 0.0330903, min/average/max fraction = 0/0/0
+        Group #4: dSph = 0.0356454, min/average/max fraction = 0/0/0
+        Group #5: dSph = 0.0383978, min/average/max fraction = 0/0/0
+        Group #6: dSph = 0.0413628, min/average/max fraction = 0/0/0
+        Group #7: dSph = 0.0445567, min/average/max fraction = 0/0/0
+        Group #8: dSph = 0.0479973, min/average/max fraction = 0/0/0
+        Group #9: dSph = 0.0517035, min/average/max fraction = 0/0/0
+        Group #10: dSph = 0.0556959, min/average/max fraction = 0/0/0
+        Group #11: dSph = 0.0599966, min/average/max fraction = 0/0/0
+        Group #12: dSph = 0.0646294, min/average/max fraction = 0/0/0
+        Group #13: dSph = 0.0696199, min/average/max fraction = 0/0/0
+        Group #14: dSph = 0.0749958, min/average/max fraction = 0/0/0
+        Group #15: dSph = 0.0807867, min/average/max fraction = 0/0/0
+        Group #16: dSph = 0.0870249, min/average/max fraction = 0/0/0
+        Group #17: dSph = 0.0937447, min/average/max fraction = 0/0/0
+        Group #18: dSph = 0.100983, min/average/max fraction = 0/0/0
+        Group #19: dSph = 0.108781, min/average/max fraction = 0/0/0
+        Group #20: dSph = 0.117181, min/average/max fraction = 0/0/0
+        Group #21: dSph = 0.126229, min/average/max fraction = 0/0/0
+        Group #22: dSph = 0.135976, min/average/max fraction = 0/0/0
+        Group #23: dSph = 0.146476, min/average/max fraction = 0/0/0
+        Group #24: dSph = 0.157787, min/average/max fraction = 0/0/0
+        Group #25: dSph = 0.16997, min/average/max fraction = 0/0/0
+        Group #26: dSph = 0.183095, min/average/max fraction = 0/0/0
+        Group #27: dSph = 0.197233, min/average/max fraction = 0/0/0
+        Group #28: dSph = 0.212463, min/average/max fraction = 0/0/0
+        Group #29: dSph = 0.228869, min/average/max fraction = 0/0/0
+        Group #30: dSph = 0.246542, min/average/max fraction = 0/0/0
+        Group #31: dSph = 0.265579, min/average/max fraction = 0/0/0
+        Group #32: dSph = 0.286086, min/average/max fraction = 0/0/0
+        Group #33: dSph = 0.308177, min/average/max fraction = 0/0/0
+        Group #34: dSph = 0.331974, min/average/max fraction = 0/0/0
+        Group #35: dSph = 0.357608, min/average/max fraction = 0/0/0
+        Group #36: dSph = 0.385221, min/average/max fraction = 0/0/0
+        Group #37: dSph = 0.414967, min/average/max fraction = 0/0/0
+        Group #38: dSph = 0.44701, min/average/max fraction = 0/0/0
+        Group #39: dSph = 0.481527, min/average/max fraction = 0/0/0
+        Group #40: dSph = 0.518709, min/average/max fraction = 0/0/0
+        Group #41: dSph = 0.558762, min/average/max fraction = 0/0/0
+        Group #42: dSph = 0.601908, min/average/max fraction = 0/0/0
+        Group #43: dSph = 0.648386, min/average/max fraction = 0/0/0
+        Group #44: dSph = 0.698453, min/average/max fraction = 0/0/0
+        Group #45: dSph = 0.752385, min/average/max fraction = 0/0/0
+        Group #46: dSph = 0.810482, min/average/max fraction = 0/0/0
+    Phase: air2
+        Group #47: dSph = 0.873066, min/average/max fraction = 1/1/1
+        Group #48: dSph = 0.940482, min/average/max fraction = 0/0/0
+        Group #49: dSph = 1.0131, min/average/max fraction = 0/0/0
+        Group #50: dSph = 1.09133, min/average/max fraction = 0/0/0
+        Group #51: dSph = 1.1756, min/average/max fraction = 0/0/0
+        Group #52: dSph = 1.26638, min/average/max fraction = 0/0/0
+        Group #53: dSph = 1.36417, min/average/max fraction = 0/0/0
+        Group #54: dSph = 1.4695, min/average/max fraction = 0/0/0
+        Group #55: dSph = 1.58297, min/average/max fraction = 0/0/0
+    Phase: air3
+        Group #56: dSph = 1.70521, min/average/max fraction = 1/1/1
+        Group #57: dSph = 1.83688, min/average/max fraction = 0/0/0
+        Group #58: dSph = 1.97872, min/average/max fraction = 0/0/0
+        Group #59: dSph = 2.13151, min/average/max fraction = 0/0/0
+        Group #60: dSph = 2.2961, min/average/max fraction = 0/0/0
+        Group #61: dSph = 2.4734, min/average/max fraction = 0/0/0
+        Group #62: dSph = 2.66439, min/average/max fraction = 0/0/0
+        Group #63: dSph = 2.87012, min/average/max fraction = 0/0/0
+        Group #64: dSph = 3.09175, min/average/max fraction = 0/0/0
+        Group #65: dSph = 3.33048, min/average/max fraction = 0/0/0
+        Group #66: dSph = 3.58765, min/average/max fraction = 0/0/0
+        Group #67: dSph = 3.86468, min/average/max fraction = 0/0/0
+        Group #68: dSph = 4.1631, min/average/max fraction = 0/0/0
+        Group #69: dSph = 4.48457, min/average/max fraction = 0/0/0
+        Group #70: dSph = 4.83085, min/average/max fraction = 0/0/0
+    Selecting shapeModel spherical
+    Selecting coalescenceModel constant
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.0919753/0.0919753/0.0919753
+    air2 min/Sauter-mean/max diameter = 0.873066/0.873066/0.873066
+    air3 min/Sauter-mean/max diameter = 1.70521/1.70521/1.70521
+Courant Number mean: 0 max: 0
+
+populationBalanceSetPhaseSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air1
+    Writing f16.air1
+    Writing f17.air1
+    Writing f18.air1
+    Writing f19.air1
+    Writing f20.air1
+    Writing f21.air1
+    Writing f22.air1
+    Writing f23.air1
+    Writing f24.air1
+    Writing f25.air1
+    Writing f26.air1
+    Writing f27.air1
+    Writing f28.air1
+    Writing f29.air1
+    Writing f30.air1
+    Writing f31.air1
+    Writing f32.air1
+    Writing f33.air1
+    Writing f34.air1
+    Writing f35.air1
+    Writing f36.air1
+    Writing f37.air1
+    Writing f38.air1
+    Writing f39.air1
+    Writing f40.air1
+    Writing f41.air1
+    Writing f42.air1
+    Writing f43.air1
+    Writing f44.air1
+    Writing f45.air1
+    Writing f46.air1
+
+End
+

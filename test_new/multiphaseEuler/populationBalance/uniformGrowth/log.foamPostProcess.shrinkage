@@ -1,0 +1,1561 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : foamPostProcess -solver multiphaseEuler -func populationBalanceSetSizeDistribution
+Date   : Jul 24 2026
+Time   : 16:40:02
+Host   : "kol-serv"
+PID    : 96900
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/multiphaseEuler/populationBalance/uniformGrowth
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Constructing functionObjects from system/functions
+    Selecting populationBalanceSetSizeDistribution with name populationBalanceSetSizeDistribution
+        Selecting distribution type multiFixedValue
+            min/average/max value = 0.0034/0.00362749864985/0.0038
+Time = 0s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+    Calculating face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 0/0/0
+        Group #1: dSph = 0.0011, min/average/max fraction = 0/0/0
+        Group #2: dSph = 0.0012, min/average/max fraction = 0/0/0
+        Group #3: dSph = 0.0013, min/average/max fraction = 0/0/0
+        Group #4: dSph = 0.0014, min/average/max fraction = 0/0/0
+        Group #5: dSph = 0.0015, min/average/max fraction = 0/0/0
+        Group #6: dSph = 0.0016, min/average/max fraction = 0/0/0
+        Group #7: dSph = 0.0017, min/average/max fraction = 0/0/0
+        Group #8: dSph = 0.0018, min/average/max fraction = 0/0/0
+        Group #9: dSph = 0.0019, min/average/max fraction = 0/0/0
+        Group #10: dSph = 0.002, min/average/max fraction = 0/0/0
+        Group #11: dSph = 0.0021, min/average/max fraction = 0/0/0
+        Group #12: dSph = 0.0022, min/average/max fraction = 0/0/0
+        Group #13: dSph = 0.0023, min/average/max fraction = 0/0/0
+        Group #14: dSph = 0.0024, min/average/max fraction = 0/0/0
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0/0/0
+        Group #16: dSph = 0.0026, min/average/max fraction = 0/0/0
+        Group #17: dSph = 0.0027, min/average/max fraction = 0/0/0
+        Group #18: dSph = 0.0028, min/average/max fraction = 0/0/0
+        Group #19: dSph = 0.0029, min/average/max fraction = 0/0/0
+        Group #20: dSph = 0.003, min/average/max fraction = 0/0/0
+        Group #21: dSph = 0.0031, min/average/max fraction = 0/0/0
+        Group #22: dSph = 0.0032, min/average/max fraction = 0/0/0
+        Group #23: dSph = 0.0033, min/average/max fraction = 0/0/0
+        Group #24: dSph = 0.0034, min/average/max fraction = 0/0/0
+        Group #25: dSph = 0.0035, min/average/max fraction = 0/0/0
+        Group #26: dSph = 0.0036, min/average/max fraction = 0/0/0
+        Group #27: dSph = 0.0037, min/average/max fraction = 0/0/0
+        Group #28: dSph = 0.0038, min/average/max fraction = 0/0/0
+        Group #29: dSph = 0.0039, min/average/max fraction = 0/0/0
+        Group #30: dSph = 0.004, min/average/max fraction = 0/0/0
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00158396616725/0.00158396616725/0.00158396616725
+    air2 min/Sauter-mean/max diameter = 0.00318354197187/0.00318354197187/0.00318354197187
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.1s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 1.36506035176e-159/1.36506035176e-159/1.36506035176e-159
+        Group #1: dSph = 0.0011, min/average/max fraction = 4.41691350735e-158/4.41691350735e-158/4.41691350735e-158
+        Group #2: dSph = 0.0012, min/average/max fraction = 5.15089738246e-157/5.15089738246e-157/5.15089738246e-157
+        Group #3: dSph = 0.0013, min/average/max fraction = 3.06483627337e-156/3.06483627337e-156/3.06483627337e-156
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.09574630974e-155/1.09574630974e-155/1.09574630974e-155
+        Group #5: dSph = 0.0015, min/average/max fraction = 2.60812999446e-155/2.60812999446e-155/2.60812999446e-155
+        Group #6: dSph = 0.0016, min/average/max fraction = 4.45780389382e-155/4.45780389382e-155/4.45780389382e-155
+        Group #7: dSph = 0.0017, min/average/max fraction = 5.83136283329e-155/5.83136283329e-155/5.83136283329e-155
+        Group #8: dSph = 0.0018, min/average/max fraction = 6.20324846487e-155/6.20324846487e-155/6.20324846487e-155
+        Group #9: dSph = 0.0019, min/average/max fraction = 2.71404522751e-18/2.71404522751e-18/2.71404522751e-18
+        Group #10: dSph = 0.002, min/average/max fraction = 0.00509217939092/0.00509217939092/0.00509217939092
+        Group #11: dSph = 0.0021, min/average/max fraction = 0.0248624026088/0.0248624026088/0.0248624026088
+        Group #12: dSph = 0.0022, min/average/max fraction = 0.0612029313669/0.0612029313669/0.0612029313669
+        Group #13: dSph = 0.0023, min/average/max fraction = 0.105731257147/0.105731257147/0.105731257147
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.150499505908/0.150499505908/0.150499505908
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.195516482632/0.195516482632/0.195516482632
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.242793075569/0.242793075569/0.242793075569
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.2956911701/0.2956911701/0.2956911701
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.355854662146/0.355854662146/0.355854662146
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.303773393582/0.303773393582/0.303773393582
+        Group #20: dSph = 0.003, min/average/max fraction = 0.173742084323/0.173742084323/0.173742084323
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.0700000566547/0.0700000566547/0.0700000566547
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.0209604018472/0.0209604018472/0.0209604018472
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.00486484606021/0.00486484606021/0.00486484606021
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.000903573886509/0.000903573886509/0.000903573886509
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.000137642358362/0.000137642358362/0.000137642358362
+        Group #26: dSph = 0.0036, min/average/max fraction = 1.75325499689e-05/1.75325499689e-05/1.75325499689e-05
+        Group #27: dSph = 0.0037, min/average/max fraction = 1.89683759928e-06/1.89683759928e-06/1.89683759928e-06
+        Group #28: dSph = 0.0038, min/average/max fraction = 1.7656337541e-07/1.7656337541e-07/1.7656337541e-07
+        Group #29: dSph = 0.0039, min/average/max fraction = 1.42938698373e-08/1.42938698373e-08/1.42938698373e-08
+        Group #30: dSph = 0.004, min/average/max fraction = 1.08337696836e-09/1.08337696836e-09/1.08337696836e-09
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00230236730678/0.00230236730678/0.00230236730678
+    air2 min/Sauter-mean/max diameter = 0.00276558605987/0.00276558605987/0.00276558605987
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.2s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 8.68811038011e-164/8.68811038011e-164/8.68811038011e-164
+        Group #1: dSph = 0.0011, min/average/max fraction = 1.50297017834e-161/1.50297017834e-161/1.50297017834e-161
+        Group #2: dSph = 0.0012, min/average/max fraction = 7.35482502094e-160/7.35482502094e-160/7.35482502094e-160
+        Group #3: dSph = 0.0013, min/average/max fraction = 1.54672359215e-158/1.54672359215e-158/1.54672359215e-158
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.7151612049e-157/1.7151612049e-157/1.7151612049e-157
+        Group #5: dSph = 0.0015, min/average/max fraction = 1.13727280997e-156/1.13727280997e-156/1.13727280997e-156
+        Group #6: dSph = 0.0016, min/average/max fraction = 4.9162574143e-156/4.9162574143e-156/4.9162574143e-156
+        Group #7: dSph = 0.0017, min/average/max fraction = 1.47715923787e-155/1.47715923787e-155/1.47715923787e-155
+        Group #8: dSph = 0.0018, min/average/max fraction = 3.2447465509e-155/3.2447465509e-155/3.2447465509e-155
+        Group #9: dSph = 0.0019, min/average/max fraction = 1.23363210009e-19/1.23363210009e-19/1.23363210009e-19
+        Group #10: dSph = 0.002, min/average/max fraction = 0.000301528344222/0.000301528344222/0.000301528344222
+        Group #11: dSph = 0.0021, min/average/max fraction = 0.00283988387897/0.00283988387897/0.00283988387897
+        Group #12: dSph = 0.0022, min/average/max fraction = 0.012439969478/0.012439969478/0.012439969478
+        Group #13: dSph = 0.0023, min/average/max fraction = 0.0345619984628/0.0345619984628/0.0345619984628
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.0703363253388/0.0703363253388/0.0703363253388
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.147544692597/0.147544692597/0.147544692597
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.20932204953/0.20932204953/0.20932204953
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.272296049495/0.272296049495/0.272296049495
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.337385075873/0.337385075873/0.337385075873
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.374062295727/0.374062295727/0.374062295727
+        Group #20: dSph = 0.003, min/average/max fraction = 0.338641975487/0.338641975487/0.338641975487
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.240310531376/0.240310531376/0.240310531376
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.133611693223/0.133611693223/0.133611693223
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.0590919794557/0.0590919794557/0.0590919794557
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.0211756565659/0.0211756565659/0.0211756565659
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.0062571196387/0.0062571196387/0.0062571196387
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.00154831693843/0.00154831693843/0.00154831693843
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.000325163804687/0.000325163804687/0.000325163804687
+        Group #28: dSph = 0.0038, min/average/max fraction = 5.86283833787e-05/5.86283833787e-05/5.86283833787e-05
+        Group #29: dSph = 0.0039, min/average/max fraction = 9.16661433305e-06/9.16661433305e-06/9.16661433305e-06
+        Group #30: dSph = 0.004, min/average/max fraction = 1.42274976743e-06/1.42274976743e-06/1.42274976743e-06
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00233980341373/0.00233980341373/0.00233980341373
+    air2 min/Sauter-mean/max diameter = 0.00286135614989/0.00286135614989/0.00286135614989
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.3s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 6.57666263956e-168/6.57666263956e-168/6.57666263956e-168
+        Group #1: dSph = 0.0011, min/average/max fraction = 5.2791094879e-165/5.2791094879e-165/5.2791094879e-165
+        Group #2: dSph = 0.0012, min/average/max fraction = 9.01007120228e-163/9.01007120228e-163/9.01007120228e-163
+        Group #3: dSph = 0.0013, min/average/max fraction = 5.44871124815e-161/5.44871124815e-161/5.44871124815e-161
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.51667289527e-159/1.51667289527e-159/1.51667289527e-159
+        Group #5: dSph = 0.0015, min/average/max fraction = 2.28388112296e-158/2.28388112296e-158/2.28388112296e-158
+        Group #6: dSph = 0.0016, min/average/max fraction = 2.07534229395e-157/2.07534229395e-157/2.07534229395e-157
+        Group #7: dSph = 0.0017, min/average/max fraction = 1.2310398683e-156/1.2310398683e-156/1.2310398683e-156
+        Group #8: dSph = 0.0018, min/average/max fraction = 5.0579554784e-156/5.0579554784e-156/5.0579554784e-156
+        Group #9: dSph = 0.0019, min/average/max fraction = 6.63481502531e-21/6.63481502531e-21/6.63481502531e-21
+        Group #10: dSph = 0.002, min/average/max fraction = 2.11219604829e-05/2.11219604829e-05/2.11219604829e-05
+        Group #11: dSph = 0.0021, min/average/max fraction = 0.000319284264288/0.000319284264288/0.000319284264288
+        Group #12: dSph = 0.0022, min/average/max fraction = 0.00217003899989/0.00217003899989/0.00217003899989
+        Group #13: dSph = 0.0023, min/average/max fraction = 0.00899328543394/0.00899328543394/0.00899328543394
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.026035212457/0.026035212457/0.026035212457
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.0684529976153/0.0684529976153/0.0684529976153
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.121980463611/0.121980463611/0.121980463611
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.186321505149/0.186321505149/0.186321505149
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.255244238942/0.255244238942/0.255244238942
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.317699700412/0.317699700412/0.317699700412
+        Group #20: dSph = 0.003, min/average/max fraction = 0.348813361402/0.348813361402/0.348813361402
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.324434772498/0.324434772498/0.324434772498
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.249548734676/0.249548734676/0.249548734676
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.157802342789/0.157802342789/0.157802342789
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.0824276996787/0.0824276996787/0.0824276996787
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.0358993672992/0.0358993672992/0.0358993672992
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.0131755535917/0.0131755535917/0.0131755535917
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.0041177664349/0.0041177664349/0.0041177664349
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.00110659865341/0.00110659865341/0.00110659865341
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.00025798333228/0.00025798333228/0.00025798333228
+        Group #30: dSph = 0.004, min/average/max fraction = 6.37933222705e-05/6.37933222705e-05/6.37933222705e-05
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00235988428809/0.00235988428809/0.00235988428809
+    air2 min/Sauter-mean/max diameter = 0.0029673754101/0.0029673754101/0.0029673754101
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.4s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 5.40878544206e-172/5.40878544206e-172/5.40878544206e-172
+        Group #1: dSph = 0.0011, min/average/max fraction = 1.95695691366e-168/1.95695691366e-168/1.95695691366e-168
+        Group #2: dSph = 0.0012, min/average/max fraction = 1.10320770934e-165/1.10320770934e-165/1.10320770934e-165
+        Group #3: dSph = 0.0013, min/average/max fraction = 1.7809295525e-163/1.7809295525e-163/1.7809295525e-163
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.14075597499e-161/1.14075597499e-161/1.14075597499e-161
+        Group #5: dSph = 0.0015, min/average/max fraction = 3.55336851912e-160/3.55336851912e-160/3.55336851912e-160
+        Group #6: dSph = 0.0016, min/average/max fraction = 6.1708591507e-159/6.1708591507e-159/6.1708591507e-159
+        Group #7: dSph = 0.0017, min/average/max fraction = 6.5820237687e-158/6.5820237687e-158/6.5820237687e-158
+        Group #8: dSph = 0.0018, min/average/max fraction = 4.63203379467e-157/4.63203379467e-157/4.63203379467e-157
+        Group #9: dSph = 0.0019, min/average/max fraction = 3.85229265398e-22/3.85229265398e-22/3.85229265398e-22
+        Group #10: dSph = 0.002, min/average/max fraction = 1.59688048679e-06/1.59688048679e-06/1.59688048679e-06
+        Group #11: dSph = 0.0021, min/average/max fraction = 3.55642581798e-05/3.55642581798e-05/3.55642581798e-05
+        Group #12: dSph = 0.0022, min/average/max fraction = 0.000347879085725/0.000347879085725/0.000347879085725
+        Group #13: dSph = 0.0023, min/average/max fraction = 0.00202534545869/0.00202534545869/0.00202534545869
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.00802105816128/0.00802105816128/0.00802105816128
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.0232340748571/0.0232340748571/0.0232340748571
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.052913449984/0.052913449984/0.052913449984
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.0991034622857/0.0991034622857/0.0991034622857
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.158958537608/0.158958537608/0.158958537608
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.224864614659/0.224864614659/0.224864614659
+        Group #20: dSph = 0.003, min/average/max fraction = 0.282454551753/0.282454551753/0.282454551753
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.310655635055/0.310655635055/0.310655635055
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.293344300235/0.293344300235/0.293344300235
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.234675762939/0.234675762939/0.234675762939
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.158351646857/0.158351646857/0.158351646857
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.0903075649397/0.0903075649397/0.0903075649397
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.0437732411339/0.0437732411339/0.0437732411339
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.0181631675315/0.0181631675315/0.0181631675315
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.0065008914016/0.0065008914016/0.0065008914016
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.00202203024202/0.00202203024202/0.00202203024202
+        Group #30: dSph = 0.004, min/average/max fraction = 0.000717095934199/0.000717095934199/0.000717095934199
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00237156250064/0.00237156250064/0.00237156250064
+    air2 min/Sauter-mean/max diameter = 0.0030785939452/0.0030785939452/0.0030785939452
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.5s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 4.60670727218e-176/4.60670727218e-176/4.60670727218e-176
+        Group #1: dSph = 0.0011, min/average/max fraction = 7.45777638561e-172/7.45777638561e-172/7.45777638561e-172
+        Group #2: dSph = 0.0012, min/average/max fraction = 1.36320967144e-168/1.36320967144e-168/1.36320967144e-168
+        Group #3: dSph = 0.0013, min/average/max fraction = 5.69348901104e-166/5.69348901104e-166/5.69348901104e-166
+        Group #4: dSph = 0.0014, min/average/max fraction = 8.04788182885e-164/8.04788182885e-164/8.04788182885e-164
+        Group #5: dSph = 0.0015, min/average/max fraction = 4.93720672501e-162/4.93720672501e-162/4.93720672501e-162
+        Group #6: dSph = 0.0016, min/average/max fraction = 1.55359773664e-160/1.55359773664e-160/1.55359773664e-160
+        Group #7: dSph = 0.0017, min/average/max fraction = 2.81982044224e-159/2.81982044224e-159/2.81982044224e-159
+        Group #8: dSph = 0.0018, min/average/max fraction = 3.21609116772e-158/3.21609116772e-158/3.21609116772e-158
+        Group #9: dSph = 0.0019, min/average/max fraction = 2.30240932363e-23/2.30240932363e-23/2.30240932363e-23
+        Group #10: dSph = 0.002, min/average/max fraction = 1.24243642303e-07/1.24243642303e-07/1.24243642303e-07
+        Group #11: dSph = 0.0021, min/average/max fraction = 3.88309307914e-06/3.88309307914e-06/3.88309307914e-06
+        Group #12: dSph = 0.0022, min/average/max fraction = 5.22313875195e-05/5.22313875195e-05/5.22313875195e-05
+        Group #13: dSph = 0.0023, min/average/max fraction = 0.000410203746035/0.000410203746035/0.000410203746035
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.00214971155331/0.00214971155331/0.00214971155331
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.00663588686103/0.00663588686103/0.00663588686103
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.0191229020666/0.0191229020666/0.0191229020666
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.0441994382613/0.0441994382613/0.0441994382613
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.0849098003652/0.0849098003652/0.0849098003652
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.139752732084/0.139752732084/0.139752732084
+        Group #20: dSph = 0.003, min/average/max fraction = 0.200943402656/0.200943402656/0.200943402656
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.253612402316/0.253612402316/0.253612402316
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.279182807389/0.279182807389/0.279182807389
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.265524088155/0.265524088155/0.265524088155
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.216725504206/0.216725504206/0.216725504206
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.151490366146/0.151490366146/0.151490366146
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.0908380391892/0.0908380391892/0.0908380391892
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.04692006897/0.04692006897/0.04692006897
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.0209901665822/0.0209901665822/0.0209901665822
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.0081812742549/0.0081812742549/0.0081812742549
+        Group #30: dSph = 0.004, min/average/max fraction = 0.00393171864172/0.00393171864172/0.00393171864172
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00237893743174/0.00237893743174/0.00237893743174
+    air2 min/Sauter-mean/max diameter = 0.00318810614682/0.00318810614682/0.00318810614682
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.6s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 3.98506489763e-180/3.98506489763e-180/3.98506489763e-180
+        Group #1: dSph = 0.0011, min/average/max fraction = 2.87937416299e-175/2.87937416299e-175/2.87937416299e-175
+        Group #2: dSph = 0.0012, min/average/max fraction = 1.69516770288e-171/1.69516770288e-171/1.69516770288e-171
+        Group #3: dSph = 0.0013, min/average/max fraction = 1.8065517018e-168/1.8065517018e-168/1.8065517018e-168
+        Group #4: dSph = 0.0014, min/average/max fraction = 5.51560680925e-166/5.51560680925e-166/5.51560680925e-166
+        Group #5: dSph = 0.0015, min/average/max fraction = 6.48196060346e-164/6.48196060346e-164/6.48196060346e-164
+        Group #6: dSph = 0.0016, min/average/max fraction = 3.57911595733e-162/3.57911595733e-162/3.57911595733e-162
+        Group #7: dSph = 0.0017, min/average/max fraction = 1.06762191097e-160/1.06762191097e-160/1.06762191097e-160
+        Group #8: dSph = 0.0018, min/average/max fraction = 1.90330241277e-159/1.90330241277e-159/1.90330241277e-159
+        Group #9: dSph = 0.0019, min/average/max fraction = 1.39023470481e-24/1.39023470481e-24/1.39023470481e-24
+        Group #10: dSph = 0.002, min/average/max fraction = 9.76387097418e-09/9.76387097418e-09/9.76387097418e-09
+        Group #11: dSph = 0.0021, min/average/max fraction = 4.15262345312e-07/4.15262345312e-07/4.15262345312e-07
+        Group #12: dSph = 0.0022, min/average/max fraction = 7.45441941426e-06/7.45441941426e-06/7.45441941426e-06
+        Group #13: dSph = 0.0023, min/average/max fraction = 7.67827303792e-05/7.67827303792e-05/7.67827303792e-05
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.000519223666232/0.000519223666232/0.000519223666232
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.00170448606959/0.00170448606959/0.00170448606959
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.00612058034445/0.00612058034445/0.00612058034445
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.0173383639562/0.0173383639562/0.0173383639562
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.0400164922672/0.0400164922672/0.0400164922672
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.0774327262544/0.0774327262544/0.0774327262544
+        Group #20: dSph = 0.003, min/average/max fraction = 0.128494435174/0.128494435174/0.128494435174
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.185361835266/0.185361835266/0.185361835266
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.233407615158/0.233407615158/0.233407615158
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.255979476719/0.255979476719/0.255979476719
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.243524496994/0.243524496994/0.243524496994
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.20043305607/0.20043305607/0.20043305607
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.142691424047/0.142691424047/0.142691424047
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.0880478390263/0.0880478390263/0.0880478390263
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.0472615140483/0.0472615140483/0.0472615140483
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.0221686591082/0.0221686591082/0.0221686591082
+        Group #30: dSph = 0.004, min/average/max fraction = 0.0139489454533/0.0139489454533/0.0139489454533
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00238390430121/0.00238390430121/0.00238390430121
+    air2 min/Sauter-mean/max diameter = 0.00329250460954/0.00329250460954/0.00329250460954
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.7s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 3.481504177e-184/3.481504177e-184/3.481504177e-184
+        Group #1: dSph = 0.0011, min/average/max fraction = 1.12104330517e-178/1.12104330517e-178/1.12104330517e-178
+        Group #2: dSph = 0.0012, min/average/max fraction = 2.11964099955e-174/2.11964099955e-174/2.11964099955e-174
+        Group #3: dSph = 0.0013, min/average/max fraction = 5.72739646928e-171/5.72739646928e-171/5.72739646928e-171
+        Group #4: dSph = 0.0014, min/average/max fraction = 3.73438906757e-168/3.73438906757e-168/3.73438906757e-168
+        Group #5: dSph = 0.0015, min/average/max fraction = 8.27150539548e-166/8.27150539548e-166/8.27150539548e-166
+        Group #6: dSph = 0.0016, min/average/max fraction = 7.85387683434e-164/7.85387683434e-164/7.85387683434e-164
+        Group #7: dSph = 0.0017, min/average/max fraction = 3.76264662897e-162/3.76264662897e-162/3.76264662897e-162
+        Group #8: dSph = 0.0018, min/average/max fraction = 1.0228536357e-160/1.0228536357e-160/1.0228536357e-160
+        Group #9: dSph = 0.0019, min/average/max fraction = 8.43211127465e-26/8.43211127465e-26/8.43211127465e-26
+        Group #10: dSph = 0.002, min/average/max fraction = 7.70575012163e-10/7.70575012163e-10/7.70575012163e-10
+        Group #11: dSph = 0.0021, min/average/max fraction = 4.36791750511e-08/4.36791750511e-08/4.36791750511e-08
+        Group #12: dSph = 0.0022, min/average/max fraction = 1.02481194915e-06/1.02481194915e-06/1.02481194915e-06
+        Group #13: dSph = 0.0023, min/average/max fraction = 1.35665249256e-05/1.35665249256e-05/1.35665249256e-05
+        Group #14: dSph = 0.0024, min/average/max fraction = 0.000116145047339/0.000116145047339/0.000116145047339
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 0.000407063627554/0.000407063627554/0.000407063627554
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.00179489998812/0.00179489998812/0.00179489998812
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.00616828887636/0.00616828887636/0.00616828887636
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.0170233781045/0.0170233781045/0.0170233781045
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.0387634988831/0.0387634988831/0.0387634988831
+        Group #20: dSph = 0.003, min/average/max fraction = 0.0745163273068/0.0745163273068/0.0745163273068
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.12301277347/0.12301277347/0.12301277347
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.176166409841/0.176166409841/0.176166409841
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.219731193006/0.219731193006/0.219731193006
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.23875149251/0.23875149251/0.23875149251
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.225790028167/0.225790028167/0.225790028167
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.185817144441/0.185817144441/0.185817144441
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.133229681577/0.133229681577/0.133229681577
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.0834327610085/0.0834327610085/0.0834327610085
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.0457936742513/0.0457936742513/0.0457936742513
+        Group #30: dSph = 0.004, min/average/max fraction = 0.0369118186581/0.0369118186581/0.0369118186581
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.0023874148074/0.0023874148074/0.0023874148074
+    air2 min/Sauter-mean/max diameter = 0.00339077841935/0.00339077841935/0.00339077841935
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.8s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 3.07643682275e-188/3.07643682275e-188/3.07643682275e-188
+        Group #1: dSph = 0.0011, min/average/max fraction = 4.40695872955e-182/4.40695872955e-182/4.40695872955e-182
+        Group #2: dSph = 0.0012, min/average/max fraction = 2.67092537199e-177/2.67092537199e-177/2.67092537199e-177
+        Group #3: dSph = 0.0013, min/average/max fraction = 1.82356489677e-173/1.82356489677e-173/1.82356489677e-173
+        Group #4: dSph = 0.0014, min/average/max fraction = 2.52314640237e-170/2.52314640237e-170/2.52314640237e-170
+        Group #5: dSph = 0.0015, min/average/max fraction = 1.04292091265e-167/1.04292091265e-167/1.04292091265e-167
+        Group #6: dSph = 0.0016, min/average/max fraction = 1.68050022374e-165/1.68050022374e-165/1.68050022374e-165
+        Group #7: dSph = 0.0017, min/average/max fraction = 1.27277020033e-163/1.27277020033e-163/1.27277020033e-163
+        Group #8: dSph = 0.0018, min/average/max fraction = 5.18379513078e-162/5.18379513078e-162/5.18379513078e-162
+        Group #9: dSph = 0.0019, min/average/max fraction = 5.13408655573e-27/5.13408655573e-27/5.13408655573e-27
+        Group #10: dSph = 0.002, min/average/max fraction = 6.10309760786e-11/6.10309760786e-11/6.10309760786e-11
+        Group #11: dSph = 0.0021, min/average/max fraction = 4.54300118489e-09/4.54300118489e-09/4.54300118489e-09
+        Group #12: dSph = 0.0022, min/average/max fraction = 1.37207337613e-07/1.37207337613e-07/1.37207337613e-07
+        Group #13: dSph = 0.0023, min/average/max fraction = 2.29920914952e-06/2.29920914952e-06/2.29920914952e-06
+        Group #14: dSph = 0.0024, min/average/max fraction = 2.45562575435e-05/2.45562575435e-05/2.45562575435e-05
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 9.22273789651e-05/9.22273789651e-05/9.22273789651e-05
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.00049306549772/0.00049306549772/0.00049306549772
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.00203459656916/0.00203459656916/0.00203459656916
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.00666642438403/0.00666642438403/0.00666642438403
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.0177992176301/0.0177992176301/0.0177992176301
+        Group #20: dSph = 0.003, min/average/max fraction = 0.039611439079/0.039611439079/0.039611439079
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.0748388622231/0.0748388622231/0.0748388622231
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.121640402537/0.121640402537/0.121640402537
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.171471417281/0.171471417281/0.171471417281
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.210484199668/0.210484199668/0.210484199668
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.225372973099/0.225372973099/0.225372973099
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.210706539057/0.210706539057/0.210706539057
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.172240823052/0.172240823052/0.172240823052
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.123365403108/0.123365403108/0.123365403108
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.0776424854289/0.0776424854289/0.0776424854289
+        Group #30: dSph = 0.004, min/average/max fraction = 0.0790774102536/0.0790774102536/0.0790774102536
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.0023899875791/0.0023899875791/0.0023899875791
+    air2 min/Sauter-mean/max diameter = 0.00348261754633/0.00348261754633/0.00348261754633
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 0.9s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 2.77096791676e-192/2.77096791676e-192/2.77096791676e-192
+        Group #1: dSph = 0.0011, min/average/max fraction = 1.76068794482e-185/1.76068794482e-185/1.76068794482e-185
+        Group #2: dSph = 0.0012, min/average/max fraction = 3.41192236472e-180/3.41192236472e-180/3.41192236472e-180
+        Group #3: dSph = 0.0013, min/average/max fraction = 5.86931053367e-176/5.86931053367e-176/5.86931053367e-176
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.71593274601e-172/1.71593274601e-172/1.71593274601e-172
+        Group #5: dSph = 0.0015, min/average/max fraction = 1.31485199296e-169/1.31485199296e-169/1.31485199296e-169
+        Group #6: dSph = 0.0016, min/average/max fraction = 3.5626474748e-167/3.5626474748e-167/3.5626474748e-167
+        Group #7: dSph = 0.0017, min/average/max fraction = 4.21737339061e-165/4.21737339061e-165/4.21737339061e-165
+        Group #8: dSph = 0.0018, min/average/max fraction = 2.54001751088e-163/2.54001751088e-163/2.54001751088e-163
+        Group #9: dSph = 0.0019, min/average/max fraction = 3.14480091326e-28/3.14480091326e-28/3.14480091326e-28
+        Group #10: dSph = 0.002, min/average/max fraction = 4.86017177512e-12/4.86017177512e-12/4.86017177512e-12
+        Group #11: dSph = 0.0021, min/average/max fraction = 4.69878804037e-10/4.69878804037e-10/4.69878804037e-10
+        Group #12: dSph = 0.0022, min/average/max fraction = 1.8056639942e-08/1.8056639942e-08/1.8056639942e-08
+        Group #13: dSph = 0.0023, min/average/max fraction = 3.78506334384e-07/3.78506334384e-07/3.78506334384e-07
+        Group #14: dSph = 0.0024, min/average/max fraction = 4.98445086731e-06/4.98445086731e-06/4.98445086731e-06
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 2.0112490391e-05/2.0112490391e-05/2.0112490391e-05
+        Group #16: dSph = 0.0026, min/average/max fraction = 0.000128969811589/0.000128969811589/0.000128969811589
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.000633035707132/0.000633035707132/0.000633035707132
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.00244381408979/0.00244381408979/0.00244381408979
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.00760949288063/0.00760949288063/0.00760949288063
+        Group #20: dSph = 0.003, min/average/max fraction = 0.0195422917594/0.0195422917594/0.0195422917594
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.0421803340504/0.0421803340504/0.0421803340504
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.0776618138074/0.0776618138074/0.0776618138074
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.123280055396/0.123280055396/0.123280055396
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.169886260564/0.169886260564/0.169886260564
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.204084595161/0.204084595161/0.204084595161
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.214290154046/0.214290154046/0.214290154046
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.197096230771/0.197096230771/0.197096230771
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.159164028706/0.159164028706/0.159164028706
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.113157494948/0.113157494948/0.113157494948
+        Group #30: dSph = 0.004, min/average/max fraction = 0.144465032943/0.144465032943/0.144465032943
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00239192552525/0.00239192552525/0.00239192552525
+    air2 min/Sauter-mean/max diameter = 0.0035676019145/0.0035676019145/0.0035676019145
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+Time = 1s
+
+Selecting solver multiphaseEuler
+
+Selecting pureIsothermalPhaseModel for phase air1
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air1
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase air2
+    Selecting diameterModel populationBalance
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState perfectGas;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.air2
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Selecting pureIsothermalPhaseModel for phase water
+    Selecting diameterModel none
+    Selecting thermodynamics package 
+    {
+        type            heRhoThermo;
+        mixture         pureMixture;
+        transport       const;
+        thermo          hConst;
+        equationOfState rhoConst;
+        specie          specie;
+        energy          sensibleInternalEnergy;
+    }
+Reading face flux field phi.water
+    Selecting momentum transport model type laminar
+        Selecting laminar stress model Stokes
+
+Constructing phaseSystem from constant/phaseProperties
+
+Constructing momentumTransferSystem from constant/momentumTransfer
+
+Constructing populationBalanceModel bubbles
+    Selecting oneDimensionalDiscretisation uniform for dSph
+    Phase: air1
+        Group #0: dSph = 0.001, min/average/max fraction = 2.58216096926e-196/2.58216096926e-196/2.58216096926e-196
+        Group #1: dSph = 0.0011, min/average/max fraction = 7.23974733776e-189/7.23974733776e-189/7.23974733776e-189
+        Group #2: dSph = 0.0012, min/average/max fraction = 4.46696922034e-183/4.46696922034e-183/4.46696922034e-183
+        Group #3: dSph = 0.0013, min/average/max fraction = 1.92890754991e-178/1.92890754991e-178/1.92890754991e-178
+        Group #4: dSph = 0.0014, min/average/max fraction = 1.18668541834e-174/1.18668541834e-174/1.18668541834e-174
+        Group #5: dSph = 0.0015, min/average/max fraction = 1.67670610775e-171/1.67670610775e-171/1.67670610775e-171
+        Group #6: dSph = 0.0016, min/average/max fraction = 7.58548869232e-169/7.58548869232e-169/7.58548869232e-169
+        Group #7: dSph = 0.0017, min/average/max fraction = 1.39114790724e-166/1.39114790724e-166/1.39114790724e-166
+        Group #8: dSph = 0.0018, min/average/max fraction = 1.22628995554e-164/1.22628995554e-164/1.22628995554e-164
+        Group #9: dSph = 0.0019, min/average/max fraction = 1.94671434999e-29/1.94671434999e-29/1.94671434999e-29
+        Group #10: dSph = 0.002, min/average/max fraction = 3.90758139744e-13/3.90758139744e-13/3.90758139744e-13
+        Group #11: dSph = 0.0021, min/average/max fraction = 4.86413305721e-11/4.86413305721e-11/4.86413305721e-11
+        Group #12: dSph = 0.0022, min/average/max fraction = 2.35625307884e-09/2.35625307884e-09/2.35625307884e-09
+        Group #13: dSph = 0.0023, min/average/max fraction = 6.11932582181e-08/6.11932582181e-08/6.11932582181e-08
+        Group #14: dSph = 0.0024, min/average/max fraction = 9.83996852073e-07/9.83996852073e-07/9.83996852073e-07
+    Phase: air2
+        Group #15: dSph = 0.0025, min/average/max fraction = 4.27218643758e-06/4.27218643758e-06/4.27218643758e-06
+        Group #16: dSph = 0.0026, min/average/max fraction = 3.25545625216e-05/3.25545625216e-05/3.25545625216e-05
+        Group #17: dSph = 0.0027, min/average/max fraction = 0.000188471913767/0.000188471913767/0.000188471913767
+        Group #18: dSph = 0.0028, min/average/max fraction = 0.000850946993443/0.000850946993443/0.000850946993443
+        Group #19: dSph = 0.0029, min/average/max fraction = 0.00307153828045/0.00307153828045/0.00307153828045
+        Group #20: dSph = 0.003, min/average/max fraction = 0.00906200680441/0.00906200680441/0.00906200680441
+        Group #21: dSph = 0.0031, min/average/max fraction = 0.0222737454093/0.0222737454093/0.0222737454093
+        Group #22: dSph = 0.0032, min/average/max fraction = 0.0463328867734/0.0463328867734/0.0463328867734
+        Group #23: dSph = 0.0033, min/average/max fraction = 0.082568393406/0.082568393406/0.082568393406
+        Group #24: dSph = 0.0034, min/average/max fraction = 0.1271814296/0.1271814296/0.1271814296
+        Group #25: dSph = 0.0035, min/average/max fraction = 0.17036935807/0.17036935807/0.17036935807
+        Group #26: dSph = 0.0036, min/average/max fraction = 0.199331604028/0.199331604028/0.199331604028
+        Group #27: dSph = 0.0037, min/average/max fraction = 0.20435878308/0.20435878308/0.20435878308
+        Group #28: dSph = 0.0038, min/average/max fraction = 0.184118977695/0.184118977695/0.184118977695
+        Group #29: dSph = 0.0039, min/average/max fraction = 0.146203103281/0.146203103281/0.146203103281
+        Group #30: dSph = 0.004, min/average/max fraction = 0.233111259148/0.233111259148/0.233111259148
+    Selecting shapeModel spherical
+    Selecting coalescenceModel none
+    Selecting breakupModel none
+    air1 min/Sauter-mean/max diameter = 0.00239341600216/0.00239341600216/0.00239341600216
+    air2 min/Sauter-mean/max diameter = 0.00364503876247/0.00364503876247/0.00364503876247
+Courant Number mean: 0 max: 0
+
+Constructing fvModels from constant/fvModels
+    Selecting uniformGrowth with name airSource
+    Selecting massSource with name waterSink
+
+Constructing fvConstraints from system/fvConstraints
+
+populationBalanceSetSizeDistribution:
+    Writing f0.air1
+    Writing f1.air1
+    Writing f2.air1
+    Writing f3.air1
+    Writing f4.air1
+    Writing f5.air1
+    Writing f6.air1
+    Writing f7.air1
+    Writing f8.air1
+    Writing f9.air1
+    Writing f10.air1
+    Writing f11.air1
+    Writing f12.air1
+    Writing f13.air1
+    Writing f14.air1
+    Writing f15.air2
+    Writing f16.air2
+    Writing f17.air2
+    Writing f18.air2
+    Writing f19.air2
+    Writing f20.air2
+    Writing f21.air2
+    Writing f22.air2
+    Writing f23.air2
+    Writing f24.air2
+    Writing f25.air2
+    Writing f26.air2
+    Writing f27.air2
+    Writing f28.air2
+    Writing f29.air2
+    Writing f30.air2
+    Writing alpha.air1
+    Writing alpha.air2
+
+End
+

@@ -1,0 +1,54 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       LagrangianScalarField;
+    location    "0.05/Lagrangian/kinematicParcel_functionObject";
+    object      number;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [];
+
+internalField   nonuniform List<scalar> 
+50
+(=mÂ1@îºJÉåx'@ÿ ëB»K@Ã(=˝@´"™-∫c@fxH·{≈@®k;◊ÁP@¢ıôƒ@„Ωvóôp$@}í‰ıè1@»-,˝ˇ<@óüŒò¬≈@’˙cs@@àˇß´*&@"‰<ät@ÔñºÙ@âµ∆±xè@ù%iˆØØ#@ÆóÃm≤ @Nœ0õgS@ [èUW(@TThO7"@ôNòc@Æ‡x∏‘$@ûíä@€`g‹≈$0@ã~1úÚƒ@¶§J·F¡@õ‚±ä\z*@¡^è‹»@·Ì§€Ô@ÖÀ´ŸP{@*â%"Ä@j˘¯1à√@µ*¡Í§!@Óˆq{7@°‚°êñ@™vb€3T@˜õ®„ÄÄ@π÷ÈTJ[@>H Åº@*OO@£¯≠8v£ @∏π·∂$=.@Leƒ∏y$@(A1œŸ @*>t∞Ω{@õ‚∫Ó;Z@/Ï˝2W @À%∆b@);
+
+boundaryField
+{
+    walls
+    {
+        type            calculated;
+    }
+    open
+    {
+        type            calculated;
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+sources
+{
+    pointInjection
+    {
+        type            flowRateNumber;
+        uniformSize     volume;
+        volumetricFlowRate
+        {
+            type            constant;
+            value           7e-06;
+        }
+    }
+}
+
+
+// ************************************************************************* //

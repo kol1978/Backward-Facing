@@ -1,0 +1,136 @@
+Application blockMesh - case fileHandler: completed 
+Application decomposePar - case fileHandler: completed 
+Application foamRun - case fileHandler: completed in 0.19187 s  ClockTime 
+Application reconstructPar - case fileHandler: completed 
+Application decomposePar.uncollated - case fileHandler: completed 
+Application foamRun.uncollated - case fileHandler: completed in 0.174914 s  ClockTime 
+Application foamRun.collated - case fileHandler: completed in 0.196795 s  ClockTime 
+Application reconstructPar.collated - case fileHandler: completed 
+Application foamFormatConvert - case fileHandler: completed 
+Application foamRun.multiCollated - case fileHandler: completed in 0.172971 s  ClockTime 
+Application reconstructPar.multiCollated - case fileHandler: completed 
+Application foamFormatConvert.uncollated - case fileHandler: completed 
+Application foamRun.uncollated_from_multiCollated - case fileHandler: completed in 0.166607 s  ClockTime 
+Application decomposePar.collated - case fileHandler: completed 
+Application foamRun.distributed_multiCollated - case fileHandler/machineA/fileHandler: completed in 0.197635 s  ClockTime 
+
+Application blockMesh.incompressibleVoF - case VoF: completed 
+Application blockMesh.compressibleVoF - case VoF: completed 
+Application foamMultiRun - case VoF: completed in 0.61491 s  ClockTime 
+Application blockMesh - case boundaries: completed 
+Application createNonConformalCouples - case boundaries: completed 
+Application decomposePar - case boundaries: completed 
+Application foamRun - case boundaries: completed 
+Application reconstructPar - case boundaries: completed 
+Application blockMesh - case bubbles: completed 
+Application foamRun.maxTimeStepFraction=1e300,nCorrectors=0 - case bubbles: completed in 0.902866 s  ClockTime 
+Application foamRun.maxTimeStepFraction=1e300,nCorrectors=1 - case bubbles: completed in 0.958168 s  ClockTime 
+Application foamRun.maxTimeStepFraction=1e300,nCorrectors=2 - case bubbles: completed in 1.018175 s  ClockTime 
+Application foamRun.maxTimeStepFraction=0.5,nCorrectors=1 - case bubbles: completed in 1.194622 s  ClockTime 
+Application foamRun.maxTimeStepFraction=0.25,nCorrectors=1 - case bubbles: completed in 1.676182 s  ClockTime 
+Application blockMesh - case coupling: completed 
+Application decomposePar - case coupling: completed 
+Application foamRun - case coupling: completed 
+Application reconstructPar - case coupling: completed 
+Application blockMesh - case injections: completed 
+Application foamRun - case injections: completed 
+Application blockMesh - case parabolic: completed 
+Application foamRun - case parabolic: completed 
+Application blockMesh - case tracer: completed 
+Application foamRun - case tracer: completed 
+Application blockMesh.incompressibleFluid - case transfers: completed 
+Application blockMesh.multicomponentFluid - case transfers: completed 
+Application blockMesh.incompressibleVoF - case transfers: completed 
+Application blockMesh.compressibleVoF - case transfers: completed 
+Application foamMultiRun - case transfers: completed 
+
+Application blockMesh - case boundaryLaunderSharma: completed 
+Application boundaryFoam - case boundaryLaunderSharma: completed in 1.48607 s  ClockTime 
+Application blockMesh - case boundaryNonNewtonian: completed 
+Application boundaryFoam - case boundaryNonNewtonian: completed in 0.701029 s  ClockTime 
+Application blockMesh - case boundaryWallFunctions: completed 
+Application boundaryFoam - case boundaryWallFunctions: completed in 3.31922 s  ClockTime 
+Application blockMesh - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.2 - case boundaryWallFunctionsProfile: completed in 1.15247 s  ClockTime 
+Application foamLog.2 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.3 - case boundaryWallFunctionsProfile: completed in 1.14504 s  ClockTime 
+Application foamLog.3 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.4 - case boundaryWallFunctionsProfile: completed in 1.09212 s  ClockTime 
+Application foamLog.4 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.5 - case boundaryWallFunctionsProfile: completed in 1.15129 s  ClockTime 
+Application foamLog.5 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.6 - case boundaryWallFunctionsProfile: completed in 1.15268 s  ClockTime 
+Application foamLog.6 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.7 - case boundaryWallFunctionsProfile: completed in 1.16024 s  ClockTime 
+Application foamLog.7 - case boundaryWallFunctionsProfile: completed 
+Application boundaryFoam.8 - case boundaryWallFunctionsProfile: completed in 1.15175 s  ClockTime 
+Application foamLog.8 - case boundaryWallFunctionsProfile: completed 
+
+Application chemkinToFoam - case gri: completed 
+Application chemFoam - case gri: completed in 1.19533 s  ClockTime 
+Application chemkinToFoam - case h2: completed 
+Application chemFoam - case h2: completed in 0.030768 s  ClockTime 
+Application chemkinToFoam - case ic8h18: completed 
+Application chemFoam - case ic8h18: completed in 1456.67 s  ClockTime 
+Application chemkinToFoam - case ic8h18_TDAC: completed 
+Application chemFoam - case ic8h18_TDAC: completed in 57.7878 s  ClockTime 
+Application chemkinToFoam - case nc7h16: completed 
+Application chemFoam - case nc7h16: completed in 28.8939 s  ClockTime 
+
+Application blockMesh - case cavity: completed 
+Application Test-fvMeshTools - case cavity: completed 
+Application checkMesh - case cavity: completed 
+Application foamToVTK - case cavity: completed 
+Application decomposePar - case cavity: completed 
+Application Test-fvMeshTools.par - case cavity: completed 
+Application checkMesh.par - case cavity: completed 
+Application foamToEnsight.par - case cavity: completed 
+Application reconstructPar - case cavity: completed 
+
+Application zeroDimensionalMesh - case heatTransferLimitedPhaseChange/waterEvaporation: completed 
+Application foamRun.e.steam_e.water - case heatTransferLimitedPhaseChange/waterEvaporation: completed in 3.488658 s  ClockTime 
+Application foamRun.e.steam_h.water - case heatTransferLimitedPhaseChange/waterEvaporation: completed in 3.203139 s  ClockTime 
+Application foamRun.h.steam_e.water - case heatTransferLimitedPhaseChange/waterEvaporation: completed in 3.194257 s  ClockTime 
+Application foamRun.h.steam_h.water - case heatTransferLimitedPhaseChange/waterEvaporation: completed in 3.263246 s  ClockTime 
+Application zeroDimensionalMesh - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed 
+Application foamRun.air.gas_H2O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.269079 s  ClockTime 
+Application foamRun.air.gas_C3H8O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.437774 s  ClockTime 
+Application foamRun.H2O.gas_H2O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.456692 s  ClockTime 
+Application foamRun.H2O.gas_C3H8O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.454473 s  ClockTime 
+Application foamRun.C3H8O.gas_H2O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.398095 s  ClockTime 
+Application foamRun.C3H8O.gas_C3H8O.liquid - case massDiffusionLimitedPhaseChange/waterAndIsopropanolEvaporation: completed in 4.329697 s  ClockTime 
+Application zeroDimensionalMesh - case massDiffusionLimitedPhaseChange/waterEvaporation: completed 
+Application foamRun.air.gas_e.gas_e.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.637255 s  ClockTime 
+Application foamRun.air.gas_e.gas_h.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.630134 s  ClockTime 
+Application foamRun.air.gas_h.gas_e.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.676357 s  ClockTime 
+Application foamRun.air.gas_h.gas_h.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.342342 s  ClockTime 
+Application foamRun.H2O.gas_e.gas_e.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.566405 s  ClockTime 
+Application foamRun.H2O.gas_e.gas_h.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.598814 s  ClockTime 
+Application foamRun.H2O.gas_h.gas_e.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.430814 s  ClockTime 
+Application foamRun.H2O.gas_h.gas_h.liquid - case massDiffusionLimitedPhaseChange/waterEvaporation: completed in 3.598828 s  ClockTime 
+Application zeroDimensionalMesh - case populationBalance/binaryBreakup: completed 
+Application foamRun - case populationBalance/binaryBreakup: completed in 11.4505 s  ClockTime 
+Application zeroDimensionalMesh - case populationBalance/breakup: completed 
+Application foamRun - case populationBalance/breakup: completed in 2.19226 s  ClockTime 
+Application zeroDimensionalMesh - case populationBalance/coalescence: completed 
+Application foamPostProcess - case populationBalance/coalescence: completed 
+Application foamRun - case populationBalance/coalescence: completed in 20.3932 s  ClockTime 
+Application zeroDimensionalMesh - case populationBalance/coalescenceAndBreakup: completed 
+Application foamRun - case populationBalance/coalescenceAndBreakup: completed in 5.68759 s  ClockTime 
+Application blockMesh - case populationBalance/expansion: completed 
+Application createZones - case populationBalance/expansion: completed 
+Application foamRun - case populationBalance/expansion: completed in 52.224803 s  ClockTime 
+Application zeroDimensionalMesh - case populationBalance/uniformGrowth: completed 
+Application foamPostProcess.growth - case populationBalance/uniformGrowth: completed 
+Application foamRun.growth - case populationBalance/uniformGrowth: completed in 41.317148 s  ClockTime 
+Application foamPostProcess.shrinkage - case populationBalance/uniformGrowth: completed 
+Application foamRun.shrinkage - case populationBalance/uniformGrowth: completed in 41.932508 s  ClockTime 
+
+Application blockMesh - case channel: completed 
+Application createZones - case channel: completed 
+Application foamRun - case channel: completed 
+Application foamPostProcess - case channel: completed 
+
+Application blockMesh - case compileTemplate: completed 
+Application foamRun - case compileTemplate: completed in 0.121479 s  ClockTime 
+

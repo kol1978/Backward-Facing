@@ -1,0 +1,87 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-0db507470b5e
+Exec   : foamRun
+Date   : Jul 24 2026
+Time   : 16:40:49
+Host   : "kol-serv"
+PID    : 97023
+I/O    : uncollated
+Case   : /home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Selecting solver fluid
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       logPolynomial;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+Using dynamicCode for codedBase hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___ at line 17 in "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/fluidThermo"
+Creating new library in "dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___/platforms/linux64Gcc13DPInt64Opt/lib/libhePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy____c92121a83e9f397179ef59322f976a6a75104c3e.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/fluidThermoTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___/fluidThermoTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___'
+    ln: ./lnInclude
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___'
+make[2]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___'
+    wmkdep: fluidThermoTemplate.C
+    Ctoo: fluidThermoTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___/../platforms/linux64Gcc13DPInt64Opt/lib/libhePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy____c92121a83e9f397179ef59322f976a6a75104c3e.so
+make[2]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/thermo/compileTemplate/dynamicCode/hePsiThermo_pureMixture_logPolynomial_hConst_perfectGas_specie___sensibleEnthalpy___'
+
+Selecting momentum transport model type RAS
+    Selecting RAS turbulence model kEpsilon
+Courant Number mean: 0.08 max: 0.08
+
+Selecting thermophysical transport type RAS
+    Selecting RAS thermophysical transport model eddyDiffusivity
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: Operating solver in transient mode with 1 outer corrector
+PIMPLE: Operating solver in PISO mode
+
+
+
+Starting time loop
+
+Courant Number mean: 0.08 max: 0.08
+Time = 0.01s
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Ux, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for h, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.14947654e-15, global = 1.14947654e-15, cumulative = 1.14947654e-15
+diagonal:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.57895436e-16, global = 9.57895436e-16, cumulative = 2.107371976e-15
+diagonal:  Solving for epsilon, Initial residual = 0, Final residual = 0, No Iterations 0
+diagonal:  Solving for k, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.121479 s  ClockTime = 14 s
+
+End
+

@@ -1,0 +1,49 @@
+Creating new library in "dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e/platforms/linux64Gcc13DPInt64Opt/lib/libcodeBlock_d3a23acf9a77950a1768f85beb039860db73ea2e.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeBlockTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e/codeBlockTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e
+    ln: ./lnInclude
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e'
+    wmkdep: codeBlockTemplate.C
+    Ctoo: codeBlockTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeBlock_d3a23acf9a77950a1768f85beb039860db73ea2e.so
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d3a23acf9a77950a1768f85beb039860db73ea2e'
+Creating new library in "dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a/platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_d2789210a245b2b640717052aa8b460f7b24081a.so"
+    Copying "/home/kol/OpenFOAM/OpenFOAM-14/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" to "/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a/codeStreamTemplate.C"
+wmake libso /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a
+    ln: ./lnInclude
+make[1]: Entering directory '/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a/../platforms/linux64Gcc13DPInt64Opt/lib/libcodeStream_d2789210a245b2b640717052aa8b460f7b24081a.so
+make[1]: Leaving directory '/home/kol/OpenFOAM/OpenFOAM-14/test/dictionary/dynamicCode/_d2789210a245b2b640717052aa8b460f7b24081a'
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+//
+// "simpleBlockMeshDict"
+//
+min             ( -2.5 -1.2 -3 );
+
+max             ( 2.5 1.2 3 );
+
+nCellsByL       33.3333;
+
+nCells          ( 167 80 200 );
+
+vertices        8 ( ( -2.5 -1.2 -3 ) ( 2.5 -1.2 -3 ) ( 2.5 1.2 -3 ) ( -2.5 1.2 -3 ) ( -2.5 -1.2 3 ) ( 2.5 -1.2 3 ) ( 2.5 1.2 3 ) ( -2.5 1.2 3 ) );
+
+blocks          ( hex 8 ( 0 1 2 3 4 5 6 7 ) ( 167 80 200 ) simpleGrading ( 1 1 1 ) );
+
+defaultPatch
+{
+    type            patch;
+}
+
+boundary        ( );
+
+
+// ************************************************************************* //
