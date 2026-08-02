@@ -30,13 +30,13 @@ deltaT          0.3e-05;
 
 writeControl    runTime; // timeStep;
 
-writeInterval   0.05;
+writeInterval   0.005;
 
 purgeWrite      0;
 
 writeFormat     ascii;
 
-writePrecision  20;
+writePrecision  16;
 
 writeCompression off;
 
@@ -46,16 +46,11 @@ timePrecision   6;
 
 runTimeModifiable true;
 
-adjustTimeStep  no;
+adjustTimeStep  yes; // yes;
 
 maxCo           0.5;
 
 // ************************************************************************* //
-/*file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/forceCoeffs
-file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/readFields
-file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/streamLines
-file:///home/kol/OpenFOAM/kol-12/run/simpleFoam/motorBike/system/wallBoundedStreamLines
-*/
 /*
 functions
 {
