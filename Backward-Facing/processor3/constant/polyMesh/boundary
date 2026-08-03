@@ -54,7 +54,7 @@ FoamFile
         type            processor;
         nFaces          318;
         startFace       151833;
-        matchTolerance  0.00010000000000000000479;
+        matchTolerance  0.0001;
         myProcNo        3;
         neighbProcNo    2;
     }
@@ -63,7 +63,7 @@ FoamFile
         type            processor;
         nFaces          459;
         startFace       152151;
-        matchTolerance  0.00010000000000000000479;
+        matchTolerance  0.0001;
         myProcNo        3;
         neighbProcNo    4;
     }
