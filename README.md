@@ -163,6 +163,70 @@ simpleFoam -postProcess
 `````
 icoFoam не нужен -postProcess
 
+Инструкции по установке проекта локально. Можно указать команды для клонирования репозитория, установки зависимостей и запуска. [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
+
+### Исходный код
+Код сам по себе не скомпилируется — в нём есть серьёзная проблема.<br>
+Главная загвоздка в строке: info << .... В стандартном C++ такой поток info не определён, в среде OpenFOAM, где для вывода используется макрос infoOStream (из файла infoOStream.H), вывод перенаправляется в поток info. Но чтобы это сработало, при компиляции нужно подключить нужную библиотеку вывода OpenFOAM.<br>
+
+`````cpp
+#include "IOstream.H" // Для Foam::InfoProxy
+#include <iostream> // Для стандартного ввода вывода
+#include <fstream> // Для работы с файлами
+using namespace Foam;
+using namespace std;
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+int main(int argc, char** argv)
+{
+    // Выводим количество аргументов
+    std::cout << "Количество аргументов: " << argc << std::endl;
+    Info << " 64 бита составляют ровно 8 байт: LABEL_SIZE= " << sizeof(Foam::label) << " bytes" << endl;
+
+    return 0;
+}
+`````
+Этот код выводит на экран размер типа Foam::label в байтах.<br>
+sizeof(Foam::label) — оператор sizeof в C++ возвращает размер в байтах самого типа данных (или класса, или структуры). То есть он вычисляет, сколько байт занимает в памяти объект типа Foam::label. Важно: sizeof учитывает не только сами данные членов класса, но и возможное «заполнение» (padding) — байты, которые добавляются компилятором для того, чтобы члены класса были выровнены по границам, удобным для процессора.
+
+PS Примеры кода или команды использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)<br>
+## Компиляция
+`````bash
+mkdir -p $WM_PROJECT_USER_DIR/applications
+mkdir -p $WM_PROJECT_USER_DIR/applications/myTests
+mkdir -p $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
+cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
+`````
+
+ $WM_PROJECT_USER_DIR/ <br>
+....└── applications/ <br>
+........└── myTests/ <br>
+............└── onlyMainFunction/ <br>
+................├── Make/ <br>
+................└── onlyMainFunction.C <br>
+
+Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:<br>
+`````bash
+echo $WM_PROJECT_DIR
+echo $WM_LABEL_SIZE
+echo $WM_PROJECT_VERSION
+echo $WM_PROJECT_USER_DIR
+echo $FOAM_USER_APPBIN
+`````
+`````bash
+blockMesh -help
+`````
+`````bash
+echo $FOAM_API
+`````
+предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован:
+`````bash
+wmake -build-info
+`````
+
+`````bash
+wmake
+`````
+
 
 # Основные потоки вывода:
 ##### Foam::Info — основной поток для информационных сообщений:
@@ -229,69 +293,6 @@ while (inputFile >> time >> pressure) {
 }
 `````
 
-Инструкции по установке проекта локально. Можно указать команды для клонирования репозитория, установки зависимостей и запуска. [7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)
-
-### Исходный код
-Код сам по себе не скомпилируется — в нём есть серьёзная проблема.<br>
-Главная загвоздка в строке: info << .... В стандартном C++ такой поток info не определён, в среде OpenFOAM, где для вывода используется макрос infoOStream (из файла infoOStream.H), вывод перенаправляется в поток info. Но чтобы это сработало, при компиляции нужно подключить нужную библиотеку вывода OpenFOAM.<br>
-
-`````cpp
-#include "IOstream.H" // Для Foam::InfoProxy
-#include <iostream> // Для стандартного ввода вывода
-#include <fstream> // Для работы с файлами
-using namespace Foam;
-using namespace std;
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-int main(int argc, char** argv)
-{
-    // Выводим количество аргументов
-    std::cout << "Количество аргументов: " << argc << std::endl;
-    Info << " 64 бита составляют ровно 8 байт: LABEL_SIZE= " << sizeof(Foam::label) << " bytes" << endl;
-
-    return 0;
-}
-`````
-Этот код выводит на экран размер типа Foam::label в байтах.<br>
-sizeof(Foam::label) — оператор sizeof в C++ возвращает размер в байтах самого типа данных (или класса, или структуры). То есть он вычисляет, сколько байт занимает в памяти объект типа Foam::label. Важно: sizeof учитывает не только сами данные членов класса, но и возможное «заполнение» (padding) — байты, которые добавляются компилятором для того, чтобы члены класса были выровнены по границам, удобным для процессора.
-
-PS Примеры кода или команды использования. [2](https://blog.skillfactory.ru/readme-md-github/)[7](https://www.geeksforgeeks.org/git/what-is-readme-md-file/)<br>
-## Компиляция
-`````bash
-mkdir -p $WM_PROJECT_USER_DIR/applications
-mkdir -p $WM_PROJECT_USER_DIR/applications/myTests
-mkdir -p $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
-cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
-`````
-
- $WM_PROJECT_USER_DIR/ <br>
-    └── applications/ <br>
-        └── myTests/ <br>
-            └── onlyMainFunction/ <br>
-                ├── Make/ <br>
-                └── onlyMainFunction.C <br>
-
-Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:<br>
-`````bash
-echo $WM_PROJECT_DIR
-echo $WM_LABEL_SIZE
-echo $WM_PROJECT_VERSION
-echo $WM_PROJECT_USER_DIR
-echo $FOAM_USER_APPBIN
-`````
-`````bash
-blockMesh -help
-`````
-`````bash
-echo $FOAM_API
-`````
-предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован:
-`````bash
-wmake -build-info
-`````
-
-`````bash
-wmake
-`````
 <hr>
 ### Конвертер HDF5 → OpenFOAM
 Подходит, если нужно один раз взять поля из HDF5 и положить их в папку 0/ как обычные файлы OpenFOAM (U, p, T и т. п.).<br>
