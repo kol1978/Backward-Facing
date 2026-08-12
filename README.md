@@ -199,10 +199,10 @@ cd $WM_PROJECT_USER_DIR/applications/myTests/onlyMainFunction
 
  $WM_PROJECT_USER_DIR/ <br>
 ....└── applications/ <br>
-........└── myTests/ <br>
-............└── onlyMainFunction/ <br>
-................├── Make/ <br>
-................└── onlyMainFunction.C <br>
+...................└── myTests/ <br>
+.............................└── onlyMainFunction/ <br>
+.................................................├── Make/ <br>
+.................................................└── onlyMainFunction.C <br>
 
 Переменные окружения WM_PROJECT_USER_DIR и FOAM_USER_APPBIN должны быть корректно настроены в вашей системе:<br>
 `````bash
@@ -213,22 +213,11 @@ echo $WM_PROJECT_USER_DIR
 echo $FOAM_USER_APPBIN
 `````
 `````bash
-blockMesh -help
-`````
-`````bash
-echo $FOAM_API
-`````
-предоставит необходимую информацию, даже если OpenFOAM еще не скомпилирован:
-`````bash
-wmake -build-info
-`````
-
-`````bash
 wmake
 `````
 
-
-# Основные потоки вывода:
+<hr>
+### Основные потоки вывода:
 ##### Foam::Info — основной поток для информационных сообщений:
 `````cpp
 Foam::Info << "Начата итерация " << time.value() << Foam::endl;
@@ -327,8 +316,9 @@ volScalarField field(fieldIO, mesh);
 field.internalField() = readValuesFromHDF5(...);
 field.write();
 `````
+<hr>
 
-## Экспериментальные детали:
+# Детали эксперимента:
 Источник: http://cfd.mace.manchester.ac.uk/ercoftac/doku.php?id=cases:case030
 ## Тестовая конфигурация: Эксперименты проводились на полу туннеля низкоскоростной аэродинамической трубы.
 Тестовая конфигурация состояла из отрезка длиной 1,0 м ×15,1 см в ширину× Прямоугольный входной канал высотой 10,1 см, за которым
