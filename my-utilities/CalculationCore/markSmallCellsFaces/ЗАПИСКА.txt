@@ -1,0 +1,77 @@
+Что делает код по блокам
+1. Подключения и пространство имён
+cpp
+#include "argList.H"
+#include "Time.H"
+#include "fvMesh.H"
+#include "IOstream.H"
+#include "volumeTools.H"
+
+using namespace Foam;
+Подключаются базовые классы OpenFOAM: работа с аргументами (argList), временем (Time), сеткой (fvMesh) и выводом (IOstream).
+Подключается твой собственный заголовок volumeTools.H, где объявлена функция calculateCellVolumes.
+using namespace Foam; позволяет не писать везде Foam:: — это стандартный стиль OpenFOAM.
+2. Регистрация опции до main (самое важное)
+cpp
+class MyVolCalcOptions
+{
+public:
+    MyVolCalcOptions()
+    {
+        argList::addOption(
+            "threshold",
+            "<scalar>",
+            "порог минимального объёма (м^3)"
+        );
+    }
+} myVolCalcOptionsRegistrar;
+Это статический объект, который конструируется до входа в main.
+В конструкторе регистрируется опция командной строки -threshold.
+Зачем это нужно: макросы #include "setRootCase.H" и #include "createTime.H" внутри main сразу проверяют аргументы и могут аварийно завершить программу, если встретят неизвестный флаг. Если зарегистрировать опцию раньше, проверка пройдёт успешно. Именно эта часть кода спасла тебя от ошибки FOAM FATAL ERROR: Wrong number of arguments.
+3. Инициализация OpenFOAM
+cpp
+int main(int argc, char *argv[])
+{
+    #include "setRootCase.H"
+    #include "createTime.H"
+    #include "createMesh.H"
+Эти макросы делают всю «грязную работу»: разбирают аргументы, находят путь к случаю (-case), создают объекты Time и fvMesh.
+После них в коде доступны глобальные объекты args (аргументы) и mesh (сетка).
+4. Безопасное чтение пользовательского параметра
+cpp
+scalar thresh = 1e-9;
+if (args.optionFound("threshold"))
+{
+    thresh = args.optionRead<scalar>("threshold");
+}
+Info << "Порог объёма: " << thresh << nl;
+Устанавливается значение по умолчанию 1e-9.
+Если пользователь передал -threshold, оно перезаписывается.
+Используется optionRead<scalar>, а не ошибочный вариант с двумя аргументами — это исправляет типичную ошибку компиляции в OpenFOAM‑14.
+5. Расчёт объёмов ячеек
+cpp
+scalarField V = calculateCellVolumes(mesh);
+Вызывается функция из твоего отдельного файла volumeTools.C.
+Она возвращает scalarField — список объёмов всех ячеек сетки.
+Здесь проявляется правильная модульность: логика расчёта вынесена в отдельный файл, а main остаётся чистым.
+6. Подсчёт статистики
+cpp
+const label nCells = mesh.nCells();
+scalar sumV = 0.0;
+label nSmall = 0;
+
+forAll(V, i)
+{
+    sumV += V[i];
+    if (V[i] < thresh) nSmall++;
+}
+nCells — общее число ячеек.
+sumV — суммарный объём всей расчётной области (полезно для проверки).
+nSmall — счётчик ячеек, чей объём меньше заданного порога. Это помогает быстро оценить качество сетки: если таких ячеек много, возможно, есть вырожденные или слишком мелкие элементы.
+7. Вывод результатов
+cpp
+Info << "Число ячеек: " << nCells << nl;
+Info << "Суммарный объём: " << sumV << " м^3" << nl;
+Info << "Ячеек ниже порога: " << nSmall << nl;
+Результаты выводятся через Info, то есть в стандартный поток вывода OpenFOAM (с префиксом имени утилиты).
+Такой вывод корректно работает и в последовательном, и в параллельном режиме.

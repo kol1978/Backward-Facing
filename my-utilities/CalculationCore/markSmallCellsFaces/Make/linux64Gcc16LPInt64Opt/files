@@ -1,0 +1,3 @@
+SOURCE += markSmallCellsFaces.C
+SOURCE += volumeTools.C
+EXE = $(FOAM_APPBIN)/markSmallCellsFaces
