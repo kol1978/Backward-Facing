@@ -1,0 +1,59 @@
+Ниже — полный рабочий пример для OpenFOAM‑14 с тремя файлами: myVolCalc.C, volumeTools.H, volumeTools.C.
+
+
+$FOAM_USER_APPBIN/myVolCalc/
+├── myVolCalc.C
+├── volumeTools.H
+├── volumeTools.C
+└── Make
+    ├── files
+    └── options
+
+----------------volumeTools.H (заголовок: только объявления)
+
+#ifndef volumeTools_H
+#define volumeTools_H
+
+#include "fvMesh.H"
+#include "scalarField.H"
+
+namespace Foam
+{
+    // Объявление функции: она возвращает scalarField и принимает const ссылку на fvMesh
+    scalarField calculateCellVolumes(const fvMesh& mesh);
+}
+
+#endif // volumeTools_H
+------------------------------------
+Важно: #ifndef / #define — это защита от повторного включения (include guards). Если ты подключишь этот заголовок в нескольких местах, компилятор не выдаст ошибку «multiple definition».
+
+
+----------------volumeTools.C (Никаких main, только реализация функции)
+
+#include "volumeTools.H"   // подключаем свой заголовок — так компилятор видит сигнатуру
+#include "volFields.H"     // может понадобиться для некоторых операций
+#include "IOstream.H"      // Info, nl и т.п.
+
+using namespace Foam;
+
+// Реализация функции
+scalarField calculateCellVolumes(const fvMesh& mesh)
+{
+    const scalarField& Vref = mesh.V();
+
+    // Создаём свою копию, чтобы можно было модифицировать (если нужно)
+    scalarField V = Vref;
+
+    // Пример логики: обнуляем слишком маленькие объёмы
+    const scalar smallVol = 1e-12;
+    forAll(V, i)
+    {
+        if (V[i] < smallVol)
+        {
+            V[i] = 0.0;
+        }
+    }
+
+    return V;
+}
+-----------------------------------------------------
