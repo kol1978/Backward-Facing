@@ -1,0 +1,78 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "2.5/uniform/lagrangian/cloud";
+    object      cloudProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+processor0
+{
+    particleCount   633;
+}
+
+processor1
+{
+    particleCount   1380;
+}
+
+processor2
+{
+    particleCount   3103;
+}
+
+processor3
+{
+    particleCount   5355;
+}
+
+processor4
+{
+    particleCount   11939;
+}
+
+processor5
+{
+    particleCount   10377;
+}
+
+processor6
+{
+    particleCount   6983;
+}
+
+processor7
+{
+    particleCount   12541;
+}
+
+processor8
+{
+    particleCount   11484;
+}
+
+processor9
+{
+    particleCount   19299;
+}
+
+processor10
+{
+    particleCount   31951;
+}
+
+processor11
+{
+    particleCount   35921;
+}
+
+
+// ************************************************************************* //
