@@ -1,0 +1,40 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "2.1/uniform/lagrangian/cloud";
+    object      cloudOutputProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+injectionModel
+{
+    model1
+    {
+        massInjected    11;
+        nParcelsInjected 110708;
+        massDeferred    0;
+        nParcelsDeferred 0.399999999992377;
+    }
+}
+
+patchInteractionModel
+{
+    localInteraction
+    {
+        nEscape         4 { 0 };
+        massEscape      4 { 0 };
+        nStick          4 { 0 };
+        massStick       4 { 0 };
+    }
+}
+
+
+// ************************************************************************* //
