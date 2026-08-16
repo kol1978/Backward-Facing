@@ -1,0 +1,149 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Note: this file is a Copy of $FOAM_TUTORIALS/resources/blockMesh/pitzDaily
+
+convertToMeters 0.001; //координаты в миллиметрах
+//nvertToMeters 1;     //координаты в метрах
+vertices
+(
+    (-500 0 -76.2)     //vertices0   (X Y S) S=152.4
+    (-500 101.6 -76.2)  //vertices1
+    (0 -12.7 -76.2)     //vertices2
+    (0 0 -76.2)         //vertices3
+    (0 101.6 -76.2)      //vertices4
+    (139.7 -12.7 -76.2)   //vertices5
+    (139.7 0 -76.2)       //vertices6
+    (139.7 101.6 -76.2)    //vertices7
+    (500 -12.7 -76.2)   //vertices8
+    (500 0 -76.2)       //vertices9
+    (500 101.6 -76.2)    //vertices10
+
+    (-500 0 76.2)      //vertices11
+    (-500 101.6 76.2)   //vertices12
+    (0 -12.7 76.2)      //vertices13
+    (0 0 76.2)          //vertices14
+    (0 101.6 76.2)       //vertices15
+    (139.7 -12.7 76.2)    //vertices16
+    (139.7 0 76.2)        //vertices17
+    (139.7 101.6 76.2)     //vertices18
+    (500 -12.7 76.2)    //vertices19
+    (500 0 76.2)        //vertices20
+    (500 101.6 76.2)     //vertices21
+);
+
+negY
+(
+    (2 4 1)
+    (1 3 0.3)
+);
+
+posY
+(
+    (1 4 2)
+    (2 3 4)
+    (2 4 0.25)
+);
+
+posYR
+(
+    (2 1 1)
+    (1 1 0.25)
+);
+
+
+blocks
+(
+    hex (0 3 4 1 11 14 15 12)
+    (500 102 3)
+    simpleGrading (0.5 $posY 1)
+
+    hex (2 5 6 3 13 16 17 14)
+    (280 27 3)
+    edgeGrading (4 4 4 4 $negY 1 1 $negY 1 1 1 1)
+
+    hex (3 6 7 4 14 17 18 15)
+    (280 102 3)
+    edgeGrading (4 4 4 4 $posY $posYR $posYR $posY 1 1 1 1)
+
+    hex (5 8 9 6 16 19 20 17)
+    (500 27 3)
+    simpleGrading (2.5 1 1)
+
+    hex (6 9 10 7 17 20 21 18)
+    (500 102 3)
+    simpleGrading (2.5 $posYR 1)
+);
+
+boundary
+(
+    inlet
+    {
+        type patch;
+        faces
+        (
+            (0 1 12 11)
+        );
+    }
+    outlet
+    {
+        type patch;
+        faces
+        (
+            (8 9 20 19)
+            (9 10 21 20)
+        );
+    }
+    upperWall
+    {
+        type wall;
+        faces
+        (
+            (1 4 15 12)
+            (4 7 18 15)
+            (7 10 21 18)
+        );
+    }
+    lowerWall
+    {
+        type wall;
+        faces
+        (
+            (0 3 14 11)
+            (3 2 13 14)
+            (2 5 16 13)
+            (5 8 19 16)
+        );
+    }
+    frontAndBack
+    {
+        type empty;
+        faces
+        (
+            (0 3 4 1)
+            (2 5 6 3)
+            (3 6 7 4)
+            (5 8 9 6)
+            (6 9 10 7)
+            (11 14 15 12)
+            (13 16 17 14)
+            (14 17 18 15)
+            (16 19 20 17)
+            (17 20 21 18)
+        );
+    }
+);
+
+// ************************************************************************* //
