@@ -44,7 +44,11 @@ boundaryField
         type            noSlip;
     }
 
-    frontAndBack
+    front
+    {
+        type            symmetryPlane;
+    }
+    Back
     {
         type            symmetryPlane;
     }

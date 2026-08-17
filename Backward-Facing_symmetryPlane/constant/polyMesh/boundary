@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-5
+6
 (
     inlet
     {
@@ -42,12 +42,19 @@ FoamFile
         nFaces          3921;
         startFace       1213266;
     }
-    frontAndBack
+    front
     {
         type            symmetryPlane;
-//        inGroups        List<word> 1(empty);
-        nFaces          303240;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          151620;
         startFace       1217187;
+    }
+    Back
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          151620;
+        startFace       1368807;
     }
 )
 
