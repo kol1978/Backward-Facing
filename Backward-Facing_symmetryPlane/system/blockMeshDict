@@ -13,8 +13,6 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-// Note: this file is a Copy of $FOAM_TUTORIALS/resources/blockMesh/pitzDaily
-
 convertToMeters 0.001; //координаты в миллиметрах
 //nvertToMeters 1;     //координаты в метрах
 vertices
@@ -127,9 +125,9 @@ boundary
             (5 8 19 16)
         );
     }
-    frontAndBack
+    front
     {
-        type empty;
+        type symmetryPlane;
         faces
         (
             (0 3 4 1)
@@ -137,6 +135,13 @@ boundary
             (3 6 7 4)
             (5 8 9 6)
             (6 9 10 7)
+        );
+    }
+    Back
+    {
+        type symmetryPlane;
+        faces
+        (
             (11 14 15 12)
             (13 16 17 14)
             (14 17 18 15)

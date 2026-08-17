@@ -44,7 +44,11 @@ boundaryField
         value           uniform 300;
     }
 
-    frontAndBack
+    front
+    {
+        type            symmetryPlane;
+    }
+    Back
     {
         type            symmetryPlane;
     }
