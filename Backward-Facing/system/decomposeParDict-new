@@ -1,0 +1,12 @@
+decomposeParDict
+{
+    numberOfSubdomains  8;          // 8 доменов = 8 MPI-процессов (по 6 ядер на узел, но лучше не перегружать)
+    method              scotch;     // scotch/metis — хорошие методы для неструктурированных сеток
+    // Или hierarchical, если хочешь явно привязать домены к NUMA
+    hierarchicalCoeffs
+    {
+        n                 (2 2 2);  // разбиение по осям
+        delta             0.001;
+    }
+    // Для NUMA можно дополнительно использовать numactl при запуске
+}
