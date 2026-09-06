@@ -1,0 +1,319 @@
+GPU-оффлоадинг в v2606 идёт через C++17 std::execution policies, а НЕ через OpenMP target offloading. Expression templates — инфраструктура для этого. OpenMP CPU-трединг явно помечен как не поддерживаемый.
+Отключение OpenMP — не обходной путь, а соответствие дизайн v2606. OpenMP CPU-трединг официально не поддерживается. Expression templates — сознательный инженерный выбор для GPU через std::execution.
+
+------------------------------
+EPCC OpenMP Microbenchmarks — стандартный бенчмарк для измерения накладных расходов OpenMP. Для parallel for на Intel Xeon типичные значения: 5–20 мкс на fork-join (создание/синхронизацию потоков) в зависимости от числа потоков.
+
+Intel OpenMP Runtime documentation — Intel-рантайм (libiomp) использует пул потоков, которые не уничтожаются между регионами (с OpenMP 3.0+). Первый parallel — дорогой (~50–100 мкс, создание потоков). Последующие — дешевле (~5–20 мкс), потому что потоки уже в пуле и «спят».
+
+Зависимость от C-states — на Westmere ядра в простое уходят в C1/C3/C6. Вывод из C6 — ~10–50 мкс. Если ядра активны (C0), пробуждение быстрее — ~2–5 мкс. Это сильно зависит от BIOS-настроек power management.
+
+NUMA-эффект — если поток был привязан к одному сокету, а данные на другом — добавляется ~1–5 мкс на QPI-трансфер для каждой выборки из удалённой памяти.
+
+Что это значит для вас: на 2× Xeon X5675 с активным power management реальные накладные расходы могут быть выше моих оценок — особенно если C-states включены в BIOS.
+
+Суть гибридной модели
+В чистом MPI у вас 12 процессов, каждый на одном ядре. В гибриде — например, 2 MPI-процесса (по одному на сокет), каждый с 6 OpenMP-потоками:
+
+text
+Чистый MPI:          Гибрид MPI+OpenMP:
+┌─────┐ ┌─────┐      ┌─────────────────┐  ┌─────────────────┐
+│ P0  │ │ P1  │      │ P0 + 6 threads  │  │ P1 + 6 threads  │
+│1ядро│ │1ядро│      │ сокет 0 (NUMA 0)│  │ сокет 1 (NUMA 1)│
+└─────┘ └─────┘      └─────────────────┘  └─────────────────┘
+  ...×12               2 MPI = меньше трафика    2 MPI = меньше трафика
+  12× MPI_Bcast        2× MPI_Bcast
+  12× MPI_Send/Recv    2× MPI_Send/Recv
+
+Что выигрываем: меньше MPI-коммуникаций — между 2 процессами пересылать данные быстрее, чем между 12.
+Что теряем: OpenMP-потоки внутри процесса делят общую память, упираются в пропускную способность памяти, и нужен MPI_THREAD_FUNNELED (только главный поток вызывает MPI).
+
+Модифицированный тест: где баланс
+Возьмём testMapDistribute() и масштабируем его. Вот концепция:
+
+cpp
+void testMapDistribute(const label N)
+{
+    // N = 100 (орригинал) → 10 000 → 1 000 000
+    Random rndGen(43544*Pstream::myProcNo());
+
+    List<Tuple2<label, List<scalar>>> complexData(N);
+
+    // === ГЕНЕРАЦИЯ ДАННЫХ — кандидат на OpenMP ===
+    #pragma omp parallel
+    {
+        // Thread-local RNG — свой seed на поток
+        Random tlRndGen(43544*Pstream::myProcNo()
+                       + 1000*omp_get_thread_num());
+
+        #pragma omp for schedule(static)
+        forAll(complexData, i)
+        {
+            complexData[i].first() = tlRndGen.position(0, Pstream::nProcs()-1);
+            complexData[i].second().setSize(3);
+            complexData[i].second()[0] = tlRndGen.GaussNormal();
+            complexData[i].second()[1] = tlRndGen.GaussNormal();
+            complexData[i].second()[2] = tlRndGen.GaussNormal();
+        }
+    }
+
+    // === ПОДСЧЁТ — кандидат на OpenMP с reduction ===
+    labelList nSend(Pstream::nProcs(), Zero);
+
+    #pragma omp parallel for reduction(+:nSend[:Pstream::nProcs()])
+    forAll(complexData, i)
+    {
+        nSend[complexData[i].first()]++;
+    }
+
+    // === СБОРКА КАРТЫ — последовательная (зависимость по индексу) ===
+    labelListList sendMap(Pstream::nProcs());
+    // ... (без изменений)
+
+    // === РАСПРЕДЕЛЕНИЕ — чистый MPI, не трогаем ===
+    mapDistribute map(std::move(sendMap));
+    map.distribute(complexData);
+
+    // === ОБРАБОТКА ПОЛУЧЕННЫХ ДАННЫХ — кандидат на OpenMP ===
+    scalar sumLocal = 0;
+    #pragma omp parallel for reduction(+:sumLocal)
+    forAll(complexData, i)
+    {
+        // Тяжёлая обработка: например, норма вектора
+        const auto& s = complexData[i].second();
+        sumLocal += Foam::sqrt(s[0]*s[0] + s[1]*s[1] + s[2]*s[2]);
+    }
+
+    // Глобальная редукция через MPI
+    reduce(sumLocal, sumOp<scalar>());
+}
+Где искать баланс
+Тут три фазы, и у каждой — свой профиль:
+
+Фаза 1: вычисления (OpenMP)
+Генерация, обработка полученных данных. Здесь OpenMP работает. Время:
+
+$$T_{\text{compute}} = \frac{N \times t_{\text{iter}}}{n_{\text{threads}}}$$
+
+Фаза 2: MPI-коммуникация (mapDistribute)
+Пересылка данных между процессами. Время зависит от объёма данных и числа процессов:
+
+$$T_{\text{MPI}} = f(N \times \text{sizePerElement},; n_{\text{procs}})$$
+
+Для MPI_Alltoall (который внутри mapDistribute):
+
+$$T_{\text{MPI}} \approx \alpha \times \log(n_{\text{procs}}) + \beta \times \frac{N \times \text{sizePerElement}}{n_{\text{procs}}}$$
+
+где $\alpha$ — латентность (~1–5 мкс на сообщение), $\beta$ — пропускная способность сети (~1–10 ГБ/с для QPI внутри узла).
+
+Фаза 3: накладные расходы OpenMP
+$$T_{\text{OMP overhead}} \approx n_{\text{regions}} \times T_{\text{fork-join}}$$
+
+где $n_{\text{regions}}$ — число #pragma omp участков в функции.
+
+Общее время
+$$T_{\text{total}} = T_{\text{compute}} + T_{\text{MPI}} + T_{\text{OMP overhead}}$$
+
+Условие выигрыша гибрида над чистым MPI
+Гибрид выигрывает, когда:
+
+$$T_{\text{MPI}}^{\text{hybrid}} + T_{\text{compute}}^{\text{hybrid}} + T_{\text{OMP overhead}} < T_{\text{MPI}}^{\text{pure}} + T_{\text{compute}}^{\text{pure}}$$
+
+Снижение коммуникации должно перекрыть накладные расходы OpenMP.
+
+Конкретные числа для 2× Xeon X5675
+Параметры железа
+Параметр	Значение
+QPI bandwidth	~12.8 ГБ/с (bidirectional)
+MPI latency (внутри узла, shared memory)	~0.5–2 мкс
+OpenMP fork-join overhead	~5–20 мкс
+Memory bandwidth (DDR3-1333, 3 канала)	~32 ГБ/с на сокет
+Расчёт для разных N
+Размер элемента Tuple2<label, List<scalar>> — 8 байт (label) + 3×8 байт (scalar) + overhead ≈ ~40 байт.
+
+N	Объём данных	T_compute (1 поток)	T_compute (6 потоков)	T_MPI (12→2 проц)	T_OMP_overhead	Гибрид vs MPI
+100	4 КБ	1.5 мкс	0.3 мкс	~1 мкс	~15 мкс	в 10× хуже
+10 000	400 КБ	150 мкс	25 мкс	~5 мкс	~15 мкс	примерно равно
+100 000	4 МБ	1.5 мс	250 мкс	~20 мкс	~15 мкс	гибрид чуть лучше
+1 000 000	40 МБ	15 мс	2.5 мс	~200 мкс	~15 мкс	гибрид явно лучше
+10 000 000	400 МБ	150 мс	25 мс	~2 мс	~15 мкс	гибрид намного лучше
+Точка баланса — около N = 10 000–100 000 элементов. Ниже — MPI-накладные расходы не оправдать. Выше — снижение MPI-трафика начинает доминировать.
+
+Что реально нужно изменить в коде
+Чтобы сделать из test-parallel осмысленный гибридный бенчмарк:
+
+1. Параметризовать N
+cpp
+// В main():
+label N = 100;
+args.readIfPresent("N", N);  // передавать через аргументы
+testMapDistribute(N);
+2. Добавить тяжёлую вычислительную нагрузку
+Не просто setSize(3) и присваивание констант, а что-то, что грузит CPU:
+
+cpp
+#pragma omp parallel for schedule(static)
+forAll(complexData, i)
+{
+    auto& s = complexData[i].second();
+    // Имитация реальной работы: скалярное произведение + норма
+    scalar sum = 0;
+    for (label j = 0; j < 100; j++)  // внутренний цикл — «тяжёлость»
+    {
+        s[0] = Foam::sin(s[0] + 0.001*j);
+        s[1] = Foam::cos(s[1] + 0.001*j);
+        s[2] = Foam::sin(s[2] + 0.001*j);
+        sum += s[0]*s[0] + s[1]*s[1] + s[2]*s[2];
+    }
+    complexData[i].first() = label(sum) % Pstream::nProcs();
+}
+3. Измерять время каждой фазы отдельно
+cpp
+#include <chrono>
+
+auto t0 = std::chrono::high_resolution_clock::now();
+// ... генерация (OpenMP) ...
+auto t1 = std::chrono::high_resolution_clock::now();
+// ... MPI distribute ...
+auto t2 = std::chrono::high_resolution_clock::now();
+// ... обработка (OpenMP) ...
+auto t3 = std::chrono::high_resolution_clock::now();
+
+if (Pstream::master())
+{
+    Info<< "compute: " << (t1-t0).count()*1e-3 << " µs" << endl;
+    Info<< "MPI:     " << (t2-t1).count()*1e-3 << " µs" << endl;
+    Info<< "process: " << (t3-t2).count()*1e-3 << " µs" << endl;
+}
+4. Thread-local RNG
+cpp
+#pragma omp parallel
+{
+    Random tlRnd(43544*Pstream::myProcNo()
+                + 1000*omp_get_thread_num());
+
+    #pragma omp for schedule(static)
+    forAll(complexData, i) { /* ... tlRnd ... */ }
+}
+5. Прогнать матрицу параметров
+bash
+# Сетка параметров: N × nprocs × nthreads
+for N in 100 10000 100000 1000000 10000000; do
+    for nproc in 1 2 4 6 12; do
+        for nthreads in 1 2 4 6; do
+            export OMP_NUM_THREADS=$nthreads
+            total=$((nproc * nthreads))
+            # Гибрид: меньше процессов, больше потоков
+            mpirun -np $nproc ./test-parallel -N $N -parallel
+        done
+    done
+done
+Главный вывод
+Идея верная: увеличить вычислительную нагрузку и найти баланс между MPI-коммуникацией и OpenMP — это рабочий подход. Баланс находится в области N ~ 10 000–100 000 элементов на процесс, что в реальных CFD-расчётах соответствует сетке от ~10 000 ячеек на ядро — как раз типичный размер.
+
+Но есть подвох: test-parallel тестирует саму MPI-инфраструктуру. Если добавить тяжёлые вычисления и OpenMP, он перестанет быть тестом коммуникаций и станет микробенчмарком гибридной модели. Это полезно для исследования, но не для тестирования корректности Pstream.
+
+Хотите, напишу готовый модифицированный test-parallel-hybrid.C — с параметризацией N, таймингом фаз, thread-local RNG и тремя режимами (pure MPI, hybrid, pure OpenMP)?
+
+===================================
+Westmere и -stdpar=multicore: реалистичный прогноз
+1. Будет ли это вообще работать на Westmere?
+Да, технически. oneTBB — библиотека потоков, а не SIMD. Её минимум — x86-64, любой многоядерный процессор. Westmere (SSE4.2) соответствует уровню x86-64-v2 — это базовая ступень современной классификации микроархитектур. TBB не требует AVX, AVX2 или AVX-512 для работы parallel_for, work_stealing и прочего.
+
+Документация oneTBB подтверждает: поддерживается «broad list of hardware platforms» без указания SIMD-минимума. TBB работает на ARM, RISC-V, x86 — потоки и задачи, не инструкции.
+
+2. Но есть три серьёзных проблемы
+Проблема A: NUMA
+Система 2× Xeon X5675 — это 2 NUMA-узла, каждый со своей памятью. QPI-канал между ними (~25.6 ГБ/с) медленнее локальной памяти (~32 ГБ/с). Это критично для CFD.
+
+oneTBB по умолчанию NUMA-не aware. Work-stealing scheduler перебрасывает задачи между сокетами — и задача, начатая на сокете 0, может украсть данные из памяти сокета 1. Для memory-bound workload (OpenFOAM — это именно он) это означает:
+
+remote memory access вместо local
+насыщение QPI-канала
+деградация производительности при пересечении границ сокетов
+Исследование NUMA на Westmere показало: даже оптимальное распределение данных между NUMA-узлами даёт лишь ~10-19% improvement, а плохое распределение — деградацию в разы.
+
+MPI не имеет этой проблемы, потому что каждый процесс живёт в своём сокете и работает только с локальной памятью (при правильной декомпозиции и numactl --cpunodebind).
+
+Проблема B: nvc++, а не icpx
+Proof-of-concept OpenFOAM stdpar сделан на nvc++ (NVIDIA HPC Compiler), не на icpx:
+arxiv.org +1
+
+bash
+nvc++ -stdpar=multicore   # CPU multithreading через NVIDIA PSTL
+nvc++ -stdpar=gpu         # GPU offloading
+NVIDIA PSTL — собственная реализация C++ parallel algorithms. У Intel — oneDPL с oneTBB-бэкендом. Это разные реализации одного стандарта (std::execution::par).
+
+nvc++ -stdpar=multicore	icpx + oneDPL
+Backend	NVIDIA PSTL (встроенный)	oneTBB
+Оптимизация	под NVIDIA Grace/Grace-Hopper	под Intel Xeon
+Зрелость	proof-of-concept на OpenFOAM	не тестировалось на OpenFOAM
+Производительность на multicore	 	TBB обычно быстрее на Intel
+Ключевой вопрос: сможет ли icpx + oneDPL скомпилировать код, написанный под nvc++ -stdpar? Это не гарантировано — реализации расходятся в деталях (allocator requirements, execution policy support, implicit data movement).
+
+Проблема C: overhead для малых задач
+Документация oneTBB прямо предупреждает:
+
+«Typically a loop needs to take at least a million clock cycles to make it worth using parallel_for. For example, a loop that takes at least 500 microseconds on a 2 GHz processor might benefit from parallel_for.»
+
+На Westmere (3.07 GHz) «миллион тактов» — ~326 микросекунд. Многие циклы в OpenFOAM (патчи, малые поля) короче. TBB будет запускать потоки с overhead, превышающим полезную работу.
+
+Expression templates усугубляют это: они создают fused kernels для всего выражения, но если выражение вычисляется над небольшим patch field (а не над всем internal field), overhead TBB может съесть выигрыш от fusion.
+
+3. Сопоставление: MPI-only vs stdpar=multicore на Westmere
+Параметр	MPI-only (текущая v2606)	stdpar=multicore (планируемая v2612)
+NUMA	✅ Каждый процесс — локальная память	⚠️ TBB work-stealing между сокетами
+Cache locality	✅ Каждый процесс — свой L1/L2/L3	⚠️ Task migration между ядрами
+QPI-нагрузка	Минимальная (только границы доменов)	Высокая при cross-socket stealing
+Масштабируемость	~линейная до 12 процессов	~сублинейная из-за NUMA overhead
+SIMD (SSE4.2)	✅ -O3 -march=westmere	✅ Тот же, SIMD не зависит от stdpar
+Компилятор	✅ icpx — работает	⚠️ nvc++ — proof-of-concept; icpx — не тестировался
+Зрелость	✅ Production	⚠️ «not properly supported» в v2606
+12 ядер, 2 сокета	✅ 12 MPI процессов оптимально	⚠️ 12 потоков TBB — NUMA penalty
+4. Что Intel говорит о Westmere-классе CPU и stdpar
+Intel продвигает oneTBB как backend для std::execution::par:
+
+«The TBB backend takes precedence over the OpenMP backend»
+
+И:
+
+«The compiler supports Intel® 64 architecture»
+
+Но Intel не оптимизирует oneTBB под Westmere конкретно. Современные оптимизации oneTBB (NUMA-aware arenas, task_arena с NUMA hints) появились в oneTBB 2021+ и тестируются на Cascade Lake / Ice Lake / Sapphire Rapids. Westmere — 2010 год, 16 лет назад.
+
+Архитектурный разрыв:
+
+text
+Westmere (2010)          →  Sapphire Rapids (2023)
+  SSE4.2                 →  AVX-512
+  3.07 GHz               →  3.5+ GHz
+  32nm                   →  10nm / Intel 7
+  QPI 5.86 GT/s          →  UPI 16 GT/s
+  L3: 12MB               →  L3: 60-112MB
+  DDR3-1333              →  DDR5-4800
+  2×6 cores              →  2×60+ cores
+oneTBB работает на Westmere, но оптимизирован под системы с десятками-сотнями ядер, где work-stealing overhead размазывается. На 12 ядрах с 2 сокетами overhead заметнее.
+
+5. Реалистичный сценарий для v2612 на Westmere
+Если OpenFOAM v2612 интегрирует stdpar=multicore (по плану из release notes v2606):
+
+bash
+# Гипотетическая сборка v2612
+nvc++ -stdpar=multicore -O3 -march=westmere  # если nvc++
+icpx -stdpar=multicore -O3 -march=westmere  # если icpx + oneDPL
+Ожидаемый результат на 2× Xeon X5675:
+
+Чистый stdpar (без MPI): 12 потоков TBB на 2 сокетах. NUMA penalty ~15-30% по сравнению с MPI-only для memory-bound задач. Возможно хуже, чем 12 MPI процессов.
+Hybrid MPI + stdpar: 2 MPI процесса (по одному на сокет), каждый с 6 TBB-потоками. NUMA penalty минимальный (потоки в пределах сокета). Может дать ~10-20% improvement для compute-intensive фаз (assembly, loop fusion), но overhead для patch evaluation.
+MPI-only (как сейчас): 12 процессов, каждый на своём ядре с локальной памятью. Стабильная, предсказуемая производительность.
+6. Вердикт для Westmere
+Горизонт	Рекомендация	Обоснование
+v2606 (сейчас)	MPI-only, без OpenMP	✅ Работает, проверено, 285 бинарников собрано
+v2612 (если выйдет stdpar)	MPI-only; stdpar=multicore — тестировать	NUMA на 2 сокетах Westmere — главный риск; overhead TBB на малых полях
+v2612+ hybrid	2 MPI × 6 потоков stdpar	Лучший вариант для Westmere: NUMA-aware + intra-socket threading
+Долгосрочно	MPI-only остаётся надёжным	Westmere не получит архитектурных оптимизаций oneTBB
+7. Главный вывод
+MPI-only на Westmere — не временная мера, а оптимальная конфигурация для этой архитектуры. stdpar=multicore через oneTBB будет полезен на одно-сокетных системах или системах с быстрым interconnect (UPI на современных Xeon). На 2× Westmere с QPI и DDR3 NUMA-penalty съест большую часть выигрыша от loop fusion и thread parallelism.
+
+Выражаясь прямым текстом: 12 ядер Westmere — ровно тот масштаб, где MPI ещё эффективнее любого threading — потому что каждый процесс получает эксклюзивный доступ к локальной памяти и L3, а QPI используется только для границ доменов (минимум трафика). TBB на 12 ядрах с 2 NUMA-узлами будет тратить такты на work-stealing между сокетами — и это чистые потери.
+
