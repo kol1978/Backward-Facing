@@ -1,0 +1,965 @@
+Compiling enabled on 12 cores
+gcc=/usr/bin/gcc
+clang=
+mpirun=/usr/bin/mpirun
+make=/usr/bin/make
+cmake=/usr/bin/cmake
+wmake=/home/kol/OpenFOAM/OpenFOAM-v2306/wmake/wmake
+m4=/usr/bin/m4
+flex=/usr/bin/flex
+
+compiler=/usr/bin/g++
+g++ (Ubuntu 14.2.0-4ubuntu2~24.04.1) 14.2.0
+
+========================================
+2026-09-02 14:24:26 +0800
+Starting compile OpenFOAM-v2306 Allwmake
+  Gcc system compiler []
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+========================================
+
+built wmake-bin (linux64Gcc)
+
+========================================
+Start ThirdParty Allwmake
+========================================
+using:  gcc -m64 -DOPENFOAM=2306 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -O3 -fPIC
+using:  g++ -std=c++11 -m64 -pthread -DOPENFOAM=2306 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -Wno-unknown-pragmas -O3 -DNoRepository -ftemplate-depth-100 -fPIC
+
+========================================
+Build MPI libraries if required
+    /usr
+Found sources: sources/scotch/scotch_6.1.0
+
+========================================
+scotch decomposition (scotch_6.1.0)
+    Makefile.inc  : 
+    scotch include: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/scotch_6.1.0/include
+    scotch library: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/lib
+
+========================================
+pt-scotch decomposition (scotch_6.1.0 with sys-openmpi)
+    ptscotch include: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/scotch_6.1.0/include/sys-openmpi
+    ptscotch library: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/lib/sys-openmpi
+
+========================================
+KAHIP decomposition
+    kahip include: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/kahip-3.15/include
+    kahip library: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/lib
+
+========================================
+METIS decomposition
+Did not find ... metis-5.1.0
+Missing sources: 'metis-5.1.0'
+Possible download locations for metis :
+    http://glaros.dtc.umn.edu/gkhome/metis/metis/overview
+    http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz
+
+    ---------------------------------------------------
+    Optional component (METIS) had build issues
+    OpenFOAM will nonetheless remain largely functional
+    ---------------------------------------------------
+
+
+========================================
+cgal/boost
+Found sources: sources/boost/boost_1_74_0
+Using boost_1_74_0
+Found sources: sources/cgal/CGAL-4.14.3
+CGAL configuration
+------------------
+    CGAL    = CGAL-4.14.3
+    BOOST   = boost_1_74_0
+    GMP     = gmp-system
+    MPFR    = mpfr-system
+------------------
+----
+Configuring CGAL-4.14.3 with boost 107400
+    Source         : /home/kol/OpenFOAM/ThirdParty-v2306/sources/cgal/CGAL-4.14.3
+    Build          : 
+    Target         : /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/CGAL-4.14.3
+    boost          : boost_1_74_0
+    gmp            : system
+    mpfr           : system
+Using cmake=/usr/bin/cmake
+----
++ /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/CGAL-4.14.3 -DCGAL_INSTALL_LIB_DIR=lib64 -DCMAKE_BUILD_TYPE=Release -DWITH_CGAL_Core=OFF -DWITH_CGAL_ImageIO=OFF -DWITH_CGAL_Qt5=OFF -DCGAL_HEADER_ONLY=true -DBoost_INCLUDE_DIR=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/include -DBoost_LIBRARY_DIRS=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/lib64 -DBoost_THREAD_LIBRARY=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/lib64/libboost_thread.so -DBoost_THREAD_LIBRARY_RELEASE=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/lib64/libboost_thread.so -DBoost_SYSTEM_LIBRARY=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/lib64/libboost_system.so -DBoost_SYSTEM_LIBRARY_RELEASE=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/boost_1_74_0/lib64/libboost_system.so -DBoost_VERSION=107400 /home/kol/OpenFOAM/ThirdParty-v2306/sources/cgal/CGAL-4.14.3
+CMake Error at CMakeLists.txt:8 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+-- Configuring incomplete, errors occurred!
++ exit 1
+
+    ---------------------------------------------------
+    Optional component (CGAL) had build issues
+    OpenFOAM will nonetheless remain largely functional
+    ---------------------------------------------------
+
+
+========================================
+FFTW
+    fftw include: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/fftw-3.3.10/include
+    fftw library: /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/fftw-3.3.10/lib
+
+========================================
+ADIOS2
+Found sources: sources/adios/ADIOS2-2.8.3
+
+========================================
+Build adios library ADIOS2-2.8.3 for sys-openmpi
+
+Starting build: ADIOS2-2.8.3 (using cmake)
+
+no patch found for ADIOS2-2.8.3
+Using cmake=/usr/bin/cmake
++ /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/ADIOS2-2.8.3 -DCMAKE_BUILD_TYPE=Release -DADIOS2_USE_Fortran=FALSE -DADIOS2_BUILD_EXAMPLES=FALSE /home/kol/OpenFOAM/ThirdParty-v2306/sources/adios/ADIOS2-2.8.3
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/mpicc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/mpicxx - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Could NOT find Blosc (missing: BLOSC_LIBRARY BLOSC_INCLUDE_DIR) (Required is at least version "1.7")
+-- Could NOT find BZip2 (missing: BZIP2_LIBRARIES BZIP2_INCLUDE_DIR) 
+-- Could NOT find ZFP (missing: ZFP_DIR)
+-- Could NOT find SZ (missing: SZ_LIBRARY SZ_INCLUDE_DIR) 
+-- Could NOT find MGARD (missing: MGARD_LIBRARY MGARD_INCLUDE_DIR) 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")
+-- Could NOT find PNG (missing: PNG_LIBRARY PNG_PNG_INCLUDE_DIR) (Required is at least version "1.6.0")
+-- Looking for a CUDA compiler
+-- Looking for a CUDA compiler - NOTFOUND
+-- Found MPI_C: /usr/bin/mpicc (found version "3.1")
+-- Found MPI_CXX: /usr/bin/mpicxx (found version "3.1")
+-- Found MPI: TRUE (found version "3.1") found components: C CXX
+-- Could NOT find ZeroMQ (missing: ZeroMQ_LIBRARY ZeroMQ_INCLUDE_DIR) (Required is at least version "4.1")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1")
+-- Checking for module 'dspaces'
+--   Package 'dspaces', required by 'virtual:world', not found
+-- Could NOT find DataSpaces (missing: DATASPACES_VERSION DATASPACES_INCLUDE_DIR DATASPACES_LIBRARIES) (Required is at least version "2.1.1")
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.10") found components: C
+-- Could NOT find IME (missing: IME_LIBRARY IME_INCLUDE_DIR) 
+-- Found Python: /usr/bin/python3.12 (found suitable version "3.12.3", minimum required is "3") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found PythonModule_mpi4py: /usr/lib/python3/dist-packages/mpi4py
+-- Checking for module 'libfabric'
+--   Package 'libfabric', required by 'virtual:world', not found
+-- Could NOT find LIBFABRIC (missing: LIBFABRIC_LIBRARIES) (Required is at least version "1.6")
+-- Could NOT find DAOS (missing: DAOS_LIBRARY DFS_LIBRARY DAOS_INCLUDE_DIR) 
+-- Looking for shmget
+-- Looking for shmget - found
+-- Could NOT find Sodium (missing: sodium_LIBRARY_RELEASE sodium_LIBRARY_DEBUG sodium_INCLUDE_DIR) 
+-- Checking for O_DIRECT
+-- Performing Test O_DIRECT_WORKS
+-- Performing Test O_DIRECT_WORKS - Success
+
+-- ADIOS2 ThirdParty: Configuring KWSys
+CMake Error at thirdparty/KWSys/adios2sys/CMakeLists.txt:91 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+-- Configuring incomplete, errors occurred!
+Error building: ADIOS2-2.8.3
+
+    ---------------------------------------------------
+    Optional component (ADIOS2) had build issues
+    OpenFOAM will nonetheless remain largely functional
+    ---------------------------------------------------
+
+
+========================================
+Done ThirdParty Allwmake
+========================================
+
+========================================
+Compile OpenFOAM libraries
+========================================
+    ln: OpenFOAM/lnInclude
+    ln: OSspecific/POSIX/lnInclude
+    found <sys/inotify.h>  --  enabling inotify for file monitoring.
+wmake libo (POSIX)
+wmake  dummy (mpi=SYSTEMOPENMPI)
+wmake dummy
+wmake  mpi (mpi=SYSTEMOPENMPI:sys-openmpi)
+wmake mpi
+wmake OpenFOAM
+wmake fileFormats
+wmake surfMesh
+wmake meshTools
+wmake finiteArea
+wmake finiteVolume
+wmake mesh/blockMesh
+wmake mesh/extrudeModel
+wmake dynamicMesh
+wmake genericPatchFields
+wmake parallel/decompose/decompositionMethods
+    ln: decompositionMethods/lnInclude
+    ln: kahipDecomp/lnInclude
+    ln: metisDecomp/lnInclude
+    ln: scotchDecomp/lnInclude
+    ln: ptscotchDecomp/lnInclude
+wmake scotchDecomp
+wmake ptscotchDecomp
+wmake metisDecomp
+wmake kahipDecomp
+wmake MGridGen
+    ln: fvOptions/lnInclude
+wmake lagrangian/basic
+wmake lagrangian/distributionModels
+wmake decompositionMethods
+wmake decompose
+wmake faDecompose
+kahip (int32) - /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64Gcc/kahip-3.15
+wmake kahipDecomp
+==> skip metis (no header)
+scotch (int64) - /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/scotch_6.1.0
+wmake scotchDecomp
+scotch (int64) - /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/scotch_6.1.0
+ptscotch - /home/kol/OpenFOAM/ThirdParty-v2306/platforms/linux64GccDPInt64/scotch_6.1.0
+wmake  ptscotchDecomp (mpi=SYSTEMOPENMPI:sys-openmpi)
+wmake ptscotchDecomp
+wmake reconstruct
+wmake faReconstruct
+wmake distributed
+wmake dynamicFvMesh
+wmake topoChangerFvMesh
+wmake sampling
+wmake twoPhaseMixture
+wmake interfaceProperties
+wmake twoPhaseProperties
+wmake incompressible
+wmake compressible
+wmake immiscibleIncompressibleTwoPhaseMixture
+wmake geometricVoF
+wmake libso (randomProcesses)
+wmake ODE
+    ln: thermophysicalProperties/lnInclude
+wmake specie
+wmake solidSpecie
+wmake thermophysicalProperties
+wmake basic
+wmake reactionThermo
+wmake laminarFlameSpeed
+wmake chemistryModel
+wmake barotropicCompressibilityModel
+wmake SLGThermo
+wmake solidThermo
+wmake solidChemistryModel
+wmake radiation
+wmake turbulenceModels
+wmake incompressible
+wmake compressible
+wmake schemes
+    ln: phaseIncompressible/lnInclude
+    ln: phaseCompressible/lnInclude
+wmake combustionModels
+    ln: regionFaModels/lnInclude
+    ln: faOptions/lnInclude
+    ln: overset/lnInclude
+wmake overset
+wmake fvOptions
+wmake fvMotionSolver
+    ln: blockMesh/lnInclude
+wmake snappyHexMesh
+wmake blockMesh
+wmake extrudeModel
+wmake libso renumberMethods
+wmake libso SloanRenumber
+==> skip zoltanRenumber (no library)
+wmake pairPatchAgglomeration
+wmake waveModels
+wmake engine
+wmake libso (conversion)
+==> skip ccmio (no header)
+==> skip optional libccm adapter
+wmake saturationModels
+wmake multiphaseSystem
+wmake twoPhaseSystem
+wmake twoPhaseCompressibleTurbulenceModels
+wmake phasesSystem
+wmake compressibleMultiPhaseTurbulenceModels
+wmake multiphaseSystem
+wmake twoPhaseSystem
+wmake phaseCompressibleTurbulenceModels
+wmake VoFphaseIncompressibleTurbulenceModels
+wmake incompressibleInterPhaseTransportModel
+wmake field
+wmake forces
+wmake initialisation
+wmake utilities
+wmake solvers
+wmake phaseSystems
+wmake libso (randomProcesses)
+wmake thermoTools
+wmake regionModel
+wmake pyrolysisModels
+wmake surfaceFilmModels
+wmake surfaceFilmModels/derivedFvPatchFields/wallFunctions
+wmake thermalBaffleModels
+wmake regionCoupling
+wmake faOptions
+wmake regionFaModels
+wmake distributionModels
+wmake basic
+wmake solidParticle
+wmake intermediate
+wmake turbulence
+wmake spray
+wmake DSMC
+wmake coalCombustion
+wmake potential
+wmake molecularMeasurements
+wmake molecule
+wmake functionObjects/lagrangian
+wmake lumpedPointMotion
+wmake sixDoFRigidBodyMotion
+wmake sixDoFRigidBodyState
+wmake rigidBodyDynamics
+wmake rigidBodyMeshMotion
+wmake atmosphericModels
+wmake optimisation/adjointOptimisation/adjoint
+wmake interfaceTrackingFvMesh
+========================================
+Done OpenFOAM libraries
+========================================
+========================================
+Compile OpenFOAM applications
+========================================
+wmake utilities
+wmake doc
+wmake mesh
+wmake finiteArea
+wmake miscellaneous
+wmake parallelProcessing
+wmake postProcessing
+wmake preProcessing
+wmake surface
+wmake thermophysical
+wmake reconstructPar
+wmake decomposePar
+wmake dataConversion
+wmake lagrangian
+wmake reconstructParMesh
+wmake redistributePar
+wmake surfaceAdd
+wmake adiabaticFlameT
+wmake checkFaMesh
+wmake applyBoundaryLayer
+wmake foamDictionary
+wmake foamDataToFluent
+wmake particleTracks
+wmake advanced
+wmake collapseEdges
+wmake steadyParticleTracks
+wmake surfaceBooleanFeatures
+wmake foamToEnsight
+wmake boxTurb
+wmake foamFormatConvert
+wmake chemkinToFoam
+wmake equilibriumCO
+wmake equilibriumFlameT
+wmake makeFaMesh
+wmake foamToGMV
+wmake combinePatchFaces
+wmake changeDictionary
+wmake mixtureAdiabaticFlameT
+wmake createBoxTurb
+wmake modifyMesh
+wmake foamToTetDualMesh
+wmake foamHasLibrary
+wmake surfaceCheck
+wmake surfaceClean
+wmake foamToVTK
+wmake smapToFoam
+wmake lumped
+wmake miscellaneous
+wmake lumpedPointForces
+wmake engineCompRatio
+wmake foamHelp
+wmake noise
+wmake helpTypes
+wmake foamListRegions
+wmake pdfPlot
+wmake surfaceCoarsen
+wmake bunnylod
+wmake PDRMesh
+wmake surfaceConvert
+wmake surfaceFeatureConvert
+wmake optimisation
+wmake computeSensitivities
+wmake createExternalCoupledPatchGeometry
+wmake lumpedPointMovement
+wmake foamListTimes
+wmake createZeroDirectory
+wmake foamRestoreFields
+wmake lumpedPointZones
+wmake refineHexMesh
+wmake postChannel
+wmake surfaceFeatureExtract
+wmake profilingSummary
+wmake surfaceFind
+wmake cumulativeDisplacement
+wmake OSspecific
+wmake postProcess
+wmake extractionMethod
+wmake patchSummary
+wmake refinementLevel
+wmake conversion
+wmake ansysToFoam
+wmake temporalInterpolate
+wmake dsmcInitialise
+wmake refineWallLayer
+wmake removeFaces
+wmake doc
+wmake surfaceHookUp
+wmake generation
+wmake surfaceInertia
+wmake engineSwirl
+wmake PDRblockMesh
+wmake manipulation
+wmake selectCells
+wmake attachMesh
+wmake autoPatch
+wmake surfaceInflate
+wmake snappyRefineMesh
+wmake surfaceLambdaMuSmooth
+wmake splitCells
+wmake faceAgglomerate
+wmake surfaceMeshConvert
+wmake foamUpgradeCyclics
+wmake ccm
+wmake cfx4ToFoam
+wmake datToFoam
+wmake surfaceMeshExport
+wmake checkMesh
+==> skip optional ccm conversion components (no libccm)
+wmake blockMesh
+wmake ensightToFoam
+wmake createBaffles
+wmake faceSelection
+wmake mapFields
+wmake mapFieldsPar
+wmake createPatch
+wmake surfaceMeshExtract
+wmake fireToFoam
+wmake surfaceMeshImport
+wmake surfaceMeshInfo
+wmake extrude
+wmake fluent3DMeshToFoam
+wmake extrudeMesh
+wmake fluentMeshToFoam
+wmake extrudedMesh
+wmake surfaceOrient
+wmake surfacePatch
+wmake searchableSurfaceModifier
+wmake mdInitialise
+wmake foamMeshToFluent
+wmake surfacePointMerge
+wmake surfaceRedistributePar
+wmake deformedGeom
+wmake flattenMesh
+wmake insideCells
+wmake surfaceRefineRedGreen
+wmake surfaceSplitByPatch
+wmake foamToFireMesh
+wmake optimisation
+wmake PDR
+wmake mergeMeshes
+wmake writeActiveDesignVariables
+wmake surfaceSplitByTopology
+wmake extrudeToRegionMesh
+wmake pdrFields
+wmake foamToStarMesh
+wmake surfaceSplitNonManifolds
+wmake mergeOrSplitBaffles
+wmake test
+wmake mirrorMesh
+wmake surfaceSubset
+wmake writeMorpherCPs
+wmake surfaceToPatch
+wmake setAlphaField
+wmake surfaceTransformPoints
+wmake setExprBoundaryFields
+wmake extrude2DMesh
+wmake moveDynamicMesh
+wmake foamToSurface
+wmake moveEngineMesh
+wmake alphaFieldFunctions
+wmake extrude2DMesh
+wmake moveMesh
+wmake gambitToFoam
+wmake objToVTK
+wmake setExprFields
+wmake setFields
+wmake PDRsetFields
+wmake setTurbulenceFields
+wmake smoothSurfaceData
+wmake orientFaceZone
+wmake polyDualMesh
+wmake gmshToFoam
+wmake gmsh
+wmake refineMesh
+wmake renumberMesh
+wmake viewFactorsGen
+    found libSloanRenumber -- enabling sloan renumbering support.
+wmake rotateMesh
+wmake wallFunctionTable
+wmake ideasUnvToFoam
+wmake setSet
+wmake unv
+wmake tabulatedWallFunction
+wmake setsToZones
+    did not find CGAL -- disabling CGAL functionality
+wmake kivaToFoam
+wmake singleCellMesh
+wmake splitMesh
+wmake splitMeshRegions
+wmake stitchMesh
+    readline detected - enabling readline support.
+wmake subsetMesh
+wmake snappyHexMesh
+wmake mshToFoam
+wmake netgenNeutralToFoam
+wmake testFiles
+wmake plot3dToFoam
+wmake topoSet
+wmake transformPoints
+wmake zipUpMesh
+wmake star4ToFoam
+wmake tetgenToFoam
+wmake vtkUnstructuredToFoam
+wmake writeMeshObj
+WARNING: cannot build foamyMesh without CGAL
+wmake solvers
+wmake acoustic
+wmake basic
+wmake combustion
+wmake discreteMethods
+wmake compressible
+wmake doc
+wmake DNS
+wmake financial
+wmake electromagnetics
+wmake heatTransfer
+wmake finiteArea
+wmake incompressible
+wmake chemFoam
+wmake acousticFoam
+wmake laplacianFoam
+wmake dnsFoam
+wmake lagrangian
+wmake financialFoam
+wmake adjointOptimisationFoam
+wmake liquidFilmFoam
+wmake dsmc
+wmake rhoCentralFoam
+wmake electrostaticFoam
+wmake buoyantBoussinesqPimpleFoam
+wmake coalChemistryFoam
+wmake overLaplacianDyMFoam
+wmake dsmcFoam
+wmake BCs
+wmake coldEngineFoam
+wmake magneticFoam
+wmake molecularDynamics
+wmake multiphase
+wmake mdEquilibrationFoam
+wmake stressAnalysis
+wmake adjointShapeOptimizationFoam
+wmake solidDisplacementFoam
+wmake adjointOutletPressure
+wmake sphereSurfactantFoam
+wmake tractionDisplacement
+wmake adjointOutletVelocity
+wmake buoyantBoussinesqSimpleFoam
+wmake cavitatingFoam
+wmake cavitatingDyMFoam
+wmake mhdFoam
+wmake potentialFoam
+wmake scalarTransportFoam
+wmake overPotentialFoam
+wmake surfactantFoam
+wmake buoyantPimpleFoam
+wmake mdFoam
+wmake overBuoyantPimpleDyMFoam
+wmake DPMFoam
+wmake solidEquilibriumDisplacementFoam
+wmake fireFoam
+wmake tractionDisplacementCorrection
+wmake DPMTurbulenceModels
+wmake buoyantSimpleFoam
+wmake PDRFoam
+wmake boundaryFoam
+wmake rhoPimpleAdiabaticFoam
+wmake laminarFlameSpeed
+wmake SCOPE
+wmake PDRModels
+wmake dragModels
+wmake basic
+wmake icoFoam
+wmake PDRDragModel
+wmake XiModels
+wmake rhoPimpleFoam
+wmake turbulence
+wmake algebraic
+wmake overRhoPimpleDyMFoam
+wmake fixed
+wmake PDRkEpsilon
+wmake transport
+wmake XiEqModels
+wmake XiEqModels
+wmake Gulder
+wmake basicXiSubXiEq
+wmake instabilityXiEq
+wmake SCOPEBlendXiEq
+wmake SCOPEXiEq
+wmake XiGModels
+wmake nonNewtonianIcoFoam
+wmake XiEqModel
+wmake pimpleFoam
+wmake overPimpleDyMFoam
+wmake XiGModels
+wmake basicXiSubG
+wmake instabilityG
+wmake KTS
+wmake XiGModel
+wmake XiModel
+wmake pisoFoam
+wmake chtMultiRegionFoam
+wmake chtMultiRegionSimpleFoam
+wmake compressibleInterFoam
+wmake chtMultiRegionTwoPhaseEulerFoam
+wmake fluid
+wmake fluid
+wmake rhoSimpleFoam
+wmake derivedFvPatchFields
+wmake reactingFoam
+wmake rhoReactingBuoyantFoam
+wmake overRhoSimpleFoam
+wmake twoPhaseMixtureThermo
+wmake solid
+wmake turbulentTemperatureTwoPhaseRadCoupledMixed
+wmake fluid
+wmake include
+wmake solid
+wmake solid
+wmake XiFoam
+wmake rhoPorousSimpleFoam
+wmake XiDyMFoam
+wmake icoUncoupledKinematicParcelFoam
+wmake SRFPimpleFoam
+wmake sonicFoam
+wmake icoUncoupledKinematicParcelDyMFoam
+wmake sonicDyMFoam
+wmake compressibleMultiphaseInterFoam
+wmake multiphaseMixtureThermo
+wmake MPPICFoam
+wmake XiEngineFoam
+wmake sonicLiquidFoam
+wmake solidFoam
+wmake DPMDyMFoam
+wmake surfaceTensionModels
+wmake shallowWaterFoam
+wmake rhoReactingFoam
+wmake thermoFoam
+wmake driftFluxFoam
+wmake DPMDyMFoam/MPPICDyMFoam
+wmake mixtureViscosityModels
+wmake kinematicParcelFoam
+wmake simpleFoam
+wmake VoFphaseCompressibleTurbulenceModels
+wmake reactingParcelFoam
+wmake icoReactingMultiphaseInterFoam
+wmake overSimpleFoam
+wmake interCondensatingEvaporatingFoam
+wmake laserDTRM
+wmake reactingHeterogenousParcelFoam
+wmake temperaturePhaseChangeTwoPhaseMixtures
+wmake simpleReactingParcelFoam
+wmake relativeVelocityModels
+wmake simpleCoalParcelFoam
+wmake porousSimpleFoam
+wmake SRFSimpleFoam
+wmake interFoam
+wmake interMixingFoam
+wmake sprayFoam
+wmake engineFoam
+wmake immiscibleIncompressibleThreePhaseMixture
+wmake incompressibleThreePhaseMixture
+wmake uncoupledKinematicParcelFoam
+wmake threePhaseInterfaceProperties
+wmake interIsoFoam
+wmake overInterDyMFoam
+wmake uncoupledKinematicParcelDyMFoam
+wmake simpleSprayFoam
+wmake sprayDyMFoam
+wmake interPhaseChangeFoam
+wmake phaseChangeTwoPhaseMixtures
+wmake MPPICInterFoam
+wmake multiphaseEulerFoam
+wmake compressibleTwoPhaseMixtureTurbulenceModels
+wmake multiphaseInterFoam
+wmake potentialFreeSurfaceFoam
+wmake potentialFreeSurfaceDyMFoam
+wmake reactingMultiphaseEulerFoam
+wmake compressibleInterDyMFoam
+wmake multiphaseMixture
+wmake pU
+wmake reactingTwoPhaseEulerFoam
+wmake pUf
+wmake pU
+wmake pUf
+wmake twoLiquidMixingFoam
+wmake twoPhaseEulerFoam
+wmake VoF
+wmake pU
+wmake pUf
+wmake compressibleInterFilmFoam
+wmake compressibleInterIsoFoam
+wmake overCompressibleInterDyMFoam
+wmake interPhaseChangeDyMFoam
+wmake overInterPhaseChangeDyMFoam
+========================================
+Done OpenFOAM applications
+========================================
+========================================
+prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+    ignoring possible compilation errors
+    make certain to check the output file
+
+wmake libso 
+========================================
+2026-09-02 14:26:01 +0800
+Starting compile of OpenQBMM with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+========================================
+Compile OpenQBMM libraries
+
+wmake libso Vandermonde
+wmake libso quadratureMethods/momentSets
+wmake libso quadratureMethods/momentInversion
+wmake libso quadratureMethods/hermiteQuadrature
+wmake libso quadratureMethods/quadratureNode
+wmake libso quadratureMethods/fieldMomentInversion
+wmake libso quadratureMethods/quadratureApproximations
+wmake libso quadratureMethods/momentAdvection
+wmake libso quadratureMethods/PDFTransportModels
+wmake libso quadratureMethods/mixingModels
+wmake libso quadratureMethods/populationBalanceModels
+========================================
+Compile OpenQBMM applications
+
+wmake libso utilities
+wmake libso computeMoments
+wmake libso errorEstimator
+wmake libso phaseMeanVelocityForce
+wmake libso generateMoments
+wmake libso reconstructPointDistribution
+wmake libso lnInclude
+wmake libso lnInclude
+wmake libso phaseIncompressibleMeanVelocityForce
+wmake libso phaseCompressibleMeanVelocityForce
+wmake libso momentGenerationModels
+wmake populationBalance
+wmake buoyantPbePimpleFoam
+wmake pbeFoam
+wmake pbeTransportFoam
+wmake mixing
+wmake mixingTransportFoam
+wmake libso ButcherTable
+wmake explicitRhoFoam
+wmake compressibleSystem
+wmake compressiblePbeTransportFoam
+wmake velocityDistributionTransport
+wmake phaseModel
+wmake interfacialModels
+wmake phaseCompressibleTurbulenceModels
+wmake vdfTransportFoam
+wmake oneWayCoupledVdfTransportFoam
+wmake diluteVdfTransportFoam
+wmake multiphase
+wmake twoPhaseSystem
+wmake interfacialModels
+wmake phaseCompressibleTurbulenceModels
+wmake polydisperseBubbleFoam
+wmake denseAGFoam
+
+2026-09-02 14:26:12 +0800
+========================================
+  Finished compile of OpenQBMM with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+wmake libso 
+========================================
+2026-09-02 14:26:13 +0800
+Starting compile of adiosFoam with OpenFOAM-v2306 
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+==> adios2 not found?
+Define manually, enable in OpenFOAM etc/bashrc, or try the following [POSIX]:
+
+    eval $(foamEtcFile -sh -config adios2 -- -force)
+
+==
+
+2026-09-02 14:26:13 +0800
+========================================
+  Finished compile of adiosFoam with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+wmake libso 
+========================================
+2026-09-02 14:26:13 +0800
+Starting compile of avalanche with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+wmake libso avalanche
+wmake libso solvers
+wmake libso faParkerFukushimaFoam
+wmake libso faTwoLayerAvalancheFoam
+wmake libso faSavageHutterFoam
+wmake libso utilities
+wmake libso gridToSTL
+wmake libso releaseAreaMapping
+wmake libso slopeMesh
+wmake libso elevationModels
+wmake libso elevationModel
+wmake libso simpleSlope
+
+2026-09-02 14:26:14 +0800
+========================================
+  Finished compile of avalanche with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+wmake libso 
+========================================
+2026-09-02 14:26:14 +0800
+Starting compile of cfmesh with OpenFOAM-v2306 
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+wmake libso meshLibrary
+wmake executables
+wmake cartesian2DMesh
+wmake cartesianMesh
+wmake pMesh
+wmake tetMesh
+wmake utilities
+wmake checkSurfaceMesh
+wmake extrudeEdgesInto2DSurface
+wmake copySurfaceParts
+wmake FMSToSurface
+wmake FLMAToSurface
+wmake FMSToVTK
+wmake generateBoundaryLayers
+wmake importSurfaceAsSubset
+wmake improveMeshQuality
+wmake improveSymmetryPlanes
+wmake mergeSurfacePatches
+wmake meshToFPMA
+wmake patchesToSubsets
+wmake preparePar
+wmake removeSurfaceFacets
+wmake scaleMesh
+wmake scaleSurfaceMesh
+wmake subsetToPatch
+wmake surfaceFeatureEdges
+wmake surfaceGenerateBoundingBox
+wmake surfaceToFMS
+
+2026-09-02 14:26:17 +0800
+========================================
+  Finished compile of cfmesh with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+wmake libso 
+========================================
+2026-09-02 14:26:17 +0800
+Starting compile of external-solver (petsc) with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+==> skip petsc (no header)
+
+2026-09-02 14:26:17 +0800
+========================================
+  Finished compile of external-solver (petsc) with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+wmake libso 
+========================================
+2026-09-02 14:26:17 +0800
+Starting compile of visualization with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+  prefix = /home/kol/OpenFOAM/OpenFOAM-v2306/platforms/linux64GccDPInt64Opt
+
+======================================================================
+catalyst : /home/kol/OpenFOAM/OpenFOAM-v2306/modules/visualization/src/catalyst
+
+WARNING: skip ParaView Catalyst (missing or incorrrect ParaView)
+======================================================================
+==> skip paraview-plugin (no header)
+======================================================================
+runTimePostProcessing : /home/kol/OpenFOAM/OpenFOAM-v2306/modules/visualization/src/runTimePostProcessing
+WARNING: skip runTimePostProcessing (no VTK or ParaView)
+    - ParaView  : export the 'ParaView_DIR' variable
+    - VTK       : export the 'VTK_DIR'      variable
+==> dummy runTimePostProcessing
+wmake dummy
+======================================================================
+
+2026-09-02 14:26:29 +0800
+========================================
+Finished compile of visualization with OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+
+2026-09-02 14:26:29 +0800
+========================================
+  OpenFOAM-v2306
+  Gcc system compiler
+  linux64GccDPInt64Opt, with SYSTEMOPENMPI sys-openmpi
+
+  api = 2306
+  patch = 0
+  bin = 314 entries
+  lib = 149 entries
+
+========================================
