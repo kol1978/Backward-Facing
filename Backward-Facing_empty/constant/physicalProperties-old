@@ -1,0 +1,47 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      physicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+thermoType
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          eConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleInternalEnergy;
+}
+
+mixture
+{
+    specie
+    {
+        molWeight   28.96; // средняя молярная масса воздуха, г/моль
+    }
+    thermodynamics
+    {
+        Cv          718; //(Дж/(кг·К)) — это удельная теплоёмкость при постоянном объёме. Она определяет, сколько энергии нужно передать 1 кг вещества, чтобы нагреть его на 1 К, если объём не меняется
+        hf          0;   //это стандартная энтальпия образования (heat of formation) при опорной температуре (обычно 298,15 К)
+    }
+    transport
+    {
+        mu          1.8e-05;  // Па·с, динамическая вязкость при опорной температуре
+        Pr          0.707;      // число Прандтля
+    }
+}
+
+
+// ************************************************************************* //
