@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2.3.0                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|  \\    /   O peration     | Version:  v2312                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -10,26 +10,27 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    location    "system";
     object      controlDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     pimpleCentralFoam;
+libs            (OpenFOAM fieldFunctionObjects);
 
-startFrom       latestTime;
+application     simpleFoam;
+
+startFrom       startTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         0.25;
+endTime         500;
 
-deltaT          0.25e-6;
+deltaT          1;
 
-writeControl    adjustableRunTime;
+writeControl    timeStep;
 
-writeInterval   0.001;
+writeInterval   500;
 
 purgeWrite      0;
 
@@ -37,7 +38,7 @@ writeFormat     ascii;
 
 writePrecision  6;
 
-writeCompression off;
+writeCompression on;
 
 timeFormat      general;
 
@@ -45,13 +46,15 @@ timePrecision   6;
 
 runTimeModifiable true;
 
-adjustTimeStep  true;
+functions
+{
+    // Demonstrate runTimePostProcessing
+    #include "visualization"
 
-maxCo           0.5;
-
-maxDeltaT       1e-3;
-
-CourantType	faceCourant;
+    // Do some other functionObjects
+    #include "forceCoeffs"
+    #include "stabilizationSchemes"
+}
 
 
 // ************************************************************************* //
