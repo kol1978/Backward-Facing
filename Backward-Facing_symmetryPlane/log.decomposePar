@@ -9,9 +9,9 @@ Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : decomposePar -force
 Date   : Sep 09 2026
-Time   : 11:52:15
+Time   : 15:47:45
 Host   : kol-serv
-PID    : 38046
+PID    : 74294
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/Backward-Facing_symmetryPlane
 nProcs : 1
@@ -26,13 +26,13 @@ Create time
 
 Decomposing mesh
 
-Removing 10 existing processor directories
+Removing 12 existing processor directories
 Create mesh
 
 Calculating distribution of cells
 Decomposition method scotch [12] (region region0)
 
-Finished decomposition in 1 s
+Finished decomposition in 1.07 s
 
 Calculating original mesh data
 

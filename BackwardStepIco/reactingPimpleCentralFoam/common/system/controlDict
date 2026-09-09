@@ -17,13 +17,13 @@ FoamFile
 
 application    reactingPimpleCentralFoam;
 
-startFrom       startTime;
+startFrom       latestTime; //startTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         1500;
+endTime         10000;
 
 deltaT          1e-5;//2e-05;
 
@@ -35,7 +35,7 @@ cycleWrite      0;
 
 writeFormat     ascii;
 
-writePrecision  6;
+writePrecision  20;
 
 writeCompression off;
 
