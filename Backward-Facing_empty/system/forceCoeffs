@@ -1,0 +1,41 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+
+forceCoeffs1
+{
+    type            forceCoeffs;
+
+    libs            ("libforces.so");
+
+    writeControl    writeTime; //timeStep;
+    timeInterval    1;
+
+    log             yes;
+
+    patches         (upperWall);
+    rho             rhoInf;      // Указывает на несжимаемый материал.
+    rhoInf          1;           // Избыточный для несжимаемых материалов
+    liftDir         (0 0 1);
+    dragDir         (1 0 0);
+    CofR            (0.72 0 0);  // Centre of rotation for moment calculations (CofR) — центр вращения для расчётов моментов.
+    pitchAxis       (0 1 0);
+    magUInf         20;         //Freestream velocity magnitude (magUInf) — величина скорости набегающего потока в м/с.
+    lRef            1.42;        // Reference length (lRef) — эталонная длина для расчётов моментов.
+    Aref            0.75;        // Reference area (Aref) — эталонная площадь.
+    /*
+    binData
+    {
+        nBin        20;          // output data into 20 bins
+        direction   (1 0 0);     // bin direction
+        cumulative  yes;
+    }
+    */
+}
+
+
+// ************************************************************************* //
