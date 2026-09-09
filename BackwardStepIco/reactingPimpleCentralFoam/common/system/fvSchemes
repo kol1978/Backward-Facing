@@ -60,10 +60,10 @@ laplacianSchemes
 interpolationSchemes
 {
     default         none;
-    
+
     interpolate((rho*U))	linear;
     interpolate(((rho*nut)+thermo:mu)) linear;
-    
+
     reconstruct(rho)		$defaultAdvScheme;
     reconstruct(psi)		$defaultAdvScheme;
     reconstruct(p)		$defaultAdvScheme;
@@ -81,8 +81,10 @@ snGradSchemes
 
 fluxRequired
 {
-    default	none;
+    default     none;
     p;
+    h;
 }
+
 
 // ************************************************************************* //
