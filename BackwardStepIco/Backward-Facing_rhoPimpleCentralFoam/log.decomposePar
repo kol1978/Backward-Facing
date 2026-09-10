@@ -1,0 +1,164 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
+Arch   : "LSB;label=64;scalar=64"
+Exec   : decomposePar -force
+Date   : Sep 10 2026
+Time   : 14:23:53
+Host   : kol-serv
+PID    : 43505
+I/O    : uncollated
+Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh
+
+Removing 10 existing processor directories
+Create mesh
+
+Calculating distribution of cells
+Decomposition method scotch [10] (region region0)
+
+Finished decomposition in 0.68999999999999994671 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 45486
+    Number of points = 61712
+    Number of faces shared with processor 1 = 453
+    Number of faces shared with processor 6 = 417
+    Number of processor patches = 2
+    Number of processor faces = 870
+    Number of boundary faces = 31044
+
+Processor 1
+    Number of cells = 45267
+    Number of points = 61448
+    Number of faces shared with processor 0 = 453
+    Number of faces shared with processor 2 = 351
+    Number of processor patches = 2
+    Number of processor faces = 804
+    Number of boundary faces = 31006
+
+Processor 2
+    Number of cells = 45354
+    Number of points = 61548
+    Number of faces shared with processor 1 = 351
+    Number of faces shared with processor 3 = 360
+    Number of processor patches = 2
+    Number of processor faces = 711
+    Number of boundary faces = 31133
+
+Processor 3
+    Number of cells = 45216
+    Number of points = 61392
+    Number of faces shared with processor 2 = 360
+    Number of faces shared with processor 4 = 393
+    Number of processor patches = 2
+    Number of processor faces = 753
+    Number of boundary faces = 31041
+
+Processor 4
+    Number of cells = 45327
+    Number of points = 61500
+    Number of faces shared with processor 3 = 393
+    Number of processor patches = 1
+    Number of processor faces = 393
+    Number of boundary faces = 31415
+
+Processor 5
+    Number of cells = 45582
+    Number of points = 61868
+    Number of faces shared with processor 6 = 468
+    Number of faces shared with processor 7 = 438
+    Number of processor patches = 2
+    Number of processor faces = 906
+    Number of boundary faces = 31114
+
+Processor 6
+    Number of cells = 45711
+    Number of points = 62008
+    Number of faces shared with processor 0 = 417
+    Number of faces shared with processor 5 = 468
+    Number of processor patches = 2
+    Number of processor faces = 885
+    Number of boundary faces = 31173
+
+Processor 7
+    Number of cells = 45765
+    Number of points = 62080
+    Number of faces shared with processor 5 = 438
+    Number of faces shared with processor 8 = 447
+    Number of processor patches = 2
+    Number of processor faces = 885
+    Number of boundary faces = 31209
+
+Processor 8
+    Number of cells = 45627
+    Number of points = 61900
+    Number of faces shared with processor 7 = 447
+    Number of faces shared with processor 9 = 450
+    Number of processor patches = 2
+    Number of processor faces = 897
+    Number of boundary faces = 31111
+
+Processor 9
+    Number of cells = 45525
+    Number of points = 61736
+    Number of faces shared with processor 8 = 450
+    Number of processor patches = 1
+    Number of processor faces = 450
+    Number of boundary faces = 31448
+
+Number of processor faces = 3777
+Max number of cells = 45765 (0.61337554412346650956% above average 45486)
+Max number of processor patches = 2 (11.11111111111110894% above average 1.8000000000000000444)
+Max number of faces between processors = 906 (19.936457505957111636% above average 755.39999999999997726)
+
+Time = 0.001
+
+Processor 0: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 1: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 2: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 3: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 4: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 5: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 6: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 7: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 8: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+Processor 9: field transfer
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.001/uniform"
+
+End
+

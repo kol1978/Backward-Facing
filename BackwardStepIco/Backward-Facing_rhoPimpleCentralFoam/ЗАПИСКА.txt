@@ -1,0 +1,35 @@
+Как переключиться с RANS на LES
+Замена в одном файле — constant/turbulenceProperties:
+
+------------------Было (RANS, SST k-ω):
+
+simulationType RAS;
+RAS
+{
+    RASModel kOmegaSST;
+    turbulence on;
+    printCoeffs on;
+}
+
+---------------------Стало (LES, WALE):
+
+simulationType LES;
+LES
+{
+    LESModel WALE;
+    delta cubeRootVol;
+    turbulence on;
+    printCoeffs on;
+
+    WALECoeffs
+    {
+        Cw 0.325;
+    }
+    cubeRootVolCoeffs
+    {
+        deltaCoeff 1;
+    }
+}
+---------------------------------------------
+Доступные SGS-модели для сжимаемых течений
+
