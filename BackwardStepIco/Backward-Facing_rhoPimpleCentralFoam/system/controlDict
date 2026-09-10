@@ -1,0 +1,68 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     rhoPimpleCentralFoam; //rhoPimpleFoam;
+
+startFrom        latestTime;//startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.01;
+
+deltaT          1e-5;//2e-05;
+
+writeControl    adjustableRunTime;
+
+writeInterval   0.00005;
+
+cycleWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  20;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+adjustTimeStep  true;
+
+maxCo           0.7;
+
+CourantType     cellCourant;
+
+maxDeltaT       1;
+/*
+kappaFunction
+{
+    type            uniformKappaFunction;
+    kappa           0;
+}*/
+kappaFunction
+{
+    type            standardMachToAcCourantRatio;
+    Mmin            0.3;
+    Mmax            1.0;
+}
+
+// ************************************************************************* //

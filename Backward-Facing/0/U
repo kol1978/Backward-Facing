@@ -19,6 +19,7 @@ internalField   uniform (44.2 0 0);
 
 boundaryField
 {
+
     inlet
     {
         type            turbulentInlet;
