@@ -11,9 +11,8 @@
 
 ## Совместимость с Intel ICX (oneAPI)
 
-Коллекция адаптирована для сборки компилятором Intel ICX (oneAPI 2026.1, LLVM-based) в дополнение к GCC. Подробнее об изменениях, причинах и применённых патчах — в отчёте:
+Коллекция адаптирована для сборки компилятором Intel ICX (oneAPI 2026.1, LLVM-based) в дополнение к GCC. Подробнее об изменениях, причинах и применённых патчах — в отчёте: →→ [Compiler_OpenFOAM-Version_Fix.md](../Compiler_OpenFOAM-Version_Fix.md)
 
-→ [Compiler_OpenFOAM-Version_Fix.md](Compiler_OpenFOAM-Version_Fix.md)
 
 ### Что сделано
 
