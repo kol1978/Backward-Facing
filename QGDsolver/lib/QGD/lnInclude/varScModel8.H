@@ -1,0 +1,1 @@
+../QGDCoeffs/varScModel8/varScModel8.H
