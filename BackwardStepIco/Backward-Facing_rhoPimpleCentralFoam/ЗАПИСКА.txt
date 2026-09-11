@@ -1,4 +1,41 @@
-Как переключиться с RANS на LES
+Классический «провал» расчёта в OpenFOAM: на шаге Time = 0.0257219 в итерации PIMPLE при решении для энтальпии (h) поле температуры уходит в абсурдные значения (max/min T: 2016.06 / -4084.66), а затем на следующем этапе возникает деление на отрицательное под корнем (или иная некорректная математика) — отсюда Floating point exception (SIGFPE, rank 1) и последующий kill остальных рангов:
+
+Mean and max Characteristic Courant Numbers = 0.82731763735387009451 4.6695082360774344821
+Courant Number max: 0.69983036772518492086
+deltaT = 3.1000551432838714364e-06
+Time = 0.0257219
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 1.1775744732767938761 / 1.1247960015759350672
+PIMPLE: iteration 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.0016500365133149820073, Final residual = 6.6083013891136870278e-16, No Iterations 10
+max/min T: 2016.0613813536160706/-4084.6601411305114198
+[1] [stack trace]
+[1] =============
+[1] #1  Foam::sigFpe::sigHandler(int) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[1] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
+[1] #3  __libm_sqrt_ex in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #4  Foam::sqrt(Foam::Field<double>&, Foam::UList<double> const&) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[1] #5  void Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #6  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #7  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #8  ? in /lib/x86_64-linux-gnu/libc.so.6
+[1] #9  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[1] #10  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] =============
+
+---------------------Возможные причины
+С учётом задач (QGD/реакционные солверы, гибридная параллелизация, ICX) наиболее вероятны следующие причины:
+
+Слишком большой шаг по времени или высокий Courant. Max Co = 4.67 — это много для сжимаемых/реакционных солверов. Даже если PIMPLE делает несколько внутренних итераций, при сильных градиентах и реакциях схема может не «вытянуть» такой шаг.
+Некорректные граничные условия для T или h. Особенно если используются профили/таблицы (ты ранее спрашивал про fixedProfile): при интерполяции или экстраполяции могут возникать отрицательные значения.
+Ошибки в кастомных моделях (QGD, реакции, турбулентность). В форке QGDsolver могут быть формулы, которые при определённых условиях дают отрицательные величины (например, плотность, давление, энтальпия), а затем они попадают под корень.
+NUMA‑дисбаланс и разные значения на границах поддоменов. Если на границе MPI‑доменов возникают резкие скачки (из‑за плохой балансировки или привязки процессов к нодам), то градиенты и дивергенции становятся огромными, и схема срывается.
+Компиляторные оптимизации ICX. При -fp-model precise ICX может менять порядок операций, и в пограничных случаях это приводит к отрицательным значениям там, где GCC давал «почти ноль».
+Проблемы с инициализацией. Если начальное поле T задано некорректно (локальные пики, отрицательные значения), то уже на первых шагах схема может уйти в нефизику.
+
+
+------------------Как переключиться с RANS на LES
 Замена в одном файле — constant/turbulenceProperties:
 
 ------------------Было (RANS, SST k-ω):
