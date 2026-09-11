@@ -23,7 +23,7 @@
 Коллекция адаптирована для сборки компилятором Intel ICX (oneAPI 2026.1, LLVM-based) в дополнение к GCC. Подробнее об изменениях, причинах и применённых патчах — в отчёте: [Compiler_OpenFOAM-Version_Fix.md](../Compiler_OpenFOAM-Version_Fix.md)
 
 
-### Лог сборки
+### Сборка
 
 Файл [log.icpx_v2312_2026-09-09.log](log.icpx_v2312_2026-09-09.log) — полный журнал компиляции `hybridCentralSolvers` компилятором Intel ICX (oneAPI 2026.1.1) на OpenFOAM v2312. Содержит:
 
