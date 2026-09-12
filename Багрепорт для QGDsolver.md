@@ -533,7 +533,7 @@ Root cause идентичен, рекомендуются те же правки
 
 **Команда пересборки**
 
-cd ~/OpenFOAM/user-v2312/applications/QGDsolver
+cd ~/OpenFOAM/user-v2312/applications/QGDsolver &&
 ./Allwclean && ./Allwmake 2>&1 | tee [QGDsolver/log.QGD)](QGDsolver/log.QGD.md)
 
 
