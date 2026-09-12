@@ -8,10 +8,10 @@
 Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : reconstructPar
-Date   : Sep 11 2026
-Time   : 17:09:56
+Date   : Sep 12 2026
+Time   : 10:27:42
 Host   : kol-serv
-PID    : 113487
+PID    : 17330
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam
 nProcs : 1
@@ -54,7 +54,7 @@ No lagrangian fields
 
 No FA fields
 
-Time = 0.015
+Time = 0.011
 
 Reconstructing FV fields
 
@@ -81,34 +81,7 @@ No lagrangian fields
 
 No FA fields
 
-Time = 0.02
-
-Reconstructing FV fields
-
-    Reconstructing volScalarFields
-
-        T
-        p
-        rho
-        rhoHat
-
-    Reconstructing volVectorFields
-
-        U
-
-    Reconstructing surfaceScalarFields
-
-        phi
-
-Reconstructing point fields
-
-No point fields
-
-No lagrangian fields
-
-No FA fields
-
-Time = 0.025
+Time = 0.012
 
 Reconstructing FV fields
 

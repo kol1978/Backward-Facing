@@ -26,7 +26,7 @@ gradSchemes
 }
 
 defaultAdvScheme     vanLeer;
-defaultAdvSchemeV    vanLeerV;
+defaultAdvSchemeV    vanLeer;
 
 divSchemes
 {
@@ -46,34 +46,12 @@ divSchemes
     //continuity equation
     div(phid_nei,p)	Gauss $defaultAdvScheme;
     div(phid_own,p)	Gauss $defaultAdvScheme;
-
-    //for multicomponent solvers
-    div(alphaEff*hi,grad(Yi)) Gauss linear;
-    div(rhoi*Uri,hi)    Gauss linear;
+    
+    //turbulence
+    div(phi,omega)      Gauss upwind;
+    div(phi,k)          Gauss upwind;
 }
 
-/*
-divSchemes
-{
-    default         none;
-
-    // momentum
-    div(phi,U)      Gauss bounded linearUpwind grad(U);
-
-    // energy
-    div(phi,h)      Gauss upwind;
-    div(phi,K)      Gauss linear;
-
-    // pressure
-    div(phid,p)     Gauss upwind;
-
-    // SGS / nuTilda (если есть)
-    div(phi,nuTilda) Gauss bounded linearUpwind grad(nuTilda);
-
-    // viscous terms (оставить как у вас)
-    div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
-}
-*/
 laplacianSchemes
 {
     default         Gauss linear corrected;
@@ -83,8 +61,8 @@ interpolationSchemes
 {
     default         none;
     
+    interpolate(rho)            linear;
     interpolate((rho*U))	linear;
-    interpolate(((rho*nut)+thermo:mu)) linear;
     
     reconstruct(rho)		$defaultAdvScheme;
     reconstruct(psi)		$defaultAdvScheme;
@@ -92,8 +70,6 @@ interpolationSchemes
     reconstruct(U)		$defaultAdvSchemeV;
     reconstruct(rho*U)		$defaultAdvSchemeV;
     reconstruct(Dp)		$defaultAdvScheme;
-    reconstruct(rhoHat)		$defaultAdvScheme;
-    reconstruct(W)		$defaultAdvScheme;
 }
 
 snGradSchemes
@@ -105,6 +81,11 @@ fluxRequired
 {
     default	none;
     p;
+}
+
+wallDist
+{
+    method    meshWave;
 }
 
 // ************************************************************************* //

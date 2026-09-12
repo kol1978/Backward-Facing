@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2312                                  |
-|   \\  /    A nd           | Web:      www.openfoam.com                      |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -17,7 +17,7 @@ FoamFile
 
 thermoType
 {
-    type            heRhoThermo;
+    type            hePsiThermo;
     mixture         pureMixture;
     transport       const;
     thermo          hConst;
@@ -26,22 +26,26 @@ thermoType
     energy          sensibleEnthalpy;
 }
 
+// Note: these are the properties for a "non-normalised" inviscid gas
+
 mixture
 {
     specie
     {
-        molWeight       28.96;        // воздух, кг/кмоль
+        nMoles          1;
+        molWeight       28.96;
     }
     thermodynamics
     {
-        Cp              1004.5;        // Дж/(кг·К)
-        Hf              0;
+        Cp              1005;
+        Hf              2.544e+6;
     }
     transport
     {
-        mu              1.8e-05;      // Па·с
-        Pr              0.71;
+        mu              1.827e-5;
+        Pr              0.7;
     }
 }
+
 
 // ************************************************************************* //
