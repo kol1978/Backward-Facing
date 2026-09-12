@@ -1,4 +1,170 @@
-Классический «провал» расчёта в OpenFOAM: на шаге Time = 0.0257219 в итерации PIMPLE при решении для энтальпии (h) поле температуры уходит в абсурдные значения (max/min T: 2016.06 / -4084.66), а затем на следующем этапе возникает деление на отрицательное под корнем (или иная некорректная математика) — отсюда Floating point exception (SIGFPE, rank 1) и последующий kill остальных рангов:
+Mean and max Characteristic Courant Numbers = 1.1754535522677043158 6.6187722018409829161
+Courant Number max: 1.0066604650555279754
+deltaT = 4.3957124995679455748e-06
+Time = 0.0129473
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 1.207232356478117552 / 1.1141979056096142919
+PIMPLE: iteration 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.0057417128091843006726, Final residual = 4.9667958697068724231e-16, No Iterations 8
+max/min T: 307.10973727698069524/289.83728368525976293
+DILUPBiCGStab:  Solving for p, Initial residual = 0.0092424306598904264198, Final residual = 9.0992011352988491236e-16, No Iterations 32
+max(U): (62.741222211093386818 31.07966417378434798 34.643373818273531128)
+max/min p: 101325/97481.546205735037802
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 1.1977551734414930706 / 1.124461761011670724
+time step continuity errors : sum local = 2.4293263918522172368e-15, global = 6.9474306745838360015e-19, cumulative = 0
+max/min FaceAcCourant: 6.6187908693370571811/0.014932112208437930967
+max/min Maf: 0.18088718986323026883/0
+max/min kappa: 0.22900248365712169707/0
+PIMPLE: iteration 2
+DILUPBiCGStab:  Solving for h, Initial residual = 0.0056639858114159950114, Final residual = 3.3197141380955193837e-16, No Iterations 11
+max/min T: 3314.5277422451349594/-1690.9826231595147874
+[1] [stack trace]
+[1] =============
+[1] #1  Foam::sigFpe::sigHandler(int) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[1] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
+[1] #3  __libm_sqrt_ex in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #4  Foam::sqrt(Foam::Field<double>&, Foam::UList<double> const&) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[1] #5  void Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #6  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #7  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] #8  ? in /lib/x86_64-linux-gnu/libc.so.6
+[1] #9  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[1] #10  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/rhoPimpleCentralFoam
+[1] =============
+
+---------------------Наиболее вероятные причины в твоём стеке (v2312 + icpx + гибридный параллелизм)
+Слишком большой шаг по времени / высокий Courant. При Co_max ≈ 6.6 схема не успевает «успеть» за физикой, накапливаются ошибки, и переменные (T, p, rho) уходят в нефизичные диапазоны.
+Некорректные граничные условия или начальные поля. Например, профиль скорости/температуры, который не согласуется с физикой задачи, или скачок на границе.
+Проблемы с моделью вещества/теплоёмкости. Если cp​(T) или уравнение состояния дают отрицательные величины при выходе T за допустимый диапазон, это быстро приводит к sqrt(negative).
+NUMA‑неоднородность и рассинхронизация в гибридном режиме. При неудачной привязке MPI‑процессов и OpenMP‑потоков иногда возникают тонкие эффекты: локальные минимумы/максимумы на границах доменов, которые в сумме дают нефизичные экстремумы.
+Оптимизации компилятора (icpx). На агрессивной оптимизации иногда «вылезают» краевые случаи, где при других компиляторах (GCC) ошибка была бы сглажена или не проявлялась.
+Ошибки в кастомных полях/модификациях. Если ты менял солвер или добавлял свои поля, там может быть формула, которая при определённых условиях даёт отрицательное число под корнем.
+
+Первичная картина из конфигов
+Прежде чем перейти к привязке, фиксирую главное из controlDict и fvSolution — это объясняет, почему численная схема стала уязвима к проблемам привязки.
+
+controlDict: maxCo закомментирован
+text
+adjustTimeStep  true;
+//maxCo           0.7;      ← ЗАКОММЕНТИРОВАНО
+maxDeltaT       1;
+adjustTimeStep включён, но верхняя граница по Куранту не задана. В rhoPimpleCentralFoam (hybridCentralSolvers) ограничение шага по времени управляется kappaFunction (standardMachToAcCourantRatio), но без maxCo нет жёсткого потолка. Из лога: deltaT вырос с 1e-7 (исходное) до 4.3957e-6 — в 44 раза — и Co_max достиг 6.62. Для Kurganov‑схемы (центрально‑встречный поток, 2‑й порядок) рабочий максимум — порядка 0.5–1.0.
+
+fvSolution: nOuterCorrectors 2, momentumPredictor false
+text
+nCorrectors      1;
+nOuterCorrectors 2;
+momentumPredictor false;
+fluxScheme       Kurganov;
+Две внешние PIMPLE‑итерации, без предиктора скорости. На каждой итерации решается h (энергия) и p (давление) через DILUPBiCGStab с допуском 1e-15. При Co ≈ 6.6 этого недостаточно: первая итерация уже даёт T_max ≈ 307 K, вторая — T_max = 3314 K, T_min = -1691 K. Схема расходится.
+
+fvSchemes: vanLeer + Euler
+text
+ddtSchemes:     Euler          (1-й порядок по времени)
+defaultAdvScheme:  vanLeer     (2-й порядок, TVD)
+defaultAdvSchemeV: vanLeerV    (векторный вариант)
+Euler по времени + vanLeer по пространству — разумный выбор для сжимаемых течений, но только при Co < 1. При Co > 6 численная диссипация vanLeer не справляется с контролем осцилляций, особенно вблизи границ декомпозиции.
+
+Как неудачная привязка MPI+OpenMP усиливает расходимость
+Теперь — главное: почему плохая привязка превращает «высокий, но потенциально survivable Courant» в гарантированный SIGFPE.
+
+1. Глобальный max(Co) при неудачной NUMA‑топологии
+В rhoPimpleCentralFoam шаг по времени корректируется через kappaFunction после вычисления локальных чисел Куранта (FaceAcCourant, Maf). Для этого выполняется reduce(max) по всем MPI‑процессам. Если:
+
+MPI‑процессы размещены на разных NUMA‑узлах,
+OpenMP‑потоки «гуляют» между ядрами (OMP_PROC_BIND=false или не задан),
+I_MPI_PIN_DOMAIN не сконфигурирован,
+то MPI_Allreduce для max(Co) может вернуть заниженное значение из‑за задержек синхронизации: процесс на «дальнем» NUMA‑узле ещё не завершил вычисление локального Куранта, а reduce уже прошёл с неполными данными. В результате deltaT остаётся слишком большим — что мы и видим (4.4e-6 вместо требуемых ~6.7e-8 для Co=1).
+
+2. Ghost‑cell exchange при Kurganov‑схеме
+fluxScheme Kurganov требует реконструкции потоков на гранях с использованием значений из соседних ячеек. На границах декомпозиции (processor patches) эти значения приходят через MPI‑обмен. Если OpenMP‑потоки «привязаны» не к тому NUMA‑узлу, где живёт буфер приёма:
+
+Кэш‑холодный доступ к ghost‑ячейкам: поток читает данные из памяти удалённого NUMA‑узла (UMA‑штраф 2–4x по латентности).
+В PIMPLE‑итерации 1 это даёт запаздывающие значения p и U на границах — flux вычисляется с устаревшими данными.
+В PIMPLE‑итерации 2 устаревшие данные накапливаются: h‑уравнение использует искажённый градиент давления → T уходит в нефизичный диапазон → sqrt(T) падает.
+3. Floating‑point non‑determinism между NUMA‑узлами
+DILUPBiCGStab — би‑сопряжённый градиент со стабилизацией. Редукции внутри итераций (dot products) выполняются через MPI_Allreduce + omp reduction. При плохой привязке:
+
+Порядок суммирования floating‑point чисел различается между запусками и между потоками (floating‑point non‑reproducibility).
+tolerance 1e-15 — экстремально жёсткий допуск. При Co ≈ 6.6 и 32 итерациях для p накапливаются ошибки округления порядка 1e-10–1e-8, что достаточно, чтобы сместить решение давления на границе домена.
+Различие между PIMPLE‑итерациями 1 и 2 в T (307 → 3314 / -1691) — классический признак того, что небольшая численная разница на границе домена домножается схемой.
+4. nOuterCorrectors 2 как усилитель
+При nOuterCorrectors 2 вторая итерация использует поля, обновлённые первой. Если в итерации 1 привязка вызвала рассогласование:
+
+Этап	Что происходит при плохой привязке	Следствие
+Итерация 1, h	Ghost‑ячейки T на границе декомпозиции — кэш‑холодные, запаздывают	T_max ≈ 307 K (приемлемо)
+Итерация 1, p	DILUPBiCGStab с MPI_Allreduce — FP non‑det	p слегка смещён на границе
+Итерация 2, h	Использует смещённый grad(p) + запаздывающие ghost T	T_max = 3314 K, T_min = -1691 K → SIGFPE в sqrt
+Конкретные рекомендации по привязке
+NUMA‑aware MPI+OpenMP конфигурация
+Для двух‑узловой NUMA‑системы (предполагая 2 сокета, по N ядер на сокет):
+
+bash
+# Пример: 2 MPI процесса, по 6 OpenMP потоков каждый
+export OMP_NUM_THREADS=6
+export OMP_PROC_BIND=close      # потоки рядом друг с другом
+export OMP_PLACES=cores         # привязка к физическим ядрам
+
+export I_MPI_PIN=on
+export I_MPI_PIN_DOMAIN=omp     # каждый MPI-процесс получает свой домен
+export I_MPI_PIN_CELL=core
+
+mpirun -np 2 ./rhoPimpleCentralFoam -parallel
+Ключевые моменты:
+
+I_MPI_PIN_DOMAIN=omp — критично: каждый MPI‑процесс получает свой NUMA‑домен, OpenMP‑потоки не пересекаются с другими процессами.
+OMP_PROC_BIND=close — потоки размещаются на соседних ядрах внутри сокета (важно для DILUPBiCGStab, где редукции частые).
+OMP_PLACES=cores — жёсткая привязка к физическим ядрам, без миграции.
+Проверка правильности привязки
+bash
+# Проверить фактическое размещение:
+mpirun -np 2 -print-topology ./rhoPimpleCentralFoam -parallel
+
+# Или через numactl:
+mpirun -np 2 numactl --show ./rhoPimpleCentralFoam -parallel
+Если в выводе видно, что процесс 0 и его потоки сидят на node 0, а процесс 1 и его потоки — на node 1, привязка корректна. Если потоки «размазаны» по обоим узлам — привязка сломана.
+
+Что нужно исправить в конфигах (помимо привязки)
+Хорошая привязка снижает риск, но первопричина — maxCo закомментирован. Без этого привязка лишь отсрочит падение.
+
+controlDict: раскомментировать maxCo
+text
+adjustTimeStep  true;
+maxCo           0.7;
+maxDeltaT       1;
+С maxCo 0.7 и kappaFunction standardMachToAcCourantRatio шаг по времени будет ограничен дважды: и по акустическому Куранту (через kappaFunction), и по обычному (maxCo). Это даст deltaT ≈ 1e-7 ... 2e-7 вместо 4.4e-6.
+
+fvSolution:收紧 PIMPLE
+text
+nOuterCorrectors 1;     // при Co<1 достаточно 1
+momentumPredictor true; // включить для устойчивости
+momentumPredictor false экономит время, но при высокой сжимаемости и Kurganov‑схеме предиктор даёт лучшую оценку U для корректора давления. При Co > 1 без предиктора расходимость наступает быстрее.
+
+fvSchemes: при запасе по Co — оставить, но рассмотреть fallback
+Если после включения maxCo 0.7 расчёт всё ещё нестабилен на границах декомпозиции, можно временно переключить:
+
+text
+defaultAdvScheme     upwind;   // вместо vanLeer — для диагностики
+defaultAdvSchemeV    upwind;
+Upwind — 1‑й порядок, максимально диссипативный. Если с upwind расчёт идёт стабильно, а с vanLeer падает — проблема именно в численной диссипации на границах доменов (усиленной плохой привязкой).
+
+Резюме
+Фактор	Влияние	Приоритет исправления
+maxCo закомментирован	deltaT растёт без контроля → Co=6.6 → расходимость	Критично
+Плохая NUMA‑привязка MPI	Ghost‑обмен запаздывает, max(Co) занижается	Высокий
+OpenMP‑потоки без привязки	FP non‑det в DILUPBiCGStab, кэш‑холодные доступы	Высокий
+momentumPredictor false	Нет предиктора → корректор давления работает с плохой оценкой U	Средний
+nOuterCorrectors 2	Вторая итерация усиливает ошибку с первой	Средний
+tolerance 1e-15	Слишком жёстко — избыточные итерации, накопление FP‑ошибок	Низкий
+Минимальный набор правок для запуска: раскомментировать maxCo 0.7, включить I_MPI_PIN_DOMAIN=omp + OMP_PROC_BIND=close, поставить momentumPredictor true. Если после этого SIGFPE не повторится — причина была в комбинации высокого Куранта и плохой привязки.
+
+
+
+
+
+----------Классический «провал» расчёта в OpenFOAM: на шаге Time = 0.0257219 в итерации PIMPLE при решении для энтальпии (h) поле температуры уходит в абсурдные значения (max/min T: 2016.06 / -4084.66), а затем на следующем этапе возникает деление на отрицательное под корнем (или иная некорректная математика) — отсюда Floating point exception (SIGFPE, rank 1) и последующий kill остальных рангов:
 
 Mean and max Characteristic Courant Numbers = 0.82731763735387009451 4.6695082360774344821
 Courant Number max: 0.69983036772518492086

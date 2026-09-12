@@ -17,55 +17,62 @@ FoamFile
 
 solvers
 {
-    "(rho|U|h|p).*"
+    "(rho|U|h|p|k|omega).*"
     {
         solver          PBiCGStab;
         preconditioner	DILU;
         tolerance       1e-015;
         relTol          0.0;
     }
-        nuTilda
-    {
-        solver          smoothSolver;
-        smoother        symGaussSeidel;
-        tolerance       1e-08;
-        relTol          0.1;
-    }
 }
-/* LES
-PIMPLE
-{
-    nCorrectors     2;
-    nNonOrthogonalCorrectors 0;
-    residualControl
-    {
-        p               1e-4;
-        U               1e-4;
-        h               1e-4;
-    }
-}
-
- * */
+/*
 PIMPLE
 {
                                 
     momentumPredictor           false; //true;
     nCorrectors                 1;
-    nOuterCorrectors            2;
+    nOuterCorrectors            3;
     nonOrthogonalityThreshold   60;
     skewnessThreshold           0.5;
     updateEnergyInPISO          false;
     fluxScheme                  Kurganov; //Tadmor;
     
-   kappaFunction
+    kappaFunction
     {
         type standardMachToAcCourantRatio;
+        
         standardMachToAcCourantRatioCoeffs
         {
-            Mmin    0.3;
-            Mmax    1.0;
         }
-    }
+    }*/
+PIMPLE
+{
+    momentumPredictor           true;
+    nCorrectors                 1;
+    nOuterCorrectors            2;
+    nonOrthogonalityThreshold   60;
+    skewnessThreshold           0.5;
+    fluxScheme                  Kurganov;
+
+    /*kappaFunction
+    {
+        type            uniformKappaFunction;
+        kappa           0.5;     // не 0 — нужен запас устойчивости
+    }*/
+    kappaFunction
+{
+    type            standardMachToAcCourantRatio;
+    Mmin            0.01;
+    Mmax            1.0;
+}
+
+}
+
+
+
+
+
+
 }
 
 // ************************************************************************* //

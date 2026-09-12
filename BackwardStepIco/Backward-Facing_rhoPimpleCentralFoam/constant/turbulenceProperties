@@ -1,7 +1,7 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  4.x                                   |
+|  \\    /   O peration     | Version:  2.3.0                                 |
 |   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
@@ -15,22 +15,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-simulationType  laminar;
+simulationType  RAS;
 
-/*
-simulationType      LES;
-
-LES
+RAS
 {
-    LESModel        WALE;         //WALE — лучший выбор для отрывных течений (BFS). Альтернатива — Smagorinsky, но он хуже предсказывает отрыв.
-    delta           cubeRootVol;
-
-    cubeRootVolCoeffs
-    {
-        deltaCoeff      1;
-    }
+    RASModel	kOmegaSST;
+    turbulence	on;
+    printCoeffs	on;
 }
-
- * */
 
 // ************************************************************************* //

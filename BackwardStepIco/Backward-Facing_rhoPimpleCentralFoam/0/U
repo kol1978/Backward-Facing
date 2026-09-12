@@ -25,13 +25,14 @@ boundaryField
 inlet
 {
     type            fixedValue;
-    value           uniform (44.2 0 0);   // M = 2, T = 167 К, p = 35 кПа
+    value           uniform (44.2 0 0);   // M = 0.127, T = 300 К,  p = 101325
 }
 outlet
 {
     type            pressureInletOutletVelocity;
     value           uniform (44.2 0 0);
 }
+
     walls
     {
         type            noSlip;
