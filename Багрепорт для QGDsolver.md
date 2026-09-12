@@ -1,12 +1,12 @@
 # Отчёт об исправлениях: QGDsolver и hybridCentralSolvers + Intel ICX (icpx) + OpenFOAM v2312
 
-**Проекты:** [QGDsolver](https://github.com/unicfdlab/QGDsolver), [hybridCentralSolvers](https://github.com/unicfdlab/hybridCentralSolvers)
-**Компилятор:** Intel ICX (icpx) — oneAPI DPC++/C++ Compiler 2026.1.1 (2026.1.1.20260724)
-**Цель:** OpenFOAM v2312 (`WM_COMPILE_OPTION=IcxDPInt64Opt`)
-**Платформа:** Linux x86_64 (`-march=westmere`)
-**Дата:** 2026-09-11
-**Всего исправлений:** 33 в QGDsolver + аналогичная проблема в hybridCentralSolvers
-**Затронуто файлов:** 21 (QGDsolver)
+**Проекты:** [QGDsolver](https://github.com/unicfdlab/QGDsolver), [hybridCentralSolvers](https://github.com/unicfdlab/hybridCentralSolvers)<br/>
+**Компилятор:** Intel ICX (icpx) — oneAPI DPC++/C++ Compiler 2026.1.1 (2026.1.1.20260724)<br/>
+**Цель:** OpenFOAM v2312 (`WM_COMPILE_OPTION=IcxDPInt64Opt`)<br/>
+**Платформа:** Linux x86_64 (`-march=westmere`)<br/>
+**Дата:** 2026-09-11<br/>
+**Всего исправлений:** 33 в QGDsolver + аналогичная проблема в hybridCentralSolvers<br/>
+**Затронуто файлов:** 21 (QGDsolver)<br/>
 
 
 ## Описание проблемы
@@ -524,15 +524,16 @@ Direct-initialization — заменить = на () для всех строк 
 Root cause идентичен, рекомендуются те же правки.
 
 ***Примечания***
-Исправления не влияют на производительность рантайма — это исключительно проблемы разрешения перегрузок на этапе компиляции. Сгенерированный машинный код идентичен.
-Все правки совместимы с GCC — direct-initialization валиден во всех стандартах C++.
-Проблема затрагивает не только GeometricField<T>, но и базовый Field<T> (см. файл 5, scalarField), поскольку Field также имеет конструктор от const tmp<Field<T>>&.
-Источниками tmp<T> в коде QGDsolver являются: linearInterpolate(), fvc::snGrad(), fvc::grad(), logMean(), component(), арифметические операторы (*, -, /, унарный -), mu(), rho(), inner product (&).
-Важно для файлов 14–15: lib/QGD/lnInclude/ содержит симлинки на lib/QGD/QGDcommon/. Правки sed -i на симлинке создают копию файла вместо редактирования оригинала, и wmake перезаписывает симлинк при следующей сборке.  → Правки применять к оригиналам в QGDcommon.
-Финальная чистая пересборка (./Allwclean && ./Allwmake) прошла успешно: «QGD solvers has been compiled successfully».
+Исправления не влияют на производительность рантайма — это исключительно проблемы разрешения перегрузок на этапе компиляции. Сгенерированный машинный код идентичен.<br/>
+Все правки совместимы с GCC — direct-initialization валиден во всех стандартах C++.<br/>
+Проблема затрагивает не только GeometricField<T>, но и базовый Field<T> (см. файл 5, scalarField), поскольку Field также имеет конструктор от const tmp<Field<T>>&.<br/>
+Источниками tmp<T> в коде QGDsolver являются: linearInterpolate(), fvc::snGrad(), fvc::grad(), logMean(), component(), арифметические операторы (*, -, /, унарный -), mu(), rho(), inner product (&).<br/>
+Важно для файлов 14–15: lib/QGD/lnInclude/ содержит симлинки на lib/QGD/QGDcommon/. Правки sed -i на симлинке создают копию файла вместо редактирования оригинала, и wmake перезаписывает симлинк при следующей сборке.  → Правки применять к оригиналам в QGDcommon.<br/>
+Финальная чистая пересборка (./Allwclean && ./Allwmake) прошла успешно: «QGD solvers has been compiled successfully».<br/>
 
 **Команда пересборки**
 
 cd ~/OpenFOAM/kol-v2312/applications/QGDsolver
-./Allwclean && ./Allwmake 2>&1 | tee .../applications/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.log
+./Allwclean && ./Allwmake 2>&1 | tee [.../applications/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.log] (/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.md)
+
 ```
