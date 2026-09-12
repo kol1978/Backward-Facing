@@ -534,6 +534,9 @@ Root cause идентичен, рекомендуются те же правки
 **Команда пересборки**
 
 cd ~/OpenFOAM/kol-v2312/applications/QGDsolver
-./Allwclean && ./Allwmake 2>&1 | tee [.../applications/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.log] (/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.md)
+./Allwclean && ./Allwmake 2>&1 | tee .../applications/QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.log
+
+[лог компиляции QGDsolver (icpx)](QGDsolver/log.QGD_solvers_has_been_compiled_successfully_icpx_2026-09-11.md)
+
 
 ```
