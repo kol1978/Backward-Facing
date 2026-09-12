@@ -25,7 +25,7 @@ stopAt          endTime;
 
 endTime         0.05;
 
-deltaT          1e-7;//2e-05;
+deltaT          1e-7;
 
 writeControl    adjustableRunTime;
 
@@ -47,7 +47,7 @@ runTimeModifiable true;
 
 adjustTimeStep  true;
 
-maxCo           0.7;
+//maxCo           0.7;
 
 CourantType     cellCourant;
 
@@ -58,6 +58,7 @@ kappaFunction
     type            uniformKappaFunction;
     kappa           0;
 }*/
+
 kappaFunction
 {
     type            standardMachToAcCourantRatio;

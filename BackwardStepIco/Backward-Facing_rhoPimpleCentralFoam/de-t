@@ -1,0 +1,8 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+
+TIME_STEP="${1:-0}"                                # Первый параметр, по умолчанию 0
+runApplication decomposePar -force -time "$TIME_STEP"
+
+

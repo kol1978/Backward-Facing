@@ -8,10 +8,10 @@
 Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : decomposePar -force
-Date   : Sep 11 2026
-Time   : 20:39:01
+Date   : Sep 12 2026
+Time   : 10:00:12
 Host   : kol-serv
-PID    : 138262
+PID    : 13952
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam
 nProcs : 1
@@ -26,13 +26,12 @@ Create time
 
 Decomposing mesh
 
-Removing 10 existing processor directories
 Create mesh
 
 Calculating distribution of cells
 Decomposition method scotch [10] (region region0)
 
-Finished decomposition in 0.68000000000000004885 s
+Finished decomposition in 0.63000000000000000444 s
 
 Calculating original mesh data
 
@@ -137,28 +136,28 @@ Max number of cells = 45765 (0.61337554412346650956% above average 45486)
 Max number of processor patches = 2 (11.11111111111110894% above average 1.8000000000000000444)
 Max number of faces between processors = 906 (19.936457505957111636% above average 755.39999999999997726)
 
-Time = 0.025
+Time = 0.01
 
 Processor 0: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 1: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 2: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 3: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 4: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 5: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 6: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 7: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 8: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 Processor 9: field transfer
-Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.025/uniform"
+Detected additional non-decomposed files in "/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam/0.01/uniform"
 
 End
 
