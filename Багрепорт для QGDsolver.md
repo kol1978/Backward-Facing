@@ -121,7 +121,8 @@ ICX = Clang	Да	Intel подтверждает: ICX основан на Clang/L
 ------------«Внутренние исправления в OpenFOAM v2606» — наиболее вероятная причина:
 V2606 release notes упоминают разделы «Coding» и «Porting», и OpenFOAM Issue #3138 был закрыт с рекомендацией @mark обернуть тип. Если этот фикс попал в v2406+ → к v2606 он уже в ядре.   !!!!!!!
 ---------------------------
-Исправления по файлам
+
+#  Исправления по файлам - главное!
 Файл 1: lib/QGD/fvsc/leastSquares/extendedFaceStencilScalarGrad.C
 Строка 52 — неоднозначная конверсия tmp<surfaceScalarField> → surfaceScalarField
 ```cpp
@@ -182,7 +183,7 @@ surfaceScalarField tField(sVF.component(0)*0);
 surfaceTensorField sTF = linearInterpolate(iTF);
 // Стало:
 surfaceTensorField sTF(linearInterpolate(iTF));
-```
+```cppreference: «Ambiguous conversion sequences
 
 Строка 260 — tmp<surfaceScalarField> → surfaceScalarField
 ```cpp
@@ -439,12 +440,6 @@ fvc::grad() возвращает tmp<volVectorField>, inner product с U воз�
 |---|---|---|---|---|
 | `lib/QGD/fvsc/leastSquares/leastSquaresStencil.C` | 147–149, 206–208 | `Grad(...)()` — `()` вызывает `tmp<T>::operator()() const`, возвращающий `const T&`. Copy-init из `const T&` в `T` использует copy-конструктор напрямую (source и target совпадают по cv-unqualified типу), user-defined conversion не участвует → неоднозначности нет. | ✅ Подтверждено | C++ standard [dcl.init] — [cppreference.com](https://en.cppreference.com/cpp/language/copy_initialization); OpenFOAM `tmp<T>` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1tmp.html); Intel icx/icpx Porting Guide — [intel.com](https://www.intel.cn/content/www/cn/zh/developer/articles/guide/porting-guide-for-icc-users-to-dpcpp-or-icx.html); GitHub: ambiguity возникает только при **implicit** `tmp<T>` → `T` (без `operator()()`) — [github.com/gerlero/openfoam-app#87](https://github.com/gerlero/openfoam-app/issues/87) |
 | `lib/QGD/fvsc/leastSquaresOpt/leastSquaresStencilOpt.C` | 263 | `tField` — `surfaceScalarField`, не `tmp<T>`. У `GeometricField` нет `operator()() const`, возвращающего `const T&` (это метод только `tmp<T>`/`refPtr<T>`). Преобразования `tmp<T>` → `T` не происходит → ambiguity невозможна. | ✅ Подтверждено (при условии компилируемости) | OpenFOAM `GeometricField` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1GeometricField.html); OpenFOAM `refPtr<T>` API (v2112) — [openfoam.com](https://www.openfoam.com/documentation/guides/v2112/api/classFoam_1_1refPtr.html); QGDsolver file list — [unicfdlab.github.io](https://unicfdlab.github.io/QGDsolver/html/files.html) |
-
-
-
-Файл	Строки	Причина безопасности
-lib/QGD/fvsc/leastSquares/leastSquaresStencil.C	147–149, 206–208	Grad(...)() — () разыменовывает tmp в const T&. Copy-init из const T& не вызывает неоднозначности.
-lib/QGD/fvsc/leastSquaresOpt/leastSquaresStencilOpt.C	263	tField — уже surfaceScalarField, не tmp.Оценка: Корректно. Подтверждается стандартом и несколькими источниками.
 
 cppreference: «Ambiguous conversion sequences are ranked as user-defined conversion sequences because multiple conversion sequences for an argument can exist only if they involve different user-defined conversions.»
 Stack Overflow: «For user defined conversion sequences; there does not seem to be a precedence given between the converting constructor and the conversion operator, they are both candidates; §13.3.3.1.2/1.»
