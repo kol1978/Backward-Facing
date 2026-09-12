@@ -432,9 +432,16 @@ fvc::grad() возвращает tmp<volVectorField>, inner product с U воз�
         surfaceScalarField dydtflux(- phi * tauQGDf * (Uf & gradYf));
 ```
 
-Аналогично файлу 20:
+#### Аналогично файлу 20:
+пропущено... :(
+#### Файлы, проверенные и не требующие исправлений
+| Файл | Строки | Причина безопасности | Вердикт | Источники |
+|---|---|---|---|---|
+| `lib/QGD/fvsc/leastSquares/leastSquaresStencil.C` | 147–149, 206–208 | `Grad(...)()` — `()` вызывает `tmp<T>::operator()() const`, возвращающий `const T&`. Copy-init из `const T&` в `T` использует copy-конструктор напрямую (source и target совпадают по cv-unqualified типу), user-defined conversion не участвует → неоднозначности нет. | ✅ Подтверждено | C++ standard [dcl.init] — [cppreference.com](https://en.cppreference.com/cpp/language/copy_initialization); OpenFOAM `tmp<T>` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1tmp.html); Intel icx/icpx Porting Guide — [intel.com](https://www.intel.cn/content/www/cn/zh/developer/articles/guide/porting-guide-for-icc-users-to-dpcpp-or-icx.html); GitHub: ambiguity возникает только при **implicit** `tmp<T>` → `T` (без `operator()()`) — [github.com/gerlero/openfoam-app#87](https://github.com/gerlero/openfoam-app/issues/87) |
+| `lib/QGD/fvsc/leastSquaresOpt/leastSquaresStencilOpt.C` | 263 | `tField` — `surfaceScalarField`, не `tmp<T>`. У `GeometricField` нет `operator()() const`, возвращающего `const T&` (это метод только `tmp<T>`/`refPtr<T>`). Преобразования `tmp<T>` → `T` не происходит → ambiguity невозможна. | ✅ Подтверждено (при условии компилируемости) | OpenFOAM `GeometricField` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1GeometricField.html); OpenFOAM `refPtr<T>` API (v2112) — [openfoam.com](https://www.openfoam.com/documentation/guides/v2112/api/classFoam_1_1refPtr.html); QGDsolver file list — [unicfdlab.github.io](https://unicfdlab.github.io/QGDsolver/html/files.html) |
 
-Файлы, проверенные и не требующие исправлений
+
+
 Файл	Строки	Причина безопасности
 lib/QGD/fvsc/leastSquares/leastSquaresStencil.C	147–149, 206–208	Grad(...)() — () разыменовывает tmp в const T&. Copy-init из const T& не вызывает неоднозначности.
 lib/QGD/fvsc/leastSquaresOpt/leastSquaresStencilOpt.C	263	tField — уже surfaceScalarField, не tmp.Оценка: Корректно. Подтверждается стандартом и несколькими источниками.
@@ -445,6 +452,40 @@ tutorialpedia: «Conversion constructors and conversion operators are both consi
 Путь 1: tmp<T>::operator const T&() → const T& → T(const T&) — user-defined = operator const T&(), second standard conversion = identity. Путь 2: T(const tmp<T>&) — user-defined = конструктор, second standard conversion = identity.
 
 Оба используют разные user-defined conversions с одинаковыми (identity) вторыми standard conversions → неразличимы → ambiguous.
+## Разбор `leastSquaresStencil.C`, строки 147–149, 206–208
+
+#### Механизм `tmp<T>::operator()()`
+
+В OpenFOAM (v4–v2312) класс `tmp<T>` предоставляет **два разных способа** получения `T`:
+
+| Механизм | Сигнатура | Тип вызова |
+|---|---|---|
+| `operator()() const` | `const T& operator()() const` | Обычный метод (НЕ conversion function) |
+| `operator const T&() const` | `operator const T&() const` | User-defined conversion function |
+
+При вызове `Grad(...)()`:
+1. `Grad(...)` возвращает `tmp<GeometricField<...>>`
+2. Второй `()` вызывает **`operator()() const`** — это явный вызов метода, не implicit conversion
+3. Метод возвращает `const GeometricField<...>&`
+4. Copy-init: `GeometricField result = Grad(...)();` — source type (`const GeometricField&`) совпадает с target type (`GeometricField`) по cv-unqualified типу
+
+#### Почему неоднозначности нет
+
+Согласно C++ standard [dcl.init] (cppreference, copy-initialization):
+
+> «If T is a class type and the cv-unqualified version of the type of other is T or a class derived from T, the non-explicit constructors of T are examined and the best match is selected by overload resolution. That constructor is then called to initialize the object.»
+
+Когда source type (после `operator()()`) — `const T&`, а target — `T`, cv-unqualified типы совпадают → рассматриваются **только конструкторы `T`** → выбирается copy-конструктор `T(const T&)`. **User-defined conversion не участвует**, так как типы уже совместимы.
+
+#### Когда неоднозначность ВОЗМОЖНА (но здесь её нет)
+
+Неоднозначность возникает при **implicit** преобразовании `tmp<T>` → `T` (без `operator()()`):
+
+```cpp
+GeometricField result = Grad(...);  // БЕЗ () — неоднозначно!
+```
+#### Совместимость с Intel icx/icpx
+Intel oneAPI Compiler (icx/icpx) — LLVM-based, строго следует стандарту C++. Портинг-гайд Intel подтверждает, что icx сохраняет стандартное поведение overload resolution. Известные проблемы компиляции OpenFOAM с Intel касаются operator== в wallBoundedParticleTemplates.C (issue на StackOverflow), а не tmp dereference. Ошибка ambiguous conversion from tmp<T> to T воспроизводится на Clang-based компиляторах (включая icx) при implicit преобразовании, но не при operator()().
 
 #### -------------------------------------------------
 ## Сводная таблица всех исправлений
