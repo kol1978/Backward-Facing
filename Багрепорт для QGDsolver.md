@@ -446,45 +446,6 @@ tutorialpedia: «Conversion constructors and conversion operators are both consi
 
 Оба используют разные user-defined conversions с одинаковыми (identity) вторыми standard conversions → неразличимы → ambiguous.
 
-Ссылка на §13.3.3 — корректна для C++14. В C++17/20 нумерация изменилась (§12.4.3 в C++20), но содержание правила не изменилось.
-lib/QGD/thermoModels/rhoQGDThermo/rhoQGDThermo.C	161	this->rho_ — член-данные, volScalarField, не tmp.
-lib/QGD/thermoModels/rhoQGDThermo/rhoQGDThermo.C	162	p_ — член-данные, volScalarField, не tmp.
-app/interQHDFoam/createFields.H	75	thermo.hQGDf() возвращает const surfaceScalarField& (ссылку на член), не tmp<T>.
-Сводная таблица всех исправлений
-№	Файл	Строка(и)	Тип проблемы	Тип поля	Источник tmp<T>
-1	extendedFaceStencilScalarGrad.C	52	Ambiguous conversion	surfaceScalarField	linearInterpolate()
-2	extendedFaceStencilScalarGradOpt.C	56	Ambiguous conversion	surfaceScalarField	linearInterpolate()
-3	extendedFaceStencilScalarGradOpt.C	67	Ambiguous conversion	surfaceScalarField	sF*0
-4	leastSquaresStencilOpt.C	90	Ambiguous conversion	surfaceScalarField	sVF.component(0)*0
-5	leastSquaresStencilOpt.C	192	Ambiguous conversion	surfaceVectorField	linearInterpolate()
-6	leastSquaresStencilOpt.C	193	Ambiguous conversion	surfaceScalarField	sVF.component(0)*0
-7	leastSquaresStencilOpt.C	259	Ambiguous conversion	surfaceTensorField	linearInterpolate()
-8	leastSquaresStencilOpt.C	260	Ambiguous conversion	surfaceScalarField	sTF.component(0)*0
-9	fvsc.C	67	Deprecated API	—	findIndices()
-10	cosVelocityFvPatchVectorField.C	178	Ambiguous conversion	scalarField	(Cf() & Hdirection_) - minZ_
-11	varScModel7.C	176–177	Ambiguous conversion	surfaceScalarField	linearInterpolate()
-12	varScModel7.C	178–179	Ambiguous conversion	surfaceScalarField	fvc::snGrad()/deltaCoeffs()
-13	varScModel8.C	209–210	Ambiguous conversion	surfaceScalarField	fvc::snGrad()/deltaCoeffs()
-14	varScModel6.C	210–211	Ambiguous conversion	surfaceScalarField	linearInterpolate()
-15	varScModel6.C	212–213	Ambiguous conversion	surfaceScalarField	fvc::snGrad()/deltaCoeffs()
-16	H2bynuQHD.C	80	Ambiguous conversion	volScalarField	mu()/rho()
-17	rhoQGDThermo.C	163	Ambiguous conversion	volScalarField	rho_ - rhoC
-18	twoPhaseConstTau.C	83	Ambiguous conversion	volScalarField	mu()/rho()
-19	interQHDFoam.C	140	Ambiguous conversion	surfaceScalarField	phiu*da1dtf*(Tau1-Tau2)
-20	interQHDFoam.C	207–208	Ambiguous conversion	surfaceScalarField	phiu*da1dtf*(Tau1-...)
-21	scalarTransportQHDFoam.C	111	Ambiguous conversion	surfaceScalarField	tauQGDf*phiu*(Uf & gradTf)```
-22	QHDUEqn.H (QGDcommon)	39	Ambiguous conversion	surfaceVectorField	mesh.Sf() & (Uf * Wf)
-23	QHDTEqn.H (QGDcommon)	66	Ambiguous conversion	surfaceScalarField	tauQGDf()*phiu*(Uf & gradTf)
-24	zQGDFoam/createFaceFields.H	46	Ambiguous conversion	surfaceScalarField	1.0 / logMean(...)
-25	zQGDFoam/createFaceFields.H	61	Ambiguous conversion	surfaceScalarField	e_pos*e_neg*logMean(...)
-26	zQGDFoam/updateFluxes.H	20–25	Ambiguous conversion	surfaceVectorField	(tauQGDf/rhof) * ((...) & ... + ...)
-27	zQGDFoam/updateFluxes.H	26–27	Ambiguous conversion	surfaceVectorField	wHatf + (tauQGDf/rhof)*(...)
-28	interQHDFoam/updateFluxes.H	43–44	Ambiguous conversion	surfaceScalarField	mesh.Sf() & ((...) - g)
-29	interQHDFoam/updateFluxes.H	46	Ambiguous conversion	surfaceScalarField	mesh.Sf() & cFrcf
-30	interQHDFoam/updateFields.H	66	Ambiguous conversion	surfaceScalarField	-(Uf & gradAlpha1f)
-31	interQHDFoam/updateFields.H	67	Ambiguous conversion	volScalarField	-(U & fvc::grad(alpha1))
-32	reactingQGDFoam/updateFluxes.H	124–125	Ambiguous conversion	surfaceScalarField	- phi * tauQGDf * (Uf & gradYf)
-33	reactingLagrangianQGDFoam/updateFluxes.H	124–125	Ambiguous conversion	surfaceScalarField	- phi * tauQGDf * (Uf & gradYf)
 #### -------------------------------------------------
 ## Сводная таблица всех исправлений
 
