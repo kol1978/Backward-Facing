@@ -6,7 +6,7 @@
 
 ---
 
-## Часть 1. SIMD vs OpenMP: почему `-fiopenmp` на Westmere работает
+## SIMD vs OpenMP: почему `-fiopenmp` на Westmere работает
 
 ### Сравнение механизмов параллелизма
 
