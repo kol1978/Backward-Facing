@@ -142,7 +142,7 @@ References:
     supported (work-in-progress)"
   - Source: $FOAM_SRC/OpenFOAM/expressionTemplates/ListExpression.H
 Команды
-bash
+
 # Отменить все правки исходного кода (если были)
 git checkout -- src/
 
@@ -150,12 +150,9 @@ git checkout -- src/
 git add etc/bashrc wmake/rules/linux64Icx/c++ README.build.md
 git commit
 
-
-
 Главный тезис: expression templates — это не ошибка кода, а сознательная инженерная архитектура для GPU через std::execution. OpenMP был совместим в v2306, потому что expression templates не существовали. В v2606 OpenMP отключён не как обходной путь, а потому что это соответствует дизайну релиза — GPU-оффлоадинг идёт через C++17 execution policies, а OpenMP CPU-трединг официально не поддерживается.
-====================
-
-CPU-путь по задумке авторов
+# ===========================================================================================
+# CPU-путь по задумке авторов
 Тезис: CPU-сборка = MPI-only + expression templates работают последовательно внутри каждого процесса
 Архитектура v2606 разделяет два мира:
 
@@ -235,7 +232,6 @@ CPU threads	-fiopenmp / -fopenmp	-stdpar=multicore (nvc++) — через std::t
 Итог для README
 Дополнение к разделу «Инженерный замысел»:
 
-markdown
 ## CPU-путь по задумке авторов
 
 ### Текущее состояние (v2606)
