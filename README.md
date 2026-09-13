@@ -14,8 +14,10 @@
 
 выполнен переход на версию openFOAMv2606.<br>
 выполнен переход на версию openFOAM-14.<br>
+
+Выполнен возврат на версию  openFOAMv2312 с Intel icpx и OpenMP: [анализ проблем v2606](/PARALLELISM/Инженерный-замысел_почему_OpenMP_сломался_v2606.md)
 --------------------------------------------------------------------------<br>
-[8](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[2](https://blog.skillfactory.ru/readme-md-github/)[5](https://doka.guide/recipes/github-add-readme/)
+[1](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[2](https://blog.skillfactory.ru/readme-md-github/)[3](https://doka.guide/recipes/github-add-readme/)
 
 ### Краткое объяснение мотивации создания и отличий от аналогов, если они есть:
 Подбор/выбор тестового примера в том числе из - /tutorials/incompressible/pimpleFoam и т.п.
