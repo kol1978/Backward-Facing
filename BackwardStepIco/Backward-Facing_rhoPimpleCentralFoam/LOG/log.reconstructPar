@@ -9,9 +9,9 @@ Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : reconstructPar
 Date   : Sep 12 2026
-Time   : 10:27:42
+Time   : 13:45:10
 Host   : kol-serv
-PID    : 17330
+PID    : 21080
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam
 nProcs : 1
@@ -22,92 +22,7 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-
-
-Reconstructing fields
-region=region0
-
-Time = 0.01
-
-Reconstructing FV fields
-
-    Reconstructing volScalarFields
-
-        T
-        p
-        rho
-        rhoHat
-
-    Reconstructing volVectorFields
-
-        U
-
-    Reconstructing surfaceScalarFields
-
-        phi
-
-Reconstructing point fields
-
-No point fields
-
-No lagrangian fields
-
-No FA fields
-
-Time = 0.011
-
-Reconstructing FV fields
-
-    Reconstructing volScalarFields
-
-        T
-        p
-        rho
-        rhoHat
-
-    Reconstructing volVectorFields
-
-        U
-
-    Reconstructing surfaceScalarFields
-
-        phi
-
-Reconstructing point fields
-
-No point fields
-
-No lagrangian fields
-
-No FA fields
-
-Time = 0.012
-
-Reconstructing FV fields
-
-    Reconstructing volScalarFields
-
-        T
-        p
-        rho
-        rhoHat
-
-    Reconstructing volVectorFields
-
-        U
-
-    Reconstructing surfaceScalarFields
-
-        phi
-
-Reconstructing point fields
-
-No point fields
-
-No lagrangian fields
-
-No FA fields
-
-
-End
-
+--> FOAM Warning : 
+    From int main(int, char **)
+    in file reconstructPar.C at line 271
+    No times selected
