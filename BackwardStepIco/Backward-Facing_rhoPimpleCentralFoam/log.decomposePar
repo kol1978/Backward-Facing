@@ -8,10 +8,10 @@
 Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : decomposePar -force
-Date   : Sep 12 2026
-Time   : 13:45:02
+Date   : Sep 13 2026
+Time   : 09:22:47
 Host   : kol-serv
-PID    : 21044
+PID    : 19311
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStepIco/Backward-Facing_rhoPimpleCentralFoam
 nProcs : 1
@@ -26,12 +26,13 @@ Create time
 
 Decomposing mesh
 
+Removing 12 existing processor directories
 Create mesh
 
 Calculating distribution of cells
 Decomposition method scotch [12] (region region0)
 
-Finished decomposition in 0.7 s
+Finished decomposition in 0.78 s
 
 Calculating original mesh data
 

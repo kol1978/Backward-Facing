@@ -1,0 +1,98 @@
+| Файл | Строки | Причина безопасности | Вердикт | Источники |
+|---|---|---|---|---|
+| `lib/QGD/fvsc/leastSquares/leastSquaresStencil.C` | 147–149, 206–208 | `Grad(...)()` — `()` вызывает `tmp<T>::operator()() const`, возвращающий `const T&`. Copy-init из `const T&` в `T` использует copy-конструктор напрямую (source и target совпадают по cv-unqualified типу), user-defined conversion не участвует → неоднозначности нет. | ✅ Подтверждено | C++ standard [dcl.init] — [cppreference.com](https://en.cppreference.com/cpp/language/copy_initialization); OpenFOAM `tmp<T>` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1tmp.html); Intel icx/icpx Porting Guide — [intel.com](https://www.intel.cn/content/www/cn/zh/developer/articles/guide/porting-guide-for-icc-users-to-dpcpp-or-icx.html); GitHub: ambiguity возникает только при **implicit** `tmp<T>` → `T` (без `operator()()`) — [github.com/gerlero/openfoam-app#87](https://github.com/gerlero/openfoam-app/issues/87) |
+| `lib/QGD/fvsc/leastSquaresOpt/leastSquaresStencilOpt.C` | 263 | `tField` — `surfaceScalarField`, не `tmp<T>`. У `GeometricField` нет `operator()() const`, возвращающего `const T&` (это метод только `tmp<T>`/`refPtr<T>`). Преобразования `tmp<T>` → `T` не происходит → ambiguity невозможна. | ✅ Подтверждено (при условии компилируемости) | OpenFOAM `GeometricField` API — [cpp.openfoam.org](https://cpp.openfoam.org/v7/classFoam_1_1GeometricField.html); OpenFOAM `refPtr<T>` API (v2112) — [openfoam.com](https://www.openfoam.com/documentation/guides/v2112/api/classFoam_1_1refPtr.html); QGDsolver file list — [unicfdlab.github.io](https://unicfdlab.github.io/QGDsolver/html/files.html) |
+
+проанализировать текст по доступным источникам:cppreference: «Ambiguous conversion sequences are ranked as user-defined conversion sequences because multiple conversion sequences for an argument can exist only if they involve different user-defined conversions.» Stack Overflow: «For user defined conversion sequences; there does not seem to be a precedence given between the converting constructor and the conversion operator, they are both candidates; §13.3.3.1.2/1.» tutorialpedia: «Conversion constructors and conversion operators are both considered 'user-defined conversions,' and the standard does not assign precedence between them.» Путь 1: tmp::operator const T&() → const T& → T(const T&) — user-defined = operator const T&(), second standard conversion = identity. Путь 2: T(const tmp&) — user-defined = конструктор, second standard conversion = identity.
+
+Оба используют разные user-defined conversions с одинаковыми (identity) вторыми standard conversions → неразличимы → ambiguous.
+
+# Анализ утверждения о неоднозначности преобразования `tmp<T>` → `T` при copy-initialization
+
+## Сводная таблица проверки
+
+| Утверждение | Источник | Статус | Пояснение |
+|---|---|---|---|
+| «Ambiguous conversion sequences are ranked as user-defined conversion sequences because multiple conversion sequences for an argument can exist only if they involve different user-defined conversions» | cppreference [over.best.ics] | ✅ Дословно | Точный текст в статьях [cppreference: overload_resolution](http://en.cppreference.com/cpp/language/overload_resolution) и [cppreference: cast_operator](https://en.cppreference.com/cpp/language/cast_operator) |
+| «For user defined conversion sequences; there does not seem to be a precedence given between the converting constructor and the conversion operator, they are both candidates; §13.3.3.1.2/1» | Stack Overflow | ✅ Корректно | Раздел §13.3.3.1.2 `[over.ics.user]` в стандарте C++11/14 (N3337). Параграф 1 определяет структуру user-defined conversion sequence, но не задаёт приоритет между conversion function и converting constructor. Подтверждается также стандартным текстом [over.ics.user](https://www.ida.liu.se/~TDDD38/ISOCPP/over.best.ics.html): «A user-defined conversion sequence consists of an initial standard conversion sequence followed by a user-defined conversion followed by a second standard conversion sequence» |
+| «Conversion constructors and conversion operators are both considered 'user-defined conversions,' and the standard does not assign precedence between them» | tutorialpedia | ✅ Дословно | Точный текст в [tutorialpedia.org](https://www.tutorialpedia.org/blog/conversion-constructor-vs-conversion-operator-precedence/), со ссылкой на ISO/IEC 14882:2020 §12.4 |
+| Путь 1: `operator const T&()` → `const T&` → `T(const T&)`, second standard = identity | Анализ | ✅ Корректно | `operator const T&() const` — user-defined conversion function. Возвращает `const T&`. Поскольку cv-unqualified тип `const T&` совпадает с целевым `T`, вторая standard conversion — identity (per [over.best.ics] §6: «Any difference in top-level cv-qualification is subsumed by the initialization itself and does not constitute a conversion»). Copy-конструктор `T(const T&)` вызывается на финальном шаге, но не является второй user-defined conversion (это часть инициализации, а не conversion sequence) |
+| Путь 2: `T(const tmp<T>&)`, second standard = identity | Анализ | ✅ Корректно | Converting constructor `T(const tmp<T>&)` — user-defined conversion. Первая standard conversion: `tmp<T>` → `const tmp<T>&` (qualification adjustment = Exact Match). Результат конструктора — `T`, вторая standard conversion — identity |
+| «Оба используют разные user-defined conversions с одинаковыми (identity) вторыми standard conversions → неразличимы → ambiguous» | Вывод | ✅ Корректно | Правило ранжирования (IBM docs, [over.ics.rank]): «U1 is better than U2 if both A and B have the **same** user-defined conversion function or constructor, and the second standard conversion sequence of U1 is better than that of U2». Пути 1 и 2 используют **разные** user-defined conversions (function vs constructor) → правило не применимо → последовательности неразличимы → ambiguous |
+
+---
+
+## Подробный разбор
+
+### Два пути преобразования `tmp<T>` → `T` при copy-initialization
+
+Контекст: `T result = tmp_obj;` где `tmp_obj` имеет тип `tmp<T>`.
+
+#### Путь 1: через conversion function
+| «For user defined conversion sequences; there does not seem to be a precedence given between the converting constructor and the conversion operator, they are both candidates; §13.3.3.1.2/1» | Stack Overflow | ✅ Корректно | Раздел §13.3.3.1.2 `[over.ics.user]` в стандарте C++11/14 (N3337). Параграф 1 определяет структуру user-defined conversion sequence, но не задаёт приоритет между conversion function и converting constructor. Подтверждается также стандартным текстом [over.ics.user](https://www.ida.liu.se/~TDDD38/ISOCPP/over.best.ics.html): «A user-defined conversion sequence consists of an initial standard conversion sequence followed by a user-defined conversion followed by a second standard conversion sequence» |
+| Шаг | Что происходит | Тип |
+|---|---|---|
+| Initial standard conversion | `tmp<T>` → `const tmp<T>&` (binding к implicit object parameter `operator const T&() const`) | Exact Match (identity + qualification) |
+| **User-defined conversion** | **`tmp<T>::operator const T&() const`** — возвращает `const T&` | Conversion **function** |
+| Second standard conversion | `const T&` → `T` — cv-unqualified типы совпадают → identity | Exact Match |
+
+#### Путь 2: через converting constructor
+
+| Шаг | Что происходит | Тип |
+|---|---|---|
+| Initial standard conversion | `tmp<T>` → `const tmp<T>&` (binding к параметру `T(const tmp<T>&)`) | Exact Match (identity + qualification) |
+| **User-defined conversion** | **`T::T(const tmp<T>&)`** — constructing `T` from `const tmp<T>&` | Conversion **constructor** |
+| Second standard conversion | Результат — `T`, преобразование не требуется → identity | Exact Match |
+
+#### Сравнение
+
+| Свойство | Путь 1 | Путь 2 |
+|---|---|---|
+| Initial standard conversion | Exact Match (identity) | Exact Match (identity) |
+| User-defined conversion | `operator const T&()` (function) | `T(const tmp<T>&)` (constructor) |
+| Second standard conversion | Exact Match (identity) | Exact Match (identity) |
+
+### Почему неоднозначность неизбежна
+
+Правило ранжирования user-defined conversion sequences (IBM docs, [over.ics.rank]):
+
+> «A user-defined conversion sequence A is better than a user-defined conversion sequence B if both A and B have the **same** user-defined conversion function or constructor, and the second standard conversion sequence of A is better than the second standard conversion sequence of B.»
+
+Ключевое условие: **«same user-defined conversion function or constructor»**. Пути 1 и 2 используют **разные** user-defined conversions — одну function, другой constructor. Правило ранжирования **не применимо**.
+
+Согласно cppreference [over.best.ics]:
+
+> «If several different sequences of conversions exist that each convert the argument to the parameter type, the implicit conversion sequence associated with the parameter is defined to be the unique conversion sequence designated the **ambiguous conversion sequence**. For the purpose of ranking implicit conversion sequences, the ambiguous conversion sequence is treated as a user-defined conversion sequence that is **indistinguishable from any other user-defined conversion sequence**.»
+
+Поскольку оба пути имеют одинаковые initial и second standard conversions (identity в обоих случаях), но разные user-defined conversions, они неразличимы → **ambiguous**.
+
+### Прямая аналогия из cppreference
+
+cppreference [cast_operator](https://en.cppreference.com/cpp/language/cast_operator) приводит идентичный пример:
+
+```cpp
+struct To { To() = default; To(const struct From&) {} };  // converting constructor
+struct From { operator To() const { return To(); } };       // conversion function
+
+To t2 = f;  // copy-initialization: AMBIGUOUS
+const To& r = f;  // reference-initialization: AMBIGUOUS
+
+
+
+| Источник | Компилятор | Версия OF | Ошибка |
+|---|---|---|---|
+| [GitHub: gerlero/openfoam-app#87](https://github.com/gerlero/openfoam-app/issues/87) | Clang (Apple) | v2206 | `error: conversion from 'tmp<Field<double>>' to 'Foam::scalarField' is ambiguous` — candidates: `operator const T&() const` + `Field(const tmp<Field<Type>>& tfld)` |
+| [OpenFOAM bug #717](https://bugs.openfoam.org/view.php?id=717) | Clang | 2.1.x | `error: conversion from 'tmp<Field<...>>' to 'const vectorField' is ambiguous` — candidates: `operator const T&() const` + `Field(const tmp<Field<Type>>&)` |
+| [preCICE Forum](https://precice.discourse.group/t/failing-to-compile-the-openfoam-adapter-at-moduleff-o/2240) | Intel OneAPI 2023.2 (icx) | v2406 | `error: conversion from 'tmp<vectorField>' to 'vectorField' is ambiguous` — candidates: `operator const T&() const { return cref(); }` + `Field(const tmp<Field<Type>>& tfld)` |
+| [OpenFOAM GitLab #3138](https://develop.openfoam.com/Development/openfoam/-/issues/3138) | Clang 15.0 | v2312 | `error: conversion from 'tmp<GeometricField<...>>' to 'GeometricField<...>' is ambiguous` |
+Во всех четырёх случаях компилятор выводит ровно два кандидата:
+note: candidate function     operator const T&() const { return cref(); }<br>
+note: candidate constructor   inline Field(const tmp<Field<Type>>& tfld);<br>
+
+### Совместимость с Intel icx/icpx
+Intel oneAPI Compiler (icx/icpx) — LLVM-based, следует стандарту C++ строго. Ошибка ambiguity воспроизводится на:
+
+Clang (Apple, open-source, 15.0)
+Intel OneAPI 2023.2 (icx) — подтверждено в preCICE Forum
+GCC — не воспроизводит (более мягкий overload resolution, допускает нестандартное разрешение)
+Это означает, что код, который компилируется на GCC, может упасть на icx/icpx с ошибкой ambiguous conversion — что и произошло в реальности.
