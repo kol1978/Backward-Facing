@@ -86,10 +86,6 @@
 # Точки соприкосновения пользователей и разработчиков
 [К содержанию](#Contents)
 
-Вы можете обсудить вопросы использования [hybridCentralSolvers](https://github.com/unicfdlab/hybridCentralSolvers) в группе Telegram: https://t.me/hybridCentralSolvers
-
-Существует проект [ResearchGate](https://www.researchgate.net/), посвященный разработке [библиотеки hybridCentralSolvers](https://www.researchgate.net/project/Development-and-implementation-of-hybrid-Density-Pressure-scheme-for-compressible-flows-simulation-in-OpenFOAM)
-
 # Доступные версии OpenFOAM
 [К содержанию](#Contents)
 
