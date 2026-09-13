@@ -9,7 +9,10 @@ TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 echo "Архивирование папок в $(pwd)..."
 echo "Метка времени: $TIMESTAMP"
 
+total_size_bytes=0
+
 for dir in */; do
+    # Пропускаем папки с архивами
     [[ "$dir" == "archives/" || "$dir" == "archives_history/" ]] && continue
 
     name="${dir%/}"
@@ -20,16 +23,27 @@ for dir in */; do
     # Архивируем
     tar -czf "$archive_name" "$dir"
 
-    # Проверяем архив: если tar --test вернёт ошибку — скрипт остановится (из‑за set -e),
-    # и папка НЕ будет удалена. Это защита от потери данных.
+    # Проверяем архив: если битый — не удаляем исходную папку и останавливаемся
     if tar -tzf "$archive_name" > /dev/null 2>&1; then
+        # Получаем размер архива в байтах
+        archive_size=$(stat -c%s "$archive_name")
+        total_size_bytes=$((total_size_bytes + archive_size))
+
+        # Конвертируем в МБ для текущего архива и текущей суммы
+        current_mb=$(awk "BEGIN {printf \"%.2f\", $archive_size/(1024*1024)}")
+        cumulative_mb=$(awk "BEGIN {printf \"%.2f\", $total_size_bytes/(1024*1024)}")
+
         rm -rf "$dir"
-        echo "     [OK] Проверено, архивировано и удалено: $name"
+        echo "     [OK] Проверено, архивировано и удалено: $name (${current_mb} МБ). Накоплено: ${cumulative_mb} МБ"
     else
         echo "     [ERROR] Архив битый! Папка $name НЕ удалена." >&2
-        # Можно добавить exit 1, если хочешь остановить весь скрипт при первой ошибке
+        # Из-за set -e скрипт остановится здесь
     fi
 done
 
 echo "Готово! Архивы в: $ARCHIVE_DIR"
 echo "Всего: $(ls -1 "$ARCHIVE_DIR"/*.tar.gz 2>/dev/null | wc -l) файлов"
+
+# Финальная сумма (дублирует последнее значение из цикла, но явно)
+final_mb=$(awk "BEGIN {printf \"%.2f\", $total_size_bytes/(1024*1024)}")
+echo "Суммарный размер архивов: ${final_mb} МБ"

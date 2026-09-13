@@ -47,9 +47,9 @@ runTimeModifiable true;
 
 adjustTimeStep  true;
 
-maxCo           0.5;
+maxCo           0.3;
 
-maxDeltaT       1e-3;
+maxDeltaT       1e-5;
 
 CourantType	faceCourant;
 
