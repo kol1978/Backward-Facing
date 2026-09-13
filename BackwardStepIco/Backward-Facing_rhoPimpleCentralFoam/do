@@ -5,5 +5,5 @@ cd ${0%/*} || exit 1    # Run from this directory
 . $WM_PROJECT_DIR/bin/tools/RunFunctions
 
 runApplication decomposePar -force
-runApplication mpirun -np 10 `getApplication` -parallel
+runApplication mpirun -np 12 `getApplication` -parallel
 runApplication reconstructPar

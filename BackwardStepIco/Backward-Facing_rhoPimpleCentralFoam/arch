@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ARCHIVE_DIR="./archives_history"
+mkdir -p "$ARCHIVE_DIR"
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+
+for dir in */; do
+    [[ -d "$dir" ]] || continue
+    if [[ -d "$dir/constant" && -d "$dir/system" ]]; then
+        name=$(basename "$dir")
+        # Имя архива: имя_кейса_дата.tar.gz
+        archive_name="${ARCHIVE_DIR}/${name}_${TIMESTAMP}.tar.gz"
+
+        echo "Архивирование $name с меткой времени..."
+        tar --exclude='processor*' -czf "$archive_name" "$dir"
+    fi
+done
+

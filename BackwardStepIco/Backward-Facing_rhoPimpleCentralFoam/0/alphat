@@ -31,19 +31,13 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
-    upperWall
+    walls
     {
         type            compressible::alphatWallFunction;
         Prt             0.85;
         value           uniform 0;
     }
-    lowerWall
-    {
-        type            compressible::alphatWallFunction;
-        Prt             0.85;
-        value           uniform 0;
-    }
-    frontAndBack
+    symwall
     {
         type            empty;
     }

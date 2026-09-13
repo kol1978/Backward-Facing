@@ -31,7 +31,7 @@ boundaryField
     {
         type            zeroGradient;
     }
-    upperWall
+    walls
     {
         type            omegaWallFunction;
         value           uniform 0.021;
@@ -40,16 +40,8 @@ boundaryField
         E               9.8;
         value           uniform 14.855;
     }
-    lowerWall
-    {
-        type            omegaWallFunction;
-        value           uniform 0.021;
-        Cmu             0.09;
-        kappa           0.41;
-        E               9.8;
-        value           uniform 14.855;
-    }
-    frontAndBack
+
+    symwall
     {
         type            empty;
     }

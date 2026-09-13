@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ARCHIVE_DIR="./archives"
+mkdir -p "$ARCHIVE_DIR"
+
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+
+echo "Архивирование папок в $(pwd)..."
+echo "Метка времени: $TIMESTAMP"
+
+for dir in */; do
+    [[ "$dir" == "archives/" || "$dir" == "archives_history/" ]] && continue
+
+    name="${dir%/}"
+    archive_name="${ARCHIVE_DIR}/${name}_${TIMESTAMP}.tar.gz"
+
+    echo "  -> $name"
+
+    # Архивируем
+    tar -czf "$archive_name" "$dir"
+
+    # Проверяем архив: если tar --test вернёт ошибку — скрипт остановится (из‑за set -e),
+    # и папка НЕ будет удалена. Это защита от потери данных.
+    if tar -tzf "$archive_name" > /dev/null 2>&1; then
+        rm -rf "$dir"
+        echo "     [OK] Проверено, архивировано и удалено: $name"
+    else
+        echo "     [ERROR] Архив битый! Папка $name НЕ удалена." >&2
+        # Можно добавить exit 1, если хочешь остановить весь скрипт при первой ошибке
+    fi
+done
+
+echo "Готово! Архивы в: $ARCHIVE_DIR"
+echo "Всего: $(ls -1 "$ARCHIVE_DIR"/*.tar.gz 2>/dev/null | wc -l) файлов"

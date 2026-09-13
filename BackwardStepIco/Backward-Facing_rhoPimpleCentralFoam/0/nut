@@ -31,7 +31,7 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
-    upperWall
+    walls
     {
         type            nutkWallFunction;
         Cmu             0.09;
@@ -39,15 +39,7 @@ boundaryField
         E               9.8;
         value           uniform 0;
     }
-    lowerWall
-    {
-        type            nutkWallFunction;
-        Cmu             0.09;
-        kappa           0.41;
-        E               9.8;
-        value           uniform 0;
-    }
-    frontAndBack
+    symwall
     {
         type            empty;
     }
