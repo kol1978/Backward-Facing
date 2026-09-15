@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ARCHIVE_DIR="./archives"
+mkdir -p "$ARCHIVE_DIR"
+
+# Формируем общую метку времени запуска (чтобы все архивы имели одинаковый префикс)
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+
+echo "Архивирование папок в $(pwd)..."
+echo "Метка времени для архивов: $TIMESTAMP"
+
+for dir in */; do
+    # Пропускаем папки с архивами
+    [[ "$dir" == "archives/" || "$dir" == "archives_history/" ]] && continue
+
+    name="${dir%/}"
+    # Имя архива: <имя_папки>_<дата_время>.tar.gz
+    archive_name="${ARCHIVE_DIR}/${name}_${TIMESTAMP}.tar.gz"
+
+    echo "  -> $name"
+    tar -czf "$archive_name" "$dir"
+done
+
+echo "Готово! Архивы в: $ARCHIVE_DIR"
+echo "Всего: $(ls -1 "$ARCHIVE_DIR"/*.tar.gz 2>/dev/null | wc -l) файлов"
