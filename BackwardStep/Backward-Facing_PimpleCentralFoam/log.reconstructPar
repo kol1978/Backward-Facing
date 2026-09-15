@@ -9,9 +9,9 @@ Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : reconstructPar
 Date   : Sep 15 2026
-Time   : 10:42:30
+Time   : 11:17:03
 Host   : kol-serv
-PID    : 32518
+PID    : 35363
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStep/Backward-Facing_PimpleCentralFoam
 nProcs : 1
@@ -22,7 +22,41 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
---> FOAM Warning : 
-    From int main(int, char **)
-    in file reconstructPar.C at line 271
-    No times selected
+
+
+Reconstructing fields
+region=region0
+
+Time = 0.013
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        T
+        alphat
+        k
+        nut
+        omega
+        p
+        rho
+
+    Reconstructing volVectorFields
+
+        U
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+No FA fields
+
+
+End
+
