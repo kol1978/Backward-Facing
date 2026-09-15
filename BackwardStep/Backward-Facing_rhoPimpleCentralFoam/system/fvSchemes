@@ -46,7 +46,7 @@ divSchemes
     //continuity equation
     div(phid_nei,p)	Gauss $defaultAdvScheme;
     div(phid_own,p)	Gauss $defaultAdvScheme;
-    
+
     //turbulence
     div(phi,omega)      Gauss upwind;
     div(phi,k)          Gauss upwind;
@@ -60,11 +60,12 @@ laplacianSchemes
 interpolationSchemes
 {
     default         none;
-    
+
     interpolate(rho)            linear;
     interpolate((rho*U))	linear;
-    
+
     reconstruct(rho)		$defaultAdvScheme;
+    reconstruct(rhoHat)		$defaultAdvScheme;
     reconstruct(psi)		$defaultAdvScheme;
     reconstruct(p)		$defaultAdvScheme;
     reconstruct(U)		$defaultAdvSchemeV;

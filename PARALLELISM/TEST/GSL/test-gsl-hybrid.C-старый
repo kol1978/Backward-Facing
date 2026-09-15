@@ -27,15 +27,9 @@
     - Фаза 4: решение СЛАУ (GSL, распределённое по процессам)
     - Фаза 5: глобальная редукция и статистика
 
-    Вывод временных метрик после каждой итерации:
-    - Расчётное время (номер итерации / всего)
-    - Системное время (календарные дата и время)
-    - Накопленное системное время (прошло с начала прогонов)
-    - Прогноз: осталось до завершения всех итераций
-
 Использование:
 
-    LOGFILE="log_pure_mpi_$(date +%Y%m%d_%H%M%S).log"
+LOGFILE="log_pure_mpi_$(date +%Y%m%d_%H%M%S).log"
     mpirun -np 4 ./test-gsl-hybrid -parallel -mode hybrid | tee "$LOGFILE"
     mpirun -np 1 ./test-gsl-hybrid -mode pure_omp | tee "$LOGFILE"
     mpirun -np 12 ./test-gsl-hybrid -parallel -mode pure_mpi | tee "$LOGFILE"
@@ -76,12 +70,6 @@
 
 #include <xmmintrin.h>    /* SSE   */
 #include <pmmintrin.h>    /* SSE3  (_mm_hadd_pd) */
-
-// === ДОБАВЛЕНО: временные метрики ===
-#include <ctime>          // std::time, std::localtime, std::strftime
-#include <string>         // std::string, std::to_string
-#include <cstdio>         // snprintf
-// === КОНЕЦ ДОБАВЛЕНИЯ ===
 
 using namespace Foam;
 
@@ -243,40 +231,6 @@ struct IntegralTask
     double gslError;
     double sseResult;
 };
-
-
-// === ДОБАВЛЕНО: временные метрики — вспомогательные функции ===
-
-/// \brief Форматирование секунд в строку вида "1ч 23м 45с"
-/// \param seconds — количество секунд (wall time)
-/// \return строка в формате "Чч ММм ССс"
-///
-/// Используется для человекочитаемого вывода накопленного и
-/// оставшегося времени. Работает с любым положительным значением.
-static std::string fmtDuration(double seconds)
-{
-    int total = static_cast<int>(seconds);
-    int h = total / 3600;
-    int m = (total % 3600) / 60;
-    int s = total % 60;
-    return std::to_string(h) + "ч "
-         + std::to_string(m) + "м "
-         + std::to_string(s) + "с";
-}
-
-/// \brief Форматирование календарного времени в строку "ГГГГ-ММ-ДД ЧЧ:ММ:СС"
-/// \param t — time_t (Unix epoch)
-/// \return строка с датой и временем
-///
-/// Обёртка над std::strftime для единообразного вывода системного времени.
-static std::string fmtCalendar(std::time_t t)
-{
-    char buf[64];
-    std::strftime(buf, sizeof(buf), "%Y-%m-%d %H:%M:%S", std::localtime(&t));
-    return std::string(buf);
-}
-
-// === КОНЕЦ ДОБАВЛЕНИЯ ===
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -768,157 +722,14 @@ int main(int argc, char *argv[])
             << endl;
     }
 
-    // === ДОБАВЛЕНО: временные метрики — инициализация перед циклом ===
-    //
-    // Здесь начинается блок временных метрик.
-    //
-    // Концепция (аналогия с решателем OpenFOAM):
-    //   "Расчётное время"   = номер итерации (repeat) — аналог deltaT
-    //   "endTime"           = cfg.repeat — всего итераций
-    //   "Системное время"   = календарные дата и время (через std::time)
-    //   "Накопленное время" = стенное время от начала основных прогонов
-    //   "Прогноз"           = оценка оставшегося времени на основе
-    //                        среднего времени итерации и числа оставшихся
-    //
-    // Переменные:
-    //   wallStartMain       — стенное время в момент начала основных
-    //                         прогонов (через omp_get_wtime)
-    //   startTimeCalendar   — календарное время (Unix epoch) в момент
-    //                         начала основных прогонов
-    //                         Важно: omp_get_wtime НЕ равно Unix-эпохе,
-    //                         поэтому календарь нужно сохранять отдельно.
-    //   iterWallTime        — время, затраченное на текущую итерацию
-    //   elapsedTotal        — накопленное стенное время с начала прогонов
-    //   avgIterTime         — среднее время одной итерации
-    //   remainingIters      — сколько итераций осталось
-    //   estRemaining        — прогноз оставшегося времени (секунды)
-
-    // Старт стенного таймера основных прогонов
-    const double wallStartMain = omp_get_wtime();
-
-    // Стартовое календарное время (omp_get_wtime НЕ равно Unix-эпохе,
-    // поэтому календарь нужно сохранять отдельно)
-    const std::time_t startTimeCalendar = std::time(nullptr);
-    // === КОНЕЦ ДОБАВЛЕНИЯ (инициализация) ===
-
     for (label r = 0; r < cfg.repeat; r++)
     {
         if (Pstream::master())
         {
             Info<< "\n>>> Прогон " << (r + 1) << "/" << cfg.repeat << endl;
         }
-
-        // === ДОБАВЛЕНО: временные метрики — фиксация начала итерации ===
-        // Засекаем стенное время в начале итерации для расчёта
-        // продолжительности текущего прогона.
-        const double wallIterStart = omp_get_wtime();
-        // === КОНЕЦ ДОБАВЛЕНИЯ ===
-
         testGslHybrid(cfg);
-
-        // === ДОБАВЛЕНО: временные метрики — вывод после каждой итерации ===
-        //
-        // После завершения итерации вычисляем:
-        // 1. iterWallTime   — сколько секунд занял этот прогон
-        // 2. elapsedTotal   — сколько секунд прошло с начала всех прогонов
-        // 3. avgIterTime    — среднее время итерации = elapsedTotal / (r+1)
-        // 4. remainingIters — сколько итераций осталось = repeat - (r+1)
-        // 5. estRemaining   — прогноз: avgIterTime * remainingIters
-        // 6. etaCalendar    — ожидаемая дата/время завершения
-        //
-        // Прогноз строится по среднему времени всех завершённых итераций,
-        // что делает его устойчивым к колебаниям (в отличие от оценки
-        // по последней итерации). По мере увеличения числа выполненных
-        // итераций прогноз уточняется.
-        //
-        // Выводятся четыре блока:
-        //   Расчётное время   — номер итерации и всего
-        //   Системное время    — календарная дата и время "сейчас"
-        //   Накопленное время  — прошло с начала прогонов (Чч ММм ССс)
-        //   Прогноз            — осталось до завершения + ожидаемое время
-        //
-        // Примечание: Info (Foam::Ostream) не поддерживает std::fixed /
-        // std::setprecision из <iomanip>, поэтому процент форматируется
-        // вручную через snprintf.
-
-        const double wallNow = omp_get_wtime();
-        const double iterWallTime = wallNow - wallIterStart;      // Время текущей итерации (с)
-        const double elapsedTotal = wallNow - wallStartMain;      // Накопленное время (с)
-        const label  completedIters = r + 1;                      // Выполнено итераций
-        const label  remainingIters = cfg.repeat - completedIters; // Осталось итераций
-        const double avgIterTime = elapsedTotal / completedIters;  // Среднее время итерации (с)
-        const double estRemaining = avgIterTime * remainingIters;  // Прогноз оставшегося (с)
-
-        // Календарное время "сейчас"
-        std::time_t nowTime = std::time(nullptr);
-
-        // Прогноз завершения: текущее календарное время + оставшееся время
-        std::time_t etaTime = nowTime + static_cast<std::time_t>(estRemaining);
-
-        if (Pstream::master())
-        {
-            // Форматируем процент вручную: Info (Ostream) не поддерживает
-            // std::fixed / std::setprecision из <iomanip>
-            char pctStr[16];
-            snprintf
-            (
-                pctStr, sizeof(pctStr), "%.1f",
-                100.0 * completedIters / cfg.repeat
-            );
-
-            Info<< "\n"
-                << "  +-----------------------------------------------------------\n"
-                << "  | ВРЕМЕННЫЕ МЕТРИКИ (итерация " << completedIters
-                << " из " << cfg.repeat << ")\n"
-                << "  +-----------------------------------------------------------\n"
-                << "  | Расчётное время:  прогон " << completedIters
-                << " / " << cfg.repeat << "  (" << pctStr << "%)\n"
-                << "  | Системное время:  " << fmtCalendar(nowTime) << "\n"
-                << "  | Накопленное:      " << fmtDuration(elapsedTotal)
-                << "  (с начала прогонов)\n"
-                << "  | Итерация:         " << fmtDuration(iterWallTime)
-                << "  среднее: " << fmtDuration(avgIterTime) << "\n"
-                << "  +-----------------------------------------------------------\n"
-                << "  | Осталось:         " << fmtDuration(estRemaining)
-                << "  (~" << remainingIters << " прогонов)\n"
-                << "  | Завершение ~      " << fmtCalendar(etaTime) << "\n"
-                << "  +-----------------------------------------------------------\n"
-                << endl;
-        }
-        // === КОНЕЦ ДОБАВЛЕНИЯ (вывод метрик) ===
     }
-
-    // === ДОБАВЛЕНО: временные метрики — итоговый отчёт ===
-    //
-    // После завершения всех прогонов выводим суммарную статистику:
-    //   - общее стенное время всех основных прогонов
-    //   - среднее время одной итерации
-    //   - календарное время начала и завершения
-    //
-    // Это удобно для логов и сравнения конфигураций.
-    //
-    // Важно: для календарного времени начала используется
-    // startTimeCalendar (std::time), а НЕ omp_get_wtime(),
-    // так как omp_get_wtime возвращает время от произвольной точки,
-    // а не от Unix-эпохи.
-
-    if (Pstream::master())
-    {
-        const double totalWall = omp_get_wtime() - wallStartMain;
-        const double avgWall = totalWall / cfg.repeat;
-
-        Info<< "\n=========================================================\n"
-            << "  ИТОГОВЫЙ ОТЧЁТ ПО ВРЕМЕНИ\n"
-            << "=========================================================\n"
-            << "  Всего итераций:     " << cfg.repeat << "\n"
-            << "  Общее время:       " << fmtDuration(totalWall) << "\n"
-            << "  Среднее на прогон:  " << fmtDuration(avgWall) << "\n"
-            << "  Начало:            " << fmtCalendar(startTimeCalendar) << "\n"
-            << "  Завершение:        " << fmtCalendar(std::time(nullptr)) << "\n"
-            << "=========================================================\n"
-            << endl;
-    }
-    // === КОНЕЦ ДОБАВЛЕНИЯ (итоговый отчёт) ===
 
     Info<< "\nEnd\n" << endl;
 

@@ -30,15 +30,11 @@ boundaryField
         type            fixedValue;
         value           uniform 101325;
     }
-    upperWall
+    walls
     {
         type            zeroGradient;
     }
-    lowerWall
-    {
-        type            zeroGradient;
-    }
-    frontAndBack
+    symwall
     {
         type            empty;
     }

@@ -1,9 +1,118 @@
 Почему именно для rhoPimpleCentralFoam это критично
+Этот решатель — density-based, использует центрально-верхностные схемы (Kurganov-Tadmor). Он чувствителен к неортогональности больше, чем pressure-based решатели (типа rhoPimpleFoam), потому что реконструкция градиентов на гранях напрямую влияет на численный поток.
+
+Показатели: $ mpirun -np 12 rhoSimpleFoam -parallel -postProcess -func yPlus -latestTime
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
+Arch   : "LSB;label=64;scalar=64"
+Exec   : rhoSimpleFoam -parallel -postProcess -func yPlus -latestTime
+Date   : Sep 15 2026
+Time   : 12:32:59
+Host   : kol-serv
+PID    : 45077
+I/O    : uncollated
+Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStep/Backward-Facing_PimpleCentralFoam
+nProcs : 12
+Hosts  :
+(
+    (kol-serv 12)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0.013
+
+
+SIMPLE: no convergence criteria found. Calculations will run for 0.237 steps.
+
+Time = 0.013
+Reading thermophysical properties
+
+Selecting thermodynamics package
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Creating turbulence model
+
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+Selecting patchDistMethod meshWave
+RAS
+{
+    RASModel        kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.85;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.856;
+    gamma1          0.5555555555555556;
+    gamma2          0.44;
+    beta1           0.075;
+    beta2           0.0828;
+    betaStar        0.09;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+    decayControl    false;
+    kInf            0;
+    omegaInf        0;
+}
+
+No MRF models present
+
+No finite volume options present
+yPlus yPlus write:
+    writing field yPlus
+    patch walls y+ : min = 0.5791814317865278, max = 67.52002873129322, average = 30.78151160735304
+
+End
+
+Finalising parallel run
+kol@kol-serv:/media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/BackwardStep/Backward-Facing_PimpleCentralFoam$
+
+
+Non-orthogonality 13.7° — для этого решателя более чем достаточно (проблемы начинаются после 40–50°, а коррекция nonOrthoCorrectors в fvSolution нужна только после ~20°).
+All-hex mesh — идеально, гексаэдры дают лучшую точность для центральных схем.
+Aspect ratio 11.7 — приемлемо. Растёт за счёт пристеночного сгущения, что нормально.
+
+thermoType уже стоит hePsiThermo — но именно его в сборке нет. В списке доступных (из краш-лога) есть только heRhoThermo. Решатель rhoPimpleCentralFoam в v2312 ищет rhoThermo-производный класс, а hePsiThermo — это psiThermo-производный.
+
+mpirun -np 12 rhoPimpleCentralFoam -parallel | tee log_$(date +%Y%m%d_%H%M%S).log
 
 max Maf = 0.165 — это малое число Маха
 max/min p = 101484 / 98219 — давление почти атмосферное
 max/min T = 300.5 / 298.0 — перепад температур маленький
-Это значит, что ты решаешь сжимаемую задачу в низкочастотном (low-Mach) режиме. Для плотностных солверов на центральных схемах это самая тяжёлая ситуация:
+Решаем сжимаемую задачу в низкочастотном (low-Mach) режиме. Для плотностных солверов на центральных схемах это самая тяжёлая ситуация:
 
 Почему это происходит
 Акустический Courant = 6.6 — слишком высок. Для плотностного солвера на центральных схемах акустический CFL должен быть не больше 1, а у тебя 6.6. kappaFunction с standardMachToAcCourantRatio не справляется с ограничением.
@@ -11,7 +120,14 @@ kappa: 0.229 / 0 — коэффициент диссипации падает д
 momentumPredictor false — без предиктора скорости давление и скорость не согласованы между outer-итерациями. На второй итерации несогласованность усиливается, энтальпия вылетает.
 nOuterCorrectors 3 при nCorrectors 1 — одна коррекция давления на outer-итерацию недостаточна при momentumPredictor false.
 
-Что исправить
+Параметры потока при p=101325 Па, T=300 К:
+
+Плотность: ρ=101325/(287×300)≈1,18 кг/м³
+Скорость звука: a=sqrt(1,4×287×300)≈347 м/с
+Число Маха: M=44,2/347≈0,13 — чистый дозвук
+Число Рейнольдса: Re=ρ⋅U⋅L/μ — будет зависеть от размера шага
+
+Исправить:
 В system/fvSolution, секция PIMPLE:
 cpp
 PIMPLE
