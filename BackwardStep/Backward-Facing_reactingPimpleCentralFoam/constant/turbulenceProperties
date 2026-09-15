@@ -14,8 +14,24 @@ FoamFile
     object      turbulenceProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
+/*
 simulationType  laminar;
+*/
+simulationType   LES;
+
+LES
+{
+    LESModel        WALE;        // или Smagorinsky, or kEqn
+    delta           cubeRootVol; // или smooth
+
+    cubeRootVolCoeffs
+    {
+        deltaCoeff      1;
+    }
+}
 
 
 // ************************************************************************* //
+/*
+WALE лучше подходит для низкоскоростных течений — корректно восстанавливает асимптотику вблизи стенок и в зонах сдвига. kEqn (one-equation SGS) — альтернатива, если нужна динамическая адаптация вязкости.
+ * */

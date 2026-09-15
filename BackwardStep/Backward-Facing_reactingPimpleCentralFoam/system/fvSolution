@@ -20,7 +20,7 @@ solvers
     "(rho|U|h|p).*"
     {
         solver          PBiCGStab;
-        preconditioner	DILU;
+        preconditioner  DILU;
         tolerance       1e-015;
         relTol          0.0;
     }
@@ -28,22 +28,91 @@ solvers
 
 PIMPLE
 {
-                                
-    momentumPredictor           false; //true;
-    nCorrectors                 1;
-    nOuterCorrectors            2;
-    nonOrthogonalityThreshold   60;
-    skewnessThreshold           0.5;
-    updateEnergyInPISO          false;
-    fluxScheme                  Kurganov; //Tadmor;
-    
+    momentumPredictor   yes;
+    nOuterCorrectors    2;
+    nCorrectors         2;
+    nNonOrthogonalCorrectors 1;
+
+    nonOrthogonalityThreshold  60;
+    skewnessThreshold          0.5;
+
+    updateEnergyInPISO  false;
+    fluxScheme          Kurganov;
+
     kappaFunction
     {
-        type standardMachToAcCourantRatio;
-        standardMachToAcCourantRatioCoeffs
+        type            sonicCourantInverse;
+
+        sonicCourantInverseCoeffs
         {
         }
     }
+/*
+solvers
+{
+    p
+    {
+        solver           PCG;
+        preconditioner   DIC;
+        tolerance        1e-6;
+        relTol           0.01;
+    }
+
+    pFinal
+    {
+        $p;
+        relTol           0;
+    }
+
+    U
+    {
+        solver           PBiCGStab;
+        preconditioner   DILU;
+        tolerance        1e-8;
+        relTol           0.1;
+    }
+
+    h
+    {
+        solver           PBiCGStab;
+        preconditioner   DILU;
+        tolerance        1e-8;
+        relTol           0.1;
+    }
+
+    Yi
+    {
+        solver           PBiCGStab;
+        preconditioner   DILU;
+        tolerance        1e-8;
+        relTol           0.1;
+    }
+
+    k
+    {
+        solver           PBiCGStab;
+        preconditioner   DILU;
+        tolerance        1e-8;
+        relTol           0.1;
+    }
 }
 
+PIMPLE
+{
+    momentumPredictor   yes;      // важно для точности при низком M
+    nOuterCorrectors    2;        // 2–3 для PIMPLE при низком M
+    nCorrectors         3;        // больше корректоров = лучше давление
+    nNonOrthogonalCorrectors 1;
+
+    pMaxFactor          1.5;      // ограничители давления (если есть)
+    pMinFactor          0.5;
+}*/
+
+}
+
+
+
 // ************************************************************************* //
+/*
+ Для низкоскоростного PIMPLE настройки линейных решателей близки к reactingFoam
+ * */

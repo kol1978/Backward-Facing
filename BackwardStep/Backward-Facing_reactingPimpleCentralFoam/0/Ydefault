@@ -1,7 +1,7 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2.3.0                                 |
+|  \\    /   O peration     | Version:  4.1                                   |
 |   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
@@ -9,29 +9,34 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      thermo.compressibleGas;
+    class       volScalarField;
+    location    "0";
+    object      Ydefault;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-mixture
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 1;
+
+boundaryField
 {
-    specie
+    inlet
     {
-        nMoles          1;
-        molWeight       28.97;       // воздух
+        type            fixedValue;
+        value           uniform 1;
     }
-    thermodynamics
+    outlet
     {
-        Cp              1004.5;       // Дж/(кг·К), воздух
-        Hf              0.0;
+        type            zeroGradient;
     }
-    transport
+    walls
     {
-        mu              1.8e-5;       // Па·с, воздух при 300 К
-        Pr              0.71;         // число Прандтля воздуха
-        beta            0;            // beta = 1/T для ideal gas (не используется с const)
+        type            zeroGradient;
+    }
+    symwall
+    {
+        type            empty;
     }
 }
 
