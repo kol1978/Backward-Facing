@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Фиксируем дату
+TS_DATE=$(date +%Y-%m-%d)
+
+# Создаём папку для логов
+mkdir -p "logs/${TS_DATE}"
+
+# Считаем, сколько уже логов есть за сегодня
+# Ищем файлы, начинающиеся на log.rhoPimpleCentralFoam_
+count=$(find "logs/${TS_DATE}" -maxdepth 1 -type f -name 'log.rhoPimpleCentralFoam_*' 2>/dev/null | wc -l)
+# Следующий номер (начинаем с 1)
+run_num=$((count + 1))
+
+LOG_FILE="logs/${TS_DATE}/log.rhoPimpleCentralFoam_run${run_num}"
+
+echo "Запуск rhoPimpleCentralFoam на 12 MPI-процессах"
+echo "Лог будет сохранён в: ${LOG_FILE}"
+echo "Дата запуска: ${TS_DATE}, номер запуска: ${run_num}"
+
+decomposePar -force
+# Запуск расчёта с выводом и в терминал, и в файл
+mpirun -np 12 pimpleCentralFoam -parallel 2>&1 | tee "${LOG_FILE}"
+
+
+#export OMP_NUM_THREADS=4
+#mpirun -np 4 rhoPimpleCentralFoam -parallel 2>&1 | tee "${LOG_FILE}"

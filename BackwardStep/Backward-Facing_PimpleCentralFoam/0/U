@@ -33,9 +33,15 @@ outlet
     value           uniform (44.2 0 0);
 }
 
+/*
     walls
     {
         type            noSlip;
+    }*/
+    walls
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
     }
     symwall
     {
