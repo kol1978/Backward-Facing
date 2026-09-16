@@ -9,9 +9,9 @@ Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
 Arch   : "LSB;label=64;scalar=64"
 Exec   : blockMesh
 Date   : Sep 16 2026
-Time   : 10:53:13
+Time   : 11:49:35
 Host   : kol-serv
-PID    : 37031
+PID    : 9727
 I/O    : uncollated
 Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/hybridCentralSolvers/Tutorials/compressible/ForwardStep
 nProcs : 1
@@ -51,6 +51,7 @@ Check topology
 
 Creating block offsets
 Creating merge list (topological search)...
+Deleting polyMesh directory "constant/polyMesh"
 
 Creating polyMesh from blockMesh
 Creating points with scale (1 1 1)
