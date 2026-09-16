@@ -1,0 +1,169 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |				
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9                                   	
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     rhoPimpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.1;
+
+//deltaT          1e-05;
+//deltaT          1e-03;
+//deltaT          5e-04;	//SB OK
+deltaT          1e-04;	
+
+writeControl    runTime;
+
+//This option add numerical diffusion
+//writeControl    adjustableRunTime;
+
+writeInterval   0.01;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  12;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+adjustTimeStep  no;
+maxCo           0.5;	
+maxDeltaT       0.01;	
+//maxDeltaT       0.0005;	
+
+// ************************************************************************* //
+
+functions
+{
+
+///////////////////////////////////////////////////////////////////////////
+//IN OF8
+/*
+minmaxdomain
+{
+    type fieldMinMax;
+
+    functionObjectLibs ("libfieldFunctionObjects.so");
+
+    enabled true; //true or false
+
+    mode component;
+
+    writeControl timeStep;
+    writeInterval 1;
+
+    log true;
+
+    fields (p U T);
+}
+*/
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+
+minmaxdomain_scalar
+{
+    type            volFieldValue;
+    libs            ("libfieldFunctionObjects.so");
+
+    enabled 	    true; 	//true or false
+    log             true;	//write to screen
+    
+    //writeControl    writeTime;
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;	//write solution to field value - Not needed when only reporting value to screen
+
+    writeLocation   true;	//write location in the output file
+
+    //mode component;
+
+    regionType      all;
+
+    operation       none;
+
+    fields
+    (
+        p T
+    );
+}
+
+minmaxdomain_vector
+{
+    type            volFieldValue;
+    libs            ("libfieldFunctionObjects.so");
+
+    enabled 	    true; 	//true or false
+    log             true;	//write to screen
+    
+    //writeControl    writeTime;
+    writeControl    timeStep;
+    writeInterval   1;
+
+    writeFields     false;	//write solution to field value - Not needed when only reporting value to screen
+
+    writeLocation   true;	//write location in the output file
+
+    //mode component;
+
+    regionType      all;
+
+    operation       none;
+
+    fields
+    (
+        U
+    );
+}
+
+mindomain_scalar
+{
+    $minmaxdomain_scalar
+    operation       min;
+}
+
+mindomain_vector
+{
+    $minmaxdomain_vector
+    operation       minMag;
+}
+
+maxdomain_scalar
+{
+    $minmaxdomain_scalar
+    operation       max;
+}
+
+maxdomain_vector
+{
+    $minmaxdomain_vector
+    operation       maxMag;
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+};
