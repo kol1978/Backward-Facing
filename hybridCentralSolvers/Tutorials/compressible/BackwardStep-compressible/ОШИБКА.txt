@@ -1,3 +1,60 @@
+Mean and max Characteristic Courant Numbers = 0.078924 1.9446
+Courant Number max : 3.80205 velocity magnitude: 2810.82
+deltaT = 2.50199e-08
+Time = 0.00264163
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.322966 / -0.0131678
+PIMPLE: iteration 1
+DILUPBiCGStab:  Solving for omega, Initial residual = 1.85325e-06, Final residual = 3.01045e-18, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 2.08503e-06, Final residual = 6.53634e-17, No Iterations 2
+bounding k, min: -290.86 max: 16829.5 average: 371.943
+DILUPBiCGStab:  Solving for h, Initial residual = 3.58346e-05, Final residual = 2.34588e-17, No Iterations 3
+max/min T: 333.441/19.127
+DILUPBiCGStab:  Solving for p, Initial residual = 4.34541e-05, Final residual = 1.12045e-16, No Iterations 3
+max(U): (669.139 250.756 0)
+max/min p: 14470.2/-10.4156
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.322864 / -0.0001843
+time step continuity errors : sum local = 1.80735e-16, global = -4.92231e-18, cumulative = 0
+max/min FaceAcCourant: 0.0931289/0.00110763
+max/min Maf: 3.63284/0
+max/min kappa: 1/0
+PIMPLE: iteration 2
+DILUPBiCGStab:  Solving for omega, Initial residual = 3.78187e-07, Final residual = 2.30334e-17, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 4.35259e-07, Final residual = 1.6451e-16, No Iterations 2
+bounding k, min: -1287.31 max: 16829.5 average: 371.948
+DILUPBiCGStab:  Solving for h, Initial residual = 1.55554e-05, Final residual = 6.64683e-16, No Iterations 2
+max/min T: 333.442/8.30255
+DILUPBiCGStab:  Solving for p, Initial residual = 1.00757e-05, Final residual = 1.92427e-16, No Iterations 2
+max(U): (669.135 302.653 0)
+max/min p: 14413.7/-11.1774
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.32144 / -0.000346347
+time step continuity errors : sum local = 2.01029e-16, global = -8.49457e-18, cumulative = 0
+max/min FaceAcCourant: 1.1162/0.00110763
+max/min Maf: 4.50669/0
+max/min kappa: 1/0
+PIMPLE: iteration 3
+DILUPBiCGStab:  Solving for omega, Initial residual = 1.0492e-06, Final residual = 6.46686e-16, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 9.26098e-07, Final residual = 5.59066e-16, No Iterations 2
+bounding k, min: -1415.05 max: 16829.4 average: 371.948
+DILUPBiCGStab:  Solving for h, Initial residual = 1.09143e-05, Final residual = 4.73885e-16, No Iterations 2
+max/min T: 333.444/-271.543
+[6] [stack trace]
+[6] =============
+[6] #1  Foam::sigFpe::sigHandler(int) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[6] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
+[6] #3  __libm_sqrt_ex in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #4  Foam::sqrt(Foam::Field<double>&, Foam::UList<double> const&) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[6] #5  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #6  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #7  ? in /lib/x86_64-linux-gnu/libc.so.6
+[6] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[6] #9  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] =============
+
+-------------------
 Mean and max Characteristic Courant Numbers = 0.0784038 0.375166
 Courant Number max : 0.496949 velocity magnitude: 670.654
 deltaT = 1.90216e-07
