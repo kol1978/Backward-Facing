@@ -1,0 +1,36 @@
+cat > push_repo.sh << 'SCRIPT'
+#!/bin/bash
+set -e
+
+REMOTE_URL="$1"
+
+if [ -z "$REMOTE_URL" ]; then
+  echo "Использование: ./push_repo.sh git@github.com:kol1978/Backward-Facing.git"
+  exit 1
+fi
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+echo "Текущая ветка: $BRANCH"
+echo "URL remote: $REMOTE_URL"
+
+git remote remove origin 2>/dev/null || true
+git remote add origin "$REMOTE_URL"
+
+COMMITS=$(git rev-list --reverse HEAD)
+TOTAL=$(echo "$COMMITS" | wc -l)
+COUNT=0
+
+for COMMIT in $COMMITS; do
+  COUNT=$((COUNT + 1))
+  echo ""
+  echo "============================================"
+  echo "Пуш $COUNT из $TOTAL: ${COMMIT:0:8}"
+  echo "============================================"
+  git push --force origin "$COMMIT:$BRANCH"
+done
+
+echo ""
+echo "Готово! Все $TOTAL коммитов запушены в $BRANCH"
+SCRIPT
+
