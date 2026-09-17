@@ -1,4 +1,0 @@
-var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2radialModel_2SinclairJ9f0251b2f816a40007be7d823c675f47 =
-[
-    [ "SinclairJackson", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1SinclairJackson.html", "classFoam_1_1kineticTheoryModels_1_1radialModels_1_1SinclairJackson" ]
-];

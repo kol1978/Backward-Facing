@@ -1,5 +1,0 @@
-var legacy_2combustion_2PDRFoam_2laminarFlameSpeed_2RaviPetersen_2RaviPetersen_8C =
-[
-    [ "defineTypeNameAndDebug", "legacy_2combustion_2PDRFoam_2laminarFlameSpeed_2RaviPetersen_2RaviPetersen_8C.html#ad2b3a7c07243fcf3c3aae5698337d66c", null ],
-    [ "addToRunTimeSelectionTable", "legacy_2combustion_2PDRFoam_2laminarFlameSpeed_2RaviPetersen_2RaviPetersen_8C.html#aa5f8af7a59ee41a959901243ec0b169a", null ]
-];

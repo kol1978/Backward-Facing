@@ -1,4 +1,0 @@
-var sixDoFRigidBodyMotion_2sixDoFRigidBodyMotion_2restraints_2linearAxialAngularSpring_2linearAxialAngularSpring_8H =
-[
-    [ "linearAxialAngularSpring", "classFoam_1_1sixDoFRigidBodyMotionRestraints_1_1linearAxialAngularSpring.html", "classFoam_1_1sixDoFRigidBodyMotionRestraints_1_1linearAxialAngularSpring" ]
-];

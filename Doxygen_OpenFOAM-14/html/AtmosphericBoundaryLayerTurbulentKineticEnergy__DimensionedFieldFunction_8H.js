@@ -1,4 +1,0 @@
-var AtmosphericBoundaryLayerTurbulentKineticEnergy__DimensionedFieldFunction_8H =
-[
-    [ "AtmosphericBoundaryLayerTurbulentKineticEnergy< DimensionedFieldType >", "classFoam_1_1DimensionedFieldFunctions_1_1AtmosphericBoundaryLayerTurbulentKineticEnergy.html", "classFoam_1_1DimensionedFieldFunctions_1_1AtmosphericBoundaryLayerTurbulentKineticEnergy" ]
-];

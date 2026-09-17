@@ -1,4 +1,0 @@
-var alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField_8H =
-[
-    [ "alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField", "classFoam_1_1compressible_1_1alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.html", "classFoam_1_1compressible_1_1alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField" ]
-];

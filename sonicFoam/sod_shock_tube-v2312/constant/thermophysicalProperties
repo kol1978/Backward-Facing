@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
-  =========                 |				
+  =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  9                                   	
+   \\    /   O peration     | Website:  https://openfoam.com
+    \\  /    A nd           | Version:  v2312
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -21,15 +21,18 @@ thermoType
     thermo          hConst;
     equationOfState perfectGas;
     specie          specie;
-    energy          sensibleInternalEnergy;	//e
-    //energy          sensibleEnthalpy;		//h
+    energy          sensibleInternalEnergy;  // e
+    // energy          sensibleEnthalpy;       // h
 }
 
 mixture
 {
     specie
     {
-        molWeight       28.9;
+        molWeight       28.97;
+        // В оригинале (OF9) был второй блок specie с molWeight 11640.3,
+        // который перекрывал первый. Если нужна нестандартная постановка —
+        // замените 28.9 на 11640.3.
     }
     thermodynamics
     {

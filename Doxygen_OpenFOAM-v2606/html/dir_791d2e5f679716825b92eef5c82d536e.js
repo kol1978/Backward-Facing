@@ -1,5 +1,0 @@
-var dir_791d2e5f679716825b92eef5c82d536e =
-[
-    [ "GidaspowConductivity.C", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C.html", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8C" ],
-    [ "GidaspowConductivity.H", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8H.html", "twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2conductivityModel_2Gidaspow_2GidaspowConductivity_8H" ]
-];

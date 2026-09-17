@@ -1,4 +1,0 @@
-var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2Casson_2Casson_8H =
-[
-    [ "Casson", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1Casson.html", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1Casson" ]
-];

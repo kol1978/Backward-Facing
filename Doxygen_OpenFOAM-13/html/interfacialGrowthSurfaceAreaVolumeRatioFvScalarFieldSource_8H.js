@@ -1,4 +1,0 @@
-var interfacialGrowthSurfaceAreaVolumeRatioFvScalarFieldSource_8H =
-[
-    [ "interfacialGrowthSurfaceAreaVolumeRatioFvScalarFieldSource", "classFoam_1_1interfacialGrowthSurfaceAreaVolumeRatioFvScalarFieldSource.html", "classFoam_1_1interfacialGrowthSurfaceAreaVolumeRatioFvScalarFieldSource" ]
-];

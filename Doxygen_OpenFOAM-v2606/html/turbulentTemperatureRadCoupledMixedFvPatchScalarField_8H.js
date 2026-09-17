@@ -1,4 +1,0 @@
-var turbulentTemperatureRadCoupledMixedFvPatchScalarField_8H =
-[
-    [ "turbulentTemperatureRadCoupledMixedFvPatchScalarField", "classFoam_1_1compressible_1_1turbulentTemperatureRadCoupledMixedFvPatchScalarField.html", "classFoam_1_1compressible_1_1turbulentTemperatureRadCoupledMixedFvPatchScalarField" ]
-];

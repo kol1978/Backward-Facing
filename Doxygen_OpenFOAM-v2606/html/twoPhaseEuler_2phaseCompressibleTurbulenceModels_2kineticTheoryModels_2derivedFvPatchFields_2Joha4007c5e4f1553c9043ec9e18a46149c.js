@@ -1,4 +1,0 @@
-var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2derivedFvPatchFields_2Joha4007c5e4f1553c9043ec9e18a46149c =
-[
-    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField.html", "classFoam_1_1JohnsonJacksonParticleSlipFvPatchVectorField" ]
-];

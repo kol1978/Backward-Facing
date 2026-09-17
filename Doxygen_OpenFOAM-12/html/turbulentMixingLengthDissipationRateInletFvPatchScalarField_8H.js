@@ -1,4 +1,0 @@
-var turbulentMixingLengthDissipationRateInletFvPatchScalarField_8H =
-[
-    [ "turbulentMixingLengthDissipationRateInletFvPatchScalarField", "classFoam_1_1turbulentMixingLengthDissipationRateInletFvPatchScalarField.html", "classFoam_1_1turbulentMixingLengthDissipationRateInletFvPatchScalarField" ]
-];

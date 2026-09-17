@@ -1,5 +1,0 @@
-var XiEqModel_8C =
-[
-    [ "defineTypeNameAndDebug", "XiEqModel_8C.html#a7309e4fdbfc78788e06e8c6341497623", null ],
-    [ "defineRunTimeSelectionTable", "XiEqModel_8C.html#ae165c08d0e52f381ff04525e1023a97c", null ]
-];

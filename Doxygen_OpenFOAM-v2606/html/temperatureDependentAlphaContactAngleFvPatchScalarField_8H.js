@@ -1,4 +1,0 @@
-var temperatureDependentAlphaContactAngleFvPatchScalarField_8H =
-[
-    [ "temperatureDependentAlphaContactAngleFvPatchScalarField", "classFoam_1_1temperatureDependentAlphaContactAngleFvPatchScalarField.html", "classFoam_1_1temperatureDependentAlphaContactAngleFvPatchScalarField" ]
-];

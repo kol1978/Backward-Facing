@@ -1,4 +1,0 @@
-var twoPhaseEuler_2twoPhaseSystem_2diameterModels_2IATE_2IATEsources_2wakeEntrainmentCoalescence_2wakeEntrainmentCoalescence_8H =
-[
-    [ "wakeEntrainmentCoalescence", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence.html", "classFoam_1_1diameterModels_1_1IATEsources_1_1wakeEntrainmentCoalescence" ]
-];

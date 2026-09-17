@@ -1,4 +1,0 @@
-var alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField_8H =
-[
-    [ "alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField", "classFoam_1_1compressible_1_1alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField.html", "classFoam_1_1compressible_1_1alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField" ]
-];

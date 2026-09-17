@@ -1,4 +1,0 @@
-var uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField_8H =
-[
-    [ "uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField", "classFoam_1_1uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField.html", "classFoam_1_1uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField" ]
-];

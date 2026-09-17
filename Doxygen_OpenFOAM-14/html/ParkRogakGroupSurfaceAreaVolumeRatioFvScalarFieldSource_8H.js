@@ -1,4 +1,0 @@
-var ParkRogakGroupSurfaceAreaVolumeRatioFvScalarFieldSource_8H =
-[
-    [ "ParkRogakGroupSurfaceAreaVolumeRatioFvScalarFieldSource", "classFoam_1_1ParkRogakGroupSurfaceAreaVolumeRatioFvScalarFieldSource.html", "classFoam_1_1ParkRogakGroupSurfaceAreaVolumeRatioFvScalarFieldSource" ]
-];

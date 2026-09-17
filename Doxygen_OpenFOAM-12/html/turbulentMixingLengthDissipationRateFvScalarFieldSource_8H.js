@@ -1,4 +1,0 @@
-var turbulentMixingLengthDissipationRateFvScalarFieldSource_8H =
-[
-    [ "turbulentMixingLengthDissipationRateFvScalarFieldSource", "classFoam_1_1turbulentMixingLengthDissipationRateFvScalarFieldSource.html", "classFoam_1_1turbulentMixingLengthDissipationRateFvScalarFieldSource" ]
-];

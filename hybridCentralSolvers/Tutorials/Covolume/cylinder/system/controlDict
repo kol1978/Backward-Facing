@@ -17,15 +17,15 @@ FoamFile
 
 application     rhoPimpleCentralFoam;
 
-startFrom       startTime;
+startFrom       latestTime; //startTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         0.005;
+endTime         0.01;
 
-deltaT          2e-07;//2e-05;
+deltaT          2e-05;//2e-07;
 
 writeControl    adjustableRunTime;
 
@@ -35,7 +35,7 @@ cycleWrite      0;
 
 writeFormat     ascii;
 
-writePrecision  6;
+writePrecision  16;
 
 writeCompression off;
 

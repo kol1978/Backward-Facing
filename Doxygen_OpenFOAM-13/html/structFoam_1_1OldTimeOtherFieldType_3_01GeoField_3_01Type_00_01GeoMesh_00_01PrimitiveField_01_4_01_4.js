@@ -1,4 +1,0 @@
-var structFoam_1_1OldTimeOtherFieldType_3_01GeoField_3_01Type_00_01GeoMesh_00_01PrimitiveField_01_4_01_4 =
-[
-    [ "type", "structFoam_1_1OldTimeOtherFieldType_3_01GeoField_3_01Type_00_01GeoMesh_00_01PrimitiveField_01_4_01_4.html#a94c10e0779ba442008d6c735b82fb88a", null ]
-];

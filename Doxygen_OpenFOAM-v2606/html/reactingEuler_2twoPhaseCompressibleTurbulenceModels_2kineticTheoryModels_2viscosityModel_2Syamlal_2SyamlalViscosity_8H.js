@@ -1,4 +1,0 @@
-var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2Syamlal_2SyamlalViscosity_8H =
-[
-    [ "Syamlal", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1Syamlal.html", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1Syamlal" ]
-];

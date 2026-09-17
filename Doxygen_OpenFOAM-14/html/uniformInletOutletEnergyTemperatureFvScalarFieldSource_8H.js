@@ -1,4 +1,0 @@
-var uniformInletOutletEnergyTemperatureFvScalarFieldSource_8H =
-[
-    [ "uniformInletOutletEnergyTemperatureFvScalarFieldSource", "classFoam_1_1uniformInletOutletEnergyTemperatureFvScalarFieldSource.html", "classFoam_1_1uniformInletOutletEnergyTemperatureFvScalarFieldSource" ]
-];

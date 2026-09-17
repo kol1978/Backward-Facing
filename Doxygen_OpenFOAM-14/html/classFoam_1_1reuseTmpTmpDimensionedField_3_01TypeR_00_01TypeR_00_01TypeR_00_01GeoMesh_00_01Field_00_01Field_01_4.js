@@ -1,4 +1,0 @@
-var classFoam_1_1reuseTmpTmpDimensionedField_3_01TypeR_00_01TypeR_00_01TypeR_00_01GeoMesh_00_01Field_00_01Field_01_4 =
-[
-    [ "New", "classFoam_1_1reuseTmpTmpDimensionedField_3_01TypeR_00_01TypeR_00_01TypeR_00_01GeoMesh_00_01Field_00_01Field_01_4.html#a6b70c13551ebb876793ea88362dba409", null ]
-];

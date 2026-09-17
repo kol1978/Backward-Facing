@@ -1,4 +1,0 @@
-var TurbulenceModels_2turbulenceModels_2laminar_2generalizedNewtonian_2generalizedNewtonianViscosityModels_2powerLaw_2powerLaw_8H =
-[
-    [ "powerLaw", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1powerLaw.html", "classFoam_1_1laminarModels_1_1generalizedNewtonianViscosityModels_1_1powerLaw" ]
-];

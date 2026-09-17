@@ -1,0 +1,40 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.com
+    \\  /    A nd           | Version:  v2312
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    object      fvOptions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+limitT
+{
+    type            limitTemperature;
+    active          yes;
+    selectionMode   all;
+    min             100;
+    max             1000;
+}
+
+// Примечание: limitPressure (type limitPressure) НЕ существует в ESI v2312.
+// В форке Foundation он есть как fvConstraint, но ESI его не перенесла.
+// Если нужно ограничивать давление — используйте limitFields как function
+// object в controlDict:
+//
+// limitp
+// {
+//     type            limitFields;
+//     libs            (fieldFunctionObjects);
+//     fields          (p);
+//     limit           both;
+//     min             0.1;
+//     max             5;
+// }
+
+// ************************************************************************* //

@@ -1,31 +1,54 @@
-// Mesh decomposition control dictionary
-
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
 FoamFile
 {
-    version 0.5;
-    format ascii;
-
-    root     "ROOT";
-    case     "CASE";
-    instance "system";
-    local    "";
-
-    class dictionary;
-
-    object decompositionDict;
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      decomposeParDict;
 }
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains   4;
+numberOfSubdomains 12;
 
-method               scotch;
+method          scotch;
+
+simpleCoeffs
+{
+    n               ( 3 4 1 );
+    delta           0.001;
+}
+
+hierarchicalCoeffs
+{
+    n               ( 3 4 1 );
+    delta           0.001;
+    order           xyz;
+}
 
 scotchCoeffs
 {
+    processorWeights ( 1 1 1 1 1 1 1 1 1 1 1 1 );
 }
 
+metisCoeffs
+{
+    processorWeights ( 1 1 1 1 1 1 1 1 1 1 1 1 );
+}
+
+manualCoeffs
+{
+    dataFile        "";
+}
+
+distributed     no;
+
+roots           ( );
 
 // ************************************************************************* //

@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
+Arch   : "LSB;label=64;scalar=64"
+Exec   : postProcess -func sampleDict
+Date   : Sep 16 2026
+Time   : 13:34:52
+Host   : kol-serv
+PID    : 25920
+I/O    : uncollated
+Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/hybridCentralSolvers/Tutorials/compressible/LTS/ConvergingDivergingNozzle
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+
+--> FOAM FATAL IO ERROR: (openfoam-2312)
+Entry 'type' not found in dictionary "functions/sampleDict"
+
+
+file: functions/sampleDict at line 25 to 99.
+
+    From bool Foam::dictionary::readEntry(const word &, T &, enum keyType::option, IOobjectOption::readOption) const [T = Foam::word]
+    in file lnInclude/dictionaryTemplates.C at line 327.
+
+FOAM exiting
+

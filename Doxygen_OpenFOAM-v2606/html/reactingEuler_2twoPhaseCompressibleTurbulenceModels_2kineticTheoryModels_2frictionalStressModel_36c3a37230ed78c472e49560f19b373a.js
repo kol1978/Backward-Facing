@@ -1,4 +1,0 @@
-var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_36c3a37230ed78c472e49560f19b373a =
-[
-    [ "JohnsonJacksonSchaeffer", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer.html", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModels_1_1JohnsonJacksonSchaeffer" ]
-];

@@ -1,0 +1,90 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
+Arch   : "LSB;label=64;scalar=64"
+Exec   : blockMesh
+Date   : Sep 16 2026
+Time   : 16:09:46
+Host   : kol-serv
+PID    : 42134
+I/O    : uncollated
+Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/hybridCentralSolvers/Tutorials/Covolume/poiseuille
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from "system/blockMeshDict"
+--> FOAM IOWarning :
+    Found [v1012] 'convertToMeters' entry instead of 'scale' in dictionary "system/blockMeshDict"
+
+    This keyword is 156 months old.
+
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+
+Creating topology patches - from boundary section
+
+Creating block mesh topology - scaling/transform applied later
+--> FOAM Warning : 
+    From Foam::polyMesh::polyMesh(const IOobject &, pointField &&, const cellShapeList &, const faceListList &, const wordList &, const PtrList<dictionary> &, const word &, const word &, const bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 915
+    Found 1 undefined faces in mesh; adding to default patch defaultFaces
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+
+Detected collapsed blocks - using merge points instead of merge topology
+
+Creating block offsets
+Creating merge list (geometric search)...
+Deleting polyMesh directory "constant/polyMesh"
+
+Creating polyMesh from blockMesh
+Creating points with scale (0.001 0.001 0.001)
+    Block 0 cell size :
+        i : 0.000115 .. 0.000115
+        j : 0.000115 .. 0.000115
+        k : 0 .. 0
+
+Creating cells
+Creating patches
+No patch pairs to merge
+
+Writing polyMesh with 0 cellZones
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 -4.01405e-05) (0.322 0.00229965 4.01405e-05)
+  nPoints: 114841
+  nCells: 56000
+  nFaces: 224020
+  nInternalFaces: 109180
+----------------
+Patches
+----------------
+  patch 0 (start: 109180 size: 56000) name: wedge1
+  patch 1 (start: 165180 size: 56000) name: wedge2
+  patch 2 (start: 221180 size: 20) name: inlet
+  patch 3 (start: 221200 size: 20) name: outlet
+  patch 4 (start: 221220 size: 2800) name: walls
+  patch 5 (start: 224020 size: 0) name: defaultFaces
+
+End
+

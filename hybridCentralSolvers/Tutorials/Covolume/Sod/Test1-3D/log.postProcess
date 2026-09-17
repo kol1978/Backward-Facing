@@ -1,0 +1,745 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1d8f0d55f7-20231221 OPENFOAM=2312 version=v2312
+Arch   : "LSB;label=64;scalar=64"
+Exec   : postProcess -func sampleDict
+Date   : Sep 16 2026
+Time   : 15:11:00
+Host   : kol-serv
+PID    : 36925
+I/O    : uncollated
+Case   : /media/kol/1cfe3d6e-4f23-43f4-83d3-e74c4c25602a/OpenFOAM/Backward-Facing_github/hybridCentralSolvers/Tutorials/Covolume/Sod/Test1-3D
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Sampled set:
+    line -> csv
+
+Time = 0
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 1e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 2e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 3e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 4e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 5e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 6e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 7e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 8e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 9e-05
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.0001
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00011
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00012
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00013
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00014
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00015
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00016
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00017
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00018
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.00019
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+Time = 0.0002
+
+Reading fields:
+--> FOAM Warning : 
+    From bool Foam::IOobject::readHeader(dictionary &, Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 118
+    Reading "constant/polyMesh.tgz" at line 1
+    First token could not be read or is not 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=64;scalar=64";
+    class       IOobject;
+    location    "constant";
+    object      polyMesh.tgz;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+    volScalarField: T p
+    volVectorField: U
+
+Executing functionObjects
+
+End
+

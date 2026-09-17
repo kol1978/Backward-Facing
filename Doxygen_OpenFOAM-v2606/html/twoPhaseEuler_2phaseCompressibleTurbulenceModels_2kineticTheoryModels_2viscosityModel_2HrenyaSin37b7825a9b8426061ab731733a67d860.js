@@ -1,4 +1,0 @@
-var twoPhaseEuler_2phaseCompressibleTurbulenceModels_2kineticTheoryModels_2viscosityModel_2HrenyaSin37b7825a9b8426061ab731733a67d860 =
-[
-    [ "HrenyaSinclair", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1HrenyaSinclair.html", "classFoam_1_1kineticTheoryModels_1_1viscosityModels_1_1HrenyaSinclair" ]
-];

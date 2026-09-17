@@ -1,0 +1,231 @@
+Mean and max Characteristic Courant Numbers = 0.0784038 0.375166
+Courant Number max : 0.496949 velocity magnitude: 670.654
+deltaT = 1.90216e-07
+Time = 0.0026416
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.317867 / 0.0268901
+PIMPLE: iteration 1
+DILUPBiCGStab:  Solving for omega, Initial residual = 1.15606e-05, Final residual = 8.58508e-17, No Iterations 3
+DILUPBiCGStab:  Solving for k, Initial residual = 1.2918e-05, Final residual = 3.61761e-16, No Iterations 4
+DILUPBiCGStab:  Solving for h, Initial residual = 0.000260096, Final residual = 2.33555e-16, No Iterations 5
+max/min T: 333.436/98.9656
+DILUPBiCGStab:  Solving for p, Initial residual = 0.000316668, Final residual = 6.44548e-17, No Iterations 5
+max(U): (669.485 359.405 0)
+max/min p: 14260.3/1783.59
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.317895 / 0.027319
+time step continuity errors : sum local = 1.73661e-16, global = -2.15522e-19, cumulative = 0
+max/min FaceAcCourant: 0.398251/0.00842088
+max/min Maf: 3.31955/0
+max/min kappa: 1/0
+PIMPLE: iteration 2
+DILUPBiCGStab:  Solving for omega, Initial residual = 2.59715e-06, Final residual = 9.09418e-16, No Iterations 3
+DILUPBiCGStab:  Solving for k, Initial residual = 3.32682e-06, Final residual = 5.08222e-16, No Iterations 3
+DILUPBiCGStab:  Solving for h, Initial residual = 0.000112106, Final residual = 3.6723e-16, No Iterations 5
+max/min T: 340.416/98.9818
+DILUPBiCGStab:  Solving for p, Initial residual = 8.11432e-05, Final residual = 4.86716e-16, No Iterations 4
+max(U): (669.16 742.823 0)
+max/min p: 14259.1/1310.36
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.317863 / 0.0205032
+time step continuity errors : sum local = 2.89862e-16, global = -2.01403e-17, cumulative = 0
+max/min FaceAcCourant: 0.354182/0.00842088
+max/min Maf: 3.3204/0
+max/min kappa: 1/0
+PIMPLE: iteration 3
+DILUPBiCGStab:  Solving for omega, Initial residual = 2.03874e-06, Final residual = 3.45159e-16, No Iterations 3
+DILUPBiCGStab:  Solving for k, Initial residual = 2.91629e-06, Final residual = 1.23312e-16, No Iterations 3
+DILUPBiCGStab:  Solving for h, Initial residual = 0.000111966, Final residual = 2.3864e-16, No Iterations 5
+max/min T: 333.431/0.259844
+DILUPBiCGStab:  Solving for p, Initial residual = 0.0023082, Final residual = 4.60137e-16, No Iterations 4
+max(U): (669.137 259.623 0)
+max/min p: 14422.7/-129.177
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.321961 / -0.00199259
+time step continuity errors : sum local = 2.84524e-16, global = 1.44364e-17, cumulative = 0
+max/min FaceAcCourant: 1.9446/0.00413751
+max/min Maf: 13.5154/0
+max/min kappa: 1/0
+ExecutionTime = 2246.14 s  ClockTime = 2247 s
+
+Mean and max Characteristic Courant Numbers = 0.078924 1.9446
+Courant Number max : 3.80205 velocity magnitude: 2810.82
+deltaT = 2.50199e-08
+Time = 0.00264163
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.322966 / -0.0131678
+PIMPLE: iteration 1
+DILUPBiCGStab:  Solving for omega, Initial residual = 1.85325e-06, Final residual = 3.01045e-18, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 2.08503e-06, Final residual = 6.53634e-17, No Iterations 2
+bounding k, min: -290.86 max: 16829.5 average: 371.943
+DILUPBiCGStab:  Solving for h, Initial residual = 3.58346e-05, Final residual = 2.34588e-17, No Iterations 3
+max/min T: 333.441/19.127
+DILUPBiCGStab:  Solving for p, Initial residual = 4.34541e-05, Final residual = 1.12045e-16, No Iterations 3
+max(U): (669.139 250.756 0)
+max/min p: 14470.2/-10.4156
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.322864 / -0.0001843
+time step continuity errors : sum local = 1.80735e-16, global = -4.92231e-18, cumulative = 0
+max/min FaceAcCourant: 0.0931289/0.00110763
+max/min Maf: 3.63284/0
+max/min kappa: 1/0
+PIMPLE: iteration 2
+DILUPBiCGStab:  Solving for omega, Initial residual = 3.78187e-07, Final residual = 2.30334e-17, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 4.35259e-07, Final residual = 1.6451e-16, No Iterations 2
+bounding k, min: -1287.31 max: 16829.5 average: 371.948
+DILUPBiCGStab:  Solving for h, Initial residual = 1.55554e-05, Final residual = 6.64683e-16, No Iterations 2
+max/min T: 333.442/8.30255
+DILUPBiCGStab:  Solving for p, Initial residual = 1.00757e-05, Final residual = 1.92427e-16, No Iterations 2
+max(U): (669.135 302.653 0)
+max/min p: 14413.7/-11.1774
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+rho max/min : 0.32144 / -0.000346347
+time step continuity errors : sum local = 2.01029e-16, global = -8.49457e-18, cumulative = 0
+max/min FaceAcCourant: 1.1162/0.00110763
+max/min Maf: 4.50669/0
+max/min kappa: 1/0
+PIMPLE: iteration 3
+DILUPBiCGStab:  Solving for omega, Initial residual = 1.0492e-06, Final residual = 6.46686e-16, No Iterations 2
+DILUPBiCGStab:  Solving for k, Initial residual = 9.26098e-07, Final residual = 5.59066e-16, No Iterations 2
+bounding k, min: -1415.05 max: 16829.4 average: 371.948
+DILUPBiCGStab:  Solving for h, Initial residual = 1.09143e-05, Final residual = 4.73885e-16, No Iterations 2
+max/min T: 333.444/-271.543
+[6] [stack trace]
+[6] =============
+[6] #1  Foam::sigFpe::sigHandler(int) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[6] #2  ? in /lib/x86_64-linux-gnu/libc.so.6
+[6] #3  __libm_sqrt_ex in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #4  Foam::sqrt(Foam::Field<double>&, Foam::UList<double> const&) in ~/OpenFOAM/OpenFOAM-v2312/platforms/linux64IcxDPInt64Opt/lib/libOpenFOAM.so
+[6] #5  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > Foam::sqrt<Foam::fvPatchField, Foam::volMesh>(Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> > const&) in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #6  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] #7  ? in /lib/x86_64-linux-gnu/libc.so.6
+[6] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[6] #9  ? in ~/OpenFOAM/kol-v2312/platforms/linux64IcxDPInt64Opt/bin/pimpleCentralFoam
+[6] =============
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 11201 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 11202 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 11203 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 11204 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 11205 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 11206 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 11207 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 8 (Floating point exception)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 11208 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 11209 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 11210 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 10 PID 11211 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 11 PID 11212 RUNNING AT kol-serv
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+
+---------------------------Хронология крушения
+Начало (t ≈ 1e-6 — 1e-5) — всё нормально:
+
+p: 13300/9900, rho: 0.30/0.23, T: 153/142
+Остатки сходятся, k и omega в норме
+t ≈ 0.0026416 — начало развала:
+
+rho min ушёл в минус: -0.00199
+p min ушёл в минус: -129.177
+Maf подскочил до 13.5 (был 2-3)
+Courant max подскочил до 3.8 (был 0.5)
+k потребовал bounding: min -290
+Следующий шаг (t ≈ 0.00264163) — финал:
+
+T min = -271.543 (отрицательная температура!)
+sqrt(T) → Floating Point Exception → крах
+Цепочка причин
+text
+Дестабилизация потока (t≈0.0026)
+  → p < 0 в отдельных ячейках
+  → rho < 0 (идеальный газ: rho = p/RT)
+  → T < 0 (T = p/(rho·R))
+  → sqrt(T) → SIGFPE → крах
+
+-----------Корень — отсутствие ограничителей. В логе видно:
+
+No finite volume options present
+Ни limitTemperature, ни limitPressure не подключены. Для сжимаемого течения с ударными волнами это критично.
+
+Что делать
+1. Добавить constant/fvOptions с ограничителями
+text
+limitT
+{
+    type            limitTemperature;
+    active          yes;
+    selectionMode   all;
+    min             200;
+    max             500;
+}
+
+limitP
+{
+    type            limitPressure;
+    active          yes;
+    selectionMode   all;
+    minFactor       0.01;
+    maxFactor       10;
+}
+Это не даст температуре и давлению уйти в минус. Но это ласты на ките — ограничители маскируют проблему, а не решают её.
+

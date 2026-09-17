@@ -1,4 +1,0 @@
-var reactingEuler_2twoPhaseCompressibleTurbulenceModels_2kineticTheoryModels_2frictionalStressModel_620d6ed07b7315f50e5189531e135cd5 =
-[
-    [ "frictionalStressModel", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModel.html", "classFoam_1_1kineticTheoryModels_1_1frictionalStressModel" ]
-];
