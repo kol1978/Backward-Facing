@@ -16,6 +16,7 @@
 выполнен переход на версию openFOAM-14.<br>
 
 Выполнен возврат ( [основная мотивация](/PARALLELISM/Сборка_OpenFOAM%3DIntel-icpx%2BOpenMP-анализ%20производительности.md) ) на версию  openFOAMv2312 с Intel icpx и OpenMP:  [анализ проблем v2606](/PARALLELISM/Инженерный-замысел_почему_OpenMP_сломался_v2606.md)
+
 --------------------------------------------------------------------------<br>
 [1](https://ssl-team.com/blog/kak-pisat-readme-na-github/)[2](https://blog.skillfactory.ru/readme-md-github/)[3](https://doka.guide/recipes/github-add-readme/)
 
@@ -29,6 +30,73 @@
 7. [] ()
 8. [] ()
 10. [Хороший README - примеры форматирования:] (### 10. Хороший README - примеры форматирования:)
+# foamInstallationTest — отчёт
+
+## Basic setup
+
+| Параметр      | Значение                          |
+|---------------|-----------------------------------|
+| OpenFOAM      | OpenFOAM-v2312                    |
+| ThirdParty    | ThirdParty-v2312                  |
+| Shell         | bash                              |
+| Host          | kol-serv                          |
+| OS            | Linux version 7.0.0-31-generic   |
+
+---
+
+## Main OpenFOAM env variables
+
+| Environment          | FileOrDirectory                     | Valid | Crit  |
+|----------------------|-------------------------------------|-------|-------|
+| `$WM_PROJECT_USER_DIR` | `/home/kol/OpenFOAM/kol-v2312`    | yes   | no    |
+| `$WM_THIRD_PARTY_DIR`  | `/home/kol/OpenFOAM/ThirdParty-v2312` | yes | maybe |
+| `$WM_PROJECT_SITE`     | *[env variable unset]*            | —     | no    |
+
+---
+
+## OpenFOAM env variables in PATH
+
+| Environment       | FileOrDirectory                          | Valid | Path | Crit  |
+|-------------------|------------------------------------------|-------|------|-------|
+| `$WM_PROJECT_DIR` | `/home/kol/OpenFOAM/OpenFOAM-v2312`     | yes   | yes  | yes   |
+| `$FOAM_APPBIN`    | `...12/platforms/linux64IcxDPInt64Opt/bin` | yes | yes | yes   |
+| `$FOAM_SITE_APPBIN` | `...12/platforms/linux64IcxDPInt64Opt/bin` | no |  | no    |
+| `$FOAM_USER_APPBIN` | `...12/platforms/linux64IcxDPInt64Opt/bin` | yes | yes | no   |
+| `$WM_DIR`         | `/home/kol/OpenFOAM/OpenFOAM-v2312/wmake` | yes   | yes  | often |
+
+---
+
+## OpenFOAM env variables in LD_LIBRARY_PATH
+
+| Environment        | FileOrDirectory                          | Valid | Path | Crit  |
+|--------------------|------------------------------------------|-------|------|-------|
+| `$FOAM_LIBBIN`     | `...12/platforms/linux64IcxDPInt64Opt/lib` | yes  | yes  | yes   |
+| `$FOAM_SITE_LIBBIN` | `...12/platforms/linux64IcxDPInt64Opt/lib` | no  |      | no    |
+| `$FOAM_USER_LIBBIN` | `...12/platforms/linux64IcxDPInt64Opt/lib` | yes  | yes  | no    |
+| `$FOAM_EXT_LIBBIN` | `...v2312/platforms/linux64IcxDPInt64/lib`  | yes  | yes  | maybe |
+| `$MPI_ARCH_PATH`   | `/opt/intel/oneapi/mpi/2021.18`            | yes  | yes  | yes   |
+
+---
+
+## Software Components
+
+| Software  | Version | Location                                                        |
+|-----------|---------|-----------------------------------------------------------------|
+| flex      | 2.6.4   | `/usr/bin/flex`                                                |
+| make      | 4.3     | `/usr/bin/make`                                                |
+| wmake     | 2312    | `/home/kol/OpenFOAM/OpenFOAM-v2312/wmake/wmake`               |
+| icx       | unknown | `/opt/intel/oneapi/compiler/2026.1/bin/icx`                   |
+| icpx      | unknown | `/opt/intel/oneapi/compiler/2026.1/bin/icpx`                  |
+| icoFoam   | exists  | `...OAM-v2312/platforms/linux64IcxDPInt64Opt/bin/icoFoam`      |
+
+---
+
+## Summary
+
+- **Base configuration ok.**
+- **Critical systems ok.**
+
+> Done.
 
 ## 1. Краткое объяснение мотивации создания и отличий от аналогов, если они есть:
 Подбор/выбор тестового примера в том числе из - /tutorials/incompressible/pimpleFoam и т.п.
