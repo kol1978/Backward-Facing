@@ -1,0 +1,55 @@
+<map id="allProcs" name="allProcs">
+<area shape="rect" id="Node000001" title="Range of process indices for all processes." alt="" coords="324,845,397,870"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1refinementHistory.html#a6be2dc3eb1d541aeb83ee0a2adcc0556" title="Update local numbering for mesh redistribution." alt="" coords="49,5,233,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,831,348,663,332,418,321,294,308,185,292,103,283,75,274,59,255,44,232,34,234,29,258,39,278,56,288,73,297,102,313,185,326,293,338,417,353,663,361,831"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1mapDistributeBase.html#ad5382d12fa99579a379bfc8db6aa1002" title="Distribute assign data with specified negate operator (for flips). Uses assignment for combine operat..." alt="" coords="45,69,236,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="355,831,347,675,330,450,306,238,291,163,282,138,274,123,256,109,235,99,237,94,259,104,278,120,287,136,296,162,311,237,335,449,352,675,361,831"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1mapDistributeBase.html#a559a8edf221e9d02520ff2a7208aa4c8" title="Distribute combine data with specified combine operation and negate operator (for flips)." alt="" coords="45,133,236,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,831,357,696,349,503,339,403,324,312,302,237,289,209,274,187,256,173,235,163,237,158,259,168,278,184,294,206,307,236,329,311,344,402,354,502,363,696,363,831"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1processorLODs_1_1box.html#aa8b054fd4f822bd983b602f1a3f00993" title="Apply the box refinements." alt="" coords="59,197,222,237"/>
+<area shape="poly" id="edge4_Node000001_Node000014" title=" " alt="" coords="357,831,355,708,345,533,335,444,320,363,300,296,288,270,274,251,250,233,221,223,223,218,253,229,278,247,292,268,305,294,325,361,340,443,350,533,360,707,362,831"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1globalIndex.html#aceb20259dbf0ee9ec84c36f4b031f933" title="Collect data indirectly in processor order on master (in serial: performs a simple copy)." alt="" coords="65,261,216,301"/>
+<area shape="poly" id="edge5_Node000001_Node000015" title=" " alt="" coords="356,831,353,720,341,565,330,486,316,414,297,355,286,332,274,315,247,296,215,286,217,281,250,291,278,311,291,329,302,353,321,412,336,485,346,564,358,719,362,831"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1globalIndex.html#a2ad03522d7327602714538575f050cc5" title="Collect data in processor order on master (in serial: performs a simple copy)." alt="" coords="65,325,216,365"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="356,831,350,731,337,595,326,527,312,464,295,413,274,379,247,360,215,350,217,345,250,356,278,376,300,411,317,463,331,526,342,595,356,731,361,831"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#aba3d24fa1d4d06b4c3b745af3a8aa0c8" title=" " alt="" coords="51,390,230,415"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="355,831,349,740,334,619,323,559,310,504,293,459,274,430,254,415,229,407,231,402,256,411,278,426,298,457,315,502,329,558,339,619,354,740,361,831"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1radiation_1_1viewFactor.html#a18abf8b19283101238a77c9e6865b673" title="Initialise." alt="" coords="39,440,242,480"/>
+<area shape="poly" id="edge8_Node000001_Node000020" title=" " alt="" coords="354,831,345,753,329,652,305,556,291,519,274,494,259,482,241,473,244,468,262,477,278,490,295,516,310,554,334,651,350,753,360,831"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#a244669425e9d6353a220c567a7b0bb40" title="Determine donors for all tgt cells." alt="" coords="29,504,252,544"/>
+<area shape="poly" id="edge9_Node000001_Node000023" title=" " alt="" coords="358,831,356,774,345,700,335,661,320,623,300,588,274,558,251,542,254,538,278,554,304,585,324,621,340,660,350,699,361,773,363,830"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1cellCellStencils_1_1trackingInverseDistance.html#af9b67b685caa35fd139e21df05d4c078" title=" " alt="" coords="47,569,235,623"/>
+<area shape="poly" id="edge10_Node000001_Node000024" title=" " alt="" coords="354,831,347,789,333,736,310,682,294,658,274,637,255,623,234,613,236,608,258,618,278,633,298,655,314,680,338,734,353,788,360,830"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1cellCellStencils_1_1trackingInverseDistance.html#a856750416dae9032541c36c66191feb5" title="Mark all cells overlapping (a voxel covered by) a src patch." alt="" coords="47,647,235,702"/>
+<area shape="poly" id="edge11_Node000001_Node000025" title=" " alt="" coords="349,833,322,773,301,742,274,715,234,694,236,689,278,711,305,739,326,771,354,831"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#af07dea2e7f7be40f052f2608633ee865" title="Mark all cells overlapping (a voxel covered by) a src patch." alt="" coords="27,726,254,781"/>
+<area shape="poly" id="edge12_Node000001_Node000026" title=" " alt="" coords="334,837,306,815,275,796,246,783,248,778,277,791,309,811,337,833"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1globalIndex.html#a9a26d7380aabb8207e174c51660d3483" title="Use MPI_Gatherv call for contiguous data when possible (in serial: performs a simple copy)." alt="" coords="65,805,216,845"/>
+<area shape="poly" id="edge13_Node000001_Node000027" title=" " alt="" coords="310,853,216,839,217,834,311,848"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#ae88218fe3e525fb15b2714a57c3984e0" title="Read files on comms master." alt="" coords="5,869,276,909"/>
+<area shape="poly" id="edge14_Node000001_Node000029" title=" " alt="" coords="311,867,276,872,276,867,310,862"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1mapDistributeBase.html#adf105405e25879e3a59b6e3395cae415" title="Wait for (receive) requests to finish and consume." alt="" coords="45,933,236,973"/>
+<area shape="poly" id="edge15_Node000001_Node000030" title=" " alt="" coords="338,881,310,904,277,924,237,939,235,934,275,919,307,899,335,877"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1mapDistributeBase.html#a7ee6266d07b4fb278c5955b069e19381" title="Do all receives using PstreamBuffers." alt="" coords="45,997,236,1037"/>
+<area shape="poly" id="edge16_Node000001_Node000031" title=" " alt="" coords="352,884,324,937,303,964,277,988,237,1007,235,1002,275,983,299,961,320,934,347,881"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1InteractionLists.html#aff082453299ff77f14f900842bdc6135" title="Receive referred data." alt="" coords="57,1061,224,1101"/>
+<area shape="poly" id="edge17_Node000001_Node000032" title=" " alt="" coords="358,884,350,922,335,967,311,1013,278,1051,253,1067,225,1077,223,1072,250,1062,274,1047,307,1010,330,965,345,921,353,883"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1globalIndex.html#a2213781a135996e4036c0bf8448de07a" title="Distribute data in processor order." alt="" coords="65,1125,216,1165"/>
+<area shape="poly" id="edge18_Node000001_Node000033" title=" " alt="" coords="361,884,357,933,344,996,319,1060,301,1089,278,1115,249,1134,217,1144,215,1139,247,1129,274,1111,297,1086,314,1058,339,994,352,932,356,883"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1mapDistributeBase.html#add5208b26a392ea6be0f6a3df8d16d89" title="Start all sends and receives (always non&#45;blocking)" alt="" coords="45,1189,236,1229"/>
+<area shape="poly" id="edge19_Node000001_Node000034" title=" " alt="" coords="359,884,348,953,331,1041,308,1124,294,1157,278,1179,259,1193,237,1203,235,1198,256,1189,274,1175,289,1154,303,1123,326,1040,343,952,353,883"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1mapDistributeBase.html#a2f55f94ac9202e54b02ef29a7e0f1c96" title="Do all sends using PstreamBuffers." alt="" coords="45,1253,236,1293"/>
+<area shape="poly" id="edge20_Node000001_Node000035" title=" " alt="" coords="360,884,351,965,336,1073,312,1175,296,1216,278,1243,259,1258,237,1267,235,1263,256,1253,274,1240,291,1213,306,1174,330,1072,346,965,355,883"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1InteractionLists.html#aa00168bba33005c7f7da77ca1067a391" title="Prepare and send referred particles and wall data,." alt="" coords="57,1317,224,1357"/>
+<area shape="poly" id="edge21_Node000001_Node000036" title=" " alt="" coords="361,884,354,978,340,1104,329,1168,315,1226,299,1274,278,1307,253,1325,225,1335,223,1330,251,1320,274,1304,294,1272,310,1225,324,1167,335,1104,349,977,355,884"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1processorLODs_1_1box.html#a027cb68c39a54144949db6fb002a4766" title="Set the box refinement flags." alt="" coords="59,1381,222,1421"/>
+<area shape="poly" id="edge22_Node000001_Node000037" title=" " alt="" coords="361,884,357,990,344,1135,333,1210,319,1277,301,1333,278,1371,253,1390,223,1400,221,1395,250,1385,274,1368,296,1331,314,1276,328,1209,339,1135,351,989,356,884"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1ParSortableList.html#a47fdc9eea42b6975cdc835bb2e08810e" title="(stable) sort the list (if changed after construction time)" alt="" coords="59,1445,222,1485"/>
+<area shape="poly" id="edge23_Node000001_Node000038" title=" " alt="" coords="362,884,359,1001,348,1166,338,1251,323,1328,304,1391,292,1416,278,1435,253,1454,223,1464,221,1459,250,1449,274,1431,287,1413,299,1389,318,1327,332,1250,343,1166,354,1001,357,884"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1functionObjects_1_1energySpectrum.html#ae8f6374e29a250261b3979bbd6e5cb40" title="Write the energySpectrum." alt="" coords="51,1509,230,1549"/>
+<area shape="poly" id="edge24_Node000001_Node000040" title=" " alt="" coords="362,884,361,1013,352,1197,342,1292,327,1378,306,1450,293,1478,278,1499,256,1516,231,1526,229,1521,254,1511,274,1496,288,1475,301,1448,322,1377,337,1291,347,1197,356,1013,357,884"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1processorLODs_1_1box.html#aa8a3898129c8e7ef53a83db615c9f7d0" title="Helper function to write the boxes in OBJ format." alt="" coords="59,1573,222,1613"/>
+<area shape="poly" id="edge25_Node000001_Node000041" title=" " alt="" coords="361,884,352,1034,334,1249,310,1451,295,1523,287,1548,278,1563,253,1582,223,1593,221,1588,250,1578,274,1560,282,1545,290,1522,305,1450,329,1249,346,1034,355,884"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1functionObjects_1_1externalCoupled.html#a1063d7a675858ee0e647e36abbefe463" title="Write geometry for the group as region/patch." alt="" coords="19,1637,262,1677"/>
+<area shape="poly" id="edge26_Node000001_Node000042" title=" " alt="" coords="361,884,353,1046,337,1281,325,1400,312,1504,296,1583,288,1610,278,1627,264,1640,260,1636,274,1624,283,1608,291,1582,307,1503,320,1399,331,1281,347,1046,356,884"/>
+</map>

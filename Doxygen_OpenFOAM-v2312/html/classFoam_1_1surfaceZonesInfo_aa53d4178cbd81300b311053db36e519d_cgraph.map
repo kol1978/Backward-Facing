@@ -1,0 +1,18 @@
+<map id="addCellZonesToMesh" name="addCellZonesToMesh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,132,165,157"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="213,5,424,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,130,147,90,212,48,250,32,252,37,215,52,150,94,102,134"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="472,56,653,81"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="116,129,161,113,213,98,340,78,458,69,458,74,340,84,214,103,163,118,118,134"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="701,81,852,107"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="165,136,687,98,688,103,166,142"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1polyMesh.html#a950d3b2d24b2803abaf1f6c5068ea163" title="Return cell zone mesh." alt="" coords="219,157,419,183"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="166,151,205,155,205,160,165,156"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="273,207,364,232"/>
+<area shape="poly" id="edge6_Node000001_Node000023" title=" " alt="" coords="116,155,214,193,261,205,259,210,213,198,114,160"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="216,256,421,281"/>
+<area shape="poly" id="edge7_Node000001_Node000014" title=" " alt="" coords="101,156,148,199,180,222,215,242,232,249,230,254,212,247,177,227,145,203,97,160"/>
+<area shape="poly" id="edge2_Node000002_Node000012" title=" " alt="" coords="381,28,488,51,487,56,380,33"/>
+<area shape="poly" id="edge3_Node000012_Node000013" title=" " alt="" coords="654,77,688,81,687,86,653,82"/>
+<area shape="poly" id="edge4_Node000013_Node000013" title=" " alt="" coords="742,83,734,73,738,63,753,57,777,55,806,58,818,67,815,72,804,63,777,60,754,62,742,67,739,72,746,80"/>
+</map>

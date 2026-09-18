@@ -1,0 +1,33 @@
+<map id="syncPointMap" name="syncPointMap">
+<area shape="rect" id="Node000001" title="Synchronize values on selected points." alt="" coords="5,311,119,336"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="167,5,400,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,310,68,261,84,191,97,152,115,114,137,79,165,48,185,34,188,39,168,52,141,82,120,117,102,154,89,192,73,262,67,311"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="187,107,379,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="65,309,77,277,97,234,127,188,165,149,191,135,193,139,168,153,131,191,102,236,82,279,70,311"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="448,56,632,81"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="62,310,69,267,86,206,100,174,117,143,139,115,165,92,201,71,240,57,280,48,321,43,401,43,469,51,469,56,400,48,321,48,281,53,241,62,203,76,168,96,143,119,121,146,105,176,91,208,74,268,67,311"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="680,107,883,132"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="67,309,102,252,131,219,165,193,205,177,258,163,390,142,535,128,666,121,666,126,535,134,391,147,259,168,207,182,168,198,134,223,107,255,72,312"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="200,232,367,257"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="83,308,121,287,166,268,196,258,198,263,168,272,123,292,85,313"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1polyMesh.html#a5e9cb8eb9e52843d336386b13423d19c" title="Return parallel info (demand&#45;driven)" alt="" coords="179,281,387,307"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="119,313,173,306,174,311,119,318"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1PrimitivePatch.html#a1c886a784a597459dbf2d9470798e9dd" title="Number of points supporting patch faces." alt="" coords="203,331,363,371"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="119,328,190,337,190,342,119,333"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="465,367,615,392"/>
+<area shape="poly" id="edge17_Node000001_Node000008" title=" " alt="" coords="81,334,119,360,167,381,241,394,316,399,388,397,451,391,451,396,388,402,316,404,240,400,166,386,116,364,78,338"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="191,447,375,472"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="75,335,112,379,139,404,168,425,202,440,200,445,165,430,135,408,108,383,71,338"/>
+<area shape="rect" id="Node000020" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="264,496,303,521"/>
+<area shape="poly" id="edge15_Node000001_Node000020" title=" " alt="" coords="70,335,82,366,103,406,131,448,168,482,188,493,209,500,251,506,250,511,208,505,186,498,165,487,127,451,98,409,78,368,65,337"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="216,545,351,571"/>
+<area shape="poly" id="edge16_Node000001_Node000021" title=" " alt="" coords="68,336,78,375,96,428,126,485,145,510,168,532,185,542,204,549,202,554,183,547,165,536,141,514,121,488,91,430,72,376,63,337"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="185,595,381,620"/>
+<area shape="poly" id="edge18_Node000001_Node000024" title=" " alt="" coords="67,336,73,383,90,450,103,486,120,521,142,553,168,581,175,586,171,590,165,585,137,557,115,524,98,488,84,451,68,384,62,336"/>
+<area shape="poly" id="edge3_Node000003_Node000009" title=" " alt="" coords="348,104,461,81,462,87,349,109"/>
+<area shape="poly" id="edge5_Node000003_Node000010" title=" " alt="" coords="380,117,666,117,666,122,380,122"/>
+<area shape="poly" id="edge4_Node000009_Node000010" title=" " alt="" coords="602,79,708,101,707,106,601,84"/>
+<area shape="poly" id="edge7_Node000012_Node000012" title=" " alt="" coords="247,234,239,224,243,214,258,208,283,205,314,209,326,218,323,222,312,214,283,211,260,213,247,218,245,223,251,230"/>
+<area shape="poly" id="edge12_Node000017_Node000008" title=" " alt="" coords="364,357,452,367,451,372,363,363"/>
+<area shape="poly" id="edge13_Node000008_Node000008" title=" " alt="" coords="501,368,493,358,497,348,513,342,540,340,574,344,587,353,583,358,572,349,540,345,514,347,501,352,498,358,505,365"/>
+</map>

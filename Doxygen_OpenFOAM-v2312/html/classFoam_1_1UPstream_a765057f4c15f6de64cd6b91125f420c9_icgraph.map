@@ -1,0 +1,73 @@
+<map id="is_parallel" name="is_parallel">
+<area shape="rect" id="Node000001" title="True if parallel algorithm or exchange is required." alt="" coords="561,771,651,797"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="16,1371,227,1397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="607,811,604,930,592,1096,581,1180,565,1257,543,1319,530,1343,515,1361,495,1373,466,1383,393,1393,309,1396,227,1394,227,1389,309,1391,393,1388,465,1378,492,1369,512,1357,526,1340,538,1317,560,1255,575,1179,587,1095,599,929,602,811"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1UPstream.html#a78c9fe3a5af0cfdd4adc7f15390b41aa" title=" " alt="" coords="337,67,462,93"/>
+<area shape="poly" id="edge2_Node000001_Node000028" title=" " alt="" coords="602,758,600,624,589,430,577,331,561,240,539,165,526,136,511,114,489,97,461,87,463,82,491,92,515,110,531,133,544,163,566,238,583,330,594,430,605,623,607,758"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="303,270,495,295"/>
+<area shape="poly" id="edge3_Node000001_Node000029" title=" " alt="" coords="600,758,592,660,576,528,564,461,550,400,532,350,511,317,484,298,487,293,515,313,537,348,555,398,569,460,581,527,598,660,606,757"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1Pstream.html#af23d27762b61bf855345dcebc1e8f6ae" title="Reduce inplace (cf. MPI Allreduce) applying cop to inplace combine value from different processors...." alt="" coords="5,219,237,245"/>
+<area shape="poly" id="edge18_Node000001_Node000057" title=" " alt="" coords="602,758,597,648,584,497,572,420,556,351,536,296,525,275,512,259,493,248,467,239,398,229,317,226,237,227,237,222,317,220,399,224,468,234,495,243,515,255,529,272,541,293,562,350,577,419,589,496,602,648,607,758"/>
+<area shape="rect" id="Node000058" href="$classFoam_1_1Pstream.html#a72eb7db43b99d33935795be25212b240" title="Broadcast data: Distribute without modification." alt="" coords="6,50,237,75"/>
+<area shape="poly" id="edge19_Node000001_Node000058" title=" " alt="" coords="601,758,592,602,574,377,561,265,547,168,530,94,521,70,511,57,470,30,423,14,373,9,322,10,272,18,226,29,154,53,152,47,225,23,271,13,322,5,373,3,424,9,472,25,515,53,526,68,535,93,552,167,567,265,579,377,597,602,606,758"/>
+<area shape="rect" id="Node000084" href="$classFoam_1_1Pstream.html#a303610fd10a6a560f8bb27e100aa77c6" title="After completion all processors have the same data." alt="" coords="18,415,225,455"/>
+<area shape="poly" id="edge29_Node000001_Node000084" title=" " alt="" coords="599,758,587,688,569,598,543,514,528,482,512,462,478,440,440,424,401,414,360,408,279,408,207,417,206,412,278,403,360,403,402,408,442,419,480,435,515,458,533,480,548,512,574,596,593,687,604,758"/>
+<area shape="rect" id="Node000115" href="$classFoam_1_1Pstream.html#a99698930580005b39ad6a5835d617fa9" title="Broadcast data: Distribute without modification." alt="" coords="18,133,225,173"/>
+<area shape="poly" id="edge30_Node000001_Node000115" title=" " alt="" coords="602,758,602,629,592,446,581,353,564,269,541,202,527,176,512,158,475,133,433,117,389,109,343,107,298,111,255,117,180,136,179,131,253,112,297,105,343,102,389,104,435,112,477,129,515,154,532,173,546,199,569,268,586,352,597,446,607,629,608,757"/>
+<area shape="rect" id="Node000120" href="$classFoam_1_1Pstream.html#aa476e023f45cbd079d5ea83e173911e1" title="Reduce inplace (cf. MPI Allreduce) applying cop to inplace combine map values from different processo..." alt="" coords="14,828,229,868"/>
+<area shape="poly" id="edge35_Node000001_Node000120" title=" " alt="" coords="605,811,596,892,579,998,567,1050,552,1098,535,1136,515,1161,486,1181,457,1195,429,1203,402,1205,374,1201,345,1192,284,1161,246,1132,214,1095,187,1054,166,1011,137,929,123,869,129,868,143,928,171,1009,192,1052,218,1092,249,1128,287,1157,347,1187,375,1196,402,1199,429,1197,455,1190,483,1177,512,1157,531,1133,547,1096,561,1049,573,997,591,891,600,810"/>
+<area shape="rect" id="Node000127" href="$classFoam_1_1Pstream.html#ab51bd4fcdbb2c0ff6cea38a6641d073c" title="Broadcast data: Distribute without modification." alt="" coords="14,277,229,317"/>
+<area shape="poly" id="edge36_Node000001_Node000127" title=" " alt="" coords="600,758,591,671,574,554,562,496,547,444,531,401,511,373,493,360,466,348,394,329,310,316,229,307,229,302,311,310,395,324,467,343,495,355,515,369,535,398,553,442,567,495,579,554,596,670,605,758"/>
+<area shape="rect" id="Node000645" href="$classFoam_1_1Pstream.html#abd0389d2bfd59f5c0cd428795e613424" title="Broadcast data: Distribute without modification." alt="" coords="35,357,208,382"/>
+<area shape="poly" id="edge38_Node000001_Node000645" title=" " alt="" coords="599,758,590,678,572,574,546,476,530,438,512,414,491,402,461,391,382,378,292,372,208,370,208,365,293,367,383,373,462,386,493,397,515,410,534,436,551,474,577,573,595,678,605,758"/>
+<area shape="rect" id="Node000675" href="$classFoam_1_1Pstream.html#aa111bcdf8adf4e447b58d5aacd7f5686" title="Broadcast list content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;..." alt="" coords="292,537,507,562"/>
+<area shape="poly" id="edge11_Node000001_Node000675" title=" " alt="" coords="598,759,590,718,573,669,548,619,531,596,512,577,491,564,494,560,515,573,535,593,553,616,578,667,595,717,604,758"/>
+<area shape="rect" id="Node000676" href="$classFoam_1_1Pstream.html#afa7a0d461e6372ade669201afce0e1c3" title="Broadcast multiple items to all communicator ranks. Does nothing in non&#45;parallel." alt="" coords="300,586,499,611"/>
+<area shape="poly" id="edge12_Node000001_Node000676" title=" " alt="" coords="595,759,583,728,566,692,542,656,512,626,489,614,492,609,515,622,546,653,570,689,588,726,600,757"/>
+<area shape="rect" id="Node000703" href="$classFoam_1_1globalIndex.html#a1f4706cb28d2a1ee48b0e327b3ebfc16" title="Calculate globally&#45;consistent local start offset based on the local input size(s)." alt="" coords="324,636,475,676"/>
+<area shape="poly" id="edge13_Node000001_Node000703" title=" " alt="" coords="586,762,554,725,512,690,474,674,476,669,515,686,558,721,590,758"/>
+<area shape="rect" id="Node000704" href="$classFoam_1_1globalIndex.html#a648b9adef6f3e0b41ad3bc640085cb13" title="Calculate globally&#45;consistent local range (offset/size) based on the local input size(s)." alt="" coords="324,700,475,740"/>
+<area shape="poly" id="edge14_Node000001_Node000704" title=" " alt="" coords="556,769,513,755,473,743,474,738,514,750,558,764"/>
+<area shape="rect" id="Node000705" href="$classFoam_1_1IOobjectList.html#a609b11b0953b5b89c453e9a89d938fc4" title="Verify that object names are synchronised across processors." alt="" coords="328,764,471,804"/>
+<area shape="poly" id="edge15_Node000001_Node000705" title=" " alt="" coords="547,787,471,787,471,781,547,781"/>
+<area shape="rect" id="Node000706" href="$classFoam_1_1Pstream.html#a6a5fbe57b90209c3c007cae22783966d" title="Gather data, applying cop to inplace combine value from different processors." alt="" coords="285,169,513,194"/>
+<area shape="poly" id="edge16_Node000001_Node000706" title=" " alt="" coords="601,758,596,642,582,479,571,396,555,320,536,257,524,233,511,215,485,196,488,192,515,212,529,231,541,255,561,318,576,395,588,479,602,642,607,758"/>
+<area shape="rect" id="Node000708" href="$classFoam_1_1Pstream.html#ada5958ff979283178e2dbba3bfcdd3e9" title="Exchange contiguous data. Sends sendBufs, receives into recvBufs." alt="" coords="304,893,495,918"/>
+<area shape="poly" id="edge20_Node000001_Node000708" title=" " alt="" coords="590,810,558,848,538,867,515,882,485,895,483,890,512,878,534,862,555,844,586,806"/>
+<area shape="rect" id="Node000709" href="$classFoam_1_1Pstream.html#ab67b3ad023c42cc7d96f6a5cdb8ce8fa" title="Helper: exchange contiguous data. Sends sendBufs, receives into recvBufs using predetermined receive ..." alt="" coords="304,942,495,967"/>
+<area shape="poly" id="edge21_Node000001_Node000709" title=" " alt="" coords="598,811,568,873,545,906,515,933,494,944,491,940,512,929,541,902,564,870,594,809"/>
+<area shape="rect" id="Node000710" href="$namespaceFoam_1_1PstreamDetail.html#a0c232b5288219dcd23b337c86bbdb54c" title="Exchange contiguous data using non&#45;blocking consensus exchange (NBX)" alt="" coords="318,992,481,1032"/>
+<area shape="poly" id="edge22_Node000001_Node000710" title=" " alt="" coords="602,811,592,849,575,895,550,942,515,982,482,1001,479,996,512,978,546,939,570,893,587,848,597,810"/>
+<area shape="rect" id="Node000711" href="$namespaceFoam_1_1PstreamDetail.html#a943502c0bbf217e1574316abc84f2bec" title="Exchange contiguous data using non&#45;blocking consensus exchange (NBX) with optional tracking of the re..." alt="" coords="318,1056,481,1096"/>
+<area shape="poly" id="edge23_Node000001_Node000711" title=" " alt="" coords="606,811,599,861,585,924,558,989,539,1020,515,1046,482,1066,480,1061,512,1042,534,1016,553,987,579,922,594,860,600,810"/>
+<area shape="rect" id="Node000712" href="$classFoam_1_1Pstream.html#a4b798236407a2f8c561efebfdc0f9f0e" title="Gather (reduce) data, appyling bop to combine value from different processors. The basis for Foam::re..." alt="" coords="314,1121,485,1146"/>
+<area shape="poly" id="edge24_Node000001_Node000712" title=" " alt="" coords="608,811,606,872,594,953,583,995,566,1037,544,1076,515,1110,487,1127,484,1123,512,1106,540,1073,562,1035,578,994,589,952,601,871,603,810"/>
+<area shape="rect" id="Node000714" href="$classFoam_1_1Pstream.html#a5f2c39c18360c2508bad8e3af874ab52" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="303,1471,496,1497"/>
+<area shape="poly" id="edge25_Node000001_Node000714" title=" " alt="" coords="608,810,606,946,596,1141,585,1242,568,1334,546,1410,531,1439,515,1462,498,1475,495,1471,511,1458,527,1437,541,1408,563,1333,579,1241,590,1141,601,946,602,810"/>
+<area shape="rect" id="Node000731" href="$classFoam_1_1Pstream.html#ad076c926b6ba40bcb5d0ec7778d6b6fd" title=" " alt="" coords="296,472,503,512"/>
+<area shape="poly" id="edge27_Node000001_Node000731" title=" " alt="" coords="600,758,594,709,579,647,553,583,534,553,512,527,493,514,496,510,515,523,538,550,557,580,584,645,599,708,606,757"/>
+<area shape="rect" id="Node000739" href="$classFoam_1_1UPstream.html#aeb7b4fbe3fe17fd11d1c7e8fcd1ffa74" title=" " alt="" coords="335,1271,464,1297"/>
+<area shape="poly" id="edge31_Node000001_Node000739" title=" " alt="" coords="606,811,599,910,583,1045,571,1114,556,1176,538,1227,515,1262,492,1278,465,1286,464,1281,490,1273,511,1258,533,1225,551,1174,566,1113,578,1045,593,910,601,810"/>
+<area shape="rect" id="Node000740" href="$classFoam_1_1UPstream.html#aeae8357721bf386ec54e5afa78d2a76e" title="Scatter individual values from list locations." alt="" coords="334,1321,465,1346"/>
+<area shape="poly" id="edge32_Node000001_Node000740" title=" " alt="" coords="607,811,601,919,586,1069,574,1146,559,1215,540,1272,515,1311,492,1327,466,1335,464,1330,490,1322,511,1308,535,1270,554,1214,569,1145,581,1069,595,919,601,811"/>
+<area shape="rect" id="Node000741" href="$classFoam_1_1Pstream.html#ac6963306dca9e3de7d5ca58cd4329f61" title=" " alt="" coords="292,828,507,868"/>
+<area shape="poly" id="edge33_Node000001_Node000741" title=" " alt="" coords="558,804,514,819,474,831,473,826,513,814,556,799"/>
+<area shape="rect" id="Node000435" href="$namespaceFoam.html#a1649dca1d5f3392105df32c76c3e6081" title="Reduce inplace (cf. MPI Allreduce) using linear/tree communication schedule." alt="" coords="344,1422,455,1447"/>
+<area shape="poly" id="edge37_Node000001_Node000435" title=" " alt="" coords="607,810,603,935,591,1113,579,1204,563,1288,542,1357,530,1384,515,1405,488,1424,456,1434,454,1429,485,1420,511,1401,525,1381,537,1355,558,1286,574,1203,585,1112,598,935,602,810"/>
+<area shape="rect" id="Node000743" href="$classFoam_1_1Pstream.html#a8f29bc97f7891b66a1b70bdbcc669d7d" title="Scatter data. Reverse of gatherList." alt="" coords="301,1222,497,1247"/>
+<area shape="poly" id="edge39_Node000001_Node000743" title=" " alt="" coords="605,811,596,899,578,1016,552,1129,535,1174,515,1205,487,1224,484,1220,511,1201,530,1172,547,1128,573,1015,590,898,600,810"/>
+<area shape="rect" id="Node000618" href="$namespaceFoam.html#aa97f44d458ee4b5ec36dbdfde7dc3fc2" title="Reduce inplace (cf. MPI Allreduce) the sum of both value and count (for averaging)" alt="" coords="328,1521,471,1546"/>
+<area shape="poly" id="edge41_Node000001_Node000618" title=" " alt="" coords="608,810,608,955,599,1165,588,1274,571,1373,547,1455,533,1487,515,1511,495,1526,472,1535,470,1529,493,1522,511,1508,528,1484,542,1453,566,1372,583,1273,593,1165,603,955,603,810"/>
+<area shape="poly" id="edge4_Node000029_Node000057" title=" " alt="" coords="315,270,191,247,192,242,316,265"/>
+<area shape="poly" id="edge5_Node000029_Node000058" title=" " alt="" coords="360,266,321,240,283,207,268,184,260,164,252,144,235,123,198,97,159,78,161,73,201,92,239,120,256,141,265,162,272,182,287,204,324,236,363,261"/>
+<area shape="poly" id="edge6_Node000029_Node000084" title=" " alt="" coords="374,306,314,351,239,397,191,417,189,412,236,392,311,347,370,302"/>
+<area shape="poly" id="edge7_Node000029_Node000115" title=" " alt="" coords="358,267,236,209,165,176,167,171,238,204,360,262"/>
+<area shape="poly" id="edge8_Node000029_Node000120" title=" " alt="" coords="383,308,338,376,288,461,236,568,191,674,132,829,127,827,186,672,232,565,283,459,333,373,379,305"/>
+<area shape="poly" id="edge9_Node000029_Node000127" title=" " alt="" coords="290,291,229,294,229,289,289,286"/>
+<area shape="poly" id="edge10_Node000029_Node000645" title=" " alt="" coords="345,302,164,359,162,354,344,297"/>
+<area shape="poly" id="edge17_Node000706_Node000057" title=" " alt="" coords="316,199,192,222,191,217,315,194"/>
+<area shape="poly" id="edge26_Node000714_Node000002" title=" " alt="" coords="313,1471,284,1463,207,1431,144,1399,147,1395,209,1426,286,1458,314,1466"/>
+<area shape="poly" id="edge28_Node000731_Node000084" title=" " alt="" coords="288,472,218,457,219,452,289,467"/>
+<area shape="poly" id="edge34_Node000741_Node000120" title=" " alt="" coords="278,851,229,851,229,845,278,845"/>
+<area shape="poly" id="edge40_Node000743_Node000002" title=" " alt="" coords="309,1254,286,1263,240,1289,198,1319,137,1373,134,1369,195,1315,238,1284,284,1258,307,1249"/>
+</map>

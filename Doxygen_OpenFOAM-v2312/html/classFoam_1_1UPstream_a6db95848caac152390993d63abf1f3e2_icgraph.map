@@ -1,0 +1,9 @@
+<map id="gather" name="gather">
+<area shape="rect" id="Node000001" title="Receive variable length char data from all ranks." alt="" coords="269,77,333,102"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1decomposedBlockData.html#a96fece44594e9f830c25bc59934b0379" title="Helper: gather single label. Note: using native Pstream." alt="" coords="5,5,221,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,74,220,60,184,48,186,43,222,55,259,69"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1decomposedBlockData.html#a347fcdd9eb1f755b95e197bd69e55e74" title="Helper: gather data from (subset of) slaves." alt="" coords="5,69,221,109"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="255,92,221,92,221,87,255,87"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1globalIndex.html#a9a26d7380aabb8207e174c51660d3483" title="Use MPI_Gatherv call for contiguous data when possible (in serial: performs a simple copy)." alt="" coords="38,133,189,173"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="259,110,222,124,186,136,184,131,220,119,257,105"/>
+</map>

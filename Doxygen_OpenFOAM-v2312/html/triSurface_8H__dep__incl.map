@@ -1,0 +1,96 @@
+<map id="src/surfMesh/triSurface/triSurface.H" name="src/surfMesh/triSurface/triSurface.H">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4221,5,4393,45"/>
+<area shape="rect" id="Node000002" href="$CV2D_8H.html" title=" " alt="" coords="5,93,223,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4208,30,3397,35,2153,46,943,66,497,80,339,88,234,96,223,97,223,92,234,91,339,82,497,75,943,61,2153,41,3396,29,4208,24"/>
+<area shape="rect" id="Node000004" href="$PolyhedronReader_8H.html" title=" " alt="" coords="247,93,528,148"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="4208,29,3520,29,2457,36,1890,44,1354,56,890,73,541,96,528,97,528,92,540,91,890,68,1353,51,1890,39,2457,31,3520,24,4208,24"/>
+<area shape="rect" id="Node000005" href="$collapseBase_8H.html" title="Routines collapse sliver triangles by splitting the base edge." alt="" coords="553,93,715,148"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="4208,30,3485,34,2396,44,1840,53,1344,64,956,78,819,87,728,96,716,98,715,93,727,91,818,81,956,73,1343,59,1840,48,2396,39,3485,28,4208,24"/>
+<area shape="rect" id="Node000006" href="$collapseEdge_8H.html" title="Routines to collapse small edges." alt="" coords="739,93,902,148"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="4208,30,3518,34,2488,46,1495,65,1130,79,1000,87,914,96,903,98,902,93,914,91,1000,82,1129,74,1495,60,2488,40,3518,29,4207,24"/>
+<area shape="rect" id="Node000007" href="$boundaryMesh_8C.html" title=" " alt="" coords="927,101,1128,141"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="4208,30,3559,37,2601,50,1679,70,1340,82,1140,96,1098,103,1098,98,1139,91,1339,77,1679,65,2601,45,3559,32,4208,25"/>
+<area shape="rect" id="Node000008" href="$offsetSurface_8C.html" title=" " alt="" coords="1152,101,1367,141"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="4208,29,3657,30,2837,37,2404,45,1996,57,1644,74,1378,96,1335,103,1334,98,1378,91,1643,68,1996,51,2404,39,2837,31,3657,24,4208,24"/>
+<area shape="rect" id="Node000009" href="$cellClassification_8C.html" title=" " alt="" coords="1391,101,1619,141"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="4207,29,3699,32,2953,41,2560,49,2190,61,1871,76,1630,96,1584,103,1583,98,1630,91,1871,71,2190,55,2560,44,2953,35,3699,26,4207,24"/>
+<area shape="rect" id="Node000010" href="$edgeMeshFeatureProximity_8C.html" title=" " alt="" coords="1643,93,1889,148"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="4207,30,3746,35,3081,46,2404,66,2121,79,1908,96,1890,98,1889,93,1907,91,2121,74,2404,61,3081,41,3746,30,4207,25"/>
+<area shape="rect" id="Node000011" href="$extendedEdgeMesh_8C.html" title=" " alt="" coords="1810,299,2061,353"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="4207,30,3691,34,2968,45,2614,54,2308,65,2085,79,2015,87,1979,96,1947,115,1926,135,1911,161,1898,197,1893,223,1898,250,1907,275,1919,297,1915,300,1902,277,1893,251,1887,223,1893,195,1907,159,1922,132,1944,110,1977,91,2014,82,2085,74,2308,60,2614,48,2968,40,3691,29,4207,25"/>
+<area shape="rect" id="Node000012" href="$treeDataTriSurface_8H.html" title=" " alt="" coords="2013,101,2225,141"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="4207,30,3804,36,3236,47,2663,67,2424,80,2244,96,2199,103,2198,98,2243,91,2424,75,2663,61,3236,42,3804,30,4207,25"/>
+<area shape="rect" id="Node000014" href="$triSurfaceMesh_8H.html" title=" " alt="" coords="1907,196,2097,251"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="4207,30,3683,37,2954,50,2300,69,2089,82,2028,89,2002,95,1990,117,1986,144,1989,171,1995,195,1990,197,1983,172,1981,144,1985,116,1999,91,2027,83,2088,77,2300,64,2954,45,3683,32,4207,25"/>
+<area shape="rect" id="Node000027" href="$triSurfaceCloseness_8C.html" title=" " alt="" coords="2171,306,2439,346"/>
+<area shape="poly" id="edge35_Node000001_Node000027" title=" " alt="" coords="4207,29,3759,29,3150,37,2855,45,2603,57,2421,74,2366,84,2340,95,2333,107,2332,118,2341,147,2346,161,2353,170,2361,181,2367,195,2373,224,2367,252,2350,283,2328,307,2324,304,2346,280,2362,250,2367,224,2362,197,2356,183,2349,174,2342,163,2335,149,2327,119,2327,105,2336,91,2365,79,2421,68,2602,51,2855,39,3150,31,3759,24,4207,24"/>
+<area shape="rect" id="Node000048" href="$edgeIntersections_8C.html" title=" " alt="" coords="2121,196,2353,251"/>
+<area shape="poly" id="edge25_Node000001_Node000048" title=" " alt="" coords="4207,30,3753,33,3132,43,2830,52,2571,63,2383,78,2325,86,2295,96,2274,116,2259,143,2249,171,2243,196,2238,195,2244,169,2254,141,2270,113,2293,91,2324,81,2383,72,2571,58,2830,47,3132,38,3753,28,4207,24"/>
+<area shape="rect" id="Node000061" href="$momentOfInertia_8H.html" title=" " alt="" coords="2351,101,2581,141"/>
+<area shape="poly" id="edge15_Node000001_Node000061" title=" " alt="" coords="4208,31,3404,52,2940,71,2747,83,2601,96,2553,103,2552,98,2600,91,2747,78,2940,66,3403,47,4208,26"/>
+<area shape="rect" id="Node000050" href="$surfaceSets_8C.html" title=" " alt="" coords="2589,203,2783,243"/>
+<area shape="poly" id="edge17_Node000001_Node000050" title=" " alt="" coords="4208,30,3823,33,3315,42,3071,50,2863,62,2713,77,2668,86,2646,95,2639,107,2636,120,2641,149,2655,177,2672,202,2668,205,2650,180,2636,150,2630,119,2634,105,2643,91,2667,81,2713,72,2862,57,3070,45,3315,37,3823,27,4208,24"/>
+<area shape="rect" id="Node000051" href="$surfaceSets_8H.html" title=" " alt="" coords="2657,101,2851,141"/>
+<area shape="poly" id="edge18_Node000001_Node000051" title=" " alt="" coords="4208,32,3528,53,3145,72,2986,83,2865,96,2826,103,2825,98,2864,91,2985,78,3144,66,3528,47,4208,26"/>
+<area shape="rect" id="Node000052" href="$surfaceToCell_8C.html" title=" " alt="" coords="2876,93,3067,148"/>
+<area shape="poly" id="edge20_Node000001_Node000052" title=" " alt="" coords="4208,29,4002,31,3721,39,3402,60,3239,76,3080,96,3068,98,3067,93,3079,91,3238,70,3401,54,3721,34,4001,25,4208,23"/>
+<area shape="rect" id="Node000053" href="$surfaceToPoint_8C.html" title=" " alt="" coords="3091,93,3300,148"/>
+<area shape="poly" id="edge21_Node000001_Node000053" title=" " alt="" coords="4208,31,4038,36,3815,48,3565,67,3313,96,3301,98,3300,93,3312,91,3564,61,3814,42,4037,31,4207,26"/>
+<area shape="rect" id="Node000064" href="$booleanSurface_8H.html" title=" " alt="" coords="3325,93,3533,148"/>
+<area shape="poly" id="edge22_Node000001_Node000064" title=" " alt="" coords="4208,34,3910,54,3728,72,3545,96,3533,98,3532,93,3544,91,3727,67,3909,49,4207,28"/>
+<area shape="rect" id="Node000065" href="$edgeSurface_8C.html" title=" " alt="" coords="3557,93,3786,148"/>
+<area shape="poly" id="edge23_Node000001_Node000065" title=" " alt="" coords="4208,40,4018,64,3798,96,3787,98,3786,93,3798,91,4017,58,4207,35"/>
+<area shape="rect" id="Node000066" href="$intersectedSurface_8H.html" title=" " alt="" coords="3810,93,4039,148"/>
+<area shape="poly" id="edge24_Node000001_Node000066" title=" " alt="" coords="4218,51,4033,96,4031,91,4216,46"/>
+<area shape="rect" id="Node000055" href="$surfaceIntersection_8C.html" title=" " alt="" coords="4063,93,4295,148"/>
+<area shape="poly" id="edge26_Node000001_Node000055" title=" " alt="" coords="4272,55,4217,95,4214,91,4269,51"/>
+<area shape="rect" id="Node000056" href="$surfaceIntersectionFuncs_8C.html" title=" " alt="" coords="4319,93,4551,148"/>
+<area shape="poly" id="edge27_Node000001_Node000056" title=" " alt="" coords="4346,51,4401,91,4398,95,4343,55"/>
+<area shape="rect" id="Node000068" href="$orientedSurface_8H.html" title=" " alt="" coords="4575,101,4826,141"/>
+<area shape="poly" id="edge28_Node000001_Node000068" title=" " alt="" coords="4401,46,4622,98,4621,103,4399,51"/>
+<area shape="rect" id="Node000073" href="$surfaceFeatures_8C.html" title=" " alt="" coords="4850,101,5101,141"/>
+<area shape="poly" id="edge29_Node000001_Node000073" title=" " alt="" coords="4407,35,4607,58,4838,91,4881,98,4880,103,4838,96,4606,64,4407,40"/>
+<area shape="rect" id="Node000074" href="$surfaceLocation_8C.html" title=" " alt="" coords="5125,101,5375,141"/>
+<area shape="poly" id="edge30_Node000001_Node000074" title=" " alt="" coords="4407,29,4722,50,4917,68,5113,91,5159,98,5158,103,5112,96,4917,73,4722,55,4407,34"/>
+<area shape="rect" id="Node000075" href="$triSurfaceLoader_8H.html" title=" " alt="" coords="5399,101,5656,141"/>
+<area shape="poly" id="edge31_Node000001_Node000075" title=" " alt="" coords="4407,26,4591,32,4834,44,5110,63,5388,91,5436,98,5435,103,5387,96,5109,68,4834,49,4590,37,4407,31"/>
+<area shape="rect" id="Node000059" href="$triSurfaceRegionSearch_8C.html" title=" " alt="" coords="5681,93,5926,148"/>
+<area shape="poly" id="edge32_Node000001_Node000059" title=" " alt="" coords="4407,24,4633,27,4946,37,5305,57,5489,72,5669,91,5681,92,5680,98,5668,96,5489,77,5305,62,4946,42,4633,32,4407,29"/>
+<area shape="rect" id="Node000060" href="$triSurfaceSearch_8C.html" title=" " alt="" coords="5951,101,6208,141"/>
+<area shape="poly" id="edge33_Node000001_Node000060" title=" " alt="" coords="4407,23,4673,24,5052,32,5491,53,5717,69,5938,91,5989,98,5988,103,5938,96,5717,75,5491,58,5052,38,4673,30,4407,29"/>
+<area shape="rect" id="Node000077" href="$pointToPointPlanarInterpolation_8C.html" title=" " alt="" coords="6232,93,6479,148"/>
+<area shape="poly" id="edge34_Node000001_Node000077" title=" " alt="" coords="4407,25,4784,32,5308,45,5835,64,6055,76,6221,91,6232,92,6231,97,6220,96,6054,82,5835,69,5308,50,4784,37,4407,31"/>
+<area shape="rect" id="Node000078" href="$triSurfaceCurvature_8C.html" title=" " alt="" coords="6503,101,6770,141"/>
+<area shape="poly" id="edge36_Node000001_Node000078" title=" " alt="" coords="4407,25,4832,31,5434,43,6044,63,6299,76,6492,91,6544,98,6544,103,6491,96,6298,81,6044,68,5434,49,4832,37,4407,30"/>
+<area shape="rect" id="Node000079" href="$triSurfaceTools_8C.html" title=" " alt="" coords="6794,101,7029,141"/>
+<area shape="poly" id="edge37_Node000001_Node000079" title=" " alt="" coords="4408,24,4882,28,5569,38,6269,58,6561,73,6782,91,6830,98,6829,103,6782,96,6561,78,6269,63,5569,44,4882,33,4408,30"/>
+<area shape="rect" id="Node000080" href="$isoSurfaceCell_8C.html" title=" " alt="" coords="7053,101,7257,141"/>
+<area shape="poly" id="edge38_Node000001_Node000080" title=" " alt="" coords="4407,24,4925,25,5688,33,6090,41,6468,53,6795,69,7041,91,7083,98,7082,103,7040,96,6794,74,6468,58,6089,46,5687,38,4925,30,4407,29"/>
+<area shape="rect" id="Node000081" href="$isoSurfacePoint_8C.html" title=" " alt="" coords="7281,101,7493,141"/>
+<area shape="poly" id="edge39_Node000001_Node000081" title=" " alt="" coords="4407,24,4964,24,5793,31,6231,39,6645,51,7001,68,7270,91,7314,98,7313,103,7270,96,7001,73,6644,56,6231,44,5793,36,4964,29,4407,29"/>
+<area shape="rect" id="Node000082" href="$triSurfaceGTSformat_8C.html" title=" " alt="" coords="7517,101,7727,141"/>
+<area shape="poly" id="edge40_Node000001_Node000082" title=" " alt="" coords="4407,25,6029,45,6961,65,7304,77,7506,91,7549,98,7548,103,7506,96,7304,82,6961,70,6029,51,4407,30"/>
+<area shape="rect" id="Node000083" href="$triSurfaceSTLformat_8C.html" title=" " alt="" coords="7751,101,7962,141"/>
+<area shape="poly" id="edge41_Node000001_Node000083" title=" " alt="" coords="4407,25,5103,31,6145,44,7151,64,7521,76,7740,91,7783,98,7782,103,7739,96,7521,82,7150,69,6145,49,5103,36,4407,30"/>
+<area shape="rect" id="Node000084" href="$triSurfaceGeoMesh_8H.html" title=" " alt="" coords="7986,101,8189,141"/>
+<area shape="poly" id="edge42_Node000001_Node000084" title=" " alt="" coords="4407,25,5146,30,6261,42,7341,62,7739,75,7974,91,8016,98,8015,103,7974,96,7739,81,7341,67,6261,48,5146,35,4407,30"/>
+<area shape="rect" id="Node000100" href="$triSurfacePointGeoMesh_8H.html" title=" " alt="" coords="8213,101,8449,141"/>
+<area shape="poly" id="edge43_Node000001_Node000100" title=" " alt="" coords="4407,25,5186,31,6373,44,7525,63,7950,76,8201,91,8249,98,8249,103,8200,96,7950,81,7525,69,6373,49,5186,36,4407,30"/>
+<area shape="rect" id="Node000101" href="$triSurface_8C.html" title=" " alt="" coords="8473,101,8645,141"/>
+<area shape="poly" id="edge44_Node000001_Node000101" title=" " alt="" coords="4407,24,5233,27,6502,36,7154,45,7738,56,8194,71,8355,80,8462,91,8499,98,8498,103,8462,96,8355,86,8194,77,7738,61,7154,50,6502,42,5233,32,4407,29"/>
+<area shape="rect" id="Node000102" href="$triSurfaceAddressing_8C.html" title="Contains fix for PrimitivePatch addressing (which doesn&#39;t work if surface is non&#45;manifold)...." alt="" coords="8669,101,8844,141"/>
+<area shape="poly" id="edge45_Node000001_Node000102" title=" " alt="" coords="4407,24,5267,26,6598,35,7283,44,7897,55,8376,71,8546,80,8658,91,8696,98,8695,103,8658,96,8545,85,8376,76,7897,61,7283,49,6598,41,5267,32,4407,29"/>
+<area shape="rect" id="Node000103" href="$triSurfaceIO_8C.html" title=" " alt="" coords="8868,101,9040,141"/>
+<area shape="poly" id="edge46_Node000001_Node000103" title=" " alt="" coords="4407,24,5302,26,6696,34,7414,42,8058,54,8561,70,8739,80,8857,91,8894,98,8893,103,8856,96,8739,85,8561,75,8058,59,7414,47,6696,39,5302,31,4407,29"/>
+<area shape="rect" id="Node000104" href="$triSurfaceNew_8C.html" title=" " alt="" coords="9064,101,9236,141"/>
+<area shape="poly" id="edge47_Node000001_Node000104" title=" " alt="" coords="4407,24,5337,25,6792,33,7543,41,8217,52,8743,69,8930,79,9053,91,9090,98,9089,103,9052,96,8929,84,8743,74,8217,58,7543,46,6792,38,5337,30,4407,29"/>
+<area shape="rect" id="Node000105" href="$triSurfaceStitch_8C.html" title=" " alt="" coords="9260,101,9432,141"/>
+<area shape="poly" id="edge48_Node000001_Node000105" title=" " alt="" coords="4407,24,5371,24,6888,31,7672,39,8376,51,8925,68,9120,79,9249,91,9286,98,9285,103,9248,96,9120,84,8925,73,8375,57,7672,45,6888,37,5371,30,4407,29"/>
+<area shape="rect" id="Node000106" href="$faceShading_8H.html" title=" " alt="" coords="9456,93,9727,148"/>
+<area shape="poly" id="edge49_Node000001_Node000106" title=" " alt="" coords="4407,24,5405,29,6983,40,8533,60,9107,74,9310,82,9445,91,9456,92,9456,97,9444,96,9310,87,9107,79,8533,65,6983,45,5405,34,4407,30"/>
+<area shape="poly" id="edge11_Node000012_Node000014" title=" " alt="" coords="2089,152,2035,198,2031,194,2085,148"/>
+<area shape="poly" id="edge14_Node000012_Node000048" title=" " alt="" coords="2154,148,2208,194,2204,198,2150,152"/>
+<area shape="poly" id="edge12_Node000014_Node000011" title=" " alt="" coords="1979,264,1955,300,1951,297,1975,261"/>
+<area shape="poly" id="edge13_Node000014_Node000027" title=" " alt="" coords="2095,253,2249,303,2247,308,2093,258"/>
+<area shape="poly" id="edge19_Node000051_Node000050" title=" " alt="" coords="2736,154,2701,205,2697,202,2731,151"/>
+</map>
