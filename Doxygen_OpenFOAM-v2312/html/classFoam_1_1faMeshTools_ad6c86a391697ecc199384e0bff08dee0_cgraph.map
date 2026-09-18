@@ -1,0 +1,55 @@
+<map id="newMesh" name="newMesh">
+<area shape="rect" id="Node000001" title="Read mesh or create dummy mesh (0 faces, &gt;0 patches)." alt="" coords="5,591,89,616"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvMesh.html#aa4fb7dfe01b8c7688ec3feae973dff22" title="Return reference to boundary mesh." alt="" coords="155,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,590,50,484,62,318,73,231,88,151,109,85,121,60,135,40,141,35,145,38,139,44,126,62,114,87,93,153,78,232,67,319,55,484,51,590"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Pstream.html#afa7a0d461e6372ade669201afce0e1c3" title="Broadcast multiple items to all communicator ranks. Does nothing in non&#45;parallel." alt="" coords="147,55,345,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="46,590,52,494,66,346,78,269,93,197,112,138,135,98,151,84,154,89,139,101,117,140,98,199,83,270,72,347,57,494,52,590"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="403,80,587,105"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="47,590,52,501,67,365,78,294,93,230,112,177,135,141,153,129,178,120,241,105,315,96,388,92,389,97,316,102,242,110,179,125,156,134,139,145,117,179,98,231,83,295,72,366,58,501,52,590"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1IOobject.html#a55897374f7fc0b46252cc3bd11c23d4b" title="Return the local objectRegistry." alt="" coords="174,156,318,181"/>
+<area shape="poly" id="edge4_Node000001_Node000013" title=" " alt="" coords="47,590,55,510,71,390,83,327,97,270,115,223,135,191,159,175,162,180,139,195,119,225,102,272,88,328,76,390,60,510,52,591"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1HashTable.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the hash table is empty." alt="" coords="155,205,337,231"/>
+<area shape="poly" id="edge5_Node000001_Node000014" title=" " alt="" coords="47,590,56,518,74,413,100,309,117,268,135,240,141,235,145,239,139,244,121,270,105,311,79,414,62,519,53,591"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="163,279,329,304"/>
+<area shape="poly" id="edge6_Node000001_Node000015" title=" " alt="" coords="46,590,48,538,59,464,70,423,86,383,108,346,136,313,148,304,151,308,139,317,112,349,91,385,75,425,64,465,53,539,51,590"/>
+<area shape="rect" id="Node000016" href="$checkPatchTopology_8H.html#a55c46a3bcd35bf10c76a8bf3954bf274" title=" " alt="" coords="200,328,292,353"/>
+<area shape="poly" id="edge8_Node000001_Node000016" title=" " alt="" coords="47,590,52,547,65,485,77,452,92,419,111,389,136,363,159,348,185,341,187,346,161,353,139,367,115,392,96,422,82,454,70,487,57,548,52,591"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UList.html#a4f5dee16f964876ab3697477043ed179" title="Return bool value at specified position, always false for out&#45;of&#45;range access." alt="" coords="182,377,310,403"/>
+<area shape="poly" id="edge9_Node000001_Node000017" title=" " alt="" coords="48,590,56,554,72,506,98,455,115,432,136,412,168,395,170,400,139,416,119,435,102,458,77,508,61,556,53,591"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1polyMesh.html#a5e9cb8eb9e52843d336386b13423d19c" title="Return parallel info (demand&#45;driven)" alt="" coords="142,427,350,452"/>
+<area shape="poly" id="edge10_Node000001_Node000018" title=" " alt="" coords="51,590,79,528,104,493,136,463,148,455,151,460,139,467,108,496,84,531,55,592"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1dynamicFvMesh.html#a460e489a34859d4868bfb74195ae243c" title="Initialise all non&#45;demand&#45;driven data." alt="" coords="159,477,333,517"/>
+<area shape="poly" id="edge11_Node000001_Node000022" title=" " alt="" coords="59,588,92,557,136,526,150,519,153,524,139,531,95,562,62,592"/>
+<area shape="rect" id="Node000028" href="$lagrangian_2reactingParcelFoam_2createMeshesPostProcess_8H.html#a5b4575252c9e475bd8784f80e445a82d" title=" " alt="" coords="227,541,265,567"/>
+<area shape="poly" id="edge12_Node000001_Node000028" title=" " alt="" coords="89,589,137,575,212,558,213,563,138,581,90,594"/>
+<area shape="rect" id="Node000029" href="$namespaceFoam.html#aeb53e94fd0882811464b5e04683bfb5b" title="Does the name exist as a DIRECTORY in the file system?" alt="" coords="198,591,294,616"/>
+<area shape="poly" id="edge13_Node000001_Node000029" title=" " alt="" coords="90,601,184,601,184,606,90,606"/>
+<area shape="rect" id="Node000031" href="$namespaceFoam.html#accde1bf3e2a4105cca868012a680afbe" title="A word representation of a valueTypeCode. Empty for expressions::valueTypeCode::INVALID." alt="" coords="443,641,546,667"/>
+<area shape="poly" id="edge16_Node000001_Node000031" title=" " alt="" coords="90,613,138,625,216,636,295,643,429,650,429,656,294,648,215,641,137,630,89,619"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1autoPtr.html#aaea33ebc504bdca5b97f88a0aea57d4e" title="Construct autoPtr with forwarding arguments." alt="" coords="171,692,321,717"/>
+<area shape="poly" id="edge17_Node000001_Node000032" title=" " alt="" coords="64,614,96,642,139,670,175,685,173,690,136,675,93,647,60,618"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1faPatch.html#a713db5955cd1fed9e6d4a5614760060a" title="Return pointer to a new patch created on freestore from dictionary." alt="" coords="171,765,321,791"/>
+<area shape="poly" id="edge18_Node000001_Node000033" title=" " alt="" coords="57,615,88,668,111,699,139,727,165,744,193,758,191,763,162,749,136,731,107,702,84,671,52,617"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="154,815,338,840"/>
+<area shape="poly" id="edge20_Node000001_Node000036" title=" " alt="" coords="53,616,60,653,76,703,101,756,118,779,139,800,147,806,144,810,136,804,114,783,97,758,71,705,55,654,48,617"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1polyMesh.html#a0c3aab837312aba01a37cc2e31da6040" title="The mesh region name or word::null if polyMesh::defaultRegion." alt="" coords="137,864,355,889"/>
+<area shape="poly" id="edge21_Node000001_Node000037" title=" " alt="" coords="52,616,56,661,70,724,81,758,96,792,115,823,139,849,146,855,143,859,136,853,111,826,91,794,76,760,64,726,51,662,47,617"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="169,913,323,939"/>
+<area shape="poly" id="edge22_Node000001_Node000038" title=" " alt="" coords="51,616,53,669,63,745,74,787,90,828,111,866,139,899,157,911,154,916,136,903,107,869,85,830,69,788,58,746,47,669,46,616"/>
+<area shape="rect" id="Node000026" href="$namespaceFoam.html#a2e469ccb2cea405f7ddd435d8de00ceb" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="162,963,330,988"/>
+<area shape="poly" id="edge23_Node000001_Node000026" title=" " alt="" coords="53,616,62,685,80,786,106,885,122,923,139,948,151,957,148,962,135,952,117,925,101,886,75,787,57,686,48,617"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="179,1012,313,1037"/>
+<area shape="poly" id="edge24_Node000001_Node000041" title=" " alt="" coords="52,616,60,694,77,809,103,923,120,968,139,997,167,1015,164,1019,135,1001,115,970,98,925,72,810,55,694,47,616"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="171,1085,321,1111"/>
+<area shape="poly" id="edge25_Node000001_Node000008" title=" " alt="" coords="52,616,60,701,77,830,104,960,120,1011,139,1047,159,1065,182,1078,179,1082,155,1069,135,1050,115,1014,98,961,72,831,55,702,47,616"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1IOobject.html#a063241beec817c2d3664aaea16d09f20" title="Return Time associated with the objectRegistry." alt="" coords="167,1135,325,1160"/>
+<area shape="poly" id="edge27_Node000001_Node000044" title=" " alt="" coords="52,616,56,715,70,868,81,947,96,1020,115,1080,127,1103,139,1120,156,1133,153,1137,135,1124,122,1106,111,1082,91,1022,76,948,64,868,51,716,46,617"/>
+<area shape="rect" id="Node000045" href="$namespaceFoam.html#a69e2e8a647a7073be8ce6437c0aff762" title="Return the file type: DIRECTORY or FILE, normally following symbolic links." alt="" coords="199,1184,293,1209"/>
+<area shape="poly" id="edge28_Node000001_Node000045" title=" " alt="" coords="51,616,55,723,66,891,77,979,93,1060,113,1127,126,1152,139,1171,160,1185,186,1193,184,1198,158,1190,135,1175,121,1155,108,1129,88,1062,72,980,61,892,49,724,46,616"/>
+<area shape="poly" id="edge3_Node000003_Node000009" title=" " alt="" coords="346,75,389,79,389,85,345,80"/>
+<area shape="poly" id="edge7_Node000015_Node000015" title=" " alt="" coords="213,280,207,270,210,260,224,254,246,252,273,256,284,264,281,269,271,260,246,257,225,259,214,264,212,270,218,277"/>
+<area shape="poly" id="edge14_Node000029_Node000031" title=" " alt="" coords="295,610,431,638,429,644,294,616"/>
+<area shape="poly" id="edge19_Node000033_Node000033" title=" " alt="" coords="213,767,207,757,210,747,224,741,246,739,273,742,284,751,281,755,271,747,246,744,225,746,214,751,212,756,218,764"/>
+<area shape="poly" id="edge26_Node000008_Node000008" title=" " alt="" coords="213,1087,207,1077,210,1067,224,1061,246,1059,273,1062,284,1071,281,1075,271,1067,246,1064,225,1066,214,1071,212,1076,218,1084"/>
+<area shape="poly" id="edge29_Node000045_Node000031" title=" " alt="" coords="293,1194,325,1187,353,1171,379,1134,402,1079,424,1011,442,935,471,787,487,680,493,681,476,788,447,937,429,1012,407,1080,383,1137,356,1175,327,1192,294,1199"/>
+</map>

@@ -1,0 +1,61 @@
+<map id="faceZones" name="faceZones">
+<area shape="rect" id="Node000001" title="Return face zone mesh." alt="" coords="501,839,592,864"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvMeshAdder.html#a4ca93ce70fe785e93c54e6cf4f634105" title="In&#45;place add to fvMeshes[myProci]. Stitch boundary faces." alt="" coords="8,264,192,290"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="542,825,534,655,517,406,504,281,489,172,472,90,462,64,451,48,426,29,401,16,377,10,353,9,327,12,301,21,244,49,214,70,188,97,166,127,147,159,121,220,107,265,102,263,116,218,143,157,161,124,184,93,210,66,241,44,299,16,326,7,352,3,378,4,403,11,429,24,455,45,466,61,477,89,495,171,510,281,522,405,539,654,547,825"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1polyMeshAdder.html#a5207e408d00b1a15de193ada7d0361c6" title="Add multiple meshes." alt="" coords="249,59,447,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="541,825,531,665,512,434,485,217,469,140,460,114,451,99,436,87,440,83,455,95,465,112,474,138,490,216,517,434,536,665,547,825"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1cyclicAMIPolyPatch.html#a27c3e70624127312442dcf9ce98f75e9" title="Collect faces to add in the topoChange container." alt="" coords="253,109,443,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="543,825,541,688,529,489,518,387,502,293,480,215,466,185,451,163,438,151,442,147,455,159,471,183,485,214,507,292,523,386,535,489,546,687,548,825"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1surfaceZonesInfo.html#a4782a6d6cf4c0fd0df7f8bc407eb48d3" title=" " alt="" coords="259,173,437,213"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="542,825,539,699,526,520,514,428,498,343,477,274,465,247,451,227,436,214,439,210,455,223,470,245,482,272,503,342,519,427,531,519,544,699,548,825"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1surfaceZonesInfo.html#aae631870262af6552d146eb35acd3144" title=" " alt="" coords="259,237,437,277"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="542,825,536,711,522,551,510,469,495,394,475,333,451,291,436,278,439,274,455,287,480,330,500,393,515,468,527,550,542,711,547,825"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1snappyLayerDriver.html#a2654851d1ffedc26e8ff1424f7097ba6" title="Add cell layers." alt="" coords="5,346,195,386"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="540,826,530,744,511,637,485,535,469,496,451,470,427,449,404,437,381,432,357,430,305,430,275,427,242,420,152,389,154,384,243,414,276,422,305,424,357,425,382,426,406,432,430,445,455,466,474,493,490,533,517,636,535,743,545,825"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1polyTopoChange.html#a6d4f7e88c9f790548983228532991aea" title="Add all points/faces/cells of mesh. Additional offset for patch or zone ids." alt="" coords="261,365,435,405"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="540,826,530,737,512,617,486,501,470,456,451,425,428,407,431,403,455,422,475,454,491,500,518,616,536,736,546,825"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1polyTopoChange.html#aadea253a54827c1e9ba3edf6deb58fe8" title="Inplace changes mesh without change of patches." alt="" coords="261,301,435,341"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="541,826,534,723,518,582,506,510,491,445,473,391,451,355,433,340,436,336,455,351,478,389,496,443,511,509,523,581,539,722,547,825"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1layerAdditionRemoval.html#a837dedbb253fe1b4140e2fc1112e95e9" title="Check for topology change." alt="" coords="243,480,453,520"/>
+<area shape="poly" id="edge11_Node000001_Node000030" title=" " alt="" coords="543,825,540,766,527,687,516,646,500,605,478,567,451,534,437,522,440,518,455,530,483,564,504,603,521,644,532,686,545,765,548,825"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1meshRefinement.html#a9ba55ad37b0d2cb2314d246df7da8040" title="Helper function: check that face zones are synced." alt="" coords="253,544,443,584"/>
+<area shape="poly" id="edge12_Node000001_Node000031" title=" " alt="" coords="541,825,534,777,519,716,492,652,474,623,452,598,436,586,439,582,455,594,478,620,497,650,524,714,539,776,546,825"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1snappyLayerDriver.html#ab5d22de610634a4b1d7160dc1fcbe731" title="Add layers according to the dictionary settings." alt="" coords="253,608,443,648"/>
+<area shape="poly" id="edge13_Node000001_Node000032" title=" " alt="" coords="537,826,527,789,510,745,485,700,452,662,434,650,437,646,455,658,489,697,515,743,532,788,542,825"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1snappySnapDriver.html#aa958f4f6d3063fa318a31ef8d8ba90e4" title=" " alt="" coords="255,672,441,712"/>
+<area shape="poly" id="edge14_Node000001_Node000033" title=" " alt="" coords="531,828,500,776,478,749,452,726,432,714,434,710,455,722,481,745,504,773,536,825"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1polyTopoChange.html#a196fb392355d93acc1507579173d306a" title=" " alt="" coords="261,736,435,776"/>
+<area shape="poly" id="edge15_Node000001_Node000034" title=" " alt="" coords="518,833,487,811,452,790,424,778,426,773,455,785,490,806,521,828"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1polyMeshAdder.html#a4a56041144898b62dd90a030e2143d1a" title="Helper: Merge points." alt="" coords="265,800,431,840"/>
+<area shape="poly" id="edge16_Node000001_Node000035" title=" " alt="" coords="487,845,431,836,432,830,488,840"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1slidingInterface.html#ac05c3f18da75b17c4b6c13757cacbff1" title="Modify motion points to comply with the topological change." alt="" coords="265,864,431,904"/>
+<area shape="poly" id="edge17_Node000001_Node000036" title=" " alt="" coords="488,864,432,873,431,868,487,859"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1fvMeshTools.html#a5a5aeacedb38e24c795395006292ae22" title="Read mesh or create dummy mesh (0 cells, &gt;0 patches)." alt="" coords="271,928,425,968"/>
+<area shape="poly" id="edge18_Node000001_Node000037" title=" " alt="" coords="521,875,490,897,455,918,426,930,424,925,452,913,487,893,518,871"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1RemoveParcels.html#a9f8e6095c3ddcbe1f1c2afcfcf5acfce" title="Post&#45;evolve hook." alt="" coords="265,992,431,1032"/>
+<area shape="poly" id="edge19_Node000001_Node000038" title=" " alt="" coords="536,878,504,931,481,958,455,982,433,994,430,990,452,978,478,955,500,928,531,876"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1fvMeshDistribute.html#a6193a72fc14dacd956ec19240b8c5171" title="Print some info on mesh." alt="" coords="259,1056,437,1096"/>
+<area shape="poly" id="edge20_Node000001_Node000039" title=" " alt="" coords="542,879,532,916,515,961,489,1006,455,1046,437,1058,434,1053,452,1042,485,1003,510,959,527,914,537,877"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1snappySnapDriver.html#abf0c9c836463b6164ef331dce238b2fa" title="Repatch faces according to surface nearest the face centre." alt="" coords="255,1120,441,1160"/>
+<area shape="poly" id="edge21_Node000001_Node000040" title=" " alt="" coords="546,879,539,928,524,990,497,1054,478,1083,455,1110,439,1122,436,1117,452,1106,474,1080,492,1051,519,988,534,927,541,878"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1perfectInterface.html#a7253b581bef08b26159ea0e738a8883a" title="Insert the layer addition/removal instructions." alt="" coords="263,1184,433,1224"/>
+<area shape="poly" id="edge22_Node000001_Node000041" title=" " alt="" coords="548,878,545,938,532,1017,521,1059,504,1101,483,1139,455,1174,435,1188,432,1184,451,1170,478,1136,500,1098,516,1058,527,1016,540,938,543,878"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1meshRefinement.html#a3627b69a66e2af8c2a58d02964a1197f" title="Subset baffles according to zones." alt="" coords="259,1248,437,1288"/>
+<area shape="poly" id="edge23_Node000001_Node000042" title=" " alt="" coords="545,879,534,960,516,1067,489,1169,473,1210,455,1238,439,1251,435,1247,451,1234,469,1207,484,1168,510,1066,529,959,540,878"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1sampledFaceZone.html#aa2aac016e2bf7b5bd2b271786c2791aa" title="Update the surface as required." alt="" coords="256,1312,440,1352"/>
+<area shape="poly" id="edge24_Node000001_Node000044" title=" " alt="" coords="546,878,537,972,520,1098,508,1162,493,1220,476,1268,455,1301,441,1314,437,1310,451,1298,471,1266,488,1219,503,1161,515,1097,532,971,541,878"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1attachDetach.html#ad57565956fd4064299f4bd3c4eebb1d4" title="Force recalculation of locally stored data on topological change." alt="" coords="271,1376,425,1416"/>
+<area shape="poly" id="edge25_Node000001_Node000045" title=" " alt="" coords="547,878,540,984,524,1129,512,1203,497,1271,478,1327,455,1365,442,1377,426,1386,424,1381,439,1373,451,1362,473,1325,492,1269,507,1202,519,1128,534,983,541,878"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1perfectInterface.html#ad57565956fd4064299f4bd3c4eebb1d4" title="Force recalculation of locally stored data on topological change." alt="" coords="263,1440,433,1480"/>
+<area shape="poly" id="edge26_Node000001_Node000046" title=" " alt="" coords="547,878,542,995,528,1160,516,1244,501,1321,481,1385,469,1410,455,1430,435,1446,432,1441,451,1426,464,1407,476,1383,495,1320,511,1243,523,1159,537,995,542,878"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1slidingInterface.html#ad57565956fd4064299f4bd3c4eebb1d4" title="Force recalculation of locally stored data on topological change." alt="" coords="265,1504,431,1544"/>
+<area shape="poly" id="edge27_Node000001_Node000047" title=" " alt="" coords="548,878,544,1007,532,1190,520,1285,504,1372,483,1444,470,1472,455,1494,433,1511,430,1506,451,1490,465,1469,478,1442,499,1371,515,1284,526,1190,539,1006,543,878"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1FaceInteraction.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="265,1568,431,1608"/>
+<area shape="poly" id="edge28_Node000001_Node000048" title=" " alt="" coords="548,878,546,1018,536,1221,524,1326,508,1422,485,1502,471,1533,455,1558,433,1575,430,1571,451,1554,467,1531,480,1500,503,1421,519,1325,530,1221,541,1018,543,878"/>
+<area shape="rect" id="Node000049" href="$classFoam_1_1FacePostProcessing.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="251,1632,445,1672"/>
+<area shape="poly" id="edge29_Node000001_Node000049" title=" " alt="" coords="549,878,549,1029,539,1251,528,1366,512,1472,488,1560,473,1595,455,1621,442,1633,439,1629,451,1618,468,1592,483,1559,506,1471,523,1366,534,1251,543,1028,543,878"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1sampledFaceZone.html#a919f36e933da79049660076a4ae83de0" title="The selected face zones (sorted)" alt="" coords="256,1696,440,1736"/>
+<area shape="poly" id="edge30_Node000001_Node000050" title=" " alt="" coords="547,879,537,1053,519,1308,506,1437,491,1551,475,1637,465,1667,455,1685,442,1698,438,1694,451,1682,460,1665,469,1636,486,1550,501,1436,513,1308,532,1052,541,878"/>
+<area shape="poly" id="edge9_Node000013_Node000002" title=" " alt="" coords="247,306,172,292,173,287,248,301"/>
+<area shape="poly" id="edge10_Node000013_Node000010" title=" " alt="" coords="248,342,195,352,194,346,247,337"/>
+</map>

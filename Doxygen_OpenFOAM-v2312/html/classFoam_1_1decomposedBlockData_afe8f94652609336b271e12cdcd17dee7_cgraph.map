@@ -1,0 +1,24 @@
+<map id="readBlocks" name="readBlocks">
+<area shape="rect" id="Node000001" title="Read data into *this. ISstream is only valid on master." alt="" coords="5,187,100,213"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="150,61,342,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,185,96,145,120,123,147,103,177,88,180,93,149,108,123,127,100,149,66,189"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="392,10,576,35"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="55,186,66,156,84,117,111,77,127,60,147,46,176,31,207,19,272,6,336,3,395,6,394,11,336,8,273,11,208,24,178,36,149,50,131,64,115,81,89,119,71,158,60,188"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="624,61,827,86"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="100,200,212,204,278,202,344,197,462,180,512,167,575,145,637,119,690,91,692,95,639,124,577,150,513,172,463,186,344,203,278,208,212,209,100,206"/>
+<area shape="rect" id="Node000010" href="$faMeshWriteEdgesOBJ_8H.html#abea05d50bd7259b44f2002c0382ba13e" title=" " alt="" coords="465,111,503,137"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="71,185,105,164,147,147,232,129,317,120,393,118,451,119,451,125,393,123,317,125,233,134,149,152,107,169,73,190"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="199,162,293,187"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="100,191,185,180,185,185,101,196"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="148,263,344,289"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="80,210,149,241,191,256,189,261,147,246,78,215"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1decomposedBlockData.html#a11d288a25403d5de4d5135289a8d0a48" title="Helper: read block of (binary) character data." alt="" coords="185,313,307,338"/>
+<area shape="poly" id="edge12_Node000001_Node000015" title=" " alt="" coords="64,211,98,255,122,279,149,299,173,310,171,315,147,304,118,283,94,258,60,214"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="148,362,344,387"/>
+<area shape="poly" id="edge13_Node000001_Node000016" title=" " alt="" coords="61,212,72,240,90,278,116,316,150,349,158,354,155,358,146,353,112,320,86,280,67,243,56,214"/>
+<area shape="poly" id="edge2_Node000002_Node000008" title=" " alt="" coords="306,58,410,36,411,41,307,63"/>
+<area shape="poly" id="edge4_Node000002_Node000009" title=" " alt="" coords="342,71,610,71,610,76,342,76"/>
+<area shape="poly" id="edge5_Node000002_Node000010" title=" " alt="" coords="307,83,452,115,451,120,306,89"/>
+<area shape="poly" id="edge3_Node000008_Node000009" title=" " alt="" coords="546,33,652,55,651,60,545,38"/>
+<area shape="poly" id="edge7_Node000011_Node000010" title=" " alt="" coords="293,162,451,128,452,133,294,167"/>
+</map>

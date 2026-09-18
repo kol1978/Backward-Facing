@@ -1,0 +1,23 @@
+<map id="masterOp" name="masterOp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,156,92,181"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="437,5,531,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,154,85,105,109,78,139,56,174,39,211,27,287,12,360,8,423,9,422,15,361,13,288,18,212,32,176,44,141,60,113,82,89,108,59,157"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1Pstream.html#a5f2c39c18360c2508bad8e3af874ab52" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="140,105,333,131"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="91,155,175,132,177,137,93,160"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="381,55,587,80"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="59,154,92,121,114,104,139,90,196,72,255,61,313,56,368,56,368,61,313,62,255,67,197,77,141,95,117,108,95,125,62,158"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="393,156,575,181"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="92,166,379,166,379,171,92,171"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="635,156,785,181"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="93,172,182,182,305,192,445,196,586,190,642,182,643,187,587,195,445,202,304,197,182,188,92,177"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="145,257,329,283"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="65,179,99,207,141,236,175,250,173,255,139,240,95,212,62,184"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="145,307,329,332"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="58,180,88,235,112,267,142,293,151,299,148,303,138,297,108,270,83,238,53,183"/>
+<area shape="poly" id="edge3_Node000006_Node000002" title=" " alt="" coords="257,103,311,71,380,40,423,27,424,32,382,44,314,76,259,108"/>
+<area shape="poly" id="edge4_Node000006_Node000013" title=" " alt="" coords="299,103,407,80,408,85,300,108"/>
+<area shape="poly" id="edge5_Node000006_Node000011" title=" " alt="" coords="300,128,408,151,407,156,299,133"/>
+<area shape="poly" id="edge8_Node000006_Node000012" title=" " alt="" coords="334,119,455,127,587,141,642,150,641,156,586,146,454,132,333,124"/>
+<area shape="poly" id="edge6_Node000011_Node000012" title=" " alt="" coords="575,166,621,166,621,171,575,171"/>
+<area shape="poly" id="edge7_Node000012_Node000012" title=" " alt="" coords="673,158,666,148,670,138,685,132,710,129,742,133,754,143,750,147,740,138,710,135,686,137,673,142,671,147,678,154"/>
+</map>

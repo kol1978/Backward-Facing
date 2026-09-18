@@ -1,0 +1,17 @@
+<map id="PDRobstacle" name="PDRobstacle">
+<area shape="rect" id="Node000001" title="Obstacle definitions for PDR." alt="" coords="287,5,391,31"/>
+<area shape="rect" id="Node000002" href="$structFoam_1_1PDRobstacles_1_1cuboid.html" title="A cuboid, selectable as box." alt="" coords="5,79,71,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,36,84,81,71,84,70,79,83,76,275,31"/>
+<area shape="rect" id="Node000003" href="$structFoam_1_1PDRobstacles_1_1cylinder.html" title="A cylinder, selectable as cyl or cylinder." alt="" coords="95,79,170,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,38,167,81,165,76,292,33"/>
+<area shape="rect" id="Node000004" href="$structFoam_1_1PDRobstacles_1_1diagbeam.html" title="A diagonal beam, which is cylinder&#45;like, selectable as diag or diagbeam." alt="" coords="195,79,281,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="313,41,256,81,253,76,310,36"/>
+<area shape="rect" id="Node000005" href="$structFoam_1_1PDRobstacles_1_1grating.html" title="A grating, selectable as grate or grating." alt="" coords="305,79,373,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="342,44,342,79,337,79,337,44"/>
+<area shape="rect" id="Node000006" href="$structFoam_1_1PDRobstacles_1_1louver.html" title="Louver blowoff, selectable as louver or louvre." alt="" coords="397,79,460,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="366,37,416,76,412,81,363,41"/>
+<area shape="rect" id="Node000007" href="$structFoam_1_1PDRobstacles_1_1patch.html" title="Rectangular patch, selectable as patch." alt="" coords="485,79,543,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="381,33,486,76,484,81,379,38"/>
+<area shape="rect" id="Node000008" href="$structFoam_1_1PDRobstacles_1_1wallbeam.html" title="A wallbeam, selectable as wallbeam which is currently identical to a box (PDRobstacles::cuboid)" alt="" coords="568,79,655,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="397,32,568,76,567,81,395,37"/>
+</map>

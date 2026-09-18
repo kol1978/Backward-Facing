@@ -1,0 +1,21 @@
+<map id="schedule" name="schedule">
+<area shape="rect" id="Node000001" title="Calculate a communication schedule. See above." alt="" coords="5,161,85,187"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="140,60,332,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,159,90,131,132,102,168,87,170,92,135,107,93,135,61,163"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="387,9,571,35"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="49,160,59,135,77,103,101,71,132,45,162,30,194,19,260,6,326,3,385,5,385,11,326,8,261,12,195,24,164,35,135,50,105,74,81,106,64,137,54,162"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="619,60,821,85"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="85,159,133,146,258,123,385,104,605,80,605,85,386,110,259,128,134,151,86,164"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="133,161,339,187"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="86,171,120,171,120,177,86,177"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="388,261,569,287"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="86,183,134,197,275,230,400,256,399,261,273,235,133,202,85,189"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="144,263,328,288"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="61,185,93,213,135,241,170,256,168,261,132,246,90,217,58,189"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="138,312,334,337"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="54,186,83,241,106,272,135,299,144,304,141,309,132,303,102,276,78,244,49,188"/>
+<area shape="poly" id="edge2_Node000002_Node000008" title=" " alt="" coords="297,57,403,35,405,40,298,63"/>
+<area shape="poly" id="edge4_Node000002_Node000009" title=" " alt="" coords="332,70,605,70,605,75,332,75"/>
+<area shape="poly" id="edge3_Node000008_Node000009" title=" " alt="" coords="541,32,646,55,645,60,540,38"/>
+<area shape="poly" id="edge11_Node000013_Node000006" title=" " alt="" coords="297,309,403,287,405,292,298,315"/>
+</map>

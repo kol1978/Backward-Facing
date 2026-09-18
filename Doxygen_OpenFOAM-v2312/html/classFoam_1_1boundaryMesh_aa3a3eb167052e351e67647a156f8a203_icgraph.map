@@ -1,0 +1,63 @@
+<map id="mesh" name="mesh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="316,827,375,853"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cyclicAMIPolyPatch.html#a27c3e70624127312442dcf9ce98f75e9" title="Collect faces to add in the topoChange container." alt="" coords="41,5,232,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,813,334,648,320,408,310,288,298,182,283,102,275,75,266,59,250,46,231,36,234,31,253,41,270,56,280,73,288,101,303,181,316,287,326,408,339,648,346,813"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1faPatch.html#a619f9660b41a4c0f7942da7404882f65" title="List of proc/face for the boundary edge neighbours in locally reordered edge numbering." alt="" coords="5,70,268,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="340,814,334,658,320,433,309,321,297,222,283,148,274,123,266,108,253,97,256,93,270,105,279,121,288,146,302,222,315,320,325,433,339,658,346,814"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1faPatch.html#ab831dd2939b9a8ec48fe11a7d083d48a" title="Boundary edge neighbour processors (does not include own proc)" alt="" coords="27,119,246,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,813,333,667,318,459,295,264,281,195,274,173,266,159,245,143,248,139,270,156,279,170,287,194,301,263,323,458,338,667,346,813"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1faPatch.html#ad01455410199aba24ff4768f18b4d91e" title="List of proc/size for the boundary edge neighbour processors (does not include own proc)" alt="" coords="31,169,242,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="342,814,342,689,334,511,325,420,311,337,292,269,280,243,266,223,241,205,244,200,270,219,284,240,297,267,316,336,330,420,339,511,347,689,347,814"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1cyclicAMIPolyPatch.html#a35f3363a8c6ec00595238f834e756085" title="Flag to indicate whether the AMI can be reset." alt="" coords="41,233,232,273"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="341,813,340,700,330,542,321,461,307,388,289,328,278,305,266,287,250,274,231,265,233,260,253,269,270,284,283,302,294,326,313,387,326,460,335,541,345,700,347,813"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1fvPatch.html#accde3bfd6f67a9d6a201edbcbbe12a19" title="Return face centres." alt="" coords="69,298,205,323"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="341,814,338,710,328,566,318,494,305,427,288,374,266,338,253,327,238,320,204,311,206,306,240,315,256,323,270,334,293,372,310,426,324,493,333,566,344,709,347,814"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1processorFaPatch.html#a8227649c3336137f85ffcd59ac7b753e" title="Return communicator used for communication." alt="" coords="47,348,226,388"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="340,814,335,721,323,598,313,535,301,479,285,433,266,402,247,387,225,378,227,373,250,383,270,398,290,431,306,477,318,534,328,597,341,721,346,813"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1processorPolyPatch.html#a8bdf05e14c00281ba14f0e1e24c2dd58" title="Return communicator used for communication." alt="" coords="41,412,233,452"/>
+<area shape="poly" id="edge8_Node000001_Node000019" title=" " alt="" coords="340,814,333,734,319,630,297,530,283,492,266,466,250,453,232,444,234,439,253,449,270,462,287,489,302,529,324,629,338,734,345,814"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1cyclicAMIFvPatch.html#a6cba23fc88759866538bd49a1bdbc3e7" title="Return true if this patch is coupled. This is equivalent to the coupledPolyPatch::coupled() if parall..." alt="" coords="47,476,226,516"/>
+<area shape="poly" id="edge9_Node000001_Node000023" title=" " alt="" coords="338,814,329,747,314,662,293,581,280,550,266,530,247,516,225,506,227,502,250,511,270,526,285,548,298,580,319,660,335,746,344,814"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1cyclicAMIPointPatch.html#a6cba23fc88759866538bd49a1bdbc3e7" title="Return true if this patch field is coupled." alt="" coords="39,540,235,580"/>
+<area shape="poly" id="edge10_Node000001_Node000026" title=" " alt="" coords="341,813,338,766,326,707,304,646,287,618,266,594,251,583,234,574,236,569,254,578,270,590,291,615,309,643,332,705,343,765,347,813"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1faPatch.html#ae7fa6a37605868b9c425d10de6415f00" title="Return patch edge &#45; neighbour face distances." alt="" coords="39,605,235,630"/>
+<area shape="poly" id="edge11_Node000001_Node000027" title=" " alt="" coords="339,814,333,775,320,729,299,682,284,661,266,643,234,626,237,621,270,639,288,658,303,679,325,727,338,774,345,813"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1fvPatch.html#ae7fa6a37605868b9c425d10de6415f00" title="Return the face &#45; cell distance coefficient except for coupled patches for which the cell&#45;centre to c..." alt="" coords="39,654,235,679"/>
+<area shape="poly" id="edge12_Node000001_Node000028" title=" " alt="" coords="336,815,327,785,313,752,293,720,266,693,234,677,236,672,270,689,297,716,317,750,332,784,341,813"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1faPatch.html#ab3e6dee6f4d54786a291a52e00d0ca81" title="Return edge centres." alt="" coords="35,703,239,729"/>
+<area shape="poly" id="edge13_Node000001_Node000029" title=" " alt="" coords="330,816,304,777,287,758,267,742,238,729,240,724,269,738,290,754,308,774,334,813"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1faPatch.html#a8458f962a27fd0877adff0296fffa40d" title="Return edge length vectors, like the faMesh::Le() method." alt="" coords="34,753,239,778"/>
+<area shape="poly" id="edge14_Node000001_Node000030" title=" " alt="" coords="317,821,293,805,267,792,232,781,233,776,269,787,296,801,320,817"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1faPatch.html#a6b82125e223e9706b29e87f9aa8ebca3" title="Return edge length magnitudes, like the faMesh::magLe() method." alt="" coords="19,802,254,827"/>
+<area shape="poly" id="edge15_Node000001_Node000031" title=" " alt="" coords="302,838,241,830,242,825,303,832"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1fvPatch.html#a9a7c95d3e0cb6fd08cd82a30b92ec106" title="Return face area magnitudes, like the fvMesh::magSf() method." alt="" coords="55,851,219,877"/>
+<area shape="poly" id="edge16_Node000001_Node000032" title=" " alt="" coords="303,847,219,857,218,852,302,842"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1processorFaPatch.html#a5e1b50bcf47cc8880e10c846d4eca5dd" title="Find non&#45;globa patch points." alt="" coords="32,901,241,941"/>
+<area shape="poly" id="edge17_Node000001_Node000033" title=" " alt="" coords="317,863,269,890,232,904,230,899,267,886,315,858"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1cyclicACMIFvPatch.html#a6515a3b20e9603401422337166c347f2" title="Correct patches after moving points." alt="" coords="43,965,231,1005"/>
+<area shape="poly" id="edge18_Node000001_Node000034" title=" " alt="" coords="336,867,310,912,292,936,269,956,232,974,230,969,267,951,288,932,306,909,331,864"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1cyclicAMIFvPatch.html#a6515a3b20e9603401422337166c347f2" title="Correct patches after moving points." alt="" coords="47,1029,226,1069"/>
+<area shape="poly" id="edge19_Node000001_Node000035" title=" " alt="" coords="343,867,335,902,321,943,300,984,270,1019,250,1033,227,1042,225,1037,247,1028,266,1015,296,981,316,941,330,900,338,866"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1faPatch.html#a6e21bd36f5847584ee4ea8245c86b262" title="Return normals of neighbour polyPatch faces." alt="" coords="32,1093,241,1133"/>
+<area shape="poly" id="edge20_Node000001_Node000036" title=" " alt="" coords="346,866,342,913,331,971,308,1031,291,1059,270,1083,243,1101,240,1096,266,1079,287,1056,303,1029,326,970,337,912,341,866"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1cyclicACMIPolyPatch.html#ad21338130d56ecbd066e4e633b4899e8" title="Reset the AMI interpolator, supply patch points." alt="" coords="37,1157,237,1197"/>
+<area shape="poly" id="edge21_Node000001_Node000037" title=" " alt="" coords="344,867,334,933,319,1017,298,1095,285,1126,270,1147,239,1168,236,1163,266,1143,280,1123,292,1094,314,1015,329,932,338,866"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1cyclicAMIPolyPatch.html#ad21338130d56ecbd066e4e633b4899e8" title="Reset the AMI interpolator, supply patch points." alt="" coords="41,1221,232,1261"/>
+<area shape="poly" id="edge22_Node000001_Node000038" title=" " alt="" coords="345,867,337,946,323,1048,301,1146,287,1185,270,1211,253,1225,233,1234,231,1229,250,1220,266,1208,282,1182,296,1145,318,1048,332,945,339,866"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1cyclicACMIPolyPatch.html#a15bd053a5270123a78998db1851225b3" title="Scale patch face areas to maintain physical area." alt="" coords="37,1285,237,1325"/>
+<area shape="poly" id="edge23_Node000001_Node000039" title=" " alt="" coords="346,867,340,958,328,1080,318,1141,305,1197,289,1243,270,1275,255,1288,238,1296,236,1292,252,1283,266,1272,285,1241,300,1196,313,1140,322,1079,335,957,340,867"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1cyclicACMIPolyPatch.html#a7baf66ef91d29d9840434915b1c1e721" title="Scale patch face areas to maintain physical area." alt="" coords="37,1349,237,1389"/>
+<area shape="poly" id="edge24_Node000001_Node000040" title=" " alt="" coords="346,866,343,969,332,1111,322,1182,309,1248,292,1302,270,1339,255,1352,239,1361,236,1356,252,1347,266,1336,287,1300,304,1247,317,1182,327,1110,338,969,341,866"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1fvPatch.html#af93b93b841156265e8007a71b07f4ab4" title="Return face area vectors, like the fvMesh::Sf() method." alt="" coords="69,1414,204,1439"/>
+<area shape="poly" id="edge25_Node000001_Node000041" title=" " alt="" coords="347,867,346,982,337,1142,327,1225,314,1299,295,1361,283,1385,270,1403,256,1415,240,1423,205,1431,203,1426,238,1418,253,1410,266,1400,279,1382,290,1359,309,1298,322,1224,332,1142,340,981,342,867"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1faPatch.html#afe56bdd2031bbf8321e35e2330c0b990" title="Patch start in edge list." alt="" coords="61,1463,213,1489"/>
+<area shape="poly" id="edge26_Node000001_Node000042" title=" " alt="" coords="347,866,348,990,340,1166,331,1256,317,1338,297,1406,284,1432,270,1453,244,1471,214,1480,212,1474,242,1466,266,1449,280,1430,292,1404,312,1337,326,1255,335,1165,342,990,342,866"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1cyclicAMIPolyPatch.html#a9f816d46870e7842532ae562aa6ff1d6" title="Create and return pointer to the projection surface." alt="" coords="41,1513,232,1553"/>
+<area shape="poly" id="edge27_Node000001_Node000045" title=" " alt="" coords="345,867,337,1008,322,1209,299,1397,286,1464,270,1502,253,1516,234,1526,231,1521,250,1512,266,1498,281,1463,294,1397,316,1209,332,1008,340,866"/>
+<area shape="rect" id="Node000046" href="$classFoam_1_1cyclicACMIPolyPatch.html#ae28d47d467601f08c1f54b67937f1c99" title="Update the AMI and patch areas. Return true if anything." alt="" coords="37,1577,237,1617"/>
+<area shape="poly" id="edge28_Node000001_Node000046" title=" " alt="" coords="346,866,338,1020,324,1242,301,1451,287,1526,279,1551,270,1567,255,1580,238,1589,236,1585,252,1576,266,1564,274,1549,282,1524,296,1450,319,1242,333,1020,340,866"/>
+<area shape="rect" id="Node000047" href="$classFoam_1_1faPatch.html#a9df29dd3da8e7d332ca135dce0cffa58" title="Return patch weighting factors." alt="" coords="50,1642,223,1667"/>
+<area shape="poly" id="edge29_Node000001_Node000047" title=" " alt="" coords="346,867,340,1033,327,1276,317,1398,304,1505,289,1586,280,1614,270,1631,249,1647,224,1656,222,1651,246,1642,266,1628,275,1612,284,1585,299,1504,311,1397,321,1275,335,1033,341,867"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1fvPatch.html#a9df29dd3da8e7d332ca135dce0cffa58" title="Return patch weighting factors." alt="" coords="50,1691,223,1717"/>
+<area shape="poly" id="edge30_Node000001_Node000048" title=" " alt="" coords="346,866,341,1042,328,1300,318,1430,306,1545,290,1632,280,1662,270,1680,249,1697,224,1706,222,1701,246,1692,266,1677,276,1660,285,1631,300,1544,313,1430,323,1300,336,1041,341,866"/>
+</map>

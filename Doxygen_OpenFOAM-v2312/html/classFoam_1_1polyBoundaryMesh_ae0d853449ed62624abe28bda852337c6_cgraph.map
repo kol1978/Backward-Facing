@@ -1,0 +1,23 @@
+<map id="checkParallelSync" name="checkParallelSync">
+<area shape="rect" id="Node000001" title="Check whether all procs have all patches and in same order." alt="" coords="5,220,144,245"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="237,5,331,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,219,91,183,114,135,147,85,167,61,191,41,222,25,224,30,193,46,171,65,151,88,119,138,96,186,83,221"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1globalIndex.html#a75482eae7e41c5ccd2c3600605e760d6" title="Collect data in processor order on master (== procIDs[0])." alt="" coords="209,55,359,95"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="84,218,127,168,157,138,190,112,213,99,215,103,194,116,160,142,130,172,88,222"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="424,92,575,117"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="90,218,134,186,191,156,246,137,303,124,410,108,410,113,304,129,248,142,193,160,136,191,93,222"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="192,171,376,196"/>
+<area shape="poly" id="edge5_Node000001_Node000016" title=" " alt="" coords="129,217,216,197,217,202,130,223"/>
+<area shape="rect" id="Node000017" href="$checkFaMesh_2faMeshWriteVTK_8H.html#a9c9bafa7fd71546b5fb88915ec97b9cb" title=" " alt="" coords="244,220,324,245"/>
+<area shape="poly" id="edge6_Node000001_Node000017" title=" " alt="" coords="144,230,230,230,230,235,144,235"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1globalIndex.html#a0d87a899e949fd7489468a6abc4bc979" title="Return start/size range of proci data." alt="" coords="209,270,359,310"/>
+<area shape="poly" id="edge7_Node000001_Node000018" title=" " alt="" coords="123,243,198,264,197,269,121,248"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="207,335,361,360"/>
+<area shape="poly" id="edge8_Node000001_Node000019" title=" " alt="" coords="91,244,134,281,193,320,212,328,210,333,191,324,131,285,87,248"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a2e469ccb2cea405f7ddd435d8de00ceb" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="200,384,368,409"/>
+<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="85,244,126,305,157,339,193,369,207,376,204,381,191,374,153,343,122,308,81,247"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1globalIndex.html#a88c8f619ee7fb282189feff3ee234e26" title="Range of process indices for addressed sub&#45;offsets (processes)" alt="" coords="209,434,359,474"/>
+<area shape="poly" id="edge11_Node000001_Node000024" title=" " alt="" coords="83,245,97,279,120,326,153,375,194,419,202,425,199,429,190,423,148,379,116,328,92,281,78,247"/>
+<area shape="poly" id="edge3_Node000006_Node000013" title=" " alt="" coords="360,83,411,90,410,95,359,88"/>
+<area shape="poly" id="edge4_Node000013_Node000013" title=" " alt="" coords="464,94,457,84,461,74,475,68,499,65,529,69,541,78,538,82,527,74,499,71,477,73,465,78,462,83,469,90"/>
+</map>

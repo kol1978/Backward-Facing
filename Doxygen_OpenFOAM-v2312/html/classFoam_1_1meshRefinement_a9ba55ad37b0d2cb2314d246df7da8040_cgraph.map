@@ -1,0 +1,23 @@
+<map id="checkCoupledFaceZones" name="checkCoupledFaceZones">
+<area shape="rect" id="Node000001" title="Helper function: check that face zones are synced." alt="" coords="5,200,188,226"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="558,26,658,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,199,118,164,146,117,185,71,209,51,235,35,274,19,316,9,358,4,400,3,480,9,547,20,546,25,480,14,400,8,358,9,317,15,276,24,237,40,212,55,189,74,150,120,122,166,106,201"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="247,50,458,75"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="107,198,159,147,195,118,235,92,272,77,274,82,237,97,198,122,162,151,111,202"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="517,75,699,100"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="115,198,168,167,235,137,304,119,374,105,503,90,504,95,375,110,305,124,237,142,170,172,118,203"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="307,151,398,176"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="163,198,293,172,294,178,164,203"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1polyMesh.html#a091fab9ec32116ddc2f5fb0a802306bc" title="Return face zone mesh." alt="" coords="250,200,455,226"/>
+<area shape="poly" id="edge6_Node000001_Node000024" title=" " alt="" coords="188,210,236,210,236,216,188,216"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="250,250,455,275"/>
+<area shape="poly" id="edge7_Node000001_Node000014" title=" " alt="" coords="164,223,273,245,272,250,163,228"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1primitiveMesh.html#a1b455e2e91a2eb72ec21ab1832fec664" title="Number of boundary faces (== nFaces &#45; nInternalFaces)" alt="" coords="273,300,433,340"/>
+<area shape="poly" id="edge8_Node000001_Node000025" title=" " alt="" coords="120,224,172,254,237,285,261,294,259,299,235,290,169,259,117,228"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="273,364,433,404"/>
+<area shape="poly" id="edge9_Node000001_Node000026" title=" " alt="" coords="109,224,159,285,196,320,237,349,260,361,258,365,235,354,192,324,155,288,105,228"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1syncTools.html#ab59012dece791b34a5780b0771f8c9b5" title="Swap coupled boundary face values. Uses eqOp." alt="" coords="236,428,469,468"/>
+<area shape="poly" id="edge11_Node000001_Node000027" title=" " alt="" coords="105,225,122,262,150,313,189,368,212,392,238,414,246,419,243,424,234,418,208,396,185,371,146,316,117,265,100,227"/>
+<area shape="poly" id="edge3_Node000004_Node000002" title=" " alt="" coords="458,50,544,42,545,47,458,55"/>
+<area shape="poly" id="edge4_Node000004_Node000012" title=" " alt="" coords="458,70,504,75,503,80,458,76"/>
+</map>

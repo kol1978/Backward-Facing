@@ -1,0 +1,30 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,172,167"/>
+<area shape="rect" id="Node000001" href="$classFoam_1_1MeshObject.html" title=" " alt="" coords="230,40,409,95"/>
+<area shape="poly" id="edge4813_Node000000_Node000001" title=" " alt="" coords="135,134,245,92,247,97,137,139"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1MeshObject.html" title=" " alt="" coords="221,119,418,189"/>
+<area shape="poly" id="edge4821_Node000000_Node000009" title=" " alt="" coords="186,151,220,151,220,157,186,157"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1MeshObject.html" title=" " alt="" coords="220,263,419,317"/>
+<area shape="poly" id="edge4823_Node000000_Node000013" title=" " alt="" coords="116,174,164,211,221,249,243,260,241,265,219,254,161,215,113,178"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1GAMGAgglomeration.html" title="Geometric agglomerated algebraic multigrid agglomeration class." alt="" coords="484,55,643,80"/>
+<area shape="poly" id="edge4814_Node000001_Node000002" title=" " alt="" coords="422,65,484,65,484,70,422,70"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1MGridGenGAMGAgglomeration.html" title="Agglomerate using the MGridGen algorithm." alt="" coords="708,5,932,31"/>
+<area shape="poly" id="edge4815_Node000002_Node000003" title=" " alt="" coords="643,49,753,28,754,33,644,55"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1dummyAgglomeration.html" title="Agglomerate without combining cells. Used for testing." alt="" coords="736,55,904,80"/>
+<area shape="poly" id="edge4816_Node000002_Node000004" title=" " alt="" coords="656,65,736,65,736,70,656,70"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1pairGAMGAgglomeration.html" title="Agglomerate using the pair algorithm." alt="" coords="728,104,912,129"/>
+<area shape="poly" id="edge4817_Node000002_Node000005" title=" " alt="" coords="644,80,754,101,753,107,643,85"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1algebraicPairGAMGAgglomeration.html" title="Agglomerate using the pair algorithm." alt="" coords="1011,55,1254,80"/>
+<area shape="poly" id="edge4818_Node000005_Node000006" title=" " alt="" coords="914,99,980,89,1051,77,1052,83,980,94,915,104"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1assemblyFaceAreaPairGAMGAgglomeration.html" title="Agglomerate using the pair algorithm." alt="" coords="980,104,1285,129"/>
+<area shape="poly" id="edge4819_Node000005_Node000007" title=" " alt="" coords="926,114,980,114,980,119,926,119"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1faceAreaPairGAMGAgglomeration.html" title="Agglomerate using the pair algorithm." alt="" coords="1012,153,1253,179"/>
+<area shape="poly" id="edge4820_Node000005_Node000008" title=" " alt="" coords="915,129,1052,151,1051,156,914,134"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1meshSearchFACE__CENTRE__TRISMeshObject.html" title="MeshObject wrapper around meshSearch(mesh, &#160;polyMesh::FACE_CENTRE_TRIS)." alt="" coords="467,177,660,217"/>
+<area shape="poly" id="edge4822_Node000009_Node000010" title=" " alt="" coords="432,171,467,177,466,182,431,176"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1meshSearchMeshObject.html" title="MeshObject wrapper around meshSearch(mesh)." alt="" coords="474,244,653,269"/>
+<area shape="poly" id="edge4824_Node000013_Node000012" title=" " alt="" coords="432,272,473,266,474,272,432,277"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1meshSearch.html" title="Various (local, not parallel) searches on polyMesh; uses (demand driven) octree to search." alt="" coords="268,213,371,239"/>
+<area shape="poly" id="edge4825_Node000011_Node000010" title=" " alt="" coords="384,216,466,206,467,211,384,221"/>
+<area shape="poly" id="edge4826_Node000011_Node000012" title=" " alt="" coords="384,231,474,243,474,248,384,237"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="readBlocks" name="readBlocks">
+<area shape="rect" id="Node000001" title="Read master header information (into headerIO) and return data in stream. Note: isPtr is only valid o..." alt="" coords="5,264,100,289"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="152,164,344,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,262,99,230,147,198,164,191,166,196,149,203,103,234,68,266"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="396,64,580,89"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="54,263,63,229,80,183,107,137,125,116,147,100,177,83,210,71,278,57,346,55,407,59,406,65,346,60,279,63,211,76,179,88,149,104,129,120,112,140,85,186,68,230,59,264"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="628,89,831,114"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="52,263,59,222,74,165,86,135,102,107,122,81,146,60,180,40,215,25,252,14,290,7,367,3,445,10,519,24,586,43,689,81,687,86,584,48,517,30,444,15,367,9,290,12,253,19,217,30,182,45,150,64,126,85,106,110,91,138,79,167,64,223,58,264"/>
+<area shape="rect" id="Node000010" href="$faMeshWriteEdgesOBJ_8H.html#abea05d50bd7259b44f2002c0382ba13e" title=" " alt="" coords="469,216,507,241"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="100,271,213,262,348,248,455,232,455,237,348,254,214,268,101,276"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Pstream.html#afa7a0d461e6372ade669201afce0e1c3" title="Broadcast multiple items to all communicator ranks. Does nothing in non&#45;parallel." alt="" coords="149,114,347,140"/>
+<area shape="poly" id="edge6_Node000001_Node000011" title=" " alt="" coords="58,262,90,207,115,175,146,149,157,143,160,148,150,153,119,179,94,210,62,265"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1IOstreamOption_1_1versionNumber.html#aa9e0830726be1cc81ffd18540e668e61" title="From version to canonical integer value." alt="" coords="148,314,348,354"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="98,287,167,307,166,312,96,292"/>
+<area shape="rect" id="Node000015" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="201,213,295,238"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="99,262,187,239,188,244,101,267"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="203,378,293,404"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="66,288,100,326,124,346,149,363,190,379,188,384,147,368,120,350,97,329,62,291"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="150,428,346,453"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="61,288,92,349,117,385,150,414,158,420,156,424,146,419,113,388,87,352,56,290"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1decomposedBlockData.html#a11d288a25403d5de4d5135289a8d0a48" title="Helper: read block of (binary) character data." alt="" coords="187,477,309,502"/>
+<area shape="poly" id="edge18_Node000001_Node000021" title=" " alt="" coords="59,289,68,324,85,372,112,422,129,444,150,464,175,478,173,482,146,468,125,448,107,424,80,374,63,326,54,290"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="150,526,346,552"/>
+<area shape="poly" id="edge19_Node000001_Node000022" title=" " alt="" coords="58,289,64,333,79,393,106,458,126,488,150,513,155,517,152,522,146,517,122,491,102,461,74,395,59,334,52,290"/>
+<area shape="poly" id="edge2_Node000002_Node000008" title=" " alt="" coords="308,161,347,149,404,122,454,94,456,99,407,127,349,154,309,166"/>
+<area shape="poly" id="edge4_Node000002_Node000009" title=" " alt="" coords="331,161,633,114,634,119,331,166"/>
+<area shape="poly" id="edge5_Node000002_Node000010" title=" " alt="" coords="308,187,456,219,454,224,307,192"/>
+<area shape="poly" id="edge3_Node000008_Node000009" title=" " alt="" coords="581,83,615,87,614,92,580,89"/>
+<area shape="poly" id="edge7_Node000011_Node000008" title=" " alt="" coords="309,112,414,89,415,94,310,117"/>
+<area shape="poly" id="edge8_Node000011_Node000009" title=" " alt="" coords="347,119,614,105,614,110,347,125"/>
+<area shape="poly" id="edge9_Node000011_Node000010" title=" " alt="" coords="314,137,349,149,408,177,459,207,456,211,406,182,347,154,312,142"/>
+<area shape="poly" id="edge12_Node000015_Node000010" title=" " alt="" coords="296,224,455,225,455,231,296,229"/>
+</map>

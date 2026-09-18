@@ -1,0 +1,24 @@
+<map id="gather" name="gather">
+<area shape="rect" id="Node000001" title="Collect data in processor order on master (== procIDs[0])." alt="" coords="5,227,69,252"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UList.html#a4a557503c0b752dd1bd74295f499129f" title="Access last element of the list, position [size()&#45;1]." alt="" coords="161,5,300,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,226,43,189,55,139,79,85,95,61,116,40,147,23,150,28,119,44,99,64,83,88,60,140,48,190,42,227"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="147,79,314,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="41,225,66,171,88,139,116,113,133,103,136,108,119,117,92,143,71,173,45,228"/>
+<area shape="rect" id="Node000004" href="$checkFaMesh_2faMeshWriteVTK_8H.html#a84170cc7d8eb5006696cb3dd274bf8d2" title=" " alt="" coords="211,128,250,153"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="46,225,75,193,116,162,158,147,198,140,198,145,159,152,119,167,79,197,50,228"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="128,177,333,203"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="69,226,117,211,151,203,152,208,118,217,70,231"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1UPstream.html#a1e96cf32256feb7e8a1808a973a3e9a0" title="Number of outstanding requests (on the internal list of requests)" alt="" coords="127,227,334,252"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="70,237,113,237,113,242,70,242"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UIPstream.html#aa25ad5b49954a586d9226dbe6160d671" title="Read buffer contents from given processor." alt="" coords="145,276,316,301"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="70,247,118,261,157,270,155,275,117,266,69,252"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="155,349,306,375"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="52,250,81,280,119,310,180,342,178,347,116,315,77,284,48,254"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#acd6ccb9cf5a7b0742fda41bf9a0deee6" title="Wait for all requests to finish." alt="" coords="117,423,344,448"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="45,251,70,314,91,351,119,384,144,402,171,415,169,420,141,407,116,388,87,354,65,316,40,253"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UOPstream.html#a1806b40e1831eba4739420717305af79" title="Write buffer contents to given processor." alt="" coords="140,472,321,497"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="42,252,46,292,58,348,81,407,98,434,119,457,129,465,126,469,116,461,94,437,76,410,52,349,41,293,37,252"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="199,80,192,70,196,60,209,54,231,52,257,56,268,64,265,68,255,60,231,57,210,59,200,64,197,70,203,77"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="199,351,192,341,196,331,209,325,231,323,257,326,268,335,265,339,255,331,231,328,210,330,200,335,197,340,203,348"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="199,424,192,414,196,404,209,398,231,396,257,400,268,408,265,412,255,404,231,401,210,403,200,408,197,414,203,421"/>
+</map>

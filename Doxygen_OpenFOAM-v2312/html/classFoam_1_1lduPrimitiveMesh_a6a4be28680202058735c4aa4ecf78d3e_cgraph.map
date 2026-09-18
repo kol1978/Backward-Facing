@@ -1,0 +1,46 @@
+<map id="gather" name="gather">
+<area shape="rect" id="Node000001" title="Gather meshes from other processors using agglomComm." alt="" coords="5,468,69,493"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvMesh.html#a8bdf05e14c00281ba14f0e1e24c2dd58" title="Return communicator used for parallel communication." alt="" coords="137,5,300,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,468,41,383,54,254,64,187,77,126,94,75,115,40,124,33,127,37,119,44,99,77,83,127,69,188,59,255,47,383,42,468"/>
+<area shape="rect" id="Node000004" href="$solvers_2multiphase_2interCondensatingEvaporatingFoam_2createFields_8H.html#a1ac3353adf86d9131595f78a1131d352" title=" " alt="" coords="179,55,259,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="37,468,43,391,57,277,80,164,96,120,115,89,138,74,164,66,165,72,140,79,119,93,101,122,86,166,62,278,48,391,42,468"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fvMesh.html#a20477f4d4a6c680f9e7b7c1cdd7fd31e" title="Return a list of pointers for each patch." alt="" coords="125,104,312,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="37,468,45,400,60,301,83,203,98,165,115,139,119,135,123,139,119,142,103,167,88,205,65,302,50,400,42,468"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fvMesh.html#a34272ff26844ff8137cf0a5ac5c98227" title="Return ldu addressing." alt="" coords="133,153,305,179"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="35,467,36,416,44,341,54,301,68,260,89,222,115,189,122,184,125,188,119,193,93,225,73,262,59,302,50,342,41,416,41,467"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1lduAddressing.html#aacee3c9bd96722c40148d5f08eaa1601" title="Return lower addressing." alt="" coords="139,203,298,243"/>
+<area shape="poly" id="edge5_Node000001_Node000011" title=" " alt="" coords="37,468,42,428,55,373,78,313,95,285,115,260,130,248,133,252,119,264,99,288,83,316,60,375,48,429,42,468"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="127,319,311,344"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="41,467,66,412,88,380,116,353,125,348,128,352,119,357,92,383,71,414,45,469"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="368,293,571,319"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="37,467,43,433,56,387,79,341,96,320,116,304,152,285,192,273,232,267,274,266,352,273,417,287,415,292,351,278,273,271,233,272,193,278,154,290,119,308,100,324,84,344,61,389,48,434,43,468"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="121,368,317,393"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="46,466,75,434,116,402,130,396,132,401,119,407,79,438,50,470"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1GAMGInterface.html#a9d64f73698c79b37460797ed20977575" title="Return a pointer to a new interface created on freestore given." alt="" coords="117,417,320,443"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="69,469,159,444,160,449,70,475"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="379,519,560,544"/>
+<area shape="poly" id="edge11_Node000001_Node000020" title=" " alt="" coords="43,493,48,527,61,572,84,617,100,636,119,652,145,667,170,676,193,681,215,681,263,671,319,652,358,632,394,606,447,553,451,557,397,610,361,637,321,656,264,676,216,686,192,686,168,681,143,672,116,656,96,640,79,620,56,574,43,528,37,494"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="619,493,769,519"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="70,479,605,500,605,505,70,485"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a49cd0eaefc1c73a282b3f6f81ee1a35f" title="Parse entire buffer as a label, skipping leading/trailing whitespace." alt="" coords="153,568,284,593"/>
+<area shape="poly" id="edge14_Node000001_Node000022" title=" " alt="" coords="51,492,79,523,119,553,141,563,139,568,116,558,76,527,47,496"/>
+<area shape="rect" id="Node000024" href="$namespaceFoam.html#a0b18ffad13f9e7e1ae8e921f396c51f5" title="A dynamic_cast (for references). Generates a FatalError on failed casts and uses the virtual type() m..." alt="" coords="162,617,275,643"/>
+<area shape="poly" id="edge15_Node000001_Node000024" title=" " alt="" coords="45,492,71,546,92,577,119,602,150,618,147,622,116,607,88,580,66,549,41,495"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="151,719,286,744"/>
+<area shape="poly" id="edge16_Node000001_Node000027" title=" " alt="" coords="42,493,47,533,59,588,82,646,99,674,119,697,140,712,137,716,116,701,94,677,77,649,54,589,42,534,37,494"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1UPtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="397,800,542,825"/>
+<area shape="poly" id="edge18_Node000001_Node000028" title=" " alt="" coords="42,493,47,571,59,686,69,745,83,798,99,841,119,868,156,890,198,899,242,900,286,892,330,879,370,863,435,830,437,835,372,868,331,884,287,897,242,905,197,905,154,895,116,872,94,843,78,800,64,746,54,687,41,572,37,494"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1PtrList.html#a69101c7616426ea26b33577a730b73e8" title="Same as resize()" alt="" coords="137,768,300,793"/>
+<area shape="poly" id="edge19_Node000001_Node000030" title=" " alt="" coords="41,494,42,543,51,613,61,651,75,688,94,723,119,753,127,760,124,764,115,757,90,726,70,690,56,652,46,614,37,543,36,494"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1lduAddressing.html#a9facbf0a118d395c89884e45a5ca4e4b" title="Return number of equations." alt="" coords="139,818,298,858"/>
+<area shape="poly" id="edge20_Node000001_Node000034" title=" " alt="" coords="43,493,51,558,67,651,90,743,104,779,119,803,130,812,126,816,115,806,99,781,85,744,62,652,46,559,37,494"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="121,519,317,544"/>
+<area shape="poly" id="edge22_Node000001_Node000035" title=" " alt="" coords="70,487,160,512,159,518,69,492"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1lduAddressing.html#a963d5038234faca1efd89c0e1b25cd7c" title="Return upper addressing." alt="" coords="139,933,298,973"/>
+<area shape="poly" id="edge24_Node000001_Node000036" title=" " alt="" coords="42,493,48,577,62,703,85,829,101,878,119,912,131,923,127,927,115,916,96,880,80,830,56,703,43,577,37,494"/>
+<area shape="poly" id="edge7_Node000012_Node000013" title=" " alt="" coords="311,319,354,315,355,320,311,325"/>
+<area shape="poly" id="edge12_Node000020_Node000021" title=" " alt="" coords="560,518,605,513,605,519,561,524"/>
+<area shape="poly" id="edge13_Node000021_Node000021" title=" " alt="" coords="657,495,650,485,654,475,669,469,694,467,726,471,738,480,734,484,724,475,694,472,670,474,657,479,655,484,662,491"/>
+<area shape="poly" id="edge17_Node000027_Node000028" title=" " alt="" coords="280,742,321,753,427,792,425,797,319,758,278,747"/>
+<area shape="poly" id="edge23_Node000035_Node000020" title=" " alt="" coords="317,529,365,529,365,534,317,534"/>
+</map>

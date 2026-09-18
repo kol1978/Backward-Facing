@@ -1,0 +1,24 @@
+<map id="write" name="write">
+<area shape="rect" id="Node000001" title="Write post&#45;processing info." alt="" coords="5,183,60,208"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#adba6ef65f50c7d6cf98b701dcfae5741" title="Reduce inplace (cf. MPI Allreduce) applying cop to inplace combine value from different processors...." alt="" coords="108,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,182,42,154,56,118,77,80,106,48,129,34,132,38,110,52,82,83,61,120,47,156,39,183"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1Pstream.html#a5f2c39c18360c2508bad8e3af874ab52" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="127,107,321,132"/>
+<area shape="poly" id="edge2_Node000001_Node000019" title=" " alt="" coords="51,180,107,149,152,133,154,138,109,154,54,185"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="388,56,593,81"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="37,181,61,136,81,111,107,92,142,75,180,63,258,50,334,47,402,52,402,57,334,53,259,55,181,68,144,80,109,96,85,115,66,139,41,184"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="400,157,581,183"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="60,191,386,173,386,178,61,197"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="641,157,792,183"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="60,194,280,203,435,201,593,191,648,183,649,188,594,197,435,207,280,208,60,200"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="132,259,316,284"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="54,206,109,237,154,252,152,257,107,242,51,211"/>
+<area shape="rect" id="Node000011" href="$faMeshWriteEdgesOBJ_8H.html#abea05d50bd7259b44f2002c0382ba13e" title=" " alt="" coords="205,308,243,333"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="42,207,67,251,86,275,109,294,129,304,150,311,191,317,191,323,149,316,127,309,107,299,82,278,63,254,37,210"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a8f8e4e0c08854a412d6d32d88f994561" title="Return the (stable) sort order for the list." alt="" coords="153,357,295,383"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="39,208,46,236,60,274,80,312,110,344,141,360,138,364,106,348,76,315,55,276,41,238,34,209"/>
+<area shape="poly" id="edge3_Node000019_Node000016" title=" " alt="" coords="291,104,409,81,410,87,292,109"/>
+<area shape="poly" id="edge4_Node000019_Node000007" title=" " alt="" coords="292,129,410,152,409,157,291,135"/>
+<area shape="poly" id="edge7_Node000019_Node000008" title=" " alt="" coords="321,120,451,127,594,142,649,152,648,157,593,147,450,133,321,125"/>
+<area shape="poly" id="edge5_Node000007_Node000008" title=" " alt="" coords="582,167,628,167,628,173,582,173"/>
+<area shape="poly" id="edge6_Node000008_Node000008" title=" " alt="" coords="680,159,672,149,676,139,692,133,717,131,748,135,760,144,757,148,746,139,717,136,693,138,680,143,677,148,684,155"/>
+</map>

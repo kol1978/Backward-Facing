@@ -1,0 +1,15 @@
+<map id="combineFields" name="combineFields">
+<area shape="rect" id="Node000001" title="Combine fields from all processor domains into single field." alt="" coords="5,107,121,132"/>
+<area shape="rect" id="Node000002" href="$combustion_2reactingFoam_2setRDeltaT_8H.html#a9698eee39c0e58c7c0df6fe1a4cc3168" title=" " alt="" coords="241,5,291,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,104,119,77,168,48,227,26,228,30,170,52,122,81,82,109"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Pstream.html#a5f2c39c18360c2508bad8e3af874ab52" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="169,107,363,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,117,156,117,156,122,121,122"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="411,83,616,108"/>
+<area shape="poly" id="edge6_Node000001_Node000014" title=" " alt="" coords="106,104,169,91,286,84,397,85,397,91,286,89,170,97,108,109"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="423,132,604,157"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="108,129,170,142,294,150,409,148,409,154,294,155,169,147,106,135"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="174,208,358,233"/>
+<area shape="poly" id="edge5_Node000001_Node000017" title=" " alt="" coords="82,130,122,158,171,186,207,201,205,206,168,191,119,162,79,134"/>
+<area shape="poly" id="edge3_Node000003_Node000014" title=" " alt="" coords="363,107,397,104,397,109,363,113"/>
+<area shape="poly" id="edge4_Node000003_Node000012" title=" " alt="" coords="363,127,409,131,409,137,363,132"/>
+</map>

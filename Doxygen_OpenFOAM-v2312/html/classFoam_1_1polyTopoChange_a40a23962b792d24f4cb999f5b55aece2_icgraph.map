@@ -1,0 +1,31 @@
+<map id="setAction" name="setAction">
+<area shape="rect" id="Node000001" title="For compatibility with polyTopoChange: set topological action." alt="" coords="299,413,381,438"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1meshRefinement.html#a73f27eb53d6b6d02316a3fd17f5782b1" title="Merge baffles. Gets pairs of faces and boundary faces to move." alt="" coords="39,5,217,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,399,323,321,305,219,281,122,265,84,249,59,234,47,216,39,218,34,237,43,253,56,270,82,286,120,311,217,328,320,338,398"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1polyMeshAdder.html#a4a56041144898b62dd90a030e2143d1a" title="Helper: Merge points." alt="" coords="45,69,211,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,399,334,342,322,267,311,228,295,190,275,154,249,123,231,110,211,101,213,96,234,106,252,119,279,151,300,188,316,226,327,266,339,341,342,399"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1removeCells.html#aa733ccb156972ae8e91e28782c0caf60" title="Play commands into polyTopoChange to remove cells." alt="" coords="50,133,206,173"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="334,399,327,353,313,296,288,237,270,211,249,187,229,174,205,164,207,159,231,169,252,183,274,207,292,235,318,294,333,352,339,398"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1removePoints.html#a9e4bbed42eb828caa39cf0e1c437bb88" title="Play commands into polyTopoChange to remove points. Gets." alt="" coords="50,197,206,237"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="330,400,320,366,304,326,280,285,249,251,229,239,206,230,207,225,231,234,252,247,285,282,309,323,325,364,335,399"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1meshCutter.html#ad6964ecaeb84631835d8a4e51bf706bb" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="5,262,251,287"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="326,402,296,350,275,324,249,302,224,290,227,285,252,298,279,320,301,347,330,399"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1addPatchCellLayer.html#a2c19ac1e0552b46875bfff3c02bfd222" title="Play commands into polyTopoChange to create layers on top." alt="" coords="35,312,221,352"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="311,406,282,385,250,366,219,355,221,350,252,362,285,381,314,402"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1meshCutAndRemove.html#ad6a2acdc12be8ac11fcb64607238e053" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="27,376,229,416"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="284,420,229,413,230,407,285,415"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1hexRef8.html#a59cb8a999be096950b6cc4f7c457426b" title="Insert refinement. All selected cells will be split into 8." alt="" coords="17,441,239,466"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="285,435,225,443,224,438,284,430"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1faceCollapser.html#a4eb4757ecb940ebe87d1e45559d1bad1" title="Collapse faces along endpoints. Play commands into." alt="" coords="51,491,205,531"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="310,448,252,480,206,496,205,491,250,475,307,443"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1removeFaces.html#aa64a3bc5eb9317256be6646095e690d9" title="Play commands into polyTopoChange to remove faces." alt="" coords="48,555,208,595"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="329,452,298,499,277,524,252,545,209,564,207,560,249,540,273,520,294,496,324,449"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1combineFaces.html#a67d2bb0d6cac2b27ae250df417ef6942" title="Play commands into polyTopoChange to combine faces. Gets." alt="" coords="49,619,207,659"/>
+<area shape="poly" id="edge11_Node000001_Node000015" title=" " alt="" coords="336,452,326,488,309,530,285,572,252,609,232,622,209,631,207,626,229,617,249,605,281,569,305,528,321,486,331,451"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1boundaryCutter.html#ae6930353f029f71d7726d9992c9538f9" title="Do actual cutting with cut description. Inserts mesh changes." alt="" coords="45,683,211,723"/>
+<area shape="poly" id="edge12_Node000001_Node000016" title=" " alt="" coords="340,452,333,499,319,559,293,620,275,648,252,673,234,686,213,695,211,690,231,681,249,669,271,645,288,617,314,557,328,498,334,451"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1removePoints.html#a56023116300115f668b5a3d17c675fb0" title="Restore selected faces and vertices." alt="" coords="50,747,206,787"/>
+<area shape="poly" id="edge13_Node000001_Node000017" title=" " alt="" coords="342,452,339,510,328,587,316,627,301,667,280,704,252,737,231,752,207,762,205,757,229,747,249,733,275,701,296,665,311,625,322,585,334,510,337,451"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1combineFaces.html#a5e5e6cc1f97c15b7bffabbda6a33b863" title="Play commands into polyTopoChange to reinsert original faces." alt="" coords="49,811,207,851"/>
+<area shape="poly" id="edge14_Node000001_Node000018" title=" " alt="" coords="339,452,329,532,311,636,286,735,270,774,253,800,232,816,209,826,207,821,230,811,249,797,266,771,281,733,306,635,323,531,333,451"/>
+</map>

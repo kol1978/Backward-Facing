@@ -1,0 +1,25 @@
+<map id="allGatherList" name="allGatherList">
+<area shape="rect" id="Node000001" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="5,161,111,186"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="520,110,620,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,158,158,147,253,135,348,128,506,121,507,126,348,133,254,140,159,152,106,163"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Pstream.html#a5f2c39c18360c2508bad8e3af874ab52" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="227,262,314,287"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="76,184,113,212,160,240,215,260,213,265,158,245,110,217,73,189"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a765057f4c15f6de64cd6b91125f420c9" title="True if parallel algorithm or exchange is required." alt="" coords="495,211,645,251"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="103,184,159,196,331,217,482,226,482,231,330,222,158,201,102,189"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="757,161,939,186"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="76,159,113,137,158,118,310,77,373,65,433,58,493,58,557,64,628,77,710,96,741,107,771,120,820,150,817,155,768,125,739,112,709,101,627,82,556,70,493,64,433,64,374,70,311,82,160,123,115,141,79,163"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#acf98ef13e977a04c984914597fe8fd4d" title="Gather/scatter identically&#45;sized char data." alt="" coords="159,311,383,337"/>
+<area shape="poly" id="edge8_Node000001_Node000016" title=" " alt="" coords="68,185,102,241,128,272,160,298,171,304,169,309,157,302,125,276,97,244,63,188"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1Pstream.html#a8f29bc97f7891b66a1b70bdbcc669d7d" title="Scatter data. Reverse of gatherList." alt="" coords="225,161,316,186"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="111,171,212,171,212,176,111,176"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPstream.html#aca49c35531fd8d65b2079ff325ea8bb5" title="Communication schedule for linear/tree all&#45;to&#45;master (proc 0). Chooses based on the value of UPstream..." alt="" coords="431,9,709,34"/>
+<area shape="poly" id="edge14_Node000001_Node000018" title=" " alt="" coords="63,159,97,105,124,75,157,51,194,35,233,22,312,7,390,3,461,5,461,10,391,8,313,13,234,28,196,40,160,56,128,79,102,108,68,162"/>
+<area shape="poly" id="edge3_Node000004_Node000002" title=" " alt="" coords="296,260,530,139,533,144,298,265"/>
+<area shape="poly" id="edge4_Node000004_Node000009" title=" " alt="" coords="314,266,482,241,482,246,315,271"/>
+<area shape="poly" id="edge6_Node000004_Node000011" title=" " alt="" coords="314,278,390,286,489,289,600,283,655,274,708,260,741,247,771,230,821,193,824,197,774,234,743,252,710,265,656,279,600,288,489,295,390,291,314,284"/>
+<area shape="poly" id="edge5_Node000009_Node000011" title=" " alt="" coords="644,213,772,186,773,192,645,218"/>
+<area shape="poly" id="edge11_Node000017_Node000002" title=" " alt="" coords="316,163,506,131,507,136,317,169"/>
+<area shape="poly" id="edge12_Node000017_Node000009" title=" " alt="" coords="317,179,482,211,481,217,316,185"/>
+<area shape="poly" id="edge13_Node000017_Node000011" title=" " alt="" coords="316,171,744,171,744,176,316,176"/>
+<area shape="poly" id="edge15_Node000018_Node000011" title=" " alt="" coords="657,32,710,51,746,73,779,99,829,149,825,152,775,103,743,77,708,56,655,37"/>
+</map>

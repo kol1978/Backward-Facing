@@ -1,0 +1,37 @@
+<map id="gatherAndMerge" name="gatherAndMerge">
+<area shape="rect" id="Node000001" title="Gather points and faces onto master and merge into single patch." alt="" coords="5,384,136,409"/>
+<area shape="rect" id="Node000002" href="$readKivaGrid_8H.html#a888be93833ac7a23170555c69c690288" title=" " alt="" coords="262,5,301,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,384,73,322,87,231,101,180,121,129,148,82,182,41,197,31,214,23,248,16,249,21,216,28,200,35,186,45,152,85,126,132,106,181,92,232,78,323,75,384"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1globalIndex.html#a75482eae7e41c5ccd2c3600605e760d6" title="Collect data in processor order on master (== procIDs[0])." alt="" coords="206,55,357,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="71,383,79,333,98,261,113,222,131,183,154,145,182,112,197,100,200,104,186,116,159,148,136,185,118,224,103,263,85,335,76,384"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="443,120,594,145"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="71,384,79,339,98,276,113,242,131,210,154,180,182,156,213,139,245,126,313,112,381,110,441,115,441,121,381,116,314,118,247,131,215,143,186,160,158,184,136,213,118,244,103,277,84,340,76,384"/>
+<area shape="rect" id="Node000013" href="$namespaceFoam.html#a14e1da6db5665f43c1e588eab475eabf" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="223,171,339,196"/>
+<area shape="poly" id="edge5_Node000001_Node000013" title=" " alt="" coords="73,383,86,347,108,299,140,248,160,225,182,205,209,191,211,196,186,210,163,229,144,252,112,302,91,349,78,385"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam.html#ace9d5a41dc4c56fe2174f7a3ec38a9b9" title="Inplace merge points, preserving the original point order. All points closer/equal mergeTol are to be..." alt="" coords="184,220,379,245"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="76,382,115,321,146,285,182,254,193,248,196,253,186,259,149,289,119,324,81,385"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a16337b512fc31dd510d929a789207d87" title="Inplace renumber the values (not the indices) of a list." alt="" coords="191,269,371,295"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="83,382,125,344,153,323,183,305,203,297,205,301,185,310,156,327,128,348,86,386"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1globalIndex.html#a67c5327428f6b4947217a1a89af3f619" title="From local to global index on proci (inplace)" alt="" coords="206,319,357,359"/>
+<area shape="poly" id="edge9_Node000001_Node000018" title=" " alt="" coords="117,381,194,360,195,366,119,387"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="189,384,373,409"/>
+<area shape="poly" id="edge10_Node000001_Node000019" title=" " alt="" coords="136,394,176,394,176,399,136,399"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam.html#aa8ced45534ca58d6f845747ebb5f8445" title="True if ptr is not a pointer (of type T) to the nullObject." alt="" coords="225,433,338,459"/>
+<area shape="poly" id="edge11_Node000001_Node000021" title=" " alt="" coords="126,407,214,428,213,433,125,412"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="427,569,611,595"/>
+<area shape="poly" id="edge12_Node000001_Node000022" title=" " alt="" coords="89,407,131,437,185,468,238,487,281,496,325,504,380,519,480,561,478,566,378,525,323,509,280,501,236,492,183,472,128,442,86,412"/>
+<area shape="rect" id="Node000023" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="262,535,301,560"/>
+<area shape="poly" id="edge13_Node000001_Node000023" title=" " alt="" coords="83,408,123,459,153,488,185,513,217,529,249,538,248,544,215,534,183,518,149,492,119,462,79,411"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1globalIndex.html#a0d87a899e949fd7489468a6abc4bc979" title="Return start/size range of proci data." alt="" coords="206,585,357,625"/>
+<area shape="poly" id="edge14_Node000001_Node000024" title=" " alt="" coords="79,409,93,441,116,484,147,530,186,569,195,576,192,580,182,573,143,533,111,487,88,443,74,411"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1globalIndex.html#a4e1d10f5ee9bb08c9ee9cbc78263d244" title="Reset from local size, using gather/broadcast with default/specified communicator if parallel." alt="" coords="206,649,357,689"/>
+<area shape="poly" id="edge15_Node000001_Node000025" title=" " alt="" coords="77,409,87,452,107,513,140,578,161,608,186,635,196,642,192,646,182,639,157,612,135,581,102,515,82,454,72,410"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1globalIndex.html#a88c8f619ee7fb282189feff3ee234e26" title="Range of process indices for addressed sub&#45;offsets (processes)" alt="" coords="206,713,357,753"/>
+<area shape="poly" id="edge18_Node000001_Node000029" title=" " alt="" coords="76,409,82,462,100,540,114,583,133,625,156,664,186,699,196,707,193,711,182,703,152,667,128,627,109,585,94,542,77,463,70,410"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1List.html#a12194004a66b30e6dfd3d9faa83f6b5a" title="Transfer the contents of the argument List into this list and annul the argument list." alt="" coords="207,777,355,803"/>
+<area shape="poly" id="edge19_Node000001_Node000030" title=" " alt="" coords="74,410,77,473,91,568,104,620,124,672,151,721,186,763,197,771,194,775,182,767,146,724,119,675,99,622,85,569,72,473,69,410"/>
+<area shape="poly" id="edge3_Node000003_Node000010" title=" " alt="" coords="358,91,453,114,452,119,356,96"/>
+<area shape="poly" id="edge4_Node000010_Node000010" title=" " alt="" coords="480,122,472,112,476,102,492,96,519,93,552,97,565,107,561,111,550,102,519,99,493,101,480,106,477,111,484,118"/>
+<area shape="poly" id="edge8_Node000017_Node000010" title=" " alt="" coords="347,267,377,254,413,232,445,205,496,154,500,158,449,209,416,236,380,259,349,272"/>
+<area shape="poly" id="edge16_Node000025_Node000022" title=" " alt="" coords="344,646,378,634,473,597,474,602,380,639,346,651"/>
+</map>

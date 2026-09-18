@@ -1,0 +1,47 @@
+<map id="gatherList" name="gatherList">
+<area shape="rect" id="Node000001" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="296,699,383,724"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="74,5,179,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,685,334,551,324,358,313,259,297,169,275,95,261,66,246,45,232,34,215,26,179,19,180,13,217,21,235,29,250,42,266,64,280,93,302,167,318,258,329,358,340,551,341,685"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1processorColour.html#afc30e983c2c994dfd3775a5d9e2b154f" title="Calculate processor colouring from processor connectivity. Sets colour per processor such that no nei..." alt="" coords="41,55,212,95"/>
+<area shape="poly" id="edge2_Node000001_Node000028" title=" " alt="" coords="335,685,331,563,319,390,308,301,292,220,272,154,260,128,246,109,230,96,211,87,214,82,233,92,250,106,264,126,277,152,297,219,313,300,324,389,337,563,340,685"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1functionObjects_1_1sizeDistribution.html#ad70b3868430b8f63e749f82895bec0b8" title="Combine fields from all processor domains into single field." alt="" coords="29,120,225,175"/>
+<area shape="poly" id="edge3_Node000001_Node000031" title=" " alt="" coords="334,685,328,577,313,428,301,353,287,283,268,226,246,188,223,170,227,166,250,184,273,224,292,282,307,352,318,428,333,577,340,685"/>
+<area shape="rect" id="Node000032" href="$namespaceFoam.html#a6328825e7cbeceaa942b6af209620f8c" title=" " alt="" coords="21,199,233,224"/>
+<area shape="poly" id="edge4_Node000001_Node000032" title=" " alt="" coords="334,685,327,586,312,451,300,383,286,321,268,271,246,237,231,226,235,222,250,234,272,268,291,319,306,382,317,450,333,585,339,685"/>
+<area shape="rect" id="Node000035" href="$namespaceFoam.html#a62a05a18d07f0859a98c53477c0a1539" title=" " alt="" coords="21,248,233,273"/>
+<area shape="poly" id="edge5_Node000001_Node000035" title=" " alt="" coords="333,685,325,595,309,475,297,415,283,360,266,316,246,286,231,275,234,271,250,283,270,314,288,359,302,414,314,474,330,595,339,685"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1functionObjects_1_1externalCoupled.html#a2327d68d5bcdd5ec0491d51c441e1192" title=" " alt="" coords="21,297,233,352"/>
+<area shape="poly" id="edge6_Node000001_Node000036" title=" " alt="" coords="332,685,320,611,302,515,276,424,262,389,246,365,231,353,235,349,250,362,266,387,281,422,307,514,326,610,337,684"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1Pstream.html#a50aff7484d44a6d7131c97a9a0bc107f" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="83,376,170,401"/>
+<area shape="poly" id="edge7_Node000001_Node000037" title=" " alt="" coords="336,685,332,628,320,555,309,517,293,480,272,446,246,416,229,404,210,397,170,390,170,385,211,391,232,400,250,412,277,443,298,478,314,515,325,554,338,628,341,684"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1radiation_1_1viewFactor.html#a18abf8b19283101238a77c9e6865b673" title="Initialise." alt="" coords="25,426,228,466"/>
+<area shape="poly" id="edge8_Node000001_Node000038" title=" " alt="" coords="333,685,325,640,310,585,285,528,267,502,246,480,227,467,230,462,250,476,271,499,289,526,315,583,331,639,338,684"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a87fcfd8900cfe78ce822d880108a28bd" title=" " alt="" coords="10,491,243,545"/>
+<area shape="poly" id="edge9_Node000001_Node000041" title=" " alt="" coords="327,687,298,622,275,588,246,559,230,548,233,543,250,555,279,585,302,620,332,684"/>
+<area shape="rect" id="Node000042" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#ac760d1928fecc9a2ae3e87c2b638e8d7" title=" " alt="" coords="10,569,243,624"/>
+<area shape="poly" id="edge10_Node000001_Node000042" title=" " alt="" coords="314,691,284,663,247,638,224,627,226,622,249,633,287,659,318,687"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a9b2a55ad569663170b8bb558a0a26b4a" title="Generate an ISstream that reads a file." alt="" coords="10,648,243,703"/>
+<area shape="poly" id="edge11_Node000001_Node000043" title=" " alt="" coords="282,704,243,698,244,692,283,699"/>
+<area shape="rect" id="Node000044" href="$classFoam_1_1InflationInjection.html#a4c4730db6620caeb697dfb15e7ed265a" title="Number of parcels to introduce relative to SOI." alt="" coords="39,727,214,767"/>
+<area shape="poly" id="edge12_Node000001_Node000044" title=" " alt="" coords="283,724,215,735,214,730,282,718"/>
+<area shape="rect" id="Node000045" href="$classFoam_1_1argList.html#a00aad68f835a5c0bcb8920505bb0bd10" title="Scan for &#45;help, &#45;doc options etc prior to checking the validity of other args/opts and finally initia..." alt="" coords="49,792,204,817"/>
+<area shape="poly" id="edge13_Node000001_Node000045" title=" " alt="" coords="316,736,286,760,249,782,205,796,204,791,247,777,283,756,313,732"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1fileOperation.html#ace9cd2fdd834e1eb0da80b64b60570b3" title="Helper: output which ranks are IO." alt="" coords="51,842,202,882"/>
+<area shape="poly" id="edge14_Node000001_Node000048" title=" " alt="" coords="328,738,296,785,275,810,249,831,227,843,203,852,201,847,225,838,247,826,271,806,292,782,323,735"/>
+<area shape="rect" id="Node000050" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a5878d151f63d681812f55cad56f15f0d" title="Read object header from supplied file." alt="" coords="10,907,243,961"/>
+<area shape="poly" id="edge15_Node000001_Node000050" title=" " alt="" coords="335,738,324,773,307,816,282,859,250,896,232,909,229,904,246,892,278,856,302,813,319,772,330,736"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1fileOperations_1_1masterUncollatedFileOperation.html#a46139c9fa03c64601bda26e76b7ea9a3" title="Reads header for regIOobject and returns an ISstream to read the contents." alt="" coords="10,985,243,1040"/>
+<area shape="poly" id="edge16_Node000001_Node000051" title=" " alt="" coords="339,738,333,788,318,851,292,917,273,947,250,975,234,987,231,983,246,971,269,944,287,914,313,849,327,787,334,737"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1ParSortableList.html#a47fdc9eea42b6975cdc835bb2e08810e" title="(stable) sort the list (if changed after construction time)" alt="" coords="45,1065,208,1105"/>
+<area shape="poly" id="edge17_Node000001_Node000052" title=" " alt="" coords="337,738,326,811,307,905,281,994,266,1029,250,1053,231,1068,210,1077,207,1072,228,1063,246,1049,262,1026,276,992,302,903,320,810,332,737"/>
+<area shape="rect" id="Node000054" href="$classFoam_1_1FacePostProcessing.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="30,1129,223,1169"/>
+<area shape="poly" id="edge18_Node000001_Node000054" title=" " alt="" coords="338,738,329,824,311,937,286,1046,269,1089,250,1119,225,1136,222,1132,246,1115,264,1087,280,1045,306,936,324,823,333,738"/>
+<area shape="rect" id="Node000055" href="$classFoam_1_1ParticleHistogram.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="35,1193,218,1233"/>
+<area shape="poly" id="edge19_Node000001_Node000055" title=" " alt="" coords="339,738,332,836,316,969,304,1036,289,1097,271,1148,250,1182,236,1194,219,1203,217,1198,233,1190,246,1179,267,1145,284,1096,299,1035,310,968,326,835,334,738"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1ParticlePostProcessing.html#aac759501cf6c7895a70eecbef0226ae1" title="Write post&#45;processing info." alt="" coords="21,1257,233,1297"/>
+<area shape="poly" id="edge20_Node000001_Node000056" title=" " alt="" coords="340,738,334,847,320,999,308,1077,293,1148,274,1206,250,1246,234,1259,231,1255,246,1243,269,1204,288,1146,303,1076,315,999,329,847,335,738"/>
+<area shape="rect" id="Node000057" href="$classFoam_1_1functionObjects_1_1externalCoupled.html#a1063d7a675858ee0e647e36abbefe463" title="Write geometry for the group as region/patch." alt="" coords="5,1321,248,1361"/>
+<area shape="poly" id="edge21_Node000001_Node000057" title=" " alt="" coords="340,738,337,859,324,1031,312,1118,297,1199,276,1265,264,1291,250,1310,236,1322,233,1318,246,1307,259,1288,271,1263,292,1197,307,1117,318,1030,331,859,335,738"/>
+<area shape="rect" id="Node000058" href="$classFoam_1_1isoAdvection.html#a7de5b3f64a10234fdf537008d11be881" title="Write isoface points to .obj file." alt="" coords="51,1385,202,1425"/>
+<area shape="poly" id="edge22_Node000001_Node000058" title=" " alt="" coords="341,738,339,871,328,1061,317,1159,301,1249,279,1323,265,1352,250,1374,228,1391,203,1401,201,1396,226,1387,246,1371,261,1350,274,1321,295,1248,311,1158,322,1061,333,871,335,738"/>
+</map>

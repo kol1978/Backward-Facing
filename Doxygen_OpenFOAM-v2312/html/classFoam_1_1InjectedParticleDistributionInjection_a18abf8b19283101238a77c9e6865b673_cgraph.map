@@ -1,0 +1,38 @@
+<map id="initialise" name="initialise">
+<area shape="rect" id="Node000001" title="Initialise injectors." alt="" coords="5,355,84,380"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="147,5,358,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,354,43,299,52,217,63,171,79,127,101,85,130,48,148,35,151,39,134,52,105,88,83,129,68,173,58,218,48,299,48,354"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="421,56,603,81"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="43,355,45,305,55,235,66,197,81,161,103,127,130,99,166,76,205,59,246,49,289,43,371,43,442,51,441,56,371,48,289,48,247,54,207,64,168,80,134,103,107,130,86,163,71,199,60,236,50,306,48,355"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="651,81,801,107"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="44,354,48,313,61,255,72,224,87,194,106,167,131,144,158,133,205,124,341,110,637,94,637,99,341,115,206,129,159,138,133,148,110,170,92,197,77,226,67,256,54,313,49,355"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="171,157,334,183"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="46,354,54,321,70,277,95,232,111,211,130,193,157,179,159,183,134,197,115,215,99,235,75,280,59,323,51,355"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="205,207,300,232"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="49,353,78,299,101,268,131,242,160,228,191,221,192,226,162,233,133,247,105,272,82,302,53,356"/>
+<area shape="rect" id="Node000026" href="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806" title="Find the max value in labelHashSet, optionally limited by second argument." alt="" coords="205,256,300,281"/>
+<area shape="poly" id="edge7_Node000001_Node000026" title=" " alt="" coords="56,352,87,321,131,292,160,280,191,273,192,278,162,285,133,296,91,326,59,356"/>
+<area shape="rect" id="Node000027" href="$namespaceFoam.html#a96b65441175bbfb9a869045dc05fb0b9" title="Find the min value in labelHashSet, optionally limited by second argument." alt="" coords="207,305,298,331"/>
+<area shape="poly" id="edge8_Node000001_Node000027" title=" " alt="" coords="84,353,131,341,193,327,194,332,133,346,85,359"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="150,355,355,380"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="84,365,136,365,136,370,84,370"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="161,404,345,429"/>
+<area shape="poly" id="edge11_Node000001_Node000028" title=" " alt="" coords="85,377,133,390,170,399,169,404,131,395,84,382"/>
+<area shape="rect" id="Node000029" href="$namespaceFoam_1_1constant_1_1mathematical.html#a95223b90d8ac5b3aff071c687367f8f5" title=" " alt="" coords="132,477,373,503"/>
+<area shape="poly" id="edge12_Node000001_Node000029" title=" " alt="" coords="60,379,92,409,133,440,198,470,196,475,131,444,88,413,56,382"/>
+<area shape="rect" id="Node000030" href="$namespaceFoam.html#a2e8f5d970ee4fb466536c3c46bae91fe" title=" " alt="" coords="202,551,303,576"/>
+<area shape="poly" id="edge14_Node000001_Node000030" title=" " alt="" coords="53,379,80,443,104,480,134,513,160,531,190,545,188,549,158,536,130,517,100,484,76,445,48,381"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1PtrList.html#ad7e39946e51037843d149669d33554bc" title="Default construct." alt="" coords="175,600,331,625"/>
+<area shape="poly" id="edge16_Node000001_Node000031" title=" " alt="" coords="50,380,55,421,68,477,93,537,111,564,134,587,163,603,160,607,130,591,107,567,89,539,63,479,50,422,44,381"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="185,649,320,675"/>
+<area shape="poly" id="edge17_Node000001_Node000032" title=" " alt="" coords="49,380,51,429,62,499,73,536,88,573,108,607,134,636,152,648,173,656,171,661,149,653,130,640,103,610,83,575,68,538,57,500,46,430,43,381"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1PtrList.html#a69101c7616426ea26b33577a730b73e8" title="Same as resize()" alt="" coords="171,699,334,724"/>
+<area shape="poly" id="edge18_Node000001_Node000035" title=" " alt="" coords="50,380,60,444,78,537,103,628,118,662,134,685,159,701,156,706,130,689,113,665,98,629,72,538,55,445,45,380"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1PtrList.html#a0bc76d46c3a7f71bd74ddafdf84dbfbc" title="Transfer into this list and annul the argument list." alt="" coords="169,748,336,773"/>
+<area shape="poly" id="edge20_Node000001_Node000039" title=" " alt="" coords="50,380,58,453,74,561,100,667,116,708,134,735,158,750,155,755,130,739,111,710,95,668,69,562,53,454,44,380"/>
+<area shape="poly" id="edge2_Node000002_Node000012" title=" " alt="" coords="319,28,434,51,433,56,318,33"/>
+<area shape="poly" id="edge3_Node000012_Node000013" title=" " alt="" coords="603,77,637,81,636,86,603,82"/>
+<area shape="poly" id="edge4_Node000013_Node000013" title=" " alt="" coords="691,83,684,73,687,63,702,57,726,55,756,58,767,67,764,72,754,63,726,60,703,62,691,67,689,72,695,80"/>
+<area shape="poly" id="edge13_Node000029_Node000029" title=" " alt="" coords="219,479,211,469,215,459,229,453,253,451,282,454,293,463,290,468,280,459,253,456,231,458,219,463,216,468,223,476"/>
+<area shape="poly" id="edge15_Node000030_Node000030" title=" " alt="" coords="219,552,211,542,215,532,229,526,253,524,282,528,293,537,290,541,280,533,253,529,231,531,219,536,216,542,223,549"/>
+</map>

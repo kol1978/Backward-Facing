@@ -1,0 +1,34 @@
+<map id="setCellSelection" name="setCellSelection">
+<area shape="rect" id="Node000001" title="Set the cell selection based on user input selection mode." alt="" coords="5,330,132,356"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="433,380,528,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,330,71,275,86,195,100,152,119,111,145,74,178,44,232,14,258,6,284,3,309,5,334,13,360,25,387,44,406,66,423,101,449,193,468,290,479,366,474,367,463,291,444,194,418,103,402,69,384,48,357,30,332,18,308,10,284,8,259,11,235,18,182,48,149,77,124,114,105,154,91,196,76,275,73,330"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="237,58,328,84"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="69,329,78,284,97,220,111,185,129,152,151,120,178,93,199,80,223,73,224,78,202,85,182,97,155,124,134,154,116,188,102,222,83,285,74,330"/>
+<area shape="rect" id="Node000008" href="$namespaceFoam.html#a96e2e8876d0fda12c609276ec6a0092d" title="Global flatOutput() function with specified output delimiters." alt="" coords="217,108,348,133"/>
+<area shape="poly" id="edge3_Node000001_Node000008" title=" " alt="" coords="71,329,82,292,103,241,135,188,155,163,178,142,203,129,206,134,182,147,159,167,139,191,108,244,87,294,76,331"/>
+<area shape="rect" id="Node000009" href="$namespaceFoam.html#a14e1da6db5665f43c1e588eab475eabf" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="225,157,341,182"/>
+<area shape="poly" id="edge4_Node000001_Node000009" title=" " alt="" coords="73,329,110,263,141,224,179,192,210,177,212,182,181,196,145,228,115,266,78,332"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a7e15d05978b545ad4cbf3149a70b0dbf" title="Indent stream." alt="" coords="229,206,336,232"/>
+<area shape="poly" id="edge5_Node000001_Node000012" title=" " alt="" coords="78,328,119,285,147,261,179,241,215,227,217,232,181,245,151,265,123,289,82,332"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1HashSet.html#a49f0753d9652681fc3a81f59951a0ad7" title="Insert a new entry, not overwriting existing entries." alt="" coords="200,256,365,281"/>
+<area shape="poly" id="edge6_Node000001_Node000014" title=" " alt="" coords="93,328,133,309,179,290,204,282,206,287,181,295,135,314,95,333"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="180,305,385,330"/>
+<area shape="poly" id="edge7_Node000001_Node000016" title=" " alt="" coords="132,333,166,329,167,334,133,338"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1MeshObject.html#a174574ec68990766b0ac5746b6c8be68" title="Get existing or create a new MeshObject. Registered with typeName." alt="" coords="193,354,373,380"/>
+<area shape="poly" id="edge8_Node000001_Node000017" title=" " alt="" coords="133,348,179,353,179,358,132,353"/>
+<area shape="rect" id="Node000024" href="$namespaceFoam.html#a8f7f25e541aa3b46163d42df73f71c80" title="Reduce inplace (cf. MPI Allreduce) using specified communication schedule." alt="" coords="227,404,338,429"/>
+<area shape="poly" id="edge10_Node000001_Node000024" title=" " alt="" coords="97,353,181,389,215,399,213,404,179,394,95,358"/>
+<area shape="rect" id="Node000037" href="$namespaceFoam.html#a275dad45bcb1f530c8960351971b81a2" title="Perform logical (and) MPI Allreduce on a copy. Uses UPstream::reduceAnd." alt="" coords="193,453,372,478"/>
+<area shape="poly" id="edge12_Node000001_Node000037" title=" " alt="" coords="83,354,123,396,151,419,181,438,200,446,198,451,179,443,148,423,120,400,79,358"/>
+<area shape="rect" id="Node000039" href="$namespaceFoam.html#a2e469ccb2cea405f7ddd435d8de00ceb" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="199,502,367,528"/>
+<area shape="poly" id="edge13_Node000001_Node000039" title=" " alt="" coords="78,355,115,419,145,456,182,488,195,495,192,500,178,492,141,460,111,422,74,357"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1cellBitSet.html#a869499f0aaf60ed227aa52ece3ac97c0" title="Return a cell selection according to the dictionary specification of actions." alt="" coords="195,552,370,577"/>
+<area shape="poly" id="edge14_Node000001_Node000041" title=" " alt="" coords="76,355,88,392,109,441,140,493,159,517,182,537,192,544,189,548,178,541,155,520,135,496,104,444,83,393,71,357"/>
+<area shape="rect" id="Node000056" href="$classFoam_1_1bitSet.html#a17f4e183a82cc2babc9f3a0e196e8c68" title="The indices of the on bits as a sorted labelList." alt="" coords="195,601,370,626"/>
+<area shape="poly" id="edge16_Node000001_Node000056" title=" " alt="" coords="74,356,83,400,102,463,134,530,156,560,182,586,190,592,187,597,178,590,152,564,130,532,97,465,78,401,69,357"/>
+<area shape="rect" id="Node000061" href="$classFoam_1_1HashTable.html#a00e373a2c0d6161c4bcdc4453c1bb35e" title="The table of contents (the keys) in sorted order." alt="" coords="181,650,384,676"/>
+<area shape="poly" id="edge17_Node000001_Node000061" title=" " alt="" coords="73,356,79,408,96,484,110,525,128,566,152,603,182,636,189,641,186,646,178,640,148,607,124,568,105,527,91,485,74,409,68,356"/>
+<area shape="poly" id="edge9_Node000017_Node000002" title=" " alt="" coords="373,376,420,382,419,387,373,381"/>
+<area shape="poly" id="edge11_Node000024_Node000002" title=" " alt="" coords="338,407,419,397,420,402,339,412"/>
+<area shape="poly" id="edge15_Node000041_Node000002" title=" " alt="" coords="360,549,384,537,413,510,436,478,468,417,472,419,441,481,417,514,387,541,363,554"/>
+</map>

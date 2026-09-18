@@ -1,0 +1,12 @@
+<map id="mpiGatherOp" name="mpiGatherOp">
+<area shape="rect" id="Node000001" title="Use MPI_Gatherv call to collect contiguous data when possible (in serial: performs a simple copy)." alt="" coords="5,48,115,73"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1globalIndex.html#a9a26d7380aabb8207e174c51660d3483" title="Use MPI_Gatherv call for contiguous data when possible (in serial: performs a simple copy)." alt="" coords="163,48,253,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,58,149,58,149,63,115,63"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="301,5,485,31"/>
+<area shape="poly" id="edge5_Node000001_Node000021" title=" " alt="" coords="105,45,162,33,287,20,288,25,163,38,106,51"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="318,85,469,111"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="105,71,163,83,235,91,304,95,304,100,235,96,162,89,104,76"/>
+<area shape="poly" id="edge2_Node000002_Node000021" title=" " alt="" coords="253,48,324,31,325,36,254,53"/>
+<area shape="poly" id="edge3_Node000002_Node000005" title=" " alt="" coords="254,67,317,80,316,85,253,72"/>
+<area shape="poly" id="edge4_Node000005_Node000005" title=" " alt="" coords="363,87,356,77,360,67,372,61,393,59,419,62,429,71,426,75,417,67,393,64,374,66,364,71,362,76,367,84"/>
+</map>

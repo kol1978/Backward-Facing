@@ -1,0 +1,31 @@
+<map id="receive" name="receive">
+<area shape="rect" id="Node000001" title="Wait for (receive) requests to finish and consume." alt="" coords="5,257,76,283"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPstream.html#a9a9c539400a44dbb4ef570a279d89d12" title="Range of process indices for all processes." alt="" coords="143,5,332,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="40,257,46,216,59,160,83,100,100,72,122,48,142,34,145,39,126,52,105,76,88,103,64,162,51,217,46,257"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="399,56,580,81"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="41,256,48,223,63,180,87,135,103,115,122,98,156,79,191,65,228,56,266,50,340,47,406,52,406,57,340,52,267,55,229,61,193,71,158,84,126,103,107,119,91,138,68,182,54,225,47,258"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="628,81,779,107"/>
+<area shape="poly" id="edge12_Node000001_Node000004" title=" " alt="" coords="44,256,70,200,93,168,123,142,150,133,196,125,327,112,614,95,614,100,328,117,197,131,151,138,125,147,97,171,74,202,48,258"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="192,157,283,183"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="50,255,80,223,123,192,150,181,178,174,179,179,151,186,125,196,84,227,54,259"/>
+<area shape="rect" id="Node000007" href="$combustion_2reactingFoam_2setRDeltaT_8H.html#a9698eee39c0e58c7c0df6fe1a4cc3168" title=" " alt="" coords="212,207,263,232"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="76,258,198,226,199,232,77,264"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPtrList.html#a8ea8e819eb4da035ba40fb95de8e94d3" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="416,356,563,381"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="76,266,199,268,276,276,351,293,411,317,460,346,457,351,408,322,350,298,275,282,199,273,76,271"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="135,308,340,333"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="77,276,175,302,174,307,76,282"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1PtrList.html#a3809aca9dcd2c52a4711126018cc961d" title="Append an element to the end of the list." alt="" coords="145,357,329,383"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="54,281,84,313,125,344,141,351,138,355,123,348,80,317,50,285"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="171,407,304,432"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="49,282,75,336,98,367,125,393,158,408,156,413,123,398,94,371,71,339,44,284"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPtrList.html#a53e54aae19ba347f6f4544c764905331" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="162,456,313,481"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="47,282,54,315,69,359,92,405,107,425,126,443,150,456,147,461,122,447,103,429,87,407,64,361,49,317,41,284"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#acd6ccb9cf5a7b0742fda41bf9a0deee6" title="Wait for all requests to finish." alt="" coords="124,529,351,555"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="46,283,52,322,65,378,89,439,106,467,126,492,147,509,172,522,169,527,144,514,122,496,101,470,84,441,60,380,47,323,41,283"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,28,413,51,412,56,301,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="581,77,614,81,614,86,580,82"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="668,83,661,73,665,63,679,57,703,55,733,58,745,67,742,72,731,63,703,60,681,62,669,67,666,72,673,80"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="454,358,447,348,451,338,465,332,489,329,519,333,531,342,528,346,517,338,489,335,467,337,455,342,452,347,459,354"/>
+<area shape="poly" id="edge15_Node000014_Node000008" title=" " alt="" coords="312,453,350,442,408,415,457,386,459,391,410,420,352,447,314,459"/>
+<area shape="poly" id="edge17_Node000015_Node000015" title=" " alt="" coords="205,531,198,521,202,511,215,505,237,503,264,506,275,515,272,519,262,511,237,508,217,510,206,515,204,520,209,528"/>
+</map>

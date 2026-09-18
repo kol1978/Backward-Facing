@@ -1,0 +1,59 @@
+<map id="cellSetOption" name="cellSetOption">
+<area shape="rect" id="Node000001" title="Intermediate abstract class for handling cell&#45;set options for the derived fvOptions." alt="" coords="116,692,225,717"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1fv_1_1CodedSource.html" title=" " alt="" coords="291,5,458,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,678,174,545,188,354,201,256,219,166,242,92,256,64,271,41,290,28,293,32,275,45,260,66,247,94,224,168,206,257,194,355,179,545,175,678"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1fv_1_1FixedValueConstraint.html" title="Constrain values of given fields of Type with a given maximum value within a specified region,..." alt="" coords="295,55,454,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="170,678,177,557,194,386,207,298,224,218,245,152,257,126,271,105,293,89,297,93,275,109,262,128,250,154,229,219,212,299,199,387,182,557,176,678"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1fv_1_1SemiImplicitSource.html" title="Applies semi&#45;implicit source within a specified region for Type, where &lt;Type&gt;=Scalar/Vector/Spherical..." alt="" coords="301,119,449,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="171,678,179,569,197,417,211,340,227,269,247,210,271,170,299,150,302,154,275,173,252,212,232,270,216,341,203,418,185,570,176,679"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1fv_1_1VoFSolidificationMeltingSource.html" title="Solidification and melting model for VoF simulations." alt="" coords="285,183,464,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="172,678,182,580,202,448,215,381,231,319,250,269,271,234,286,221,289,225,275,237,254,271,236,321,220,382,207,449,187,581,177,678"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1fv_1_1acousticDampingSource.html" title="Applies sources on velocity (i.e. U) within a specified region to enable acoustic damping." alt="" coords="285,248,464,273"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="172,678,184,589,204,471,233,357,251,313,271,283,287,271,290,276,275,287,256,316,238,359,209,472,189,590,177,678"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1fv_1_1actuationDiskSource.html" title="Applies sources on velocity (i.e. U) within a specified region to enable actuator disk models for aer..." alt="" coords="297,297,453,323"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="173,678,186,599,207,495,236,397,253,358,271,332,295,317,298,322,275,336,257,361,241,399,212,497,191,600,178,679"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1fv_1_1atmAmbientTurbSource.html" title="Applies sources on k and either epsilon or omega to prevent them droping below a specified ambient va..." alt="" coords="287,347,462,372"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="169,678,174,618,188,538,201,495,219,454,242,415,272,381,288,370,291,374,275,385,246,418,224,456,206,497,194,539,179,618,175,679"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1fv_1_1atmBuoyancyTurbSource.html" title="Applies sources on k and either epsilon or omega to incorporate effects of buoyancy for atmospheric b..." alt="" coords="283,396,466,421"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="171,678,179,625,195,559,208,524,225,490,246,458,272,431,289,419,292,424,275,435,250,461,230,492,213,526,200,560,184,626,177,678"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1fv_1_1atmCoriolisUSource.html" title="Applies corrections to incorporate the horizontal and vertical components of the Coriolis force for w..." alt="" coords="299,445,450,471"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="174,678,184,634,202,581,231,526,250,502,272,480,298,465,301,470,275,484,254,505,235,529,207,583,189,636,179,679"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1fv_1_1atmLengthScaleTurbSource.html" title="Applies sources on either epsilon or omega to correct mixing&#45;length scale estimations for atmospheric..." alt="" coords="275,495,474,520"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="177,678,190,644,210,604,237,563,272,529,292,518,295,522,275,533,241,567,215,606,195,646,182,680"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1fv_1_1atmNutSource.html" title="Adds/subtracts a given artificial turbulent viscosity field to/from nut for atmospheric boundary laye..." alt="" coords="317,544,432,569"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="183,679,219,627,243,601,272,578,294,568,317,561,318,566,296,573,275,583,247,605,223,631,188,682"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1fv_1_1atmPlantCanopyTSource.html" title="Applies sources on temperature, i.e. T, to incorporate effects of plant canopy for atmospheric bounda..." alt="" coords="283,593,466,619"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="195,680,230,653,272,628,303,616,305,621,274,632,233,657,198,685"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1fv_1_1atmPlantCanopyTurbSource.html" title="Applies sources on either epsilon or omega to incorporate effects of plant canopy for atmospheric bou..." alt="" coords="274,643,475,668"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="235,686,273,677,319,665,320,671,274,682,236,691"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1fv_1_1atmPlantCanopyUSource.html" title="Applies sources on velocity (i.e. U) to incorporate effects of plant canopy for atmospheric boundary ..." alt="" coords="283,692,467,717"/>
+<area shape="poly" id="edge15_Node000001_Node000017" title=" " alt="" coords="239,702,283,702,283,707,239,707"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1fv_1_1buoyancyTurbSource.html" title="Applies sources on turbulent kinetic energy (i.e. k) and either turbulent kinetic energy dissipation ..." alt="" coords="297,741,453,767"/>
+<area shape="poly" id="edge16_Node000001_Node000018" title=" " alt="" coords="236,718,274,727,320,739,319,744,273,733,235,723"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1fv_1_1directionalPressureGradientExplicitSource.html" title="Applies an explicit pressure gradient source in such a way to deflect the flow towards an specific di..." alt="" coords="273,791,476,831"/>
+<area shape="poly" id="edge17_Node000001_Node000019" title=" " alt="" coords="198,724,233,751,275,777,302,789,300,794,272,782,230,756,195,728"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1fv_1_1explicitPorositySource.html" title="Applies an explicit porosity source to the momentum equation within a specified region." alt="" coords="291,856,458,881"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="186,729,221,786,245,816,275,841,300,854,298,858,272,846,242,820,216,789,181,732"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1fv_1_1fanMomentumSource.html" title="This source term models the action of a fan on the flow. It calculates flow rate through a set of ups..." alt="" coords="293,905,456,931"/>
+<area shape="poly" id="edge19_Node000001_Node000021" title=" " alt="" coords="181,730,193,767,212,811,239,855,275,892,294,903,292,908,272,896,235,858,208,813,188,769,176,732"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1fv_1_1fixedTemperatureConstraint.html" title="Constrain temperature equation (i.e. T) with a given set of fixed values within a specified region." alt="" coords="273,955,476,980"/>
+<area shape="poly" id="edge20_Node000001_Node000022" title=" " alt="" coords="178,730,187,776,205,833,233,892,252,918,275,941,292,952,290,957,272,945,248,922,229,895,200,835,182,777,173,731"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1fv_1_1heatExchangerSource.html" title="Heat exchanger source model for compressible flows, where the heat exchanger is modelled as an energy..." alt="" coords="293,1004,456,1029"/>
+<area shape="poly" id="edge21_Node000001_Node000023" title=" " alt="" coords="176,731,182,786,198,856,211,893,228,929,249,962,275,991,295,1003,292,1008,272,995,245,965,223,932,206,895,193,858,177,787,171,732"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1fv_1_1limitTemperature.html" title="Corrects temperature field (i.e. T) within a specified region by applying limits between a given mini..." alt="" coords="307,1053,442,1079"/>
+<area shape="poly" id="edge22_Node000001_Node000024" title=" " alt="" coords="174,731,178,794,192,878,204,922,222,965,245,1005,275,1040,290,1051,308,1058,306,1063,288,1055,272,1044,241,1008,217,968,199,924,186,879,172,795,169,731"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1fv_1_1limitTurbulenceViscosity.html" title="Corrects turbulence viscosity field (e.g. nut) within a specified region by applying a maximum limit,..." alt="" coords="284,1103,465,1128"/>
+<area shape="poly" id="edge23_Node000001_Node000025" title=" " alt="" coords="178,731,190,813,211,921,240,1024,257,1063,275,1089,290,1100,287,1105,271,1093,252,1066,235,1025,206,922,185,814,173,732"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1fv_1_1limitVelocity.html" title="Corrects velocity field (i.e. T) within a specified region by applying a given maximum velocity magni..." alt="" coords="323,1152,427,1177"/>
+<area shape="poly" id="edge24_Node000001_Node000026" title=" " alt="" coords="177,731,188,822,208,945,221,1007,237,1063,255,1108,275,1139,297,1153,323,1161,322,1166,295,1158,271,1143,250,1111,232,1065,216,1008,203,946,183,823,172,731"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1fv_1_1meanVelocityForce.html" title="Applies the force within a specified region to maintain the specified mean velocity for incompressibl..." alt="" coords="301,1201,448,1227"/>
+<area shape="poly" id="edge25_Node000001_Node000027" title=" " alt="" coords="177,731,186,832,205,969,218,1039,234,1102,253,1154,275,1188,302,1205,299,1209,271,1192,248,1156,229,1104,213,1040,199,970,181,832,171,731"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1fv_1_1rotorDiskSource.html" title="Applies cell&#45;based momentum sources on velocity (i.e. U) within a specified cylindrical region to app..." alt="" coords="311,1251,438,1276"/>
+<area shape="poly" id="edge26_Node000001_Node000029" title=" " alt="" coords="176,731,184,841,201,993,214,1071,231,1141,251,1199,275,1238,292,1250,312,1257,310,1262,289,1254,271,1241,246,1201,226,1143,209,1072,196,994,179,841,171,731"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1fv_1_1solidificationMeltingSource.html" title="This source is designed to model the effect of solidification and melting processes,..." alt="" coords="275,1300,474,1325"/>
+<area shape="poly" id="edge27_Node000001_Node000030" title=" " alt="" coords="176,731,182,850,198,1018,211,1103,228,1181,249,1244,262,1269,275,1287,289,1298,286,1302,271,1291,257,1271,245,1246,223,1182,206,1104,193,1018,177,851,170,732"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1fv_1_1velocityDampingConstraint.html" title="Constrain given velocity fields to dampen velocity fluctuations exceeding a given value within a spec..." alt="" coords="275,1349,475,1375"/>
+<area shape="poly" id="edge28_Node000001_Node000031" title=" " alt="" coords="175,732,180,860,195,1042,208,1135,225,1220,248,1289,261,1316,275,1336,289,1347,286,1351,271,1340,256,1319,243,1291,220,1221,203,1136,190,1042,175,860,170,732"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fv_1_1option.html" title="Base abstract class for handling finite volume options (i.e. fvOption)." alt="" coords="5,692,68,717"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,702,116,702,116,707,82,707"/>
+</map>

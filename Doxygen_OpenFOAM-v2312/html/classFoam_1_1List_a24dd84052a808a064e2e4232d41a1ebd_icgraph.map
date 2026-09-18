@@ -1,0 +1,45 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="Node000001" title="Assignment to UList operator. Takes linear time." alt="" coords="276,598,364,623"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1CompactIOList.html#ac04b2dd30ef35cbfe184a2ce30031e55" title="Construct by transferring the List content." alt="" coords="5,5,228,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,584,310,471,296,314,284,233,269,160,250,100,226,59,212,47,216,43,230,56,254,98,274,159,289,232,301,313,315,471,321,584"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1Field.html#aa4155a7a08070a3a5ee8bf86ea00a944" title="Construct with length=1, initializing content to zero." alt="" coords="29,70,204,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,585,309,480,294,337,282,264,267,198,249,144,226,109,203,93,206,89,230,105,253,142,272,197,287,263,299,336,314,480,320,584"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Field.html#a5351ddab76a874c7adfa1ccc91c5a5a0" title="Construct with length=1, copying the value as the only content." alt="" coords="29,119,204,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="314,584,307,489,291,361,279,296,264,237,247,190,226,158,203,143,206,138,230,154,251,187,269,236,284,295,296,360,312,489,320,584"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1GlobalIOList.html#ab44f79ab94521009533106a4fc4cdbb0" title="Construct from IOobject." alt="" coords="18,169,215,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="313,585,302,506,283,402,258,303,242,264,226,238,212,226,216,222,230,234,247,262,263,301,288,401,307,505,318,584"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1IOList.html#a40593e01565c4512a96589e6ccb0b2eb" title="Construct from IOobject and zero size (if not read)" alt="" coords="41,248,192,288"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="316,585,313,526,300,450,289,410,273,371,253,334,226,302,210,290,191,281,193,276,213,285,230,298,257,331,278,369,294,409,306,449,318,526,322,584"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1CompactIOList.html#a517aefcf7796138a84affc6f3ace79f4" title="Copy assignment of entries." alt="" coords="36,312,197,352"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="314,585,307,537,292,479,266,418,248,390,226,366,196,348,199,343,230,362,252,387,271,415,297,477,312,536,319,584"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Field.html#a4356fadebc9e59fb8189733d26c75605" title="Copy assignment." alt="" coords="31,377,202,402"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="312,585,302,547,286,500,261,454,245,433,226,415,201,401,204,397,230,411,249,430,266,451,291,498,307,545,317,584"/>
+<area shape="rect" id="Node000103" href="$classFoam_1_1Field.html#afcb786944ad7f80ca2050402bbf2060d" title="Assign entries to zero." alt="" coords="31,426,202,451"/>
+<area shape="poly" id="edge8_Node000001_Node000103" title=" " alt="" coords="308,586,278,525,255,493,226,466,201,453,203,448,230,462,259,489,283,522,312,584"/>
+<area shape="rect" id="Node000104" href="$classFoam_1_1GlobalIOList.html#afb043f9ccb3d50e727a49adb01da56ca" title="Copy assignment of entries." alt="" coords="44,476,189,516"/>
+<area shape="poly" id="edge9_Node000001_Node000104" title=" " alt="" coords="297,589,266,559,227,530,189,514,191,509,229,526,269,555,301,586"/>
+<area shape="rect" id="Node000105" href="$classFoam_1_1IOList.html#ad91cc88e20e96e9c4c7b0ee72b9d873d" title="Copy assignment of entries." alt="" coords="28,541,205,566"/>
+<area shape="poly" id="edge10_Node000001_Node000105" title=" " alt="" coords="272,596,227,581,178,569,179,563,229,576,274,591"/>
+<area shape="rect" id="Node000106" href="$classFoam_1_1Detail_1_1PtrListDetail.html#a57c77c55c6d8b9ce9981c3e6ee1f892e" title="Copy assignment (shallow copies addresses)" alt="" coords="20,591,213,631"/>
+<area shape="poly" id="edge11_Node000001_Node000106" title=" " alt="" coords="262,613,213,613,213,608,262,608"/>
+<area shape="rect" id="Node000107" href="$classFoam_1_1SortableList.html#a5cb3385e7151c3d0e67a565c36502482" title="Assignment operator. Takes linear time." alt="" coords="45,655,188,695"/>
+<area shape="poly" id="edge12_Node000001_Node000107" title=" " alt="" coords="272,631,229,645,189,657,187,652,227,640,270,625"/>
+<area shape="rect" id="Node000108" href="$classFoam_1_1SortableListDRGEP.html#aca3245a7f1818b4e6e844bd007f68c81" title=" " alt="" coords="23,719,211,759"/>
+<area shape="poly" id="edge13_Node000001_Node000108" title=" " alt="" coords="304,637,272,674,229,709,205,721,203,716,227,704,268,670,300,633"/>
+<area shape="rect" id="Node000109" href="$classFoam_1_1SortableListEFA.html#a3601b77fcf3c5b24fa6042733e0afae6" title=" " alt="" coords="33,783,200,823"/>
+<area shape="poly" id="edge14_Node000001_Node000109" title=" " alt="" coords="313,638,284,705,260,742,230,773,202,789,199,784,226,769,256,738,279,703,308,636"/>
+<area shape="rect" id="Node000110" href="$classFoam_1_1Field.html#af2046c396f7d0b98f55651d2da836ff6" title=" " alt="" coords="31,847,202,873"/>
+<area shape="poly" id="edge15_Node000001_Node000110" title=" " alt="" coords="318,638,310,681,295,735,269,790,251,815,230,837,203,852,201,847,226,833,247,812,264,787,290,733,305,680,313,637"/>
+<area shape="rect" id="Node000111" href="$classFoam_1_1Field.html#ac4a0194f78011cfc6c4b26dffcecaa4a" title="Assign entries to the given value." alt="" coords="31,897,202,922"/>
+<area shape="poly" id="edge16_Node000001_Node000111" title=" " alt="" coords="321,638,316,690,302,757,290,792,275,827,255,858,230,886,204,902,201,897,226,882,250,855,270,824,285,790,297,756,310,689,315,637"/>
+<area shape="rect" id="Node000112" href="$classFoam_1_1SortableList.html#a78ab9fc3ebd0a58afe6b0569046dd325" title="Assignment to UList operator, removing indices. Takes linear time." alt="" coords="45,947,188,987"/>
+<area shape="poly" id="edge17_Node000001_Node000112" title=" " alt="" coords="322,638,319,698,307,778,295,820,279,862,258,901,230,935,211,950,189,959,187,954,208,945,226,931,253,898,274,859,290,818,302,776,314,697,317,637"/>
+<area shape="rect" id="Node000113" href="$classFoam_1_1Field.html#a6528524a902f750968f8837046703608" title=" " alt="" coords="31,1011,202,1037"/>
+<area shape="poly" id="edge18_Node000001_Node000113" title=" " alt="" coords="319,638,309,720,291,829,265,932,249,973,230,1001,204,1017,201,1013,226,997,244,970,260,931,286,828,303,719,313,637"/>
+<area shape="rect" id="Node000114" href="$classFoam_1_1SortableList.html#a770c921f25f9fd2e3d13412988b3906d" title="Assignment to an initializer list." alt="" coords="45,1061,188,1101"/>
+<area shape="poly" id="edge19_Node000001_Node000114" title=" " alt="" coords="319,638,310,729,293,852,267,971,250,1017,230,1050,211,1065,189,1074,187,1070,208,1060,226,1046,245,1015,262,969,288,851,305,729,314,637"/>
+<area shape="rect" id="Node000115" href="$classFoam_1_1Detail_1_1PtrListDetail.html#a5bbe64887adeaabc88bf048993aea90f" title="Assign all entries to nullptr (without deleting)" alt="" coords="20,1125,213,1165"/>
+<area shape="poly" id="edge20_Node000001_Node000115" title=" " alt="" coords="320,637,313,741,298,884,286,956,271,1023,253,1077,230,1115,215,1128,212,1124,226,1112,248,1075,266,1021,281,955,292,883,308,741,315,637"/>
+<area shape="rect" id="Node000116" href="$classFoam_1_1Detail_1_1PtrListDetail.html#ab27b26051dd40b55b225980ad0cb92cc" title="Set the list to the given size and set all entries to nullptr." alt="" coords="20,1189,213,1229"/>
+<area shape="poly" id="edge21_Node000001_Node000116" title=" " alt="" coords="321,637,316,753,302,915,290,998,275,1073,255,1136,243,1160,230,1179,215,1192,212,1188,226,1176,239,1158,250,1134,270,1072,285,997,296,914,310,753,315,637"/>
+</map>

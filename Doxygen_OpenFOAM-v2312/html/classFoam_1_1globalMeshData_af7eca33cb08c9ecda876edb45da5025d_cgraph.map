@@ -1,0 +1,33 @@
+<map id="calcCellCells" name="calcCellCells">
+<area shape="rect" id="Node000001" title="Determine (local or global) cellCells and face weights from mesh agglomeration." alt="" coords="5,367,111,392"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="159,5,392,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,367,57,307,69,219,81,171,99,123,124,79,157,40,162,36,165,40,161,44,128,82,104,125,86,172,74,220,63,308,61,367"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1HashTable.html#ac8bb3912a3ce86b15842e79d0b421204" title="Remove all entries from table." alt="" coords="189,55,362,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="57,366,61,315,75,240,87,199,105,159,128,121,157,89,175,78,178,82,160,93,132,125,109,161,92,201,80,241,66,316,62,367"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="192,128,359,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="59,366,67,326,85,271,114,213,134,187,157,164,178,151,180,156,160,168,138,190,118,216,90,273,72,327,64,367"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1primitiveMesh.html#adefd042a02b5fa7ab8ab95063a631420" title=" " alt="" coords="195,178,355,218"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="62,365,95,300,122,261,157,228,181,214,184,219,160,232,126,264,99,302,67,367"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1polyMesh.html#a9fb57b52c700ed61f09ada65412d13e3" title="Return face neighbour." alt="" coords="159,243,391,268"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="66,365,102,321,128,297,157,277,172,270,174,275,160,282,131,301,106,325,70,368"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1polyMesh.html#a57752b49bfee23ca1944c3fb0493974f" title="Return face owner." alt="" coords="172,292,379,317"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="79,364,115,345,158,326,184,318,186,323,160,331,117,349,82,369"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1HashSet.html#a49f0753d9652681fc3a81f59951a0ad7" title="Insert a new entry, not overwriting existing entries." alt="" coords="193,341,358,367"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="110,371,178,363,179,368,111,376"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#a8ac5b57f98f906c36b8a4e989a77dbba" title=" " alt="" coords="228,391,323,416"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="111,382,215,394,214,399,110,388"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="173,440,378,465"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="83,390,119,408,160,425,191,434,190,439,158,430,116,413,81,395"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="195,490,355,530"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="71,390,107,432,132,455,160,474,183,486,181,490,157,479,129,459,103,436,67,394"/>
+<area shape="rect" id="Node000014" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="256,555,295,580"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="66,391,77,422,97,463,124,505,160,540,180,551,201,558,243,564,242,570,200,563,178,555,157,544,120,508,92,466,72,424,61,393"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1List.html#abcfb5796d79fe232cf87a5271bcc8a3a" title="Adjust allocated size of list." alt="" coords="207,604,343,629"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="64,392,73,431,90,485,119,542,138,567,160,589,177,600,195,607,193,612,174,604,157,593,134,571,114,544,85,487,67,432,59,393"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="200,677,351,703"/>
+<area shape="poly" id="edge14_Node000001_Node000016" title=" " alt="" coords="63,392,71,437,87,503,116,575,136,609,161,639,183,657,209,670,207,675,180,661,157,643,132,612,111,577,82,505,65,438,58,392"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1syncTools.html#ab59012dece791b34a5780b0771f8c9b5" title="Swap coupled boundary face values. Uses eqOp." alt="" coords="159,727,392,767"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="62,392,64,450,76,536,88,583,106,630,129,674,161,712,167,717,163,721,157,716,125,677,101,632,83,585,71,537,59,450,56,392"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="240,130,232,120,236,110,251,104,275,101,305,105,317,114,314,118,303,110,275,107,252,109,240,114,238,119,244,126"/>
+<area shape="poly" id="edge15_Node000016_Node000016" title=" " alt="" coords="240,679,232,669,236,659,251,653,275,651,305,654,317,663,314,668,303,659,275,656,252,658,240,663,238,668,244,676"/>
+</map>

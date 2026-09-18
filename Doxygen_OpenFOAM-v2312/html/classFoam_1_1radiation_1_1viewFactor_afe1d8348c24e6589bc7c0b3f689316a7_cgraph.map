@@ -1,0 +1,75 @@
+<map id="calculate" name="calculate">
+<area shape="rect" id="Node000001" title="Solve system of equation(s)" alt="" coords="5,812,87,837"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="187,5,349,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,811,53,658,70,412,81,285,96,173,113,87,122,58,133,40,151,26,172,17,174,22,154,31,137,44,127,60,118,89,101,174,87,286,75,412,58,658,51,812"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1polyPatch.html#aa0aa09411620fb064d8e464999a1b066" title="Return boundaryMesh reference." alt="" coords="151,55,385,80"/>
+<area shape="poly" id="edge2_Node000001_Node000006" title=" " alt="" coords="45,812,54,669,72,442,98,221,114,141,123,114,133,98,147,85,150,89,137,101,128,117,120,143,104,222,77,442,59,670,51,812"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="449,576,641,601"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="86,814,400,746,441,716,477,680,527,612,531,615,481,683,444,720,402,751,87,819"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="689,163,873,188"/>
+<area shape="poly" id="edge23_Node000001_Node000013" title=" " alt="" coords="45,811,53,675,71,460,83,351,97,254,114,181,123,156,133,141,152,129,176,119,238,108,313,106,397,110,568,131,709,157,708,163,567,137,396,115,313,111,239,113,178,124,154,133,137,145,127,159,119,182,102,255,88,351,76,461,59,675,51,812"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam.html#adac4fd793e9ae48ab4af2bdc705b7015" title=" " alt="" coords="221,220,315,245"/>
+<area shape="poly" id="edge5_Node000001_Node000016" title=" " alt="" coords="45,812,47,704,58,536,69,448,85,367,105,300,118,274,133,255,149,242,167,234,206,226,207,232,169,239,152,247,137,259,123,277,110,302,90,368,74,449,64,537,53,705,50,812"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1UPtrList.html#ad012611e5b1ceb9b9a3b23bbf3c19902" title="Return iterator beyond end of UPtrList traversal." alt="" coords="193,269,343,295"/>
+<area shape="poly" id="edge6_Node000001_Node000017" title=" " alt="" coords="45,812,50,714,63,564,74,485,89,413,108,353,120,330,133,312,154,296,179,286,181,290,157,300,137,316,124,333,113,355,94,414,79,486,68,565,55,715,50,812"/>
+<area shape="rect" id="Node000018" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="498,267,593,292"/>
+<area shape="poly" id="edge7_Node000001_Node000018" title=" " alt="" coords="45,812,51,722,65,584,76,513,91,447,110,393,133,356,484,288,485,293,136,360,114,395,96,448,81,514,70,585,56,722,51,812"/>
+<area shape="rect" id="Node000021" href="$namespaceFoam.html#a11b1ebb4c53ad062332767d75ca96328" title=" " alt="" coords="217,371,319,396"/>
+<area shape="poly" id="edge8_Node000001_Node000021" title=" " alt="" coords="45,811,52,729,68,607,79,543,94,485,112,438,133,406,148,394,165,386,202,378,203,383,167,391,151,398,137,409,116,440,99,487,85,545,73,608,58,730,51,812"/>
+<area shape="rect" id="Node000022" href="$namespaceFoam.html#a14e1da6db5665f43c1e588eab475eabf" title="Return an identity map of the given length with (map[i] == i), works like std::iota() but returning a..." alt="" coords="210,420,326,445"/>
+<area shape="poly" id="edge9_Node000001_Node000022" title=" " alt="" coords="46,811,54,738,71,630,97,524,113,483,133,455,162,437,195,428,197,434,164,442,137,459,118,485,102,526,76,631,60,739,51,812"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam.html#ac9ade0921d4fb2c4af75942ea524897b" title="Create an inverse one&#45;to&#45;one mapping." alt="" coords="216,469,320,495"/>
+<area shape="poly" id="edge10_Node000001_Node000025" title=" " alt="" coords="46,812,56,747,74,654,100,564,115,528,133,504,165,485,202,477,203,483,167,490,136,508,120,531,105,565,80,656,62,748,52,812"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam.html#ad74305a381cf061cce59098189211732" title="Invert one&#45;to&#45;many map. Unmapped elements will be size 0." alt="" coords="178,519,358,544"/>
+<area shape="poly" id="edge11_Node000001_Node000028" title=" " alt="" coords="45,811,47,763,59,693,70,656,85,619,106,584,133,555,164,537,166,541,136,559,110,587,90,621,75,657,64,694,53,763,50,812"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1Pstream.html#a303610fd10a6a560f8bb27e100aa77c6" title="After completion all processors have the same data." alt="" coords="165,569,371,609"/>
+<area shape="poly" id="edge12_Node000001_Node000032" title=" " alt="" coords="46,811,53,773,68,721,94,666,111,641,133,619,151,607,154,611,136,623,116,644,98,669,73,723,58,775,51,812"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1globalIndex.html#add5cedc6976841143490154bf2b21856" title="Size of proci data." alt="" coords="193,633,343,673"/>
+<area shape="poly" id="edge14_Node000001_Node000040" title=" " alt="" coords="49,811,77,749,102,713,133,683,155,670,178,661,180,666,157,675,136,687,106,716,82,752,54,813"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1globalIndex.html#ab4ea0981043beb78a0b95149790e20ed" title="Start of proci data." alt="" coords="193,697,343,737"/>
+<area shape="poly" id="edge15_Node000001_Node000041" title=" " alt="" coords="59,810,91,781,133,753,179,734,181,739,136,758,94,785,62,814"/>
+<area shape="rect" id="Node000042" href="$namespaceFoam.html#a3a4fbcdd330a7cdba4ce12676ad9cb3e" title="LU back&#45;substitution with given source, returning the solution in the source." alt="" coords="455,936,635,961"/>
+<area shape="poly" id="edge16_Node000001_Node000042" title=" " alt="" coords="54,836,64,862,81,894,105,925,136,949,180,967,227,979,275,985,323,985,413,977,487,962,488,967,414,982,323,991,274,990,226,984,178,972,133,954,101,929,77,897,60,864,49,838"/>
+<area shape="rect" id="Node000043" href="$namespaceFoam.html#a2cd7d5e4cff6c81c1d5cb871bd572b18" title=" " alt="" coords="734,873,829,899"/>
+<area shape="poly" id="edge38_Node000001_Node000043" title=" " alt="" coords="87,821,185,820,322,822,481,830,642,847,728,867,726,872,641,853,481,835,322,827,185,825,87,826"/>
+<area shape="rect" id="Node000044" href="$namespaceFoam.html#a4c90a8a26de44c9bed71aef2138ce997" title="LU decompose the matrix with pivoting." alt="" coords="465,887,625,912"/>
+<area shape="poly" id="edge18_Node000001_Node000044" title=" " alt="" coords="87,831,135,841,303,867,452,886,451,891,302,872,134,846,86,836"/>
+<area shape="rect" id="Node000046" href="$namespaceFoam.html#ad36ff051a76f2291e79751842332871c" title="Solve the matrix using LU decomposition with pivoting returning the LU form of the matrix and the sol..." alt="" coords="209,913,327,939"/>
+<area shape="poly" id="edge20_Node000001_Node000046" title=" " alt="" coords="61,835,94,864,136,892,196,912,194,917,133,896,90,868,58,839"/>
+<area shape="rect" id="Node000048" href="$classFoam_1_1messageStream.html#a0edcebd1d86ac65765e16f155d17b351" title="Return OSstream for output operations on the master process only, Snull on other processes." alt="" coords="182,155,354,195"/>
+<area shape="poly" id="edge24_Node000001_Node000048" title=" " alt="" coords="45,812,46,697,57,514,67,418,83,329,104,256,117,227,133,206,149,192,168,182,170,187,152,196,137,209,122,230,109,258,88,330,73,419,62,515,52,697,50,812"/>
+<area shape="rect" id="Node000050" href="$namespaceFoam.html#a0e0c00c14acbabe88eec56a8b0fa2806" title="Find the max value in labelHashSet, optionally limited by second argument." alt="" coords="221,1015,315,1040"/>
+<area shape="poly" id="edge27_Node000001_Node000050" title=" " alt="" coords="53,837,61,869,78,912,102,956,118,976,136,993,170,1012,208,1021,206,1026,168,1017,133,997,114,980,98,959,73,914,56,871,48,838"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="165,1064,371,1089"/>
+<area shape="poly" id="edge28_Node000001_Node000034" title=" " alt="" coords="51,837,56,879,69,937,80,969,95,999,113,1027,136,1051,154,1062,151,1066,133,1055,109,1030,90,1002,75,971,64,939,50,880,45,838"/>
+<area shape="rect" id="Node000051" href="$classFoam_1_1MeshObject.html#a174574ec68990766b0ac5746b6c8be68" title="Get existing or create a new MeshObject. Registered with typeName." alt="" coords="135,1113,401,1168"/>
+<area shape="poly" id="edge29_Node000001_Node000051" title=" " alt="" coords="50,838,53,887,65,957,76,996,91,1034,111,1069,137,1100,140,1103,136,1107,133,1104,107,1072,86,1036,71,998,60,959,48,887,45,838"/>
+<area shape="rect" id="Node000052" href="$classFoam_1_1lduMatrix_1_1solver.html#a888c9beabc058a32d5e9cb8752e00d69" title="Return a new solver of given type." alt="" coords="161,1192,375,1217"/>
+<area shape="poly" id="edge30_Node000001_Node000052" title=" " alt="" coords="51,837,60,909,77,1012,103,1114,119,1153,137,1179,150,1189,147,1193,133,1183,114,1156,98,1115,72,1013,55,909,46,838"/>
+<area shape="rect" id="Node000060" href="$namespaceFoam.html#aa0ae321d4861170e35fbb938636a4f40" title=" " alt="" coords="217,1265,319,1291"/>
+<area shape="poly" id="edge31_Node000001_Node000060" title=" " alt="" coords="51,837,59,916,76,1034,102,1151,118,1197,137,1228,168,1252,205,1266,203,1271,165,1257,133,1232,113,1199,97,1152,71,1035,54,917,46,838"/>
+<area shape="rect" id="Node000061" href="$checkPatchTopology_8H.html#a62bd17b324c5b9481f03d4b6d6e09f88" title=" " alt="" coords="249,1315,287,1340"/>
+<area shape="poly" id="edge33_Node000001_Node000061" title=" " alt="" coords="50,838,56,930,69,1071,80,1144,95,1211,114,1265,137,1301,158,1316,184,1325,235,1328,235,1334,183,1330,156,1321,133,1305,109,1268,90,1212,75,1145,64,1071,50,930,45,838"/>
+<area shape="rect" id="Node000062" href="$namespaceFoam.html#a0b18ffad13f9e7e1ae8e921f396c51f5" title="A dynamic_cast (for references). Generates a FatalError on failed casts and uses the virtual type() m..." alt="" coords="211,1364,325,1389"/>
+<area shape="poly" id="edge34_Node000001_Node000062" title=" " alt="" coords="50,837,54,938,66,1094,77,1175,92,1250,112,1311,124,1334,136,1351,165,1369,198,1377,197,1382,163,1374,133,1355,119,1337,107,1313,87,1251,72,1176,61,1094,49,938,45,838"/>
+<area shape="rect" id="Node000063" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="201,1413,335,1439"/>
+<area shape="poly" id="edge35_Node000001_Node000063" title=" " alt="" coords="50,838,52,947,63,1117,74,1207,89,1289,110,1356,123,1381,137,1400,160,1416,188,1425,186,1430,158,1421,133,1404,118,1384,105,1358,84,1290,69,1207,58,1118,47,947,45,838"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="193,1487,343,1512"/>
+<area shape="poly" id="edge36_Node000001_Node000012" title=" " alt="" coords="50,837,53,953,64,1137,75,1234,90,1324,110,1399,123,1428,137,1450,157,1468,181,1481,179,1485,154,1472,133,1453,118,1430,105,1401,85,1326,69,1235,59,1138,47,954,45,838"/>
+<area shape="rect" id="Node000066" href="$classFoam_1_1globalIndex.html#ab04560537563e5ca8d8e104dc5256e84" title="From local to global on proci." alt="" coords="193,1537,343,1577"/>
+<area shape="poly" id="edge39_Node000001_Node000066" title=" " alt="" coords="50,837,49,966,57,1173,67,1283,83,1384,106,1467,120,1499,137,1523,156,1539,180,1549,178,1553,154,1543,133,1526,116,1502,101,1469,78,1385,62,1283,52,1174,44,966,44,837"/>
+<area shape="rect" id="Node000067" href="$classFoam_1_1globalIndex.html#a50478280896fde43ddfd71642691fef1" title="From global to local on proci." alt="" coords="193,1601,343,1641"/>
+<area shape="poly" id="edge40_Node000001_Node000067" title=" " alt="" coords="51,837,59,987,76,1226,88,1350,102,1459,119,1543,128,1571,137,1587,156,1603,181,1613,178,1618,154,1607,133,1590,123,1573,114,1544,97,1460,83,1351,71,1227,53,987,45,838"/>
+<area shape="rect" id="Node000068" href="$classFoam_1_1globalIndex.html#a9a078c678adb1cc2ead3219d2157d062" title="Which processor does global id come from? Checks proci first (assumed to occur reasonably frequently)..." alt="" coords="193,1665,343,1705"/>
+<area shape="poly" id="edge41_Node000001_Node000068" title=" " alt="" coords="50,838,58,999,74,1259,86,1393,101,1512,118,1603,127,1633,137,1651,156,1667,180,1677,178,1682,154,1671,133,1654,122,1635,112,1604,95,1513,81,1394,69,1259,52,999,45,838"/>
+<area shape="poly" id="edge4_Node000007_Node000013" title=" " alt="" coords="552,575,764,199,768,201,556,577"/>
+<area shape="poly" id="edge13_Node000032_Node000007" title=" " alt="" coords="372,586,435,586,435,591,372,591"/>
+<area shape="poly" id="edge17_Node000042_Node000043" title=" " alt="" coords="597,933,641,922,721,900,723,905,642,927,598,939"/>
+<area shape="poly" id="edge19_Node000044_Node000044" title=" " alt="" coords="507,888,499,878,503,868,519,862,545,860,578,864,591,873,588,878,576,869,545,865,520,867,507,872,504,878,511,885"/>
+<area shape="poly" id="edge21_Node000046_Node000042" title=" " alt="" coords="328,928,442,938,441,943,327,933"/>
+<area shape="poly" id="edge22_Node000046_Node000044" title=" " alt="" coords="327,918,451,906,452,911,328,923"/>
+<area shape="poly" id="edge26_Node000048_Node000013" title=" " alt="" coords="354,173,676,173,676,178,354,178"/>
+<area shape="poly" id="edge25_Node000048_Node000018" title=" " alt="" coords="355,190,402,205,461,231,512,258,510,262,459,235,400,210,354,195"/>
+<area shape="poly" id="edge32_Node000060_Node000060" title=" " alt="" coords="232,1267,224,1257,228,1247,243,1241,268,1239,299,1242,311,1251,308,1256,297,1247,268,1244,244,1246,232,1251,229,1256,236,1264"/>
+<area shape="poly" id="edge37_Node000012_Node000012" title=" " alt="" coords="232,1488,224,1478,228,1468,243,1462,268,1460,299,1464,311,1473,308,1477,297,1469,268,1465,244,1467,232,1472,229,1478,236,1485"/>
+</map>

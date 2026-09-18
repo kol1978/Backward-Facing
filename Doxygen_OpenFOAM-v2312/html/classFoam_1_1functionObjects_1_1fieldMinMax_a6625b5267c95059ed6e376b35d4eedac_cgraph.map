@@ -1,0 +1,27 @@
+<map id="calcMinMaxFieldType" name="calcMinMaxFieldType">
+<area shape="rect" id="Node000001" title="Calculate the field min/max for a given field type." alt="" coords="5,232,167,257"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="215,5,425,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,230,105,194,131,145,167,93,189,69,213,48,239,33,241,38,216,52,193,73,171,96,136,148,110,197,95,233"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="473,56,655,81"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="92,230,109,202,136,165,171,128,213,98,274,75,338,62,401,56,459,56,459,61,401,62,339,67,275,80,216,103,175,132,140,168,114,205,96,233"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="703,107,853,132"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="97,230,144,185,177,161,214,142,275,123,339,110,404,101,469,97,590,97,689,105,689,110,589,102,469,102,405,106,340,115,277,128,216,147,180,165,147,189,100,234"/>
+<area shape="rect" id="Node000022" href="$combustion_2reactingFoam_2setRDeltaT_8H.html#a9698eee39c0e58c7c0df6fe1a4cc3168" title=" " alt="" coords="295,157,345,183"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="116,229,214,193,280,175,282,181,215,198,118,234"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam.html#adc7c51006036d1f73a9c7cf49e15fd1c" title="Linear search for the index of the max element, similar to std::max_element but for lists and returns..." alt="" coords="261,207,379,232"/>
+<area shape="poly" id="edge6_Node000001_Node000023" title=" " alt="" coords="167,233,247,225,247,230,167,239"/>
+<area shape="rect" id="Node000024" href="$namespaceFoam.html#a43e4ab4b5ac6abdc08d96350b55ac5bd" title="Linear search for the index of the min element, similar to std::min_element but for lists and returns..." alt="" coords="263,256,377,281"/>
+<area shape="poly" id="edge7_Node000001_Node000024" title=" " alt="" coords="167,250,249,259,249,264,167,256"/>
+<area shape="rect" id="Node000025" href="$namespaceFoam.html#a7be6f92d3e0552ca6935edb2522b68f7" title="Linear search for the index of the min/max element, similar to std::minmax_element but for lists and ..." alt="" coords="249,305,391,331"/>
+<area shape="poly" id="edge8_Node000001_Node000025" title=" " alt="" coords="118,255,215,291,244,299,243,305,214,297,116,260"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1UPtrList.html#a1c9828bc3de9502754d944c95a2ce0d9" title="Reference to the first element of the list." alt="" coords="245,355,395,380"/>
+<area shape="poly" id="edge9_Node000001_Node000026" title=" " alt="" coords="102,255,149,298,181,321,216,341,233,348,231,353,213,346,178,326,146,302,98,259"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="217,404,423,429"/>
+<area shape="poly" id="edge10_Node000001_Node000014" title=" " alt="" coords="97,256,141,321,175,359,216,390,228,397,225,401,213,395,172,363,137,324,92,259"/>
+<area shape="rect" id="Node000028" href="$namespaceFoam.html#aa5b4d7ceebbce31ef401f61fade6634f" title=" " alt="" coords="510,305,618,331"/>
+<area shape="poly" id="edge12_Node000001_Node000028" title=" " alt="" coords="93,257,107,295,131,347,167,399,190,422,216,440,271,463,295,468,318,469,366,460,424,440,462,420,495,393,544,340,548,343,498,397,464,424,426,444,368,465,318,474,294,473,269,468,213,444,187,426,163,403,126,350,102,297,88,258"/>
+<area shape="poly" id="edge2_Node000002_Node000012" title=" " alt="" coords="383,28,489,51,488,56,382,33"/>
+<area shape="poly" id="edge3_Node000012_Node000013" title=" " alt="" coords="619,79,711,101,710,106,618,84"/>
+<area shape="poly" id="edge4_Node000013_Node000013" title=" " alt="" coords="743,108,736,98,739,88,754,82,778,80,808,84,819,93,816,97,806,89,778,85,755,87,743,92,741,98,747,105"/>
+<area shape="poly" id="edge13_Node000028_Node000013" title=" " alt="" coords="577,303,751,140,755,144,581,307"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="faMesh" name="faMesh">
+<area shape="rect" id="Node000001" title="Finite area mesh (used for 2&#45;D non&#45;Euclidian finite area method) defined using a patch of faces on a ..." alt="" coords="364,159,435,184"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1MeshObject.html" title=" " alt="" coords="5,5,232,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,62,290,84,341,112,369,134,390,157,386,160,365,138,339,116,288,89,235,67"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1lduMesh.html" title="Abstract base class for meshes which provide LDU addressing for the construction of lduMatrix and LDU..." alt="" coords="80,84,157,109"/>
+<area shape="poly" id="edge2_Node000001_Node000020" title=" " alt="" coords="171,101,252,117,341,141,376,156,374,161,339,146,251,122,170,107"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1faSchemes.html" title="Selector class for finite area differencing schemes. faMesh is derived from faSchemes so that all fie..." alt="" coords="71,133,166,159"/>
+<area shape="poly" id="edge3_Node000001_Node000021" title=" " alt="" coords="180,148,340,162,364,165,363,170,340,167,180,153"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1edgeInterpolation.html" title="Face to edge interpolation scheme. Included in faMesh." alt="" coords="50,183,187,208"/>
+<area shape="poly" id="edge4_Node000001_Node000031" title=" " alt="" coords="201,186,364,172,364,177,201,191"/>
+<area shape="rect" id="Node000032" href="$classFoam_1_1faSolution.html" title="Selector class for finite area solution. faMesh is derived from faSolution so that all fields have ac..." alt="" coords="75,232,163,257"/>
+<area shape="poly" id="edge5_Node000001_Node000032" title=" " alt="" coords="175,230,231,217,339,186,363,179,364,184,341,191,233,222,177,235"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1word.html" title="A class for handling words, derived from Foam::string." alt="" coords="91,320,146,345"/>
+<area shape="poly" id="edge6_Node000001_Node000015" title=" " alt="" coords="159,322,246,296,294,274,338,247,369,214,389,183,394,185,373,218,342,251,296,279,247,301,160,327"/>
+<area shape="poly" id="edge7_Node000015_Node000015" title=" " alt="" coords="84,306,94,297,119,293,139,296,151,302,155,312,148,321,144,318,149,311,147,305,138,301,119,299,96,302,87,310"/>
+</map>

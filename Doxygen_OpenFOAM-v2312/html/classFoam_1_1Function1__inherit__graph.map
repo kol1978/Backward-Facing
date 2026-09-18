@@ -1,0 +1,45 @@
+<map id="Function1&lt; Type &gt;" name="Function1&lt; Type &gt;">
+<area shape="rect" id="Node000001" title="Top level data entry class for use in dictionaries. Provides a mechanism to specify a variable as a c..." alt="" coords="169,520,315,545"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1Function1Types_1_1CodedFunction1.html" title="Function1 with the code supplied by an on&#45;the&#45;fly compiled C++ expression." alt="" coords="553,5,740,31"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="243,506,254,417,273,297,300,182,317,136,337,104,359,83,384,66,439,40,498,25,553,17,554,22,499,30,441,45,386,70,362,87,341,108,322,138,305,183,278,298,259,418,248,507"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1Function1Types_1_1Constant.html" title="Templated function that returns a constant value." alt="" coords="577,55,717,80"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="240,506,242,439,254,348,266,300,284,251,307,205,337,164,362,141,390,121,453,92,518,76,576,67,577,73,519,81,455,97,393,126,365,145,341,168,311,208,288,253,272,301,260,349,247,439,245,506"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1Function1Types_1_1Function1Expression.html" title="Function1 with values supplied by a parsed expression." alt="" coords="569,105,725,145"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="241,506,247,449,261,374,273,334,290,294,311,257,337,224,361,202,389,183,449,155,511,137,568,127,569,133,512,142,451,160,391,188,365,206,341,228,315,260,294,297,278,335,266,375,252,449,247,506"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1Function1Types_1_1FunctionObjectTrigger.html" title="Returns a 0/1 value corresponding to function object trigger levels." alt="" coords="565,169,728,209"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="243,506,252,458,268,398,296,336,314,307,337,281,362,261,389,243,448,217,509,200,565,191,566,196,510,206,450,222,392,248,365,265,341,285,319,310,300,338,273,400,257,459,249,507"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1Function1Types_1_1FunctionObjectValue.html" title="Returns a value retrieved from a function object result." alt="" coords="569,233,724,273"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="246,506,257,468,275,421,301,374,337,333,363,314,392,299,452,275,513,261,569,253,570,258,514,266,454,280,394,303,366,319,340,337,305,377,279,423,262,469,251,507"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1Function1Types_1_1InputValueMapper.html" title="Function1 wrapper that maps the input value prior to it being used by another Function1." alt="" coords="547,297,747,323"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="251,506,283,444,307,411,337,383,386,354,440,333,495,320,546,312,547,317,496,325,442,339,389,359,340,387,311,414,287,447,255,508"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Function1Types_1_1None.html" title="Templated placeholder function that returns an error message if called." alt="" coords="589,347,705,372"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="257,507,291,466,313,445,337,428,401,398,468,378,533,366,588,360,589,365,534,371,469,383,403,403,340,432,316,449,295,470,261,510"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1Function1Types_1_1OneConstant.html" title="Templated function that returns the corresponding 1 (one)." alt="" coords="563,396,730,421"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="269,509,300,487,338,468,395,448,454,432,562,414,563,419,455,438,396,453,340,472,303,492,272,513"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1Function1Types_1_1Polynomial.html" title=" " alt="" coords="569,445,724,471"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="290,513,338,499,459,477,569,463,569,468,460,482,339,505,292,518"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1Function1Types_1_1Sample.html" title=" " alt="" coords="581,495,712,520"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="328,524,338,523,581,508,581,514,339,529,329,529"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Function1Types_1_1Scale.html" title="Function1 which scales a given &#39;value&#39; function by a scalar &#39;scale&#39; function." alt="" coords="588,544,705,569"/>
+<area shape="poly" id="edge12_Node000001_Node000015" title=" " alt="" coords="329,535,588,551,587,556,328,540"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1Function1Types_1_1Sine.html" title="A templated sine function, with support for offset etc." alt="" coords="591,593,702,619"/>
+<area shape="poly" id="edge13_Node000001_Node000016" title=" " alt="" coords="316,545,339,550,591,594,590,600,338,555,315,551"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1Function1Types_1_1TableBase.html" title="Base class for table with bounds handling, interpolation and integration." alt="" coords="573,643,721,668"/>
+<area shape="poly" id="edge14_Node000001_Node000019" title=" " alt="" coords="275,550,340,584,400,604,461,620,573,643,572,648,460,626,398,609,338,588,273,555"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1Function1Types_1_1ZeroConstant.html" title="Templated function that returns the corresponding 0 (zero)." alt="" coords="561,692,732,717"/>
+<area shape="poly" id="edge15_Node000001_Node000023" title=" " alt="" coords="261,555,295,596,316,616,340,633,394,659,452,677,509,689,562,697,561,702,508,695,451,682,392,664,337,638,313,620,291,599,257,558"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1Function1.html" title=" " alt="" coords="569,741,724,767"/>
+<area shape="poly" id="edge16_Node000001_Node000024" title=" " alt="" coords="252,558,263,593,281,634,306,675,340,708,366,723,395,736,455,752,515,758,569,759,569,764,514,764,454,757,393,741,364,728,337,712,302,678,276,637,258,595,247,560"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1Function1.html" title=" " alt="" coords="547,791,747,816"/>
+<area shape="poly" id="edge17_Node000001_Node000034" title=" " alt="" coords="247,559,254,607,269,668,281,699,297,728,316,755,340,777,368,794,399,806,464,819,528,820,585,813,586,819,529,825,463,824,397,812,366,799,337,781,312,758,292,731,276,701,264,669,249,608,242,559"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1Function1.html" title=" " alt="" coords="546,840,747,865"/>
+<area shape="poly" id="edge18_Node000001_Node000035" title=" " alt="" coords="245,559,247,619,259,697,271,737,288,776,311,811,340,840,354,847,374,853,425,860,485,861,546,859,546,864,485,866,425,865,373,858,352,852,337,844,307,814,283,779,266,739,254,698,242,620,240,559"/>
+<area shape="rect" id="Node000036" href="$classFoam_1_1Function1.html" title=" " alt="" coords="551,889,742,915"/>
+<area shape="poly" id="edge19_Node000001_Node000036" title=" " alt="" coords="249,559,260,635,280,733,306,825,323,859,340,881,369,900,402,913,436,921,471,924,539,922,597,912,598,917,540,927,471,929,435,926,400,918,367,905,337,885,318,862,302,826,274,734,255,636,244,559"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1Function1.html" title=" " alt="" coords="525,939,768,964"/>
+<area shape="poly" id="edge20_Node000001_Node000037" title=" " alt="" coords="248,558,257,647,274,764,287,823,302,875,320,917,340,944,370,957,415,963,469,964,525,961,525,967,469,969,415,968,369,962,337,948,315,920,297,877,281,824,269,765,251,648,243,559"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1Function1.html" title=" " alt="" coords="569,988,724,1013"/>
+<area shape="poly" id="edge21_Node000001_Node000038" title=" " alt="" coords="247,559,255,655,272,784,284,849,300,907,318,954,341,984,370,1004,403,1017,438,1024,474,1027,544,1022,602,1011,603,1016,544,1027,474,1032,437,1029,401,1022,367,1008,337,988,314,957,294,909,279,850,266,785,250,656,242,560"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1function1Base.html" title="Base class for template&#45;invariant parts of Function1." alt="" coords="5,520,120,545"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,530,169,530,169,535,134,535"/>
+</map>

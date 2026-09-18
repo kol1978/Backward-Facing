@@ -1,0 +1,27 @@
+<map id="primaryMesh" name="primaryMesh">
+<area shape="rect" id="Node000001" title="Return the reference to the primary mesh database." alt="" coords="611,411,719,436"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1regionModels_1_1thermalBaffleModels_1_1noThermo.html#a733eb9714af55e877dae51b5ee26ec0b" title="Return the film specific heat capacity [J/kg/K]." alt="" coords="350,5,517,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="661,397,658,332,645,245,632,199,614,153,591,111,561,73,540,58,516,47,518,42,543,53,565,69,595,108,619,151,637,197,650,244,663,332,666,397"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1liquidFilmThermo.html#a5673e50c4f933c26fce60fdc3fb74323" title="Initialise the liquid pointer." alt="" coords="327,84,539,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="659,397,651,346,634,280,605,211,585,180,561,152,538,136,541,132,564,148,590,176,610,208,639,278,656,345,664,397"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1kinematicSingleLayer.html#afd28a995401c6953193aaf92f4ff0dc3" title="Return enthalpy source &#45; Eulerian phase only." alt="" coords="336,163,531,217"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="654,398,642,361,623,315,596,270,561,231,530,212,533,208,564,227,601,267,628,313,647,359,659,396"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1thermoSingleLayer.html#afd28a995401c6953193aaf92f4ff0dc3" title="Return enthalpy source &#45; Eulerian phase only." alt="" coords="345,265,522,320"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="641,401,606,366,561,334,521,316,523,311,564,329,609,362,645,398"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1kinematicSingleLayer.html#af3782647a50c10a5e18186910185ca3d" title="Return total mass source &#45; Eulerian phase only." alt="" coords="329,344,537,399"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="597,411,537,397,538,392,598,406"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1thermoSingleLayer.html#af3782647a50c10a5e18186910185ca3d" title="Return total mass source &#45; Eulerian phase only." alt="" coords="338,447,529,501"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="597,441,530,456,529,450,596,435"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1thermoSingleLayer.html#ae7ebe16f2e8e33279907bb5fd54c05b8" title="Return mass source for specie i &#45; Eulerian phase only." alt="" coords="35,480,226,535"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="647,449,612,485,589,502,564,515,521,528,477,537,387,544,301,540,226,530,227,525,301,535,387,539,476,532,520,523,562,510,586,498,608,481,643,445"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1kinematicSingleLayer.html#ae7ebe16f2e8e33279907bb5fd54c05b8" title="Return mass source for specie i &#45; Eulerian phase only." alt="" coords="329,577,537,632"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="653,449,618,505,593,534,564,560,531,580,528,575,561,556,589,531,614,501,649,446"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1kinematicSingleLayer.html#ad280476804f72e6d48d182e2d0814a46" title="Transfer source fields from the primary region to the film region." alt="" coords="304,657,563,726"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="661,450,650,492,631,544,603,598,585,623,564,645,547,659,544,654,561,641,581,620,598,595,626,542,644,491,656,449"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1regionModels_1_1surfaceFilmModels_1_1thermoSingleLayer.html#ad280476804f72e6d48d182e2d0814a46" title="Transfer source fields from the primary region to the film region." alt="" coords="5,693,256,762"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="667,450,665,512,652,592,639,634,621,674,596,710,564,740,526,762,485,777,442,785,398,788,311,781,233,765,234,759,312,776,398,783,441,780,484,772,524,758,561,736,592,707,616,671,634,632,646,591,659,511,662,449"/>
+<area shape="poly" id="edge5_Node000006_Node000006" title=" " alt="" coords="472,254,458,247,433,244,413,246,400,251,394,257,394,265,389,265,389,255,397,246,412,241,433,239,459,242,474,250"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="472,436,458,428,433,425,413,427,400,432,394,438,394,447,389,447,389,436,397,428,412,422,433,420,459,423,474,431"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="325,489,227,500,226,494,324,483"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="291,711,257,715,256,710,290,706"/>
+</map>

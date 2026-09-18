@@ -1,0 +1,38 @@
+<map id="findSamples" name="findSamples">
+<area shape="rect" id="Node000001" title="Find (global) cells/faces containing samples." alt="" coords="5,365,108,391"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ae922e15e1dd57e59fa36902268807c78" title="Gather data, but keep individual values separate. Uses linear/tree communication." alt="" coords="157,5,367,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,365,58,308,70,224,82,177,100,130,123,87,154,48,172,35,175,39,158,52,128,90,104,132,87,178,75,225,63,309,60,365"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="416,56,597,81"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="55,365,59,314,72,240,85,201,102,163,125,128,154,99,186,78,220,64,256,54,293,48,366,46,431,51,430,57,366,51,294,53,257,59,222,69,188,83,158,103,129,131,106,165,90,203,77,242,64,314,61,365"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="645,81,796,107"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="56,365,62,321,78,260,91,227,107,195,128,167,155,142,180,132,225,124,352,110,632,94,632,100,352,115,226,129,182,138,157,147,132,170,112,198,96,229,83,261,68,322,62,366"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1PtrList.html#a9846c2ecbc3f323d5dc356dedb2c6cbd" title="Move append an element to the end of the list." alt="" coords="181,157,343,183"/>
+<area shape="poly" id="edge5_Node000001_Node000022" title=" " alt="" coords="58,364,69,329,87,283,115,234,133,211,154,192,167,184,169,189,158,196,137,215,120,237,92,285,74,331,64,366"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1UPstream.html#ab4691e86a2f6e42f59695a8ec4b7de90" title="Alter communicator debugging setting. Warns for use of any communicator differing from specified." alt="" coords="156,207,368,232"/>
+<area shape="poly" id="edge6_Node000001_Node000026" title=" " alt="" coords="62,364,96,309,123,277,154,249,183,234,185,239,158,254,127,280,101,312,67,367"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="459,340,554,365"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="66,363,102,326,127,307,155,293,213,276,261,274,309,280,369,293,424,310,472,331,469,336,422,315,367,298,308,286,260,279,214,282,157,298,130,312,106,330,70,367"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1UPtrList.html#a1c9828bc3de9502754d944c95a2ce0d9" title="Reference to the first element of the list." alt="" coords="187,308,337,333"/>
+<area shape="poly" id="edge8_Node000001_Node000027" title=" " alt="" coords="94,363,155,343,191,334,192,339,157,349,95,368"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1Pstream.html#a303610fd10a6a560f8bb27e100aa77c6" title="After completion all processors have the same data." alt="" coords="159,358,365,398"/>
+<area shape="poly" id="edge9_Node000001_Node000029" title=" " alt="" coords="108,375,145,375,145,381,108,381"/>
+<area shape="rect" id="Node000035" href="$namespaceFoam.html#a53d7a4359e1c5a7c190744f5e0c7c723" title="Return the file mode, normally following symbolic links." alt="" coords="211,423,313,448"/>
+<area shape="poly" id="edge10_Node000001_Node000035" title=" " alt="" coords="95,388,157,407,198,418,196,423,155,413,94,393"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1UPstream.html#a3509578c950204a2eb568761a6c419e4" title="Message tag of standard messages." alt="" coords="164,472,360,497"/>
+<area shape="poly" id="edge12_Node000001_Node000037" title=" " alt="" coords="71,389,107,424,131,443,157,458,174,465,172,470,155,463,128,447,104,428,67,393"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="159,521,365,547"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="66,390,99,447,125,480,158,508,168,514,165,518,154,512,122,484,95,450,61,392"/>
+<area shape="rect" id="Node000038" href="$utilities_2postProcessing_2miscellaneous_2pdfPlot_2createFields_8H.html#a65fd97654d201da2dc818750d9148c73" title=" " alt="" coords="223,571,301,596"/>
+<area shape="poly" id="edge15_Node000001_Node000038" title=" " alt="" coords="64,390,74,424,92,470,120,517,137,539,158,557,183,570,210,578,209,583,181,575,154,562,133,542,115,520,87,472,69,426,58,392"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1PtrList.html#a69101c7616426ea26b33577a730b73e8" title="Same as resize()" alt="" coords="181,620,343,645"/>
+<area shape="poly" id="edge16_Node000001_Node000039" title=" " alt="" coords="62,390,69,433,86,491,114,554,134,582,158,607,169,615,166,619,154,611,130,586,109,556,81,493,64,434,57,391"/>
+<area shape="rect" id="Node000043" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="195,669,329,695"/>
+<area shape="poly" id="edge18_Node000001_Node000043" title=" " alt="" coords="61,391,65,441,79,513,92,552,108,590,130,625,158,656,183,671,180,676,154,660,126,629,104,592,87,554,74,514,60,441,56,391"/>
+<area shape="rect" id="Node000045" href="$namespaceFoam.html#a277dc11c581d53826ab5090b08f3b17b" title=" " alt="" coords="219,743,305,768"/>
+<area shape="poly" id="edge19_Node000001_Node000045" title=" " alt="" coords="61,391,65,447,78,530,91,576,107,622,130,666,158,706,180,724,207,738,204,743,177,729,154,709,125,669,103,624,85,578,73,531,59,447,56,391"/>
+<area shape="poly" id="edge2_Node000002_Node000012" title=" " alt="" coords="325,28,432,51,431,56,324,33"/>
+<area shape="poly" id="edge3_Node000012_Node000013" title=" " alt="" coords="598,77,632,81,631,86,597,82"/>
+<area shape="poly" id="edge4_Node000013_Node000013" title=" " alt="" coords="686,83,678,73,682,63,697,57,721,55,750,58,762,67,759,72,748,63,721,60,698,62,686,67,683,72,690,80"/>
+<area shape="poly" id="edge11_Node000035_Node000006" title=" " alt="" coords="313,422,367,407,465,369,467,374,369,413,315,427"/>
+<area shape="poly" id="edge20_Node000045_Node000045" title=" " alt="" coords="228,744,221,734,225,724,239,718,262,716,291,720,302,729,299,733,288,725,262,721,240,723,229,728,226,734,232,741"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="cyclicACMIGAMGInterface" name="cyclicACMIGAMGInterface">
+<area shape="rect" id="Node000001" title="Construct from fine level interface, local and neighbour restrict addressing." alt="" coords="5,252,197,277"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1cyclicACMIGAMGInterface.html#ab214119a136db27fc4290e3ac62548e6" title=" " alt="" coords="325,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,251,121,209,149,152,190,91,215,64,244,40,277,24,311,17,312,22,278,29,247,44,219,67,194,95,154,155,126,212,109,253"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PtrList.html#ac8bb3912a3ce86b15842e79d0b421204" title="Clear the PtrList. Delete allocated entries and set size to zero." alt="" coords="275,55,421,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,250,126,218,156,174,196,128,244,89,261,81,263,85,247,94,200,132,161,177,131,220,112,253"/>
+<area shape="rect" id="Node000005" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="303,104,393,129"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="112,250,164,196,202,165,244,138,288,123,290,128,246,143,205,169,168,200,115,254"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#ad74305a381cf061cce59098189211732" title="Invert one&#45;to&#45;many map. Unmapped elements will be size 0." alt="" coords="258,153,438,179"/>
+<area shape="poly" id="edge4_Node000001_Node000007" title=" " alt="" coords="122,250,176,219,244,188,268,180,270,185,246,192,179,224,124,254"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="245,203,451,228"/>
+<area shape="poly" id="edge5_Node000001_Node000011" title=" " alt="" coords="165,249,270,228,271,233,166,255"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="257,252,439,277"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="197,262,244,262,244,267,197,267"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="499,277,649,303"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="165,275,246,286,371,292,485,291,485,296,371,297,245,291,165,280"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1mapDistributeBase.html#a2372e319a3be2d0686e6b1bdd43d91c1" title="Helper for renumbering the (compacted) map elements using the supplied old&#45;to&#45;new mapping." alt="" coords="253,353,443,393"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="128,275,246,332,280,345,278,350,244,336,126,280"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1PtrList.html#a0e0a32f842b05e1d69f10292dc27198a" title="Return const pointer to element (can be nullptr), or nullptr for out&#45;of&#45;range access (ie,..." alt="" coords="281,417,415,443"/>
+<area shape="poly" id="edge10_Node000001_Node000017" title=" " alt="" coords="114,276,166,337,204,372,247,402,268,412,266,417,244,407,200,377,162,341,110,279"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1List.html#a1a7984b90f8855606fc18a92a71fa99f" title="Alias for resize()" alt="" coords="276,467,420,492"/>
+<area shape="poly" id="edge11_Node000001_Node000020" title=" " alt="" coords="111,276,129,312,159,360,198,410,221,432,247,452,264,461,262,466,244,456,218,436,194,413,154,363,124,314,106,279"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1UList.html#ac1fc1d9dab324bb1b8452c7aa4813026" title="Older name for setAddressableSize." alt="" coords="281,516,415,541"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="109,277,124,320,152,381,193,446,218,476,247,501,269,513,267,518,244,506,214,480,188,449,147,384,119,322,104,278"/>
+<area shape="poly" id="edge7_Node000012_Node000013" title=" " alt="" coords="439,272,485,277,485,283,439,277"/>
+<area shape="poly" id="edge8_Node000013_Node000013" title=" " alt="" coords="537,279,530,269,534,259,549,253,574,251,606,255,618,264,614,268,604,259,574,256,550,258,537,263,535,268,542,275"/>
+</map>

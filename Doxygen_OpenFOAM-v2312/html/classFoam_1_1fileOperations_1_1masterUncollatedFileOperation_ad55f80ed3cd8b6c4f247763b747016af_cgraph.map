@@ -1,0 +1,29 @@
+<map id="sync" name="sync">
+<area shape="rect" id="Node000001" title="Forcibly parallel sync." alt="" coords="5,282,57,308"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#afa7a0d461e6372ade669201afce0e1c3" title="Broadcast multiple items to all communicator ranks. Does nothing in non&#45;parallel." alt="" coords="359,225,557,250"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,280,105,261,166,248,228,240,345,234,345,239,229,246,166,254,106,266,57,285"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="605,124,789,149"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="29,282,30,238,38,176,47,143,60,111,79,82,104,58,138,37,174,21,213,11,252,5,333,5,413,18,490,40,559,66,663,115,661,120,557,71,488,45,412,24,332,11,252,10,214,16,176,26,140,42,107,63,83,85,65,113,52,144,43,177,35,238,35,282"/>
+<area shape="rect" id="Node000012" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="411,410,505,436"/>
+<area shape="poly" id="edge3_Node000001_Node000012" title=" " alt="" coords="35,308,35,351,44,412,53,443,66,474,83,501,107,524,133,540,157,550,180,554,203,554,252,542,310,523,346,508,380,487,433,443,436,447,383,491,349,512,312,528,253,548,203,559,179,559,155,555,130,545,104,528,79,505,61,476,48,445,39,413,30,352,29,308"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="105,174,311,200"/>
+<area shape="poly" id="edge5_Node000001_Node000015" title=" " alt="" coords="40,280,66,249,104,217,135,202,137,207,107,221,70,252,44,284"/>
+<area shape="rect" id="Node000016" href="$namespaceFoam.html#accde1bf3e2a4105cca868012a680afbe" title="A word representation of a valueTypeCode. Empty for expressions::valueTypeCode::INVALID." alt="" coords="407,98,509,124"/>
+<area shape="poly" id="edge6_Node000001_Node000016" title=" " alt="" coords="33,282,41,256,55,223,75,189,104,161,126,150,156,140,233,126,317,117,393,111,393,117,317,122,233,131,158,145,128,155,107,165,80,192,60,225,46,258,38,283"/>
+<area shape="rect" id="Node000017" href="$namespaceFoam.html#a1148edcd5b937a181997b4db3e01c631" title="Global function forwards to reuseTmpDimensionedField::New." alt="" coords="161,73,255,98"/>
+<area shape="poly" id="edge7_Node000001_Node000017" title=" " alt="" coords="32,282,38,249,50,204,71,157,86,135,104,116,124,102,146,93,148,98,126,107,107,120,90,138,76,160,55,206,43,250,37,283"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="116,340,300,365"/>
+<area shape="poly" id="edge9_Node000001_Node000020" title=" " alt="" coords="59,305,106,325,136,334,134,339,104,330,57,310"/>
+<area shape="rect" id="Node000021" href="$collapse_8H.html#ad8adfaf80503dc99cbb14bf07bf1eb22" title=" " alt="" coords="183,389,233,414"/>
+<area shape="poly" id="edge10_Node000001_Node000021" title=" " alt="" coords="42,306,68,341,86,360,107,376,138,389,169,396,168,401,136,394,104,380,83,364,64,345,38,310"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1List.html#abcfb5796d79fe232cf87a5271bcc8a3a" title="Adjust allocated size of list." alt="" coords="140,438,276,464"/>
+<area shape="poly" id="edge11_Node000001_Node000022" title=" " alt="" coords="38,307,60,365,80,397,107,425,128,437,125,441,104,429,76,401,56,367,33,309"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1PtrList.html#af4e0ad67cce84dd8126a19abedad9d56" title="Adjust size of PtrList." alt="" coords="131,488,285,513"/>
+<area shape="poly" id="edge12_Node000001_Node000023" title=" " alt="" coords="36,308,42,341,54,387,75,434,89,456,107,474,119,483,116,487,104,479,85,459,70,437,49,388,37,342,31,308"/>
+<area shape="rect" id="Node000026" href="$classFoam_1_1fileOperation.html#ad55f80ed3cd8b6c4f247763b747016af" title="Forcibly parallel sync." alt="" coords="133,275,283,315"/>
+<area shape="poly" id="edge13_Node000001_Node000026" title=" " alt="" coords="58,292,119,292,119,298,58,298"/>
+<area shape="poly" id="edge2_Node000002_Node000008" title=" " alt="" coords="488,223,653,152,655,157,490,227"/>
+<area shape="poly" id="edge8_Node000017_Node000016" title=" " alt="" coords="256,88,393,102,393,107,256,93"/>
+<area shape="poly" id="edge14_Node000026_Node000002" title=" " alt="" coords="283,275,388,251,389,256,284,281"/>
+<area shape="poly" id="edge15_Node000026_Node000012" title=" " alt="" coords="279,313,312,326,377,363,430,400,427,404,374,368,309,331,277,318"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="gatherList" name="gatherList">
+<area shape="rect" id="Node000001" title="Gather data, but keep individual values separate. Uses the specified communication schedule." alt="" coords="5,195,92,220"/>
+<area shape="rect" id="Node000002" href="$namespaceFoam.html#aa346d711a4494a48e7c8aa9316f24263" title=" " alt="" coords="193,5,293,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,194,60,162,77,121,103,77,138,40,158,29,178,22,180,27,160,34,142,44,107,80,82,123,65,164,56,195"/>
+<area shape="rect" id="Node000004" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="195,55,290,80"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="54,193,85,143,110,114,139,90,159,80,181,73,183,78,161,85,141,95,113,118,90,146,59,196"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a765057f4c15f6de64cd6b91125f420c9" title="True if parallel algorithm or exchange is required." alt="" coords="168,105,317,145"/>
+<area shape="poly" id="edge3_Node000001_Node000008" title=" " alt="" coords="73,192,139,161,172,147,174,152,141,166,76,197"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="393,169,575,195"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="92,202,379,185,379,191,92,208"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="623,195,773,220"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="92,205,609,205,609,210,92,210"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="140,271,345,296"/>
+<area shape="poly" id="edge7_Node000001_Node000012" title=" " alt="" coords="75,218,141,249,184,264,182,269,139,254,72,223"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UIPstream.html#aa25ad5b49954a586d9226dbe6160d671" title="Read buffer contents from given processor." alt="" coords="157,320,328,345"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="60,219,92,262,115,286,141,306,153,312,151,317,139,311,111,290,88,266,55,222"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UOPstream.html#a1806b40e1831eba4739420717305af79" title="Write buffer contents to given processor." alt="" coords="152,369,333,395"/>
+<area shape="poly" id="edge11_Node000001_Node000014" title=" " alt="" coords="56,219,67,248,84,285,109,324,142,356,149,361,146,365,138,360,105,327,80,288,62,250,51,221"/>
+<area shape="poly" id="edge4_Node000008_Node000010" title=" " alt="" coords="318,140,417,164,416,169,317,145"/>
+<area shape="poly" id="edge5_Node000010_Node000011" title=" " alt="" coords="575,190,609,194,608,199,575,195"/>
+<area shape="poly" id="edge6_Node000011_Node000011" title=" " alt="" coords="663,196,656,186,659,176,674,170,698,168,728,172,739,181,736,185,726,177,698,173,675,175,663,180,661,186,667,193"/>
+</map>

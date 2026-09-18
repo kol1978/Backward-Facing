@@ -1,0 +1,35 @@
+<map id="read" name="read">
+<area shape="rect" id="Node000001" title="Read files on comms master." alt="" coords="5,363,56,388"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1UPstream.html#a9a9c539400a44dbb4ef570a279d89d12" title="Range of process indices for all processes." alt="" coords="112,89,301,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,362,32,319,41,257,63,191,80,159,102,132,120,118,123,123,106,136,84,162,68,193,46,258,37,319,35,362"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1UPstream.html#a7db00ff752d312e8138599b99537f5e4" title="Number of ranks in parallel run (for given communicator). It is 1 for serial run." alt="" coords="368,115,549,140"/>
+<area shape="poly" id="edge14_Node000001_Node000003" title=" " alt="" coords="30,362,34,324,44,274,66,220,82,196,102,176,121,165,145,156,209,142,282,133,354,128,354,133,282,138,210,147,147,161,123,170,106,180,86,200,71,223,49,275,39,325,35,362"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPtrList.html#a95603446b248fe1ecf5dc59bcc2eaff0" title="The number of entries in the list." alt="" coords="608,64,759,89"/>
+<area shape="poly" id="edge17_Node000001_Node000004" title=" " alt="" coords="30,362,37,300,50,213,71,128,86,96,102,75,134,53,167,36,238,13,314,4,389,5,463,13,530,27,636,57,635,62,529,32,462,18,389,10,314,9,240,19,169,41,136,58,106,78,90,99,77,130,55,214,42,301,36,363"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1UPtrList.html#a3f6fc5de06a318920d84f3c3742db07f" title="True if the list is empty (ie, size() is zero)" alt="" coords="123,215,290,240"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="33,361,56,307,76,276,102,249,110,244,113,248,106,253,80,279,61,309,38,363"/>
+<area shape="rect" id="Node000006" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="159,264,254,289"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="39,361,65,329,103,298,145,282,146,287,105,303,68,333,43,364"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#ae0529b088aefc9f83b89dce5c31fda64" title=" " alt="" coords="161,313,252,339"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="56,363,103,347,147,336,148,341,105,352,57,368"/>
+<area shape="rect" id="Node000012" href="$lagrangian_2reactingParcelFoam_2createMeshesPostProcess_8H.html#a5b4575252c9e475bd8784f80e445a82d" title=" " alt="" coords="187,363,226,388"/>
+<area shape="poly" id="edge9_Node000001_Node000012" title=" " alt="" coords="56,373,174,373,174,378,56,378"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="115,461,299,487"/>
+<area shape="poly" id="edge10_Node000001_Node000013" title=" " alt="" coords="43,386,69,417,105,446,122,454,119,459,103,451,65,421,39,390"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="357,560,560,585"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="36,388,43,444,57,523,78,599,91,627,106,645,145,666,187,674,232,672,278,662,322,646,362,628,427,591,429,595,365,632,324,651,279,667,233,677,187,680,143,671,102,649,87,630,73,601,52,524,38,445,31,388"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1UPstream.html#a18ae428d3236c638ac680fa9f506c11a" title="Rank of this process in the communicator (starting from masterNo()). Can be negative if the process i..." alt="" coords="104,511,309,536"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="38,387,61,440,80,470,106,496,116,502,113,507,102,500,76,474,56,443,33,389"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1UPstream.html#a64b115713eea011970056677a5b6850b" title="The list of ranks within a given communicator." alt="" coords="117,560,297,585"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="36,388,42,420,54,463,75,507,89,528,106,545,113,551,110,555,102,549,85,531,70,510,49,465,37,421,31,389"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1PtrList.html#a3809aca9dcd2c52a4711126018cc961d" title="Append an element to the end of the list." alt="" coords="115,609,299,635"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="35,388,38,428,48,484,69,544,85,571,106,595,112,600,109,604,102,598,81,574,64,546,42,485,32,429,29,388"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="109,412,305,437"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="57,381,105,397,139,406,137,411,103,402,56,386"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,109,355,114,354,119,301,114"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="515,112,613,90,614,95,517,117"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="647,65,639,56,643,46,658,39,683,37,715,41,727,50,724,55,713,46,683,43,659,45,647,49,644,55,651,62"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="177,216,171,206,174,196,187,190,207,188,231,191,241,200,238,204,229,196,207,193,188,195,178,200,176,205,182,213"/>
+<area shape="poly" id="edge11_Node000013_Node000014" title=" " alt="" coords="273,484,310,495,372,522,426,551,423,555,370,527,308,500,271,489"/>
+<area shape="poly" id="edge19_Node000019_Node000003" title=" " alt="" coords="286,409,308,397,337,370,362,340,403,271,431,205,448,153,453,154,436,207,408,274,367,343,341,374,311,401,289,414"/>
+</map>

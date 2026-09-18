@@ -1,0 +1,55 @@
+<map id="listCombineReduce" name="listCombineReduce">
+<area shape="rect" id="Node000001" title="After completion all processors have the same data." alt="" coords="300,819,448,845"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1meshRefinement.html#a64feb4b7a4116efb2111d5adf88b50a3" title="Redecompose according to cell count." alt="" coords="40,5,217,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="370,806,364,653,347,428,332,312,311,206,284,118,268,84,250,59,235,46,217,37,219,33,238,42,254,56,273,82,289,116,316,204,337,311,352,428,370,653,375,805"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1radiation_1_1viewFactor.html#afe1d8348c24e6589bc7c0b3f689316a7" title="Solve system of equation(s)" alt="" coords="27,69,230,109"/>
+<area shape="poly" id="edge2_Node000001_Node000004" title=" " alt="" coords="369,806,362,664,343,459,328,353,307,256,282,177,267,146,250,123,229,107,232,103,254,119,271,143,287,175,313,255,333,352,349,458,367,664,375,805"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1functionObjects_1_1extractEulerianParticles.html#aff4927f5af2e9506154b69068ccfad20" title="Calculate the addressing between regions between iterations Returns the number of active regions (par..." alt="" coords="37,134,221,189"/>
+<area shape="poly" id="edge3_Node000001_Node000005" title=" " alt="" coords="368,805,358,679,337,498,321,405,301,320,278,250,264,224,250,203,236,191,219,181,222,176,239,186,254,200,269,221,283,248,307,319,326,404,342,497,364,678,374,805"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1NURBS3DVolume.html#aab98c59c5c947efc686419cd984de836" title="Control point sensitivities computed using face&#45;based surface sensitivities." alt="" coords="5,213,252,253"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="368,806,357,691,334,528,318,446,299,370,276,308,264,285,250,267,236,255,239,251,254,263,268,282,281,306,304,369,324,444,340,527,362,690,373,806"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1NURBS3DVolume.html#a662ba1402510b13695a183cf382b98b9" title="Control point sensitivities computed using point&#45;based surface sensitivities." alt="" coords="5,277,252,317"/>
+<area shape="poly" id="edge5_Node000001_Node000007" title=" " alt="" coords="367,806,354,702,330,559,314,487,295,421,274,367,250,331,236,320,239,315,254,328,279,365,300,419,319,486,335,558,359,702,373,806"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1meshRefinement.html#af1342b7a0a17ff613af59af5f29abe35" title="Create baffles for faces on faceZones. Return created baffles." alt="" coords="40,341,217,381"/>
+<area shape="poly" id="edge6_Node000001_Node000008" title=" " alt="" coords="366,806,351,714,326,591,291,472,271,426,250,395,234,383,216,375,219,370,237,379,254,391,276,423,296,470,331,589,356,714,372,806"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1functionObjects_1_1Curle.html#ae006844a02161d12182ab372ca5c257b" title="Called at each ++ or += of the time&#45;loop." alt="" coords="45,405,213,445"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="370,806,364,736,347,643,332,593,311,544,284,499,250,459,233,447,212,438,214,433,235,442,254,455,289,496,316,542,337,591,352,642,370,736,375,805"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1patchProbes.html#a4961d45d71fc3e82730510a628ddef80" title="Find elements containing patchProbes." alt="" coords="51,469,206,509"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="368,806,359,747,339,671,323,630,304,591,280,555,250,523,229,509,205,500,207,495,232,505,254,519,284,552,308,589,328,628,344,669,364,746,373,805"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1cellCellStencils_1_1cellVolumeWeight.html#a73aaee1c512e770e4555f6757e40063d" title="Find cells next to cells of type PATCH." alt="" coords="21,533,237,573"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="365,807,352,759,330,700,296,639,275,611,250,587,232,576,235,571,254,583,279,608,301,636,335,697,357,757,370,805"/>
+<area shape="rect" id="Node000012" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#a73aaee1c512e770e4555f6757e40063d" title="Do flood filling to detect unreachable (from patches) sections." alt="" coords="27,597,231,637"/>
+<area shape="poly" id="edge10_Node000001_Node000012" title=" " alt="" coords="361,808,344,772,320,730,289,687,250,651,230,640,233,635,254,647,293,684,325,727,349,770,365,806"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1mappedPatchBase.html#a331bcc79e3e1c64deb060a8529788ea7" title="Find (global) cells/faces containing samples." alt="" coords="35,661,222,701"/>
+<area shape="poly" id="edge11_Node000001_Node000013" title=" " alt="" coords="353,810,310,762,282,737,251,716,221,702,223,697,253,711,285,733,313,758,357,806"/>
+<area shape="rect" id="Node000014" href="$classFoam_1_1functionObjects_1_1propellerInfo.html#a08375737fbd9e04579671fc2750e40d1" title=" " alt="" coords="33,725,225,765"/>
+<area shape="poly" id="edge12_Node000001_Node000014" title=" " alt="" coords="334,816,251,780,213,768,215,763,253,775,337,811"/>
+<area shape="rect" id="Node000015" href="$classFoam_1_1Pstream.html#a8ffd63446883cc6a46fa30b1fd1141ac" title="Same as Pstream::listCombineReduce." alt="" coords="48,790,209,815"/>
+<area shape="poly" id="edge13_Node000001_Node000015" title=" " alt="" coords="286,824,209,815,210,810,287,819"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1fvMeshSubset.html#afc490c6ae919cf032562b5fa5f94ed0a" title="Use the specified subset of cells." alt="" coords="49,840,208,880"/>
+<area shape="poly" id="edge14_Node000001_Node000017" title=" " alt="" coords="287,845,209,854,208,848,286,839"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1patchProbes.html#a9e7086167ff6431036f2851c1e2b641b" title=" " alt="" coords="51,904,206,944"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="340,854,253,894,207,909,205,904,251,890,337,849"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1probes.html#a9e7086167ff6431036f2851c1e2b641b" title=" " alt="" coords="45,969,212,994"/>
+<area shape="poly" id="edge16_Node000001_Node000019" title=" " alt="" coords="358,858,315,909,286,936,253,958,213,974,211,969,251,954,283,932,311,906,354,854"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1patchProbes.html#a68361f5cefa6213dddc8bdceba25747f" title=" " alt="" coords="51,1019,206,1059"/>
+<area shape="poly" id="edge17_Node000001_Node000020" title=" " alt="" coords="364,858,348,892,323,932,292,973,254,1007,231,1020,207,1029,206,1024,229,1015,250,1003,288,969,319,929,343,890,360,856"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1probes.html#a68361f5cefa6213dddc8bdceba25747f" title=" " alt="" coords="45,1083,212,1109"/>
+<area shape="poly" id="edge18_Node000001_Node000021" title=" " alt="" coords="370,859,357,906,334,964,301,1023,279,1050,254,1073,234,1084,213,1092,212,1087,232,1079,250,1069,275,1046,296,1020,330,962,352,904,365,858"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1TDACChemistryModel.html#a5a238790ca04b91ae25f6e3f06d3b640" title=" " alt="" coords="24,1133,233,1173"/>
+<area shape="poly" id="edge19_Node000001_Node000022" title=" " alt="" coords="372,859,361,914,340,985,325,1022,305,1059,282,1092,254,1122,234,1135,231,1131,250,1118,278,1089,301,1056,320,1020,335,983,356,913,367,858"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1cellCellStencils_1_1trackingInverseDistance.html#aef8a2ca158b67eefc88080fd237747a7" title="Construct from fvMesh." alt="" coords="35,1198,223,1253"/>
+<area shape="poly" id="edge20_Node000001_Node000023" title=" " alt="" coords="374,858,367,924,348,1012,332,1059,312,1105,286,1149,254,1187,225,1207,222,1203,250,1183,282,1146,307,1103,327,1057,343,1010,361,923,369,858"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1cellCellStencils_1_1cellVolumeWeight.html#aa2aac016e2bf7b5bd2b271786c2791aa" title="Update stencils. Return false if nothing changed." alt="" coords="29,1277,229,1317"/>
+<area shape="poly" id="edge21_Node000001_Node000024" title=" " alt="" coords="376,858,374,937,369,989,359,1046,344,1105,322,1164,293,1218,254,1266,230,1283,227,1278,250,1262,288,1215,318,1161,339,1104,354,1045,364,989,369,937,371,858"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1cellCellStencils_1_1inverseDistance.html#aa2aac016e2bf7b5bd2b271786c2791aa" title="Update stencils. Return false if nothing changed." alt="" coords="35,1341,223,1381"/>
+<area shape="poly" id="edge22_Node000001_Node000027" title=" " alt="" coords="372,859,359,962,335,1103,319,1175,300,1241,278,1294,254,1331,225,1351,222,1346,250,1327,274,1292,295,1239,314,1174,330,1102,354,961,367,858"/>
+<area shape="rect" id="Node000031" href="$classFoam_1_1patchInjectionBase.html#a6d43ae10cf9dba5b6063e706ab5534e3" title="Update patch geometry and derived info for injection locations." alt="" coords="33,1405,224,1445"/>
+<area shape="poly" id="edge23_Node000001_Node000031" title=" " alt="" coords="373,859,362,974,339,1134,323,1216,304,1291,281,1353,254,1395,226,1414,223,1410,250,1391,276,1351,299,1290,318,1215,334,1134,356,973,368,858"/>
+<area shape="rect" id="Node000037" href="$classFoam_1_1functionObjects_1_1propellerInfo.html#aebc5114dc8e0be226fcedf1b58b8738f" title="Set the sample cells corresponding to the sample points." alt="" coords="21,1470,236,1525"/>
+<area shape="poly" id="edge24_Node000001_Node000037" title=" " alt="" coords="374,859,364,985,342,1164,326,1256,306,1341,282,1411,269,1438,254,1459,238,1473,235,1469,250,1456,264,1435,278,1409,301,1339,321,1255,337,1163,358,984,368,858"/>
+<area shape="rect" id="Node000038" href="$classFoam_1_1ParticleZoneInfo.html#aac759501cf6c7895a70eecbef0226ae1" title="Write." alt="" coords="43,1549,215,1589"/>
+<area shape="poly" id="edge25_Node000001_Node000038" title=" " alt="" coords="374,858,367,999,348,1202,332,1307,312,1404,286,1483,271,1514,254,1538,237,1552,216,1562,214,1557,234,1548,250,1534,266,1511,281,1481,307,1402,327,1306,343,1202,362,998,369,858"/>
+<area shape="rect" id="Node000039" href="$classFoam_1_1topOVariablesBase.html#a028a99159d926e750e5b7c39243d7fba" title="Write the fluid&#45;solid interface to files." alt="" coords="34,1613,223,1653"/>
+<area shape="poly" id="edge26_Node000001_Node000039" title=" " alt="" coords="375,858,369,1010,352,1234,337,1349,316,1455,289,1543,272,1577,254,1603,225,1623,222,1619,250,1599,268,1574,284,1541,311,1454,332,1348,347,1233,364,1010,370,858"/>
+</map>

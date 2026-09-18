@@ -1,0 +1,18 @@
+<map id="sharedPoints" name="sharedPoints">
+<area shape="rect" id="Node000001" title="Collect coordinates of shared points on all processors." alt="" coords="5,132,112,157"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="162,56,354,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,129,159,98,202,83,203,88,161,103,88,134"/>
+<area shape="rect" id="Node000008" href="$classFoam_1_1UPstream.html#a60159c36fcc2e247e0cb24b89914f1e4" title="True if process corresponds to the master rank in the communicator." alt="" coords="404,5,588,31"/>
+<area shape="poly" id="edge5_Node000001_Node000008" title=" " alt="" coords="66,130,102,85,128,60,159,41,216,21,276,9,335,5,390,5,390,10,336,10,277,15,217,26,161,46,131,64,106,88,70,134"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1UPstream.html#a40c4d875df4ff7c32f30f6f596b0f4f8" title="Relative rank for the master process &#45; is always 0." alt="" coords="636,56,839,81"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="112,136,622,79,622,84,113,141"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="166,157,350,183"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="113,149,153,154,152,159,112,154"/>
+<area shape="rect" id="Node000012" href="$readKivaGrid_8H.html#aafc97bd3a6facab0b236019a6f5210ce" title=" " alt="" coords="209,207,307,232"/>
+<area shape="poly" id="edge8_Node000001_Node000012" title=" " alt="" coords="83,155,119,174,161,193,197,204,196,209,159,198,117,179,80,160"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1UPstream.html#a9c0edc4410b2562f9ab380b364fe6da0" title="Range of process indices for sub&#45;processes." alt="" coords="160,256,356,281"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="71,156,107,199,133,222,161,242,174,249,172,253,159,247,130,227,104,203,67,159"/>
+<area shape="poly" id="edge2_Node000002_Node000008" title=" " alt="" coords="318,53,422,31,423,36,319,58"/>
+<area shape="poly" id="edge4_Node000002_Node000009" title=" " alt="" coords="354,66,622,66,622,71,354,71"/>
+<area shape="poly" id="edge3_Node000008_Node000009" title=" " alt="" coords="558,28,664,51,663,56,557,33"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="merge" name="merge">
+<area shape="rect" id="Node000001" title="Merge meshed surfaces (in parallel only)." alt="" coords="5,113,69,139"/>
+<area shape="rect" id="Node000002" href="$convertProcessorPatches_8H.html#aebdde09a313caf72a51d84e8b92c7aa5" title=" " alt="" coords="182,5,237,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,111,76,80,116,48,142,35,168,25,169,30,144,40,119,52,80,84,51,115"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1PatchTools.html#a8695f134182627ad2bf982b50603b1b2" title="Gather points and faces onto master and merge into single patch." alt="" coords="117,106,301,146"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="70,123,104,123,104,129,70,129"/>
+<area shape="rect" id="Node000023" href="$namespaceFoam.html#aa8ced45534ca58d6f845747ebb5f8445" title="True if ptr is not a pointer (of type T) to the nullObject." alt="" coords="385,85,498,111"/>
+<area shape="poly" id="edge7_Node000001_Node000023" title=" " alt="" coords="62,111,88,100,117,91,184,83,252,80,371,86,371,92,252,85,184,88,118,97,90,105,64,116"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1UPstream.html#afb8def01c77f71ab69d0bf95b9fb0321" title="Test if this a parallel run." alt="" coords="349,171,533,196"/>
+<area shape="poly" id="edge8_Node000001_Node000024" title=" " alt="" coords="65,136,118,155,230,174,336,181,335,186,229,179,117,161,63,141"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1globalIndex.html#ab7728cdb19727435c85db3dfcac6b347" title="Collect data in processor order on master (in serial: performs a simple copy)." alt="" coords="134,221,285,261"/>
+<area shape="poly" id="edge5_Node000001_Node000033" title=" " alt="" coords="51,137,80,168,119,200,141,213,139,217,116,204,76,172,47,141"/>
+<area shape="poly" id="edge3_Node000003_Node000023" title=" " alt="" coords="302,112,370,104,371,109,302,118"/>
+<area shape="poly" id="edge4_Node000003_Node000024" title=" " alt="" coords="292,143,377,165,376,170,290,149"/>
+<area shape="poly" id="edge6_Node000033_Node000024" title=" " alt="" coords="284,219,375,197,377,202,286,225"/>
+</map>

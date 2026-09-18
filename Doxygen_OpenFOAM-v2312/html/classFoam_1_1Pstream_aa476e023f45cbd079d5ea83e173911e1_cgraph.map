@@ -1,0 +1,13 @@
+<map id="mapCombineReduce" name="mapCombineReduce">
+<area shape="rect" id="Node000001" title="Reduce inplace (cf. MPI Allreduce) applying cop to inplace combine map values from different processo..." alt="" coords="5,81,163,107"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1Pstream.html#ab796b988453a18178b723382583e0cef" title="Broadcast content (contiguous or non&#45;contiguous) to all communicator ranks. Does nothing in non&#45;paral..." alt="" coords="307,5,393,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,79,210,47,292,27,294,32,211,53,119,84"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1UPstream.html#a765057f4c15f6de64cd6b91125f420c9" title="True if parallel algorithm or exchange is required." alt="" coords="537,49,687,89"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,88,523,70,523,76,163,93"/>
+<area shape="rect" id="Node000011" href="$classFoam_1_1Pstream.html#ac6963306dca9e3de7d5ca58cd4329f61" title=" " alt="" coords="273,107,427,132"/>
+<area shape="poly" id="edge4_Node000001_Node000011" title=" " alt="" coords="163,99,260,108,259,113,163,104"/>
+<area shape="rect" id="Node000018" href="$classFoam_1_1UPstream.html#aca49c35531fd8d65b2079ff325ea8bb5" title="Communication schedule for linear/tree all&#45;to&#45;master (proc 0). Chooses based on the value of UPstream..." alt="" coords="211,156,489,181"/>
+<area shape="poly" id="edge6_Node000001_Node000018" title=" " alt="" coords="114,104,159,123,211,141,252,151,251,156,210,146,157,128,112,109"/>
+<area shape="poly" id="edge2_Node000002_Node000004" title=" " alt="" coords="394,24,524,49,523,54,393,29"/>
+<area shape="poly" id="edge5_Node000011_Node000004" title=" " alt="" coords="416,104,524,83,525,88,417,109"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="resize_nocopy" name="resize_nocopy">
+<area shape="rect" id="Node000001" title="Adjust allocated size of list without necessarily." alt="" coords="624,575,739,601"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1fvPatchField.html#a0ab0c43ce90d756c88dd81e3d0a9eef5" title="Map (and resize as needed) from self given a mapping object." alt="" coords="373,5,518,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="676,562,667,453,649,302,635,225,618,155,598,98,574,59,548,41,517,31,519,26,551,36,578,55,603,95,624,153,640,224,654,301,673,452,681,562"/>
+<area shape="rect" id="Node000019" href="$classFoam_1_1distributedDILUPreconditioner.html#adb8eaabab2cf7e54e4809d6b7c585a6c" title="Calculate reciprocal of diagonal." alt="" coords="315,69,576,109"/>
+<area shape="poly" id="edge2_Node000001_Node000019" title=" " alt="" coords="675,562,664,466,643,336,630,271,613,211,595,163,574,130,550,112,553,107,578,126,600,160,619,210,635,270,649,335,669,465,680,561"/>
+<area shape="rect" id="Node000020" href="$classFoam_1_1distributedDILUPreconditioner.html#abdc351576a54f755d3687a72a09224d8" title="Construct from matrix components and preconditioner solver controls." alt="" coords="5,127,267,167"/>
+<area shape="poly" id="edge8_Node000001_Node000020" title=" " alt="" coords="675,562,664,473,644,355,630,296,614,244,595,201,574,174,553,162,524,153,446,142,356,138,267,140,267,135,356,133,447,136,525,147,555,157,578,170,600,199,619,242,635,295,649,354,669,473,680,562"/>
+<area shape="rect" id="Node000021" href="$classFoam_1_1processorColour.html#aa29a10eb956fe5d4f5f9802b07e57dbc" title="Calculate (locally) per cell colour according to walking from global patches. Returns number of colou..." alt="" coords="360,184,531,224"/>
+<area shape="poly" id="edge4_Node000001_Node000021" title=" " alt="" coords="678,562,675,496,661,409,648,362,630,317,605,275,574,238,554,223,530,214,532,209,556,219,578,234,610,272,634,314,653,360,666,407,680,496,683,561"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1commSchedule.html#a1437bad1028054476a2c9d03fab24a7e" title="Construct from wanted communication. Wanted communication is between two processors...." alt="" coords="362,248,529,288"/>
+<area shape="poly" id="edge6_Node000001_Node000022" title=" " alt="" coords="676,561,669,507,652,436,639,400,622,364,601,331,574,302,553,288,528,278,530,273,555,283,578,298,605,327,627,361,644,397,657,435,674,506,681,561"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1fvMeshDistribute.html#acb11a389cf765470aea69d37a526cf1f" title="Send cells to neighbours according to distribution." alt="" coords="356,312,535,352"/>
+<area shape="poly" id="edge7_Node000001_Node000023" title=" " alt="" coords="673,562,662,519,643,466,615,412,596,387,574,366,555,354,534,345,536,340,558,349,578,362,600,384,619,409,648,464,667,517,678,561"/>
+<area shape="rect" id="Node000024" href="$classFoam_1_1patchProbes.html#a4961d45d71fc3e82730510a628ddef80" title="Find elements containing patchProbes." alt="" coords="368,376,523,416"/>
+<area shape="poly" id="edge9_Node000001_Node000024" title=" " alt="" coords="668,564,654,533,634,496,607,460,574,430,550,417,522,407,524,402,552,412,578,426,611,457,638,493,659,530,673,562"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1noiseModels_1_1surfaceNoise.html#a12e93a7372f50d58498e5eeb69cf3199" title="Initialise." alt="" coords="360,440,531,480"/>
+<area shape="poly" id="edge10_Node000001_Node000025" title=" " alt="" coords="659,567,622,529,575,494,530,477,532,472,577,490,626,525,663,563"/>
+<area shape="rect" id="Node000027" href="$classFoam_1_1mapDistribute.html#a2a9d3c82eefba107f1d8addff7528fe5" title="Construct from list of (possibly remote) untransformed elements in globalIndex numbering (or &#45;1) and ..." alt="" coords="366,504,525,544"/>
+<area shape="poly" id="edge11_Node000001_Node000027" title=" " alt="" coords="627,574,575,559,524,545,525,540,577,553,629,569"/>
+<area shape="rect" id="Node000028" href="$classFoam_1_1mapDistribute.html#a0a684d0d9f15da54cdf33c942b5ff66c" title="As above but with ListLists." alt="" coords="366,568,525,608"/>
+<area shape="poly" id="edge12_Node000001_Node000028" title=" " alt="" coords="610,591,525,591,525,585,610,585"/>
+<area shape="rect" id="Node000029" href="$classFoam_1_1mapDistributeBase.html#a4a0f3560958e3ea6b3f23ec2c68e35d8" title="Construct from multiple maps and processor collation." alt="" coords="350,632,541,672"/>
+<area shape="poly" id="edge13_Node000001_Node000029" title=" " alt="" coords="629,607,577,623,531,635,530,629,575,617,627,602"/>
+<area shape="rect" id="Node000030" href="$classFoam_1_1fvMesh.html#acdda95483d214b756be7af3887ef71ee" title="Map all fields in time using given map." alt="" coords="351,697,540,722"/>
+<area shape="poly" id="edge14_Node000001_Node000030" title=" " alt="" coords="663,613,626,651,603,671,577,686,541,700,539,695,575,682,600,666,623,648,659,610"/>
+<area shape="rect" id="Node000033" href="$classFoam_1_1cyclicPolyPatch.html#aa9533329384a73e819a040bcde1b4b3d" title="Return new ordering for primitivePatch." alt="" coords="362,747,529,787"/>
+<area shape="poly" id="edge15_Node000001_Node000033" title=" " alt="" coords="671,615,635,676,609,708,578,736,554,748,530,757,528,752,552,743,574,731,605,704,631,673,667,612"/>
+<area shape="rect" id="Node000034" href="$classFoam_1_1PDRblock_1_1location.html#aa47d7136e383fc561a4c5ea8147b4d48" title="Reset with min/max range and number of divisions." alt="" coords="351,811,539,851"/>
+<area shape="poly" id="edge16_Node000001_Node000034" title=" " alt="" coords="677,615,666,656,646,706,617,757,599,781,578,801,541,821,538,816,574,797,595,777,613,754,641,704,661,654,672,613"/>
+<area shape="rect" id="Node000035" href="$classFoam_1_1fa_1_1option.html#ab1a7ad8aae64f940b75d436f33e77a6f" title="Resize/reset applied flag list for all fieldNames_ entries." alt="" coords="336,875,555,901"/>
+<area shape="poly" id="edge17_Node000001_Node000035" title=" " alt="" coords="681,615,674,668,657,736,643,771,626,806,604,837,578,865,557,878,554,874,574,861,600,834,621,803,638,769,651,734,668,667,676,614"/>
+<area shape="rect" id="Node000040" href="$classFoam_1_1particleTracksSampler.html#a1f78b0d707b1ce5d10ff6eb3b7f3d141" title=" " alt="" coords="340,925,551,965"/>
+<area shape="poly" id="edge18_Node000001_Node000040" title=" " alt="" coords="682,615,677,676,662,756,649,799,631,841,607,880,578,914,553,931,550,927,574,910,603,877,626,838,644,797,657,755,672,675,677,614"/>
+<area shape="rect" id="Node000041" href="$classFoam_1_1Detail_1_1PtrListDetail.html#ab27b26051dd40b55b225980ad0cb92cc" title="Set the list to the given size and set all entries to nullptr." alt="" coords="349,989,542,1029"/>
+<area shape="poly" id="edge19_Node000001_Node000041" title=" " alt="" coords="679,615,666,698,644,807,615,911,597,951,578,979,562,992,544,1001,541,996,559,987,574,975,593,949,610,909,639,806,661,697,674,614"/>
+<area shape="rect" id="Node000042" href="$namespaceFoam.html#a6b335c42dbef6ed01d5166dc22af270c" title="Sort using specified list compare predicate." alt="" coords="374,1054,517,1079"/>
+<area shape="poly" id="edge20_Node000001_Node000042" title=" " alt="" coords="680,615,670,710,650,839,636,903,620,962,600,1010,578,1043,550,1061,518,1070,516,1065,548,1056,574,1039,596,1008,615,961,631,902,644,838,664,709,675,614"/>
+<area shape="rect" id="Node000043" href="$namespaceFoam.html#afac891ee7a1b316fea13278814562541" title="Generate (stable) sort order for the list, using the specified list compare predicate." alt="" coords="374,1103,517,1129"/>
+<area shape="poly" id="edge21_Node000001_Node000043" title=" " alt="" coords="681,614,672,719,653,862,640,935,623,1001,602,1056,578,1093,550,1111,517,1119,516,1114,548,1106,574,1089,598,1053,618,1000,634,934,648,861,667,718,676,614"/>
+<area shape="poly" id="edge3_Node000019_Node000020" title=" " alt="" coords="324,115,245,129,244,124,323,109"/>
+<area shape="poly" id="edge5_Node000021_Node000020" title=" " alt="" coords="346,188,244,169,245,164,347,183"/>
+</map>

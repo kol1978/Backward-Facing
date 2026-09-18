@@ -1,0 +1,32 @@
+<map id="findLower" name="findLower">
+<area shape="rect" id="Node000001" title="Binary search to find the index of the last element in a sorted list that is less than value." alt="" coords="495,413,580,438"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1PDRblock_1_1location.html#a646cbe9de9df355c4e886719dac8ec5d" title="Find the cell index enclosing this location." alt="" coords="250,5,438,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,399,520,321,501,219,476,122,461,85,445,59,430,48,434,43,449,56,466,82,481,120,507,218,525,320,536,399"/>
+<area shape="rect" id="Node000003" href="$classFoam_1_1globalIndex.html#a64e67805a41cf6630060f60aa1eb41ba" title="Find processor with specified global id. Check proci first, followed by binary search." alt="" coords="269,69,419,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="533,399,530,342,517,268,506,229,490,191,470,155,445,123,418,105,421,101,448,119,475,152,495,188,511,227,522,267,535,341,539,398"/>
+<area shape="rect" id="Node000004" href="$classFoam_1_1globalIndex.html#aee7728d08fd1cb34a629fcbd3884d2b4" title="Find processor above proci with specified global id &#45; binary search." alt="" coords="269,133,419,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="531,399,524,354,509,297,483,238,466,211,445,187,418,170,421,166,448,183,470,208,488,235,514,295,529,353,536,399"/>
+<area shape="rect" id="Node000005" href="$classFoam_1_1globalIndex.html#a4bac4036f695640509a55d0fa40f5a64" title="Find processor below proci with specified global id &#45; binary search." alt="" coords="269,197,419,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="527,400,516,366,500,326,476,286,445,251,418,235,421,231,448,247,480,283,504,324,521,364,532,398"/>
+<area shape="rect" id="Node000006" href="$classFoam_1_1CompactListList.html#a645324d9051b8ed2065e8ff4f32c3fe7" title="Find row where global index comes from. Binary search." alt="" coords="259,261,429,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="520,403,489,358,469,335,445,316,424,304,426,299,448,311,472,331,494,355,525,399"/>
+<area shape="rect" id="Node000007" href="$namespaceFoam.html#a4f30d5fd2037806fb3c68e89a72cfe89" title=" " alt="" coords="287,326,401,351"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="508,406,479,385,446,366,401,352,403,346,448,362,482,380,511,401"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1linearInterpolationWeights.html#a42dece8958c346b18f6386f075da8768" title="Calculate weights and indices to calculate integrand of t1..t2 from samples." alt="" coords="241,376,447,416"/>
+<area shape="poly" id="edge7_Node000001_Node000009" title=" " alt="" coords="481,420,446,414,447,409,482,414"/>
+<area shape="rect" id="Node000010" href="$namespaceFoam.html#a53ab1b57bfdd21f68fc3d35c79dcf964" title="Supply pts0Dir and pts1Dir. They are directions associated with the points." alt="" coords="293,441,395,466"/>
+<area shape="poly" id="edge8_Node000001_Node000010" title=" " alt="" coords="482,436,396,449,395,443,481,431"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#abc7cba30306098a4eaf18f508d39ea10" title="Determine correspondence between pointFields. Gets passed." alt="" coords="293,490,395,515"/>
+<area shape="poly" id="edge9_Node000001_Node000011" title=" " alt="" coords="508,448,448,480,396,496,395,490,446,475,505,443"/>
+<area shape="rect" id="Node000016" href="$classFoam_1_1colourTable.html#a059623637f07a73adaabc688e6465d8d" title="Return the colour at x. The input is clipped to 0&#45;1 range." alt="" coords="270,540,418,580"/>
+<area shape="poly" id="edge10_Node000001_Node000016" title=" " alt="" coords="522,451,491,491,448,529,420,544,417,539,445,524,487,487,518,448"/>
+<area shape="rect" id="Node000017" href="$classFoam_1_1linearInterpolationWeights.html#af5a583ed770fba7cf1e0c968f80ac48e" title="Calculate weights and indices to calculate t from samples." alt="" coords="251,604,437,644"/>
+<area shape="poly" id="edge11_Node000001_Node000017" title=" " alt="" coords="531,452,520,484,503,522,479,561,448,594,430,606,427,602,445,590,475,558,498,520,515,482,526,450"/>
+<area shape="rect" id="Node000022" href="$classFoam_1_1splineInterpolationWeights.html#af5a583ed770fba7cf1e0c968f80ac48e" title="Calculate weights and indices to calculate t from samples." alt="" coords="5,633,193,673"/>
+<area shape="poly" id="edge13_Node000001_Node000022" title=" " alt="" coords="538,452,532,499,518,556,506,585,491,613,472,638,448,658,414,677,378,689,339,695,301,697,226,690,162,676,163,671,227,685,301,691,339,690,376,683,412,672,445,654,468,634,487,610,501,583,512,554,526,498,532,452"/>
+<area shape="rect" id="Node000023" href="$classFoam_1_1polyBoundaryMesh.html#aff2cd79df12b4d15d608024e83a626fd" title="Lookup mesh face index and return (patchi, patchFacei) tuple or (&#45;1, meshFacei) for internal faces." alt="" coords="249,719,439,759"/>
+<area shape="poly" id="edge14_Node000001_Node000023" title=" " alt="" coords="537,452,531,504,517,570,491,640,472,673,449,702,423,721,420,716,445,698,468,670,486,638,512,569,526,503,532,451"/>
+<area shape="rect" id="Node000025" href="$classFoam_1_1mapDistribute.html#a0772f98ea84f7c9e56a8fb32f405a8cb" title="Find transform from transformElements." alt="" coords="265,783,423,823"/>
+<area shape="poly" id="edge15_Node000001_Node000025" title=" " alt="" coords="535,452,524,526,505,621,480,712,465,748,449,773,425,789,422,785,445,769,460,745,475,710,500,620,518,525,530,451"/>
+<area shape="poly" id="edge12_Node000017_Node000022" title=" " alt="" coords="238,639,194,645,193,639,237,634"/>
+</map>

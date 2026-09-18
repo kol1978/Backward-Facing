@@ -1,0 +1,19 @@
+<map id="checkParallelSync" name="checkParallelSync">
+<area shape="rect" id="Node000001" title="Check whether all procs have faces synchronised." alt="" coords="5,199,144,224"/>
+<area shape="rect" id="Node000002" href="$classFoam_1_1polyMesh.html#a02c4e324237bfa4eabeec487c0a011a0" title="Return boundary mesh." alt="" coords="192,5,425,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,197,93,165,116,122,149,77,190,40,200,34,203,39,194,44,153,81,121,125,98,167,83,199"/>
+<area shape="rect" id="Node000003" href="$namespaceFoam.html#a7d5eca45a323264dc5fe811500ebda47" title="Add newline and flush stream." alt="" coords="261,55,356,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,197,124,145,155,115,191,90,218,79,247,71,248,76,220,84,193,95,159,119,128,148,87,200"/>
+<area shape="rect" id="Node000007" href="$classFoam_1_1primitiveMesh.html#a00fe9eacde7a2cbe10925b85ff1c16b1" title="Return true if given face label is internal to the mesh." alt="" coords="229,105,389,145"/>
+<area shape="poly" id="edge3_Node000001_Node000007" title=" " alt="" coords="99,196,191,154,215,146,217,151,193,159,101,201"/>
+<area shape="rect" id="Node000008" href="$namespaceFoam.html#accde1bf3e2a4105cca868012a680afbe" title="A word representation of a valueTypeCode. Empty for expressions::valueTypeCode::INVALID." alt="" coords="257,169,360,195"/>
+<area shape="poly" id="edge4_Node000001_Node000008" title=" " alt="" coords="144,200,244,187,244,193,144,205"/>
+<area shape="rect" id="Node000009" href="$classFoam_1_1primitiveMesh.html#a1b455e2e91a2eb72ec21ab1832fec664" title="Number of boundary faces (== nFaces &#45; nInternalFaces)" alt="" coords="229,219,389,259"/>
+<area shape="poly" id="edge5_Node000001_Node000009" title=" " alt="" coords="144,217,215,225,214,231,144,222"/>
+<area shape="rect" id="Node000010" href="$classFoam_1_1primitiveMesh.html#a49aeaef789e8e3f5972dc70f2e30f413" title="Number of internal faces." alt="" coords="229,283,389,323"/>
+<area shape="poly" id="edge6_Node000001_Node000010" title=" " alt="" coords="99,222,142,245,193,269,217,277,215,282,191,274,139,250,96,227"/>
+<area shape="rect" id="Node000011" href="$namespaceFoam.html#a2e469ccb2cea405f7ddd435d8de00ceb" title="Perform logical (or) MPI Allreduce on a copy. Uses UPstream::reduceOr." alt="" coords="225,348,393,373"/>
+<area shape="poly" id="edge7_Node000001_Node000011" title=" " alt="" coords="86,223,128,277,158,308,193,333,212,342,210,347,191,338,155,312,124,280,82,226"/>
+<area shape="rect" id="Node000013" href="$classFoam_1_1syncTools.html#ab59012dece791b34a5780b0771f8c9b5" title="Swap coupled boundary face values. Uses eqOp." alt="" coords="192,398,425,438"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="83,223,98,255,121,299,153,344,194,383,205,390,202,394,190,387,149,347,117,301,93,258,78,225"/>
+</map>
